@@ -1,0 +1,389 @@
+{
+  "meta": {
+    "task_id": "ci-build-audit",
+    "domain": "Clinical Research / Clinical Trial Management (GxP Computer System Assurance)",
+    "app_concept": "Halcyon CTMS — Assurance: the validated-systems module of a clinical trial management suite, where every automated qualification run of the study's EDC software is filed as a Part-11 controlled Qualification Run, scoped under the configuration stream it was executed against and closed out by a countersigned Execution Certificate.",
+    "seed": 202
+  },
+
+  "signature_vars": {
+    "scope_stream": {
+      "type": "string",
+      "default": "",
+      "description": "Identifier of the configuration stream currently held in scope by the Study Navigator; empty means no stream scope is held. One value exists per distinct stream in the corpus. Almost every assurance surface is scope-dependent and renders nothing stream-specific while this is empty."
+    },
+    "program_expanded": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the validation-program node in the navigator tree has been expanded to reveal its configuration streams."
+    },
+    "active_stream_tab": {
+      "type": "enum",
+      "values": ["assurance_overview", "run_register", "deviations"],
+      "default": "assurance_overview",
+      "description": "Which tab of the scoped stream workspace is showing."
+    },
+    "hovered_segment": {
+      "type": "string",
+      "default": "",
+      "description": "Which segment of the disposition-distribution chart is currently under the pointer; identifies that segment's disposition class and run count for as long as the pointer rests on it."
+    },
+    "disposition_filter": {
+      "type": "string",
+      "default": "",
+      "description": "The disposition class whose cohort is currently drilled into; set only by drilling a chart segment, never typed."
+    },
+    "open_run": {
+      "type": "string",
+      "default": "",
+      "description": "Identifier of the qualification run whose record is open."
+    },
+    "provenance_expanded": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the Artifact Provenance section of the open run record has been expanded from its collapsed default."
+    },
+    "digest_hovered": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the pointer is resting on the abbreviated artifact digest inside the expanded provenance section."
+    },
+    "register_page": {
+      "type": "int",
+      "default": 1,
+      "description": "Page index of whichever run register is being read; registers page rather than render the whole corpus at once."
+    }
+  },
+
+  "states": [
+    {
+      "id": "s_home",
+      "page": "Assurance home",
+      "initial": true,
+      "description": "Landing surface of the Assurance module for the study currently selected in the suite: portfolio-level posture, open module tabs, and the entry point into the Study Navigator.",
+      "visible_data": "Study title and protocol identifier; a validation-posture tile giving the total number of qualification runs on file across all configuration streams; last-qualification date; counts of open deviations and outstanding countersignatures; unrelated trial-operations widgets (enrollment, site activation, monitoring visits). No run-level rows of any kind. No configuration stream names, no disposition breakdown, no runtimes, no artifact digests, and no per-stream or per-disposition aggregates — in particular no total or summed runtime figure appears anywhere on this page."
+    },
+    {
+      "id": "s_global_register",
+      "page": "All qualification runs (unscoped register)",
+      "description": "A flat, study-wide inventory of every qualification run on file. It exists for census and reconciliation purposes and is deliberately stream-blind and disposition-blind; it is a listing, not a workspace.",
+      "visible_data": "One paginated row per qualification run in the corpus, carrying run identifier, execution date-time, execution environment, test suite, operator of record, and queue wait. The register does not carry the configuration stream column, does not carry the disposition column, does not carry execution runtime, and does not carry any form of the artifact digest. Rows are inert: no row opens a run record and no row expands. Sorting is offered on identifier and execution date only — there is no runtime sort and no disposition facet. A footer states that stream and disposition attribution are held at stream scope."
+    },
+    {
+      "id": "s_navigator",
+      "page": "Study Navigator",
+      "description": "The scope-selection tree: study → validation programs → configuration streams. Holding a stream in scope is the only way any stream-attributed surface will render, and it is the only place stream membership is expressed.",
+      "visible_data": "The study node, its validation program nodes, and — once a program node is expanded — the configuration streams beneath it, each shown with its name and a count of qualification runs filed against it. No run identifiers, no dispositions, no runtimes, no digests. The counts are totals only; they are not broken down by disposition."
+    },
+    {
+      "id": "s_stream_overview",
+      "page": "Stream workspace — Assurance Overview tab",
+      "description": "The scoped landing tab for one configuration stream. Its centrepiece is a disposition-distribution figure for the runs filed against that stream, drawn proportionally with no printed numbers.",
+      "visible_data": "A breadcrumb naming the stream held in scope; tiles for total runs in the stream, mean queue wait, and date of last qualification; the disposition-distribution figure. The figure's segments are drawn as proportional areas with a colour-swatch legend that carries no labels and no counts — which disposition class a segment stands for, and how many runs it holds, are legible only while the pointer rests on that segment. No run identifiers appear on this tab. No runtime figure appears on this tab in any form: not per run, not as a mean, and not as a per-disposition total or sum. No artifact digests."
+    },
+    {
+      "id": "s_stream_register",
+      "page": "Stream workspace — Run Register tab",
+      "description": "The register restricted to the stream held in scope. Membership in this listing is what establishes which runs belong to which configuration stream, since no surface anywhere prints stream as a per-run attribute.",
+      "visible_data": "One paginated row per qualification run filed against the scoped stream, carrying run identifier, execution date-time, execution environment, test suite, operator, and queue wait; a count of rows in scope. The register does not carry disposition, does not carry execution runtime, and does not carry the artifact digest in any form. Runs belonging to other streams never appear here."
+    },
+    {
+      "id": "s_disposition_cohort",
+      "page": "Disposition cohort",
+      "description": "The set of runs sitting behind one segment of the scoped stream's disposition figure, reached by drilling that segment. This is the only surface that names which specific runs carry a given disposition.",
+      "visible_data": "A header stating the stream in scope and the disposition class drilled into; one row per run in that cohort, carrying run identifier and execution date-time only, plus the cohort size. No execution runtime is shown and no runtime sort is offered, so the cohort cannot be ordered by duration here. No artifact digests. No runs of other dispositions or other streams."
+    },
+    {
+      "id": "s_run_record",
+      "page": "Qualification run record",
+      "description": "The controlled record for a single qualification run: execution metadata, its disposition badge, a collapsed Artifact Provenance section, and a link to the countersigned Execution Certificate that carries the run's timing.",
+      "visible_data": "Run identifier, execution date-time, operator of record, execution environment, test suite, queue wait, change description, and the run's disposition badge. Execution runtime is not printed on this record: the runtime field reads as recorded on the Execution Certificate and links there. The Artifact Provenance section is present but collapsed, so no digest of any length is legible. The record does not name the configuration stream — stream attribution is carried by scope, not by the record. No other run's data appears."
+    },
+    {
+      "id": "s_certificate",
+      "page": "Execution Certificate viewer",
+      "description": "A facsimile of the countersigned certificate closing out one qualification run, presented as a rendered document surface rather than as page text — the same artefact an auditor would receive.",
+      "visible_data": "The certificate image: protocol boilerplate, run identifier, disposition, execution runtime in seconds, signatory and countersignatory block with signing timestamps, and an abbreviated artifact digest prefix. Everything on the certificate is drawn onto the document surface, not laid out as selectable page text, so it must be read visually. The full-length artifact digest is not printed on the certificate. One certificate per run — no other run's runtime appears, and the certificate carries no totals, no cohort roll-up, and no comparison against other runs."
+    },
+    {
+      "id": "s_provenance_open",
+      "page": "Qualification run record — Artifact Provenance expanded",
+      "description": "The provenance section of the open run record, expanded to show where the qualified artefact came from and how it is fingerprinted.",
+      "visible_data": "Everything the run record showed, plus the provenance block: artifact registry, retention class, signing authority, provenance attestation timestamp, and the artifact digest rendered in abbreviated prefix form with a verify affordance. The complete full-length digest is not printed anywhere in the expanded block; only the abbreviation is on the page. Still no execution runtime on this surface."
+    },
+    {
+      "id": "s_digest_tooltip",
+      "page": "Qualification run record — digest verification tooltip",
+      "description": "The transient verification tooltip raised by resting the pointer on the abbreviated digest, which discloses the fingerprint at full length for manual comparison against the registry.",
+      "visible_data": "The complete full-length artifact digest of the open run, plus the hash algorithm and the attesting authority. Nothing else on the record changes, and the tooltip covers only the run whose record is open."
+    },
+    {
+      "id": "s_site_monitoring",
+      "page": "Site Monitoring (unrelated module tab)",
+      "description": "A sibling module of the suite, present as ordinary product surface and carrying nothing about qualification runs.",
+      "visible_data": "Monitoring visit calendar, site activation status, query-resolution ageing, and CRA assignments. No qualification runs, no configuration streams, no dispositions, no runtimes, no digests."
+    }
+  ],
+
+  "actions": [
+    {
+      "id": "a_open_navigator",
+      "from": "s_home",
+      "to": "s_navigator",
+      "description": "Open the Study Navigator to choose a scope.",
+      "navigates": true
+    },
+    {
+      "id": "a_expand_program",
+      "from": "s_navigator",
+      "to": "s_navigator",
+      "description": "Expand the validation program node so its configuration streams become visible.",
+      "effect": { "program_expanded": true },
+      "navigates": false
+    },
+    {
+      "id": "a_leave_navigator",
+      "from": "s_navigator",
+      "to": "s_home",
+      "description": "Leave the Study Navigator without taking a stream into scope and return to the Assurance home surface.",
+      "navigates": true
+    },
+    {
+      "id": "a_select_stream",
+      "from": "s_navigator",
+      "to": "s_stream_overview",
+      "description": "Take one configuration stream into scope, which opens that stream's workspace.",
+      "precondition": "program_expanded == true",
+      "effect": { "scope_stream": "<selected stream>", "active_stream_tab": "assurance_overview", "register_page": 1 },
+      "navigates": true
+    },
+    {
+      "id": "a_open_register_tab",
+      "from": "s_stream_overview",
+      "to": "s_stream_register",
+      "description": "Switch to the scoped stream's Run Register to see which runs belong to the stream in scope.",
+      "precondition": "scope_stream != \"\"",
+      "effect": { "active_stream_tab": "run_register" },
+      "navigates": false
+    },
+    {
+      "id": "a_page_stream_register",
+      "from": "s_stream_register",
+      "to": "s_stream_register",
+      "description": "Advance the scoped register to the next page of runs.",
+      "effect": { "register_page": "register_page + 1" },
+      "navigates": false
+    },
+    {
+      "id": "a_back_to_overview",
+      "from": "s_stream_register",
+      "to": "s_stream_overview",
+      "description": "Return to the scoped stream's Assurance Overview tab.",
+      "effect": { "active_stream_tab": "assurance_overview" },
+      "navigates": false
+    },
+    {
+      "id": "a_leave_scope",
+      "from": "s_stream_overview",
+      "to": "s_navigator",
+      "description": "Release the configuration stream currently held in scope and return to the Study Navigator, so a different stream can be taken into scope.",
+      "precondition": "scope_stream != \"\"",
+      "effect": { "scope_stream": "", "hovered_segment": "", "disposition_filter": "", "active_stream_tab": "assurance_overview", "register_page": 1 },
+      "navigates": true
+    },
+    {
+      "id": "a_hover_segment",
+      "from": "s_stream_overview",
+      "to": "s_stream_overview",
+      "description": "Rest the pointer on one segment of the disposition-distribution figure to learn which disposition class it stands for and how many runs it holds.",
+      "precondition": "scope_stream != \"\"",
+      "effect": { "hovered_segment": "<segment under pointer>" },
+      "navigates": false
+    },
+    {
+      "id": "a_drill_segment",
+      "from": "s_stream_overview",
+      "to": "s_disposition_cohort",
+      "description": "Drill the identified segment to list the runs it stands for.",
+      "precondition": "hovered_segment != \"\"",
+      "effect": { "disposition_filter": "hovered_segment" },
+      "navigates": true
+    },
+    {
+      "id": "a_back_to_overview_from_cohort",
+      "from": "s_disposition_cohort",
+      "to": "s_stream_overview",
+      "description": "Leave the drilled cohort and return to the scoped stream's Assurance Overview tab, releasing the drilled disposition so another segment can be identified and drilled.",
+      "effect": { "disposition_filter": "", "open_run": "" },
+      "navigates": true
+    },
+    {
+      "id": "a_open_run",
+      "from": "s_disposition_cohort",
+      "to": "s_run_record",
+      "description": "Open the controlled record of one run in the cohort.",
+      "effect": { "open_run": "<selected run>", "provenance_expanded": false, "digest_hovered": false },
+      "navigates": true
+    },
+    {
+      "id": "a_open_certificate",
+      "from": "s_run_record",
+      "to": "s_certificate",
+      "description": "Open the countersigned Execution Certificate that closes out the open run, where its timing is recorded.",
+      "precondition": "open_run != \"\"",
+      "navigates": true
+    },
+    {
+      "id": "a_close_certificate",
+      "from": "s_certificate",
+      "to": "s_run_record",
+      "description": "Dismiss the certificate and return to the run record.",
+      "navigates": true
+    },
+    {
+      "id": "a_back_to_cohort",
+      "from": "s_run_record",
+      "to": "s_disposition_cohort",
+      "description": "Return to the disposition cohort to pick up another run.",
+      "effect": { "open_run": "", "provenance_expanded": false, "digest_hovered": false },
+      "navigates": true
+    },
+    {
+      "id": "a_expand_provenance",
+      "from": "s_run_record",
+      "to": "s_provenance_open",
+      "description": "Expand the collapsed Artifact Provenance section of the open run record.",
+      "precondition": "open_run != \"\"",
+      "effect": { "provenance_expanded": true },
+      "navigates": false
+    },
+    {
+      "id": "a_hover_digest",
+      "from": "s_provenance_open",
+      "to": "s_digest_tooltip",
+      "description": "Rest the pointer on the abbreviated artifact digest to raise the verification tooltip carrying the fingerprint at full length.",
+      "precondition": "provenance_expanded == true",
+      "effect": { "digest_hovered": true },
+      "navigates": false
+    },
+    {
+      "id": "a_unhover_digest",
+      "from": "s_digest_tooltip",
+      "to": "s_provenance_open",
+      "description": "Move the pointer off the abbreviated digest so the transient verification tooltip is dismissed and the expanded record is showing again.",
+      "effect": { "digest_hovered": false },
+      "navigates": false
+    },
+    {
+      "id": "a_collapse_provenance",
+      "from": "s_provenance_open",
+      "to": "s_run_record",
+      "description": "Collapse the provenance section again.",
+      "effect": { "provenance_expanded": false, "digest_hovered": false },
+      "navigates": false
+    },
+    {
+      "id": "a_open_global_register",
+      "from": "s_home",
+      "to": "s_global_register",
+      "description": "Open the study-wide, stream-blind inventory of qualification runs.",
+      "navigates": true
+    },
+    {
+      "id": "a_page_global_register",
+      "from": "s_global_register",
+      "to": "s_global_register",
+      "description": "Page through the study-wide inventory.",
+      "effect": { "register_page": "register_page + 1" },
+      "navigates": false
+    },
+    {
+      "id": "a_leave_global_register",
+      "from": "s_global_register",
+      "to": "s_home",
+      "description": "Return to the Assurance home surface.",
+      "navigates": true
+    },
+    {
+      "id": "a_open_site_monitoring",
+      "from": "s_home",
+      "to": "s_site_monitoring",
+      "description": "Open the unrelated Site Monitoring module tab.",
+      "navigates": true
+    },
+    {
+      "id": "a_leave_site_monitoring",
+      "from": "s_site_monitoring",
+      "to": "s_home",
+      "description": "Return to the Assurance home surface.",
+      "navigates": true
+    }
+  ],
+
+  "fact_acquisition": [
+    {
+      "fact_group": "stream_membership",
+      "records": "all",
+      "fields": ["branch"],
+      "role": "selection",
+      "modality": "scope-gated-listing (navigator-held scope is the only expression of stream attribution)",
+      "state": "s_stream_register",
+      "path": ["a_open_navigator", "a_expand_program", "a_select_stream", "a_open_register_tab"],
+      "repeat_per_record": false,
+      "notes": "No surface prints stream as a per-run attribute: not the study-wide register, not the run record, not the certificate. A run's stream is knowable only by the scope it was reached under, so the qualifying stream's membership is read off one scoped register (paging it as needed). Deciding which stream is the one the task means is done from the stream names in the navigator tree."
+    },
+    {
+      "fact_group": "disposition_membership",
+      "records": "all",
+      "fields": ["status"],
+      "role": "selection",
+      "modality": "chart-hover-to-label + segment-drilldown-to-cohort",
+      "state": "s_disposition_cohort",
+      "path": ["a_open_navigator", "a_expand_program", "a_select_stream", "a_hover_segment", "a_drill_segment"],
+      "repeat_per_record": false,
+      "notes": "Disposition is absent from every register and cohort listing as a column. The distribution figure is the only place it lives, and its segments are unlabeled — the disposition class and count of a segment surface only under the pointer, so identifying the adverse-disposition segment takes hovering, and the identities of the runs behind it take drilling it. The run record does confirm a single run's disposition badge, but reaching a run record already requires passing through this cohort. Every stream's figure behaves the same way, so disposition is earnable for any run in the corpus — one segment's cohort at a time, never as a whole-corpus listing."
+    },
+    {
+      "fact_group": "qualifying_run_runtimes",
+      "records": "qualifying",
+      "fields": ["duration_sec"],
+      "role": "payload",
+      "modality": "canvas-rendered-certificate + per-datapoint-scattered",
+      "state": "s_certificate",
+      "path": ["a_open_navigator", "a_expand_program", "a_select_stream", "a_hover_segment", "a_drill_segment", "a_open_run", "a_open_certificate"],
+      "repeat_per_record": true,
+      "notes": "Runtime exists nowhere as page text — not in the study-wide register, not in the scoped register, not in the cohort listing, not on the run record, and not as any tile, mean, or total on the stream overview. It is printed onto the rendered certificate document of one run at a time, so the sum must be assembled by visiting each qualifying run's certificate in turn (a_close_certificate then a_back_to_cohort returns for the next). Because no listing offers a runtime sort, the ordering needed for the longest run also falls out of this collection rather than being read off a column."
+    },
+    {
+      "fact_group": "longest_run_artifact_digest",
+      "records": "qualifying",
+      "fields": ["commit_sha"],
+      "role": "payload",
+      "modality": "accordion-collapsed + hover-reveal-tooltip, on a record identified only after the scattered runtimes are compared",
+      "state": "s_digest_tooltip",
+      "path": ["a_open_navigator", "a_expand_program", "a_select_stream", "a_hover_segment", "a_drill_segment", "a_open_run", "a_expand_provenance", "a_hover_digest"],
+      "repeat_per_record": false,
+      "notes": "Depends on qualifying_run_runtimes: which record to open is not knowable until every cohort member's certificate has been read. The digest is doubly gated — the provenance section is collapsed by default, and even expanded it prints only an abbreviated prefix; the full-length fingerprint appears only in the transient verification tooltip. No abbreviated form anywhere (certificate included) is sufficient, and no listing carries a digest column. Every run record carries its digest behind the same two gates, so which one this path is walked for is decided by the comparison, not by the environment."
+    }
+  ],
+
+  "budget": {
+    "min_actions": 18,
+    "max_actions": 45
+  },
+
+  "noise_plan": {
+    "distractor_records": "Every run of every non-qualifying configuration stream is fully browsable at the same depth — each stream has its own workspace, distribution figure, cohorts, run records and rendered certificates — so nothing about the qualifying stream's affordances marks it out. Within the qualifying stream, the non-adverse disposition segments drill to their own cohorts with identically complete records and certificates, and the study-wide inventory lists all runs of all streams so the corpus size is visible without being useful for selection.",
+    "chrome": [
+      "Persistent study header banner with enrollment-to-target progress and screening-failure rate",
+      "Site activation map widget and CRA assignment roster on the Assurance home",
+      "Unrelated module tabs across the suite: Subjects, Site Monitoring, IP Accountability, Protocol Deviations, Monitoring Visit Calendar",
+      "Part-11 session chrome: an e-signature session countdown and a periodic re-authentication nag",
+      "A training-compliance reminder strip listing overdue SOP acknowledgements for the signed-in user",
+      "A protocol-amendment ticker announcing an upcoming amendment and its effective date",
+      "A pinned-items rail and a recently-viewed list that never surfaces run-level fields, only run identifiers already seen",
+      "A 'What's new in Halcyon 9.2' modal on first landing, dismissible",
+      "A document export queue widget that only ever emits unrelated regulatory binder extracts — it offers no export of qualification runs, registers, cohorts, runtimes, or digests"
+    ]
+  }
+}

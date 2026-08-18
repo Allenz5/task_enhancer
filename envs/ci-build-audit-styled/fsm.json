@@ -1,0 +1,479 @@
+{
+  "meta": {
+    "task_id": "ci-build-audit",
+    "domain": "Content Management / Developer Publishing",
+    "app_concept": "Meridian -- a headless content platform for an engineering status site, where every pipeline run is filed as a 'Build Report' entry: authored in Meridian Studio, classified in the Taxonomy manager, and served through the separate Delivery Console.",
+    "seed": 101
+  },
+  "signature_vars": {
+    "active_app": {
+      "type": "enum",
+      "values": [
+        "studio",
+        "taxonomy",
+        "delivery"
+      ],
+      "default": "studio",
+      "description": "Which surface of the Meridian suite the user is standing in. Studio authors entries; Taxonomy governs classification; Delivery is a separate console for the read API."
+    },
+    "collection_page": {
+      "type": "int",
+      "default": 0,
+      "description": "Page offset within the Build Reports collection list."
+    },
+    "search_query": {
+      "type": "string",
+      "default": "",
+      "description": "Reference/slug text narrowing the collection list; empty means unnarrowed."
+    },
+    "open_entry": {
+      "type": "string",
+      "default": "",
+      "description": "Reference of the entry whose editor is open; empty means none."
+    },
+    "preview_open": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the rendered site preview for the open entry is showing."
+    },
+    "entry_menu_open": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the entry-level actions menu is expanded."
+    },
+    "open_term": {
+      "type": "string",
+      "default": "",
+      "description": "Taxonomy term whose detail surface is open; empty means the term tree only."
+    },
+    "term_page": {
+      "type": "int",
+      "default": 0,
+      "description": "Page offset within a term's membership list."
+    },
+    "stage_filter": {
+      "type": "string",
+      "default": "",
+      "description": "Workflow-stage facet chosen in the Delivery Console query composer; empty means the query is incomplete."
+    },
+    "result_page": {
+      "type": "int",
+      "default": 0,
+      "description": "Page offset within a Delivery Console result set."
+    }
+  },
+  "states": [
+    {
+      "id": "s_studio_home",
+      "page": "studio_dashboard",
+      "initial": true,
+      "description": "Meridian Studio landing dashboard for the engineering status site.",
+      "visible_data": "Workspace-level chrome only: counts of entries by publication state, a content-velocity chart over the authoring period, an editorial calendar, and a strip of recently edited entry titles. Titles are the only per-entry text here. No classification term, no workflow stage, no runtime figure, and no commit reference of any length appears on this surface."
+    },
+    {
+      "id": "s_collection",
+      "page": "collection_list",
+      "description": "The Build Reports collection, listed and paginated.",
+      "visible_data": "Per row: the entry reference, the entry title, the authoring user, the last-modified timestamp, and a publication flag that records only whether the entry is live on the site. The list carries no classification column, no workflow-stage column, no runtime column, and no commit reference in any form -- those are not columns of this collection view. Row count exceeds one page, so later entries exist only after paging."
+    },
+    {
+      "id": "s_collection_searched",
+      "page": "collection_list",
+      "description": "The collection list narrowed to entries matching a reference or title search.",
+      "visible_data": "The same columns as the unnarrowed list, restricted to matching rows, plus a match count. Narrowing reveals no additional columns."
+    },
+    {
+      "id": "s_entry",
+      "page": "entry_editor",
+      "description": "The authoring editor for one Build Report entry.",
+      "visible_data": "Authoring fields for the open entry only: title, authoring user, timestamps, publication flag, and a body composed of template tokens that are shown unresolved -- the runtime sentence appears as an unexpanded placeholder, not a number. A source chip shows an abbreviated commit reference of a few characters, never the full-length one. Classification terms and workflow stage are deliberately absent from the editor: in this product they are governed in the Taxonomy manager and the Delivery Console respectively, and the editor states so rather than showing their values."
+    },
+    {
+      "id": "s_entry_preview",
+      "page": "entry_preview",
+      "description": "The rendered site preview of the open entry, with template tokens resolved.",
+      "visible_data": "The entry as it would publish: headline, byline, and resolved body prose -- including the runtime sentence carrying this one entry's exact elapsed seconds. The credit line still names the source commit only in its abbreviated form. No classification term, no workflow stage, and no other entry's runtime appears; the preview renders exactly one entry."
+    },
+    {
+      "id": "s_entry_menu",
+      "page": "entry_editor",
+      "description": "The entry-level actions menu expanded over the editor.",
+      "visible_data": "Menu item labels only -- export, duplicate, move to trash, copy reference. No field values."
+    },
+    {
+      "id": "s_bundle_exported",
+      "page": "entry_editor",
+      "description": "A publish bundle for the open entry has been downloaded to disk.",
+      "visible_data": "The downloaded bundle is the entry's authoring source: a frontmatter block carrying title, reference, slug, authoring user, timestamps, and the full-length source commit identifier, followed by the body markdown with its runtime token still unresolved. The bundle is per-entry, and it deliberately excludes derived metrics and relational data: no elapsed-seconds figure, no classification term, no workflow stage."
+    },
+    {
+      "id": "s_taxonomy",
+      "page": "taxonomy_tree",
+      "description": "The Taxonomy manager, listing the vocabulary used to classify Build Reports.",
+      "visible_data": "Term names in the classification vocabulary and a per-term entry count. No term is associated here with any specific entry; the tree shows totals, not membership."
+    },
+    {
+      "id": "s_term",
+      "page": "term_detail",
+      "description": "Detail surface for one taxonomy term, including its membership list.",
+      "visible_data": "For the one open term: its name, description, and a paginated list of the entries classified under it, identified by reference and title. Membership exceeds one page for the larger terms. Nothing else about those entries is shown -- no workflow stage, no runtime, no commit reference."
+    },
+    {
+      "id": "s_delivery_console",
+      "page": "delivery_query",
+      "description": "The Delivery Console, a separate application serving the site's read API, with an unrun query composer.",
+      "visible_data": "The content model schema: field names with their visibility flags, marking runtime, source commit and classification as private to the authoring layer. The composer offers exactly two filter dimensions, workflow stage and modified-date; classification is documented as resolved at publish time and therefore not a queryable dimension. The result area is empty until a query is run."
+    },
+    {
+      "id": "s_query_result",
+      "page": "delivery_query",
+      "description": "The result set returned after running a composed query.",
+      "visible_data": "A paginated list of the entries matching the composed filter, projected to their public fields only: reference, slug and title. Fields flagged private in the schema are omitted from every response -- the console returns no runtime, no commit identifier and no classification term, whatever filter was composed. The response header states the total match count, and results exceed one page."
+    }
+  ],
+  "actions": [
+    {
+      "id": "a_open_collection",
+      "from": "s_studio_home",
+      "to": "s_collection",
+      "description": "Enter the Build Reports collection from the dashboard.",
+      "navigates": true,
+      "effect": {
+        "collection_page": 0
+      }
+    },
+    {
+      "id": "a_page_collection",
+      "from": "s_collection",
+      "to": "s_collection",
+      "description": "Advance to a further page of the collection list.",
+      "effect": {
+        "collection_page": "+1"
+      }
+    },
+    {
+      "id": "a_search_collection",
+      "from": "s_collection",
+      "to": "s_collection_searched",
+      "description": "Search the collection for a specific entry reference or title.",
+      "effect": {
+        "search_query": "<chosen>",
+        "collection_page": 0
+      }
+    },
+    {
+      "id": "a_refine_search",
+      "from": "s_collection_searched",
+      "to": "s_collection_searched",
+      "description": "Replace the search text with a different entry reference.",
+      "effect": {
+        "search_query": "<chosen>"
+      }
+    },
+    {
+      "id": "a_clear_search",
+      "from": "s_collection_searched",
+      "to": "s_collection",
+      "description": "Drop the search and return to the full collection list.",
+      "effect": {
+        "search_query": ""
+      }
+    },
+    {
+      "id": "a_open_entry",
+      "from": "s_collection_searched",
+      "to": "s_entry",
+      "description": "Open the editor for one entry in the narrowed list.",
+      "navigates": true,
+      "effect": {
+        "open_entry": "<chosen>"
+      }
+    },
+    {
+      "id": "a_open_entry_from_list",
+      "from": "s_collection",
+      "to": "s_entry",
+      "description": "Open the editor for one entry visible on the current page of the unnarrowed list.",
+      "navigates": true,
+      "effect": {
+        "open_entry": "<chosen>"
+      }
+    },
+    {
+      "id": "a_preview_entry",
+      "from": "s_entry",
+      "to": "s_entry_preview",
+      "description": "Render the open entry as it would appear on the published site, resolving its template tokens.",
+      "precondition": "open_entry != ''",
+      "effect": {
+        "preview_open": true
+      }
+    },
+    {
+      "id": "a_close_preview",
+      "from": "s_entry_preview",
+      "to": "s_entry",
+      "description": "Leave the rendered preview and return to the editor.",
+      "effect": {
+        "preview_open": false
+      }
+    },
+    {
+      "id": "a_open_entry_menu",
+      "from": "s_entry",
+      "to": "s_entry_menu",
+      "description": "Expand the entry-level actions menu.",
+      "precondition": "open_entry != ''",
+      "effect": {
+        "entry_menu_open": true
+      }
+    },
+    {
+      "id": "a_export_bundle",
+      "from": "s_entry_menu",
+      "to": "s_bundle_exported",
+      "description": "Export the open entry's publish bundle and receive the file.",
+      "precondition": "entry_menu_open == true",
+      "effect": {
+        "entry_menu_open": false
+      }
+    },
+    {
+      "id": "a_dismiss_export",
+      "from": "s_bundle_exported",
+      "to": "s_entry",
+      "description": "Dismiss the export confirmation and return to the editor."
+    },
+    {
+      "id": "a_return_collection",
+      "from": "s_entry",
+      "to": "s_collection",
+      "description": "Leave the editor and return to the collection list.",
+      "navigates": true,
+      "effect": {
+        "open_entry": "",
+        "search_query": ""
+      }
+    },
+    {
+      "id": "a_open_taxonomy",
+      "from": "s_studio_home",
+      "to": "s_taxonomy",
+      "description": "Switch to the Taxonomy manager.",
+      "navigates": true,
+      "effect": {
+        "active_app": "taxonomy",
+        "open_term": ""
+      }
+    },
+    {
+      "id": "a_taxonomy_from_collection",
+      "from": "s_collection",
+      "to": "s_taxonomy",
+      "description": "Switch from the collection list to the Taxonomy manager.",
+      "navigates": true,
+      "effect": {
+        "active_app": "taxonomy",
+        "open_term": ""
+      }
+    },
+    {
+      "id": "a_open_term",
+      "from": "s_taxonomy",
+      "to": "s_term",
+      "description": "Open one classification term to inspect which entries carry it.",
+      "navigates": true,
+      "effect": {
+        "open_term": "<chosen>",
+        "term_page": 0
+      }
+    },
+    {
+      "id": "a_page_term_members",
+      "from": "s_term",
+      "to": "s_term",
+      "description": "Advance to a further page of the term's membership list.",
+      "precondition": "open_term != ''",
+      "effect": {
+        "term_page": "+1"
+      }
+    },
+    {
+      "id": "a_back_to_tree",
+      "from": "s_term",
+      "to": "s_taxonomy",
+      "description": "Return from a term to the vocabulary tree.",
+      "effect": {
+        "open_term": "",
+        "term_page": 0
+      }
+    },
+    {
+      "id": "a_taxonomy_to_studio",
+      "from": "s_taxonomy",
+      "to": "s_studio_home",
+      "description": "Return from the Taxonomy manager to the Studio dashboard.",
+      "navigates": true,
+      "effect": {
+        "active_app": "studio"
+      }
+    },
+    {
+      "id": "a_open_delivery",
+      "from": "s_studio_home",
+      "to": "s_delivery_console",
+      "description": "Cross over from Studio into the Delivery Console application.",
+      "navigates": true,
+      "effect": {
+        "active_app": "delivery",
+        "stage_filter": ""
+      }
+    },
+    {
+      "id": "a_delivery_from_taxonomy",
+      "from": "s_taxonomy",
+      "to": "s_delivery_console",
+      "description": "Cross over from the Taxonomy manager into the Delivery Console.",
+      "navigates": true,
+      "effect": {
+        "active_app": "delivery",
+        "stage_filter": ""
+      }
+    },
+    {
+      "id": "a_set_stage_filter",
+      "from": "s_delivery_console",
+      "to": "s_delivery_console",
+      "description": "Choose a workflow stage as the query's filter dimension.",
+      "effect": {
+        "stage_filter": "<chosen>"
+      }
+    },
+    {
+      "id": "a_run_query",
+      "from": "s_delivery_console",
+      "to": "s_query_result",
+      "description": "Submit the composed query to the read API and receive its result set.",
+      "precondition": "stage_filter != ''",
+      "effect": {
+        "result_page": 0
+      }
+    },
+    {
+      "id": "a_page_query_result",
+      "from": "s_query_result",
+      "to": "s_query_result",
+      "description": "Advance to a further page of the result set.",
+      "effect": {
+        "result_page": "+1"
+      }
+    },
+    {
+      "id": "a_edit_query",
+      "from": "s_query_result",
+      "to": "s_delivery_console",
+      "description": "Return to the composer to change the filter and run again."
+    },
+    {
+      "id": "a_delivery_to_studio",
+      "from": "s_query_result",
+      "to": "s_studio_home",
+      "description": "Leave the Delivery Console and return to the Studio dashboard.",
+      "navigates": true,
+      "effect": {
+        "active_app": "studio"
+      }
+    }
+  ],
+  "fact_acquisition": [
+    {
+      "fact_group": "classification_membership",
+      "records": "all",
+      "fields": [
+        "branch"
+      ],
+      "role": "selection",
+      "modality": "cross-app-join + term-membership-list + sort-or-paginate-to-reach",
+      "state": "s_term",
+      "path": [
+        "a_open_taxonomy",
+        "a_open_term",
+        "a_page_term_members"
+      ],
+      "repeat_per_record": false,
+      "notes": "Which branch an entry belongs to is modelled as its classification term, and no entry ever carries that term on its own surfaces -- not in the collection list, not in the editor, not in the preview, not in the export bundle. The only place the association exists is the term's membership roster in the Taxonomy manager, which names entries by reference. The roster is paginated, so the full membership of the largest term is not visible in one screen. Because the roster gives references rather than field values, it can only be turned into an answer set by carrying those references back into Studio."
+    },
+    {
+      "fact_group": "workflow_stage_query",
+      "records": "all",
+      "fields": [
+        "status"
+      ],
+      "role": "selection",
+      "modality": "form-gated-result + cross-app-join",
+      "state": "s_query_result",
+      "path": [
+        "a_open_delivery",
+        "a_set_stage_filter",
+        "a_run_query",
+        "a_page_query_result"
+      ],
+      "repeat_per_record": false,
+      "notes": "Build outcome is the entry's workflow stage, governed in the Delivery Console rather than in Studio. No stage value is printed anywhere until a query naming that stage is composed and submitted; nothing is precomputed and no saved view exists. The publication flag in the collection list is a different field -- whether the entry is live -- and does not encode the outcome. The console's response is projected to public fields, so it identifies members of a stage without disclosing any of their private data, and it cannot be filtered by classification. The two selection facts therefore live in two different applications and must be intersected by hand."
+    },
+    {
+      "fact_group": "runtime_per_entry",
+      "records": "qualifying",
+      "fields": [
+        "duration_sec"
+      ],
+      "role": "payload",
+      "modality": "preview-render-only + per-datapoint-scattered + search-to-reach",
+      "state": "s_entry_preview",
+      "path": [
+        "a_open_collection",
+        "a_search_collection",
+        "a_open_entry",
+        "a_preview_entry"
+      ],
+      "repeat_per_record": true,
+      "notes": "The elapsed-seconds figure exists in the corpus only as a template token in the entry body, and a token resolves only when the entry is rendered for the site. No aggregate of runtimes exists anywhere: the dashboard charts count entries rather than measure them, the collection list has no runtime column, the read API flags the field private, and the export bundle ships the token unresolved. So the total must be assembled one entry at a time, and the walk is repeated per qualifying entry: back out of the preview, back to the collection, search the next reference, open it, render it. Which references to walk is unknown until both selection facts have been intersected."
+    },
+    {
+      "fact_group": "source_commit_bundle",
+      "records": "qualifying",
+      "fields": [
+        "commit_sha"
+      ],
+      "role": "payload",
+      "modality": "file-export-download + modal-gated + per-datapoint-scattered",
+      "state": "s_bundle_exported",
+      "path": [
+        "a_open_collection",
+        "a_search_collection",
+        "a_open_entry",
+        "a_open_entry_menu",
+        "a_export_bundle"
+      ],
+      "repeat_per_record": true,
+      "notes": "Every on-screen surface abbreviates the source commit to a handful of leading characters -- the editor chip and the preview credit line both do, and neither is long enough to answer with. The full-length identifier is written only into the downloaded publish bundle, and a bundle covers exactly the one entry whose editor is open: the export is reachable only through that entry's own actions menu, never in bulk from the collection, so any qualifying entry's full identifier costs its own walk. The comparison that picks out which single entry's identifier the answer wants cannot be made until every qualifying runtime has been collected, so this fact sits at the end of the chain rather than being gathered opportunistically."
+    }
+  ],
+  "budget": {
+    "min_actions": 18,
+    "max_actions": 55
+  },
+  "noise_plan": {
+    "distractor_records": "Every entry in the corpus is present in the collection, and the vocabulary contains a term for each classification in the data, each with a populated membership roster; the composer offers every workflow stage the model defines, not only the one that matters. Entries that fail one selection predicate are therefore reachable by exactly the same walk as those that pass, and nothing marks them apart in advance. No records are fabricated and none are hidden, so the answer set is unchanged from the file-based form of the task.",
+    "chrome": [
+      "A Media Library tab holding screenshots and diagrams, with its own upload flow and storage-quota meter",
+      "A Localization panel offering translation status per locale for the site's other collections",
+      "An SEO readiness score with expandable suggestions on every entry editor",
+      "An onboarding checklist banner across the Studio dashboard, dismissible, tracking unrelated setup steps",
+      "A mentions-and-comments inbox with unread badges on editorial threads",
+      "A webhook delivery log and API-key panel in the Delivery Console, with recent request timings",
+      "A plugin marketplace promo card in the Studio sidebar",
+      "A Trash view listing soft-deleted entries from other collections"
+    ]
+  }
+}

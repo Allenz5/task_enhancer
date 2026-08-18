@@ -1,0 +1,17 @@
+# Node
+node_modules/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Generated environment runtime artifacts
+.server.log
+envs/*/downloads/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

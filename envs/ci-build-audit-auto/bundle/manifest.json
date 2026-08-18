@@ -1,0 +1,65 @@
+{
+  "task_id": "ci-build-audit",
+  "domain": "Content Management / Developer Publishing",
+  "app_concept": "Meridian -- a headless content platform for an engineering status site, where every pipeline run is filed as a 'Build Report' entry: authored in Meridian Studio, classified in the Taxonomy manager, and served through the separate Delivery Console.",
+  "port": 5273,
+  "facts": {
+    "corpus_size": 48,
+    "answer_critical": 39,
+    "payload": 13,
+    "selection": 26,
+    "critical_fields": [
+      "branch",
+      "commit_sha",
+      "duration_sec",
+      "status"
+    ]
+  },
+  "acquisition": [
+    {
+      "fact_group": "classification_membership",
+      "fields": [
+        "branch"
+      ],
+      "modality": "cross-app-join + term-membership-list + sort-or-paginate-to-reach",
+      "path_length": 3,
+      "repeat_per_record": false
+    },
+    {
+      "fact_group": "workflow_stage_query",
+      "fields": [
+        "status"
+      ],
+      "modality": "form-gated-result + cross-app-join",
+      "path_length": 4,
+      "repeat_per_record": false
+    },
+    {
+      "fact_group": "runtime_per_entry",
+      "fields": [
+        "duration_sec"
+      ],
+      "modality": "preview-render-only + per-datapoint-scattered + search-to-reach",
+      "path_length": 4,
+      "repeat_per_record": true
+    },
+    {
+      "fact_group": "source_commit_bundle",
+      "fields": [
+        "commit_sha"
+      ],
+      "modality": "file-export-download + modal-gated + per-datapoint-scattered",
+      "path_length": 5,
+      "repeat_per_record": true
+    }
+  ],
+  "budget": {
+    "min_actions": 18,
+    "max_actions": 55
+  },
+  "layout": {
+    "agent/": "given to the agent under test -- the rewritten task statement only",
+    "grading/": "harness-side only -- verifier, reference solution and the original input. Never expose this to the agent."
+  },
+  "verifier": "grading/verifier.py (byte-identical to the original CLI task's)"
+}

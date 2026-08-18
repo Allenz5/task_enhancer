@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forge CI</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%232f6df6'/><text x='16' y='23' font-size='19' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'>F</text></svg>">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">F</div>
+      <div class="brand-name">Forge CI</div>
+      <div class="brand-env">prod</div>
+    </div>
+    <nav class="nav" id="nav">
+      <div class="nav-label">Pipelines</div>
+      <a href="/" data-link data-nav="overview"><span class="ic">◈</span> Overview</a>
+      <a href="/builds" data-link data-nav="builds"><span class="ic">≡</span> Builds <span class="tally" id="nav-tally"></span></a>
+      <a href="/branches" data-link data-nav="branches"><span class="ic">⑂</span> Branches</a>
+      <a href="/schedules" data-link data-nav="schedules"><span class="ic">◷</span> Schedules</a>
+      <div class="nav-label">Compute</div>
+      <a href="/runners" data-link data-nav="runners"><span class="ic">▤</span> Runner fleet</a>
+      <a href="/caches" data-link data-nav="caches"><span class="ic">▣</span> Caches</a>
+      <div class="nav-label">Account</div>
+      <a href="/settings" data-link data-nav="settings"><span class="ic">⚙</span> Settings</a>
+      <a href="/audit" data-link data-nav="audit"><span class="ic">☰</span> Audit log</a>
+    </nav>
+    <div class="org">
+      <div class="avatar">HL</div>
+      <div>heliostack / platform</div>
+    </div>
+  </aside>
+
+  <div class="main">
+    <header class="topbar">
+      <div class="crumbs" id="crumbs"></div>
+      <div class="topbar-right">
+        <div class="search">
+          <span>⌕</span><input placeholder="Search builds, commits…" aria-label="Search">
+          <span class="kbd">/</span>
+        </div>
+        <div class="bell">
+          <button class="icon-btn" id="bell-btn" aria-label="Notifications" aria-expanded="false">☍<span class="dot"></span></button>
+          <div class="popover" id="bell-popover" hidden></div>
+        </div>
+        <button class="icon-btn" aria-label="Help">?</button>
+      </div>
+    </header>
+    <main class="content" id="view" data-view="" data-ready="false"></main>
+  </div>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>

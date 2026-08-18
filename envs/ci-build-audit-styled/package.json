@@ -1,0 +1,17 @@
+{
+  "name": "meridian-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Meridian -- headless content platform for the engineering status site",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1"
+  }
+}
