@@ -1,15 +1,24 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "GUI-Enhance FSM",
-  "description": "Guides generation and provides the basis for validation. Describes WHAT must be true of the environment (which facts are gated behind which interactions), never HOW to implement it. No selectors, no DOM structure, no component choices -- those belong entirely to the coding agent.",
+  "description": "Guides generation and gives validation something to check against. Describes WHAT must be true of the environment -- which input is reached through which interaction -- never HOW to build it. No selectors, no DOM structure, no component or framework choices; those belong to the coding agent, and constraining them is what makes environments look alike.",
   "type": "object",
-  "required": ["meta", "states", "actions", "fact_acquisition", "budget"],
+  "required": ["candidate"],
   "properties": {
+    "candidate": {
+      "type": "boolean",
+      "description": "False when the task's input does not belong in an interface at all -- a bundled source tree to repair, say. Then `reason` is the whole document and nothing else is required."
+    },
+    "reason": {
+      "type": "string",
+      "description": "Required when candidate is false: what about this task's input makes an interface the wrong container for it."
+    },
+
     "meta": {
       "type": "object",
-      "required": ["task_id", "domain", "app_concept"],
+      "required": ["task_ref", "domain", "app_concept"],
       "properties": {
-        "task_id": { "type": "string" },
+        "task_ref": { "type": "string" },
         "domain": { "type": "string", "description": "e.g. Developer Tools, Financial ERP, Observability" },
         "app_concept": { "type": "string", "description": "One line: what the app pretends to be." },
         "seed": { "type": "integer" }
@@ -44,7 +53,7 @@
           "initial": { "type": "boolean" },
           "visible_data": {
             "type": "string",
-            "description": "Prose: what data is legible to a user standing in this state. The generator must not render more than this."
+            "description": "Prose, and a two-sided contract: what is legible to someone standing in this state, and by omission what this surface must never reveal. A value legible before the action meant to earn it makes that action decorative."
           }
         }
       }
@@ -61,7 +70,7 @@
           "to": { "type": "string" },
           "description": {
             "type": "string",
-            "description": "Semantic intent of the action, e.g. 'apply the branch facet'. NOT an implementation instruction."
+            "description": "Semantic intent, e.g. 'apply the branch facet'. NOT an implementation instruction."
           },
           "precondition": { "type": "string", "description": "Boolean constraint over signature_vars; empty means always available." },
           "effect": { "type": "object", "description": "Deterministic signature updates." },
@@ -70,29 +79,38 @@
       }
     },
 
-    "fact_acquisition": {
+    "data_placement": {
       "type": "array",
-      "description": "How each answer-critical fact from S0 is earned. This is the contract the ground-truth script must satisfy and the coverage checker validates.",
+      "description": "Where each staged input file ends up. Every file under input/ must appear exactly once. Not everything belongs in the interface -- a schema contract or a bundled repository is more honestly left on disk -- so a file left alone is a decision, recorded as such, not an omission.",
       "items": {
         "type": "object",
-        "required": ["fact_group", "fields", "modality", "state", "path"],
+        "required": ["source", "disposition"],
         "properties": {
-          "fact_group": { "type": "string" },
-          "records": {
-            "description": "Record indices covered, or 'all' / 'qualifying'.",
-            "oneOf": [{ "type": "array", "items": { "type": "integer" } }, { "type": "string" }]
+          "source": {
+            "type": "string",
+            "description": "Path relative to input/, exactly as staged. May carry a fragment naming a part of the file, e.g. 'records.json#/records'."
           },
-          "fields": { "type": "array", "items": { "type": "string" } },
-          "role": { "enum": ["payload", "selection"] },
+          "disposition": {
+            "enum": ["gui", "file"],
+            "description": "'gui': obtainable only through the interface. 'file': stays on disk as it is."
+          },
+          "reason": {
+            "type": "string",
+            "description": "Required for 'file': why this one is better left alone."
+          },
+          "split": {
+            "type": "string",
+            "description": "For 'gui': how the content divides across the interface. Free-form -- whole on one surface, one piece per detail page, grouped into sections, revealed only under a filter, or something the shape of this particular file suggests."
+          },
           "modality": {
             "type": "string",
-            "description": "Free-form. Inspiration, not a menu -- mixing several within one environment is encouraged. Examples: rendered-text, table-cell, file-export-download, chart-tooltip-hover, per-datapoint-scattered, form-gated-result, modal-only, accordion-collapsed, canvas-rendered, cross-app-join, sort-or-paginate-to-reach."
+            "description": "For 'gui': what interaction earns it. Free-form, and mixing several across one environment is encouraged. Examples, not a menu: rendered text, a downloaded export, a value that only appears on hover, a section that starts collapsed, results that exist only after a form is submitted, a figure legible from a chart, content split across two applications, a record reachable only by sorting or paging to it."
           },
-          "state": { "type": "string", "description": "State in which the fact becomes legible." },
-          "path": { "type": "array", "items": { "type": "string" }, "description": "Action ids from the initial state." },
-          "repeat_per_record": {
+          "state": { "type": "string", "description": "For 'gui': the state in which it becomes legible." },
+          "path": { "type": "array", "items": { "type": "string" }, "description": "For 'gui': action ids from the initial state." },
+          "repeat_per_piece": {
             "type": "boolean",
-            "description": "True when the path must be walked once per record (scattered collection) rather than yielding all records at once."
+            "description": "True when the path must be walked once per piece rather than yielding everything at once."
           },
           "notes": { "type": "string" }
         }
@@ -103,16 +121,15 @@
       "type": "object",
       "required": ["min_actions", "max_actions"],
       "properties": {
-        "min_actions": { "type": "integer", "description": "Lower bound guarantees the environment poses real GUI work." },
-        "max_actions": { "type": "integer", "description": "Upper bound prevents degenerating into a test of patience." }
+        "min_actions": { "type": "integer", "description": "Lower bound: below it the environment poses no real work." },
+        "max_actions": { "type": "integer", "description": "Upper bound: above it the environment tests patience rather than capability." }
       }
     },
 
     "noise_plan": {
       "type": "object",
-      "description": "UI chrome only -- never participates in fact acquisition, so it cannot threaten correctness.",
+      "description": "UI chrome only -- never carries input, so it cannot threaten correctness.",
       "properties": {
-        "distractor_records": { "type": "string", "description": "Which non-critical corpus records to surface as noise." },
         "chrome": { "type": "array", "items": { "type": "string" } }
       }
     }

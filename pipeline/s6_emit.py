@@ -1,12 +1,18 @@
-"""S6 -- Emit the enhanced task bundle.
+"""S6 -- Emit the enhanced task.
 
-Rewrites the task statement so the input data is reached through the application
-instead of read off disk, and records what the environment demands of an agent.
+Rewrites the task statement so the inputs that moved into the interface are reached
+there instead of read off disk, and leaves everything else exactly as it was.
 
-The original verifier is copied byte for byte. The whole value of this pipeline rests
-on the success criterion being untouched: the enhanced task inherits the original
-task's ground truth for free, and a GUI-capable agent's answer is graded by exactly the
-same code that graded the CLI answer.
+The grading machinery is never copied, edited or even opened -- it stays in the original
+task directory. That is the whole point: the enhancement changes only how the input is
+obtained, so an enhanced task is graded by precisely the code that graded the original,
+and inherits its ground truth for free.
+
+The rewrite is a path substitution, not a rewrite of prose. The statement names its
+inputs by absolute path, so each path that moved into the interface is swapped for the
+application's address and every other word is left untouched. Editing sentences would
+risk altering the requirements, which are not ours to touch -- and these statements come
+in several languages, which no regex over prose survives.
 """
 
 from __future__ import annotations
@@ -16,105 +22,134 @@ import re
 import shutil
 from pathlib import Path
 
-TASK_TEMPLATE = """\
-# {title}
+import taskref
 
-The data for this task is not available as a file. It lives in **{app_concept}**,
-running at **http://localhost:{port}**. Work through the interface to obtain it.
+NOTE_ZH = """\
+> **本任务的部分输入已不在文件系统中。**
+> 下列输入现在只存在于运行于 {url} 的应用里，需要通过界面操作获取：
+{moved}
+>
+> 其余输入仍在原路径上，可直接读取。任务要求、交付物与验收标准均未改变。
+"""
 
-{original_requirements}
+NOTE_EN = """\
+> **Some of this task's input is no longer on the filesystem.**
+> The following inputs now exist only inside the application running at {url}, and must
+> be obtained by working through its interface:
+{moved}
+>
+> Every other input remains at its original path. The requirements, deliverables and
+> acceptance criteria are unchanged.
 """
 
 
-def _rewrite_task(task_md: str, fsm: dict, port: int, input_file: str) -> str:
-    lines = task_md.strip().splitlines()
-    title = lines[0].lstrip("# ").strip() if lines else "Task"
-    body = "\n".join(lines[1:]).strip()
-
-    # Drop only the clause that points at the input file. The requirements that follow
-    # it -- and the answer format -- survive verbatim, since the success criterion is
-    # not ours to touch.
-    basename = re.escape(Path(input_file).name)
-    body = re.sub(
-        rf"(?is)\b(?:using|given|from|based on)\b[^\n]*?`[^`]*{basename}`\s*,?\s*",
-        "",
-        body,
-    ).lstrip()
-    if body and body[0].islower():
-        body = body[0].upper() + body[1:]
-
-    return TASK_TEMPLATE.format(
-        title=title,
-        app_concept=fsm["meta"]["app_concept"].split("--")[0].strip(),
-        port=port,
-        original_requirements=body,
-    )
+def _has_cjk(text: str) -> bool:
+    return any("一" <= ch <= "鿿" for ch in text)
 
 
-def emit(task_dir: Path, env_dir: Path, port: int = 5173) -> Path:
-    task_dir, env_dir = Path(task_dir), Path(env_dir)
-    fsm = json.loads((task_dir / "fsm.json").read_text())
-    facts = json.loads((task_dir / "facts.json").read_text())
+def _rewrite_prompt(prompt: str, moved: list[str], port: int) -> tuple[str, list[str]]:
+    """Swap each moved input's path for the app address; touch nothing else.
+
+    Returns the rewritten prompt and the paths that were actually found, so a file the
+    statement never mentioned does not silently look like it was handled.
+    """
+    url = f"http://localhost:{port}"
+    found = []
+    out = prompt
+
+    for name in moved:
+        # Match an absolute path ending in this file, however it is quoted or fenced.
+        pattern = re.compile(r"(?:/[^\s`'\"]+/)?" + re.escape(name))
+        if pattern.search(out):
+            found.append(name)
+            out = pattern.sub(f"{url}  ({name}，改为在应用中获取)"
+                              if _has_cjk(prompt) else
+                              f"{url}  ({name}, obtained through the application)", out)
+
+    listing = "\n".join(f"> - `{n}`" for n in (found or moved))
+    note = (NOTE_ZH if _has_cjk(prompt) else NOTE_EN).format(url=url, moved=listing)
+    return note + "\n" + out, found
+
+
+def emit(task: taskref.Task, env_dir: Path, port: int = 5173) -> Path:
+    env_dir = Path(env_dir)
+    fsm = json.loads((task.work_dir / "fsm.json").read_text(encoding="utf-8"))
+
+    if fsm.get("candidate") is False:
+        raise ValueError(f"{task.ref} was judged not a candidate: {fsm.get('reason')}")
+
+    placements = fsm.get("data_placement", [])
+    moved = [p["source"].split("#", 1)[0] for p in placements if p.get("disposition") == "gui"]
+    kept = [p["source"].split("#", 1)[0] for p in placements if p.get("disposition") == "file"]
 
     out = env_dir / "bundle"
-    # Split by audience. Everything the agent under test may see goes in agent/;
-    # everything that would give the answer away goes in grading/. Handing the agent
-    # the original input would undo the entire enhancement, so the two never mix.
-    agent_dir, grading_dir = out / "agent", out / "grading"
-    agent_dir.mkdir(parents=True, exist_ok=True)
-    grading_dir.mkdir(parents=True, exist_ok=True)
+    agent_input = out / "agent_input"
+    agent_input.mkdir(parents=True, exist_ok=True)
 
-    (agent_dir / "task.md").write_text(
-        _rewrite_task((task_dir / "task.md").read_text(), fsm, port, facts["input_file"])
-    )
+    # Only what stayed on disk is handed over. Shipping a file that moved into the
+    # interface would hand back the very thing the environment exists to withhold.
+    for name in sorted(set(kept)):
+        src = task.input_dir / name
+        if src.exists():
+            dst = agent_input / name
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy(src, dst)
 
-    # Untouched, byte for byte.
-    for f in ("verifier.py", "reference_solution.py"):
-        shutil.copy(task_dir / f, grading_dir / f)
-    shutil.copytree(task_dir / "input", grading_dir / "input", dirs_exist_ok=True)
+    card = dict(task.card)
+    rewritten, found = _rewrite_prompt(card.get("taskPrompt", ""), sorted(set(moved)), port)
+    card["taskPrompt"] = rewritten
+    (out / "task_card.enhanced.json").write_text(
+        json.dumps(card, indent=2, ensure_ascii=False), encoding="utf-8")
 
+    unreferenced = sorted(set(moved) - set(found))
     manifest = {
-        "task_id": fsm["meta"]["task_id"],
-        "domain": fsm["meta"]["domain"],
+        "task_ref": task.ref,
         "app_concept": fsm["meta"]["app_concept"],
-        "port": port,
-        "facts": {
-            "corpus_size": facts["corpus_size"],
-            "answer_critical": len(facts["F"]),
-            "payload": facts["summary"]["payload_facts"],
-            "selection": facts["summary"]["selection_facts"],
-            "critical_fields": facts["summary"]["critical_fields"],
+        "domain": fsm["meta"]["domain"],
+        "url": f"http://localhost:{port}",
+        "environment": str(env_dir),
+        "input": {
+            "moved_into_gui": sorted(set(moved)),
+            "left_on_disk": sorted(set(kept)),
+            "not_named_in_task_prompt": unreferenced,
         },
-        "acquisition": [
+        "placement": [
             {
-                "fact_group": g["fact_group"],
-                "fields": g["fields"],
-                "modality": g["modality"],
-                "path_length": len(g["path"]),
-                "repeat_per_record": g.get("repeat_per_record", False),
+                "source": p["source"],
+                "disposition": p["disposition"],
+                "modality": p.get("modality"),
+                "split": p.get("split"),
+                "reason": p.get("reason"),
+                "path_length": len(p.get("path") or []),
             }
-            for g in fsm["fact_acquisition"]
+            for p in placements
         ],
-        "budget": fsm["budget"],
-        "layout": {
-            "agent/": "given to the agent under test -- the rewritten task statement only",
-            "grading/": "harness-side only -- verifier, reference solution and the "
-                        "original input. Never expose this to the agent.",
-        },
-        "verifier": "grading/verifier.py (byte-identical to the original CLI task's)",
+        "budget": fsm.get("budget"),
+        "grading": (
+            "unchanged and not copied -- the original task's own evaluator grades this, "
+            "exactly as it graded the un-enhanced task"
+        ),
     }
-    (out / "manifest.json").write_text(json.dumps(manifest, indent=2))
+    (out / "manifest.json").write_text(
+        json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
+
     return out
 
 
 if __name__ == "__main__":
     import sys
 
-    task_dir = Path(sys.argv[1])
-    env_dir = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("envs") / task_dir.name
+    batch_root, ref = sys.argv[1], sys.argv[2]
     port = int(sys.argv[3]) if len(sys.argv) > 3 else 5173
-    out = emit(task_dir, env_dir, port)
+
+    task = taskref.load(batch_root, ref)
+    env_dir = Path("envs") / task.work_dir.name
+    out = emit(task, env_dir, port)
+
+    manifest = json.loads((out / "manifest.json").read_text(encoding="utf-8"))
     print(f"bundle -> {out}")
-    for f in sorted(out.rglob("*")):
-        if f.is_file():
-            print(f"  {f.relative_to(out)}")
+    print(f"  moved into GUI : {', '.join(manifest['input']['moved_into_gui'])}")
+    print(f"  left on disk   : {', '.join(manifest['input']['left_on_disk'])}")
+    if manifest["input"]["not_named_in_task_prompt"]:
+        print(f"  WARN not named in taskPrompt: "
+              f"{', '.join(manifest['input']['not_named_in_task_prompt'])}")

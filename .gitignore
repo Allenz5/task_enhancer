@@ -15,3 +15,6 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Staged task input and per-task working state (regenerable from the batch)
+work/
