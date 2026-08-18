@@ -1,189 +1,127 @@
 # task_enhancer
 
-Turns CLI-solvable benchmark tasks into tasks that also require GUI ability, by moving
-each task's input data out of a file and into a purpose-built web application. The
-agent can no longer read the data — it has to search, filter, paginate, expand, export
-and click its way to it.
+把只需命令行即可完成的 benchmark 任务，改造成同时考察 GUI 能力的任务：将任务的部分输入从文件中移出，装进一个为它专门生成的 Web 应用。agent 不能再直接读取这部分输入，必须通过搜索、筛选、翻页、展开、导出、点击等操作才能拿到。
 
-**The invariant:** only *how the data is obtained* changes. The success criterion never
-does. Each task's original verifier is copied byte for byte, so an enhanced task
-inherits its ground truth for free.
+**贯穿全局的不变式：只改变输入的获取方式，不改变成功判据。** 评分逻辑全程不复制、不修改、不打开，因此增强后的任务由与原任务完全相同的代码评分。
 
-## Layers
+---
 
-| Layer | Content | Freedom |
+## 架构
+
+### 三层
+
+| 层 | 内容 | 自由度 |
 |---|---|---|
-| Fact | the task's original input data | none — the AI never generates a data value; values are injected verbatim |
-| Logic | the FSM: states, actions, and how each fact is earned | high — freely generated, lightly validated |
-| Presentation | layout, styling, components, interactions, chrome | unlimited |
+| **Fact** | 任务的输入文件 | 零 —— 原样暂存，不做摘要、不做重塑 |
+| **Logic** | FSM：状态、动作、每份输入的去向 | 高 —— 自由生成，轻量校验 |
+| **Presentation** | 布局、样式、组件、交互、噪声 chrome | 无限制 |
 
-The FSM guides generation and gives validation something to check against. It says
-*which fact is contingent on which interaction*, never which DOM structure, selector or
-component to use — those are the coding agent's to choose, which is where richness
-comes from.
+只有 Fact 层是硬的。FSM 的作用是**指导生成 + 提供校验依据**：它规定"哪份输入取决于哪次交互"，不规定用什么 DOM 结构、选择器或组件。这条分界正是丰富度的来源 —— 约束实现方式，才是让生成出来的环境彼此雷同的原因。
 
-## Pipeline
+**模型看到输入之前，没有任何东西替它做过摘要。** 这批档案里有 JSON 记录、Markdown 简报、电子表格、Word 文档、CAD 图纸、非 ASCII 文件名的 CSV，以及打包的整个源码树。任何预先计算的结构摘要都是一个模板，而把数据往模板里倒，产出的永远是同一个环境。
+
+### 流水线
 
 ```
-CLI task + input data
- → S0  fact extraction        pipeline/s0_facts.py      C, and the answer-critical subset F
- → S1  FSM synthesis          pipeline/s1_fsm_synth.py  propose → validate → improve
- → S2  FSM validation         pipeline/s2_fsm_validate.py  coverage / paths / reachability / budget
- → S3  style retrieval        pipeline/s3_style_rag.py  real product screenshots → layout DSL
- → S4  code synthesis         pipeline/s4_codegen.py    GUI + ground_truth.spec.ts, one pass
- → S5  verify + repair        pipeline/s5_repair.py     run the spec, feed failures back
- → S6  emit bundle            pipeline/s6_emit.py       rewritten task + untouched verifier
+<domain>/<task_id>
+  │
+  ├─ S1  FSM 合成      propose → validate → improve
+  ├─ S3  风格检索      追溯数据来源 → 截取真实软件界面 → 抽出样式
+  ├─ S4  代码合成      应用与 ground-truth 脚本，一次产出
+  ├─ S5  运行验证      跑脚本、把失败喂回、修复
+  └─ S6  产出          改写后的任务描述 + 放置清单
 ```
 
-### S0 — fact extraction
+**S1 — FSM 合成。** 直接打开暂存的真实文件工作。逐个文件判断：内容属于界面、如何在各界面间分割、还是留在磁盘上更诚实 —— 契约文件、溯源清单、十兆的源码树通常属于后者。若某任务的输入根本不该藏在界面后面，记为 `candidate: false`，这是一个结论而非失败。两股力量对抗生成坍缩：每次运行随机抽取的品类种子，以及已生成 FSM 构成的"应避开的形状"池。
 
-Ablation, so it works for any task with a reference solution rather than needing
-per-task authoring: a field is answer-critical iff perturbing it changes the reference
-answer. Candidate perturbations are drawn from the field's *observed value domain*,
-which is what catches selection fields — mutating a branch to `release/2.4_X` never
-changes the answer, but swapping it to the observed value `main` does.
+**S2 — 校验**（`s2_fsm_validate.py`，由 S1 调用，也可独立运行）。花费 coding agent token 之前的廉价闸门：
 
-F is split by role:
+- **放置** —— 每个暂存文件恰好得到一个决定。留在磁盘上是合法决定，需给出理由；而没有任何人决定过的文件，意味着一份输入悄悄消失了
+- **无影子副本** —— 藏在界面后面的内容，不得从留在旁边的文件里读到。这批档案会自我重复：某任务的契约文件内嵌了整份 rules 文件，那么围绕它的所有障碍都是表演
+- **可达性** —— 无孤儿状态、无悬空边
+- **无单向门** —— 从任意可达状态出发，尚未收集的内容必须仍然可达。仅靠前向可达性看不见单向门，而单向门会产出一个"只有从不探索的 agent 才解得开"的环境
+- **路径** —— 每条声明的路径在动作图上真能链起来，且落在它声称的状态
+- **预算** —— 下界保证环境确有工作量，上界防止它退化成考耐心
 
-- **payload** — the value is consumed by the answer (a qualifying build's duration)
-- **selection** — the value decides whether a record is in the answer set at all
-  (every build's branch and status). A filter control can satisfy these without
-  exposing rows one by one.
+随后由 critic agent 判断结构表达不了的部分：障碍是真实的还是装饰性的、分割方式是否契合内容、是否由单一机制包办全部。
 
-### S1 — FSM synthesis
+**S3 — 风格检索。** 追问这份数据在现实中会存在于何处：带优先级顺序的配置记录来自配置管理平台，行程记录来自调度系统。找出这些产品（**包括市场领导者** —— 它们的惯例正是这个领域沉淀下来的惯例），截取其界面，抽出布局 DSL 与设计 token。多样性由任务本身的差异带来，而非靠人为注入的审美取向。
 
-`propose → validate → improve` until the validator accepts. The FSM is where richness
-comes from, so the proposer is deliberately under-constrained: acquisition modalities
-are offered as inspiration and it is pushed to invent past them. What it may not do is
-be incoherent, which is what validation is for.
+**S4 — 代码合成。** 一次产出应用与 `ground_truth.spec.ts`。必须由同一个 agent 完成：获取模态是自由的，"展开一个 tab、点导出、解析文件"这类流程无法从规格机械展开。让脚本仍然可信的是一条切分而非限制 —— 它可以编码**如何抵达**内容，但绝不能编码内容本身，因为期望值在运行时从 `input/` 读取。
 
-Open-ended generation drifts into mode collapse on its own, so two forces push back: a
-per-run seed that picks an unfamiliar product genre, and the pool of FSMs already
-synthesised (`refs/fsm_pool.jsonl`), handed to the proposer as shapes to avoid.
+**S5 — 运行验证。** 脚本全绿即同时确立数据保真、可达性与可解性。它**不**检查 benchmark 任务本身能否被正确回答：这类任务由其自带的评分器针对交付物打分，不存在可供脚本重建的单一答案，也不需要。修复上限五轮，超限则丢弃重采。
 
-Validation is two-sided — S2 for structure, and a critic agent for what structure cannot
-express: whether the barriers are real or decorative, whether the interactions fall
-where the task's own work falls, and whether one mechanism is doing all the work.
+**S6 — 产出。** 改写任务描述的方式是**替换路径而非改写散文**：任务描述以绝对路径列出输入，因此把移入界面的那些路径换成应用地址，其余一字不动。只有留在磁盘上的文件会被交回。
 
-Since the FSM travels onward to the coding agent, a programmatic leak check rejects any
-FSM that names a concrete data value or the answer.
+---
 
-### S2 — validation
+## 使用
 
-The cheap gate, before any coding-agent tokens are spent:
+### 依赖
 
-- **coverage** — every fact in F is claimed by some acquisition entry
-- **paths** — every acquisition path actually chains on the action graph and lands in
-  the state the fact is declared to surface in. A synthesised FSM will happily list a
-  plausible-looking sequence that does not chain; caught here it costs nothing, caught
-  in S5 it costs a coding-agent run.
-- **reachability** — no orphaned states, no dangling edges
-- **no dead ends** — from every reachable state, every acquisition state must remain
-  reachable. Forward reachability from `s0` is not enough: a synthesised FSM readily
-  produces one-way doors, where committing to a scope or drilling into a segment has no
-  edge back. Everything still looks reachable from the start, but an agent that explores
-  before it commits can strand itself. The result is an environment solvable only by an
-  agent that *never* explores — which penalises exactly the behaviour a benchmark should
-  reward. (This check found three such errors in the hand-written FSM: `s_exported`,
-  `s_detail_timing` and `s_detail_commit` were all modelled as terminal states, though
-  in a real app neither downloading nor hovering takes you anywhere.)
-- **budget** — the estimated cost of collecting F sits inside `[min, max]`. The lower
-  bound is what makes the environment worth testing; the upper bound is what stops it
-  degenerating into paging through twenty-five screens, a test of patience rather than
-  capability.
+- Node 20+、Python 3.11+
+- `npx playwright install chromium`
+- 已认证的 `claude` CLI（各阶段通过 `claude -p` 调用）
 
-### S3 — style retrieval
-
-There is no screenshot corpus to draw on, so the searcher goes and gets one: it works
-out which real products occupy the domain, finds their interfaces on the open web,
-screenshots the public demos with `npx playwright screenshot`, and looks at what it
-captured. It is told to prefer the less obvious names over the market leader, whose look
-is the one everything already imitates.
-
-Both the extracted `style.json` and the captured images travel to S4, and the coding
-agent is told to look at the images before writing any CSS. Prose cannot carry how tight
-the rows actually are or how little colour real software uses — and what gets recorded
-includes the *restraint*: "no vertical rules and no zebra striping", "a sidebar that is
-just a flat list of link text with no icons". That absence is exactly what generated UI
-gets wrong, since an unconstrained model piles on borders, fills and icons.
-
-Only structure and visual language are taken, never brand identity — the environments
-are fictional products that look professionally built, not clones.
-
-Eight look-seeds (dense operator console, restrained whitespace, dark technical tool,
-conservative enterprise, and so on) vary the visual direction per run, and the cache key
-includes the look, so repeated synthesis in one domain does not converge.
-
-Measured effect: without S3 the coding agent settles on the same generic admin look
-every time — dark sidebar, card-wrapped table, blue link-coloured ids, full-width top
-bar. With retrieved references it produced a two-tier icon-rail navigation, a bare dense
-table at 20 rows per viewport instead of 12, monospace metadata and no global top bar.
-The value is less "prettier" than "off the default attractor", which is the whole point.
-
-### S4 — code synthesis
-
-The coding agent produces the app **and** the ground-truth Playwright spec in one pass.
-It has to be the same agent: acquisition modalities are free-form, and "expand a tab,
-export, parse the CSV" or "collect thirty datapoints scattered across as many detail
-pages" cannot be mechanically expanded from an FSM template. Only the author of those
-interactions knows how to walk them.
-
-What keeps the spec honest is a separation rather than a restriction: it may encode
-*how to reach* a value but never the value itself. Expectations are read from
-`server/data.json` at runtime, so there is nowhere to hardcode an answer.
-
-### S5 — verification
-
-A green spec establishes data fidelity, reachability of every answer-critical fact, and
-solvability all at once — the spec is a constructive proof that a working trajectory
-exists. The answer it reconstructs is then checked by the task's *original* verifier.
-Five repair rounds, then discard and resample rather than nurse.
-
-### S6 — bundle
-
-The bundle is split by audience, because the one thing that would undo the entire
-enhancement is handing the agent the original input:
-
-- `agent/` — the rewritten task statement. All the agent under test may see.
-- `grading/` — verifier, reference solution, original input. Harness-side only.
-
-## Usage
+### 运行一个任务
 
 ```bash
-python3 pipeline/s0_facts.py        tasks/<task> input/<data>.json
-python3 pipeline/s2_fsm_validate.py tasks/<task>
-python3 pipeline/s4_codegen.py      tasks/<task> envs/<task> 5173
-python3 pipeline/s5_repair.py       tasks/<task> envs/<task> 5173
-python3 pipeline/s6_emit.py         tasks/<task> envs/<task> 5173
+BATCH=/path/to/batch                     # 内含 tasks/ 与 data/
+REF=computing_math/config_precedence_audit_5900b9da
+
+python3 pipeline/taskref.py      "$BATCH" "$REF"        # 暂存 input.zip 并查看
+python3 pipeline/s1_fsm_synth.py "$BATCH" "$REF" 11     # FSM 合成 + 校验（seed 可选）
+python3 pipeline/s3_style_rag.py "$BATCH" "$REF"        # 来源追溯 → 样式
+python3 pipeline/s4_codegen.py   "$BATCH" "$REF" 5173   # 构建环境
+python3 pipeline/s5_repair.py    envs/<work_dir> 5173   # 验证与修复
+python3 pipeline/s6_emit.py      "$BATCH" "$REF" 5173   # 产出 bundle
 ```
 
-Adding a task needs `task.md`, `input/`, `reference_solution.py` exposing `solve()`,
-and `verifier.py`. S0 derives the rest.
+单独校验一份 FSM：
 
-## Worked example: `tasks/ci-build-audit`
+```bash
+python3 pipeline/s2_fsm_validate.py work/<work_dir>
+```
 
-48 CI build records; the answer needs the total duration of failed `main` builds and
-the longest one's commit sha. S0 finds 39 answer-critical facts (13 payload, 26
-selection) and correctly excludes the 18 records more than one field-flip from the
-answer set, plus the three non-longest shas.
+退出码：`0` 成功，`1` 失败，`2` 该任务无 `input.zip`、不可增强。
 
-The FSM mixes three acquisition modalities so the environment cannot be beaten one way:
+### 期望的输入布局
 
-- **branch/status** — never rendered as list columns; earned by opening an Actions tab
-  and exporting a CSV. The export deliberately omits duration and sha.
-- **duration** — no surface lists durations together; each one is a hover tooltip on
-  its own build's detail page, so the sum is assembled one datapoint at a time.
-- **commit sha** — full value only inside a collapsed section, and which build to read
-  it from is unknowable until the durations are in.
+```
+<batch>/tasks/<domain>/<task_id>/task_card.json
+<batch>/data/<domain>/<task_id>/base/input.zip
+```
 
-## Deferred
+**只读取 `input.zip`。** `software.zip` 是运行环境、`reference.zip` 是答案，二者均不打开。嵌套档案保持打包状态暂存 —— 打包的源码树是否值得展开，是设计判断而非默认行为。
 
-- **Leak prevention.** An agent that can read the DOM or run JS may be able to take the
-  data in one shot and bypass the interactions entirely. The direction is a backend
-  that only serves per-state slices mirroring the FSM.
-- **Distractor safety.** No fabricated records are injected — only genuine non-critical
-  corpus rows are used as noise — so the original answer is structurally safe without
-  an audit. Injecting synthetic data would require re-running the reference solution to
-  prove the answer is unchanged.
-- **CLI-baseline audit, novelty rejection sampling, diversity metrics.** Once a batch
-  of environments exists.
+### 产出
+
+```
+work/<domain>__<task_id>/     暂存的输入、任务卡、fsm.json        （已 gitignore）
+envs/<domain>__<task_id>/     可运行的环境及其验证脚本
+  ├─ ground_truth.spec.ts     可检索性证明
+  └─ bundle/
+     ├─ task_card.enhanced.json   改写后的任务描述
+     ├─ agent_input/              仅留在磁盘上的那些文件
+     └─ manifest.json             放置决定、模态、预算
+```
+
+---
+
+## 目录结构
+
+```
+pipeline/    taskref.py（载入）、agent.py（无头驱动）、s1–s6
+schemas/     fsm.schema.json
+refs/        shots/ styles/ fsm_pool.jsonl —— 截取的参考与多样性池
+work/        逐任务的暂存工作区（已 gitignore）
+envs/        生成的环境
+```
+
+---
+
+## 已知局限
+
+- **泄漏防线。** 暂存的输入仍位于环境目录内，能读取文件系统的 agent 可能完全绕过界面。方向是让后端只提供按 FSM 状态切片的端点。
+- **基线审计。** 目前没有任何经验证据表明增强后的任务确实能挡住纯 CLI 的 agent。
+- **多样性未量化。** FSM 池能抑制重复，但没有指标证实这一点。
