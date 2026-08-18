@@ -92,15 +92,11 @@ npm install              # 仅首次
 PORT=5173 npm start      # 然后打开 http://localhost:5173
 ```
 
-端口需显式给出（`server.js` 读 `$PORT`），同时开多个环境时各给一个端口即可。停止用 `Ctrl-C`，后台启动的用 `pkill -f "node server.js"`。
-
-想看这个环境**应该怎么走**，让 ground-truth 脚本带着浏览器跑一遍最快：
+完整演示一遍取回全部 GUI 内容所需的操作路径：
 
 ```bash
 npx playwright test --headed
 ```
-
-它会完整演示一遍取回全部 GUI 内容所需的操作路径。
 
 ## 目录结构
 
