@@ -100,9 +100,25 @@ Also assert the **negative** side of the contract: that content is genuinely abs
 the surfaces `visible_data` says must not carry it, including the payloads those surfaces
 fetch.
 
-Finally have the spec write `ground_truth_retrieval.json` in this directory: one entry
-per `gui` placement recording its source, the path it walked, how many pieces it
-retrieved, and that they matched. That file is the environment's proof of solvability.
+Finally have the spec write `ground_truth_retrieval.json` in this directory — the
+environment's proof of solvability — with exactly this shape:
+
+```json
+{{
+  "placements": [
+    {{
+      "source": "<matching fsm.json data_placement source, verbatim>",
+      "path": ["<action ids walked>"],
+      "pieces_retrieved": 6,
+      "matched": true
+    }}
+  ]
+}}
+```
+
+One entry per `gui` placement, and `source` must match the FSM's spelling exactly: it is
+how coverage is checked, so a renamed or reworded source reads as a placement nobody
+retrieved. Add any other fields you find useful alongside these.
 
 Do not try to solve the benchmark task itself. Whether the task's own answer is correct
 is graded elsewhere by machinery you are not part of, and it is not your concern. Your

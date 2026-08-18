@@ -1,0 +1,233 @@
+{
+  "candidate": true,
+  "meta": {
+    "task_ref": "computing_math/config_precedence_audit_5900b9da",
+    "domain": "Energy / Grid Operations (SCADA setpoint configuration governance)",
+    "app_concept": "Helios Grid Console — a regional transmission operator's control-room workspace where every managed asset's setpoint is stored as a stack of override layers, a governance policy decides which layer wins, and a commissioning standard states what a conforming audit must produce.",
+    "seed": 11
+  },
+
+  "signature_vars": {
+    "region_filter": {
+      "type": "enum",
+      "values": ["north", "central", "south"],
+      "default": "north",
+      "description": "Which interconnect region's assets the setpoint registry is currently listing. Assets are partitioned across regions by an operational attribute unrelated to the audit, so no single region shows the whole population."
+    },
+    "roster_page": {
+      "type": "int",
+      "default": 1,
+      "description": "Current page of the registry listing within the active region filter."
+    },
+    "selected_asset": {
+      "type": "string",
+      "default": "",
+      "description": "Identifier of the asset whose configuration page is open; empty when no asset is open."
+    },
+    "overrides_expanded": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the open asset's override ledger section has been expanded."
+    },
+    "ladder_open": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the governance policy's override-authority panel has been opened."
+    },
+    "clauses_read": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the normative clause body of the commissioning standard has been opened."
+    },
+    "envelope_read": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the commissioning standard's conditions-of-use section has been opened."
+    },
+    "annex_read": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the commissioning standard's reference annex has been opened."
+    },
+    "export_generated": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the commissioning conformance matrix has been rendered from the audit-readiness page."
+    }
+  },
+
+  "states": [
+    {
+      "id": "dispatch_overview",
+      "page": "Dispatch Overview",
+      "description": "Control-room landing surface. Live grid chrome plus a navigation rail leading to the setpoint registry, the governance policy area, the commissioning standard, and the audit-readiness area.",
+      "initial": true,
+      "visible_data": "Only operational chrome: frequency deviation, area load against forecast, generation mix, an alarm badge, a storm advisory banner. Aggregate counters may state how many assets are under configuration management and how many conformance checks are outstanding, as bare integers. This surface must never reveal any asset identifier from records.json, any layer name, any stored layer value, any resolved outcome, the governance mode or key field, the ordering of layers, any clause of the commissioning standard, the reference outcome it fixes for an empty population, or the text of any item in public_edge_cases.json."
+    },
+    {
+      "id": "asset_roster",
+      "page": "Setpoint Registry",
+      "description": "The list of configuration-managed assets, partitioned by region filter and paged. Default ordering is by a non-identifier operational column, not by identifier.",
+      "visible_data": "One row per element of records.json#/records whose region attribute matches the active filter: the element's identifier, plus invented operational columns (voltage class, commissioning window, telemetry health, owning district). Row order is by an operational column, so the identifier ordering the task requires is not handed over pre-sorted. This surface must never reveal the contents of any element's layers object — not the layer names present on a record, not their stored values, not a count or badge summarising how many overrides a record carries, and not whether a record carries any at all. It must never reveal the governance policy's mode, key, or layer ordering, nor any resolved value or winning layer, nor any clause of the commissioning standard."
+    },
+    {
+      "id": "asset_detail",
+      "page": "Asset Configuration",
+      "description": "The configuration page for one asset. Carries an override ledger section that begins collapsed.",
+      "visible_data": "The open asset's identifier and its invented operational context (nameplate rating, feeder, last inspection, maintenance notes), plus a collapsed section header for the override ledger. This surface must never reveal, while the ledger is collapsed, which layers the record declares, what any declared entry holds, or how many entries exist. It must never reveal the governance layer ordering, nor any resolved value or winning layer for this or any other asset."
+    },
+    {
+      "id": "layer_overrides",
+      "page": "Asset Configuration — Override Ledger",
+      "description": "The expanded override ledger for the currently open asset: the record's own layers object, rendered entry by entry, for that asset alone.",
+      "visible_data": "For the open element of records.json#/records only: exactly which layer names that element declares and what each declared entry stores. The rendering must keep three conditions distinguishable without inference — a layer absent from the element, a layer declared but holding no value, and a layer declared holding a zero-length value — since collapsing any two of them destroys the audit. This surface must never reveal another asset's ledger, the governance layer ordering, or any computed outcome: no winning layer, no resolved value, no resolved/unresolved status, no counts derived from resolution."
+    },
+    {
+      "id": "policy_page",
+      "page": "Governance Policy",
+      "description": "The active configuration-governance policy record for the region: what regime is in force and which record field identifies an asset. This is the console's single home for the in-force policy — no other surface restates it.",
+      "visible_data": "The policy's governing mode and its identifying key field, as stated in rules.json, plus the number of authority layers the policy defines and invented governance chrome (effective date, approving committee, review cadence, superseded-revision list marked as historical and carrying no layer data). This surface must never reveal the ordering of the authority layers, nor their names — those live behind the authority panel. It must never reveal any asset identifier or any layer entry from records.json, nor any clause of the commissioning standard."
+    },
+    {
+      "id": "precedence_ladder",
+      "page": "Governance Policy — Override Authority",
+      "description": "The authority panel: a ranked figure in which each authority layer occupies a labelled rank position, highest authority first. This is the console's only rendering of the layer ordering.",
+      "visible_data": "The complete ordered sequence of authority layer names from rules.json#/precedence, each carried by the figure with an explicit rank label so the order is read rather than guessed. This surface must never reveal any asset identifier, any per-asset layer entry, or any resolved outcome."
+    },
+    {
+      "id": "standard_index",
+      "page": "Commissioning Standard",
+      "description": "The front matter of the standard the audit deliverable must conform to: which revision is in force and how its text is encoded. None of the standard's normative parts are printed here; each is opened from here.",
+      "visible_data": "The standard's revision identity and its text-encoding rule, plus the titles of the three parts published beneath it — the normative clause body, the conditions-of-use section and the reference annex — and the controls that open each. This surface must never reveal the body of any normative clause — accepted top-level shape, field and type contract, rejection conditions, output row shape, key order or sort order — nor the conditions a conforming run must hold to (network posture, interpreter floor, per-run time limit, the rule governing mutation of the caller's inputs), nor the annex's reference outcome, nor the in-force policy's mode, key or layer ordering, nor any asset data, nor the text of any item in public_edge_cases.json."
+    },
+    {
+      "id": "standard_clauses",
+      "page": "Commissioning Standard — Normative Clauses",
+      "description": "The opened clause body of the standard: the normative text governing what input is accepted, what must be rejected, and what shape the produced result takes.",
+      "visible_data": "The clause text of output_contract.json's input and output sections: which top-level container the data may carry, the field-and-type contract for records and for the policy argument, the conditions under which the run must reject rather than produce a result, the fallback and zero-length-value semantics, the shape of a result row and of the accompanying counters, the fixed key order within a row, the fixed order of the counter keys, and the sort order the rows must be placed in. Where a clause depends on the policy in force, it names the policy as a pointer to the governance record rather than restating its mode, key or layer ordering — those are legible only on the governance surfaces. This surface must never reveal the conditions a conforming run must hold to, the annex's reference outcome for an empty population, any asset identifier or layer entry, or the text of any item in public_edge_cases.json."
+    },
+    {
+      "id": "standard_envelope",
+      "page": "Commissioning Standard — Conditions of Use",
+      "description": "The opened conditions-of-use section of the standard: the envelope a conforming run must execute inside, held separate from the data contract the clause body states.",
+      "visible_data": "The execution clause of output_contract.json: the network posture a conforming run must hold to, the interpreter floor it must meet, the per-run time limit it must finish inside, and the rule governing mutation of the caller's inputs. This surface must never reveal the normative clause text of the input, output, ordering or rejection sections, the annex's reference outcome, the in-force policy's mode, key or layer ordering, any asset data, or the text of any item in public_edge_cases.json."
+    },
+    {
+      "id": "standard_annex",
+      "page": "Commissioning Standard — Reference Annex",
+      "description": "The standard's normative annex: the one worked outcome the standard fixes by value rather than by rule.",
+      "visible_data": "The reference outcome output_contract.json fixes for an empty population — its row container and both counters, exactly as the standard states them. This surface must never reveal the normative clause text, the conditions a conforming run must hold to, the in-force policy's mode, key or layer ordering, any asset data, or the text of any item in public_edge_cases.json."
+    },
+    {
+      "id": "audit_readiness",
+      "page": "Commissioning Audit Readiness",
+      "description": "The area tracking which conformance checks the configuration regime must satisfy before sign-off. Individual checks are not listed here; the matrix has to be rendered.",
+      "visible_data": "How many conformance checks the current regime is accountable for, the sign-off status, an auditor contact block, and the control that renders the conformance matrix. This surface must never reveal the text of any individual item in public_edge_cases.json#/cases, and must never reveal asset data, the governance layer ordering, or any clause of the commissioning standard."
+    },
+    {
+      "id": "conformance_export",
+      "page": "Conformance Matrix (rendered document)",
+      "description": "The rendered, downloadable commissioning conformance matrix produced from the audit-readiness page.",
+      "visible_data": "Every item of public_edge_cases.json#/cases, in full, as the rows of the rendered document. Rows name the checks the deliverable must demonstrate; they carry no normative clause text, no reference outcome, and no verdicts. This surface must never reveal asset data from records.json, the governance layer ordering from rules.json, or any clause of the commissioning standard."
+    }
+  ],
+
+  "actions": [
+    { "id": "a_open_registry", "from": "dispatch_overview", "to": "asset_roster", "description": "Enter the setpoint registry from the navigation rail.", "navigates": true },
+    { "id": "a_filter_region", "from": "asset_roster", "to": "asset_roster", "description": "Switch the registry to a different interconnect region, exposing the assets held under that region.", "effect": { "region_filter": "next region in the enum", "roster_page": 1 } },
+    { "id": "a_page_roster", "from": "asset_roster", "to": "asset_roster", "description": "Advance to the next page of registry rows within the active region.", "precondition": "further rows exist beyond roster_page under region_filter", "effect": { "roster_page": "roster_page + 1" } },
+    { "id": "a_open_asset", "from": "asset_roster", "to": "asset_detail", "description": "Open the configuration page of a listed asset.", "effect": { "selected_asset": "identifier of the chosen row", "overrides_expanded": false }, "navigates": true },
+    { "id": "a_expand_overrides", "from": "asset_detail", "to": "layer_overrides", "description": "Expand the override ledger section of the open asset.", "precondition": "selected_asset is non-empty", "effect": { "overrides_expanded": true } },
+    { "id": "a_collapse_overrides", "from": "layer_overrides", "to": "asset_detail", "description": "Collapse the override ledger back to the asset's configuration page.", "effect": { "overrides_expanded": false } },
+    { "id": "a_back_to_roster", "from": "asset_detail", "to": "asset_roster", "description": "Leave the asset and return to the registry listing, preserving the active region and page.", "effect": { "selected_asset": "", "overrides_expanded": false }, "navigates": true },
+    { "id": "a_home_from_roster", "from": "asset_roster", "to": "dispatch_overview", "description": "Return to the dispatch overview from the registry.", "navigates": true },
+    { "id": "a_open_policy", "from": "dispatch_overview", "to": "policy_page", "description": "Enter the governance policy area from the navigation rail.", "navigates": true },
+    { "id": "a_open_ladder", "from": "policy_page", "to": "precedence_ladder", "description": "Open the override-authority panel of the active policy.", "effect": { "ladder_open": true } },
+    { "id": "a_close_ladder", "from": "precedence_ladder", "to": "policy_page", "description": "Dismiss the override-authority panel.", "effect": { "ladder_open": false } },
+    { "id": "a_home_from_policy", "from": "policy_page", "to": "dispatch_overview", "description": "Return to the dispatch overview from the governance policy area.", "navigates": true },
+    { "id": "a_open_standard", "from": "dispatch_overview", "to": "standard_index", "description": "Enter the commissioning standard from the navigation rail.", "navigates": true },
+    { "id": "a_open_clauses", "from": "standard_index", "to": "standard_clauses", "description": "Open the normative clause body of the standard.", "effect": { "clauses_read": true } },
+    { "id": "a_close_clauses", "from": "standard_clauses", "to": "standard_index", "description": "Return from the clause body to the standard's front matter.", "navigates": true },
+    { "id": "a_open_envelope", "from": "standard_index", "to": "standard_envelope", "description": "Open the standard's conditions-of-use section.", "effect": { "envelope_read": true } },
+    { "id": "a_close_envelope", "from": "standard_envelope", "to": "standard_index", "description": "Return from the conditions of use to the standard's front matter.", "navigates": true },
+    { "id": "a_open_annex", "from": "standard_index", "to": "standard_annex", "description": "Open the standard's reference annex.", "precondition": "clauses_read is true — the annex is published as an appendix to the clause body and is offered only once that body has been opened", "effect": { "annex_read": true } },
+    { "id": "a_close_annex", "from": "standard_annex", "to": "standard_index", "description": "Return from the reference annex to the standard's front matter.", "navigates": true },
+    { "id": "a_home_from_standard", "from": "standard_index", "to": "dispatch_overview", "description": "Return to the dispatch overview from the commissioning standard.", "navigates": true },
+    { "id": "a_open_audit", "from": "dispatch_overview", "to": "audit_readiness", "description": "Enter the commissioning audit-readiness area from the navigation rail.", "navigates": true },
+    { "id": "a_generate_export", "from": "audit_readiness", "to": "conformance_export", "description": "Render the commissioning conformance matrix as a document.", "effect": { "export_generated": true } },
+    { "id": "a_close_export", "from": "conformance_export", "to": "audit_readiness", "description": "Return from the rendered matrix to the audit-readiness area; the matrix stays re-renderable.", "navigates": true },
+    { "id": "a_home_from_audit", "from": "audit_readiness", "to": "dispatch_overview", "description": "Return to the dispatch overview from the audit-readiness area.", "navigates": true }
+  ],
+
+  "data_placement": [
+    {
+      "source": "records.json",
+      "disposition": "gui",
+      "split": "Two levels. The identifier of each element of records.json#/records becomes one registry row, and those rows are partitioned across the region filter and paged, so no single listing holds the whole population. Each element's layers object is confined to that element's own override ledger and appears nowhere else — one ledger per element, entry by entry.",
+      "modality": "Filtering and paging a roster to enumerate the population, then drilling into a record and expanding a section that starts collapsed. The ledger's rendering is load-bearing: absence of a layer, a declared entry with no value, and a declared entry with a zero-length value must each be readable as themselves rather than inferred from a shared placeholder.",
+      "state": "layer_overrides",
+      "path": ["a_open_registry", "a_filter_region", "a_page_roster", "a_open_asset", "a_expand_overrides"],
+      "repeat_per_piece": true,
+      "notes": "One piece per element of records.json#/records, and the ledger is reached once per element, from the registry, every time: settle the region filter and the page the element sits under, then a_open_asset and a_expand_overrides, then a_collapse_overrides and a_back_to_roster before the next element can be opened — no surface holds two ledgers at once. Every region of the filter holds part of the population and no region is empty, so a_filter_region is required to reach the regions beyond the default; a region's listing holds fewer rows than the largest region carries, so a_page_roster is required to reach that region's later rows. Only the elements in the default region's first page are reached without either step. Registry rows are ordered by an operational column, so the identifier ordering the contract demands must be derived, not copied off the screen."
+    },
+    {
+      "source": "rules.json",
+      "disposition": "gui",
+      "split": "The single policy object divides across two surfaces of one governance screen: its governing mode and its identifying key field sit on the policy record itself, while the ordered layer sequence lives only in the override-authority panel. Nothing else in the console restates any of the three — the commissioning standard points at this record rather than reprinting it.",
+      "modality": "A settings-style record read as text, then a ranked figure opened from it — the layer sequence is legible as rank positions in the authority panel rather than as a printed list on the policy page.",
+      "state": "precedence_ladder",
+      "path": ["a_open_policy", "a_open_ladder"],
+      "repeat_per_piece": false,
+      "notes": "The policy page's superseded-revision list is chrome: historical entries carry dates and approvers only, never a competing layer ordering, so it cannot mislead the audit."
+    },
+    {
+      "source": "output_contract.json",
+      "disposition": "gui",
+      "split": "The contract is published as the commissioning standard, in four parts. Front matter carries the revision identity and the encoding rule. The normative clause body carries the input, output, ordering and rejection sections. The conditions-of-use section carries the execution clause — network posture, interpreter floor, per-run time limit, and the rule on mutating the caller's inputs — which governs how a conforming run is performed rather than what it produces. The reference annex carries the one outcome the contract fixes by value, for an empty population. The contract's embedded copy of the in-force policy is deliberately not reprinted in any of the four: it is the same fact as rules.json, and the standard resolves it by pointing at the governance policy record and its authority panel, so mode, key and layer ordering each have exactly one home in the console.",
+      "modality": "A standards viewer: front matter read as text, then each normative part opened from it in turn — a clause body, a conditions-of-use section held separate from it, and an annex published as an appendix to the clause body and reachable only once that body has been opened.",
+      "state": "standard_annex",
+      "path": ["a_open_standard", "a_open_clauses", "a_close_clauses", "a_open_annex"],
+      "repeat_per_piece": false,
+      "notes": "The declared path ends on the last of the four surfaces; the clause body and the conditions-of-use section are surfaces of the same source and each must be opened in its own right — a_open_clauses for the data contract, a_open_envelope for the run conditions — before the contract has been read whole, and each is left by its own return before the next is opened. Placing this file in the interface rather than on disk is what makes the governance surfaces load-bearing: left on disk it hands over the policy the authority panel is supposed to earn, and hands over the rejection and ordering rules the standard is supposed to state. Fragmenting it further would be friction — the split follows the document's own front-matter / clauses / conditions / annex structure, and the whole of each part is legible at once on its surface. It overlaps the conformance matrix only in subject: the clauses state normative conditions, the matrix lists the checks a deliverable must demonstrate, and neither restates the other's text."
+    },
+    {
+      "source": "public_edge_cases.json",
+      "disposition": "gui",
+      "split": "Whole, as the rows of one rendered document; the audit-readiness page holds only the count and the render control.",
+      "modality": "A generated export — the checklist exists only after the conformance matrix is rendered, and is read from that document rather than from the page that offers it.",
+      "state": "conformance_export",
+      "path": ["a_open_audit", "a_generate_export"],
+      "repeat_per_piece": false
+    },
+    {
+      "source": "deidentification_manifest.json",
+      "disposition": "file",
+      "reason": "A three-field provenance attestation about the staged data's origin. It feeds no computation, is restated nowhere in the interface, and has no shape an interface could exploit; putting it behind clicks would be pure friction."
+    }
+  ],
+
+  "budget": {
+    "min_actions": 26,
+    "max_actions": 60
+  },
+
+  "noise_plan": {
+    "chrome": [
+      "System frequency deviation gauge with a rolling 60-second trace on the dispatch overview",
+      "Area load versus day-ahead forecast curve, with a toggle between MW and percent-of-peak",
+      "Generation mix donut (hydro / thermal / wind / solar / imports) that never references configuration data",
+      "Storm advisory banner with a dismissable severity chip and a link to a fictional weather desk",
+      "Alarm inbox in the nav rail carrying an unread badge, containing breaker-trip and comms-loss alerts unrelated to configuration",
+      "Crew dispatch board listing shift, truck number and ETA for field teams",
+      "Maintenance window scheduler with a month grid and blackout dates",
+      "Feeder loading heatmap by district on the registry page sidebar",
+      "Shift handover notes panel with free-text entries and an acknowledge button",
+      "SLA compliance widget showing interruption indices against targets",
+      "Auditor contact card and sign-off status chip on the audit-readiness page",
+      "Governance chrome on the policy page: effective date, approving committee, review cadence, and a superseded-revision list carrying dates and approvers only",
+      "Standards-library chrome: an adoption notice, a change-log of editorial amendments carrying dates and editors only, and a print-view toggle, none of which restate a clause",
+      "Keyboard-shortcuts help modal and a theme toggle in the top bar",
+      "A 'What's new in Helios 4.2' release-notes callout that can be dismissed"
+    ]
+  }
+}

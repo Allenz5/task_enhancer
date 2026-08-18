@@ -1,0 +1,66 @@
+{
+  "task_ref": "computing_math/config_precedence_audit_5900b9da",
+  "app_concept": "Helios Grid Console — a regional transmission operator's control-room workspace where every managed asset's setpoint is stored as a stack of override layers, a governance policy decides which layer wins, and a commissioning standard states what a conforming audit must produce.",
+  "domain": "Energy / Grid Operations (SCADA setpoint configuration governance)",
+  "url": "http://localhost:5173",
+  "environment": "envs/computing_math__config_precedence_audit_5900b9da",
+  "input": {
+    "moved_into_gui": [
+      "output_contract.json",
+      "public_edge_cases.json",
+      "records.json",
+      "rules.json"
+    ],
+    "left_on_disk": [
+      "deidentification_manifest.json"
+    ],
+    "not_named_in_task_prompt": []
+  },
+  "placement": [
+    {
+      "source": "records.json",
+      "disposition": "gui",
+      "modality": "Filtering and paging a roster to enumerate the population, then drilling into a record and expanding a section that starts collapsed. The ledger's rendering is load-bearing: absence of a layer, a declared entry with no value, and a declared entry with a zero-length value must each be readable as themselves rather than inferred from a shared placeholder.",
+      "split": "Two levels. The identifier of each element of records.json#/records becomes one registry row, and those rows are partitioned across the region filter and paged, so no single listing holds the whole population. Each element's layers object is confined to that element's own override ledger and appears nowhere else — one ledger per element, entry by entry.",
+      "reason": null,
+      "path_length": 5
+    },
+    {
+      "source": "rules.json",
+      "disposition": "gui",
+      "modality": "A settings-style record read as text, then a ranked figure opened from it — the layer sequence is legible as rank positions in the authority panel rather than as a printed list on the policy page.",
+      "split": "The single policy object divides across two surfaces of one governance screen: its governing mode and its identifying key field sit on the policy record itself, while the ordered layer sequence lives only in the override-authority panel. Nothing else in the console restates any of the three — the commissioning standard points at this record rather than reprinting it.",
+      "reason": null,
+      "path_length": 2
+    },
+    {
+      "source": "output_contract.json",
+      "disposition": "gui",
+      "modality": "A standards viewer: front matter read as text, then each normative part opened from it in turn — a clause body, a conditions-of-use section held separate from it, and an annex published as an appendix to the clause body and reachable only once that body has been opened.",
+      "split": "The contract is published as the commissioning standard, in four parts. Front matter carries the revision identity and the encoding rule. The normative clause body carries the input, output, ordering and rejection sections. The conditions-of-use section carries the execution clause — network posture, interpreter floor, per-run time limit, and the rule on mutating the caller's inputs — which governs how a conforming run is performed rather than what it produces. The reference annex carries the one outcome the contract fixes by value, for an empty population. The contract's embedded copy of the in-force policy is deliberately not reprinted in any of the four: it is the same fact as rules.json, and the standard resolves it by pointing at the governance policy record and its authority panel, so mode, key and layer ordering each have exactly one home in the console.",
+      "reason": null,
+      "path_length": 4
+    },
+    {
+      "source": "public_edge_cases.json",
+      "disposition": "gui",
+      "modality": "A generated export — the checklist exists only after the conformance matrix is rendered, and is read from that document rather than from the page that offers it.",
+      "split": "Whole, as the rows of one rendered document; the audit-readiness page holds only the count and the render control.",
+      "reason": null,
+      "path_length": 2
+    },
+    {
+      "source": "deidentification_manifest.json",
+      "disposition": "file",
+      "modality": null,
+      "split": null,
+      "reason": "A three-field provenance attestation about the staged data's origin. It feeds no computation, is restated nowhere in the interface, and has no shape an interface could exploit; putting it behind clicks would be pure friction.",
+      "path_length": 0
+    }
+  ],
+  "budget": {
+    "min_actions": 26,
+    "max_actions": 60
+  },
+  "grading": "unchanged and not copied -- the original task's own evaluator grades this, exactly as it graded the un-enhanced task"
+}

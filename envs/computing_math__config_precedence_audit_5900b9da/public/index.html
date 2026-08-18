@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Helios Grid Console</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="sidebar-head">
+      <div class="brand">
+        <span class="brand-mark">H</span>
+        <span class="brand-name">Helios Grid Console</span>
+        <span class="brand-rev">4.2</span>
+      </div>
+      <div style="position:relative">
+        <button class="scope" id="scope-trigger" data-testid="scope-trigger" aria-haspopup="true" aria-expanded="false">
+          <span>
+            <span class="scope-label">Operating area</span>
+            <span class="scope-value" id="scope-value" data-testid="scope-value">—</span>
+          </span>
+          <span class="scope-chev">⌄</span>
+        </button>
+        <div id="scope-menu" hidden></div>
+      </div>
+    </div>
+    <input class="side-search" type="search" placeholder="Search console" aria-label="Search console">
+    <nav class="nav" id="nav"></nav>
+    <div class="side-foot">
+      <span class="who">D. Marchetti</span>
+      <span>· Shift B</span>
+      <button class="collapse" title="Hide (⌘+B)">«</button>
+    </div>
+  </aside>
+  <main class="canvas">
+    <div class="page" id="app" data-ready="false"></div>
+  </main>
+</div>
+<div id="overlay"></div>
+<script src="/app.js"></script>
+</body>
+</html>

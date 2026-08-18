@@ -1,0 +1,41 @@
+{
+  "records": [
+    {
+      "id": "alpha",
+      "layers": {
+        "default": "d",
+        "environment": "e",
+        "user": "u"
+      }
+    },
+    {
+      "id": "beta",
+      "layers": {
+        "default": "d",
+        "environment": null
+      }
+    },
+    {
+      "id": "delta",
+      "layers": {
+        "user": ""
+      }
+    },
+    {
+      "id": "epsilon",
+      "layers": {
+        "environment": "e"
+      }
+    },
+    {
+      "id": "gamma",
+      "layers": {}
+    },
+    {
+      "id": "zeta",
+      "layers": {
+        "default": null
+      }
+    }
+  ]
+}

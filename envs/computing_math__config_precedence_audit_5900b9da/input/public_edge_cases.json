@@ -1,0 +1,16 @@
+{
+  "cases": [
+    "empty records",
+    "reordered records",
+    "same-shape new record",
+    "parallel or tied ordering",
+    "Unicode identifier ordering",
+    "duplicate identifier rejection",
+    "unknown field rejection",
+    "wrong nested type rejection",
+    "invalid policy rejection",
+    "null boundary",
+    "input immutability",
+    "deterministic rerun"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "taskId": "computing_math/config_precedence_audit_5900b9da",
+  "taxonomy": {
+    "domain_id": "9",
+    "domain_code": "computing_math",
+    "subdomain_id": "9.1",
+    "subdomain_code": "software_eng",
+    "subdomain_name": "Software Engineering",
+    "classifier": {
+      "model": "gpt-4o-mini",
+      "classified_at": "2026-08-06T21:36:37.881480Z",
+      "source": {
+        "submission_id": "8c25aeee-d33f-472d-bbf3-a3341c1e3133",
+        "fields": [
+          "task_description",
+          "task_short_name",
+          "industry_domain",
+          "software_and_version"
+        ]
+      },
+      "rationale": "The task involves implementing a software solution for configuration governance."
+    }
+  },
+  "title": "Configuration Precedence Resolution Audit",
+  "summary": "Implement and verify a reusable offline Python function that resolves layered configuration values while strictly rejecting malformed inputs.",
+  "software": [
+    "Python 3 standard library"
+  ],
+  "taskPrompt": "> **本任务的部分输入已不在文件系统中。**\n> 下列输入现在只存在于运行于 http://localhost:5173 的应用里，需要通过界面操作获取：\n> - `output_contract.json`\n> - `public_edge_cases.json`\n> - `records.json`\n> - `rules.json`\n>\n> 其余输入仍在原路径上，可直接读取。任务要求、交付物与验收标准均未改变。\n\n在离线 Ubuntu 环境中实现多层配置优先级解析与拒绝审计。\n\n## 输入\n- 匿名业务记录：`http://localhost:5173  (records.json，改为在应用中获取)`\n- 权威规则：`http://localhost:5173  (rules.json，改为在应用中获取)`\n- 完整公开输入/输出合同：`http://localhost:5173  (output_contract.json，改为在应用中获取)`\n- 公开边界清单：`http://localhost:5173  (public_edge_cases.json，改为在应用中获取)`\n\n## 必需交付物\n在 `/media/user/data/agenthle/computing_math/config_precedence_audit_5900b9da/base/output` 下创建以下四项 UTF-8 文件：\n\n1. `config_precedence_audit.py`，导出 `process_config_precedence_audit(data, policy)`。\n2. `config_precedence_audit_result.json`，使用上述函数独立处理公开 `records.json` 和 `rules.json` 后得到的精确结果。\n3. `config_precedence_audit_verification.md`，包含业务规则、输入字段与类型、排序与 null、拒绝边界、验证结论。\n4. `tests/test_submission.py`，使用 Python 标准库离线验证实现，并在 10 秒内通过。\n\n## 行为要求\n- 按 policy 中 `precedence` 的顺序选择第一个存在且非 null 的层值。null 继续回退；空字符串是有效的已解析值。\n- `policy.precedence` 必须是非空数组，且每个层名必须是唯一的非空字符串；空数组统一抛出 `ValueError`。\n- 严格遵循 `output_contract.json` 的字段、类型、对象键顺序、数组排序、空输入和 `ValueError` 拒绝语义；不得硬编码当前公开结果。\n- 对公开记录、记录重排、同结构新记录、Unicode 标识符和任意合法的唯一非空 precedence 层名使用同一算法。\n- 不得修改传入的 data 或 policy，不得访问网络、账号、数据库、环境变量或任务目录外文件。\n- 不得修改 staged input。\n",
+  "agentMustDo": [
+    "Implement process_config_precedence_audit(data, policy) as a reusable algorithm with strict ValueError validation and no input mutation.",
+    "Generate the public JSON result by invoking the implementation on records.json and rules.json.",
+    "Write a verification report covering all required contract sections.",
+    "Provide an offline standard-library test that completes within 10 seconds."
+  ],
+  "inputFiles": [
+    {
+      "name": "records.json",
+      "format": "json",
+      "path": "input/records.json",
+      "description": "Anonymous configuration records to process."
+    },
+    {
+      "name": "rules.json",
+      "format": "json",
+      "path": "input/rules.json",
+      "description": "Authoritative mode, key, and precedence order."
+    },
+    {
+      "name": "output_contract.json",
+      "format": "json",
+      "path": "input/output_contract.json",
+      "description": "Complete public validation, ordering, type, error, and empty-input contract."
+    },
+    {
+      "name": "public_edge_cases.json",
+      "format": "json",
+      "path": "input/public_edge_cases.json",
+      "description": "Public checklist of boundary behavior the implementation and tests must cover."
+    }
+  ],
+  "referenceFiles": [
+    {
+      "name": "config_precedence_audit.py",
+      "format": "python",
+      "path": "output/config_precedence_audit.py",
+      "description": "Reusable implementation exporting process_config_precedence_audit."
+    },
+    {
+      "name": "config_precedence_audit_result.json",
+      "format": "json",
+      "path": "output/config_precedence_audit_result.json",
+      "description": "Exact result independently computed from the public records and rules."
+    },
+    {
+      "name": "config_precedence_audit_verification.md",
+      "format": "markdown",
+      "path": "output/config_precedence_audit_verification.md",
+      "description": "Verification report with the five required contract sections."
+    },
+    {
+      "name": "test_submission.py",
+      "format": "python",
+      "path": "output/tests/test_submission.py",
+      "description": "Offline standard-library verification test."
+    }
+  ],
+  "outputContracts": [
+    {
+      "name": "output_contract.json",
+      "format": "json",
+      "path": "input/output_contract.json",
+      "description": "Agent-visible contract for exact input validation, output keys and types, ordering, null semantics, ValueError behavior, empty input, encoding, immutability, and timeout."
+    }
+  ],
+  "evaluation": "All four required UTF-8 outputs must be present and parseable. The generated result and reusable function are checked for exact public behavior, generalized precedence resolution, Python/Unicode ordering, null and empty-string semantics, strict ValueError rejection, deterministic reruns, and deep input immutability. The submitted standard-library test must pass offline within 10 seconds, and the verification report must contain the five required sections. Structurally invalid or unsafe submissions receive no credit for the affected requirements; valid partial work can receive proportional credit in the range 0.0 to 1.0.",
+  "requiredCredentials": [],
+  "evaluatorCredentials": [],
+  "vm": {
+    "network": {
+      "mode": "off"
+    },
+    "machineType": "c4-standard-4",
+    "snapshot": "cpu-free-ubuntu",
+    "timeout": 7200
+  },
+  "category": "computing_math"
+}

@@ -1,0 +1,159 @@
+{
+  "task_ref": "computing_math/config_precedence_audit_5900b9da",
+  "app": "Helios Grid Console",
+  "gui_placements": 4,
+  "all_matched": true,
+  "placements": [
+    {
+      "source": "records.json",
+      "fsm_state": "layer_overrides",
+      "path": [
+        "a_open_registry",
+        "a_filter_region",
+        "a_page_roster",
+        "a_open_asset",
+        "a_expand_overrides"
+      ],
+      "modality": "roster filtered by interconnect region and paged, then each asset opened and its collapsed override ledger expanded",
+      "pieces_retrieved": 6,
+      "matched": true,
+      "detail": {
+        "identifiers_retrieved": [
+          "alpha",
+          "delta",
+          "beta",
+          "zeta",
+          "gamma",
+          "epsilon"
+        ],
+        "ledger_entries_retrieved": 8,
+        "regions_walked": [
+          "north",
+          "central",
+          "south"
+        ],
+        "pages_advanced": 1,
+        "reached_via": {
+          "alpha": {
+            "region": "north",
+            "page": 1
+          },
+          "delta": {
+            "region": "north",
+            "page": 1
+          },
+          "beta": {
+            "region": "north",
+            "page": 2
+          },
+          "zeta": {
+            "region": "central",
+            "page": 1
+          },
+          "gamma": {
+            "region": "central",
+            "page": 1
+          },
+          "epsilon": {
+            "region": "south",
+            "page": 1
+          }
+        },
+        "absence_conditions_kept_distinct": [
+          "not declared",
+          "declared, no value",
+          "declared, empty string"
+        ]
+      }
+    },
+    {
+      "source": "rules.json",
+      "fsm_state": "precedence_ladder",
+      "path": [
+        "a_open_policy",
+        "a_open_ladder"
+      ],
+      "modality": "governing mode and identifying key field read from the policy definition grid; the authority order read as printed rank positions in the panel opened from it",
+      "pieces_retrieved": 5,
+      "matched": true,
+      "detail": {
+        "mode_and_key_from": "policy_page",
+        "ordering_from": "precedence_ladder",
+        "authority_layer_count": 3,
+        "ranks_read": [
+          {
+            "rank": 1,
+            "layer": "user"
+          },
+          {
+            "rank": 2,
+            "layer": "environment"
+          },
+          {
+            "rank": 3,
+            "layer": "default"
+          }
+        ]
+      }
+    },
+    {
+      "source": "output_contract.json",
+      "fsm_state": "standard_annex",
+      "path": [
+        "a_open_standard",
+        "a_open_clauses",
+        "a_close_clauses",
+        "a_open_envelope",
+        "a_close_envelope",
+        "a_open_annex"
+      ],
+      "modality": "standards viewer — front matter read as text, then the normative clause body, the conditions-of-use section and the reference annex each opened in their own right",
+      "pieces_retrieved": 17,
+      "matched": true,
+      "detail": {
+        "front_matter": [
+          "schema_version",
+          "encoding"
+        ],
+        "clauses_read": [
+          "2.1",
+          "2.2",
+          "2.3",
+          "3.1",
+          "3.2 (2 counters)",
+          "4.1",
+          "4.2",
+          "5.1",
+          "5.2"
+        ],
+        "conditions_read": [
+          "offline",
+          "python",
+          "timeout_seconds",
+          "input_mutation"
+        ],
+        "annex_read": "empty_input_result",
+        "annex_gated_until_clauses_opened": true,
+        "policy_not_reprinted": true
+      }
+    },
+    {
+      "source": "public_edge_cases.json",
+      "fsm_state": "conformance_export",
+      "path": [
+        "a_open_audit",
+        "a_generate_export"
+      ],
+      "modality": "the conformance matrix is rendered from the audit-readiness page and read from the rendered document, then downloaded as a CSV and parsed",
+      "pieces_retrieved": 12,
+      "matched": true,
+      "detail": {
+        "declared_count_on_audit_page": 12,
+        "rendered_rows": 12,
+        "downloaded_file": "downloads/commissioning-conformance-matrix.csv",
+        "downloaded_rows": 12,
+        "rendered_matches_downloaded": true
+      }
+    }
+  ]
+}

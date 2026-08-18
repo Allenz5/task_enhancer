@@ -1,0 +1,16 @@
+{
+  "name": "helios-grid-console",
+  "version": "4.2.0",
+  "private": true,
+  "description": "Helios Grid Console — regional transmission operator setpoint-governance workspace",
+  "scripts": {
+    "start": "node server.js",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}

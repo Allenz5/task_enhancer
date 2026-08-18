@@ -1,0 +1,42 @@
+{
+  "schema_version": "ale-public-contract/3.1",
+  "encoding": "UTF-8; BOM accepted",
+  "input": {
+    "data_top_level": [
+      "records"
+    ],
+    "policy_exact_value": {
+      "mode": "config_precedence",
+      "key": "id",
+      "precedence": [
+        "user",
+        "environment",
+        "default"
+      ]
+    },
+    "field_and_type_contract": "data 只能含 records 数组；每条记录只能含非空字符串 id 与 layers 对象。layers 只能使用 precedence 中声明的层名，值只能是字符串或 null。policy 只能含 mode、key、precedence；precedence 必须是非空数组；层名必须是唯一非空字符串。",
+    "unknown_fields": "顶层未知字段、记录未知字段、重复/空 id、未声明层、错误类型、空 precedence、重复层名及 policy 缺失/额外字段统一抛出 ValueError。null 表示继续回退；空字符串是已解析的有效配置值。"
+  },
+  "output": {
+    "rows": "array<{id:string,value:string|null,source:string|null,resolved:boolean} sorted by id",
+    "resolved_count": "integer>=0",
+    "unresolved_count": "integer>=0"
+  },
+  "ordering_and_ties": "rows 按 Python/Unicode 字符串升序排列；对象键顺序固定为 id、value、source、resolved；计数键随后为 resolved_count、unresolved_count。",
+  "null_and_error_contract": "顶层未知字段、记录未知字段、重复/空 id、未声明层、错误类型、空 precedence、重复层名及 policy 缺失/额外字段统一抛出 ValueError。null 表示继续回退；空字符串是已解析的有效配置值。",
+  "empty_input_result": {
+    "rows": [],
+    "resolved_count": 0,
+    "unresolved_count": 0
+  },
+  "errors": {
+    "type": "ValueError",
+    "conditions": "顶层未知字段、记录未知字段、重复/空 id、未声明层、错误类型、空 precedence、重复层名及 policy 缺失/额外字段统一抛出 ValueError。null 表示继续回退；空字符串是已解析的有效配置值。"
+  },
+  "execution": {
+    "offline": true,
+    "python": "3.11+",
+    "timeout_seconds": 10,
+    "input_mutation": "forbidden"
+  }
+}

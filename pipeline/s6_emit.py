@@ -58,8 +58,10 @@ def _rewrite_prompt(prompt: str, moved: list[str], port: int) -> tuple[str, list
     out = prompt
 
     for name in moved:
-        # Match an absolute path ending in this file, however it is quoted or fenced.
-        pattern = re.compile(r"(?:/[^\s`'\"]+/)?" + re.escape(name))
+        # Only a real path is swapped -- one with a directory prefix. A bare filename in
+        # prose is naming *which data* to process, not where to read it from, and
+        # replacing that with a URL turns a readable sentence into noise.
+        pattern = re.compile(r"/[^\s`'\"]+/" + re.escape(name))
         if pattern.search(out):
             found.append(name)
             out = pattern.sub(f"{url}  ({name}，改为在应用中获取)"

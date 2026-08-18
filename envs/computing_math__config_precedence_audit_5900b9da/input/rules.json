@@ -1,0 +1,9 @@
+{
+  "mode": "config_precedence",
+  "key": "id",
+  "precedence": [
+    "user",
+    "environment",
+    "default"
+  ]
+}

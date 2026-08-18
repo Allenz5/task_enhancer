@@ -127,7 +127,17 @@ def check_retrieval(env_dir: Path) -> tuple[bool, str]:
     except json.JSONDecodeError as e:
         return False, f"ground_truth_retrieval.json is not valid JSON: {e}"
 
-    entries = record if isinstance(record, list) else record.get("placements", [])
+    # The shape is specified to S4, but read it forgivingly: a spec that names the list
+    # `retrievals` rather than `placements` has still done the work, and rejecting it
+    # costs a repair round and a coding-agent run to fix nothing but a key.
+    if isinstance(record, list):
+        entries = record
+    else:
+        entries = next(
+            (v for v in record.values()
+             if isinstance(v, list) and any(isinstance(i, dict) and "source" in i for i in v)),
+            [],
+        )
     covered = {e.get("source") for e in entries if isinstance(e, dict)}
 
     fsm = json.loads((env_dir / "fsm.json").read_text(encoding="utf-8"))
