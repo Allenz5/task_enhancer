@@ -3,7 +3,9 @@
   "title": "GUI-Enhance FSM",
   "description": "Guides generation and gives validation something to check against. Describes WHAT must be true of the environment -- which input is reached through which interaction -- never HOW to build it. No selectors, no DOM structure, no component or framework choices; those belong to the coding agent, and constraining them is what makes environments look alike.",
   "type": "object",
-  "required": ["candidate"],
+  "required": [
+    "candidate"
+  ],
   "properties": {
     "candidate": {
       "type": "boolean",
@@ -13,44 +15,87 @@
       "type": "string",
       "description": "Required when candidate is false: what about this task's input makes an interface the wrong container for it."
     },
-
     "meta": {
       "type": "object",
-      "required": ["task_ref", "domain", "app_concept"],
+      "required": [
+        "task_ref",
+        "domain",
+        "app_concept",
+        "provenance"
+      ],
       "properties": {
-        "task_ref": { "type": "string" },
-        "domain": { "type": "string", "description": "e.g. Developer Tools, Financial ERP, Observability" },
-        "app_concept": { "type": "string", "description": "One line: what the app pretends to be." },
-        "seed": { "type": "integer" }
+        "task_ref": {
+          "type": "string"
+        },
+        "domain": {
+          "type": "string",
+          "description": "e.g. Developer Tools, Financial ERP, Observability"
+        },
+        "app_concept": {
+          "type": "string",
+          "description": "One line: what the app pretends to be."
+        },
+        "seed": {
+          "type": "integer"
+        },
+        "provenance": {
+          "type": "string",
+          "description": "Which real product category this data would live in, and what in the data led you there. Not chosen from a menu -- derived from the content. S3 uses it to decide whose interface to look at, so an invented category leaves the environment wearing another category's clothes."
+        }
       }
     },
-
     "signature_vars": {
       "type": "object",
       "description": "Page signature sigma: the controllable configuration carried across states.",
       "additionalProperties": {
         "type": "object",
-        "required": ["type"],
+        "required": [
+          "type"
+        ],
         "properties": {
-          "type": { "enum": ["string", "int", "bool", "enum", "set"] },
-          "values": { "type": "array" },
+          "type": {
+            "enum": [
+              "string",
+              "int",
+              "bool",
+              "enum",
+              "set"
+            ]
+          },
+          "values": {
+            "type": "array"
+          },
           "default": {},
-          "description": { "type": "string" }
+          "description": {
+            "type": "string"
+          }
         }
       }
     },
-
     "states": {
       "type": "array",
       "minItems": 2,
       "items": {
         "type": "object",
-        "required": ["id", "page", "description"],
+        "required": [
+          "id",
+          "page",
+          "description"
+        ],
         "properties": {
-          "id": { "type": "string" },
-          "page": { "type": "string", "description": "Logical page identity." },
-          "description": { "type": "string" },
-          "initial": { "type": "boolean" },
+          "id": {
+            "type": "string"
+          },
+          "page": {
+            "type": "string",
+            "description": "Logical page identity."
+          },
+          "description": {
+            "type": "string"
+          },
+          "initial": {
+            "type": "boolean"
+          },
           "visible_data": {
             "type": "string",
             "description": "Prose, and a two-sided contract: what is legible to someone standing in this state, and by omission what this surface must never reveal. A value legible before the action meant to earn it makes that action decorative."
@@ -58,40 +103,63 @@
         }
       }
     },
-
     "actions": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "from", "to", "description"],
+        "required": [
+          "id",
+          "from",
+          "to",
+          "description"
+        ],
         "properties": {
-          "id": { "type": "string" },
-          "from": { "type": "string" },
-          "to": { "type": "string" },
+          "id": {
+            "type": "string"
+          },
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
           "description": {
             "type": "string",
             "description": "Semantic intent, e.g. 'apply the branch facet'. NOT an implementation instruction."
           },
-          "precondition": { "type": "string", "description": "Boolean constraint over signature_vars; empty means always available." },
-          "effect": { "type": "object", "description": "Deterministic signature updates." },
-          "navigates": { "type": "boolean" }
+          "precondition": {
+            "type": "string",
+            "description": "Boolean constraint over signature_vars; empty means always available."
+          },
+          "effect": {
+            "type": "object",
+            "description": "Deterministic signature updates."
+          },
+          "navigates": {
+            "type": "boolean"
+          }
         }
       }
     },
-
     "data_placement": {
       "type": "array",
       "description": "Where each staged input file ends up. Every file under input/ must appear exactly once. Not everything belongs in the interface -- a schema contract or a bundled repository is more honestly left on disk -- so a file left alone is a decision, recorded as such, not an omission.",
       "items": {
         "type": "object",
-        "required": ["source", "disposition"],
+        "required": [
+          "source",
+          "disposition"
+        ],
         "properties": {
           "source": {
             "type": "string",
             "description": "Path relative to input/, exactly as staged. May carry a fragment naming a part of the file, e.g. 'records.json#/records'."
           },
           "disposition": {
-            "enum": ["gui", "file"],
+            "enum": [
+              "gui",
+              "file"
+            ],
             "description": "'gui': obtainable only through the interface. 'file': stays on disk as it is."
           },
           "reason": {
@@ -106,31 +174,54 @@
             "type": "string",
             "description": "For 'gui': what interaction earns it. Free-form, and mixing several across one environment is encouraged. Examples, not a menu: rendered text, a downloaded export, a value that only appears on hover, a section that starts collapsed, results that exist only after a form is submitted, a figure legible from a chart, content split across two applications, a record reachable only by sorting or paging to it."
           },
-          "state": { "type": "string", "description": "For 'gui': the state in which it becomes legible." },
-          "path": { "type": "array", "items": { "type": "string" }, "description": "For 'gui': action ids from the initial state." },
+          "state": {
+            "type": "string",
+            "description": "For 'gui': the state in which it becomes legible."
+          },
+          "path": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "For 'gui': action ids from the initial state."
+          },
           "repeat_per_piece": {
             "type": "boolean",
             "description": "True when the path must be walked once per piece rather than yielding everything at once."
           },
-          "notes": { "type": "string" }
+          "notes": {
+            "type": "string"
+          }
         }
       }
     },
-
     "budget": {
       "type": "object",
-      "required": ["min_actions", "max_actions"],
+      "required": [
+        "min_actions",
+        "max_actions"
+      ],
       "properties": {
-        "min_actions": { "type": "integer", "description": "Lower bound: below it the environment poses no real work." },
-        "max_actions": { "type": "integer", "description": "Upper bound: above it the environment tests patience rather than capability." }
+        "min_actions": {
+          "type": "integer",
+          "description": "Lower bound: below it the environment poses no real work."
+        },
+        "max_actions": {
+          "type": "integer",
+          "description": "Upper bound: above it the environment tests patience rather than capability."
+        }
       }
     },
-
     "noise_plan": {
       "type": "object",
       "description": "UI chrome only -- never carries input, so it cannot threaten correctness.",
       "properties": {
-        "chrome": { "type": "array", "items": { "type": "string" } }
+        "chrome": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       }
     }
   }

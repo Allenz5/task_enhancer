@@ -35,25 +35,24 @@ SHOTS = REFS / "shots"
 STYLES = REFS / "styles"
 
 PROMPT = """\
-Work out what this environment should look like, by finding the software this data would
-really come from.
+Find the real software this environment should look like.
 
-## 1. Trace the provenance
+## 1. The provenance is already settled
 
-Read `task_card.json` and **open the files in `input/`** — the real ones, not the names.
-Then answer: in the real world, what system produces or manages data like this? What
-would an operator have had open when this data was created?
+`fsm.json` → `meta.provenance` records where this data would really live, and
+`meta.app_concept` is the product being built on that basis:
 
-Look at what the data actually is. Field names, identifiers, units, the vocabulary of
-the domain, the shape of the records, what a row represents. A layered configuration
-with a precedence order belongs to a config or feature-flag platform. Trip records with
-zone lookups belong to a dispatch or fleet system. Work items with states belong to an
-issue tracker. Let the content tell you.
+> {provenance}
 
-Name **{n} real products** that would plausibly hold it. Prefer the ones a practitioner
-in that field would actually use — including the market leader, if that is where this
-data would live. The best-known product of a category is often exactly the right
-reference, because its conventions are the ones the domain has settled on.
+Take that as given — the environment is already designed around it, and second-guessing
+it now would leave the interface dressed as one category while structured as another.
+Read `task_card.json` and open the files in `input/` to ground yourself in the vocabulary
+and the shape of the content, not to relitigate the category.
+
+Name **{n} real products** in that category. Prefer the ones a practitioner in that field
+would actually use — **including the market leader**. The best-known product of a
+category is often exactly the right reference, because its conventions are the ones the
+domain has settled on.
 
 ## 2. Look at their interfaces
 
@@ -77,7 +76,7 @@ Write it to exactly this path, and nowhere else:
 
 ```json
 {{
-  "provenance": "what system this data would really come from, and why you concluded that",
+  "provenance": "copy meta.provenance from fsm.json verbatim",
   "layout_dsl": ["Sidebar-Left", "Top-Breadcrumb", "Dense-Table", "Light-Theme"],
   "reference_products": ["what you looked at, and what each contributed"],
   "design_tokens": {{
@@ -115,6 +114,8 @@ def retrieve(
     n_products: int = 3,
     n_shots: int = 5,
 ) -> dict | None:
+    fsm = json.loads((task.work_dir / "fsm.json").read_text(encoding="utf-8"))
+    provenance = fsm.get("meta", {}).get("provenance") or fsm.get("meta", {}).get("app_concept", "")
     style_path = (task.work_dir / "style.json").resolve()
 
     # Keyed per task: provenance follows the data, so two tasks in one domain can come
@@ -130,6 +131,7 @@ def retrieve(
     STYLES.mkdir(parents=True, exist_ok=True)
 
     prompt = PROMPT.format(
+        provenance=provenance,
         n=n_products,
         n_shots=n_shots,
         shots_dir=SHOTS.resolve(),

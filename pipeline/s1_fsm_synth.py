@@ -13,15 +13,21 @@ It decides three things: what belongs in the interface, how that content divides
 surfaces, and what is better left on disk. Not everything belongs in a GUI, and saying
 so is a legitimate outcome -- as is concluding that the whole task is not a candidate.
 
-Open-ended generation drifts into mode collapse on its own, so two forces push back: a
-per-run seed that picks an unfamiliar product genre, and the pool of FSMs already
-synthesised, handed to the proposer as shapes to avoid.
+The product it builds is not chosen from a menu. It works out where this data would
+really live -- a layered configuration with a precedence order belongs to a config
+platform, trip records to a dispatch system -- and records that judgement as
+`meta.provenance`, which S3 then uses to decide whose interface to go and look at.
+Deciding the category by any other means leaves the environment wearing the clothes of a
+category it does not belong to.
+
+Variety therefore comes from the tasks themselves, which carry data from very different
+systems. The pool of already-synthesised FSMs is offered only as *interaction mechanisms*
+to vary from, never as product categories to avoid.
 """
 
 from __future__ import annotations
 
 import json
-import random
 from pathlib import Path
 
 import agent
@@ -30,17 +36,6 @@ import taskref
 
 MAX_ROUNDS = 4
 POOL = Path("refs/fsm_pool.jsonl")
-
-GENRE_SEEDS = [
-    "an internal admin console", "a monitoring and observability product",
-    "a customer support desk", "a financial back-office system",
-    "a laboratory information system", "a logistics and fleet tracker",
-    "a content management system", "a data catalog and lineage browser",
-    "a procurement and vendor portal", "an HR and staffing platform",
-    "a security and compliance auditing tool", "a manufacturing MES console",
-    "a clinical trial management system", "a media asset library",
-    "an energy grid operations console", "a legal matter management system",
-]
 
 PROPOSE_PROMPT = """\
 Design a **GUI environment specification** for an agent benchmark.
@@ -103,12 +98,22 @@ and by omission what that surface must never show. If a value is already readabl
 earlier screen, the interaction meant to earn it is decorative. Check each placement
 against the states that precede it.
 
-## Be a real product
+## Be the software this data would really come from
+
+Do not invent a product category. Work out where this data would actually live: what
+system produces or manages it, what an operator would have had open when it was created.
+Field names, identifiers, units, the vocabulary of the domain, what one record
+represents — let the content tell you. A layered configuration with a precedence order
+belongs to a config or feature-flag platform. Trip records with zone lookups belong to a
+dispatch system. Work items with states belong to an issue tracker.
+
+Then build *that*, and record the judgement in `meta.provenance`: which real product
+category this is, and what in the data led you there. The next stage goes and looks at
+that software to derive the visual language, so an invented category leaves the
+environment wearing another category's clothes.
 
 Give it a name and a coherent concept, and include chrome that has nothing to do with
 the task — widgets, banners, unrelated sections — via `noise_plan`.
-
-Seed: **{seed}**. Lean toward {genre}, unless the input genuinely resists it.
 
 {prior_block}
 
@@ -176,19 +181,32 @@ once, and make sure every path chains from the initial state to its declared sta
 
 
 def _prior_block(limit: int = 8) -> str:
+    """Recently used interaction mechanisms, offered as ones to vary from.
+
+    Only the mechanisms -- never the product category. Which software this data belongs
+    to is settled by the data, and pushing away from a category because a previous task
+    used it is how an environment ends up wearing another category's clothes. How content
+    is earned is where the real latitude lives, so that is where variation is asked for.
+    """
     if not POOL.exists():
-        return "No environments have been synthesised yet, so nothing to avoid."
+        return ""
     seen = [json.loads(l) for l in POOL.read_text().splitlines() if l.strip()]
     if not seen:
-        return "No environments have been synthesised yet, so nothing to avoid."
-    lines = [
-        f"  - {e['app_concept']} ({e['domain']}) — earned via: {', '.join(e['modalities'])}"
-        for e in seen[-limit:]
-    ]
+        return ""
+
+    used: list[str] = []
+    for entry in seen[-limit:]:
+        for m in entry.get("modalities", []):
+            if m not in used:
+                used.append(m)
+    if not used:
+        return ""
+
     return (
-        "Environments already synthesised. Do not reproduce these shapes — pick a "
-        "different product genre and a different combination of modalities:\n"
-        + "\n".join(lines)
+        "Interaction mechanisms recently used in other environments. Where this data "
+        "gives you a genuine choice, prefer something these do not already cover — but "
+        "never at the cost of a division that fits the content:\n"
+        + "\n".join(f"  - {m}" for m in used)
     )
 
 
@@ -199,7 +217,7 @@ def _record_in_pool(fsm: dict) -> None:
     with POOL.open("a") as f:
         f.write(json.dumps({
             "task_ref": fsm["meta"]["task_ref"],
-            "domain": fsm["meta"]["domain"],
+            "provenance": fsm["meta"].get("provenance", ""),
             "app_concept": fsm["meta"]["app_concept"].split("--")[0].strip(),
             "modalities": modalities,
             "n_states": len(fsm.get("states", [])),
@@ -266,9 +284,7 @@ def _validate(task: taskref.Task, model: str, staged: set[str]) -> tuple[bool, s
         for i in blocking or crit.get("issues", []))
 
 
-def synthesize(task: taskref.Task, seed: int | None = None, model: str = "opus") -> bool:
-    seed = seed if seed is not None else random.randrange(10**6)
-    rng = random.Random(seed)
+def synthesize(task: taskref.Task, model: str = "opus") -> bool:
     schema = Path("schemas/fsm.schema.json").resolve()
 
     files = task.input_files()
@@ -282,8 +298,6 @@ def synthesize(task: taskref.Task, seed: int | None = None, model: str = "opus")
         file_list=listing,
         schema_path=schema,
         fsm_path=(task.work_dir / "fsm.json").resolve(),
-        seed=seed,
-        genre=rng.choice(GENRE_SEEDS),
         prior_block=_prior_block(),
     )
     res = agent.run(prompt, cwd=task.work_dir, model=model, allowed_dirs=[schema.parent])
@@ -320,7 +334,6 @@ if __name__ == "__main__":
     import sys
 
     batch_root, ref = sys.argv[1], sys.argv[2]
-    seed = int(sys.argv[3]) if len(sys.argv) > 3 else None
 
     try:
         task = taskref.load(batch_root, ref, refresh=True)
@@ -328,6 +341,6 @@ if __name__ == "__main__":
         print(f"not enhanceable: {e}")
         sys.exit(2)
 
-    print(f"S1 FSM synthesis: {task.ref} (seed {seed})")
+    print(f"S1 FSM synthesis: {task.ref}")
     print(f"  {len(task.input_files())} input files staged in {task.input_dir}")
-    sys.exit(0 if synthesize(task, seed) else 1)
+    sys.exit(0 if synthesize(task) else 1)

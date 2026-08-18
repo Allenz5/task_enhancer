@@ -16,7 +16,7 @@
   └─ S6  产出          改写后的任务描述 + 放置清单
 ```
 
-**S1 — FSM 合成。** 直接打开暂存的真实文件工作。逐个文件判断：内容是否应该被放到GUI中、如何在各界面间分割
+**S1 — FSM 合成。** 直接打开暂存的真实文件工作。逐个文件判断：内容是否应该被放到 GUI 中、如何在各界面间分割。同时判断**这份数据在现实中属于什么软件**（`meta.provenance`），并按那个品类来建产品 —— 品类不从菜单里挑，由数据决定，S3 随后据此去看谁的界面。
 
 **S2 — 校验**：
 
@@ -29,7 +29,7 @@
 
 随后由 critic agent 判断结构表达不了的部分：障碍是真实的还是装饰性的、分割方式是否契合内容、是否由单一机制包办全部。
 
-**S3 — 风格检索。** 追问这份数据在现实中会存在于何处：带优先级顺序的配置记录来自配置管理平台，行程记录来自调度系统。找出这些产品，截取其界面，抽出布局 DSL 与设计 token。
+**S3 — 风格检索。** 按 S1 判定的来源去找那一类真实产品（**包括市场领导者** —— 它的惯例就是这个领域沉淀下来的惯例），截取其界面，抽出布局 DSL 与设计 token。品类不在这里重新判断，否则界面会是一个品类、结构是另一个品类。
 
 **S4 — 代码合成。**  同时产出两样东西：应用本身，以及一份 Playwright 脚本模拟一个 agent 走完整个界面，把放进 GUI 的内容取回。
 
@@ -54,7 +54,7 @@ BATCH=/path/to/batch                     # 内含 tasks/ 与 data/
 REF=computing_math/config_precedence_audit_5900b9da
 
 python3 pipeline/taskref.py      "$BATCH" "$REF"        # 暂存 input.zip 并查看
-python3 pipeline/s1_fsm_synth.py "$BATCH" "$REF" 11     # FSM 合成 + 校验（seed 可选）
+python3 pipeline/s1_fsm_synth.py "$BATCH" "$REF"        # FSM 合成 + 校验
 python3 pipeline/s3_style_rag.py "$BATCH" "$REF"        # 来源追溯 → 样式
 python3 pipeline/s4_codegen.py   "$BATCH" "$REF" 5173   # 构建环境
 python3 pipeline/s5_repair.py    envs/<work_dir> 5173   # 验证与修复
@@ -103,7 +103,7 @@ npx playwright test --headed
 ```
 pipeline/    taskref.py（载入）、agent.py（无头驱动）、s1–s6
 schemas/     fsm.schema.json
-refs/        shots/ styles/ fsm_pool.jsonl —— 截取的参考与多样性池
+refs/        shots/ styles/ fsm_pool.jsonl —— 截取的参考与已用交互机制记录
 work/        逐任务的暂存工作区（已 gitignore）
 envs/        生成的环境（随仓库提交，clone 后可直接运行）
 ```
@@ -114,6 +114,8 @@ envs/        生成的环境（随仓库提交，clone 后可直接运行）
 
 ## 已知局限
 
+- **风格不够贴近真实。** 生成的界面已经能看出参考对象的骨架，但离真实产品仍有距离 —— 细节密度、信息层次、以及那些让软件"用起来像那么回事"的琐碎之处还差得远。
+- **仅支持 Claude Code 生成。** 各阶段通过 `claude -p` 调用，未做模型/工具抽象，换用其他 coding agent 需要改 `pipeline/agent.py`。
 - **泄漏防线。** 暂存的输入仍位于环境目录内，能读取文件系统的 agent 可能完全绕过界面。方向是让后端只提供按 FSM 状态切片的端点。
 - **基线审计。** 目前没有任何经验证据表明增强后的任务确实能挡住纯 CLI 的 agent。
-- **多样性未量化。** FSM 池能抑制重复，但没有指标证实这一点。
+- **多样性未量化。** 产品品类由数据决定、机制池抑制重复，但没有指标证实结果确实是多样的。
