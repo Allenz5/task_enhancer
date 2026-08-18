@@ -82,7 +82,25 @@ envs/<domain>__<task_id>/     可运行的环境及其验证脚本
      └─ manifest.json             放置决定、模态、预算
 ```
 
----
+生成的环境会随仓库一起提交，因此 clone 下来即可直接运行、无需重新生成。
+
+### 运行一个已生成的环境
+
+```bash
+cd envs/<domain>__<task_id>
+npm install              # 仅首次
+PORT=5173 npm start      # 然后打开 http://localhost:5173
+```
+
+端口需显式给出（`server.js` 读 `$PORT`），同时开多个环境时各给一个端口即可。停止用 `Ctrl-C`，后台启动的用 `pkill -f "node server.js"`。
+
+想看这个环境**应该怎么走**，让 ground-truth 脚本带着浏览器跑一遍最快：
+
+```bash
+npx playwright test --headed
+```
+
+它会完整演示一遍取回全部 GUI 内容所需的操作路径。
 
 ## 目录结构
 
@@ -91,8 +109,10 @@ pipeline/    taskref.py（载入）、agent.py（无头驱动）、s1–s6
 schemas/     fsm.schema.json
 refs/        shots/ styles/ fsm_pool.jsonl —— 截取的参考与多样性池
 work/        逐任务的暂存工作区（已 gitignore）
-envs/        生成的环境
+envs/        生成的环境（随仓库提交，clone 后可直接运行）
 ```
+
+`node_modules/` 与运行时产物（`test-results/`、`downloads/`、`.server.log`）不入库，所以运行前需要 `npm install`。
 
 ---
 
