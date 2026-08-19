@@ -1,0 +1,57 @@
+{
+  "records": [
+    {
+      "session_id": "tcp-a",
+      "protocol": "tcp",
+      "frames": [
+        {
+          "message_id": "m1",
+          "tick": 3,
+          "fragment_index": 1,
+          "fragment_count": 2,
+          "payload_hex": "42"
+        },
+        {
+          "message_id": "m1",
+          "tick": 1,
+          "fragment_index": 0,
+          "fragment_count": 2,
+          "payload_hex": "41"
+        }
+      ]
+    },
+    {
+      "session_id": "udp-a",
+      "protocol": "udp",
+      "frames": [
+        {
+          "message_id": "m2",
+          "tick": 2,
+          "fragment_index": 0,
+          "fragment_count": 3,
+          "payload_hex": "aa"
+        },
+        {
+          "message_id": "m2",
+          "tick": 4,
+          "fragment_index": 2,
+          "fragment_count": 3,
+          "payload_hex": "cc"
+        }
+      ]
+    },
+    {
+      "session_id": "udp-b",
+      "protocol": "udp",
+      "frames": [
+        {
+          "message_id": "m3",
+          "tick": 2,
+          "fragment_index": 0,
+          "fragment_count": 1,
+          "payload_hex": "ff"
+        }
+      ]
+    }
+  ]
+}

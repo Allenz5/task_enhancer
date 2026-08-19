@@ -1,0 +1,83 @@
+{
+  "placements": [
+    {
+      "source": "records.json",
+      "path": [
+        "a_open_search",
+        "a_widen_window",
+        "a_run_query",
+        "a_open_session",
+        "a_select_frame"
+      ],
+      "pieces_retrieved": 5,
+      "matched": true,
+      "piece_unit": "frame (path walked once per frame)",
+      "actions_walked": 28,
+      "detail": {
+        "sessions_retrieved": 3,
+        "result_header_matched": 3,
+        "matched_under_default_window": 1,
+        "state": "frame_bytes"
+      }
+    },
+    {
+      "source": "rules.json",
+      "path": [
+        "a_open_profiles",
+        "a_sort_profiles",
+        "a_open_profile"
+      ],
+      "pieces_retrieved": 1,
+      "matched": true,
+      "piece_unit": "parameter record (whole, on one surface)",
+      "actions_walked": 8,
+      "detail": {
+        "state": "profile_detail",
+        "alternate_path": [
+          "a_open_profiles",
+          "a_search_profiles",
+          "a_open_profile"
+        ],
+        "parameters_retrieved": 4
+      }
+    },
+    {
+      "source": "output_contract.json",
+      "path": [
+        "a_open_reference",
+        "a_page_to_input",
+        "a_page_to_output",
+        "a_page_to_rejection",
+        "a_page_to_baseline"
+      ],
+      "pieces_retrieved": 5,
+      "matched": true,
+      "piece_unit": "reference page (front, input, output, rejection, baseline)",
+      "actions_walked": 10,
+      "detail": {
+        "state": "spec_baseline",
+        "paging_reversible": true
+      }
+    },
+    {
+      "source": "public_edge_cases.json",
+      "path": [
+        "a_open_regression",
+        "a_open_refusal_cases",
+        "a_back_from_refusals",
+        "a_open_invariant_cases"
+      ],
+      "pieces_retrieved": 8,
+      "matched": true,
+      "piece_unit": "regression case",
+      "actions_walked": 6,
+      "detail": {
+        "state": "regression_invariants",
+        "refusal_cases": 4,
+        "invariant_cases": 4,
+        "empty_capture_case_resolved_on": "spec_baseline"
+      }
+    }
+  ],
+  "total_actions_walked": 52
+}

@@ -1,0 +1,120 @@
+{
+  "taskId": "computing_math/protocol_trace_replay_229d49f9",
+  "taxonomy": {
+    "domain_id": "9",
+    "domain_code": "computing_math",
+    "subdomain_id": "9.1",
+    "subdomain_code": "software_eng",
+    "subdomain_name": "Software Engineering",
+    "classifier": {
+      "model": "gpt-4o-mini",
+      "classified_at": "2026-08-07T01:02:44.991125Z",
+      "source": {
+        "submission_id": "ef6218a4-1106-4536-8b8b-62a39a50903a",
+        "fields": [
+          "task_description",
+          "task_short_name",
+          "industry_domain",
+          "software_and_version"
+        ]
+      },
+      "rationale": "The task involves software development for protocol simulation and data processing."
+    }
+  },
+  "title": "Protocol Trace Replay and Mixed-Traffic Verification",
+  "summary": "Implement and verify a deterministic offline replay of synthetic TCP and UDP frame fragments, including strict fragment drops, global scheduling, and an ordered protocol regression matrix.",
+  "software": [
+    "Python 3.11 standard library"
+  ],
+  "taskPrompt": "> **本任务的部分输入已不在文件系统中。**\n> 下列输入现在只存在于运行于 http://localhost:5174 的应用里，需要通过界面操作获取：\n> - `output_contract.json`\n> - `public_edge_cases.json`\n> - `records.json`\n> - `rules.json`\n>\n> 其余输入仍在原路径上，可直接读取。任务要求、交付物与验收标准均未改变。\n\nImplement a reusable deterministic network-protocol trace replay workflow on an offline Ubuntu system.\n\n## Inputs\n- Synthetic trace records: `http://localhost:5174  (records.json，改为在应用中获取)`\n- Authoritative replay policy: `http://localhost:5174  (rules.json，改为在应用中获取)`\n- Complete input, output, ordering, and error contract: `http://localhost:5174  (output_contract.json，改为在应用中获取)`\n- Public boundary checklist: `http://localhost:5174  (public_edge_cases.json，改为在应用中获取)`\n- Data provenance declaration: `/media/user/data/agenthle/computing_math/protocol_trace_replay_229d49f9/base/input/deidentification_manifest.json`\n\n## Required work\n1. Implement and export `process_protocol_trace_replay(data, policy)` in `/media/user/data/agenthle/computing_math/protocol_trace_replay_229d49f9/base/output/protocol_trace_replay.py` using only the Python 3.11+ standard library. Follow every validation, fragment assembly/drop, global replay ordering, object-key ordering, and input-immutability rule in `output_contract.json`. The function must work for other contract-valid records and must not hard-code the supplied result.\n2. Independently process the supplied records and write the exact ordered result object to `/media/user/data/agenthle/computing_math/protocol_trace_replay_229d49f9/base/output/protocol_trace_replay_result.json` as UTF-8 JSON.\n3. Write `/media/user/data/agenthle/computing_math/protocol_trace_replay_229d49f9/base/output/protocol_trace_replay_verification.md` with the headings `## 业务规则`, `## 输入字段与类型`, `## 排序与 null`, `## 拒绝边界`, and `## 验证结论`. Explain Unicode ordering, strict fragment drop, `ValueError` boundaries, offline verification, and the observed result.\n4. Write an offline standard-library test program at `/media/user/data/agenthle/computing_math/protocol_trace_replay_229d49f9/base/output/tests/test_submission.py`. It must import the delivered module and exercise the public input, empty/reordered/new inputs, rejection behavior, determinism, and deep input immutability. It must exit successfully when the implementation is correct and finish within 10 seconds.\n\n## Constraints\n- Do not modify staged inputs.\n- Do not access the network, accounts, databases, or files outside this task directory.\n- All deliverables must be regular UTF-8 files under `/media/user/data/agenthle/computing_math/protocol_trace_replay_229d49f9/base/output`. JSON may contain a UTF-8 BOM; extra files are ignored.\n",
+  "agentMustDo": [
+    "Implement a reusable process_protocol_trace_replay(data, policy) function that follows the complete visible contract without mutating inputs.",
+    "Compute the supplied synthetic records and write the exact ordered JSON result.",
+    "Document the replay, sorting, null, rejection, and offline verification rules under the required headings.",
+    "Provide an offline standard-library test program that finishes within 10 seconds."
+  ],
+  "inputFiles": [
+    {
+      "name": "records.json",
+      "format": "json",
+      "path": "input/records.json",
+      "description": "Synthetic TCP and UDP sessions containing timestamped hexadecimal frame fragments."
+    },
+    {
+      "name": "rules.json",
+      "format": "json",
+      "path": "input/rules.json",
+      "description": "The authoritative fixed protocol replay policy."
+    },
+    {
+      "name": "output_contract.json",
+      "format": "json",
+      "path": "input/output_contract.json",
+      "description": "Complete input validation, output schema, key ordering, array ordering, error, encoding, and runtime contract."
+    },
+    {
+      "name": "public_edge_cases.json",
+      "format": "json",
+      "path": "input/public_edge_cases.json",
+      "description": "Public checklist of boundary behavior the implementation and tests must cover."
+    },
+    {
+      "name": "deidentification_manifest.json",
+      "format": "json",
+      "path": "input/deidentification_manifest.json",
+      "description": "Declaration that the records are synthetic and contain no personal data or secrets."
+    }
+  ],
+  "referenceFiles": [
+    {
+      "name": "protocol_trace_replay.py",
+      "format": "python",
+      "path": "output/protocol_trace_replay.py",
+      "description": "Required reusable implementation exporting process_protocol_trace_replay."
+    },
+    {
+      "name": "protocol_trace_replay_result.json",
+      "format": "json",
+      "path": "output/protocol_trace_replay_result.json",
+      "description": "Required exact ordered result for the supplied synthetic records."
+    },
+    {
+      "name": "protocol_trace_replay_verification.md",
+      "format": "markdown",
+      "path": "output/protocol_trace_replay_verification.md",
+      "description": "Required business-rule and verification report."
+    },
+    {
+      "name": "test_submission.py",
+      "format": "python",
+      "path": "output/tests/test_submission.py",
+      "description": "Required offline standard-library test program."
+    }
+  ],
+  "outputContracts": [
+    {
+      "name": "output_contract.json",
+      "format": "json-contract",
+      "path": "input/output_contract.json",
+      "description": "Authoritative contract for exact fields and types, policy constants, fragment behavior, output keys and order, sorting, errors, immutability, and runtime limits."
+    },
+    {
+      "name": "public_edge_cases.json",
+      "format": "json",
+      "path": "input/public_edge_cases.json",
+      "description": "Required public edge-case coverage for the implementation and delivered tests."
+    }
+  ],
+  "evaluation": "All four required regular UTF-8 files are checked. The delivered function is executed offline against the visible contract, including supplied and new valid traces, strict `ValueError` boundaries, deterministic output, exact object-key and array ordering, and deep input immutability. The supplied-record JSON must exactly match an independent recomputation; the report must contain the required sections; and the delivered test must pass within 10 seconds. Missing or structurally unsafe core code scores 0. Other incomplete or incorrect substantive requirements receive deterministic partial credit between 0 and 1.",
+  "requiredCredentials": [],
+  "evaluatorCredentials": [],
+  "vm": {
+    "network": {
+      "mode": "off"
+    },
+    "machineType": "c4-standard-4",
+    "snapshot": "cpu-free-ubuntu",
+    "timeout": 7200
+  },
+  "category": "computing_math"
+}

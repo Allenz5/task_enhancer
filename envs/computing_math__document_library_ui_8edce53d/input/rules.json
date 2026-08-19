@@ -1,0 +1,23 @@
+{
+  "mode": "document_library_ui",
+  "key": "document_id",
+  "bytes_per_unit": 1024,
+  "max_name_chars": 80,
+  "page_size": 3,
+  "upload_states": [
+    "ready",
+    "uploading",
+    "failed"
+  ],
+  "allowed_mimes": [
+    "application/pdf",
+    "text/plain",
+    "text/markdown"
+  ],
+  "keyboard_submit_key": "Enter",
+  "viewport_widths": [
+    375,
+    768,
+    1024
+  ]
+}

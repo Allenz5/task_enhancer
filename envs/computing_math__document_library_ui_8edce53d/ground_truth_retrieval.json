@@ -1,0 +1,171 @@
+{
+  "placements": [
+    {
+      "source": "records.json#/records/*/document_id+name+label",
+      "path": [
+        "a_open_documents",
+        "a_page_grid"
+      ],
+      "pieces_retrieved": 12,
+      "matched": true,
+      "state": "document_grid",
+      "modality_note": "paged listing walked across 2 pages, ordered by an operational column"
+    },
+    {
+      "source": "records.json#/records/*/bytes+mime",
+      "path": [
+        "a_open_documents",
+        "a_page_grid",
+        "a_open_properties"
+      ],
+      "pieces_retrieved": 8,
+      "matched": true,
+      "state": "document_properties",
+      "modality_note": "properties opened and closed once per element (4 drills, 13 actions walked)"
+    },
+    {
+      "source": "records.json#/records/*/upload_state",
+      "path": [
+        "a_open_documents",
+        "a_open_transfers"
+      ],
+      "pieces_retrieved": 4,
+      "matched": true,
+      "state": "transfer_monitor",
+      "modality_note": "ingestion queue read in one visit and joined back by identifier"
+    },
+    {
+      "source": "records.json#/records/*/selected",
+      "path": [
+        "a_open_documents",
+        "a_open_tray"
+      ],
+      "pieces_retrieved": 2,
+      "matched": true,
+      "state": "upload_tray",
+      "modality_note": "batch-upload dialog read in one visit, in the order items were added"
+    },
+    {
+      "source": "rules.json#/mode+key+bytes_per_unit+max_name_chars+page_size",
+      "path": [
+        "a_open_settings"
+      ],
+      "pieces_retrieved": 5,
+      "matched": true,
+      "state": "library_settings",
+      "modality_note": "tabbed administration screen read as text"
+    },
+    {
+      "source": "rules.json#/allowed_mimes+upload_states",
+      "path": [
+        "a_open_settings",
+        "a_settings_content_tab"
+      ],
+      "pieces_retrieved": 6,
+      "matched": true,
+      "state": "settings_content_types",
+      "modality_note": "second tab of the administration screen, reached by switching tabs"
+    },
+    {
+      "source": "rules.json#/viewport_widths",
+      "path": [
+        "a_open_documents",
+        "a_open_presets"
+      ],
+      "pieces_retrieved": 3,
+      "matched": true,
+      "state": "viewport_presets",
+      "modality_note": "read as the options a toolbar control offers, never written out as a setting"
+    },
+    {
+      "source": "rules.json#/keyboard_submit_key",
+      "path": [
+        "a_open_shortcuts"
+      ],
+      "pieces_retrieved": 1,
+      "matched": true,
+      "state": "shortcuts_overlay",
+      "modality_note": "binding read from the keyboard-shortcuts overlay among invented bindings"
+    },
+    {
+      "source": "output_contract.json#/schema_version+encoding+execution",
+      "path": [
+        "a_open_developer"
+      ],
+      "pieces_retrieved": 7,
+      "matched": true,
+      "state": "developer_index",
+      "modality_note": "developer portal landing page read on the way in to every section"
+    },
+    {
+      "source": "output_contract.json#/input_top_level+input_contract+policy_contract+output_contract+object_rule+array_rule+null_rule",
+      "path": [
+        "a_open_developer",
+        "a_open_reference"
+      ],
+      "pieces_retrieved": 7,
+      "matched": true,
+      "state": "developer_reference",
+      "modality_note": "reference section opened in its own right from the developer landing page"
+    },
+    {
+      "source": "output_contract.json#/normative_behavior/size_text+file_fields+upload_hint_priority",
+      "path": [
+        "a_open_developer",
+        "a_open_behavior"
+      ],
+      "pieces_retrieved": 10,
+      "matched": true,
+      "state": "developer_behavior",
+      "modality_note": "second reference section, opened separately from the landing page"
+    },
+    {
+      "source": "output_contract.json#/errors",
+      "path": [
+        "a_open_developer",
+        "a_open_errors"
+      ],
+      "pieces_retrieved": 7,
+      "matched": true,
+      "state": "developer_errors",
+      "modality_note": "third reference section, opened separately from the landing page"
+    },
+    {
+      "source": "output_contract.json#/domain_deliverables+normative_behavior/node_view_model+vue_event_contract+vue_components+verification_document",
+      "path": [
+        "a_open_developer",
+        "a_open_components"
+      ],
+      "pieces_retrieved": 27,
+      "matched": true,
+      "state": "developer_components",
+      "modality_note": "fourth reference section, the only surface tying an event to a key"
+    },
+    {
+      "source": "output_contract.json#/empty_input_result",
+      "path": [
+        "a_open_developer",
+        "a_open_reference",
+        "a_open_console",
+        "a_run_console"
+      ],
+      "pieces_retrieved": 7,
+      "matched": true,
+      "state": "developer_console_response",
+      "modality_note": "produced by composing a call over an empty document set and executing it"
+    },
+    {
+      "source": "public_edge_cases.json#/cases",
+      "path": [
+        "a_open_governance",
+        "a_preview_certification",
+        "a_page_certification",
+        "a_page_certification"
+      ],
+      "pieces_retrieved": 10,
+      "matched": true,
+      "state": "certification_viewer",
+      "modality_note": "stored document opened from a collection and advanced across 3 preview pages"
+    }
+  ]
+}

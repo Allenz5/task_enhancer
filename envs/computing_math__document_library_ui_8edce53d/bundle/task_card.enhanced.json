@@ -1,0 +1,130 @@
+{
+  "taskId": "computing_math/document_library_ui_8edce53d",
+  "taxonomy": {
+    "domain_id": "9",
+    "domain_code": "computing_math",
+    "subdomain_id": "9.1",
+    "subdomain_code": "software_eng",
+    "subdomain_name": "Software Engineering",
+    "classifier": {
+      "model": "gpt-4o-mini",
+      "classified_at": "2026-08-06T22:46:10.167915Z",
+      "source": {
+        "submission_id": "f1a9f22f-0121-4151-999c-779c46e5a914",
+        "fields": [
+          "task_description",
+          "task_short_name",
+          "industry_domain",
+          "software_and_version"
+        ]
+      },
+      "rationale": "The task involves software development for a document library UI."
+    }
+  },
+  "title": "Enterprise Document Library UI Model",
+  "summary": "Implement a strict offline document-list view-model with exact file-size formatting, upload interactions, Node behavior, and responsive Vue artifacts.",
+  "software": [
+    "Python",
+    "Node.js",
+    "Vue.js",
+    "TypeScript"
+  ],
+  "taskPrompt": "> **本任务的部分输入已不在文件系统中。**\n> 下列输入现在只存在于运行于 http://localhost:5175 的应用里，需要通过界面操作获取：\n> - `output_contract.json`\n> - `public_edge_cases.json`\n> - `records.json`\n> - `rules.json`\n>\n> 其余输入仍在原路径上，可直接读取。任务要求、交付物与验收标准均未改变。\n\nImplement the deterministic offline view-model and domain artifacts for an enterprise document-library upload UI.\n\n## Inputs\n\n- Anonymous document records: `E:\\agenthle\\computing_math\\document_library_ui_8edce53d\\base\\input\\records.json`\n- Exact policy: `E:\\agenthle\\computing_math\\document_library_ui_8edce53d\\base\\input\\rules.json`\n- Binding recursive input, policy, output, ordering, empty-set, error, and execution contract: `E:\\agenthle\\computing_math\\document_library_ui_8edce53d\\base\\input\\output_contract.json`\n- Public boundary matrix: `E:\\agenthle\\computing_math\\document_library_ui_8edce53d\\base\\input\\public_edge_cases.json`\n- Public data-boundary statement: `E:\\agenthle\\computing_math\\document_library_ui_8edce53d\\base\\input\\deidentification_manifest.json`\n\nUse Python 3.11 or newer and Node.js 20 or newer. Use only their standard runtimes. Network access is disabled and no package installation is needed.\n\n## Required work\n\n1. Implement and export `process_document_library_ui(data, policy)` from `document_library_ui.py`. Compute only from the arguments and do not mutate either argument or any nested value.\n2. Apply the function to the staged records and policy, then write the returned object to `document_library_ui_result.json` as UTF-8 JSON.\n3. Write `document_library_ui_verification.md` with the sections `业务规则`, `输入字段与类型`, `排序与 null`, `拒绝边界`, and `验证结论`; explicitly document that 1280 B formats as 1.3 KB and that execution is offline using standard runtimes with no network or package installation.\n4. Provide a directly executable `tests/test_submission.py` that exercises normal, boundary, ordering, rejection, determinism, and deep-immutability behavior.\n5. Implement the executable domain artifacts listed below. The JavaScript view-model must export `formatBytes`, `createDocumentList(files)`, `submitFromKey(key, selectedIds)`, and `layoutForWidth`; `createDocumentList(files)` accepts the record array and returns the sorted output file-row array. `submitFromKey('Enter', selectedIds)` must return `{name: 'submit-upload', payload: {document_ids: selectedIds}}`, while any other key returns `null`; it must validate the selected ID array without mutating it. `vue_event_contract.mjs` must export `createToggleEvent`, `createSubmitUploadEvent`, and `submitEventFromKeyboard` with the exact event behavior published in `output_contract.json`.\n6. In `document_list.vue`, declare the `files` prop and `toggle` emit. Checkbox changes emit two arguments as `toggle(document_id, selected)`, while the rendered row binds `file.aria_label` and exposes `file.upload_state`.\n7. In `upload_modal.vue`, declare the `uploadHint` and `selectedIds` props and the `submit-upload` emit. Form submit and keyboard Enter both emit `submit-upload({document_ids: selectedIds})`; render `uploadHint` as status text.\n8. Both Vue files must consume `vue_event_contract.mjs`. Their responsive CSS must prevent horizontal scrolling at 375, 768, and 1024 pixels, contain `max-width`, `min-width`, and `overflow-wrap`, and include the published 600-pixel breakpoint.\n\n## Outputs\n\nWrite these files under `E:\\agenthle\\computing_math\\document_library_ui_8edce53d\\base\\output` with the exact paths and casing:\n\n- `document_library_ui.py`\n- `document_library_ui_result.json`\n- `document_library_ui_verification.md`\n- `tests/test_submission.py`\n- `domain_artifacts/document_library_ui.mjs`\n- `domain_artifacts/vue_event_contract.mjs`\n- `domain_artifacts/document_list.vue`\n- `domain_artifacts/upload_modal.vue`\n- `domain_artifacts/file_size_formatter.ts`\n- `domain_artifacts/ui_acceptance.md`\n- `domain_artifacts/ui_smoke_test.mjs`\n- `domain_artifacts/package.json`\n\nThe policy is exact. Validate every nested field before computing. Follow the visible contract for strict scalar types, exact object keys and order, unique IDs, Unicode code-point sorting, integer round-half-up size formatting through the maximum safe integer, upload-hint priority, selected-ID order, event payloads, JSON property order, empty input, and `ValueError` rejection. A missing byte size is exactly `Size unavailable`; every `aria_label` is exactly `{name}, {size_text}`; every valid file is keyboard-selectable. JavaScript and TypeScript must convert validated Numbers to BigInt before multiplication. Do not modify staged inputs. Write solver-created files only under the output directory.\n",
+  "agentMustDo": [
+    "Read all five public input and contract files.",
+    "Implement the exact immutable Python view-model and compute the public result JSON.",
+    "Provide executable Python tests and the required verification report.",
+    "Implement the Node view-model, event constructors, Vue components, TypeScript formatter, smoke test, package metadata, and UI acceptance note.",
+    "Write all twelve exact deliverables under the canonical output directory."
+  ],
+  "inputFiles": [
+    {
+      "name": "records.json",
+      "format": "json",
+      "path": "input/records.json",
+      "description": "Anonymous document-library business records."
+    },
+    {
+      "name": "rules.json",
+      "format": "json",
+      "path": "input/rules.json",
+      "description": "Exact document-library policy object."
+    },
+    {
+      "name": "output_contract.json",
+      "format": "json-schema",
+      "path": "input/output_contract.json",
+      "description": "Binding recursive input, output, ordering, error, execution, and domain-artifact contract."
+    },
+    {
+      "name": "public_edge_cases.json",
+      "format": "json",
+      "path": "input/public_edge_cases.json",
+      "description": "Public empty, reorder, Unicode, rejection, immutability, and determinism cases."
+    },
+    {
+      "name": "deidentification_manifest.json",
+      "format": "json",
+      "path": "input/deidentification_manifest.json",
+      "description": "Public statement that the records are anonymous and synthetic."
+    }
+  ],
+  "referenceFiles": [
+    {
+      "name": "document_library_ui.py",
+      "format": "python",
+      "path": "output/document_library_ui.py",
+      "description": "Required Python implementation exporting process_document_library_ui."
+    },
+    {
+      "name": "document_library_ui_result.json",
+      "format": "json",
+      "path": "output/document_library_ui_result.json",
+      "description": "Computed result for the staged records and policy."
+    },
+    {
+      "name": "document_library_ui_verification.md",
+      "format": "markdown",
+      "path": "output/document_library_ui_verification.md",
+      "description": "Required business and boundary verification report."
+    },
+    {
+      "name": "tests/test_submission.py",
+      "format": "python",
+      "path": "output/tests/test_submission.py",
+      "description": "Directly executable public-contract test suite."
+    },
+    {
+      "name": "domain_artifacts",
+      "format": "source-tree",
+      "path": "output/domain_artifacts",
+      "description": "Required Node, Vue, TypeScript, event, smoke-test, package, and acceptance artifacts."
+    }
+  ],
+  "outputContracts": [
+    {
+      "name": "output_contract.json",
+      "format": "json-schema",
+      "path": "input/output_contract.json",
+      "description": "Complete machine-readable contract for exact fields, types, values, property order, Size unavailable and ARIA formulas, Vue props/emits/event payloads, responsive CSS, algorithms, domain outputs, and failure semantics."
+    },
+    {
+      "name": "public_edge_cases.json",
+      "format": "json",
+      "path": "input/public_edge_cases.json",
+      "description": "Public contract cases for empty input, reorder invariance, Unicode, errors, mutation, and determinism."
+    }
+  ],
+  "evaluation": "Missing required output, unsafe output-tree structure, unreadable required files, invalid JSON, or a missing Python entrypoint receives 0. Structurally valid submissions receive deterministic partial credit for exact Python valid-case behavior, ValueError rejection, immutability and property order, the public result, executable Node behavior, Vue/TypeScript event and responsive contracts, verification documentation, and candidate tests. Full credit requires every published component. Evaluator-owned asset loss, input drift, runtime preflight failure, or scorer failure is an evaluation error rather than a zero score.",
+  "requiredCredentials": [],
+  "evaluatorCredentials": [],
+  "vm": {
+    "network": {
+      "mode": "off"
+    },
+    "machineType": "c4-standard-4",
+    "snapshot": "cpu-free",
+    "timeout": 7200
+  },
+  "category": "computing_math"
+}

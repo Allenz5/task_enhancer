@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Kestrel Capture Console</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header id="topbar">
+  <span class="mark" aria-hidden="true"></span>
+  <span class="console-name">Kestrel Capture Console</span>
+  <span class="spacer"></span>
+  <button class="tool" id="btn-shortcuts" type="button">Keyboard shortcuts</button>
+  <button class="tool" id="btn-density" type="button" aria-pressed="false">Compact rows</button>
+  <button class="tool" id="btn-bundle" type="button">Support bundle</button>
+  <span class="ver">6.2.117</span>
+</header>
+
+<div id="shell">
+  <nav id="rail">
+    <div class="rail-head">Console</div>
+    <a class="nav" href="#/" data-nav="home">Capture workspace</a>
+    <a class="nav" href="#/search" data-nav="search">Capture search</a>
+    <a class="nav" href="#/profiles" data-nav="profiles">Replay profiles</a>
+    <a class="nav" href="#/reference/front" data-nav="reference">Replay format reference</a>
+    <a class="nav" href="#/regression" data-nav="regression">Replay regression suite</a>
+    <div class="rail-head">Monitoring</div>
+    <a class="nav" href="#/" data-nav="ids">IDS alert inbox <span class="badge" id="ids-badge">—</span></a>
+    <div class="rail-foot">
+      Index engine kestrel-idx 6.2.1<br>
+      Store /srv/kestrel/capture<br>
+      Sessions are not browsable — run a display filter.
+    </div>
+  </nav>
+
+  <div id="content">
+    <div id="crumb"></div>
+    <main id="surface" data-surface="boot" data-ready="false"></main>
+    <div class="statusbar" id="statusbar"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

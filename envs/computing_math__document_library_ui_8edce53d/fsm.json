@@ -1,0 +1,778 @@
+{
+  "candidate": true,
+  "meta": {
+    "task_ref": "computing_math/document_library_ui_8edce53d",
+    "domain": "Enterprise Content Management — document library, batch-upload console and integration developer center",
+    "app_concept": "Foliant Content Library — an enterprise ECM workspace where a shared library of documents is browsed page by page, each item's technical metadata sits on its properties surface, in-flight ingestion is watched from a transfer monitor, the set staged for the next upload sits in the upload console, library behaviour is administered from settings, and the view-model an integrator must reproduce is published in a developer center with a runnable sample-request console.",
+    "seed": 23,
+    "provenance": "This is an enterprise content management system's document library and upload console — the family of SharePoint document libraries, Box, Egnyte, M-Files, Alfresco and OpenText Content Server — together with the integration developer portal such platforms ship. What led there: each record is one stored document carrying an opaque document identifier, a file name, a byte size that may be unreported, an internet media type, a display label distinct from the file name, an ingestion state drawn from a ready/uploading/failed set, and a flag saying whether it is staged for the next upload. That is a document-library row plus a transfer, not a business entity. The policy object reinforces it: an allowlist of accepted media types, a maximum file-name length, a rows-per-page size, a size-unit base of 1024, a set of transfer states, a keyboard key that submits an upload, and a set of preview viewport widths — this is exactly the administration surface of a document library, not application domain configuration. The contract then describes list rows carrying accessible labels, a size string with a fallback for unreported sizes, a priority-ordered upload hint, a per-row checkbox that toggles selection, and an upload dialog submitted by form or by keyboard — i.e. the published behaviour contract for a document library's list view and batch-upload modal."
+  },
+  "signature_vars": {
+    "grid_page": {
+      "type": "int",
+      "default": 1,
+      "description": "Current page of the document library listing. The listing pages at the library's configured rows-per-page, so the population does not fit on one page."
+    },
+    "grid_sort": {
+      "type": "enum",
+      "values": [
+        "modified",
+        "owner",
+        "location"
+      ],
+      "default": "modified",
+      "description": "Which operational column the listing is ordered by. Every option is an invented operational column; none of them is the identifier or file-name ordering the contract requires, so that ordering is never handed over pre-sorted."
+    },
+    "open_document": {
+      "type": "string",
+      "default": "",
+      "description": "Identifier of the document whose properties surface is open; empty when none is open."
+    },
+    "presets_open": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the listing's responsive-preview preset control has been opened."
+    },
+    "transfers_open": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the transfer monitor has been opened."
+    },
+    "tray_open": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the upload console holding the staged set has been opened."
+    },
+    "settings_tab": {
+      "type": "enum",
+      "values": [
+        "general",
+        "content_types"
+      ],
+      "default": "general",
+      "description": "Which tab of library administration is showing."
+    },
+    "shortcuts_open": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the keyboard-shortcuts overlay has been opened."
+    },
+    "dev_section": {
+      "type": "enum",
+      "values": [
+        "none",
+        "reference",
+        "behavior",
+        "errors",
+        "components"
+      ],
+      "default": "none",
+      "description": "Which section of the developer center is open beneath its landing page."
+    },
+    "console_run": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the sample request has been executed in the developer console, producing a response body."
+    },
+    "viewer_page": {
+      "type": "int",
+      "default": 1,
+      "description": "Current page of the document open in the built-in previewer."
+    }
+  },
+  "states": [
+    {
+      "id": "library_home",
+      "page": "Library Home",
+      "description": "The workspace landing surface: activity chrome plus a navigation rail leading to the document library, the governance collection, library administration and the developer center.",
+      "initial": true,
+      "visible_data": "Only workspace chrome: storage quota against plan, an index-freshness timestamp, an approvals inbox badge, a retention-policy banner, a recent-activity feed phrased as actor-and-verb without naming any library item. Aggregate counters may state how many documents the library holds and how many transfers are outstanding, as bare integers. This surface must never reveal any document identifier, file name, display label, byte size, media type, transfer state or staging flag from records.json; nor any configured value from rules.json — no size-unit base, name-length limit, rows-per-page, media-type allowlist, transfer-state set, submit key or preview width; nor any clause, schema, formula, error condition, component contract or sample response from output_contract.json; nor the identifier or text of any case in public_edge_cases.json."
+    },
+    {
+      "id": "document_grid",
+      "page": "Documents",
+      "description": "The shared document library listing, paged at the library's configured rows-per-page and ordered by an operational column rather than by identifier or file name.",
+      "visible_data": "One row per element of records.json#/records that falls on the current page: that element's document identifier, its file name and its display label, alongside invented operational columns (last modified, owner, folder location, version number, permission chip). Row order follows the active operational sort, so the name-then-identifier ordering the contract requires must be derived rather than copied off the screen. This surface must never reveal any element's byte size — neither an exact count nor any human-readable size string, and no size column, badge, tooltip or aggregate — nor any element's media type, nor its transfer state, nor whether it is staged for the next upload. It must never print the configured rows-per-page as a stated value or offer a rows-per-page selector, and must never reveal any other configured value from rules.json, any clause of output_contract.json, or any case in public_edge_cases.json."
+    },
+    {
+      "id": "document_properties",
+      "page": "Document Properties",
+      "description": "The properties surface for one open document: the technical metadata the library stores about that item alone.",
+      "visible_data": "For the open element of records.json#/records only: its exact stored byte count as an integer, and its media type as recorded. The byte count's rendering is load-bearing — an element whose size is recorded as zero and an element whose size was never reported must read as two different things, each as itself, never collapsed into a shared dash, blank or placeholder, and neither may be presented as an approximation. This surface must never render a human-readable or unit-scaled size string, an accessible label, or any text derived from the byte count; it must never reveal the open element's transfer state or staging flag; it must never reveal another element's byte count or media type; and it must never reveal any configured value from rules.json, any clause of output_contract.json, or any case in public_edge_cases.json."
+    },
+    {
+      "id": "viewport_presets",
+      "page": "Documents — Responsive Preview Presets",
+      "description": "The listing's responsive-preview control, opened from the library toolbar: the device widths this library supports previewing at.",
+      "visible_data": "The complete set of preview widths configured in rules.json, in the configured order, as the selectable presets of the control — this is the console's only rendering of that set. This surface must never reveal the narrow layout breakpoint or the horizontal-scroll requirement, which belong to the published layout contract, nor any other configured value, nor any document's data."
+    },
+    {
+      "id": "transfer_monitor",
+      "page": "Transfer Monitor",
+      "description": "The ingestion queue opened from the library toolbar: every document the library is currently tracking a transfer for, with the state that transfer is in.",
+      "visible_data": "One row per element of records.json#/records: the element's identifier and file name, and the ingestion state that element is recorded in, written as itself. Invented transfer chrome may appear (queued-at timestamp, retry count, connection profile, target node). This surface must never reveal any byte count, transferred-bytes readout, percentage-complete figure or any human-readable size string; never a media type; never whether an element is staged for the next upload; never the priority order that turns a set of states into a status message, nor any of the status messages themselves; and never any clause of output_contract.json or any case in public_edge_cases.json."
+    },
+    {
+      "id": "upload_tray",
+      "page": "Upload Console",
+      "description": "The batch-upload dialog opened from the library toolbar, holding the set of documents currently staged for the next upload.",
+      "visible_data": "Exactly which elements of records.json#/records carry the staged flag, identified by document identifier and file name, listed in the order they were added to the console rather than in any library or contract ordering. A bare count of staged items may appear. This surface must never reveal any staged element's byte size, media type or transfer state; never any element that is not staged, nor any statement of which elements are absent from the staging set beyond their absence from the list; never a computed status message or hint text of any kind; never the event name, payload shape or submit key that upload submission uses; and never any clause of output_contract.json or any case in public_edge_cases.json."
+    },
+    {
+      "id": "library_settings",
+      "page": "Library Administration — General",
+      "description": "The general tab of library administration: how this library identifies its items and how the listing is displayed. This is the console's authoritative home for these settings; nothing else restates them.",
+      "visible_data": "From rules.json: the library's configured behaviour profile identifier, the record field this library treats as an item's key, the size-unit base used when scaling sizes for display, the maximum permitted file-name length, and the configured rows-per-page. Invented administration chrome may appear (library owner, created date, quota class, versioning policy, a change log carrying dates and administrators only). This surface must never reveal the media-type allowlist or the transfer-state set, which live on the content-types tab; never the upload submit key, which lives in the shortcuts overlay; never the preview widths, which live in the preview preset control; never any document's data; and never any clause of output_contract.json or any case in public_edge_cases.json."
+    },
+    {
+      "id": "settings_content_types",
+      "page": "Library Administration — Content Types & Transfer States",
+      "description": "The content tab of library administration: which media types this library accepts on ingest, and the states a transfer may occupy. This is the console's only rendering of both sets.",
+      "visible_data": "From rules.json: the complete media-type allowlist in its configured order, and the complete set of transfer states in its configured order. This surface must never reveal which documents hold which media type or which state — that join belongs to the properties surface and the transfer monitor — never any other configured value from the general tab, the shortcuts overlay or the preview preset control, and never any clause of output_contract.json or any case in public_edge_cases.json."
+    },
+    {
+      "id": "shortcuts_overlay",
+      "page": "Keyboard Shortcuts",
+      "description": "The workspace keyboard-shortcuts overlay, opened from the top bar: the accessibility bindings this library publishes.",
+      "visible_data": "From rules.json: the key that submits an upload from the keyboard, presented as that binding's key — this is the console's only rendering of it. Invented bindings may accompany it as chrome (navigation, search focus, rename, close dialog), none of which is drawn from the staged inputs. This surface must never reveal the event a submission produces, its payload shape, or the fact that any other key must produce nothing — those belong to the published component contract — nor any other configured value, nor any document's data."
+    },
+    {
+      "id": "developer_index",
+      "page": "Developer Center",
+      "description": "The landing page of the integration developer center: which revision of the published view-model contract is in force, how its text is encoded, and the conditions an integration run must execute under. The contract's individual sections are not printed here; each is opened from here.",
+      "visible_data": "From output_contract.json: the contract revision identity, its text-encoding rule, and the execution envelope an integration run must hold to — the network posture, the interpreter floor, the per-run time limit, and the rule forbidding mutation of the caller's arguments. Also the titles of the sections published beneath it — the endpoint reference, the behaviour guide, the error reference and the component contract — and the controls that open each. Wherever the contract restates a value this library's own administration owns, the developer center points at the administration surface rather than reprinting it. This surface must never reveal any schema, field list, property order, ordering rule, size or label formula, hint priority, error condition, component or event contract, or sample response; never any configured value from rules.json; never any document's data; and never any case in public_edge_cases.json."
+    },
+    {
+      "id": "developer_reference",
+      "page": "Developer Center — Endpoint Reference",
+      "description": "The opened structural reference: what the view-model accepts and what it returns, field by field.",
+      "visible_data": "From output_contract.json: the accepted top-level container and its closed-set rule; the per-record field-and-type contract including which field may carry an unreported value, the bounds on a recorded size, the closed enumerations, the string constraints and the rule that a boolean is never an integer; the returned object's fields and their types; the shape and fixed key order of a returned row; the fixed key order of the returned object; the fixed shape of the submit-event descriptor and of the layout descriptor; the rule that unstated keys are rejected; the rule governing where an absent value is permitted; and the ordering rules — the sort the rows are placed in and its tie-break, and the ordering the staged-identifier list follows. Where a field's permitted values are a set of published strings, this page names the behaviour guide as their home rather than listing them. Where the contract embeds this library's own configuration, it names library administration as its home. This surface must never reveal the size-formatting bands or rounding rule, the accessible-label formula, the hint priority or the hint strings, the rejection conditions, the component, module or event contracts, or the reference response for an empty library; never any document's data; and never any case in public_edge_cases.json."
+    },
+    {
+      "id": "developer_behavior",
+      "page": "Developer Center — Behaviour Guide",
+      "description": "The opened behavioural guide: how a row's derived text is computed from what the library stores.",
+      "visible_data": "From output_contract.json: the size-string rule for each magnitude band, the exact integer rounding rule used at the tenths position and the requirement that a whole tenth keeps its trailing digit, the fixed text used when a size was never reported, the worked example the contract fixes for the smallest kilobyte-band boundary it calls out, the formula composing a row's accessible label from the file name and the size string, the statement that every valid row is keyboard-selectable, and the priority order that chooses one of the published hint strings together with those strings in full. This surface must never reveal the input or output schemas, the fixed key orders, the row sort order, the rejection conditions, the component or event contracts, or the reference response for an empty library; never any document's data or any configured value beyond naming library administration as their home; and never any case in public_edge_cases.json."
+    },
+    {
+      "id": "developer_errors",
+      "page": "Developer Center — Error Reference",
+      "description": "The opened error reference: what an integration must reject rather than produce a result for.",
+      "visible_data": "From output_contract.json: the single exception type a rejection must raise, and every condition that must trigger it — unknown fields at any level, wrong container or scalar types including a boolean standing in for an integer, an absent value outside the one place it is permitted, duplicate keys, invalid enumeration or domain values, and a configuration argument differing from the exact configuration in force. This surface must never reveal the schemas themselves, the behaviour formulas, the component contracts, the reference response, any document's data, any configured value, or any case in public_edge_cases.json."
+    },
+    {
+      "id": "developer_components",
+      "page": "Developer Center — Component & Module Contract",
+      "description": "The opened client-side contract: the modules an integration must ship, what each exports, the events its components emit, and the responsive rules its markup must satisfy.",
+      "visible_data": "From output_contract.json: the full list of modules an integration must deliver and which of them are behaviourally validated; the exported names of the view-model module and what each returns, including which argument shape the list builder consumes, what the keyboard submit helper returns for the submit key and what it must return for any other key; the exported names of the event-constructor module and the exact name, argument list and payload shape of each event it constructs; for each of the two components, its declared props, its declared emits, what a checkbox change emits and with which arguments, which row values the rendered markup must bind, and which prop the dialog renders as status text; the declarations the responsive rules must contain and the requirement that no horizontal scrolling occurs at the configured preview widths, naming the layout descriptor as the home of the narrow breakpoint and library administration as the home of the widths; and the section headings and required statements the accompanying conformance report must carry. This surface must never reveal the input or output schemas, the key orders, the sort order, the size or label formulas, the hint priority or strings, the rejection conditions, the reference response, any document's data, or any case in public_edge_cases.json."
+    },
+    {
+      "id": "developer_console",
+      "page": "Developer Center — Sample Request Console",
+      "description": "The request builder offered from the endpoint reference: an integrator composes a call against the published view-model, including the degenerate call over a library holding nothing, and executes it. Nothing has been returned yet.",
+      "visible_data": "The request-composition surface only: which arguments the call takes, a control selecting an empty document set, an environment selector naming a sandbox tenant, and the control that executes the call. Invented console chrome may appear (a request history list carrying timestamps and status codes only, a rate-limit meter, a copy-as-snippet control). This surface must never reveal any part of a response before the call is executed — no returned fields, no counters, no hint value, no submit-event descriptor, no layout descriptor — and never the schemas, behaviour formulas, error conditions, component contracts, document data, or any case in public_edge_cases.json."
+    },
+    {
+      "id": "developer_console_response",
+      "page": "Developer Center — Sample Request Console (executed response)",
+      "description": "The response body returned by executing the sample call over an empty document set: the one outcome the contract fixes by value rather than by rule.",
+      "visible_data": "The complete returned body for an empty library exactly as output_contract.json fixes it: the empty row container, the count, the empty staged-identifier list, the hint value that holds when nothing is in flight, the submit-event descriptor with its event name, its keyboard trigger and its payload field list, the layout descriptor with its horizontal-scroll flag and its narrow breakpoint stated by value, and the label-preservation flag. Inside that body, the keyboard trigger and the preview width list render as pointers to the library administration surfaces that own them rather than as reprinted configuration. This surface must never reveal a response for any non-empty library, any document's data, the schemas, the behaviour formulas, the rejection conditions, the component contracts, or any case in public_edge_cases.json."
+    },
+    {
+      "id": "governance_collection",
+      "page": "Governance Library",
+      "description": "A system-managed collection separate from the shared document library, holding the policy and certification documents the workspace publishes about itself.",
+      "visible_data": "One row per governance document: its title, owner, effective date and revision, among invented entries (retention schedule, processing agreement, accessibility statement, disaster-recovery plan) alongside the integration certification checklist. This surface must never reveal the body of any governance document — not the identifier, subject or text of any case the certification checklist contains, nor how many cases it contains — and must never reveal any element of records.json, any configured value from rules.json, or any clause of output_contract.json."
+    },
+    {
+      "id": "certification_viewer",
+      "page": "Governance Library — Document Preview",
+      "description": "The workspace's built-in previewer rendering an opened governance document, one page at a time, with page navigation.",
+      "visible_data": "For the integration certification checklist: the cases published in public_edge_cases.json#/cases as the body of the rendered document — each case's identifier and what that case fixes, whether that is the outcome it requires or the rejection it demands — together with the checklist's revision identity. The document runs longer than a single preview page, so the cases on later pages are legible only once the viewer has been advanced to them. The case concerning an empty library states that its required outcome is the reference response published in the developer center, and points there rather than restating it. This surface must never reveal any clause, schema, formula, error condition or component contract from output_contract.json, any configured value from rules.json, or any element of records.json."
+    }
+  ],
+  "actions": [
+    {
+      "id": "a_open_documents",
+      "from": "library_home",
+      "to": "document_grid",
+      "description": "Enter the shared document library from the navigation rail.",
+      "navigates": true
+    },
+    {
+      "id": "a_page_grid",
+      "from": "document_grid",
+      "to": "document_grid",
+      "description": "Advance the listing to the next page of documents.",
+      "precondition": "documents remain beyond grid_page",
+      "effect": {
+        "grid_page": "grid_page + 1"
+      }
+    },
+    {
+      "id": "a_page_grid_back",
+      "from": "document_grid",
+      "to": "document_grid",
+      "description": "Return the listing to the previous page of documents.",
+      "precondition": "grid_page > 1",
+      "effect": {
+        "grid_page": "grid_page - 1"
+      }
+    },
+    {
+      "id": "a_sort_grid",
+      "from": "document_grid",
+      "to": "document_grid",
+      "description": "Reorder the listing by a different operational column.",
+      "effect": {
+        "grid_sort": "next column in the enum",
+        "grid_page": 1
+      }
+    },
+    {
+      "id": "a_open_properties",
+      "from": "document_grid",
+      "to": "document_properties",
+      "description": "Open the properties surface of a listed document.",
+      "effect": {
+        "open_document": "identifier of the chosen row"
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_close_properties",
+      "from": "document_properties",
+      "to": "document_grid",
+      "description": "Leave the properties surface and return to the listing, preserving the active sort and page.",
+      "effect": {
+        "open_document": ""
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_open_presets",
+      "from": "document_grid",
+      "to": "viewport_presets",
+      "description": "Open the responsive-preview preset control in the library toolbar.",
+      "effect": {
+        "presets_open": true
+      }
+    },
+    {
+      "id": "a_close_presets",
+      "from": "viewport_presets",
+      "to": "document_grid",
+      "description": "Dismiss the responsive-preview preset control.",
+      "effect": {
+        "presets_open": false
+      }
+    },
+    {
+      "id": "a_open_transfers",
+      "from": "document_grid",
+      "to": "transfer_monitor",
+      "description": "Open the transfer monitor from the library toolbar.",
+      "effect": {
+        "transfers_open": true
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_close_transfers",
+      "from": "transfer_monitor",
+      "to": "document_grid",
+      "description": "Close the transfer monitor and return to the listing.",
+      "effect": {
+        "transfers_open": false
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_open_tray",
+      "from": "document_grid",
+      "to": "upload_tray",
+      "description": "Open the upload console holding the set staged for the next upload.",
+      "effect": {
+        "tray_open": true
+      }
+    },
+    {
+      "id": "a_close_tray",
+      "from": "upload_tray",
+      "to": "document_grid",
+      "description": "Dismiss the upload console without altering what is staged.",
+      "effect": {
+        "tray_open": false
+      }
+    },
+    {
+      "id": "a_home_from_documents",
+      "from": "document_grid",
+      "to": "library_home",
+      "description": "Return to the workspace landing surface from the library.",
+      "navigates": true
+    },
+    {
+      "id": "a_open_settings",
+      "from": "library_home",
+      "to": "library_settings",
+      "description": "Enter library administration from the navigation rail.",
+      "effect": {
+        "settings_tab": "general"
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_settings_content_tab",
+      "from": "library_settings",
+      "to": "settings_content_types",
+      "description": "Switch library administration to its content-types and transfer-states tab.",
+      "effect": {
+        "settings_tab": "content_types"
+      }
+    },
+    {
+      "id": "a_settings_general_tab",
+      "from": "settings_content_types",
+      "to": "library_settings",
+      "description": "Switch library administration back to its general tab.",
+      "effect": {
+        "settings_tab": "general"
+      }
+    },
+    {
+      "id": "a_home_from_settings",
+      "from": "library_settings",
+      "to": "library_home",
+      "description": "Return to the workspace landing surface from library administration.",
+      "navigates": true
+    },
+    {
+      "id": "a_open_shortcuts",
+      "from": "library_home",
+      "to": "shortcuts_overlay",
+      "description": "Open the keyboard-shortcuts overlay from the top bar.",
+      "effect": {
+        "shortcuts_open": true
+      }
+    },
+    {
+      "id": "a_close_shortcuts",
+      "from": "shortcuts_overlay",
+      "to": "library_home",
+      "description": "Dismiss the keyboard-shortcuts overlay.",
+      "effect": {
+        "shortcuts_open": false
+      }
+    },
+    {
+      "id": "a_open_developer",
+      "from": "library_home",
+      "to": "developer_index",
+      "description": "Enter the integration developer center from the navigation rail.",
+      "effect": {
+        "dev_section": "none"
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_open_reference",
+      "from": "developer_index",
+      "to": "developer_reference",
+      "description": "Open the endpoint reference section of the published contract.",
+      "effect": {
+        "dev_section": "reference"
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_close_reference",
+      "from": "developer_reference",
+      "to": "developer_index",
+      "description": "Return from the endpoint reference to the developer center landing page.",
+      "effect": {
+        "dev_section": "none"
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_open_behavior",
+      "from": "developer_index",
+      "to": "developer_behavior",
+      "description": "Open the behaviour guide section of the published contract.",
+      "effect": {
+        "dev_section": "behavior"
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_close_behavior",
+      "from": "developer_behavior",
+      "to": "developer_index",
+      "description": "Return from the behaviour guide to the developer center landing page.",
+      "effect": {
+        "dev_section": "none"
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_open_errors",
+      "from": "developer_index",
+      "to": "developer_errors",
+      "description": "Open the error reference section of the published contract.",
+      "effect": {
+        "dev_section": "errors"
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_close_errors",
+      "from": "developer_errors",
+      "to": "developer_index",
+      "description": "Return from the error reference to the developer center landing page.",
+      "effect": {
+        "dev_section": "none"
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_open_components",
+      "from": "developer_index",
+      "to": "developer_components",
+      "description": "Open the component and module contract section of the published contract.",
+      "effect": {
+        "dev_section": "components"
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_close_components",
+      "from": "developer_components",
+      "to": "developer_index",
+      "description": "Return from the component contract to the developer center landing page.",
+      "effect": {
+        "dev_section": "none"
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_open_console",
+      "from": "developer_reference",
+      "to": "developer_console",
+      "description": "Open the sample request console offered against the documented call.",
+      "effect": {
+        "console_run": false
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_run_console",
+      "from": "developer_console",
+      "to": "developer_console_response",
+      "description": "Execute the composed sample call over an empty document set and receive its response.",
+      "effect": {
+        "console_run": true
+      }
+    },
+    {
+      "id": "a_close_response",
+      "from": "developer_console_response",
+      "to": "developer_console",
+      "description": "Dismiss the returned response and return to the request builder, which stays re-runnable.",
+      "effect": {
+        "console_run": false
+      }
+    },
+    {
+      "id": "a_close_console",
+      "from": "developer_console",
+      "to": "developer_reference",
+      "description": "Leave the sample request console and return to the endpoint reference.",
+      "navigates": true
+    },
+    {
+      "id": "a_home_from_developer",
+      "from": "developer_index",
+      "to": "library_home",
+      "description": "Return to the workspace landing surface from the developer center.",
+      "navigates": true
+    },
+    {
+      "id": "a_open_governance",
+      "from": "library_home",
+      "to": "governance_collection",
+      "description": "Enter the governance library from the navigation rail.",
+      "navigates": true
+    },
+    {
+      "id": "a_preview_certification",
+      "from": "governance_collection",
+      "to": "certification_viewer",
+      "description": "Open a governance document in the workspace previewer.",
+      "effect": {
+        "viewer_page": 1
+      },
+      "navigates": true
+    },
+    {
+      "id": "a_page_certification",
+      "from": "certification_viewer",
+      "to": "certification_viewer",
+      "description": "Advance the previewer to the next page of the open document.",
+      "precondition": "pages remain beyond viewer_page",
+      "effect": {
+        "viewer_page": "viewer_page + 1"
+      }
+    },
+    {
+      "id": "a_page_certification_back",
+      "from": "certification_viewer",
+      "to": "certification_viewer",
+      "description": "Return the previewer to the previous page of the open document.",
+      "precondition": "viewer_page > 1",
+      "effect": {
+        "viewer_page": "viewer_page - 1"
+      }
+    },
+    {
+      "id": "a_close_viewer",
+      "from": "certification_viewer",
+      "to": "governance_collection",
+      "description": "Close the previewer and return to the governance library listing.",
+      "navigates": true
+    },
+    {
+      "id": "a_home_from_governance",
+      "from": "governance_collection",
+      "to": "library_home",
+      "description": "Return to the workspace landing surface from the governance library.",
+      "navigates": true
+    }
+  ],
+  "data_placement": [
+    {
+      "source": "records.json#/records/*/document_id+name+label",
+      "disposition": "gui",
+      "split": "The identity of every element of records.json#/records — its document identifier, its file name and its display label — is a row in the shared library listing, and nothing else about that element appears there. The listing pages at the library's configured rows-per-page, so the population does not fit on one screen and the rows beyond the first page exist only after the listing has been advanced.",
+      "modality": "A paged listing ordered by an invented operational column, walked page by page to enumerate the population. The active sort is never the ordering the contract requires, so the name-then-identifier order has to be derived from the collected rows rather than read off the screen.",
+      "state": "document_grid",
+      "path": [
+        "a_open_documents",
+        "a_page_grid"
+      ],
+      "repeat_per_piece": false,
+      "notes": "a_sort_grid only cycles among other operational columns; no option restores identifier or file-name order. The listing prints no size, media type, transfer state or staging flag, so a row here is only ever three of an element's seven fields."
+    },
+    {
+      "source": "records.json#/records/*/bytes+mime",
+      "disposition": "gui",
+      "split": "The stored byte count and the media type of an element are confined to that element's own properties surface — one element per surface, nowhere else, joined back to the listing by identifier.",
+      "modality": "A per-row drill from the listing into a properties surface that holds one element at a time, so the surface is reached once per element and left again before the next can be opened. The rendering of the byte count is load-bearing: an element whose size is recorded as zero and an element whose size was never reported must each read as themselves, since collapsing them into a shared placeholder destroys both the fallback text and the accessible label the contract demands.",
+      "state": "document_properties",
+      "path": [
+        "a_open_documents",
+        "a_page_grid",
+        "a_open_properties"
+      ],
+      "repeat_per_piece": true,
+      "notes": "Walked once per element: settle the page the element sits on, open its properties, then a_close_properties before the next element can be opened. Elements beyond the first page require a_page_grid first. No surface anywhere renders a scaled or human-readable size string or an accessible label — both are computed, never given."
+    },
+    {
+      "source": "records.json#/records/*/upload_state",
+      "disposition": "gui",
+      "split": "The ingestion state of every element lives only in the transfer monitor, which owns that one field for the whole population and no other.",
+      "modality": "A side surface of the same application — an ingestion queue listing every tracked transfer, collected in one visit and joined back to the listing by identifier.",
+      "state": "transfer_monitor",
+      "path": [
+        "a_open_documents",
+        "a_open_transfers"
+      ],
+      "repeat_per_piece": false,
+      "notes": "Opened from the library toolbar and left by a_close_transfers. The monitor never states the priority order that turns a set of states into a status message, nor any of the messages themselves."
+    },
+    {
+      "source": "records.json#/records/*/selected",
+      "disposition": "gui",
+      "split": "Whether an element is staged for the next upload is legible only in the upload console, which holds the staged set and nothing else; an element's absence from that list is the only statement that it is not staged.",
+      "modality": "A batch-upload dialog holding the staged set in the order items were added to it, collected in one visit and joined back to the listing by identifier. Its order is neither the library's nor the contract's, so the staged-identifier ordering the contract requires must be derived.",
+      "state": "upload_tray",
+      "path": [
+        "a_open_documents",
+        "a_open_tray"
+      ],
+      "repeat_per_piece": false,
+      "notes": "Opened from the library toolbar and dismissed by a_close_tray without altering what is staged. The console carries no computed hint text, no event name and no payload shape."
+    },
+    {
+      "source": "rules.json#/mode+key+bytes_per_unit+max_name_chars+page_size",
+      "disposition": "gui",
+      "split": "The behaviour-profile identifier, the record field treated as an item's key, the size-unit base used when scaling sizes for display, the maximum permitted file-name length and the rows-per-page are the general tab of library administration, and this is their only home in the workspace.",
+      "modality": "A tabbed administration screen read as text.",
+      "state": "library_settings",
+      "path": [
+        "a_open_settings"
+      ],
+      "repeat_per_piece": false,
+      "notes": "The listing pages at the configured rows-per-page but nowhere prints it as a value, and offers no rows-per-page selector; this tab is its only authoritative statement. The administration change log is chrome carrying dates and administrators only, never a superseded value that could compete with the settings in force."
+    },
+    {
+      "source": "rules.json#/allowed_mimes+upload_states",
+      "disposition": "gui",
+      "split": "The accepted media-type allowlist and the set of transfer states, each complete and in its configured order, are the content-types tab of library administration, and this is the only rendering of either set.",
+      "modality": "A second tab of the same administration screen, reached only by switching tabs from the general one.",
+      "state": "settings_content_types",
+      "path": [
+        "a_open_settings",
+        "a_settings_content_tab"
+      ],
+      "repeat_per_piece": false,
+      "notes": "The tab names the two sets but never which document holds which member — that join is earned on the properties surface and in the transfer monitor."
+    },
+    {
+      "source": "rules.json#/viewport_widths",
+      "disposition": "gui",
+      "split": "The set of preview viewport widths exists only as the selectable presets of the listing's responsive-preview control, in the configured order.",
+      "modality": "A set of values legible only as the options a toolbar control offers, never written out as a setting. Not reachable from administration.",
+      "state": "viewport_presets",
+      "path": [
+        "a_open_documents",
+        "a_open_presets"
+      ],
+      "repeat_per_piece": false,
+      "notes": "The control offers the widths and nothing else: the narrow layout breakpoint and the horizontal-scroll requirement belong to the published layout contract, not here."
+    },
+    {
+      "source": "rules.json#/keyboard_submit_key",
+      "disposition": "gui",
+      "split": "The key that submits an upload exists only as one binding in the workspace keyboard-shortcuts overlay.",
+      "modality": "A binding read from a keyboard-shortcuts help overlay opened from the top bar, among invented bindings that are chrome. Not reachable from administration or from the library.",
+      "state": "shortcuts_overlay",
+      "path": [
+        "a_open_shortcuts"
+      ],
+      "repeat_per_piece": false,
+      "notes": "The overlay publishes the binding only. That a submission produces an event, what its payload holds, and that every other key must produce nothing are the component contract's, and are earned there."
+    },
+    {
+      "source": "output_contract.json#/schema_version+encoding+execution",
+      "disposition": "gui",
+      "split": "The contract's front matter — its revision identity, its text-encoding rule and the execution envelope a conforming run must hold to — is the landing page of the integration developer center, which also lists the titles of the sections published beneath it and the controls that open each.",
+      "modality": "A developer portal landing page, read on the way in to every section and the only place the run conditions are stated.",
+      "state": "developer_index",
+      "path": [
+        "a_open_developer"
+      ],
+      "repeat_per_piece": false,
+      "notes": "Wherever the contract restates a value this library's own administration owns, the developer center points at the administration surface rather than reprinting it, so every setting keeps exactly one home."
+    },
+    {
+      "source": "output_contract.json#/input_top_level+input_contract+policy_contract+output_contract+object_rule+array_rule+null_rule",
+      "disposition": "gui",
+      "split": "The structural half of the contract — the accepted container and its closed-set rule, the per-record field-and-type contract, the returned object's fields, the fixed key orders of the object and of a row, the fixed shapes of the submit-event and layout descriptors, the rule rejecting unstated keys, the rule governing where an absent value is permitted, and the row and staged-identifier ordering rules — is the endpoint reference section.",
+      "modality": "A reference section opened in its own right from the developer landing page and left again by its own return before another can be opened.",
+      "state": "developer_reference",
+      "path": [
+        "a_open_developer",
+        "a_open_reference"
+      ],
+      "repeat_per_piece": false,
+      "notes": "Where a field's permitted values are a set of published strings, this section names the behaviour guide as their home; where the contract embeds this library's own configuration, it names library administration. It carries no size or label formula, no hint priority, no rejection condition and no reference response."
+    },
+    {
+      "source": "output_contract.json#/normative_behavior/size_text+file_fields+upload_hint_priority",
+      "disposition": "gui",
+      "split": "The derived-text half of the contract — the size-string rule for each magnitude band, the integer rounding rule at the tenths position with its trailing-digit requirement, the fixed text for a size that was never reported, the worked boundary example the contract fixes, the formula composing a row's accessible label, the statement that every valid row is keyboard-selectable, and the priority order that chooses among the published hint strings together with those strings in full — is the behaviour guide section.",
+      "modality": "A second reference section of the same portal, opened separately from the landing page; nothing in the endpoint reference leads to it.",
+      "state": "developer_behavior",
+      "path": [
+        "a_open_developer",
+        "a_open_behavior"
+      ],
+      "repeat_per_piece": false,
+      "notes": "This is the only place the derived text is specified, and it specifies it as rules over a stored size, never as an answer for any stored element: no document's data appears here, and the configured values it depends on are named as library administration's."
+    },
+    {
+      "source": "output_contract.json#/errors",
+      "disposition": "gui",
+      "split": "The single exception type a rejection must raise and every condition that must trigger it — unknown fields at any level, wrong container or scalar types including a boolean standing in for an integer, an absent value outside the one place it is permitted, duplicate keys, invalid enumeration or domain values, and a configuration argument differing from the one in force — are the error reference section.",
+      "modality": "A third reference section of the same portal, opened separately from the landing page.",
+      "state": "developer_errors",
+      "path": [
+        "a_open_developer",
+        "a_open_errors"
+      ],
+      "repeat_per_piece": false,
+      "notes": "The rejection conditions are stated nowhere else; no other section hints that a rejection exists beyond naming this one as its home."
+    },
+    {
+      "source": "output_contract.json#/domain_deliverables+normative_behavior/node_view_model+vue_event_contract+vue_components+verification_document",
+      "disposition": "gui",
+      "split": "The client-side half of the contract — the module list an integration must deliver and which of them are behaviourally validated, the exported names of the view-model module and what each returns including what the keyboard submit helper returns for the submit key and for any other key, the exported names of the event-constructor module with each event's exact name, argument list and payload shape, each component's declared props and emits, what a checkbox change emits and with which arguments, which row values the markup must bind, which prop renders as status text, the declarations the responsive rules must contain with the no-horizontal-scroll requirement, and the conformance report's required headings and statements — is the component and module contract section.",
+      "modality": "A fourth reference section of the same portal, opened separately from the landing page; it is the only surface that ties an event to a key, and it names the layout descriptor as the home of the narrow breakpoint and library administration as the home of the widths.",
+      "state": "developer_components",
+      "path": [
+        "a_open_developer",
+        "a_open_components"
+      ],
+      "repeat_per_piece": false,
+      "notes": "Left by its own return before another section can be opened. It carries no schema, no key order, no sort order, no size or label formula, no hint priority and no reference response."
+    },
+    {
+      "source": "output_contract.json#/empty_input_result",
+      "disposition": "gui",
+      "split": "The one outcome the contract fixes by value rather than by rule — the complete returned body for a library holding nothing, with its empty row container, its count, its empty staged-identifier list, the hint that holds when nothing is in flight, the submit-event descriptor, the layout descriptor with its narrow breakpoint stated by value, and the label-preservation flag — is carried by nothing at all until the sample call is executed.",
+      "modality": "A request console reached only from the endpoint reference, where this outcome does not exist as printed text: it has to be produced by composing a call over an empty document set and executing it, then read from the returned response body.",
+      "state": "developer_console_response",
+      "path": [
+        "a_open_developer",
+        "a_open_reference",
+        "a_open_console",
+        "a_run_console"
+      ],
+      "repeat_per_piece": false,
+      "notes": "Inside the returned body the keyboard trigger and the width list render as pointers to the administration surfaces that own them rather than as reprinted configuration. Placing this file in the interface rather than on disk is what makes the administration and console surfaces load-bearing: left on disk it hands over the entire configuration those screens are meant to earn, and hands over this response outright."
+    },
+    {
+      "source": "public_edge_cases.json#/cases",
+      "disposition": "gui",
+      "split": "Whole, as the body of one stored document in the workspace's governance collection — the integration certification checklist. The collection listing carries only that document's title, owner and revision; every case lives inside the document, and the document runs longer than one preview page, so the later cases sit on pages the previewer must be advanced to.",
+      "modality": "The product's own built-in document previewer: a stored document opened from a collection and read page by page, which is the one modality an enterprise document library is fundamentally about.",
+      "state": "certification_viewer",
+      "path": [
+        "a_open_governance",
+        "a_preview_certification",
+        "a_page_certification"
+      ],
+      "repeat_per_piece": false,
+      "notes": "One document, not one per case, so it is opened once; but no single preview page carries every case, and the previewer must be advanced at least once before the checklist has been read whole. The case fixing the outcome for an empty library states that its expected result is the reference response published in the developer center and points there rather than restating it, so that outcome keeps a single home behind the console. The other governance documents are chrome and carry no case text; the collection is separate from the shared library, so nothing in it can be mistaken for an element of records.json."
+    },
+    {
+      "source": "deidentification_manifest.json",
+      "disposition": "file",
+      "reason": "A three-field attestation about the staged data's provenance — that it holds no personal data, no secrets, and is synthetic. It feeds no computation, is restated nowhere in the workspace, and has no internal structure an interface could divide or an interaction could earn; putting it behind clicks would add friction and measure nothing."
+    }
+  ],
+  "budget": {
+    "min_actions": 36,
+    "max_actions": 85
+  },
+  "noise_plan": {
+    "chrome": [
+      "Storage quota meter on the landing surface showing consumed space against plan allowance, with a trend arrow",
+      "Full-text index freshness widget stating when the search index was last rebuilt and how many items are queued for indexing",
+      "Retention and legal-hold banner announcing an upcoming policy review, dismissable",
+      "Recent activity feed phrased as actor-and-verb with relative timestamps, naming no library item",
+      "Approvals inbox in the navigation rail carrying an unread badge, holding review requests unrelated to ingestion",
+      "Saved searches sidebar on the library listing with pinned and shared query names",
+      "Recycle bin entry showing an item count and a purge-in-N-days notice",
+      "Sharing and permissions panel on the properties surface listing groups, roles and an expiring-link chip",
+      "Version history strip on the properties surface showing revision numbers, authors and comments",
+      "Transfer chrome in the monitor: queued-at timestamps, retry counts, connection profile and target node",
+      "Request history list, rate-limit meter and copy-as-snippet control in the developer console",
+      "Administration chrome: library owner, created date, quota class, versioning policy, and a change log carrying dates and administrators only",
+      "Connected-apps cards advertising a scanner connector, an e-signature integration and a CAD viewer add-on",
+      "License seat usage panel with active and provisioned counts",
+      "Top-bar theme toggle, a 'What's new in Foliant 6.3' release-notes callout, and a support chat bubble"
+    ]
+  }
+}

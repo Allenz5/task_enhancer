@@ -1,0 +1,270 @@
+{
+  "candidate": true,
+
+  "meta": {
+    "task_ref": "computing_math/protocol_trace_replay_229d49f9",
+    "domain": "Network Operations / Packet Capture Forensics",
+    "app_concept": "Kestrel Capture Console — an offline packet-capture analysis workspace for stored capture sets: sessions are found with a display-filter query, a session's frames are inspected one at a time down to their bytes, deterministic trace replay runs from a saved reassembly profile, and the replay engine ships its own output-format reference and regression suite.",
+    "seed": 29,
+    "provenance": "This is capture-analysis data and belongs to the packet-capture indexing and network-forensics category — the Arkime/Moloch, CloudShark, Wireshark, ExtraHop family, together with the trace-replay tooling (tcpreplay-style) those consoles wrap. What led there: the top-level unit is a session keyed by session_id whose protocol is drawn from tcp|udp; each session carries an array of frames, and a frame carries a monotonic tick, a message_id, a fragment_index against a fragment_count, and a payload_hex that is lowercase and even-length — i.e. a byte dump. Fragment index/count with a whole-message drop when any fragment is absent is stream reassembly, and an ordering that dispatches by tick then by a fixed protocol priority is a replay scheduler draining a capture. Sessions, frames, reassembly and byte panes are the vocabulary of a capture console; nothing here reads as a message broker, a job queue or an issue tracker. The policy object is a saved reassembly/replay profile of exactly the kind those consoles keep in a profile library, and the contract and edge-case checklist are the replay engine's format reference and regression suite."
+  },
+
+  "signature_vars": {
+    "capture_window": {
+      "type": "enum",
+      "values": ["latest_segment", "whole_capture_set"],
+      "default": "latest_segment",
+      "description": "The span of the stored capture set the search form is scoped to. The console opens scoped to the most recently rotated segment, which holds only part of the captured sessions; the whole set has to be asked for."
+    },
+    "query_submitted": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether a display-filter query has been run. No session rows exist before one has been."
+    },
+    "selected_session": {
+      "type": "string",
+      "default": "",
+      "description": "Identifier of the session whose frame ledger is open; empty when none is open."
+    },
+    "selected_frame": {
+      "type": "string",
+      "default": "",
+      "description": "Which single frame of the open session the byte inspector is bound to; empty when the inspector is not bound."
+    },
+    "frame_sort": {
+      "type": "enum",
+      "values": ["arrival", "other_column"],
+      "default": "arrival",
+      "description": "Which column the open session's frame ledger is ordered by. The default is the order frames were stored in, not any ordering the replay contract asks for."
+    },
+    "profile_order": {
+      "type": "enum",
+      "values": ["last_modified", "status", "name_search"],
+      "default": "last_modified",
+      "description": "How the replay profile library is currently ordered or narrowed. The in-force profile is not surfaced under the default ordering."
+    },
+    "profile_opened": {
+      "type": "bool",
+      "default": false,
+      "description": "Whether the in-force replay profile's parameter record has been opened."
+    },
+    "spec_position": {
+      "type": "enum",
+      "values": ["front", "input", "output", "rejection", "baseline"],
+      "default": "front",
+      "description": "How far through the replay format reference the reader has advanced. The document is sequential: there is no index that jumps to a part."
+    },
+    "regression_tab": {
+      "type": "enum",
+      "values": ["none", "rejections", "invariants"],
+      "default": "none",
+      "description": "Which kind of regression case the suite is currently showing. Neither kind is shown until one is chosen."
+    }
+  },
+
+  "states": [
+    {
+      "id": "capture_home",
+      "page": "Capture Workspace",
+      "description": "The console's landing surface: sensor and storage health for the stored capture set, plus a navigation rail leading to capture search, the replay profile library, the replay format reference, and the replay regression suite.",
+      "initial": true,
+      "visible_data": "Only operational chrome: sensor uptime, ingest throughput, disk retention headroom, dropped-at-capture counters for the sensor hardware, an IDS alert badge, a maintenance banner. It may state how many capture segments the stored set spans and how many frames were captured in total, as bare integers. This surface must never reveal any session_id or any session's protocol from records.json, any count of sessions in the capture set, any message_id, tick, fragment_index, fragment_count or payload byte, any parameter of the in-force replay profile, any clause of the replay format reference, the reference outcome the engine fixes for an empty capture, or the text of any case in public_edge_cases.json."
+    },
+    {
+      "id": "session_search",
+      "page": "Capture Search",
+      "description": "The display-filter form. Sessions are not browsable: a query has to be composed and run, and the form opens scoped to the most recently rotated capture segment rather than the whole stored set.",
+      "visible_data": "The filter expression field, the capture-window scope control and which scope is active, saved-filter chips, and the field names the expression language accepts. This surface carries no results at all: it must never reveal any session_id, any session's protocol, any frame field, any payload byte, or how many sessions would match. It must never reveal the replay profile's parameters, any clause of the format reference, or any regression case."
+    },
+    {
+      "id": "session_index",
+      "page": "Session Index",
+      "description": "The result set of the submitted query: one row per session of the stored capture set that falls inside the active capture window. Rows are the population; nothing about a session's frames is here.",
+      "visible_data": "For each element of records.json#/records that falls in the active capture window: that element's session_id and its protocol, alongside invented capture columns (first-seen and last-seen wall clock, byte totals each way, sensor and interface, VLAN, capture segment), and a result-count header stating how many sessions matched. Rows are ordered by a capture column, not by identifier, so the identifier ordering the contract demands is not handed over pre-sorted. This surface must never reveal any frame-level value — no message_id, no tick, no fragment_index, no fragment_count, no payload byte — and must never reveal any reassembly outcome for a session: no complete/incomplete badge, no delivered or dropped tally, no missing-fragment hint, no reassembled payload. It must never reveal the replay profile's parameters, any clause of the format reference, or any regression case."
+    },
+    {
+      "id": "frame_ledger",
+      "page": "Session Detail — Frame Ledger",
+      "description": "One session's frame ledger: every frame that session carries, one row each, in the order the frames were stored. The bytes of a frame are not in the ledger.",
+      "visible_data": "For the open element of records.json#/records only: its session_id and protocol, and for each of its frames the message_id, the tick, the fragment_index and the fragment_count, alongside invented capture columns (frame length on the wire, capture checksum status, direction, sensor). The ledger's default ordering is the stored arrival order, which is not the ordering the replay contract asks for. This surface must never reveal any frame's payload_hex, must never reveal another session's frames, and must never reveal a reassembly outcome: no per-message complete/incomplete status, no missing-fragment list, no assembled payload, no delivered or dropped count. It must never reveal the replay profile's parameters, any clause of the format reference, or any regression case."
+    },
+    {
+      "id": "frame_bytes",
+      "page": "Frame Byte Inspector",
+      "description": "The byte pane bound to exactly one frame of the open session — the frame currently selected in the ledger. Binding it to another frame means selecting that other frame.",
+      "visible_data": "The payload_hex of the single selected frame of the open session, exactly as that frame carries it, rendered as its bytes. This surface must never reveal the payload of any other frame, of any other session, or of any message assembled from more than one frame — it holds one frame's bytes and nothing concatenated. It must never reveal a reassembly outcome, the replay profile's parameters, any clause of the format reference, or any regression case."
+    },
+    {
+      "id": "profile_library",
+      "page": "Replay Profiles",
+      "description": "The library of saved reassembly/replay profiles. It opens ordered by last-modified, an ordering under which the profile actually in force is not on show; it has to be sorted to or searched for by name.",
+      "visible_data": "Per profile: name, owning team, created and last-modified stamps, and an in-force / superseded status chip. Under the default ordering the in-force profile is not among the listed rows. This surface must never reveal any profile's parameters — not the replay mode, not the grouping key field, not the protocol dispatch order, not the strict fragment-drop switch — for the in-force profile or for any superseded one. It must never reveal session or frame data, any clause of the format reference, or any regression case."
+    },
+    {
+      "id": "profile_detail",
+      "page": "Replay Profile — Parameters",
+      "description": "The parameter record of the profile opened from the library. For the in-force profile this is the console's only home for the authoritative replay policy; superseded profiles open to a withheld-parameters notice instead.",
+      "visible_data": "For the in-force profile: its replay mode, the record field it groups sessions by, the ordered sequence of protocol classes the scheduler drains in, and the strict fragment-drop switch — the whole of rules.json, read as a parameter record, with the dispatch sequence carrying explicit position labels so its order is read rather than guessed. Superseded profiles show provenance only (author, change note, supersession date) and explicitly no parameters, so no competing policy is legible anywhere. This surface must never reveal any session_id, frame field or payload byte, any reassembly outcome, any clause of the format reference, or any regression case."
+    },
+    {
+      "id": "spec_front",
+      "page": "Replay Format Reference — Front Matter",
+      "description": "The opening page of the replay engine's format reference, a sequential document with no jump-to index: the reader advances a page at a time and each page has to be passed through to reach the next.",
+      "visible_data": "The reference's schema revision identity, the character encoding it mandates and its tolerance of a byte-order mark, and the titles of the pages that follow. This surface must never reveal the body of any later page: not the accepted top-level container, not the record or frame field contract, not the output schema, key order or array ordering rules, not the rejection conditions, not the execution envelope, not the required artifact list, and not the reference outcome fixed for an empty capture. It must never reveal the in-force profile's parameters, any session or frame data, or the text of any regression case."
+    },
+    {
+      "id": "spec_input",
+      "page": "Replay Format Reference — Accepted Input",
+      "description": "The input page of the reference: what the replay engine accepts as a capture argument.",
+      "visible_data": "The accepted top-level container and its closure to unknown members, the per-session field contract (identifier, protocol enum, frame array), and the per-frame field contract (message identifier, tick, fragment index, fragment count, payload encoding), each with its type and its bound, exactly as output_contract.json states them. This surface must never reveal the output schema, key order or array ordering rules, the rejection conditions, the execution envelope, the artifact list, or the reference outcome for an empty capture. It must never reveal the in-force profile's mode, key field, dispatch order or fragment-drop switch, any session or frame value, or any regression case."
+    },
+    {
+      "id": "spec_output",
+      "page": "Replay Format Reference — Produced Result",
+      "description": "The output page of the reference: the shape of the result the engine produces and every ordering rule that governs it.",
+      "visible_data": "The result object's members and their fixed key order; the per-session result object and its fixed key order; the assembled-message and dropped-message object shapes and their key orders; the rule by which fragments of one message are assembled and the rule by which a message with any fragment absent is dropped whole; the ordering of assembled messages, of dropped messages, of the missing-fragment list, and of sessions; the element format of the global replay sequence, which frames it must contain, and the full list of keys it sorts on in priority order; and the per-protocol regression matrix's shape and fixed key order. Where a rule depends on the policy in force — which protocol class drains first, whether fragment drop is strict, which field groups sessions — this page names the in-force replay profile as the source and does not restate its values; those are legible only on the profile's parameter record. This surface must never reveal the accepted input contract, the rejection conditions, the execution envelope, the artifact list, or the reference outcome for an empty capture, and must never reveal any session or frame value or any regression case."
+    },
+    {
+      "id": "spec_rejection",
+      "page": "Replay Format Reference — Rejection and Run Envelope",
+      "description": "The page of the reference that states when a run must refuse to produce a result, and the conditions a conforming run executes inside.",
+      "visible_data": "The exception class a non-conforming call must raise and the conditions that require it (unknown top-level or record member, wrong member type, a repeated primary identifier, an invalid policy, malformed frames, offsets or timing); the rule that a conforming run leaves the caller's capture and policy arguments deeply unmutated; and the run envelope — network posture, interpreter floor, the per-run time limit and the time limit the delivered test must finish inside — together with the artifacts a conforming delivery must produce and the interface the entry point exposes. This surface must never reveal the accepted input contract, the output schema or its ordering rules, or the reference outcome for an empty capture, and must never reveal the in-force profile's parameters, any session or frame value, or any regression case."
+    },
+    {
+      "id": "spec_baseline",
+      "page": "Replay Format Reference — Empty-Capture Baseline",
+      "description": "The closing page of the reference: the one result the engine fixes by value rather than by rule. This is the console's only home for that baseline.",
+      "visible_data": "The result the reference fixes for a capture holding no sessions — its session container, its replay sequence container, both protocol classes of the regression matrix with each of their counters, and the session tally — exactly as output_contract.json states them. This surface must never reveal the accepted input contract, the output schema's ordering rules, the rejection conditions or the run envelope, the in-force profile's parameters, any session or frame value, or the text of any regression case."
+    },
+    {
+      "id": "regression_suite",
+      "page": "Replay Regression Suite",
+      "description": "The suite the replay engine is held to before a delivery is accepted. The cases are filed by kind and neither kind is on show until one is chosen.",
+      "visible_data": "How many cases the suite holds, when it last ran, an owning-team block, and the two controls that open the suite's two kinds of case — those that require the engine to refuse, and those that assert an invariant of an accepted run. This surface must never reveal the identifier, assertion or expected outcome of any individual case in public_edge_cases.json#/cases. It must never reveal session or frame data, the in-force profile's parameters, or any clause of the format reference."
+    },
+    {
+      "id": "regression_rejections",
+      "page": "Replay Regression Suite — Refusal Cases",
+      "description": "The suite's refusal cases: those in which a conforming engine must decline to produce a result.",
+      "visible_data": "Every case of public_edge_cases.json#/cases whose expectation is a refusal — each case's identifier, what it feeds the engine, and the exception class it expects. This surface must never reveal the suite's invariant cases, the reference outcome for an empty capture, any clause of the format reference, the in-force profile's parameters, or any session or frame value."
+    },
+    {
+      "id": "regression_invariants",
+      "page": "Replay Regression Suite — Invariant Cases",
+      "description": "The suite's invariant cases: those in which the engine must accept the capture and hold some property of the accepted run.",
+      "visible_data": "Every case of public_edge_cases.json#/cases whose expectation is an invariant rather than a refusal — each case's identifier and the property it asserts (an empty capture matching the published baseline, insensitivity to the order records arrive in, the same algorithm applying to unseen same-shape captures, and the caller's arguments staying deeply unmutated). The case pinned to the empty capture names the reference's baseline page as what it is checked against and does not reprint the baseline's values. This surface must never reveal the suite's refusal cases, any clause of the format reference, the in-force profile's parameters, or any session or frame value."
+    }
+  ],
+
+  "actions": [
+    { "id": "a_open_search", "from": "capture_home", "to": "session_search", "description": "Enter capture search from the navigation rail.", "navigates": true },
+    { "id": "a_widen_window", "from": "session_search", "to": "session_search", "description": "Move the search scope off the most recent capture segment and onto the whole stored capture set.", "effect": { "capture_window": "whole_capture_set" } },
+    { "id": "a_run_query", "from": "session_search", "to": "session_index", "description": "Run the composed display-filter query and produce the session result set for the active capture window.", "effect": { "query_submitted": true }, "navigates": true },
+    { "id": "a_refine_query", "from": "session_index", "to": "session_search", "description": "Return to the search form to change the expression or the capture window; the previous result set is discarded, not destroyed — the same query can be run again.", "navigates": true },
+    { "id": "a_open_session", "from": "session_index", "to": "frame_ledger", "description": "Open the frame ledger of a session listed in the result set.", "effect": { "selected_session": "identifier of the chosen row", "selected_frame": "", "frame_sort": "arrival" }, "navigates": true },
+    { "id": "a_sort_frames", "from": "frame_ledger", "to": "frame_ledger", "description": "Reorder the open session's frame ledger by a different column.", "effect": { "frame_sort": "other_column" } },
+    { "id": "a_select_frame", "from": "frame_ledger", "to": "frame_bytes", "description": "Bind the byte inspector to one frame of the open session's ledger.", "precondition": "selected_session is non-empty", "effect": { "selected_frame": "the chosen frame of the open session" } },
+    { "id": "a_close_bytes", "from": "frame_bytes", "to": "frame_ledger", "description": "Release the byte inspector and return to the open session's ledger, where another frame can be selected.", "effect": { "selected_frame": "" } },
+    { "id": "a_back_to_index", "from": "frame_ledger", "to": "session_index", "description": "Leave the session and return to the result set, which keeps the capture window and query that produced it.", "effect": { "selected_session": "", "selected_frame": "" }, "navigates": true },
+    { "id": "a_home_from_index", "from": "session_index", "to": "capture_home", "description": "Return to the capture workspace from the session result set.", "navigates": true },
+    { "id": "a_home_from_search", "from": "session_search", "to": "capture_home", "description": "Return to the capture workspace from the search form.", "navigates": true },
+
+    { "id": "a_open_profiles", "from": "capture_home", "to": "profile_library", "description": "Enter the replay profile library from the navigation rail.", "navigates": true },
+    { "id": "a_sort_profiles", "from": "profile_library", "to": "profile_library", "description": "Reorder the library so profiles are grouped by in-force status rather than by last-modified date, bringing the profile actually in force onto the listing.", "effect": { "profile_order": "status" } },
+    { "id": "a_search_profiles", "from": "profile_library", "to": "profile_library", "description": "Narrow the library by profile name, an alternative way of bringing the in-force profile onto the listing.", "effect": { "profile_order": "name_search" } },
+    { "id": "a_open_profile", "from": "profile_library", "to": "profile_detail", "description": "Open a listed profile's parameter record.", "precondition": "profile_order is not last_modified — the in-force profile is on the listing only once the library has been re-sorted or narrowed", "effect": { "profile_opened": true }, "navigates": true },
+    { "id": "a_back_to_profiles", "from": "profile_detail", "to": "profile_library", "description": "Return from a profile's parameter record to the library, keeping the current ordering.", "navigates": true },
+    { "id": "a_home_from_profiles", "from": "profile_library", "to": "capture_home", "description": "Return to the capture workspace from the profile library.", "navigates": true },
+
+    { "id": "a_open_reference", "from": "capture_home", "to": "spec_front", "description": "Open the replay engine's format reference at its front matter.", "navigates": true },
+    { "id": "a_page_to_input", "from": "spec_front", "to": "spec_input", "description": "Advance the reference one page, from the front matter to the accepted-input page.", "effect": { "spec_position": "input" }, "navigates": true },
+    { "id": "a_page_to_output", "from": "spec_input", "to": "spec_output", "description": "Advance the reference one page, from accepted input to the produced-result page.", "effect": { "spec_position": "output" }, "navigates": true },
+    { "id": "a_page_to_rejection", "from": "spec_output", "to": "spec_rejection", "description": "Advance the reference one page, from the produced result to the rejection-and-envelope page.", "effect": { "spec_position": "rejection" }, "navigates": true },
+    { "id": "a_page_to_baseline", "from": "spec_rejection", "to": "spec_baseline", "description": "Advance the reference one page, from rejection and envelope to the closing empty-capture baseline.", "effect": { "spec_position": "baseline" }, "navigates": true },
+    { "id": "a_page_back_to_rejection", "from": "spec_baseline", "to": "spec_rejection", "description": "Turn back one page in the reference, from the baseline to rejection and envelope.", "effect": { "spec_position": "rejection" }, "navigates": true },
+    { "id": "a_page_back_to_output", "from": "spec_rejection", "to": "spec_output", "description": "Turn back one page in the reference, from rejection and envelope to the produced result.", "effect": { "spec_position": "output" }, "navigates": true },
+    { "id": "a_page_back_to_input", "from": "spec_output", "to": "spec_input", "description": "Turn back one page in the reference, from the produced result to accepted input.", "effect": { "spec_position": "input" }, "navigates": true },
+    { "id": "a_page_back_to_front", "from": "spec_input", "to": "spec_front", "description": "Turn back one page in the reference, from accepted input to the front matter.", "effect": { "spec_position": "front" }, "navigates": true },
+    { "id": "a_home_from_reference", "from": "spec_front", "to": "capture_home", "description": "Close the format reference and return to the capture workspace; the document reopens at its front matter.", "effect": { "spec_position": "front" }, "navigates": true },
+
+    { "id": "a_open_regression", "from": "capture_home", "to": "regression_suite", "description": "Enter the replay regression suite from the navigation rail.", "navigates": true },
+    { "id": "a_open_refusal_cases", "from": "regression_suite", "to": "regression_rejections", "description": "Show the suite's refusal cases.", "effect": { "regression_tab": "rejections" } },
+    { "id": "a_back_from_refusals", "from": "regression_rejections", "to": "regression_suite", "description": "Leave the refusal cases and return to the suite header, from which the other kind can be chosen.", "effect": { "regression_tab": "none" } },
+    { "id": "a_open_invariant_cases", "from": "regression_suite", "to": "regression_invariants", "description": "Show the suite's invariant cases.", "effect": { "regression_tab": "invariants" } },
+    { "id": "a_back_from_invariants", "from": "regression_invariants", "to": "regression_suite", "description": "Leave the invariant cases and return to the suite header, from which the other kind can be chosen.", "effect": { "regression_tab": "none" } },
+    { "id": "a_home_from_regression", "from": "regression_suite", "to": "capture_home", "description": "Return to the capture workspace from the regression suite.", "navigates": true }
+  ],
+
+  "data_placement": [
+    {
+      "source": "records.json",
+      "disposition": "gui",
+      "split": "Three levels, and no surface holds two of them. Each element of records.json#/records contributes one row to a query result set — its identifier and its protocol, and nothing about its frames. That element's frames are confined to its own frame ledger, one row per frame carrying the message identifier, tick, fragment index and fragment count. Each frame's payload bytes are confined to the byte inspector bound to that one frame; the ledger does not carry them and the inspector holds exactly one frame's bytes, never a concatenation.",
+      "modality": "A display-filter query whose result set does not exist until it is submitted, then master–detail selection twice over: a session's frames exist only once that session is open, and a frame's bytes exist only while the inspector is bound to that frame. The query's scope is load-bearing — the console opens scoped to the most recently rotated capture segment, which holds only part of the stored sessions, so the scope has to be widened to the whole capture set before the result set is the whole population.",
+      "state": "frame_bytes",
+      "path": ["a_open_search", "a_widen_window", "a_run_query", "a_open_session", "a_select_frame"],
+      "repeat_per_piece": true,
+      "notes": "The path is walked once per frame, not once per file. Every session must be opened in its own right from the result set — a_open_session then a_back_to_index — and inside a session every frame must be selected in its own right — a_select_frame then a_close_bytes — because the inspector binds to one frame at a time. Sessions held only in the earlier capture segments are absent from the result set until a_widen_window has been applied, so an agent that runs the default query alone under-counts the population; the result header states how many sessions matched, which is how completeness is checked. Result rows are ordered by a capture column and the frame ledger defaults to stored arrival order, so neither the identifier ordering nor the tick ordering the contract demands is copied off a screen — both must be derived. No surface anywhere states, for any session or message, whether its fragments are complete, which fragments are missing, or what an assembled payload would be; the reassembly and the global replay ordering are entirely the agent's work."
+    },
+    {
+      "source": "rules.json",
+      "disposition": "gui",
+      "split": "Whole, on one surface: the in-force replay profile's parameter record carries the replay mode, the grouping key field, the ordered protocol dispatch sequence and the strict fragment-drop switch together, since these four are one saved configuration and splitting them would be arbitrary. Nothing else in the console restates any of them — the format reference points at this record instead of reprinting it, and superseded profiles publish no parameters at all.",
+      "modality": "A record that has to be located before it can be read: the profile library opens ordered by last-modified, an ordering under which the in-force profile is not on the listing, so it is reached by re-sorting the library by status or by narrowing it by name — and its parameters exist only on its own detail surface, never as library columns.",
+      "state": "profile_detail",
+      "path": ["a_open_profiles", "a_sort_profiles", "a_open_profile"],
+      "repeat_per_piece": false,
+      "notes": "a_search_profiles is an equivalent substitute for a_sort_profiles on this path; either brings the in-force profile onto the listing. The library's superseded entries are chrome in the strict sense — they carry authorship, change notes and supersession dates only, never a competing mode, key field, dispatch order or drop switch — so no wrong policy is legible anywhere in the console."
+    },
+    {
+      "source": "output_contract.json",
+      "disposition": "gui",
+      "split": "Published as the replay engine's format reference, a sequential five-page document divided the way the contract itself divides: front matter carrying the schema revision and the encoding rule; an accepted-input page carrying the top-level, per-session and per-frame field contracts; a produced-result page carrying the output schema, every fixed key order, the fragment assembly and strict-drop rules, and every array ordering rule including the sort keys of the global replay sequence; a rejection-and-envelope page carrying the exception class and its conditions, the input-immutability rule, the run envelope and the required artifacts; and a closing baseline page carrying the one result the contract fixes by value. The contract's embedded copy of the policy is deliberately not reprinted on any page: it is the same fact as rules.json, and the reference resolves it by naming the in-force profile, so the mode, key field, dispatch order and drop switch have exactly one home in the console.",
+      "modality": "A sequential document with no jump-to index — the reference is advanced a page at a time and each page has to be passed through to reach the next, so the contract is read in order rather than opened part by part from a contents list.",
+      "state": "spec_baseline",
+      "path": ["a_open_reference", "a_page_to_input", "a_page_to_output", "a_page_to_rejection", "a_page_to_baseline"],
+      "repeat_per_piece": false,
+      "notes": "The declared path ends on the last page, and every page it passes through is a surface of this file that must be read on the way — no page restates another's body, so skimming to the end yields only the baseline. Paging is reversible the whole way back to the front matter, so nothing here is a one-way door. Leaving this file on disk is what would make the profile library decorative: the contract embeds the policy verbatim, and it also states the rejection, key-order and sort rules the reference is supposed to be the source of. Dividing it further than its own five parts would be friction — each part is legible whole on its page."
+    },
+    {
+      "source": "public_edge_cases.json",
+      "disposition": "gui",
+      "split": "By the two kinds of case the file actually holds, one kind per surface: the cases whose expectation is a refusal, and the cases whose expectation is an invariant of an accepted run. The suite header carries only the tally and the two controls; neither kind is legible until it is chosen, and choosing one puts the other away.",
+      "modality": "Content filed by kind behind two mutually exclusive views of one suite — each kind read whole once selected, and the suite returned to before the other kind can be opened. The case pinned to the empty capture is deliberately incomplete here: it names the reference's baseline page as its expectation rather than reprinting it, so the concrete baseline keeps a single home.",
+      "state": "regression_invariants",
+      "path": ["a_open_regression", "a_open_refusal_cases", "a_back_from_refusals", "a_open_invariant_cases"],
+      "repeat_per_piece": false,
+      "notes": "The declared path ends on the invariant cases, but the refusal cases are a surface of this same file and are passed through on the way; either kind can be reopened from the suite header at any time. The suite lists what each case asserts and never a verdict, so it hands over no result."
+    },
+    {
+      "source": "deidentification_manifest.json",
+      "disposition": "file",
+      "reason": "A three-field provenance attestation that the staged capture is synthetic and carries no personal data or secrets. It feeds no part of the replay, is restated nowhere in the console, and has no internal shape an interface could divide or earn; putting it behind clicks would be friction with nothing to measure."
+    }
+  ],
+
+  "budget": {
+    "min_actions": 30,
+    "max_actions": 70
+  },
+
+  "noise_plan": {
+    "chrome": [
+      "Sensor health strip on the capture workspace: uptime, kernel drop counters, ring-buffer utilisation and NTP sync status per capture interface",
+      "Ingest throughput sparkline in bits per second with a toggle between the last hour and the last day",
+      "Retention planner showing disk headroom and the projected date the oldest segment is overwritten",
+      "Link-layer and MTU distribution widget for the sensor's own traffic, carrying no session or protocol tallies from the stored set",
+      "IDS alert inbox in the navigation rail with an unread badge, holding signature hits unrelated to replay",
+      "Capture filter configuration panel showing the sensor's standing BPF expression and a slicing setting",
+      "Saved-search chips and a query history drawer on the capture search form, none of which carry results",
+      "Segment rotation log listing file names, sizes and rotation times",
+      "Export queue widget on the session index showing pending capture-file downloads with progress bars",
+      "Column chooser and a density toggle on the session index and the frame ledger",
+      "Profile library chrome: owning team, change notes, supersession dates and an approval trail, none of which carry a parameter value",
+      "Reference chrome: an adoption notice, an editorial change log carrying dates and editors only, and a print-view toggle, none of which restate a clause",
+      "Regression suite chrome: an owning-team block, a last-run timestamp and a CI badge, carrying no case text and no verdicts",
+      "Keyboard shortcuts modal, a theme toggle, and a support-bundle generator in the top bar",
+      "A dismissable 'Kestrel 6.2 release notes' callout"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "task_ref": "computing_math/protocol_trace_replay_229d49f9",
+  "app_concept": "Kestrel Capture Console — an offline packet-capture analysis workspace for stored capture sets: sessions are found with a display-filter query, a session's frames are inspected one at a time down to their bytes, deterministic trace replay runs from a saved reassembly profile, and the replay engine ships its own output-format reference and regression suite.",
+  "domain": "Network Operations / Packet Capture Forensics",
+  "url": "http://localhost:5174",
+  "environment": "envs/computing_math__protocol_trace_replay_229d49f9",
+  "input": {
+    "moved_into_gui": [
+      "output_contract.json",
+      "public_edge_cases.json",
+      "records.json",
+      "rules.json"
+    ],
+    "left_on_disk": [
+      "deidentification_manifest.json"
+    ],
+    "not_named_in_task_prompt": []
+  },
+  "placement": [
+    {
+      "source": "records.json",
+      "disposition": "gui",
+      "modality": "A display-filter query whose result set does not exist until it is submitted, then master–detail selection twice over: a session's frames exist only once that session is open, and a frame's bytes exist only while the inspector is bound to that frame. The query's scope is load-bearing — the console opens scoped to the most recently rotated capture segment, which holds only part of the stored sessions, so the scope has to be widened to the whole capture set before the result set is the whole population.",
+      "split": "Three levels, and no surface holds two of them. Each element of records.json#/records contributes one row to a query result set — its identifier and its protocol, and nothing about its frames. That element's frames are confined to its own frame ledger, one row per frame carrying the message identifier, tick, fragment index and fragment count. Each frame's payload bytes are confined to the byte inspector bound to that one frame; the ledger does not carry them and the inspector holds exactly one frame's bytes, never a concatenation.",
+      "reason": null,
+      "path_length": 5
+    },
+    {
+      "source": "rules.json",
+      "disposition": "gui",
+      "modality": "A record that has to be located before it can be read: the profile library opens ordered by last-modified, an ordering under which the in-force profile is not on the listing, so it is reached by re-sorting the library by status or by narrowing it by name — and its parameters exist only on its own detail surface, never as library columns.",
+      "split": "Whole, on one surface: the in-force replay profile's parameter record carries the replay mode, the grouping key field, the ordered protocol dispatch sequence and the strict fragment-drop switch together, since these four are one saved configuration and splitting them would be arbitrary. Nothing else in the console restates any of them — the format reference points at this record instead of reprinting it, and superseded profiles publish no parameters at all.",
+      "reason": null,
+      "path_length": 3
+    },
+    {
+      "source": "output_contract.json",
+      "disposition": "gui",
+      "modality": "A sequential document with no jump-to index — the reference is advanced a page at a time and each page has to be passed through to reach the next, so the contract is read in order rather than opened part by part from a contents list.",
+      "split": "Published as the replay engine's format reference, a sequential five-page document divided the way the contract itself divides: front matter carrying the schema revision and the encoding rule; an accepted-input page carrying the top-level, per-session and per-frame field contracts; a produced-result page carrying the output schema, every fixed key order, the fragment assembly and strict-drop rules, and every array ordering rule including the sort keys of the global replay sequence; a rejection-and-envelope page carrying the exception class and its conditions, the input-immutability rule, the run envelope and the required artifacts; and a closing baseline page carrying the one result the contract fixes by value. The contract's embedded copy of the policy is deliberately not reprinted on any page: it is the same fact as rules.json, and the reference resolves it by naming the in-force profile, so the mode, key field, dispatch order and drop switch have exactly one home in the console.",
+      "reason": null,
+      "path_length": 5
+    },
+    {
+      "source": "public_edge_cases.json",
+      "disposition": "gui",
+      "modality": "Content filed by kind behind two mutually exclusive views of one suite — each kind read whole once selected, and the suite returned to before the other kind can be opened. The case pinned to the empty capture is deliberately incomplete here: it names the reference's baseline page as its expectation rather than reprinting it, so the concrete baseline keeps a single home.",
+      "split": "By the two kinds of case the file actually holds, one kind per surface: the cases whose expectation is a refusal, and the cases whose expectation is an invariant of an accepted run. The suite header carries only the tally and the two controls; neither kind is legible until it is chosen, and choosing one puts the other away.",
+      "reason": null,
+      "path_length": 4
+    },
+    {
+      "source": "deidentification_manifest.json",
+      "disposition": "file",
+      "modality": null,
+      "split": null,
+      "reason": "A three-field provenance attestation that the staged capture is synthetic and carries no personal data or secrets. It feeds no part of the replay, is restated nowhere in the console, and has no internal shape an interface could divide or earn; putting it behind clicks would be friction with nothing to measure.",
+      "path_length": 0
+    }
+  ],
+  "budget": {
+    "min_actions": 30,
+    "max_actions": 70
+  },
+  "grading": "unchanged and not copied -- the original task's own evaluator grades this, exactly as it graded the un-enhanced task"
+}

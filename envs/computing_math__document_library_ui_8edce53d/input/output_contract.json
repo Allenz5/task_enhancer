@@ -1,0 +1,559 @@
+{
+  "schema_version": "ale-public-output-contract/5.0",
+  "encoding": "UTF-8; BOM accepted by readers",
+  "input_top_level": {
+    "required": [
+      "records"
+    ],
+    "additionalProperties": false
+  },
+  "input_contract": {
+    "type": "object",
+    "properties": {
+      "records": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "document_id": {
+              "type": "string",
+              "minLength": 1,
+              "minLengthAfterStrip": 1,
+              "forbiddenCaseInsensitiveLiteral": "<script"
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "minLengthAfterStrip": 1,
+              "forbiddenCaseInsensitiveLiteral": "<script"
+            },
+            "bytes": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "integer",
+                  "boolean_is_integer": false,
+                  "minimum": 0,
+                  "maximum": 9007199254740991
+                }
+              ]
+            },
+            "mime": {
+              "type": "string",
+              "enum": [
+                "application/pdf",
+                "text/plain",
+                "text/markdown"
+              ]
+            },
+            "upload_state": {
+              "type": "string",
+              "enum": [
+                "ready",
+                "uploading",
+                "failed"
+              ]
+            },
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "minLengthAfterStrip": 1,
+              "forbiddenCaseInsensitiveLiteral": "<script"
+            },
+            "selected": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "document_id",
+            "name",
+            "bytes",
+            "mime",
+            "upload_state",
+            "label",
+            "selected"
+          ],
+          "additionalProperties": false,
+          "property_order": [
+            "document_id",
+            "name",
+            "bytes",
+            "mime",
+            "upload_state",
+            "label",
+            "selected"
+          ]
+        },
+        "ordering": "input order arbitrary; document_id unique; name <= max_name_chars"
+      }
+    },
+    "required": [
+      "records"
+    ],
+    "additionalProperties": false,
+    "property_order": [
+      "records"
+    ]
+  },
+  "policy_contract": {
+    "type": "object",
+    "exact_value": {
+      "mode": "document_library_ui",
+      "key": "document_id",
+      "bytes_per_unit": 1024,
+      "max_name_chars": 80,
+      "page_size": 3,
+      "upload_states": [
+        "ready",
+        "uploading",
+        "failed"
+      ],
+      "allowed_mimes": [
+        "application/pdf",
+        "text/plain",
+        "text/markdown"
+      ],
+      "keyboard_submit_key": "Enter",
+      "viewport_widths": [
+        375,
+        768,
+        1024
+      ]
+    },
+    "additionalProperties": false,
+    "property_order": [
+      "mode",
+      "key",
+      "bytes_per_unit",
+      "max_name_chars",
+      "page_size",
+      "upload_states",
+      "allowed_mimes",
+      "keyboard_submit_key",
+      "viewport_widths"
+    ],
+    "recursive_scalar_rule": "Every key order, nested container type, scalar type, and value must exactly match exact_value; bool never equals integer."
+  },
+  "business_algorithm_and_ordering": "files sort by name then document_id Unicode code-point ascending, including non-BMP ties; bytes use integer round-half-up at tenths with exact .0 retention; 1280 B is 1.3 KB; uploading beats failed; Enter emits submit-upload; layout is an explicitly modeled contract at 375/768/1024, not a browser geometry claim. JS/TS use BigInt before multiplication at every safe-integer boundary; Node record validation and output property order are exact; Vue event constructors are executable.",
+  "output_contract": {
+    "type": "object",
+    "properties": {
+      "files": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "document_id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "label": {
+              "type": "string"
+            },
+            "mime": {
+              "type": "string"
+            },
+            "bytes": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "integer",
+                  "boolean_is_integer": false
+                }
+              ]
+            },
+            "size_text": {
+              "type": "string"
+            },
+            "upload_state": {
+              "type": "string"
+            },
+            "selected": {
+              "type": "boolean"
+            },
+            "aria_label": {
+              "type": "string"
+            },
+            "keyboard_selectable": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "document_id",
+            "name",
+            "label",
+            "mime",
+            "bytes",
+            "size_text",
+            "upload_state",
+            "selected",
+            "aria_label",
+            "keyboard_selectable"
+          ],
+          "additionalProperties": false,
+          "property_order": [
+            "document_id",
+            "name",
+            "label",
+            "mime",
+            "bytes",
+            "size_text",
+            "upload_state",
+            "selected",
+            "aria_label",
+            "keyboard_selectable"
+          ]
+        },
+        "ordering": "name then document_id Unicode/code-point ascending"
+      },
+      "file_count": {
+        "type": "integer",
+        "boolean_is_integer": false
+      },
+      "selected_ids": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "ordering": "same filtered file order"
+      },
+      "upload_hint": {
+        "type": "string",
+        "enum": [
+          "Upload in progress",
+          "Fix failed files before retry",
+          "Select files to upload"
+        ]
+      },
+      "submit_event": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "const": "submit-upload"
+          },
+          "keyboard": {
+            "type": "string",
+            "const": "Enter"
+          },
+          "payload_fields": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "ordering": "fixed order",
+            "const": [
+              "document_ids"
+            ]
+          }
+        },
+        "required": [
+          "name",
+          "keyboard",
+          "payload_fields"
+        ],
+        "additionalProperties": false,
+        "property_order": [
+          "name",
+          "keyboard",
+          "payload_fields"
+        ]
+      },
+      "layout": {
+        "type": "object",
+        "properties": {
+          "viewport_widths": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "boolean_is_integer": false
+            },
+            "ordering": "fixed order",
+            "const": [
+              375,
+              768,
+              1024
+            ]
+          },
+          "horizontal_scroll": {
+            "type": "boolean",
+            "const": false
+          },
+          "narrow_breakpoint": {
+            "type": "integer",
+            "const": 600
+          }
+        },
+        "required": [
+          "viewport_widths",
+          "horizontal_scroll",
+          "narrow_breakpoint"
+        ],
+        "additionalProperties": false,
+        "property_order": [
+          "viewport_widths",
+          "horizontal_scroll",
+          "narrow_breakpoint"
+        ]
+      },
+      "labels_preserved": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "files",
+      "file_count",
+      "selected_ids",
+      "upload_hint",
+      "submit_event",
+      "layout",
+      "labels_preserved"
+    ],
+    "additionalProperties": false,
+    "property_order": [
+      "files",
+      "file_count",
+      "selected_ids",
+      "upload_hint",
+      "submit_event",
+      "layout",
+      "labels_preserved"
+    ]
+  },
+  "object_rule": "Every object shown in this contract is exact; omitted additionalProperties means false. Object keys follow declared property_order or the literal order shown.",
+  "array_rule": "Every array ordering and tie-break is stated in business_algorithm_and_ordering or its field description; input record order never changes output.",
+  "null_rule": "JSON null is allowed only where a oneOf branch explicitly declares type=null; otherwise it raises ValueError.",
+  "empty_input_result": {
+    "files": [],
+    "file_count": 0,
+    "selected_ids": [],
+    "upload_hint": "Select files to upload",
+    "submit_event": {
+      "name": "submit-upload",
+      "keyboard": "Enter",
+      "payload_fields": [
+        "document_ids"
+      ]
+    },
+    "layout": {
+      "viewport_widths": [
+        375,
+        768,
+        1024
+      ],
+      "horizontal_scroll": false,
+      "narrow_breakpoint": 600
+    },
+    "labels_preserved": true
+  },
+  "errors": {
+    "exception": "ValueError",
+    "conditions": [
+      "unknown top-level, record, nested, or policy field",
+      "wrong container or scalar type including boolean-as-integer",
+      "null outside explicit union",
+      "duplicate scenario/page/session/form or nested key",
+      "invalid enum/domain value",
+      "policy differs from exact_value"
+    ]
+  },
+  "execution": {
+    "offline": true,
+    "python": "3.11+ standard library",
+    "timeout_seconds": 10,
+    "deep_input_mutation": "forbidden",
+    "candidate_isolation": "Separate restricted process with minimal environment, submission-directory read guard, write/network/child-process denial and 10-second host timeout on every platform. When Linux namespaces are available (native Linux or WSL 2 after preflight), also use private mount/network/PID namespaces, read-only submission bind mount, chroot, dropped UID/GID/capabilities, no-new-privileges and process/file/memory limits. Otherwise use the explicitly documented Python isolated-mode fallback without claiming namespace isolation."
+  },
+  "domain_deliverables": [
+    {
+      "path": "output/domain_artifacts/file_size_formatter.ts",
+      "required": true,
+      "behaviorally_validated": true
+    },
+    {
+      "path": "output/domain_artifacts/document_library_ui.mjs",
+      "required": true,
+      "behaviorally_validated": true
+    },
+    {
+      "path": "output/domain_artifacts/document_list.vue",
+      "required": true,
+      "behaviorally_validated": true
+    },
+    {
+      "path": "output/domain_artifacts/upload_modal.vue",
+      "required": true,
+      "behaviorally_validated": true
+    },
+    {
+      "path": "output/domain_artifacts/ui_smoke_test.mjs",
+      "required": true,
+      "behaviorally_validated": true
+    },
+    {
+      "path": "output/domain_artifacts/package.json",
+      "required": true,
+      "behaviorally_validated": true
+    },
+    {
+      "path": "output/domain_artifacts/ui_acceptance.md",
+      "required": true,
+      "behaviorally_validated": true
+    },
+    {
+      "path": "output/domain_artifacts/vue_event_contract.mjs",
+      "required": true,
+      "behaviorally_validated": true
+    }
+  ],
+  "normative_behavior": {
+    "size_text": {
+      "null": "Size unavailable",
+      "bytes_0_through_1023": "{bytes} B",
+      "bytes_1024_through_1048575": "{round_half_up_tenths(bytes / 1024):.1f} KB",
+      "bytes_1048576_and_above": "{round_half_up_tenths(bytes / 1048576):.1f} MB",
+      "rounding": "For unit 1024 or 1048576, compute integer tenths as floor((bytes * 10 + unit / 2) / unit); retain the .0 suffix."
+    },
+    "file_fields": {
+      "aria_label": "{name}, {size_text}",
+      "keyboard_selectable": true
+    },
+    "upload_hint_priority": [
+      {
+        "when": "any upload_state is uploading",
+        "value": "Upload in progress"
+      },
+      {
+        "when": "otherwise, any upload_state is failed",
+        "value": "Fix failed files before retry"
+      },
+      {
+        "when": "otherwise",
+        "value": "Select files to upload"
+      }
+    ],
+    "node_view_model": {
+      "module": "output/domain_artifacts/document_library_ui.mjs",
+      "createDocumentList": {
+        "arguments": "files",
+        "result": "sorted array of output file rows",
+        "record_keys": [
+          "document_id",
+          "name",
+          "bytes",
+          "mime",
+          "upload_state",
+          "label",
+          "selected"
+        ]
+      },
+      "submitFromKey": {
+        "arguments": [
+          "key",
+          "selectedIds"
+        ],
+        "result": "null for non-Enter; submit-upload event for Enter",
+        "enter_result": {
+          "name": "submit-upload",
+          "payload": {
+            "document_ids": "selectedIds"
+          }
+        }
+      },
+      "exports": [
+        "formatBytes",
+        "createDocumentList",
+        "submitFromKey",
+        "layoutForWidth"
+      ]
+    },
+    "vue_event_contract": {
+      "module": "output/domain_artifacts/vue_event_contract.mjs",
+      "exports": [
+        "createToggleEvent",
+        "createSubmitUploadEvent",
+        "submitEventFromKeyboard"
+      ],
+      "toggle": {
+        "constructor_call": "createToggleEvent(document_id, selected)",
+        "result": {
+          "name": "toggle",
+          "args": [
+            "document_id",
+            "selected"
+          ]
+        }
+      },
+      "submit_upload": {
+        "constructor_call": "createSubmitUploadEvent(selectedIds)",
+        "result": {
+          "name": "submit-upload",
+          "payload": {
+            "document_ids": "selectedIds"
+          }
+        }
+      },
+      "keyboard": "submitEventFromKeyboard('Enter', selectedIds) returns the submit-upload event; any other key returns null."
+    },
+    "verification_document": {
+      "required_sections": [
+        "业务规则",
+        "输入字段与类型",
+        "排序与 null",
+        "拒绝边界",
+        "验证结论"
+      ],
+      "required_statements": [
+        "1280 B formats as 1.3 KB",
+        "offline standard-runtime execution with no network or package installation"
+      ]
+    },
+    "vue_components": {
+      "document_list.vue": {
+        "props": [
+          "files"
+        ],
+        "emits": [
+          "toggle"
+        ],
+        "checkbox_change": "emit toggle(document_id, selected)",
+        "required_bindings": [
+          "file.aria_label",
+          "file.upload_state"
+        ]
+      },
+      "upload_modal.vue": {
+        "props": [
+          "uploadHint",
+          "selectedIds"
+        ],
+        "emits": [
+          "submit-upload"
+        ],
+        "form_submit": "emit submit-upload({document_ids: selectedIds})",
+        "keyboard_enter": "same submit-upload event and payload as form submit",
+        "status_binding": "uploadHint"
+      },
+      "responsive_css": {
+        "viewport_widths": [
+          375,
+          768,
+          1024
+        ],
+        "horizontal_scroll": false,
+        "required_declarations": [
+          "max-width",
+          "min-width",
+          "overflow-wrap"
+        ],
+        "breakpoint_px": 600
+      }
+    }
+  }
+}

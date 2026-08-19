@@ -1,0 +1,67 @@
+{
+  "schema_version": "ale-public-edge-cases/5.0",
+  "cases": [
+    {
+      "id": "empty",
+      "expected": {
+        "files": [],
+        "file_count": 0,
+        "selected_ids": [],
+        "upload_hint": "Select files to upload",
+        "submit_event": {
+          "name": "submit-upload",
+          "keyboard": "Enter",
+          "payload_fields": [
+            "document_ids"
+          ]
+        },
+        "layout": {
+          "viewport_widths": [
+            375,
+            768,
+            1024
+          ],
+          "horizontal_scroll": false,
+          "narrow_breakpoint": 600
+        },
+        "labels_preserved": true
+      }
+    },
+    {
+      "id": "reordered",
+      "rule": "reversing top-level records yields byte-equivalent JSON semantics"
+    },
+    {
+      "id": "same_shape_hidden",
+      "rule": "unseen records use the same public algorithm"
+    },
+    {
+      "id": "unicode_tie",
+      "rule": "Unicode ascending means Python string/code-point order"
+    },
+    {
+      "id": "unknown_field",
+      "expected_error": "ValueError"
+    },
+    {
+      "id": "wrong_type_or_null",
+      "expected_error": "ValueError"
+    },
+    {
+      "id": "duplicate_key",
+      "expected_error": "ValueError"
+    },
+    {
+      "id": "invalid_policy",
+      "expected_error": "ValueError"
+    },
+    {
+      "id": "immutability",
+      "rule": "data and policy remain deeply equal"
+    },
+    {
+      "id": "determinism",
+      "rule": "same inputs produce the same nested object and key order"
+    }
+  ]
+}

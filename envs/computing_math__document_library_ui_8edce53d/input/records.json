@@ -1,0 +1,40 @@
+{
+  "records": [
+    {
+      "document_id": "doc-a",
+      "name": "architecture.md",
+      "bytes": 0,
+      "mime": "text/markdown",
+      "upload_state": "ready",
+      "label": "Architecture",
+      "selected": true
+    },
+    {
+      "document_id": "doc-b",
+      "name": "brief.pdf",
+      "bytes": 1536,
+      "mime": "application/pdf",
+      "upload_state": "uploading",
+      "label": "Brief",
+      "selected": false
+    },
+    {
+      "document_id": "doc-c",
+      "name": "notes.txt",
+      "bytes": null,
+      "mime": "text/plain",
+      "upload_state": "failed",
+      "label": "Notes",
+      "selected": true
+    },
+    {
+      "document_id": "doc-d",
+      "name": "release.pdf",
+      "bytes": 2097152,
+      "mime": "application/pdf",
+      "upload_state": "ready",
+      "label": "Release",
+      "selected": false
+    }
+  ]
+}

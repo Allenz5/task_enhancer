@@ -1,0 +1,16 @@
+{
+  "name": "kestrel-capture-console",
+  "version": "6.2.0",
+  "private": true,
+  "description": "Kestrel Capture Console — offline packet-capture analysis workspace with deterministic trace replay",
+  "scripts": {
+    "start": "node server.js",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}

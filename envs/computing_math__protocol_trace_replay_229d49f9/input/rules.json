@@ -1,0 +1,9 @@
+{
+  "mode": "protocol_trace_replay",
+  "key": "session_id",
+  "protocol_order": [
+    "tcp",
+    "udp"
+  ],
+  "strict_fragment_drop": true
+}

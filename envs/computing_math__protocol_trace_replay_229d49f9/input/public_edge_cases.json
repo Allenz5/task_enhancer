@@ -1,0 +1,53 @@
+{
+  "schema_version": "ale-public-edge-cases/2.0",
+  "cases": [
+    {
+      "id": "empty",
+      "expected": {
+        "sessions": [],
+        "replay_order": [],
+        "protocol_matrix": {
+          "tcp": {
+            "sessions": 0,
+            "delivered": 0,
+            "dropped": 0
+          },
+          "udp": {
+            "sessions": 0,
+            "delivered": 0,
+            "dropped": 0
+          }
+        },
+        "session_count": 0
+      }
+    },
+    {
+      "id": "reordered",
+      "rule": "reversing records cannot change the result"
+    },
+    {
+      "id": "new_shape",
+      "rule": "same-shape unseen records use the same algorithm"
+    },
+    {
+      "id": "unknown_field",
+      "expected_error": "ValueError"
+    },
+    {
+      "id": "wrong_type",
+      "expected_error": "ValueError"
+    },
+    {
+      "id": "duplicate_id",
+      "expected_error": "ValueError"
+    },
+    {
+      "id": "invalid_policy",
+      "expected_error": "ValueError"
+    },
+    {
+      "id": "immutability",
+      "rule": "data and policy stay deeply unchanged"
+    }
+  ]
+}

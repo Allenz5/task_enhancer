@@ -1,0 +1,334 @@
+{
+  "schema_version": "ale-public-output-contract/3.0",
+  "encoding": "UTF-8; JSON and text readers accept UTF-8 BOM",
+  "input_top_level": {
+    "required": [
+      "records"
+    ],
+    "additionalProperties": false
+  },
+  "input_record_contract": {
+    "record_fields": [
+      "session_id:string minLength=1",
+      "protocol:string enum tcp|udp",
+      "frames:array"
+    ],
+    "frame_fields": [
+      "message_id:string minLength=1",
+      "tick:integer>=0",
+      "fragment_index:integer",
+      "fragment_count:integer>=1",
+      "payload_hex:lowercase even-length hex"
+    ]
+  },
+  "policy": {
+    "type": "object",
+    "properties": {
+      "mode": {
+        "type": "string",
+        "const": "protocol_trace_replay"
+      },
+      "key": {
+        "type": "string",
+        "const": "session_id"
+      },
+      "protocol_order": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "const": [
+          "tcp",
+          "udp"
+        ]
+      },
+      "strict_fragment_drop": {
+        "type": "boolean",
+        "const": true
+      }
+    },
+    "required": [
+      "mode",
+      "key",
+      "protocol_order",
+      "strict_fragment_drop"
+    ],
+    "additionalProperties": false,
+    "property_order": [
+      "mode",
+      "key",
+      "protocol_order",
+      "strict_fragment_drop"
+    ],
+    "public_example": {
+      "mode": "protocol_trace_replay",
+      "key": "session_id",
+      "protocol_order": [
+        "tcp",
+        "udp"
+      ],
+      "strict_fragment_drop": true
+    },
+    "parameterization": "protocol_order 固定为 tcp、udp，strict_fragment_drop 固定 true。消息分片必须共享 fragment_count；完整消息按 fragment_index 拼接 payload_hex，缺任一分片则整条进入 dropped_messages。delivered_messages 按首帧 tick、message_id 排序；dropped_messages 按 message_id 排序。replay_order 包含所有合法输入帧（包括最终丢弃消息），元素格式 session_id/message_id/fragment_index，按 tick、协议优先级、session_id、message_id、fragment_index 排序。protocol_matrix 属性顺序固定 tcp、udp。"
+  },
+  "output": {
+    "exact_property_order": [
+      "sessions",
+      "replay_order",
+      "protocol_matrix",
+      "session_count"
+    ],
+    "schema": {
+      "type": "object",
+      "properties": {
+        "sessions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "session_id": {
+                "type": "string"
+              },
+              "protocol": {
+                "type": "string",
+                "enum": [
+                  "tcp",
+                  "udp"
+                ]
+              },
+              "delivered_messages": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "message_id": {
+                      "type": "string"
+                    },
+                    "payload_hex": {
+                      "type": "string"
+                    },
+                    "fragment_count": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "message_id",
+                    "payload_hex",
+                    "fragment_count"
+                  ],
+                  "additionalProperties": false,
+                  "property_order": [
+                    "message_id",
+                    "payload_hex",
+                    "fragment_count"
+                  ]
+                },
+                "ordering": "first frame tick ascending, then message_id"
+              },
+              "dropped_messages": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "message_id": {
+                      "type": "string"
+                    },
+                    "missing_fragments": {
+                      "type": "array",
+                      "items": {
+                        "type": "integer"
+                      },
+                      "ordering": "integer ascending"
+                    }
+                  },
+                  "required": [
+                    "message_id",
+                    "missing_fragments"
+                  ],
+                  "additionalProperties": false,
+                  "property_order": [
+                    "message_id",
+                    "missing_fragments"
+                  ]
+                },
+                "ordering": "message_id Unicode ascending"
+              },
+              "delivered_count": {
+                "type": "integer"
+              },
+              "dropped_count": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "session_id",
+              "protocol",
+              "delivered_messages",
+              "dropped_messages",
+              "delivered_count",
+              "dropped_count"
+            ],
+            "additionalProperties": false,
+            "property_order": [
+              "session_id",
+              "protocol",
+              "delivered_messages",
+              "dropped_messages",
+              "delivered_count",
+              "dropped_count"
+            ]
+          },
+          "ordering": "session_id Unicode ascending"
+        },
+        "replay_order": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "ordering": "tick, protocol_order, session_id, message_id, fragment_index; item format session_id/message_id/fragment_index; includes every valid input frame, including incomplete messages"
+        },
+        "protocol_matrix": {
+          "type": "object",
+          "properties": {
+            "tcp": {
+              "type": "object",
+              "properties": {
+                "sessions": {
+                  "type": "integer"
+                },
+                "delivered": {
+                  "type": "integer"
+                },
+                "dropped": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "sessions",
+                "delivered",
+                "dropped"
+              ],
+              "additionalProperties": false,
+              "property_order": [
+                "sessions",
+                "delivered",
+                "dropped"
+              ]
+            },
+            "udp": {
+              "type": "object",
+              "properties": {
+                "sessions": {
+                  "type": "integer"
+                },
+                "delivered": {
+                  "type": "integer"
+                },
+                "dropped": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "sessions",
+                "delivered",
+                "dropped"
+              ],
+              "additionalProperties": false,
+              "property_order": [
+                "sessions",
+                "delivered",
+                "dropped"
+              ]
+            }
+          },
+          "required": [
+            "tcp",
+            "udp"
+          ],
+          "additionalProperties": false,
+          "property_order": [
+            "tcp",
+            "udp"
+          ]
+        },
+        "session_count": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "sessions",
+        "replay_order",
+        "protocol_matrix",
+        "session_count"
+      ],
+      "additionalProperties": false,
+      "property_order": [
+        "sessions",
+        "replay_order",
+        "protocol_matrix",
+        "session_count"
+      ]
+    },
+    "additionalProperties": false
+  },
+  "ordering": "仅回放合成十六进制帧；全局调度顺序固定，分片缺失时整条消息严格丢弃，并按协议输出可复核回归矩阵。",
+  "empty_input_result": {
+    "sessions": [],
+    "replay_order": [],
+    "protocol_matrix": {
+      "tcp": {
+        "sessions": 0,
+        "delivered": 0,
+        "dropped": 0
+      },
+      "udp": {
+        "sessions": 0,
+        "delivered": 0,
+        "dropped": 0
+      }
+    },
+    "session_count": 0
+  },
+  "errors": {
+    "exception": "ValueError",
+    "conditions": [
+      "unknown top-level or record field",
+      "wrong field type",
+      "duplicate primary identifier",
+      "invalid policy",
+      "malformed offsets, paths, frames or timing"
+    ]
+  },
+  "execution": {
+    "offline": true,
+    "python": "3.11+",
+    "implementation_timeout_seconds": 10,
+    "submitter_test_timeout_seconds": 10
+  },
+  "artifacts": [
+    {
+      "path": "output/protocol_trace_replay.py",
+      "required": true,
+      "interface": "process_protocol_trace_replay(data, policy) -> object"
+    },
+    {
+      "path": "output/protocol_trace_replay_result.json",
+      "required": true,
+      "format": "JSON"
+    },
+    {
+      "path": "output/protocol_trace_replay_verification.md",
+      "required": true,
+      "sections": [
+        "业务规则",
+        "拒绝边界",
+        "验证结论"
+      ]
+    },
+    {
+      "path": "output/tests/test_submission.py",
+      "required": true,
+      "execution": "python tests/test_submission.py"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foliant Content Library</title>
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-left">
+    <button class="waffle" type="button" aria-label="Workspace switcher">
+      <span></span><span></span><span></span><span></span>
+    </button>
+    <a class="wordmark" href="/">Foliant</a>
+    <span class="topbar-sep"></span>
+    <span class="tenant">Northwind Group · Engineering site</span>
+  </div>
+  <div class="topbar-mid">
+    <label class="search">
+      <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M7 1a6 6 0 1 0 3.7 10.7l3.3 3.3.7-.7-3.3-3.3A6 6 0 0 0 7 1Zm0 1a5 5 0 1 1 0 10A5 5 0 0 1 7 2Z"/></svg>
+      <input type="search" placeholder="Search this site" aria-label="Search this site">
+      <kbd>/</kbd>
+    </label>
+  </div>
+  <div class="topbar-right">
+    <button class="icon-btn" id="whats-new" type="button" title="What's new in Foliant 6.3">
+      <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M8 1.5 9.9 5.6l4.5.5-3.3 3 .9 4.4L8 11.4 4 13.5l.9-4.4-3.3-3 4.5-.5Z"/></svg>
+    </button>
+    <button class="icon-btn" id="open-shortcuts" type="button" title="Keyboard shortcuts" aria-label="Keyboard shortcuts">
+      <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M1.5 3.5h13v9h-13v-9Zm1 1v7h11v-7h-11Zm1 1h1.5v1.5H3.5V5.5Zm2.5 0h1.5v1.5H6V5.5Zm2.5 0H10v1.5H8.5V5.5Zm2.5 0h1.5v1.5H11V5.5ZM3.5 8H5v1.5H3.5V8ZM6 8h4v1.5H6V8Zm5 0h1.5v1.5H11V8Z"/></svg>
+    </button>
+    <span class="avatar" title="Priya Raman">PR</span>
+  </div>
+</header>
+
+<div class="shell">
+  <nav class="rail" id="rail" aria-label="Workspace"></nav>
+  <main class="canvas" id="canvas" data-surface="loading"></main>
+</div>
+
+<div class="scrim" id="scrim" hidden></div>
+<button class="support-bubble" type="button" title="Support chat">?</button>
+<script src="/app.js"></script>
+</body>
+</html>

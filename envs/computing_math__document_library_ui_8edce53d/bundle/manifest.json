@@ -1,0 +1,159 @@
+{
+  "task_ref": "computing_math/document_library_ui_8edce53d",
+  "app_concept": "Foliant Content Library — an enterprise ECM workspace where a shared library of documents is browsed page by page, each item's technical metadata sits on its properties surface, in-flight ingestion is watched from a transfer monitor, the set staged for the next upload sits in the upload console, library behaviour is administered from settings, and the view-model an integrator must reproduce is published in a developer center with a runnable sample-request console.",
+  "domain": "Enterprise Content Management — document library, batch-upload console and integration developer center",
+  "url": "http://localhost:5175",
+  "environment": "envs/computing_math__document_library_ui_8edce53d",
+  "input": {
+    "moved_into_gui": [
+      "output_contract.json",
+      "public_edge_cases.json",
+      "records.json",
+      "rules.json"
+    ],
+    "left_on_disk": [
+      "deidentification_manifest.json"
+    ],
+    "not_named_in_task_prompt": [
+      "output_contract.json",
+      "public_edge_cases.json",
+      "records.json",
+      "rules.json"
+    ]
+  },
+  "placement": [
+    {
+      "source": "records.json#/records/*/document_id+name+label",
+      "disposition": "gui",
+      "modality": "A paged listing ordered by an invented operational column, walked page by page to enumerate the population. The active sort is never the ordering the contract requires, so the name-then-identifier order has to be derived from the collected rows rather than read off the screen.",
+      "split": "The identity of every element of records.json#/records — its document identifier, its file name and its display label — is a row in the shared library listing, and nothing else about that element appears there. The listing pages at the library's configured rows-per-page, so the population does not fit on one screen and the rows beyond the first page exist only after the listing has been advanced.",
+      "reason": null,
+      "path_length": 2
+    },
+    {
+      "source": "records.json#/records/*/bytes+mime",
+      "disposition": "gui",
+      "modality": "A per-row drill from the listing into a properties surface that holds one element at a time, so the surface is reached once per element and left again before the next can be opened. The rendering of the byte count is load-bearing: an element whose size is recorded as zero and an element whose size was never reported must each read as themselves, since collapsing them into a shared placeholder destroys both the fallback text and the accessible label the contract demands.",
+      "split": "The stored byte count and the media type of an element are confined to that element's own properties surface — one element per surface, nowhere else, joined back to the listing by identifier.",
+      "reason": null,
+      "path_length": 3
+    },
+    {
+      "source": "records.json#/records/*/upload_state",
+      "disposition": "gui",
+      "modality": "A side surface of the same application — an ingestion queue listing every tracked transfer, collected in one visit and joined back to the listing by identifier.",
+      "split": "The ingestion state of every element lives only in the transfer monitor, which owns that one field for the whole population and no other.",
+      "reason": null,
+      "path_length": 2
+    },
+    {
+      "source": "records.json#/records/*/selected",
+      "disposition": "gui",
+      "modality": "A batch-upload dialog holding the staged set in the order items were added to it, collected in one visit and joined back to the listing by identifier. Its order is neither the library's nor the contract's, so the staged-identifier ordering the contract requires must be derived.",
+      "split": "Whether an element is staged for the next upload is legible only in the upload console, which holds the staged set and nothing else; an element's absence from that list is the only statement that it is not staged.",
+      "reason": null,
+      "path_length": 2
+    },
+    {
+      "source": "rules.json#/mode+key+bytes_per_unit+max_name_chars+page_size",
+      "disposition": "gui",
+      "modality": "A tabbed administration screen read as text.",
+      "split": "The behaviour-profile identifier, the record field treated as an item's key, the size-unit base used when scaling sizes for display, the maximum permitted file-name length and the rows-per-page are the general tab of library administration, and this is their only home in the workspace.",
+      "reason": null,
+      "path_length": 1
+    },
+    {
+      "source": "rules.json#/allowed_mimes+upload_states",
+      "disposition": "gui",
+      "modality": "A second tab of the same administration screen, reached only by switching tabs from the general one.",
+      "split": "The accepted media-type allowlist and the set of transfer states, each complete and in its configured order, are the content-types tab of library administration, and this is the only rendering of either set.",
+      "reason": null,
+      "path_length": 2
+    },
+    {
+      "source": "rules.json#/viewport_widths",
+      "disposition": "gui",
+      "modality": "A set of values legible only as the options a toolbar control offers, never written out as a setting. Not reachable from administration.",
+      "split": "The set of preview viewport widths exists only as the selectable presets of the listing's responsive-preview control, in the configured order.",
+      "reason": null,
+      "path_length": 2
+    },
+    {
+      "source": "rules.json#/keyboard_submit_key",
+      "disposition": "gui",
+      "modality": "A binding read from a keyboard-shortcuts help overlay opened from the top bar, among invented bindings that are chrome. Not reachable from administration or from the library.",
+      "split": "The key that submits an upload exists only as one binding in the workspace keyboard-shortcuts overlay.",
+      "reason": null,
+      "path_length": 1
+    },
+    {
+      "source": "output_contract.json#/schema_version+encoding+execution",
+      "disposition": "gui",
+      "modality": "A developer portal landing page, read on the way in to every section and the only place the run conditions are stated.",
+      "split": "The contract's front matter — its revision identity, its text-encoding rule and the execution envelope a conforming run must hold to — is the landing page of the integration developer center, which also lists the titles of the sections published beneath it and the controls that open each.",
+      "reason": null,
+      "path_length": 1
+    },
+    {
+      "source": "output_contract.json#/input_top_level+input_contract+policy_contract+output_contract+object_rule+array_rule+null_rule",
+      "disposition": "gui",
+      "modality": "A reference section opened in its own right from the developer landing page and left again by its own return before another can be opened.",
+      "split": "The structural half of the contract — the accepted container and its closed-set rule, the per-record field-and-type contract, the returned object's fields, the fixed key orders of the object and of a row, the fixed shapes of the submit-event and layout descriptors, the rule rejecting unstated keys, the rule governing where an absent value is permitted, and the row and staged-identifier ordering rules — is the endpoint reference section.",
+      "reason": null,
+      "path_length": 2
+    },
+    {
+      "source": "output_contract.json#/normative_behavior/size_text+file_fields+upload_hint_priority",
+      "disposition": "gui",
+      "modality": "A second reference section of the same portal, opened separately from the landing page; nothing in the endpoint reference leads to it.",
+      "split": "The derived-text half of the contract — the size-string rule for each magnitude band, the integer rounding rule at the tenths position with its trailing-digit requirement, the fixed text for a size that was never reported, the worked boundary example the contract fixes, the formula composing a row's accessible label, the statement that every valid row is keyboard-selectable, and the priority order that chooses among the published hint strings together with those strings in full — is the behaviour guide section.",
+      "reason": null,
+      "path_length": 2
+    },
+    {
+      "source": "output_contract.json#/errors",
+      "disposition": "gui",
+      "modality": "A third reference section of the same portal, opened separately from the landing page.",
+      "split": "The single exception type a rejection must raise and every condition that must trigger it — unknown fields at any level, wrong container or scalar types including a boolean standing in for an integer, an absent value outside the one place it is permitted, duplicate keys, invalid enumeration or domain values, and a configuration argument differing from the one in force — are the error reference section.",
+      "reason": null,
+      "path_length": 2
+    },
+    {
+      "source": "output_contract.json#/domain_deliverables+normative_behavior/node_view_model+vue_event_contract+vue_components+verification_document",
+      "disposition": "gui",
+      "modality": "A fourth reference section of the same portal, opened separately from the landing page; it is the only surface that ties an event to a key, and it names the layout descriptor as the home of the narrow breakpoint and library administration as the home of the widths.",
+      "split": "The client-side half of the contract — the module list an integration must deliver and which of them are behaviourally validated, the exported names of the view-model module and what each returns including what the keyboard submit helper returns for the submit key and for any other key, the exported names of the event-constructor module with each event's exact name, argument list and payload shape, each component's declared props and emits, what a checkbox change emits and with which arguments, which row values the markup must bind, which prop renders as status text, the declarations the responsive rules must contain with the no-horizontal-scroll requirement, and the conformance report's required headings and statements — is the component and module contract section.",
+      "reason": null,
+      "path_length": 2
+    },
+    {
+      "source": "output_contract.json#/empty_input_result",
+      "disposition": "gui",
+      "modality": "A request console reached only from the endpoint reference, where this outcome does not exist as printed text: it has to be produced by composing a call over an empty document set and executing it, then read from the returned response body.",
+      "split": "The one outcome the contract fixes by value rather than by rule — the complete returned body for a library holding nothing, with its empty row container, its count, its empty staged-identifier list, the hint that holds when nothing is in flight, the submit-event descriptor, the layout descriptor with its narrow breakpoint stated by value, and the label-preservation flag — is carried by nothing at all until the sample call is executed.",
+      "reason": null,
+      "path_length": 4
+    },
+    {
+      "source": "public_edge_cases.json#/cases",
+      "disposition": "gui",
+      "modality": "The product's own built-in document previewer: a stored document opened from a collection and read page by page, which is the one modality an enterprise document library is fundamentally about.",
+      "split": "Whole, as the body of one stored document in the workspace's governance collection — the integration certification checklist. The collection listing carries only that document's title, owner and revision; every case lives inside the document, and the document runs longer than one preview page, so the later cases sit on pages the previewer must be advanced to.",
+      "reason": null,
+      "path_length": 3
+    },
+    {
+      "source": "deidentification_manifest.json",
+      "disposition": "file",
+      "modality": null,
+      "split": null,
+      "reason": "A three-field attestation about the staged data's provenance — that it holds no personal data, no secrets, and is synthetic. It feeds no computation, is restated nowhere in the workspace, and has no internal structure an interface could divide or an interaction could earn; putting it behind clicks would add friction and measure nothing.",
+      "path_length": 0
+    }
+  ],
+  "budget": {
+    "min_actions": 36,
+    "max_actions": 85
+  },
+  "grading": "unchanged and not copied -- the original task's own evaluator grades this, exactly as it graded the un-enhanced task"
+}
