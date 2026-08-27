@@ -1,0 +1,6304 @@
+{
+ "rows": [
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 7,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 10,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 17,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 23,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 22,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 21,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 15,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 9,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 5,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 5,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 5,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 7,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 8,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 13,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 16,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 21,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 28,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 33,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 45,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 4,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 6,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 12,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 14,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 24,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 23,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 22,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 13,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 10,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 5,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 4,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 5,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 6,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 6,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 9,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 12,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 15,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 19,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 28,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 37,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 42,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 6,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 11,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 17,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 22,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 26,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 22,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 17,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 11,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 6,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 4,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 6,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 6,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 9,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 12,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 17,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 21,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 25,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 34,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 42,
+   "media": "MediaY",
+   "Run": 1605,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 7,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 12,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 16,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 24,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 24,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 21,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 16,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 11,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 5,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 4,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 4,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 6,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 8,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 10,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 10,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 14,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 19,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 27,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 36,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 46,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 4,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 6,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 13,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 18,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 22,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 25,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 18,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 19,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 9,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 6,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 4,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 5,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 6,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 7,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 10,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 13,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 16,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 20,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 27,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 37,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 44,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 7,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 11,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 17,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 22,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 23,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 23,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 15,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 8,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 6,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-23",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-24",
+   "Day": 2,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-25",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-26",
+   "Day": 4,
+   "cellCount": 4,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-27",
+   "Day": 5,
+   "cellCount": 5,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-28",
+   "Day": 6,
+   "cellCount": 7,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-29",
+   "Day": 7,
+   "cellCount": 7,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-30",
+   "Day": 8,
+   "cellCount": 9,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-31",
+   "Day": 9,
+   "cellCount": 11,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-01",
+   "Day": 10,
+   "cellCount": 13,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-02",
+   "Day": 11,
+   "cellCount": 20,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-03",
+   "Day": 12,
+   "cellCount": 26,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-04",
+   "Day": 13,
+   "cellCount": 33,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-05",
+   "Day": 14,
+   "cellCount": 42,
+   "media": "MediaY",
+   "Run": 1606,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-24",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-25",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-26",
+   "Day": 3,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-27",
+   "Day": 4,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-28",
+   "Day": 5,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-29",
+   "Day": 6,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-30",
+   "Day": 7,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-31",
+   "Day": 8,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-01",
+   "Day": 9,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-02",
+   "Day": 10,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-03",
+   "Day": 11,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-04",
+   "Day": 12,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-05",
+   "Day": 13,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-06",
+   "Day": 14,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-24",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-25",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-26",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-27",
+   "Day": 4,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-28",
+   "Day": 5,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-29",
+   "Day": 6,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-30",
+   "Day": 7,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-31",
+   "Day": 8,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-01",
+   "Day": 9,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-02",
+   "Day": 10,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-03",
+   "Day": 11,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-04",
+   "Day": 12,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-05",
+   "Day": 13,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-06",
+   "Day": 14,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-24",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-25",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-26",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-27",
+   "Day": 4,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-28",
+   "Day": 5,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-29",
+   "Day": 6,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-30",
+   "Day": 7,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-07-31",
+   "Day": 8,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-01",
+   "Day": 9,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-02",
+   "Day": 10,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-03",
+   "Day": 11,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-04",
+   "Day": 12,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-05",
+   "Day": 13,
+   "cellCount": 1,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2019-08-06",
+   "Day": 14,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-24",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-25",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-26",
+   "Day": 3,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-27",
+   "Day": 4,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-28",
+   "Day": 5,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-29",
+   "Day": 6,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-30",
+   "Day": 7,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-31",
+   "Day": 8,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-01",
+   "Day": 9,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-02",
+   "Day": 10,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-03",
+   "Day": 11,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-04",
+   "Day": 12,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-05",
+   "Day": 13,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-06",
+   "Day": 14,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-24",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-25",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-26",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-27",
+   "Day": 4,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-28",
+   "Day": 5,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-29",
+   "Day": 6,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-30",
+   "Day": 7,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-31",
+   "Day": 8,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-01",
+   "Day": 9,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-02",
+   "Day": 10,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-03",
+   "Day": 11,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-04",
+   "Day": 12,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-05",
+   "Day": 13,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-06",
+   "Day": 14,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-24",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-25",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-26",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-27",
+   "Day": 4,
+   "cellCount": 1,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-28",
+   "Day": 5,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-29",
+   "Day": 6,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-30",
+   "Day": 7,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-07-31",
+   "Day": 8,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-01",
+   "Day": 9,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-02",
+   "Day": 10,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-03",
+   "Day": 11,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-04",
+   "Day": 12,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-05",
+   "Day": 13,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2019-08-06",
+   "Day": 14,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-24",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-25",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-26",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-27",
+   "Day": 4,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-28",
+   "Day": 5,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-29",
+   "Day": 6,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-30",
+   "Day": 7,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-31",
+   "Day": 8,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-01",
+   "Day": 9,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-02",
+   "Day": 10,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-03",
+   "Day": 11,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-04",
+   "Day": 12,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-05",
+   "Day": 13,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-06",
+   "Day": 14,
+   "cellCount": 0,
+   "media": "control",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-24",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-25",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-26",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-27",
+   "Day": 4,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-28",
+   "Day": 5,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-29",
+   "Day": 6,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-30",
+   "Day": 7,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-31",
+   "Day": 8,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-01",
+   "Day": 9,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-02",
+   "Day": 10,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-03",
+   "Day": 11,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-04",
+   "Day": 12,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-05",
+   "Day": 13,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-06",
+   "Day": 14,
+   "cellCount": 0,
+   "media": "MediaX",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-24",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-25",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-26",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-27",
+   "Day": 4,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-28",
+   "Day": 5,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-29",
+   "Day": 6,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-30",
+   "Day": 7,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-07-31",
+   "Day": 8,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-01",
+   "Day": 9,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-02",
+   "Day": 10,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-03",
+   "Day": 11,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-04",
+   "Day": 12,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-05",
+   "Day": 13,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2019-08-06",
+   "Day": 14,
+   "cellCount": 0,
+   "media": "MediaY",
+   "Run": 1608,
+   "FlaggedAsExcluded": true,
+   "ExclusionComment": "Run failed QC review — cell death in control"
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 7,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 12,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 18,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 23,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 22,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 19,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 15,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 9,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 5,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 5,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 6,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 7,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 10,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 12,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 16,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 20,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 27,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 36,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 43,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 6,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 13,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 18,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 18,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 23,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 21,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 15,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 10,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 6,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 4,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 5,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 6,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 7,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 9,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 12,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 14,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 21,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 25,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 37,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 46,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 7,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 13,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 18,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 22,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 23,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 20,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 14,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 10,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 6,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 4,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 4,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 6,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 8,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 9,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 11,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 15,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 22,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 27,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 33,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 46,
+   "media": "MediaY",
+   "Run": 43950,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 6,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 12,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 17,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 23,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 24,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 19,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 15,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 9,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 5,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 4,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 4,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 6,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 8,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 9,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 13,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 14,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 22,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 26,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 29,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "109",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 44,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 7,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 13,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 19,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 21,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 23,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 19,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 15,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 10,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 6,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 4,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 5,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 5,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 8,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 10,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 12,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 13,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 18,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 29,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 35,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "217",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 40,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 1,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 2,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 3,
+   "media": "control",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 1,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 7,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 12,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 18,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 25,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 21,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 21,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 16,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 9,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 6,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 3,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 2,
+   "media": "MediaX",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-12",
+   "Day": 1,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-13",
+   "Day": 2,
+   "cellCount": 2,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-14",
+   "Day": 3,
+   "cellCount": 3,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-15",
+   "Day": 4,
+   "cellCount": 4,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-16",
+   "Day": 5,
+   "cellCount": 4,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-17",
+   "Day": 6,
+   "cellCount": 6,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-18",
+   "Day": 7,
+   "cellCount": 7,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-19",
+   "Day": 8,
+   "cellCount": 9,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-20",
+   "Day": 9,
+   "cellCount": 12,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-21",
+   "Day": 10,
+   "cellCount": 17,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-22",
+   "Day": 11,
+   "cellCount": 21,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-23",
+   "Day": 12,
+   "cellCount": 27,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-24",
+   "Day": 13,
+   "cellCount": 37,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  },
+  {
+   "ParticipantID": "334",
+   "Date": "2023-04-25",
+   "Day": 14,
+   "cellCount": 47,
+   "media": "MediaY",
+   "Run": 43951,
+   "FlaggedAsExcluded": false,
+   "ExclusionComment": ""
+  }
+ ]
+}

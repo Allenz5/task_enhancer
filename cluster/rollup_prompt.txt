@@ -1,0 +1,379 @@
+下面是 365 个"数据来源站点/软件"，格式 `名字 [任务数] :: 主要页面形态`。
+
+你的任务：把它们归并成一组**实际要动手搭建的网站**。判据只有一个 —— **为这一组搭一套界面（同样的导航、列表/详情形态、筛选器、导出方式），能不能同时承载组内所有条目的数据**。
+
+请这样思考每一次合并：如果我为 A 搭好了站，把 B 的数据灌进去，用户是不是不需要改界面就能完成 B 的任务？是则合并，否则分开。
+
+几条硬规则：
+- **按界面形态归并，不按学科归并。** 地震波形下载站和气象数据下载站是同一套界面（筛选→表格→下载文件）；OpenSim 的模型树编辑器和地震波形下载站不是，哪怕都叫"科学数据"。
+- **不要追求各组大小均匀。** 真实分布就是少数大站加一长串单例。只出现一次、且界面独特的条目，就让它自成一组。
+- 一个组里如果混进了明显不同形态的条目，宁可拆成两组。
+- 组名要能一眼看出这是个什么网站，用中文，形如"时序历史库（测点→趋势图→区间导出）"。
+
+输出 {"g":[{"name":"<组名>","skeleton":"<一句话描述界面骨架>","members":["<原名>",...]},...]}，覆盖全部 365 个条目，不重不漏。只输出 JSON，无解释，无 markdown 围栏。
+
+OpenSim [99] :: model-tree-editor, motion-data-file-export, motion-capture-simulation-output-files
+Materials Project [46] :: structure-detail-page, record-detail-page, structure-search-results-table
+source-code-management [32] :: pull-request-diff-view, commit-diff-view, issue-pr-diff-view
+geology-and-seismic [26] :: traveltime-data-export, config-editor, event-catalog-table
+UCI Machine Learning Repository [25] :: dataset-download-page, dataset-detail-page, dataset-file-download
+OpenCap [24] :: session-results-file-browser, record-detail-page, trial-results-page
+general-purpose-cad [23] :: drawing-editor, drawing-sheet-pdf, calculation-report-and-drawing
+AVEVA PI System [22] :: trend-chart-csv-export, trend-chart-dashboard, trend-log-export
+job-board [21] :: job-posting-detail-page, job-listing-search-results, job-listing-page
+LAMMPS [18] :: run-log-viewer, chunk-output-file, script-api
+Microsoft Excel [17] :: spreadsheet-table, worksheet-table, spreadsheet-grid
+lims [17] :: raw-test-data-export-table, study-data-tables, data-export-table
+IRIS/FDSN Data Management Center [16] :: waveform-download-interface, waveform-and-stationxml-download, waveform-download-page
+supervisory-control-and-data-acquisition-scada [15] :: dispatch-schedule-table, trend-data-export-table, trend-chart-time-series-table
+Silixa iDAS [12] :: waveform-viewer, waveform-data-export, waveform-csv-export
+Government open-data dataset portal (filter → table → CSV/Excel/bulk download) [12] :: dataset-download-table, flat-file-download, quarterly-call-report-download
+科研数据集文件归档下载站 [10] :: file-download-page, file-browser, dataset-download-page
+NOAA NCEI Storm Events Database [10] :: bulk-csv-export, best-track-data-files, station-file-download
+game-engine [10] :: material-color-inspector-panel, gameplay-config-data, data-table-import-window
+ENTSO-E Transparency Platform [9] :: time-series-download-table, time-series-csv-export, csv-data-package-download
+GitHub [9] :: file-browser, source-code-reference, notebook-file-browser
+Pose2Sim [9] :: exported-marker-and-ik-files, config-toml-editor, pipeline-run-directory
+simulation-cae [9] :: generated-array-csv-output, model-tree-and-results-plot, model-builder-results
+National Instruments LabVIEW [9] :: time-series-log-export, csv-log-export, scan-data-csv-export
+construction-estimating-software [8] :: cost-breakdown-spreadsheet, settlement-document-editor, boq-progress-payment-worksheet
+erp-systems [8] :: production-cost-report, outbound-ledger-export, inventory-report-export
+Wind资讯终端 (Wind Information Financial Terminal) [8] :: data-export-spreadsheet, historical-price-data-export, time-series-export
+SW6 [8] :: design-calculation-report, envelope-calc-report, calculation-report-viewer
+InfinityQS ProFicient [8] :: control-chart-dashboard, gauge-rr-worksheet, gauge-rr-control-chart-worksheet
+Vicon Nexus [8] :: trial-data-export, marker-trajectory-export, trial-time-series-export
+工程/科学仿真建模软件（参数配置→计算→结果报表） [7] :: stream-and-unit-op-report, compound-parameter-panel, linkage-parameter-editor
+分析仪器谱图/信号查看与导出软件 [7] :: peak-list-table, pattern-xy-export, chart-dashboard
+代码/数据仓库文件浏览器 (GitHub 式) [7] :: repo-file-browser, firmware-source-repository, pretrained-model-file-listing
+KLA Klarity Yield Management System [7] :: spc-chart-dashboard, spc-control-chart-dashboard, wafer-die-data-table
+O*NET OnLine [7] :: data-table-download, occupation-profile-page, occupation-detail-page
+政府/统计机构批量数据下载门户 [7] :: data-file-download-page, test-records-csv-table, wage-data-table
+Scientific/engineering model & analysis software (run config → results table/matrix → export) [7] :: analysis-report-export, results-table-export, otu-table-export
+台站观测数据检索下载中心 [6] :: station-velocity-file-download, raw-sensor-text-file-download, file-browser
+Copernicus Data Space Ecosystem (Sentinel-2) [6] :: map-download-viewer, scene-browser-and-download, imagery-download-catalog
+weather-data-software [6] :: api-json-response, historical-weather-csv-export, time-series-download-table
+building-design-and-building-information-modeling-bim [6] :: room-schedule-export, clash-report-table, property-panel-and-space-schedule
+crm [6] :: contract-payment-detail-page, opportunity-pipeline-table, customer-360-record-view
+Public Dataset Catalog & Download Portal [6] :: dataset-download-page, facility-data-download-portal, dataset-download-portal
+civil-engineering-design [5] :: cross-section-drawing-view, profile-drawing-view, geometry-data-export
+OpenEI Geothermal Data Repository (GDR) [5] :: file-browser, file-download-listing, dataset-download-page
+政府/机构开放数据门户 (CKAN/Socrata 式) [5] :: file-download-listing, trip-data-csv-export, dataset-download-csv-json
+AutoCAD [5] :: cad-drawing-canvas, cad-drawing-file, floor-plan-vector-drawing
+pcb-design [5] :: schematic-and-pcb-layout-editor, schematic-editor-pcb-layout-editor, design-rule-check-report
+test-management [5] :: test-case-index-table, test-run-report, test-record-export-table
+BioTek Gen5 [5] :: instrument-data-export-table, raw-data-export-table, plate-reader-raw-export
+Time-Series Historian / Signal Log Viewer [5] :: time-series-data-table, csv-log-export, sensor-data-export
+ObsPy [5] :: npz-data-and-config-file, matlab-script-batch-output, frequency-domain-solver-output
+绿色建筑评价标识管理平台 [5] :: announcement-list-page, self-assessment-scoring-workbook, policy-document-list
+document-management [4] :: config-spreadsheet, file-list-view, upload-modal-dialog
+mechanical-computer-aided-design-mcad [4] :: drawing-sheet-view, drawing-editor, assembly-model-viewer
+workflow-management [4] :: run-status-dashboard, application-status-field-config, list-view-export
+cad [4] :: drawing-editor, model-space-drawing, floor-plan-drawing-canvas
+US DOT Bureau of Transportation Statistics (BTS) [4] :: flat-file-download, annual-report-file-download, data-table-download
+construction-project-management [4] :: schedule-gantt-cost-view, baseline-vs-actual-progress-table, component-tracking-list
+quality-management-qms [4] :: measurement-data-table, spreadsheet-table, batch-record-detail-page
+insurance-claims-management [4] :: claim-transaction-export, claim-detail-page, claim-reserve-triangle-report
+Huawei iManager U2000 [4] :: kpi-report-export, kpi-report-dashboard, kpi-and-alarm-dashboard
+Structured Config / Scenario Editor [4] :: config-editor, dataset-generation-config-panel, scenario-config-json
+Application Runtime Event Log Viewer [4] :: hook-lifecycle-log, touch-input-debug-log, stack-trace-viewer
+淘宝千牛 (Taobao Qianniu Merchant Platform) [4] :: order-export-table, batch-promotion-editor, config-editor
+FDA Orange Book [4] :: record-detail-page, bulk-data-file-download, bulk-api-json-export
+manufacturing-execution-system [4] :: work-order-and-equipment-status-table, sensor-measurement-table, process-historian-trend-table
+工控/SCADA 设备事件与趋势日志平台 [4] :: trace-log-export, event-log-viewer, trend-report-export
+科学数据档案检索与文件下载平台 (GEO/MAST 类) [4] :: series-supplementary-file-download, expression-matrix-download, lightcurve-file-download
+试验台架测试序列与运行数据管理软件 (TestStand 类) [4] :: test-run-data-table, run-log-export-table, test-report-export-table
+全国自动监测站实时数据发布平台 (空气/地表水/噪声/地面气象) [4] :: hourly-station-data-download, monitoring-station-data-table, sensor-record-table
+Research data repository record page (search → record landing page → file download) [4] :: record-detail-page, supplementary-dataset-download, run-metadata-table
+Regulatory enforcement & incident case database (entity search → case list → case detail) [4] :: api-json-export, violation-enforcement-table, case-detail-page
+Test bench / vehicle control system run log (session → channel time series → export) [4] :: test-bench-log-export, sea-trial-log-export, test-cell-run-log-export
+元器件/产品选型与资料下载站 [3] :: datasheet-pdf, product-manual-pdf, component-search-and-datasheet-page
+上市公司信息披露平台 [3] :: annual-report-pdf, xbrl-filing-and-company-facts-viewer, filing-detail-page
+Kaggle [3] :: dataset-download-page, leaderboard-run-log
+gis [3] :: document-and-map-repository, attribute-table-with-map-layer, attribute-table-export
+法规/标准全文数据库 [3] :: document-viewer, pdf-document
+脚本/配置文件驱动的计算工具 [3] :: scenario-config-files, res-file-cli-output, script-source-and-binary-output
+log-analysis [3] :: log-search-results-table, event-sequence-and-snapshot-viewer, jsonl-event-log
+测井/钻孔数据处理软件 [3] :: las-curve-file, borehole-image-log-viewer, cross-section-viewer
+ai-video-generators [3] :: generation-job-console, image-to-video-job-console, job-status-config-editor
+3D/游戏内容创作工具（资源浏览器+导出面板） [3] :: content-browser, texture-export-panel, heightmap-editor
+NCBI Gene Expression Omnibus (GEO) [3] :: series-matrix-download, dataset-supplementary-file-page, expression-matrix-table
+R/Bioconductor 分析包结果表 [3] :: differential-expression-export-table, dataset-file, enrichment-result-table
+applicant-tracking-systems-ats [3] :: job-posting-and-candidate-pipeline-dashboard, monthly-summary-report
+Gridded Geospatial Product Download Portal (Copernicus/NOAA-class) [3] :: gridded-data-download, gridded-netcdf-download, geotiff-product-download
+Resource / Service Inventory Console [3] :: record-detail-page, server-list-table, resource-inventory-dashboard
+Benchmark / Performance Report Dashboard [3] :: performance-regression-dashboard, scalability-benchmark-report, benchmark-report
+electronic-data-capture-edc [3] :: chart-dashboard, subject-visit-data-listing, data-reconciliation-listing
+Government Bulk Data File Distribution Archive [3] :: file-browser
+Editorial Manager [3] :: review-comments-thread, manuscript-pdf-viewer
+全国大学生数学建模竞赛(CUMCM) [3] :: problem-statement-parameter-table
+ReliaSoft Weibull++/ALTA [3] :: test-record-table
+总线/网络报文抓取与 trace 查看工具 [3] :: cli-config-and-pcap-export, register-memory-map-viewer, trace-log-viewer
+KiCad [3] :: schematic-and-netlist-editor, schematic-and-bom-export, schematic-bom-view
+transportation-management-systems-tms [3] :: shipment-detail-export, shipment-detail-table, quote-matrix-spreadsheet
+Neware 电池检测系统 (BTS) [3] :: test-data-export-table, cycler-and-eis-export-csv, cycle-data-export
+恒生电子 Hundsun 资管/风控业务系统 (O32 系列) [3] :: alert-queue-review, transaction-reconciliation-table, eod-risk-report-dashboard
+Kongsberg K-Pos Dynamic Positioning System [3] :: alarm-and-status-event-log, commissioning-trial-log-export, sea-trial-log-export
+实验室仪器测量数据导出软件 (酶标仪/qPCR/电化学工作站类) [3] :: kinetic-od-timeseries-export, measurement-data-export, raw-data-export-table
+通用数据采集与通道日志软件 (LabVIEW/DAQ 类) [3] :: sensor-log-export, data-logger-export, hourly-telemetry-export-table
+产线过程/质量检测结果查看软件 [3] :: thermal-profile-chart, inspection-results-table, weld-log-viewer
+监管登记/许可记录检索库 [3] :: form-990-filing-viewer, license-search-results, property-record-page
+survey [3] :: dataset-export, survey-response-export, spreadsheet-table
+Periodic agency PDF report library (year/edition list → PDF report viewer) [3] :: pdf-disclosure-report, pdf-report-viewer, pdf-table-report
+Standards-body registry / reference data file archive [3] :: flat-file-browser, release-archive-file-listing, xml-registry-export
+NOAA NCEI climate/weather archive (incl. IGRA station files) [3] :: fixed-width-file-download, tabular-download, fixed-width-text-file
+Software source & release distribution page (version index → package/source file) [3] :: sas-software-package-download, source-tarball-download, source-repository-config-file
+中国统计年鉴数据库 [3] :: indicator-time-series-table, statistical-table-export
+UN Comtrade Database [2] :: bulk-data-download-table, bulk-data-download
+广联达钢筋算量/翻样软件 [2] :: material-schedule-export, order-list-spreadsheet
+Midas GTS NX / PLAXIS 2D [2] :: model-results-viewer, result-contour-viewer
+地球物理网格反演成图软件 [2] :: data-export-table, grid-map-viewer
+3d-modeling [2] :: shader-node-editor, mesh-export-file
+Intel RealSense SDK (librealsense) [2] :: rgbd-stream-viewer, point-cloud-viewer
+pacs-5353fdc1-baf3-4fd4-abde-3d5b8d6ff91f [2] :: image-viewer, dicom-slice-viewer
+OTTO.de [2] :: session-event-log
+version-control-clients [2] :: pending-changelist-view, commit-scope-staging-view
+电子数据采集/表单系统 (EDC) [2] :: dataset-export-csv, spreadsheet-table
+ehr [2] :: patient-cohort-export-table, patient-chart-record-view
+化合物/药物活性关系数据库 [2] :: compound-activity-search-results, drug-target-relationship-table
+FlyWire [2] :: neuron-search-results-table, annotation-table-export
+USGS National Water Information System (NWIS) [2] :: time-series-table-download, station-time-series-table
+Confluence [2] :: requirements-doc-page, markdown-page
+基因表达数据门户（矩阵下载） [2] :: expression-matrix-download, expression-matrix-table
+基因组浏览/变异查询平台 [2] :: track-data-download, variant-detail-page-allele-frequency-table
+Open Reaction Database [2] :: reaction-results-table, record-detail-csv-export
+政务业务填报查询系统 [2] :: county-workbook-tables, registration-status-table
+financial-risk-management [2] :: scored-ledger-export, risk-dashboard
+Model / Dataset Hub [2] :: dataset-versioning-page, file-browser
+Ultralytics (HUB / YOLO) [2] :: run-log-viewer, inference-run-log
+China Government Notice / Project Listing Platform [2] :: tender-notice-listing, project-review-list
+inspection-management [2] :: defect-register-table, defect-ledger-table
+EQuIS (EarthSoft) [2] :: lab-batch-and-field-record-export, analytical-results-table
+backend-as-a-service-baas [2] :: event-log-export, player-record-table
+LI-COR Instrument Software [2] :: chamber-timeseries-table, gas-exchange-data-export
+requirements-management [2] :: interface-control-document, spec-document-viewer
+product-lifecycle-management-plm [2] :: bom-parameter-table, part-record-with-cad-attachment
+dSPACE ControlDesk [2] :: scenario-table, csv-log-export
+Vernier Logger Pro [2] :: chart-dashboard
+Interferogram / Fringe Image Viewer [2] :: interferogram-viewer, fringe-pattern-viewer
+Metrology Trend / SPC Dashboard [2] :: chart-dashboard, spc-trend-chart-dashboard
+FineReport [2] :: download-center, sql-macro-cache-config
+static-code-analysis [2] :: results-table, call-graph-viewer
+Landmark ProMAX [2] :: semblance-panel, f-k-slowness-domain-panel
+EDA Tool Run & Report Viewer [2] :: run-log-viewer, timing-report-viewer
+ai-coding-assistants [2] :: agent-chat-panel, conversation-transcript-viewer
+Device Registry / Mapping Console [2] :: device-integration-config, device-mapping-table
+enterprise-architecture-tools [2] :: record-detail-page, diagram-and-dependency-export
+Regulation / Standard Full-Text Portal [2] :: document-detail-page, regulation-text-comparison
+Web of Science [2] :: spreadsheet-export, search-results-table
+NOAA ENC Direct to GIS [2] :: enc-chart-data-download, s57-update-cell-download
+Infrastructure Asset Inventory Registry [2] :: bridge-inventory-records, crossing-inventory-record-page
+FDIC BankFind Suite [2] :: institution-financial-api, excel-charter-list
+Honeywell Enraf Tank Gauging [2] :: gauge-reading-log, strapping-table-measurement-log
+yaahp [2] :: judgment-matrix-input-table
+Research Data Capture & Export [2] :: data-export-spreadsheet, field-data-entry-table
+RenderDoc [2] :: frame-capture-buffer-viewer, frame-capture-viewer
+Industry Association Statistical Bulletin [2] :: statistical-bulletin-table, statistical-report-table
+Satellite TT&C / Mission Control Ground System [2] :: telemetry-log-export, telemetry-log-table
+Product Analytics Dashboard [2] :: funnel-report-table, post-analytics-dashboard
+home-inspection [2] :: inspection-report-with-photos, inspection-record-list
+Sensors Data (神策数据) [2] :: funnel-report-table, player-daily-snapshot-table
+Instron Bluehill Universal [2] :: test-data-export, stress-strain-test-report
+Unreal Engine (含 Gameplay Debugger) [2] :: binary-save-file-format, replay-trace-export
+数字设计波形/信号捕获查看器 [2] :: waveform-transaction-viewer, register-status-capture
+WRF [2] :: netcdf-gridded-fields, netcdf-file-browser
+野外台站/样地长期观测数据平台 [2] :: sensitivity-data-table, plot-census-table
+product-analytics [2] :: funnel-report
+museum-management [2] :: catalog-record-detail-page, object-detail-page
+property-management [2] :: multi-source-operations-dashboard, billing-record-table
+CODESYS [2] :: io-point-table-and-alarm-export, io-config-and-hmi-tag-table
+TEMS Investigation [2] :: geotagged-kpi-log-table, route-test-log-export
+project-portfolio-program-management [2] :: resource-capacity-table, gantt-and-resource-load-view
+Field Book [2] :: plot-level-data-entry-table, plot-record-table
+Unreal Insights [2] :: run-log-viewer, trace-timeline-viewer
+Vector CANalyzer [2] :: trace-log-viewer
+EmotivPRO [2] :: raw-signal-export, raw-recording-export
+药物安全性个例报告库 (FAERS/Argus) [2] :: case-intake-workbench, case-report-query-export
+监管机构公告/文书按日索引 [2] :: daily-report-listing, index-listing-page
+PyPI (Python Package Index) [2] :: package-release-files-page, json-api-response
+MSHA Data Retrieval System (MSHA.gov) [2] :: flat-file-download-portal, enforcement-case-record-table
+物理测量序列/扫描数据采集软件 (Labber/PPMS 类) [2] :: scan-data-csv-export, measurement-sequence-log-export
+Ocean Insight OceanView [2] :: spectral-data-export-table, spectral-data-export
+Geospatial layer / soil-survey download portal (AOI or catalog → layer + attribute table) [2] :: shapefile-download-portal, component-horizon-data-table
+FHWA infrastructure asset inventory (NBI / NTI) [2] :: data-export-table, data-export-spreadsheet
+Federal Register (federalregister.gov) [2] :: document-detail-page, search-results-table
+NASA/JPL CNEOS Sentry & Small-Body Database [2] :: risk-list-table, api-json-response
+Field-site observation network database (site map/list → site detail → data download) [2] :: plot-data-table, data-download-table
+Google Earth Engine [2] :: data-export-table
+prototyping [1] :: prd-prototype-editor
+腾讯广告投放平台(Tencent Ads) [1] :: campaign-performance-report-table
+trade-compliance [1] :: compliance-screening-workbench
+Dow Jones Risk & Compliance [1] :: screening-case-management-console
+小红书(Xiaohongshu) [1] :: brand-note-feed
+微信小程序(WeChat Mini Program) [1] :: accessibility-audit-checklist
+plant-design-management-systems [1] :: nozzle-schedule-table
+server-monitoring [1] :: metric-timeseries-export
+人人都是产品经理 (woshipm.com) [1] :: downloadable-doc-template
+Steam [1] :: store-page
+presentation-software [1] :: slide-deck-viewer
+core-banking [1] :: account-ledger-export
+other-cad [1] :: cad-drawing-canvas
+Android Studio Profiler [1] :: trace-and-metrics-dashboard
+QQ三国 [1] :: game-window-screen-capture
+MuseScore.com [1] :: score-editor
+NVD (National Vulnerability Database) [1] :: api-json-feed
+subscription-billing [1] :: cohort-data-export-table
+PharmGKB [1] :: guideline-pdf-document
+digital-asset-management [1] :: model-spec-document
+robotic-simulation-software [1] :: run-log-viewer
+web-content-management [1] :: attachment-download-route
+3d-parts-catalog [1] :: product-spec-datasheet-page
+腾讯WeTest [1] :: test-case-and-run-log-report
+Zeiss SmartSEM [1] :: image-capture-viewer
+FireWorks [1] :: job-queue-dashboard
+other-integrated-development-environments-ide [1] :: project-file-editor
+clinical-documentation [1] :: case-record-table
+government-procurement [1] :: tender-announcement-list
+iot-device-management-platforms [1] :: device-fleet-ota-dashboard
+warehouse-management [1] :: batch-allocation-dashboard
+automation-testing-tools [1] :: capture-results-table
+hardware-monitoring [1] :: sensor-log-table
+Thermo Scientific Proteome Discoverer [1] :: psm-report-table
+security-information-and-event-management-siem [1] :: search-results-table
+Amazon Seller Central [1] :: cdc-event-log-export
+infrastructure-asset-management [1] :: pipe-network-inventory-table
+repository-management [1] :: repository-file-browser
+feature-management [1] :: json-api-payload
+application-performance-monitoring-apm [1] :: latency-dashboard
+spaCy [1] :: json-export
+Wireshark [1] :: packet-list-hex-view
+text-editor [1] :: settings-editor
+content-moderation-tools [1] :: admin-comment-list
+online-form-builder [1] :: form-cache-admin
+it-service-management-itsm-tools [1] :: release-request-form
+LightTrans VirtualLab Fusion [1] :: far-field-angular-spectrum-plot
+Algodoo [1] :: frame-based-animation-viewer
+SegyMAT [1] :: trace-header-table
+SeisImager/2D [1] :: velocity-tomogram-viewer
+AutoLab 1500 [1] :: velocity-vs-pressure-data-export
+room-systems [1] :: panel-view-state-log
+Flask [1] :: rendered-html-page
+image-optimization [1] :: batch-export-panel
+low-code-development-platforms [1] :: canvas-form-designer
+Cisco IOS [1] :: command-output-console
+software-supply-chain-security-tools [1] :: dependency-graph-view
+ai-agent-builders [1] :: capability-matrix-table
+语雀 (Yuque) [1] :: chapter-preview-pane
+performance-management [1] :: assessment-table-export
+ai-writing-assistant [1] :: artifact-sidebar-panel
+note-taking-software [1] :: navigation-drawer-toggle
+core-hr [1] :: employee-profile-tab-picker
+cmms [1] :: work-order-detail-page
+ai-search-and-discovery-platforms [1] :: search-results-with-citations
+component-libraries [1] :: storybook-component-view
+video-editing [1] :: watermark-config-editor
+c-c-integrated-development-environments-ide [1] :: register-view-panel
+document-creation [1] :: outline-document
+CrazyGames [1] :: sdk-integration-release-checklist
+procurement [1] :: review-scoring-form
+ai-chatbots [1] :: api-response-contract
+markdownlint [1] :: lint-report
+OFAC Sanctions List Search (SDN List) [1] :: sdn-list-download
+TreasuryDirect (treasurydirect.gov) [1] :: auction-results-xml
+USGS ComCat / ShakeMap / PAGER [1] :: event-product-page
+NOAA CO-OPS Tides & Currents [1] :: station-data-download-page
+payment-processing [1] :: transaction-event-log-json
+SAP Integrated Business Planning (IBP) [1] :: planning-data-export-tables
+SAP Ariba [1] :: web-api-openapi-endpoints
+cloud-security-posture-management-cspm [1] :: attack-path-graph
+advanced-distribution-management-systems [1] :: equipment-ledger-and-load-curve-export
+clinical-trial-management-systems [1] :: site-tracker-dashboard
+vr-training-simulator [1] :: session-telemetry-log
+Palomar Technologies Active Alignment System [1] :: cycle-log-export
+Esri ArcGIS [1] :: map-feature-editor
+KAPPA Workstation (Saphir) [1] :: pressure-derivative-plot
+Oriel/Newport IV Test Station [1] :: instrument-raw-data-export
+Toon Boom Storyboard Pro [1] :: storyboard-timeline-table
+CASS (南方CASS) [1] :: point-data-table
+Keysight PNA/ADS [1] :: s-parameter-tdr-data-export
+Glodon (广联达) [1] :: inspection-record-table
+Cadence Sigrity/HyperLynx [1] :: timing-margin-report-export
+production-management [1] :: production-schedule-table
+enterprise-asset-management-eam [1] :: asset-register-export
+creative-management-platforms [1] :: project-brief-and-layered-asset-files
+order-management [1] :: raw-event-log-files
+fleet-management [1] :: fleet-telemetry-event-log
+construction-management [1] :: component-ledger-table
+scientific-data-management-system-sdms [1] :: test-run-database-export
+population-health-management [1] :: exam-record-export-table
+home-care-agency-management [1] :: case-file-and-schedule-view
+Ascom TEMS Investigation [1] :: route-map-kpi-table
+medical-qms [1] :: document-detail-page
+GGPO [1] :: replay-log-viewer
+CHomP (Computational Homology Project) [1] :: matrix-export-file
+Breeding Management System (BMS) [1] :: environment-by-genotype-summary-table
+DailyMed [1] :: pdf-label-viewer
+NASA PCoE C-MAPSS Data Repository [1] :: run-to-failure-sensor-table
+明源云空间 (Mingyuanyun Cloud Space) [1] :: multi-system-data-export
+customer-success [1] :: customer-health-dashboard
+3d-painting [1] :: texture-export-set
+api-security [1] :: scan-and-traffic-log
+monitoring [1] :: chart-dashboard
+SpatialAnalyzer [1] :: measurement-point-table
+ROS 2 [1] :: config-and-bag-log-export
+EP Evaluator [1] :: precision-comparison-report
+iot-platforms [1] :: device-message-log
+additive-manufacturing [1] :: build-report-dashboard
+iot-analytics-platforms [1] :: event-log-table
+8th Wall [1] :: session-replay-log
+Universal Robots PolyScope [1] :: cycle-log-table
+GroundProbe/IDS GeoRadar Slope Stability Radar [1] :: sensor-dashboard
+retail-distributed-order-management-systems [1] :: order-report-export-table
+StudioBinder [1] :: call-sheet-shot-list-editor
+ENVI SARscape [1] :: geotiff-raster-file-browser
+food-safety-management [1] :: batch-record-dashboard
+NVIDIA Nsight Graphics [1] :: frame-capture-timeline-view
+dynamic-application-security-testing-dast [1] :: http-history-log-table
+regulatory-information-management-rim-systems [1] :: document-version-register
+Ophir Spiricon BeamGage [1] :: beam-scan-data-export
+other-government-d4c8acd9-570b-4c29-a393-3556c677048d [1] :: work-order-list
+billing [1] :: settlement-reconciliation-table
+usage-based-billing-software [1] :: cdr-billing-log
+payroll [1] :: payroll-run-detail
+utilities-customer-information-system-cis [1] :: electricity-bill-detail
+loan-servicing [1] :: repayment-schedule
+sales-tax-and-vat-compliance [1] :: order-tax-detail
+hotel-management [1] :: folio-billing-detail
+environmental-quality-and-safety-management [1] :: monitoring-station-data-table
+滴滴出行 [1] :: order-fare-detail-page
+海康威视/千方科技智能交通(ITS)平台 [1] :: detector-data-table
+理正岩土工程设计软件 [1] :: foundation-calc-report
+brand-asset-management [1] :: asset-library
+CMS Care Compare [1] :: provider-profile-and-download-portal
+USITC Harmonized Tariff Schedule (HTS) Online Reference Tool [1] :: hts-schedule-browser
+library-management-systems [1] :: marcxml-search-response
+cloud-native-application-protection-platform-cnapp [1] :: findings-and-rbac-dashboard
+AGI STK/ODTK [1] :: pass-report-table
+IAEA/AMDC Atomic Mass Evaluation (AME) [1] :: fixed-width-data-table
+calibration [1] :: calibration-record-table
+TI mmWave Studio [1] :: raw-adc-capture-viewer
+pharmacy-inventory-management [1] :: inventory-export-table
+USGS ANSS ComCat [1] :: event-search-results-table
+Arcadis Sustainable Cities Mobility Index [1] :: report-data-table
+statistical-analysis [1] :: grouped-data-table
+Oxford Brain Imaging Genetics (BIG40) Browser [1] :: association-results-table
+USAspending.gov [1] :: award-detail-page
+NYC MapPLUTO / DOB NOW [1] :: map-viewer-and-record-page
+USDA FoodData Central [1] :: food-detail-page
+NASA DONKI [1] :: api-json-viewer
+Wikidata [1] :: record-detail-page
+DISA Cyber Exchange [1] :: xccdf-catalog-file-download
+USFWS ECOS [1] :: species-profile-page
+DOE Alternative Fuels Data Center (AFDC) Station Locator [1] :: station-locator-search-results
+route-planning-software [1] :: planned-vs-actual-route-report
+Open Targets Platform [1] :: evidence-matrix-heatmap
+NVD / CISA KEV Catalog [1] :: api-json-response
+MTA GTFS Static Data Feed [1] :: file-download-page
+IIIF Manifest (Smithsonian / Wellcome Collection) [1] :: manifest-json
+Federal Register [1] :: api-json-listing
+Papers with Code [1] :: leaderboard-table
+UK Biobank [1] :: results-table

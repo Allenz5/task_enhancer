@@ -1,0 +1,164 @@
+/* 取值全部来自 reference/capture.md 的计算后 CSS */
+:root{
+  --lk-blue:#116596;        /* 顶栏 / 按钮文字 / 链接 */
+  --lk-blue-mid:#4b8fc0;    /* 页签条 */
+  --lk-border:#d3d3d3;
+  --lk-hdr-border:#aaaaaa;
+  --lk-alt:#f4f4f4;
+  --lk-bg:#f8f8f8;
+  --lk-text:#000000;
+  --lk-muted:#777777;
+  --lk-orange:#d9534f;      /* Export 按钮描边 */
+  --lk-panel-border:#116596;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:Roboto,Arial,Helvetica,sans-serif;font-size:14px;color:var(--lk-text);background:var(--lk-bg)}
+a{color:var(--lk-blue);text-decoration:none}
+a:hover{text-decoration:underline}
+ul,li{margin:0;padding:0;list-style:none}
+.wrap{max-width:1480px;margin:0 auto;padding:0 20px}
+
+/* ---------- 顶栏 ---------- */
+.labkey-main-header{background:var(--lk-blue);height:54px;display:flex;align-items:center;color:#fff}
+.labkey-main-header .wrap{display:flex;align-items:center;width:100%;gap:12px}
+.lk-logo{display:flex;align-items:center;gap:10px;font-size:18px;color:#fff}
+.lk-logo .mark{width:30px;height:30px;border-radius:50%;background:#fff;color:var(--lk-blue);
+  display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px}
+.lk-header-right{margin-left:auto;display:flex;align-items:center;gap:22px;color:#fff;font-size:14px}
+.lk-header-right a{color:#fff}
+
+/* ---------- 页签条 ---------- */
+.labkey-page-nav{background:var(--lk-blue-mid);height:34px;display:flex;align-items:flex-end}
+.labkey-page-nav .wrap{display:flex;justify-content:flex-end;height:34px;gap:2px}
+.labkey-page-nav a{display:flex;align-items:center;padding:0 18px;height:34px;color:#fff;font-size:14px}
+.labkey-page-nav a.active{background:#fff;color:var(--lk-text)}
+.labkey-page-nav a:hover{text-decoration:none;background:rgba(255,255,255,.18)}
+.labkey-page-nav a.active:hover{background:#fff}
+
+/* ---------- 面包屑 / 标题 / 动作条 ---------- */
+.lk-crumb{padding:14px 0 0;font-size:14px;color:var(--lk-text)}
+.lk-crumb a{color:var(--lk-blue)}
+.lk-crumb .sep{color:var(--lk-muted);padding:0 6px}
+.lk-title{font-size:26px;font-weight:400;margin:6px 0 0;display:flex;align-items:baseline;gap:12px}
+.lk-title .folder{font-size:14px;color:var(--lk-text)}
+.lk-desc{margin:10px 0 0;font-size:14px}
+.lk-textlinks{margin:14px 0 0;padding-bottom:2px;display:flex;flex-wrap:wrap;gap:0}
+.labkey-text-link{font-size:11px;text-transform:uppercase;font-weight:700;letter-spacing:.5px;
+  color:var(--lk-blue);padding:3px 14px 2px 0}
+.labkey-text-link::after{content:"\25B8";padding-left:5px;color:var(--lk-blue)}
+
+/* ---------- 网格外框 ---------- */
+.lk-region{background:#fff;border:1px solid var(--lk-border);margin:14px 0 30px;
+  display:inline-block;min-width:100%}
+.labkey-button-bar{display:flex;align-items:center;gap:2px;padding:5px 6px;
+  border-bottom:1px solid var(--lk-border);font-size:14px;min-height:38px}
+.labkey-button{color:var(--lk-blue);background:transparent;border:1px solid transparent;
+  padding:4px 10px;font-size:12px;border-radius:1px;cursor:pointer;display:flex;align-items:center;gap:5px;
+  font-family:inherit}
+.labkey-button:hover{background:#eef4f8}
+.labkey-button .labkey-down-arrow::after{content:"\25BE";font-size:10px;padding-left:2px}
+.labkey-button.icon{font-size:15px;padding:4px 8px}
+.labkey-pagination{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:14px}
+.labkey-paginationText{cursor:pointer}
+.labkey-pagination .pg{border:1px solid var(--lk-border);background:#fff;color:var(--lk-blue);
+  width:26px;height:24px;cursor:pointer;font-family:inherit}
+.labkey-pagination .pg[disabled]{color:#c0c0c0;cursor:default}
+
+/* 筛选芯片行 */
+.lk-filter-row{padding:8px 10px;border-bottom:1px solid var(--lk-border);display:flex;flex-wrap:wrap;gap:8px}
+.lk-chip{border:1px solid var(--lk-orange);border-radius:14px;padding:3px 12px 3px 8px;
+  font-size:13px;display:inline-flex;align-items:center;gap:6px;background:#fff}
+.lk-chip .x{color:var(--lk-orange);cursor:pointer;font-weight:700}
+.lk-chip .f{color:var(--lk-orange)}
+.lk-viewchip{border:1px solid var(--lk-orange);border-radius:14px;padding:3px 12px;font-size:13px;background:#fff}
+
+/* ---------- 表格 ---------- */
+table.labkey-data-region{border-collapse:collapse;font-size:14px;width:100%;background:#fff}
+table.labkey-data-region td,table.labkey-data-region th{border-right:1px solid var(--lk-border);
+  border-bottom:1px solid var(--lk-border)}
+td.labkey-column-header,th.labkey-column-header{padding:1px 4px;font-weight:400;font-size:14px;
+  border-bottom:1px solid var(--lk-hdr-border);text-align:left;white-space:nowrap;background:#fff;
+  position:relative}
+td.labkey-column-header .hdr{display:flex;align-items:center;gap:6px;padding:3px 0}
+td.labkey-column-header .sortmark{color:var(--lk-muted);font-size:11px}
+.labkey-col-header-filter{width:14px;height:14px;border-radius:50%;border:1px solid #b8b8b8;
+  color:#8a8a8a;font-size:9px;line-height:12px;text-align:center;cursor:pointer;background:#fff;flex:none}
+.labkey-col-header-filter.on{border-color:var(--lk-orange);color:var(--lk-orange)}
+table.labkey-data-region td{padding:3px;font-size:14px;vertical-align:top}
+tr.labkey-row{background:#fff}
+tr.labkey-alternate-row{background:var(--lk-alt)}
+td.labkey-selectors{width:26px;text-align:center;background:inherit}
+td.num{text-align:right}
+tr.excluded td{color:#9a9a9a;text-decoration:line-through}
+.lk-empty{padding:26px 10px;color:var(--lk-muted)}
+
+/* QC 状态 */
+.qc{white-space:nowrap}
+.qc-pass{color:#2f7d32}
+.qc-reject{color:#b3261e}
+.qc-pending{color:#8a6d1f}
+
+/* ---------- 列头菜单 ---------- */
+.lk-menu{position:absolute;z-index:60;background:#fff;border:1px solid var(--lk-border);
+  box-shadow:0 3px 10px rgba(0,0,0,.18);min-width:196px;padding:6px 0;font-size:14px}
+.lk-menu .item{padding:6px 14px;cursor:pointer;display:flex;align-items:center;gap:9px}
+.lk-menu .item:hover{background:#eef4f8}
+.lk-menu .item.disabled{color:#b6b6b6;cursor:default}
+.lk-menu .item.disabled:hover{background:transparent}
+.lk-menu .sep{height:1px;background:var(--lk-border);margin:6px 0}
+.lk-menu .ic{width:16px;text-align:center;color:var(--lk-muted);font-size:12px}
+
+/* ---------- 筛选对话框 ---------- */
+.lk-mask{position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:80;display:flex;
+  align-items:flex-start;justify-content:center;padding-top:90px}
+.lk-dialog{background:#fff;border:1px solid var(--lk-border);width:430px;
+  box-shadow:0 6px 22px rgba(0,0,0,.3)}
+.lk-dialog h3{margin:0;background:var(--lk-blue);color:#fff;font-size:15px;font-weight:400;padding:9px 14px;
+  display:flex;align-items:center}
+.lk-dialog h3 .x{margin-left:auto;cursor:pointer}
+.lk-dialog .body{padding:16px 14px}
+.lk-dialog label{display:block;font-size:13px;color:#444;margin:0 0 5px}
+.lk-dialog select,.lk-dialog input[type=text]{width:100%;padding:5px 7px;font-size:14px;
+  border:1px solid var(--lk-border);font-family:inherit;margin-bottom:14px;background:#fff;color:inherit}
+.lk-dialog .foot{padding:10px 14px;border-top:1px solid var(--lk-border);display:flex;gap:8px;justify-content:flex-end}
+.lk-btn{border:1px solid var(--lk-blue);background:#fff;color:var(--lk-blue);padding:5px 16px;
+  font-size:13px;cursor:pointer;border-radius:1px;font-family:inherit}
+.lk-btn.primary{background:var(--lk-blue);color:#fff}
+
+/* ---------- 导出面板 ---------- */
+.lk-export{border-bottom:1px solid var(--lk-border);padding:14px 16px 18px}
+.lk-export .tabs{display:flex;gap:2px;border-bottom:1px solid var(--lk-border);margin-bottom:16px}
+.lk-export .tabs button{border:1px solid transparent;border-bottom:none;background:transparent;
+  padding:7px 18px;font-size:14px;cursor:pointer;color:var(--lk-text);font-family:inherit}
+.lk-export .tabs button.on{border-color:var(--lk-border);background:#fff;margin-bottom:-1px}
+.lk-export .opt{display:flex;align-items:baseline;gap:7px;margin-bottom:9px;font-size:14px}
+.lk-export .opt small{color:var(--lk-muted);font-size:12px}
+.lk-export .hdrsel{display:flex;align-items:center;gap:8px;margin:14px 0 10px;font-size:14px}
+.lk-export select{padding:3px 6px;font-family:inherit;font-size:13px;border:1px solid var(--lk-border)}
+.lk-export .btn-export{border:1px solid var(--lk-orange);color:var(--lk-orange);background:#fff;
+  padding:5px 16px;font-size:13px;cursor:pointer;border-radius:2px;margin-top:6px;font-family:inherit}
+.lk-export .btn-export:hover{background:#fdf3f2}
+.lk-export .sel-row{display:flex;align-items:center;gap:7px;font-size:14px;color:var(--lk-text)}
+.lk-export .sel-row.disabled{color:#b6b6b6}
+
+/* ---------- web part（说明块 / Files 面板） ---------- */
+.lk-webpart{background:#fff;border:1px solid var(--lk-border);border-top:2px solid var(--lk-panel-border);
+  margin:18px 0}
+.lk-webpart>h2{margin:0;font-size:15px;font-weight:400;padding:11px 14px;border-bottom:1px solid var(--lk-border)}
+.lk-webpart .wp-body{padding:16px 18px;font-size:14px;line-height:22px}
+.lk-webpart .wp-body ul{list-style:disc;padding-left:22px}
+.lk-webpart .wp-body li{margin:4px 0}
+.lk-cols{display:flex;gap:20px;align-items:flex-start}
+.lk-cols>.left{flex:1;min-width:0}
+.lk-cols>.right{width:420px;flex:none}
+.lk-files{font-size:14px}
+.lk-files .bar{display:flex;gap:14px;padding:7px 10px;background:#f4f4f4;border-bottom:1px solid var(--lk-border);
+  color:var(--lk-blue);font-size:13px}
+.lk-files .row{display:flex;align-items:center;gap:9px;padding:6px 12px;border-bottom:1px solid #ececec}
+.lk-files .row .ic{color:var(--lk-muted)}
+
+/* run 详情的键值块 */
+.lk-kv{display:grid;grid-template-columns:210px 1fr;font-size:14px}
+.lk-kv dt{padding:6px 10px;border-bottom:1px solid var(--lk-border);background:var(--lk-alt);margin:0}
+.lk-kv dd{padding:6px 10px;border-bottom:1px solid var(--lk-border);margin:0}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Data Dashboard</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="chrome"></div>
+<div class="wrap">
+  <div id="head"></div>
+  <div class="lk-cols">
+    <div class="left">
+      <div class="lk-webpart"><h2>Data Harmonization Workflow</h2>
+        <div class="wp-body">
+          <p>Data can be dropped into the Files panel, imported using a customized assay design,
+             and surfaced in whatever tabular formats are most useful.</p>
+          <ul>
+            <li>Submitted data is shown in two tables: <b><a href="runs.html">Cell Culture Runs</a></b>
+                and <b><a href="results.html">Cell Culture Results</a></b>.</li>
+            <li>In the <b>Files</b> panel (right), contributors can drop files for analysis.</li>
+            <li>Continue to the <b><a href="qc.html">QC</a></b> tab to see quality control rules applied to the data.</li>
+          </ul>
+        </div></div>
+      <div class="lk-webpart"><h2>Cell Culture Runs</h2>
+        <div style="padding:0 12px 12px"><div id="grid"></div></div></div>
+    </div>
+    <div class="right">
+      <div class="lk-webpart"><h2>Files</h2>
+        <div class="lk-files" id="files"></div></div>
+    </div>
+  </div>
+</div>
+<script src="assets/grid.js"></script>
+<script src="assets/app.js"></script>
+<script>
+App.load().then(function (D) {
+  document.getElementById('chrome').innerHTML = App.chrome('Overview');
+  document.getElementById('head').innerHTML = App.head({
+    title: 'Assay Data Analysis', folder: D.assay.folder
+  });
+  document.getElementById('files').innerHTML =
+    '<div class="bar"><span>&#8593;</span><span>&#8635;</span><span>&#9636; Manage</span></div>' +
+    D.assay.files.map(function (f) {
+      var dir = /\/$/.test(f);
+      return '<div class="row"><span class="ic">' + (dir ? '&#128193;' : '&#128196;') + '</span>' +
+        '<span>' + App.esc(dir ? f.replace(/\/$/, '') : f) + '</span></div>';
+    }).join('');
+
+  new DataRegion({
+    el: '#grid', name: 'CellCultureRuns', rowKey: 'RowId', pageSize: 100,
+    rows: D.runs,
+    columns: [
+      { name: 'Name', caption: 'Assay ID', render: function (r) {
+          return '<a href="results.html?run=' + r.RowId + '">' + App.esc(r.Name) + '</a>'; } },
+      { name: 'Created', caption: 'Created' },
+      { name: 'cellCultureUser', caption: 'Lab Technician' },
+      { name: 'incubatorName', caption: 'Incubator/Instrument' },
+      { name: 'QCFlags', caption: 'QC Flags', render: function (r) { return App.qcCell(r.QCFlags); } }
+    ]
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,602 @@
+{
+"0": {
+"id": 0,
+"slug": "property-management",
+"product": null,
+"confidence": 0.55
+},
+"1": {
+"id": 1,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.4
+},
+"2": {
+"id": 2,
+"slug": "x-regulatory-registry",
+"product": "FFIEC HMDA Platform",
+"confidence": 0.75
+},
+"3": {
+"id": 3,
+"slug": "x-regulatory-registry",
+"product": "FDA Orange Book / Drugs@FDA",
+"confidence": 0.85
+},
+"4": {
+"id": 4,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.85
+},
+"5": {
+"id": 5,
+"slug": "pcb-design",
+"product": "KiCad",
+"confidence": 0.9
+},
+"6": {
+"id": 6,
+"slug": "x-government-statistics-portal",
+"product": null,
+"confidence": 0.4
+},
+"7": {
+"id": 7,
+"slug": "x-motion-capture-biomechanics-lab",
+"product": "OpenCap",
+"confidence": 0.75
+},
+"8": {
+"id": 8,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.85
+},
+"9": {
+"id": 9,
+"slug": "insurance-claims-management",
+"product": null,
+"confidence": 0.5
+},
+"10": {
+"id": 10,
+"slug": "x-research-dataset-repository",
+"product": null,
+"confidence": 0.35
+},
+"11": {
+"id": 11,
+"slug": "gis",
+"product": null,
+"confidence": 0.45
+},
+"12": {
+"id": 12,
+"slug": "x-research-dataset-repository",
+"product": "Matrix Market",
+"confidence": 0.6
+},
+"13": {
+"id": 13,
+"slug": "REAL_BUT_UNIDENTIFIED",
+"product": null,
+"confidence": 0.5
+},
+"14": {
+"id": 14,
+"slug": "x-motion-capture-biomechanics-lab",
+"product": "OpenSim",
+"confidence": 0.9
+},
+"15": {
+"id": 15,
+"slug": "x-motion-capture-biomechanics-lab",
+"product": "OpenSim",
+"confidence": 0.9
+},
+"16": {
+"id": 16,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.5
+},
+"17": {
+"id": 17,
+"slug": "version-control-software",
+"product": "Perforce Helix Core",
+"confidence": 0.45
+},
+"18": {
+"id": 18,
+"slug": "x-research-dataset-repository",
+"product": null,
+"confidence": 0.35
+},
+"19": {
+"id": 19,
+"slug": "electronic-data-capture-edc",
+"product": "Medidata Rave",
+"confidence": 0.5
+},
+"20": {
+"id": 20,
+"slug": "x-motion-capture-biomechanics-lab",
+"product": "OpenSim",
+"confidence": 0.75
+},
+"21": {
+"id": 21,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.5
+},
+"22": {
+"id": 22,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.5
+},
+"23": {
+"id": 23,
+"slug": "x-research-dataset-repository",
+"product": "OpenML",
+"confidence": 0.85
+},
+"24": {
+"id": 24,
+"slug": "REAL_BUT_UNIDENTIFIED",
+"product": null,
+"confidence": 0.6
+},
+"25": {
+"id": 25,
+"slug": "crm",
+"product": null,
+"confidence": 0.55
+},
+"26": {
+"id": 26,
+"slug": "x-research-dataset-repository",
+"product": null,
+"confidence": 0.35
+},
+"27": {
+"id": 27,
+"slug": "x-research-dataset-repository",
+"product": "Zenodo",
+"confidence": 0.7
+},
+"28": {
+"id": 28,
+"slug": "REAL_BUT_UNIDENTIFIED",
+"product": null,
+"confidence": 0.5
+},
+"29": {
+"id": 29,
+"slug": "transportation-management-systems-tms",
+"product": null,
+"confidence": 0.55
+},
+"30": {
+"id": 30,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.75
+},
+"31": {
+"id": 31,
+"slug": "x-process-historian",
+"product": null,
+"confidence": 0.4
+},
+"32": {
+"id": 32,
+"slug": "x-regulatory-registry",
+"product": null,
+"confidence": 0.55
+},
+"33": {
+"id": 33,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.9
+},
+"34": {
+"id": 34,
+"slug": "REAL_BUT_UNIDENTIFIED",
+"product": null,
+"confidence": 0.5
+},
+"35": {
+"id": 35,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.9
+},
+"36": {
+"id": 36,
+"slug": "x-test-bench-daq",
+"product": null,
+"confidence": 0.5
+},
+"37": {
+"id": 37,
+"slug": "manufacturing-execution-system",
+"product": null,
+"confidence": 0.65
+},
+"38": {
+"id": 38,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.6
+},
+"39": {
+"id": 39,
+"slug": "REAL_BUT_UNIDENTIFIED",
+"product": null,
+"confidence": 0.45
+},
+"40": {
+"id": 40,
+"slug": "REAL_BUT_UNIDENTIFIED",
+"product": "USDA Soil Data Access / Web Soil Survey (SSURGO)",
+"confidence": 0.5
+},
+"41": {
+"id": 41,
+"slug": "REAL_BUT_UNIDENTIFIED",
+"product": null,
+"confidence": 0.3
+},
+"42": {
+"id": 42,
+"slug": "x-motion-capture-biomechanics-lab",
+"product": "OpenSim",
+"confidence": 0.9
+},
+"43": {
+"id": 43,
+"slug": "civil-engineering-design",
+"product": null,
+"confidence": 0.5
+},
+"44": {
+"id": 44,
+"slug": "REAL_BUT_UNIDENTIFIED",
+"product": null,
+"confidence": 0.35
+},
+"45": {
+"id": 45,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.8
+},
+"46": {
+"id": 46,
+"slug": "x-research-dataset-repository",
+"product": "SNAP (Stanford Large Network Dataset Collection)",
+"confidence": 0.9
+},
+"47": {
+"id": 47,
+"slug": "manufacturing-execution-system",
+"product": null,
+"confidence": 0.6
+},
+"48": {
+"id": 48,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.7
+},
+"49": {
+"id": 49,
+"slug": "animation",
+"product": "Toon Boom Storyboard Pro",
+"confidence": 0.35
+},
+"50": {
+"id": 50,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.55
+},
+"51": {
+"id": 51,
+"slug": "version-control-hosting",
+"product": "GitHub",
+"confidence": 0.65
+},
+"52": {
+"id": 52,
+"slug": "x-regulatory-registry",
+"product": null,
+"confidence": 0.55
+},
+"53": {
+"id": 53,
+"slug": "REAL_BUT_UNIDENTIFIED",
+"product": null,
+"confidence": 0.45
+},
+"54": {
+"id": 54,
+"slug": "x-motion-capture-biomechanics-lab",
+"product": "OpenSim",
+"confidence": 0.9
+},
+"55": {
+"id": 55,
+"slug": "x-game-liveops-console",
+"product": null,
+"confidence": 0.55
+},
+"56": {
+"id": 56,
+"slug": "REAL_BUT_UNIDENTIFIED",
+"product": null,
+"confidence": 0.5
+},
+"57": {
+"id": 57,
+"slug": "x-seismic-waveform-data-center",
+"product": "USGS ANSS ComCat",
+"confidence": 0.85
+},
+"58": {
+"id": 58,
+"slug": "urban-planning-and-design",
+"product": null,
+"confidence": 0.55
+},
+"59": {
+"id": 59,
+"slug": "x-seismic-processing-workstation",
+"product": null,
+"confidence": 0.5
+},
+"60": {
+"id": 60,
+"slug": "insurance-claims-management",
+"product": null,
+"confidence": 0.45
+},
+"61": {
+"id": 61,
+"slug": "version-control-hosting",
+"product": "GitHub",
+"confidence": 0.55
+},
+"62": {
+"id": 62,
+"slug": "usage-based-billing-software",
+"product": null,
+"confidence": 0.4
+},
+"63": {
+"id": 63,
+"slug": "advanced-distribution-management-systems",
+"product": null,
+"confidence": 0.6
+},
+"64": {
+"id": 64,
+"slug": "REAL_BUT_UNIDENTIFIED",
+"product": null,
+"confidence": 0.45
+},
+"65": {
+"id": 65,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.85
+},
+"66": {
+"id": 66,
+"slug": "x-motion-capture-biomechanics-lab",
+"product": "OpenSim",
+"confidence": 0.85
+},
+"67": {
+"id": 67,
+"slug": "x-motion-capture-biomechanics-lab",
+"product": "OpenSim",
+"confidence": 0.5
+},
+"68": {
+"id": 68,
+"slug": "x-motion-capture-biomechanics-lab",
+"product": "OpenSim",
+"confidence": 0.85
+},
+"69": {
+"id": 69,
+"slug": "x-government-statistics-portal",
+"product": "EIA (U.S. Energy Information Administration)",
+"confidence": 0.8
+},
+"70": {
+"id": 70,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.85
+},
+"71": {
+"id": 71,
+"slug": "mechanical-computer-aided-design-mcad",
+"product": "SolidWorks",
+"confidence": 0.55
+},
+"72": {
+"id": 72,
+"slug": "x-test-bench-daq",
+"product": "NI DIAdem",
+"confidence": 0.5
+},
+"73": {
+"id": 73,
+"slug": "x-genomics-data-repository",
+"product": null,
+"confidence": 0.25
+},
+"74": {
+"id": 74,
+"slug": "public-transportation",
+"product": "GTFS",
+"confidence": 0.5
+},
+"75": {
+"id": 75,
+"slug": "ehr",
+"product": null,
+"confidence": 0.3
+},
+"76": {
+"id": 76,
+"slug": "x-motion-capture-biomechanics-lab",
+"product": "OpenSim",
+"confidence": 0.85
+},
+"77": {
+"id": 77,
+"slug": "x-motion-capture-biomechanics-lab",
+"product": "OpenSim",
+"confidence": 0.8
+},
+"78": {
+"id": 78,
+"slug": "x-game-liveops-console",
+"product": "Unity",
+"confidence": 0.75
+},
+"79": {
+"id": 79,
+"slug": "ai-gateways",
+"product": "Apache APISIX",
+"confidence": 0.85
+},
+"80": {
+"id": 80,
+"slug": "animation",
+"product": "Adobe After Effects",
+"confidence": 0.5
+},
+"81": {
+"id": 81,
+"slug": "REAL_BUT_UNIDENTIFIED",
+"product": null,
+"confidence": 0.45
+},
+"82": {
+"id": 82,
+"slug": "x-research-dataset-repository",
+"product": "UCI Machine Learning Repository",
+"confidence": 0.85
+},
+"83": {
+"id": 83,
+"slug": "simulation-cae",
+"product": null,
+"confidence": 0.4
+},
+"84": {
+"id": 84,
+"slug": "civil-engineering-design",
+"product": "PKPM",
+"confidence": 0.45
+},
+"85": {
+"id": 85,
+"slug": "x-atomistic-simulation-package",
+"product": null,
+"confidence": 0.5
+},
+"86": {
+"id": 86,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.55
+},
+"87": {
+"id": 87,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.8
+},
+"88": {
+"id": 88,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.8
+},
+"89": {
+"id": 89,
+"slug": "home-inspection",
+"product": null,
+"confidence": 0.6
+},
+"90": {
+"id": 90,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.85
+},
+"91": {
+"id": 91,
+"slug": "x-atomistic-simulation-package",
+"product": "VASP",
+"confidence": 0.45
+},
+"92": {
+"id": 92,
+"slug": "x-motion-capture-biomechanics-lab",
+"product": "OpenSim",
+"confidence": 0.75
+},
+"93": {
+"id": 93,
+"slug": "x-motion-capture-biomechanics-lab",
+"product": "OpenSim",
+"confidence": 0.75
+},
+"94": {
+"id": 94,
+"slug": "applicant-tracking-systems-ats",
+"product": null,
+"confidence": 0.45
+},
+"95": {
+"id": 95,
+"slug": "x-seismic-processing-workstation",
+"product": null,
+"confidence": 0.4
+},
+"96": {
+"id": 96,
+"slug": "x-atomistic-simulation-package",
+"product": "MatterSim",
+"confidence": 0.55
+},
+"97": {
+"id": 97,
+"slug": "SYNTHETIC_FIXTURE",
+"product": null,
+"confidence": 0.85
+},
+"98": {
+"id": 98,
+"slug": "pharmacy-inventory-management",
+"product": null,
+"confidence": 0.5
+},
+"99": {
+"id": 99,
+"slug": "x-motion-capture-biomechanics-lab",
+"product": "OpenSim",
+"confidence": 0.55
+}
+}

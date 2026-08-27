@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cell Culture Batches</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="chrome"></div>
+<div class="wrap"><div id="head"></div><div id="grid"></div></div>
+<script src="assets/grid.js"></script>
+<script src="assets/app.js"></script>
+<script>
+App.load().then(function (D) {
+  document.getElementById('chrome').innerHTML = App.chrome('Reports');
+  document.getElementById('head').innerHTML = App.head({
+    crumb: [['Assay List', 'index.html'], ['Cell Culture Batches', null]],
+    title: 'Cell Culture Batches', folder: D.assay.folder, desc: D.assay.description,
+    links: App.ACTION_LINKS
+  });
+  new DataRegion({
+    el: '#grid', name: 'CellCultureBatches', rowKey: 'RowId', pageSize: 100,
+    rows: D.batches,
+    columns: [
+      { name: 'Name', caption: 'Name', render: function (r) {
+          return '<a href="runs.html">' + App.esc(r.Name) + '</a>'; } },
+      { name: 'Hypothesis', caption: 'Hypothesis' },
+      { name: 'Contact', caption: 'Contact' },
+      { name: 'Comments', caption: 'Comments' },
+      { name: 'Created', caption: 'Created' },
+      { name: 'CreatedBy', caption: 'Created By' },
+      { name: 'RunCount', caption: 'Run Count', align: 'right' }
+    ]
+  });
+});
+</script>
+</body>
+</html>

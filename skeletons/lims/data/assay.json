@@ -1,0 +1,14 @@
+{
+ "assayName": "Cell Culture",
+ "description": "Cultures different participant cells for 14 days in different media",
+ "folder": "Assay Data Analysis",
+ "files": [
+  "assaydata/",
+  "Assays/",
+  "CellCulture_run1.xlsx",
+  "CellCulture_run2.xlsx",
+  "CellCulture_run3.xlsx",
+  "CellCulture_run4.xlsx",
+  "Data_2023-04-26_15-45-06-1.xlsx"
+ ]
+}

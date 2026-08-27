@@ -1,0 +1,4872 @@
+[
+ {
+  "cluster": 3,
+  "n": 53,
+  "top_products": [
+   [
+    "NHC ATCF Best Track / HURDAT2 (National Hurricane Center)",
+    1
+   ],
+   [
+    "MSHA Data Retrieval System (Enforcement/Impact Inspection Data)",
+    1
+   ],
+   [
+    "FFIEC HMDA Platform",
+    1
+   ],
+   [
+    "UN Comtrade",
+    1
+   ],
+   [
+    "NASA Exoplanet Archive",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "reference-registry-database",
+    18
+   ],
+   [
+    "government-statistics-portal",
+    11
+   ],
+   [
+    "regulation-standard-text-portal",
+    4
+   ]
+  ],
+  "ui_skeleton": "全局检索加分面筛选 → 条目记录列表 → 单条目规范化字段详情与关联条目、版本变更历史 → 导出记录集或下载全量发布文件",
+  "sample_tasks": [
+   "Build an NHC 2024 Atlantic official forecast and wind-radii verification audit",
+   "MSHA 2024-H2 Impact Inspection Enforcement and Adjudication Audit",
+   "2023 Delaware HMDA Regulation C Release-Control Audit",
+   "UN Comtrade HS 2017→2022 商品分类迁移与贸易序列连续性审计",
+   "NASA–ESA 系外行星星历、宿主星天体测量与多系统观测就绪审计"
+  ],
+  "members": [
+   "cn-all-remaining-0640-8ed4408f",
+   "cn-all-remaining-1099-a6550f2f",
+   "cn-all-remaining-1143-0899ebce",
+   "cn-all-remaining-1145-c17d3877",
+   "cn-all-remaining-1146-6532ab9d",
+   "cn-all-remaining-1148-ddabd7cf",
+   "cn-all-remaining-1149-9529549a",
+   "cn-all-remaining-1150-aa72ec91",
+   "cn-all-remaining-1152-b88db992",
+   "cn-all-remaining-1161-7adde7ff",
+   "cn-all-remaining-1162-11cb0898",
+   "cn-all-remaining-1163-87b43970",
+   "cn-all-remaining-1164-4f0e142d",
+   "cn-all-remaining-1165-1a802104",
+   "cn-all-remaining-1166-f86d5a49",
+   "cn-all-remaining-1167-66c3f015",
+   "cn-all-remaining-1168-082afeef",
+   "cn-all-remaining-1169-9af1b22b",
+   "cn-all-remaining-1170-a70baa13",
+   "cn-all-remaining-1171-bc798e9b",
+   "cn-all-remaining-1172-be243fd3",
+   "cn-all-remaining-1173-7c23ef43",
+   "cn-all-remaining-1174-a98c2f1e",
+   "cn-all-remaining-1175-e6dc03a4",
+   "cn-all-remaining-1176-1da3ce1d",
+   "cn-all-remaining-1177-c31afdfe",
+   "cn-all-remaining-1179-fcde4aaf",
+   "cn-all-remaining-1180-0e2cadcc",
+   "cn-all-remaining-1182-3a8e8666",
+   "cn-all-remaining-1183-ad6aeed5",
+   "cn-all-remaining-1184-7d57859b",
+   "cn-all-remaining-1185-d7d58067",
+   "cn-all-remaining-1186-bab0b07d",
+   "cn-all-remaining-1187-c0c21c44",
+   "cn-all-remaining-1188-be477324",
+   "cn-all-remaining-1190-ee12ce0a",
+   "cn-all-remaining-1191-c00b9d6f",
+   "cn-all-remaining-1192-e8a7b525",
+   "cn-all-remaining-1193-f47eaab5",
+   "cn-all-remaining-1249-ce04e010",
+   "cn-all-remaining-1250-4aa7de13",
+   "cn-all-remaining-1251-b6824008",
+   "cn-all-remaining-1252-1e0765a9",
+   "cn-all-remaining-1253-671145bb",
+   "cn-all-remaining-1254-9691ae4f",
+   "cn-all-remaining-1255-d3f1f3cb",
+   "cn-all-remaining-1256-543f9374",
+   "cn-all-remaining-1257-2f561d5d",
+   "cn-all-remaining-1259-7713fc3c",
+   "cn-all-remaining-1262-e78cfd80",
+   "cn-all-remaining-1264-008f2bdb",
+   "cn-all-remaining-1265-1a7bc99d",
+   "cn-all-remaining-1266-830a170d"
+  ]
+ },
+ {
+  "cluster": 16,
+  "n": 45,
+  "top_products": [
+   [
+    "KiCad EDA",
+    2
+   ],
+   [
+    "ROS 2 rosbag",
+    1
+   ],
+   [
+    "State Grid PMS (配电网生产管理系统)",
+    1
+   ],
+   [
+    "Sensors Data (神策数据) Game Analytics",
+    1
+   ],
+   [
+    "PDF Solutions Exensio",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "test-bench-daq",
+    9
+   ],
+   [
+    "process-historian-scada",
+    7
+   ],
+   [
+    "capture-trace-profiler",
+    5
+   ]
+  ],
+  "ui_skeleton": "试验计划/工况矩阵导航 → 试验运行(run)列表带通道配置与状态 → 单次运行详情含多通道时序曲线、事件与判定结果 → 导出原始通道数据与试验报告",
+  "sample_tasks": [
+   "仓储AMR异步轮速—IMU—激光定位融合、退化诊断与自动化验收",
+   "10 kV园区馈线分布式光伏承载力与改造方案校核",
+   "v0.9.8 新手主线提测前关卡断层修复与7日养成回算",
+   "55 nm CMOS 接触孔刻蚀—预清洗—钨塞联调工艺窗口评估",
+   "400G FR4 光模块接收灵敏度、温漂与通道一致性分析"
+  ],
+  "members": [
+   "cn-all-remaining-0700-bdfb5774",
+   "cn-all-remaining-0705-ab3d6465",
+   "cn-all-remaining-0710-717396c6",
+   "cn-all-remaining-0717-003ac8fe",
+   "cn-all-remaining-0719-1fbf1939",
+   "cn-all-remaining-0720-a00e9ad3",
+   "cn-all-remaining-0732-1bcf585e",
+   "cn-all-remaining-0733-c5b0a731",
+   "cn-all-remaining-0737-64725a3f",
+   "cn-all-remaining-0738-e74fd102",
+   "cn-all-remaining-0741-4360744e",
+   "cn-all-remaining-0742-70f554e3",
+   "cn-all-remaining-0743-9002d3ff",
+   "cn-all-remaining-0747-81c258a4",
+   "cn-all-remaining-0751-fa613e93",
+   "cn-all-remaining-0753-fd173b01",
+   "cn-all-remaining-0762-91e5328c",
+   "cn-all-remaining-0766-6df02367",
+   "cn-all-remaining-0769-81e1937e",
+   "cn-all-remaining-0782-40b4e001",
+   "cn-all-remaining-0784-a74f0a42",
+   "cn-all-remaining-0785-b7c2ca13",
+   "cn-all-remaining-0786-4163d316",
+   "cn-all-remaining-0800-810be4f7",
+   "cn-all-remaining-0815-9624faf6",
+   "cn-all-remaining-0817-a25cf14a",
+   "cn-all-remaining-0820-6c8dfd98",
+   "cn-all-remaining-0828-6335c106",
+   "cn-all-remaining-0830-86a394d4",
+   "cn-all-remaining-0834-0d96f3e7",
+   "cn-all-remaining-0855-40b6e2a2",
+   "cn-all-remaining-0857-668003aa",
+   "cn-all-remaining-0858-a77c2bc1",
+   "cn-all-remaining-0876-98bfb7b0",
+   "cn-all-remaining-0888-f1a44e1d",
+   "cn-all-remaining-0889-c1ffba9c",
+   "cn-all-remaining-0890-2a6e214f",
+   "cn-all-remaining-0891-489fba3c",
+   "cn-all-remaining-0893-6a26dc5f",
+   "cn-all-remaining-0895-94c9bd94",
+   "cn-all-remaining-0898-45d332c5",
+   "cn-all-remaining-0903-fe643cd1",
+   "cn-all-remaining-0904-5aa796df",
+   "cn-all-remaining-0906-233fff17",
+   "cn-all-remaining-0954-bb700950"
+  ]
+ },
+ {
+  "cluster": 2,
+  "n": 40,
+  "top_products": [
+   [
+    "Shopify Admin (Discount/Promotion Page)",
+    1
+   ],
+   [
+    "DingTalk YiDa / Low-code ERP Form Designer",
+    1
+   ],
+   [
+    "Custom Game Server Backend (Combat System)",
+    1
+   ],
+   [
+    "Cisco IOS CLI",
+    1
+   ],
+   [
+    "HPC Simulation Framework (e.g. Kokkos/AMReX)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "ai-assistant-workbench",
+    5
+   ],
+   [
+    "compute-job-runner",
+    4
+   ],
+   [
+    "wiki-document-library",
+    4
+   ]
+  ],
+  "ui_skeleton": "会话/应用列表侧栏 → 会话或任务详情含消息流、引用来源与工具调用记录 → 配置面板(模型、提示词、知识库) → 导出会话记录或生成结果",
+  "sample_tasks": [
+   "折扣页面可编辑模式识别与分流：路由与权限接通核验",
+   "客户申请地区字段同步：画布边界与矩形校验",
+   "战斗伤害零值回归修复：字段投影与精确拒绝",
+   "静态路由确保与清理接口：事件生命周期一致性",
+   "统一共享布局格与读写投影重构：路由与权限接通核验"
+  ],
+  "members": [
+   "cn-all-remaining-0580-76602658",
+   "cn-all-remaining-0581-e08e758f",
+   "cn-all-remaining-0582-4188ca1d",
+   "cn-all-remaining-0583-17788e34",
+   "cn-all-remaining-0584-e9203330",
+   "cn-all-remaining-0585-7aeec106",
+   "cn-all-remaining-0586-a05e26cb",
+   "cn-all-remaining-0587-8e9e5ec2",
+   "cn-all-remaining-0588-2b3a5bb1",
+   "cn-all-remaining-0589-34113feb",
+   "cn-all-remaining-0590-9647ec18",
+   "cn-all-remaining-0591-34a6f98a",
+   "cn-all-remaining-0592-858b62fe",
+   "cn-all-remaining-0593-f9a3598c",
+   "cn-all-remaining-0594-0e93fd4c",
+   "cn-all-remaining-0595-3da51d53",
+   "cn-all-remaining-0596-3cbe5e02",
+   "cn-all-remaining-0597-a89824be",
+   "cn-all-remaining-0598-655c2894",
+   "cn-all-remaining-0599-83c0cf1e",
+   "cn-all-remaining-0600-e18062ab",
+   "cn-all-remaining-0602-6ec5492d",
+   "cn-all-remaining-0603-966a0fae",
+   "cn-all-remaining-0604-15615a60",
+   "cn-all-remaining-0605-8adc3d8f",
+   "cn-all-remaining-0606-2a5f0d02",
+   "cn-all-remaining-0607-f9396fd1",
+   "cn-all-remaining-0608-a7575ce7",
+   "cn-all-remaining-0609-f7beb4d8",
+   "cn-all-remaining-0610-e98822a0",
+   "cn-all-remaining-0611-859ee5f2",
+   "cn-all-remaining-0612-989169dd",
+   "cn-all-remaining-0613-5494b016",
+   "cn-all-remaining-0614-72046a0a",
+   "cn-all-remaining-0615-3b85ed21",
+   "cn-all-remaining-0616-04e64d59",
+   "cn-all-remaining-0617-b2d4b673",
+   "cn-all-remaining-0618-a217bf7e",
+   "cn-all-remaining-0619-2928718d",
+   "cn-all-remaining-0620-e58676dc"
+  ]
+ },
+ {
+  "cluster": 46,
+  "n": 39,
+  "top_products": [
+   [
+    "FDA Orange Book / Drugs@FDA",
+    2
+   ],
+   [
+    "NOAA ENC Direct to GIS / USCG Light List",
+    2
+   ],
+   [
+    "SEC EDGAR / SEC Company Facts API",
+    1
+   ],
+   [
+    "NVD (National Vulnerability Database) / CISA KEV Catalog",
+    1
+   ],
+   [
+    "MTA Open Data / NYS Open Data (data.ny.gov)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "reference-registry-database",
+    9
+   ],
+   [
+    "government-statistics-portal",
+    7
+   ],
+   [
+    "transportation-mobility-portal",
+    4
+   ]
+  ],
+  "ui_skeleton": "全局检索加分面筛选 → 条目记录列表 → 单条目规范化字段详情与关联条目、版本变更历史 → 导出记录集或下载全量发布文件",
+  "sample_tasks": [
+   "构建 SEC Inline XBRL 申报审计与 Company Facts 对账数据管道",
+   "构建 NVD/CISA 漏洞情报规范化与时态修复优先级数据产品",
+   "构建 MTA 地铁无障碍资产与站点运维审计数据产品",
+   "复现并审计美国交通部 2025 年 1 月航空准点率监管数据产品",
+   "复现并审计 NHTSA 2024 FARS 超速致死事故监管数据产品"
+  ],
+  "members": [
+   "cn-all-remaining-0204-96586aa4",
+   "cn-all-remaining-0207-8b063b46",
+   "cn-all-remaining-0241-a840346d",
+   "cn-all-remaining-0296-45de6b63",
+   "cn-all-remaining-0298-23ad7da2",
+   "cn-all-remaining-0299-fe86cac8",
+   "cn-all-remaining-0515-6253a2c7",
+   "cn-all-remaining-0629-ce075e67",
+   "cn-all-remaining-0630-3d193fa5",
+   "cn-all-remaining-0631-ea4b7723",
+   "cn-all-remaining-0632-5b302678",
+   "cn-all-remaining-0633-f8c6a3ac",
+   "cn-all-remaining-0635-08f8465d",
+   "cn-all-remaining-0636-316cb833",
+   "cn-all-remaining-0638-0c7751f3",
+   "cn-all-remaining-0639-858c15f4",
+   "cn-all-remaining-0641-e0995661",
+   "cn-all-remaining-0642-a70454dd",
+   "cn-all-remaining-0643-75f76d95",
+   "cn-all-remaining-0644-6f64bd2d",
+   "cn-all-remaining-0645-206c5b2d",
+   "cn-all-remaining-0648-a8828ee9",
+   "cn-all-remaining-0649-f4bed7ef",
+   "cn-all-remaining-0650-3d91eb5e",
+   "cn-all-remaining-0651-88bde7d0",
+   "cn-all-remaining-0652-b9c7d500",
+   "cn-all-remaining-1090-c33ca50d",
+   "cn-all-remaining-1091-55784277",
+   "cn-all-remaining-1092-7a4f421f",
+   "cn-all-remaining-1093-6cb23e67",
+   "cn-all-remaining-1094-a7759ced",
+   "cn-all-remaining-1095-9bcec495",
+   "cn-all-remaining-1096-067138a9",
+   "cn-all-remaining-1097-96b36b44",
+   "cn-all-remaining-1098-eff835fa",
+   "cn-all-remaining-1144-8a6c2142",
+   "cn-all-remaining-1147-7c690611",
+   "cn-all-remaining-1151-3a37412b",
+   "cn-all-remaining-1246-c333a712"
+  ]
+ },
+ {
+  "cluster": 20,
+  "n": 38,
+  "top_products": [
+   [
+    "UCI Machine Learning Repository",
+    6
+   ],
+   [
+    "OTTO.de 电商网站行为日志",
+    2
+   ],
+   [
+    "Fashion-MNIST (Zalando Research GitHub)",
+    2
+   ],
+   [
+    "Geofabrik OSM Extracts",
+    1
+   ],
+   [
+    "Elastic Stack (ELK/Kibana)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "ml-dataset-repository",
+    27
+   ],
+   [
+    "observability-log-console",
+    2
+   ],
+   [
+    "product-analytics-dashboard",
+    2
+   ]
+  ],
+  "ui_skeleton": "按任务类型/特征数/样本量筛选的数据集目录 → 数据集主页含描述、变量字典、引用与版本 → 文件标签页可预览前若干行 → 下载 zip/csv 或复制 API 加载片段",
+  "sample_tasks": [
+   "Monaco OSM 矢量瓦片管道",
+   "HDFS 系统日志异常检测管道",
+   "机房运维多变量时序异常检测管道",
+   "OTTO 电商会话 next-click 推荐",
+   "电商会话级 Top-K 召回管道"
+  ],
+  "members": [
+   "cn-all-remaining-0030-349ac3ae",
+   "cn-all-remaining-0046-451fb7f6",
+   "cn-all-remaining-0063-4a16f58b",
+   "cn-all-remaining-0064-f465db7b",
+   "cn-all-remaining-0071-37996442",
+   "cn-all-remaining-0072-1e08f36f",
+   "cn-all-remaining-0073-452b7fbc",
+   "cn-all-remaining-0074-d8d19fe8",
+   "cn-all-remaining-0075-d8b42022",
+   "cn-all-remaining-0076-9295b271",
+   "cn-all-remaining-0079-687957c7",
+   "cn-all-remaining-0132-a04b6dbd",
+   "cn-all-remaining-0133-f7460d93",
+   "cn-all-remaining-0134-cd25fa80",
+   "cn-all-remaining-0136-025708d5",
+   "cn-all-remaining-0138-69bd676c",
+   "cn-all-remaining-0139-9b7aa92c",
+   "cn-all-remaining-0142-0a9b052b",
+   "cn-all-remaining-0143-17a50046",
+   "cn-all-remaining-0146-83026528",
+   "cn-all-remaining-0149-4942e976",
+   "cn-all-remaining-0152-263ab951",
+   "cn-all-remaining-0161-5575a6fd",
+   "cn-all-remaining-0164-ac08314c",
+   "cn-all-remaining-0167-883d33da",
+   "cn-all-remaining-0168-382cfa9c",
+   "cn-all-remaining-0169-866f3425",
+   "cn-all-remaining-0171-e39ad0aa",
+   "cn-all-remaining-0173-475052f5",
+   "cn-all-remaining-0174-9d91f75b",
+   "cn-all-remaining-0175-d4ad3f28",
+   "cn-all-remaining-0176-d6d67203",
+   "cn-all-remaining-0210-a492a1f7",
+   "cn-all-remaining-0250-dd5e6757",
+   "cn-all-remaining-0275-5e80942a",
+   "cn-all-remaining-0345-a6224347",
+   "cn-all-remaining-0351-c0f3eb29",
+   "cn-all-remaining-0476-fb434d54"
+  ]
+ },
+ {
+  "cluster": 17,
+  "n": 37,
+  "top_products": [
+   [
+    "LinkedIn Jobs",
+    2
+   ],
+   [
+    "BLS Occupational Employment and Wage Statistics / O*NET OnLine",
+    2
+   ],
+   [
+    "猎聘 (Liepin) 招聘平台",
+    2
+   ],
+   [
+    "拉勾网",
+    2
+   ],
+   [
+    "小红书 (Xiaohongshu/RED)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "recruiting-hr-platform",
+    16
+   ],
+   [
+    "government-statistics-portal",
+    6
+   ],
+   [
+    "reference-registry-database",
+    3
+   ]
+  ],
+  "ui_skeleton": "职位/候选人搜索框加城市-薪资-经验筛选 → 卡片列表分页 → 职位或候选人详情含 JD、公司信息、流程阶段与评价 → 收藏夹批量导出名单",
+  "sample_tasks": [
+   "2023—2025 中国宠物食品行业、竞品与小红书营销研究",
+   "中国电动汽车企业进入英国市场行业研究",
+   "中国微水洗澡机行业研究与商业化方案",
+   "中国人力资源服务行业研究与区域型机构增长策略",
+   "直线电机行业竞争格局与产品进入机会研究"
+  ],
+  "members": [
+   "cn-all-remaining-0043-bf5fc64f",
+   "cn-all-remaining-0090-ab9a3d0b",
+   "cn-all-remaining-0114-a85885be",
+   "cn-all-remaining-0265-ae028604",
+   "cn-all-remaining-0314-df121ac2",
+   "cn-all-remaining-0322-c294fc85",
+   "cn-all-remaining-0324-4be0ddcf",
+   "cn-all-remaining-0397-64a67ace",
+   "cn-all-remaining-0411-51fd07e5",
+   "cn-all-remaining-0412-a20676d9",
+   "cn-all-remaining-0674-84436791",
+   "cn-all-remaining-0679-f7d822c2",
+   "cn-all-remaining-0680-0d7a9db2",
+   "cn-all-remaining-0686-25b0fcd7",
+   "cn-all-remaining-0688-8dfc0c75",
+   "cn-all-remaining-0689-df5209ab",
+   "cn-all-remaining-0692-1233fccb",
+   "cn-all-remaining-0693-64f8726a",
+   "cn-all-remaining-0704-e33a4f15",
+   "cn-all-remaining-0706-2999104d",
+   "cn-all-remaining-0723-215c4ee4",
+   "cn-all-remaining-0724-5140b215",
+   "cn-all-remaining-0729-3456fff7",
+   "cn-all-remaining-0735-cdbd1b4c",
+   "cn-all-remaining-0740-641a9a26",
+   "cn-all-remaining-0744-480b57b9",
+   "cn-all-remaining-0767-325cc9a3",
+   "cn-all-remaining-0777-7fadbfc2",
+   "cn-all-remaining-0824-0de4494b",
+   "cn-all-remaining-0853-2e697bcb",
+   "cn-all-remaining-0869-a86563df",
+   "cn-all-remaining-0870-cba7c850",
+   "cn-all-remaining-0874-e4cb0cfa",
+   "cn-all-remaining-0877-7a1ba25e",
+   "cn-all-remaining-0883-f91d65a1",
+   "cn-all-remaining-0958-a386a245",
+   "cn-all-remaining-0960-fd36102b"
+  ]
+ },
+ {
+  "cluster": 28,
+  "n": 31,
+  "top_products": [
+   [
+    "Microsoft Excel",
+    3
+   ],
+   [
+    "Google Earth Engine (MODIS/Landsat LST-GST products)",
+    2
+   ],
+   [
+    "Unspecified spreadsheet dataset (no identifiable originating platform)",
+    2
+   ],
+   [
+    "InVEST (Integrated Valuation of Ecosystem Services and Tradeoffs)",
+    2
+   ],
+   [
+    "Generic research/clinical tabular dataset (survey or lab study export)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "spreadsheet-workbook",
+    10
+   ],
+   [
+    "simulation-study-workspace",
+    5
+   ],
+   [
+    "ml-dataset-repository",
+    3
+   ]
+  ],
+  "ui_skeleton": "工作簿列表 → 多 sheet 标签页 → 表格网格支持列筛选/排序/冻结表头与公式栏、分页 → 选区或整表导出 CSV/XLSX",
+  "sample_tasks": [
+   "特征-目标相关性网络图",
+   "三维柱状图绘制",
+   "径向小提琴图",
+   "特征相关性热图与因子分析载荷连接图",
+   "三元散点图绘制"
+  ],
+  "members": [
+   "cn-all-remaining-1210-a58d9793",
+   "cn-all-remaining-1213-3f5d52a4",
+   "cn-all-remaining-1214-6b102c6b",
+   "cn-all-remaining-1215-77d24289",
+   "cn-all-remaining-1216-f7ebfcc5",
+   "cn-all-remaining-1217-82cfac32",
+   "cn-all-remaining-1228-f66c0ac7",
+   "cn-all-remaining-1229-60e5c90c",
+   "cn-all-remaining-1231-6002aecb",
+   "cn-all-remaining-1237-0b90a276",
+   "cn-all-remaining-1238-8fc3385c",
+   "cn-all-remaining-1239-76250601",
+   "cn-all-remaining-1242-e9bec0dd",
+   "cn-all-remaining-1243-1f46d838",
+   "cn-all-remaining-1245-c87e5086",
+   "cn-all-remaining-1247-ac608d05",
+   "cn-all-remaining-1248-a8692605",
+   "cn-all-remaining-1263-160345b6",
+   "cn-all-remaining-1268-a320b58e",
+   "cn-all-remaining-1273-3edac745",
+   "cn-all-remaining-1274-803308df",
+   "cn-all-remaining-1275-686e277b",
+   "cn-all-remaining-1277-99e5435c",
+   "cn-all-remaining-1282-2e716750",
+   "cn-all-remaining-1289-259f60fe",
+   "cn-all-remaining-1290-fb1f206b",
+   "cn-all-remaining-1292-3e9376c4",
+   "cn-all-remaining-1296-5bbf448c",
+   "cn-all-remaining-1297-ccb981d8",
+   "cn-all-remaining-1298-1d290edf",
+   "cn-all-remaining-1299-ae3c648c"
+  ]
+ },
+ {
+  "cluster": 29,
+  "n": 31,
+  "top_products": [
+   [
+    "Silixa iDAS",
+    2
+   ],
+   [
+    "Geotomo TomoPlus",
+    1
+   ],
+   [
+    "DAS 光纤声波传感解调仪（如 Silixa iDAS / OptaSense）",
+    1
+   ],
+   [
+    "Silixa iDAS Interrogator",
+    1
+   ],
+   [
+    "分布式声波传感（DAS）井下监测系统（如 Silixa iDAS / OptaSense 类采集与处理软件）",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "seismic-monitoring-data-portal",
+    20
+   ],
+   [
+    "seismic-processing-workstation",
+    2
+   ],
+   [
+    "weather-climate-data-portal",
+    2
+   ]
+  ],
+  "ui_skeleton": "台网与事件目录检索(时间/震级/经纬度框选) → 事件或通道列表 → 事件详情含波形/瀑布图、震相拾取与定位结果 → 提交波形请求并下载 miniSEED/SEGY/H5",
+  "sample_tasks": [
+   "垂直 DAS 微震震源入射路径校正",
+   "二维井间地震首波走时层析成像与异常体恢复",
+   "不同到时差计算方法评估",
+   "沿井速度建模算法复现及评估",
+   "垂直井光纤地震事件定位"
+  ],
+  "members": [
+   "cn-all-remaining-0033-aca86d82",
+   "cn-all-remaining-0040-333737ca",
+   "cn-all-remaining-0067-37577e9e",
+   "cn-all-remaining-0088-743e1e5d",
+   "cn-all-remaining-0117-1fe73b6d",
+   "cn-all-remaining-0118-3dc7cdd7",
+   "cn-all-remaining-0119-59547d3b",
+   "cn-all-remaining-0120-b0a2424b",
+   "cn-all-remaining-0121-037801b0",
+   "cn-all-remaining-0122-af317fbc",
+   "cn-all-remaining-0135-8319cf05",
+   "cn-all-remaining-0141-b2af36d4",
+   "cn-all-remaining-0148-25afc0d0",
+   "cn-all-remaining-0151-f7249cf5",
+   "cn-all-remaining-0155-15cf16ab",
+   "cn-all-remaining-0156-d5cf6958",
+   "cn-all-remaining-0158-341df0ea",
+   "cn-all-remaining-0160-5d376197",
+   "cn-all-remaining-0163-f216c49f",
+   "cn-all-remaining-0166-b4934700",
+   "cn-all-remaining-0190-3c8f53db",
+   "cn-all-remaining-0191-ca010215",
+   "cn-all-remaining-0192-dd5aeb8b",
+   "cn-all-remaining-0193-9b57cb86",
+   "cn-all-remaining-0194-b11424c0",
+   "cn-all-remaining-0242-be25547c",
+   "cn-all-remaining-0243-885c2ff8",
+   "cn-all-remaining-0245-a6640871",
+   "cn-all-remaining-0246-df9e58bb",
+   "cn-all-remaining-0247-3a150457",
+   "cn-all-remaining-0290-e90402a5"
+  ]
+ },
+ {
+  "cluster": 43,
+  "n": 31,
+  "top_products": [
+   [
+    "Oracle Primavera P6",
+    2
+   ],
+   [
+    "光缆厂商产品技术规格书（如长飞/亨通光电/烽火通信官网资料）",
+    1
+   ],
+   [
+    "幼儿园保教观察记录台账（Excel 手工台账，无特定专用系统）",
+    1
+   ],
+   [
+    "Autodesk AutoCAD",
+    1
+   ],
+   [
+    "Epic EHR (Hospital Information System / EMR)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "record-case-workbench",
+    8
+   ],
+   [
+    "clinical-data-capture-system",
+    6
+   ],
+   [
+    "issue-tracker-board",
+    3
+   ]
+  ],
+  "ui_skeleton": "我的待办与全部单据的状态分栏列表 → 单据详情含表单字段、附件、审批/处理时间线与状态流转按钮 → 关联记录标签页 → 按条件筛选导出台账",
+  "sample_tasks": [
+   "雪崩 DAS 光缆布设技术评估与试验施工方案",
+   "市政排水改造项目月度进度更新、挣值分析与纠偏计划",
+   "大班户外自主游戏观察数据复核、教研分析与10月调整方案",
+   "海棠智造园A3栋首层共享服务中心建筑方案深化与校审闭环",
+   "综合内科复杂共病患者多源出院审核、医嘱重构与患者指导"
+  ],
+  "members": [
+   "cn-all-remaining-0065-5018d030",
+   "cn-all-remaining-0325-eb2f0968",
+   "cn-all-remaining-0671-060dc9bc",
+   "cn-all-remaining-0673-e23ff9b3",
+   "cn-all-remaining-0690-eac11bf7",
+   "cn-all-remaining-0696-91bc054f",
+   "cn-all-remaining-0701-49b7d817",
+   "cn-all-remaining-0702-51ec01fc",
+   "cn-all-remaining-0708-9b5c804a",
+   "cn-all-remaining-0709-411a7a8e",
+   "cn-all-remaining-0713-394ca2bb",
+   "cn-all-remaining-0749-a93ed2fd",
+   "cn-all-remaining-0763-7c2e7f10",
+   "cn-all-remaining-0765-2e0c67fe",
+   "cn-all-remaining-0792-a46854a7",
+   "cn-all-remaining-0796-238e5327",
+   "cn-all-remaining-0802-f5452942",
+   "cn-all-remaining-0806-4b92c004",
+   "cn-all-remaining-0823-2981b536",
+   "cn-all-remaining-0825-ce14f4a1",
+   "cn-all-remaining-0836-8be6837c",
+   "cn-all-remaining-0838-bb9d337f",
+   "cn-all-remaining-0847-be9888d6",
+   "cn-all-remaining-0864-82ecf25a",
+   "cn-all-remaining-0952-e3358bdf",
+   "cn-all-remaining-0953-9271adc9",
+   "cn-all-remaining-0955-5ce45980",
+   "cn-all-remaining-0956-fb447e98",
+   "cn-all-remaining-0957-769c12d9",
+   "cn-all-remaining-1119-5b062242",
+   "cn-all-remaining-1132-08f39a42"
+  ]
+ },
+ {
+  "cluster": 8,
+  "n": 30,
+  "top_products": [
+   [
+    "Bloomberg Terminal / CRSP 美股历史数据库",
+    1
+   ],
+   [
+    "巨潮资讯网(CNINFO)",
+    1
+   ],
+   [
+    "Aspen Plus",
+    1
+   ],
+   [
+    "Kaggle - Severstal Steel Defect Detection",
+    1
+   ],
+   [
+    "UN Comtrade Database",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "genomics-data-repository",
+    6
+   ],
+   [
+    "lab-instrument-analysis-software",
+    3
+   ],
+   [
+    "simulation-study-workspace",
+    2
+   ]
+  ],
+  "ui_skeleton": "研究/样本检索加物种-平台-组织筛选 → 系列(series)与样本列表 → 样本详情含实验设计、表达矩阵预览与注释 → 下载矩阵/原始数据文件",
+  "sample_tasks": [
+   "多空动量策略历史回测",
+   "financial_report_risk_warning",
+   "绿氨合成的热力学平衡分析与操作窗口优化",
+   "钢铁表面缺陷检测与质量评估",
+   "匿名化产品级贸易面板上的出口管制政策评估：从缺陷原始数据到可复现的因果推断交付件"
+  ],
+  "members": [
+   "cn-all-remaining-0008-8a350880",
+   "cn-all-remaining-0009-3a0514d6",
+   "cn-all-remaining-0016-0cee6d6b",
+   "cn-all-remaining-0017-e3ac6e4a",
+   "cn-all-remaining-0019-034c6ce9",
+   "cn-all-remaining-0020-aa2698d8",
+   "cn-all-remaining-0021-e1224663",
+   "cn-all-remaining-0029-e2d81865",
+   "cn-all-remaining-0050-80528855",
+   "cn-all-remaining-0070-65ebea1e",
+   "cn-all-remaining-0109-4cb28698",
+   "cn-all-remaining-0179-4e71f3aa",
+   "cn-all-remaining-0189-d989a5b8",
+   "cn-all-remaining-0203-0a333446",
+   "cn-all-remaining-0206-ba9d1d88",
+   "cn-all-remaining-0217-fbf764f2",
+   "cn-all-remaining-0226-3fc6271b",
+   "cn-all-remaining-0228-930473c4",
+   "cn-all-remaining-0249-07d18b19",
+   "cn-all-remaining-0255-b2e13f01",
+   "cn-all-remaining-0297-075420d6",
+   "cn-all-remaining-0301-1a02a327",
+   "cn-all-remaining-0302-299009d0",
+   "cn-all-remaining-0356-d600f1dc",
+   "cn-all-remaining-0359-ab661e58",
+   "cn-all-remaining-0805-54b374d4",
+   "cn-all-remaining-0987-086c66e0",
+   "cn-all-remaining-1206-037de182",
+   "cn-all-remaining-1284-b217705c",
+   "cn-all-remaining-1286-57ed5e7e"
+  ]
+ },
+ {
+  "cluster": 54,
+  "n": 29,
+  "top_products": [
+   [
+    "测井采集/处理软件（如 Schlumberger Techlog / Geolog，LAS 2.0 标准）",
+    1
+   ],
+   [
+    "Thermo Fisher Dionex Chromeleon CDS",
+    1
+   ],
+   [
+    "NOAA/NCEI Climate Data Online (GHCN-Daily)",
+    1
+   ],
+   [
+    "DailyMed (NLM/FDA drug label repository)",
+    1
+   ],
+   [
+    "EPA Test Car List (EPA/NVFEL Certification & Fuel Economy Test Data)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "lab-instrument-analysis-software",
+    4
+   ],
+   [
+    "test-bench-daq",
+    3
+   ],
+   [
+    "environmental-monitoring-network",
+    3
+   ]
+  ],
+  "ui_skeleton": "样品/批次序列列表 → 单次测量详情含谱图或曲线窗口、峰表/积分参数 → 处理方法与校准标签页 → 导出结果表格与报告(PDF/CSV)",
+  "sample_tasks": [
+   "测井数据处理自动化",
+   "离子色谱批次原始数据复核、定量报告重建与质控放行判定",
+   "凤凰城高温阈值方法缺陷定位、历史复算与发布门槛核验",
+   "美国口服直接抗凝药成人说明书关键用药条件结构化复核",
+   "2024款纯电车型EPA道路载荷基准复核与旧版方法审计"
+  ],
+  "members": [
+   "cn-all-remaining-0066-a535bec7",
+   "cn-all-remaining-0329-17bc3a39",
+   "cn-all-remaining-0845-a6a750c1",
+   "cn-all-remaining-0850-f0bd0a8c",
+   "cn-all-remaining-0851-f49f24e5",
+   "cn-all-remaining-0859-794a0507",
+   "cn-all-remaining-0860-94376395",
+   "cn-all-remaining-0863-d6bf7ae0",
+   "cn-all-remaining-0867-2acdfc1e",
+   "cn-all-remaining-0959-a0124dc6",
+   "cn-all-remaining-1108-9999aa90",
+   "cn-all-remaining-1109-f8ee441a",
+   "cn-all-remaining-1110-b3ea4f84",
+   "cn-all-remaining-1111-780b1ffb",
+   "cn-all-remaining-1112-88167b19",
+   "cn-all-remaining-1113-3cca4370",
+   "cn-all-remaining-1114-47bd2c78",
+   "cn-all-remaining-1115-3ce39934",
+   "cn-all-remaining-1116-e3c0e7a3",
+   "cn-all-remaining-1117-12938668",
+   "cn-all-remaining-1118-b4487f83",
+   "cn-all-remaining-1120-e886576e",
+   "cn-all-remaining-1121-8f9c7f01",
+   "cn-all-remaining-1122-0e0a5c47",
+   "cn-all-remaining-1123-2b49c9e3",
+   "cn-all-remaining-1124-dd6054d2",
+   "cn-all-remaining-1125-9f6e42af",
+   "cn-all-remaining-1126-ac0908b4",
+   "cn-all-remaining-1127-eb1513b4"
+  ]
+ },
+ {
+  "cluster": 0,
+  "n": 27,
+  "top_products": [
+   [
+    "LabWare LIMS",
+    3
+   ],
+   [
+    "Instem Provantis",
+    2
+   ],
+   [
+    "LIMS (Laboratory Information Management System, e.g. LabWare/Empower Stability Module)",
+    1
+   ],
+   [
+    "Medidata Rave (Clinical Trial EDC)",
+    1
+   ],
+   [
+    "EQuIS (EarthSoft)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "lims-sample-trial-records",
+    14
+   ],
+   [
+    "lab-instrument-analysis-software",
+    5
+   ],
+   [
+    "environmental-monitoring-network",
+    2
+   ]
+  ],
+  "ui_skeleton": "样品或试验批次列表按项目-状态筛选 → 样品详情含检测项目、处理组、录入结果与审核状态 → 结果明细表格与限值判定 → 导出检测报告/台账 CSV",
+  "sample_tasks": [
+   "24个月稳定性统计复核与货架期建议",
+   "CSR定稿前交叉设计BE统计独立复核",
+   "鲜切苹果抗褐变处理中试数据分析、货架期估计与方案筛选",
+   "匿名化工园区氯代烯烃地下水污染羽与自然衰减证据评估",
+   "冬小麦氮肥梯度田间试验数据质控、产量响应与经济最优施氮量评估"
+  ],
+  "members": [
+   "cn-all-remaining-0221-2cf3a288",
+   "cn-all-remaining-0222-930d164f",
+   "cn-all-remaining-0332-f8e4da12",
+   "cn-all-remaining-0716-978e33d8",
+   "cn-all-remaining-0730-2aca8f51",
+   "cn-all-remaining-0736-5ce861a1",
+   "cn-all-remaining-0754-26345d25",
+   "cn-all-remaining-0756-5e1f03fb",
+   "cn-all-remaining-0794-37667882",
+   "cn-all-remaining-0833-4b7ceef4",
+   "cn-all-remaining-0835-9f5c41bb",
+   "cn-all-remaining-0840-777d7230",
+   "cn-all-remaining-0842-da7b283c",
+   "cn-all-remaining-0844-35269475",
+   "cn-all-remaining-0848-b2f6165d",
+   "cn-all-remaining-0894-d2a9c435",
+   "cn-all-remaining-0897-a4cd1207",
+   "cn-all-remaining-0899-48762d98",
+   "cn-all-remaining-0900-f7fd3143",
+   "cn-all-remaining-0901-a1264e29",
+   "cn-all-remaining-0902-b4e90b75",
+   "cn-all-remaining-0928-d694ced9",
+   "cn-all-remaining-0949-8fa819f1",
+   "cn-all-remaining-0950-9dedf66d",
+   "cn-all-remaining-0951-95b279fc",
+   "cn-all-remaining-1107-49687a7c",
+   "cn-all-remaining-1131-804a6ac8"
+  ]
+ },
+ {
+  "cluster": 27,
+  "n": 27,
+  "top_products": [
+   [
+    "PDF Solutions Exensio",
+    3
+   ],
+   [
+    "Schneider Electric EcoStruxure Microgrid Operation",
+    2
+   ],
+   [
+    "会员订阅计费管理系统 (Membership Subscription & Billing Platform)",
+    1
+   ],
+   [
+    "QMS/SPC质量管理系统（如Minitab/InfinityQS，配合量具数据采集）",
+    1
+   ],
+   [
+    "HBM catmanEasy/AP (strain gauge DAQ)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "process-historian-scada",
+    8
+   ],
+   [
+    "spc-quality-management",
+    6
+   ],
+   [
+    "test-bench-daq",
+    5
+   ]
+  ],
+  "ui_skeleton": "位号(tag)树与资产层级 → 位号检索列表带单位/量程 → 趋势视图选时间段、聚合方式并叠加多位号，配报警一览 → 导出时序 CSV 或报表",
+  "sample_tasks": [
+   "6月会员续费下滑复盘与分层召回名单",
+   "电子连接器来料关键特性、外观缺陷与量具校准批次复核",
+   "岸桥主梁多工况强度、疲劳与应变监测一致性复核",
+   "工业园区微电网日前调度、N-1韧性与方案放行评估",
+   "工业园区微电网多时段潮流、储能调度与N-1保护配合复核"
+  ],
+  "members": [
+   "cn-all-remaining-0220-bb326e7d",
+   "cn-all-remaining-0407-b77013e8",
+   "cn-all-remaining-0426-e25051a2",
+   "cn-all-remaining-0439-e36f8864",
+   "cn-all-remaining-0441-8ac911fe",
+   "cn-all-remaining-0442-86e060cb",
+   "cn-all-remaining-0443-dc5f61f5",
+   "cn-all-remaining-0444-8561ae74",
+   "cn-all-remaining-0446-824b7977",
+   "cn-all-remaining-0681-fa021dc7",
+   "cn-all-remaining-0685-86a96752",
+   "cn-all-remaining-0691-ec498c7c",
+   "cn-all-remaining-0703-5714b5c0",
+   "cn-all-remaining-0745-5cca1ad5",
+   "cn-all-remaining-0758-4e0bb5b1",
+   "cn-all-remaining-0759-3002eee7",
+   "cn-all-remaining-0761-75887f16",
+   "cn-all-remaining-0804-65e4e048",
+   "cn-all-remaining-0809-17f86072",
+   "cn-all-remaining-0932-1d6d259d",
+   "cn-all-remaining-0934-444b3c56",
+   "cn-all-remaining-0935-68660327",
+   "cn-all-remaining-0936-aa42df06",
+   "cn-all-remaining-0938-0175cfde",
+   "cn-all-remaining-0941-29ec8b45",
+   "cn-all-remaining-1100-804b4868",
+   "cn-all-remaining-1106-c492795e"
+  ]
+ },
+ {
+  "cluster": 53,
+  "n": 23,
+  "top_products": [
+   [
+    "Unity Editor",
+    3
+   ],
+   [
+    "In-house Battle Server Event/Replay Log System",
+    2
+   ],
+   [
+    "Unreal Engine / RenderDoc Frame Capture",
+    1
+   ],
+   [
+    "In-house Unity VR Training Telemetry System",
+    1
+   ],
+   [
+    "Game live-ops backend / message queue settlement service (e.g. in-house GM console)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "game-engine-editor",
+    7
+   ],
+   [
+    "capture-trace-profiler",
+    5
+   ],
+   [
+    "game-liveops-admin-console",
+    5
+   ]
+  ],
+  "ui_skeleton": "内容浏览器目录树 → 资产列表带类型/引用筛选 → 资产详情含属性面板、依赖引用链与预览视口 → 导出资产元数据/DataTable/构建产物",
+  "sample_tasks": [
+   "移动端战斗场景动态分辨率时序上采样拖影修复与自动化画质门槛核验",
+   "Unity 客户端战斗回放确定性与断线重连状态恢复",
+   "Unity 客户端战斗回放确定性重建与断线重连状态恢复",
+   "Unity OpenXR 仓储拣选培训交互闭环与断点恢复",
+   "多人副本结算服务的幂等重放、保底掉落与异常补偿改造"
+  ],
+  "members": [
+   "cn-all-remaining-0678-e0cb5301",
+   "cn-all-remaining-0712-ee8f99e5",
+   "cn-all-remaining-0714-001e1685",
+   "cn-all-remaining-0715-7bd9dc9b",
+   "cn-all-remaining-0726-c399a041",
+   "cn-all-remaining-0728-07c602b5",
+   "cn-all-remaining-0781-0439c6a6",
+   "cn-all-remaining-0787-0db6f033",
+   "cn-all-remaining-0788-cfee0a30",
+   "cn-all-remaining-0799-597b1f63",
+   "cn-all-remaining-0832-b6b0d79c",
+   "cn-all-remaining-0839-052f9164",
+   "cn-all-remaining-0843-ae260afc",
+   "cn-all-remaining-0846-c0c542fb",
+   "cn-all-remaining-0849-2d0b8edc",
+   "cn-all-remaining-0852-006b49eb",
+   "cn-all-remaining-0854-dffd1f7e",
+   "cn-all-remaining-0866-1d892fee",
+   "cn-all-remaining-0873-b02290d1",
+   "cn-all-remaining-0885-9354b4d1",
+   "cn-all-remaining-0886-0f1b7dc8",
+   "cn-all-remaining-0887-162ec7ac",
+   "cn-all-remaining-0918-4723f3b6"
+  ]
+ },
+ {
+  "cluster": 60,
+  "n": 22,
+  "top_products": [
+   [
+    "MockingBot 墨刀",
+    1
+   ],
+   [
+    "腾讯文档/语雀 游戏数值策划文档库",
+    1
+   ],
+   [
+    "广联达(Glodon) 工程造价管理系统",
+    1
+   ],
+   [
+    "腾讯广告投放平台(Tencent Ads)",
+    1
+   ],
+   [
+    "SAP ERP",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "creative-asset-authoring-suite",
+    3
+   ],
+   [
+    "regulation-standard-text-portal",
+    3
+   ],
+   [
+    "other",
+    3
+   ]
+  ],
+  "ui_skeleton": "工程/画板列表 → 图层或节点树加属性面板 → 预览视口(渲染/时间轴)与素材库面板 → 按预设批量导出图片/视频/贴图",
+  "sample_tasks": [
+   "优购女鞋 · 小程序PRD",
+   "二次元卡牌游戏通行证系统策划案",
+   "旧工业遗存城市更新改造项目综合策划与方案论证",
+   "戴尔笔记本PMP广告投放效果复盘与优化分析",
+   "汽车零部件制造企业5月生产成本明细核算及降本方案报告编制任务"
+  ],
+  "members": [
+   "cn-all-remaining-0001-786f6572",
+   "cn-all-remaining-0002-04d42ced",
+   "cn-all-remaining-0004-4cdb03e3",
+   "cn-all-remaining-0005-c20d1c2e",
+   "cn-all-remaining-0006-9effbd05",
+   "cn-all-remaining-0007-05d253cc",
+   "cn-all-remaining-0018-920bd0dc",
+   "cn-all-remaining-0035-880f8bef",
+   "cn-all-remaining-0042-7d1cdb25",
+   "cn-all-remaining-0044-cf1dd46c",
+   "cn-all-remaining-0069-0fc51497",
+   "cn-all-remaining-0091-2ce46b58",
+   "cn-all-remaining-0092-5dd2fd62",
+   "cn-all-remaining-0198-6f703aa0",
+   "cn-all-remaining-0199-7d1d6e95",
+   "cn-all-remaining-0205-56a2c514",
+   "cn-all-remaining-0208-3882716b",
+   "cn-all-remaining-0223-6433ad04",
+   "cn-all-remaining-0227-eea5b2ab",
+   "cn-all-remaining-0236-9d88defd",
+   "cn-all-remaining-0237-8fc39a86",
+   "cn-all-remaining-0240-6c615bee"
+  ]
+ },
+ {
+  "cluster": 12,
+  "n": 21,
+  "top_products": [
+   [
+    "OpenSim GUI",
+    8
+   ],
+   [
+    "OpenSim (SimTK)",
+    3
+   ],
+   [
+    "OpenSim",
+    3
+   ],
+   [
+    "Pose2Sim",
+    2
+   ],
+   [
+    "OpenCap",
+    2
+   ]
+  ],
+  "top_families": [
+   [
+    "biomechanics-motion-lab",
+    21
+   ]
+  ],
+  "ui_skeleton": "顶部导航按项目/受试者 → 试验(session)列表可按受试者/动作/日期筛选 → 试次详情页含模型参数、事件标记与关节角/力曲线预览 → 下载 .mot/.trc/.osim/c3d 等时序文件或批量导出",
+  "sample_tasks": [
+   "基于 OpenSim 4.3 的最大速度短跑支撑期下肢动力学审计与技术限制因子判定",
+   "基于 OpenSim 4.3 的短跑起跑器设置 A/B 对比、前两步推进效率与肌肉需求分析",
+   "基于 OpenSim 4.3 输出的短跑干预研究可复现统计分析与论文结果包生成",
+   "基于 OpenSim 4.3 的短跑动力学指标测试-重测可靠性、测量误差与科研结局变量筛选",
+   "OpenSim 4.5.1 途中跑单步支撑外部力学有效性分析"
+  ],
+  "members": [
+   "cn-all-remaining-0012-3f9dd525",
+   "cn-all-remaining-0013-177a3250",
+   "cn-all-remaining-0014-ae2a0ad8",
+   "cn-all-remaining-0015-c1b61c11",
+   "cn-all-remaining-0031-b2b5d783",
+   "cn-all-remaining-0032-4d3edeb8",
+   "cn-all-remaining-0034-ca542016",
+   "cn-all-remaining-0036-45b77900",
+   "cn-all-remaining-0041-c6549c75",
+   "cn-all-remaining-0094-f32031a4",
+   "cn-all-remaining-0095-8f5537c0",
+   "cn-all-remaining-0096-b45060b6",
+   "cn-all-remaining-0097-f836cdfa",
+   "cn-all-remaining-0098-da2ff8ac",
+   "cn-all-remaining-0099-d5e10074",
+   "cn-all-remaining-0127-6da3cfcb",
+   "cn-all-remaining-0131-17b02b87",
+   "cn-all-remaining-0137-9ebb5d85",
+   "cn-all-remaining-0140-b00e71e8",
+   "cn-all-remaining-0214-53980c22",
+   "cn-all-remaining-0216-24153bc9"
+  ]
+ },
+ {
+  "cluster": 42,
+  "n": 21,
+  "top_products": [
+   [
+    "Guidewire ClaimCenter",
+    2
+   ],
+   [
+    "TestRail",
+    1
+   ],
+   [
+    "腾讯WeTest游戏自动化测试平台",
+    1
+   ],
+   [
+    "LabWare LIMS",
+    1
+   ],
+   [
+    "BioTek Gen5 酶标仪软件 + PAM叶绿素荧光仪软件（如Walz/AquaPen）",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "game-liveops-admin-console",
+    4
+   ],
+   [
+    "lab-instrument-analysis-software",
+    3
+   ],
+   [
+    "capture-trace-profiler",
+    2
+   ]
+  ],
+  "ui_skeleton": "左侧功能菜单(玩家/活动/掉落/日志) → 玩家或订单查询列表 → 单玩家详情含背包、战斗与结算流水时间线 → 条件筛选后导出流水明细",
+  "sample_tasks": [
+   "手游战斗结算规则回归、缺陷定位与自动化发布门槛核验    ",
+   "版本封板前的战斗系统自动化回归",
+   "    低水活度坚果谷物棒加速货架期建模、氧化失效判定与9个月标示放行核验    ",
+   "微藻温度×盐度双因子实验数据质控、生长动力学与可复现统计复核",
+   "手游限时卡池保底、重复转化与幂等结算回放核验"
+  ],
+  "members": [
+   "cn-all-remaining-0271-7788ccc0",
+   "cn-all-remaining-0326-9882d4ca",
+   "cn-all-remaining-0331-a4f0c1fc",
+   "cn-all-remaining-0401-c65c75e3",
+   "cn-all-remaining-0403-f1abed95",
+   "cn-all-remaining-0405-37b50b73",
+   "cn-all-remaining-0410-7e8ac79d",
+   "cn-all-remaining-0418-1fa412f3",
+   "cn-all-remaining-0421-9128c0d2",
+   "cn-all-remaining-0422-d68716cc",
+   "cn-all-remaining-0424-4587bf87",
+   "cn-all-remaining-0425-800c9d3c",
+   "cn-all-remaining-0429-bb30f48c",
+   "cn-all-remaining-0435-cb32ec24",
+   "cn-all-remaining-0440-a3ce5637",
+   "cn-all-remaining-0711-c6482f8e",
+   "cn-all-remaining-0940-94b2dc6a",
+   "cn-all-remaining-1105-66d3d053",
+   "cn-all-remaining-1133-fd7fd7e8",
+   "cn-all-remaining-1136-b1a3b3ca",
+   "cn-all-remaining-1137-bfbce4b9"
+  ]
+ },
+ {
+  "cluster": 4,
+  "n": 20,
+  "top_products": [
+   [
+    "Microsoft Excel",
+    3
+   ],
+   [
+    "National Statistics Yearbook Database (e.g. China Statistical Yearbook / World Bank Open Data)",
+    2
+   ],
+   [
+    "REDCap",
+    1
+   ],
+   [
+    "Microsoft Excel workbook (generic KPI report)",
+    1
+   ],
+   [
+    "Arcadis Sustainable Cities Mobility Index 报告",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "spreadsheet-workbook",
+    5
+   ],
+   [
+    "government-statistics-portal",
+    3
+   ],
+   [
+    "genomics-data-repository",
+    3
+   ]
+  ],
+  "ui_skeleton": "工作簿列表 → 多 sheet 标签页 → 表格网格支持列筛选/排序/冻结表头与公式栏、分页 → 选区或整表导出 CSV/XLSX",
+  "sample_tasks": [
+   "径向折线图",
+   "径向花瓣图",
+   "城市交通变化桑基图",
+   "环形柱状图",
+   "睡眠特征与脑区关联环形热图"
+  ],
+  "members": [
+   "cn-all-remaining-0627-1a5d9548",
+   "cn-all-remaining-0634-24ab0d4d",
+   "cn-all-remaining-1140-3069d89e",
+   "cn-all-remaining-1141-513f5d89",
+   "cn-all-remaining-1142-d9c9c6a5",
+   "cn-all-remaining-1153-b114d9d2",
+   "cn-all-remaining-1154-a4e657f2",
+   "cn-all-remaining-1156-7d53487b",
+   "cn-all-remaining-1159-4a4c6ea6",
+   "cn-all-remaining-1189-7006e8fd",
+   "cn-all-remaining-1194-dd6f8e42",
+   "cn-all-remaining-1196-2e491509",
+   "cn-all-remaining-1197-4a071135",
+   "cn-all-remaining-1199-e7996860",
+   "cn-all-remaining-1200-c90ef7d2",
+   "cn-all-remaining-1202-7e1e5e56",
+   "cn-all-remaining-1203-5b6e49c8",
+   "cn-all-remaining-1204-d018a431",
+   "cn-all-remaining-1205-8acb751d",
+   "cn-all-remaining-1208-999d7a75"
+  ]
+ },
+ {
+  "cluster": 5,
+  "n": 20,
+  "top_products": [
+   [
+    "CODESYS Development System",
+    2
+   ],
+   [
+    "Yahboom Rosmaster M1 产品技术手册",
+    1
+   ],
+   [
+    "AFSIM (Advanced Framework for Simulation, Integration, and Modeling)",
+    1
+   ],
+   [
+    "DLRobot TR500移动机器人平台",
+    1
+   ],
+   [
+    "ShipsEar Underwater Acoustic Database",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "eda-design-verification",
+    6
+   ],
+   [
+    "storefront-product-catalog",
+    2
+   ],
+   [
+    "simulation-study-workspace",
+    2
+   ]
+  ],
+  "ui_skeleton": "工程设计树(原理图/PCB/网表或测试用例集) → 器件、网络或回归用例列表带状态 → 详情页含原理图片段、时序/波形与违例清单 → 导出 BOM、网表与回归报告",
+  "sample_tasks": [
+   "基于 Jetson Orin NX Super 的四摄像头麦克纳姆轮小车车端运行栈开发",
+   "面向无人机蜂群对抗的智能任务分配算法设计与实现",
+   "STM32F407 TR500 移动机器人全链路控制可靠性升级、自动化验证与可追溯交付",
+   "基于现有 STM32H743/X-CUBE-AI 工程的被动声识别错误修复与封存测试验收",
+   "面向无人机蜂群对抗的智能任务分配算法设计与实现"
+  ],
+  "members": [
+   "cn-all-remaining-0010-01d05df5",
+   "cn-all-remaining-0039-eaf07265",
+   "cn-all-remaining-0047-0ba8b32b",
+   "cn-all-remaining-0093-c2a8c48f",
+   "cn-all-remaining-0234-9f997aba",
+   "cn-all-remaining-0281-5f45e300",
+   "cn-all-remaining-0396-47ba439c",
+   "cn-all-remaining-0676-ae727883",
+   "cn-all-remaining-0699-212ce97c",
+   "cn-all-remaining-0718-fb968eb0",
+   "cn-all-remaining-0752-efc39390",
+   "cn-all-remaining-0757-e5b78fb1",
+   "cn-all-remaining-0760-588c7fe3",
+   "cn-all-remaining-0764-70abef1f",
+   "cn-all-remaining-0768-ae78dc9a",
+   "cn-all-remaining-0811-4a734aff",
+   "cn-all-remaining-0878-190be40d",
+   "cn-all-remaining-0884-99d8b353",
+   "cn-all-remaining-0905-fd596c6a",
+   "cn-all-remaining-1135-06287ec9"
+  ]
+ },
+ {
+  "cluster": 47,
+  "n": 20,
+  "top_products": [
+   [
+    "Microsoft Excel",
+    4
+   ],
+   [
+    "UCSC Genome Browser / NCBI GEO",
+    1
+   ],
+   [
+    "clusterProfiler (Bioconductor)",
+    1
+   ],
+   [
+    "KoBoToolbox / Excel household survey export",
+    1
+   ],
+   [
+    "Allen Brain Atlas / GEO",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "spreadsheet-workbook",
+    6
+   ],
+   [
+    "genomics-data-repository",
+    3
+   ],
+   [
+    "lab-instrument-analysis-software",
+    3
+   ]
+  ],
+  "ui_skeleton": "工作簿列表 → 多 sheet 标签页 → 表格网格支持列筛选/排序/冻结表头与公式栏、分页 → 选区或整表导出 CSV/XLSX",
+  "sample_tasks": [
+   "环形基因组热图",
+   "桑基图+气泡图展示富集分析结果",
+   "数据统计半环形组合图绘制",
+   "环形热图与韦恩图组合图",
+   "多模型性能对比雷达图"
+  ],
+  "members": [
+   "cn-all-remaining-0300-646973ab",
+   "cn-all-remaining-0333-8f712f0a",
+   "cn-all-remaining-0357-9d6f6ae8",
+   "cn-all-remaining-0358-a36b0f21",
+   "cn-all-remaining-0368-6fa8f105",
+   "cn-all-remaining-0369-bbf80adf",
+   "cn-all-remaining-0371-8bb9b097",
+   "cn-all-remaining-0471-0d77c114",
+   "cn-all-remaining-0489-dacccbb8",
+   "cn-all-remaining-0646-cc7e1cbd",
+   "cn-all-remaining-0653-d8ed86b4",
+   "cn-all-remaining-0772-9f833be7",
+   "cn-all-remaining-0913-2494d698",
+   "cn-all-remaining-0986-6e952e64",
+   "cn-all-remaining-1001-4e972668",
+   "cn-all-remaining-1002-a2020f5d",
+   "cn-all-remaining-1138-79d89db6",
+   "cn-all-remaining-1139-b42b94fb",
+   "cn-all-remaining-1195-54f2007f",
+   "cn-all-remaining-1209-1dea3a30"
+  ]
+ },
+ {
+  "cluster": 49,
+  "n": 19,
+  "top_products": [
+   [
+    "IRIS/FDSN Data Management Center",
+    3
+   ],
+   [
+    "Bloomberg Terminal",
+    2
+   ],
+   [
+    "IBM Engineering Requirements Management DOORS",
+    2
+   ],
+   [
+    "Landmark ProMAX/SeisSpace",
+    2
+   ],
+   [
+    "USGS ScienceBase Data Release (Data Series 901)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "seismic-processing-workstation",
+    5
+   ],
+   [
+    "reference-registry-database",
+    3
+   ],
+   [
+    "seismic-monitoring-data-portal",
+    3
+   ]
+  ],
+  "ui_skeleton": "工区/测线树 → 处理流程(flow)与作业列表 → 道集/剖面显示窗口带参数面板、速度谱与属性叠加 → 输出 SEG-Y/参数报表导出",
+  "sample_tasks": [
+   "实测 MT/AMT EDI 质控与平滑一维电阻率反演",
+   "三分量连续波形响应校正、重采样与质量检查",
+   "背景噪声 PPSD、独立谱回代与台站频段适用性评估",
+   "三分量环境噪声频率依赖极化与方向稳定性分析",
+   "井下 DAS 的 DT3 多路径估计与异常诊断"
+  ],
+  "members": [
+   "cn-all-remaining-0144-a17cd5ce",
+   "cn-all-remaining-0303-a8e1cff9",
+   "cn-all-remaining-0304-cbead67f",
+   "cn-all-remaining-0305-ea897654",
+   "cn-all-remaining-0307-0a4a417e",
+   "cn-all-remaining-0308-1be316f2",
+   "cn-all-remaining-0334-839d2c46",
+   "cn-all-remaining-0336-4dee3ef5",
+   "cn-all-remaining-0447-8b6c01c6",
+   "cn-all-remaining-0448-dfc6984c",
+   "cn-all-remaining-0449-c6b07660",
+   "cn-all-remaining-0450-cdd63c3c",
+   "cn-all-remaining-0451-0d05beaf",
+   "cn-all-remaining-0452-5e88f7b8",
+   "cn-all-remaining-0553-14dfdc04",
+   "cn-all-remaining-0556-376c3f15",
+   "cn-all-remaining-0557-1a82cfc1",
+   "cn-all-remaining-0564-0ebc10e7",
+   "cn-all-remaining-0566-a2d8c1d9"
+  ]
+ },
+ {
+  "cluster": 30,
+  "n": 18,
+  "top_products": [
+   [
+    "Microsoft Excel",
+    1
+   ],
+   [
+    "Generic laboratory measurement export (Excel/LIMS)",
+    1
+   ],
+   [
+    "Web of Science / literature-compiled structural-engineering test database",
+    1
+   ],
+   [
+    "Laboratory spectroscopy instrument (FTIR/Raman/NIR) data export",
+    1
+   ],
+   [
+    "REDCap 或医院电子病历系统导出的临床研究数据集",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "spreadsheet-workbook",
+    3
+   ],
+   [
+    "weather-climate-data-portal",
+    3
+   ],
+   [
+    "reference-registry-database",
+    2
+   ]
+  ],
+  "ui_skeleton": "工作簿列表 → 多 sheet 标签页 → 表格网格支持列筛选/排序/冻结表头与公式栏、分页 → 选区或整表导出 CSV/XLSX",
+  "sample_tasks": [
+   " XGBoost 回归模型训练并计算 SHAP 值，绘制特征重要性环形图",
+   "回归模型性能综合对比分析图",
+   "梯度提升回归模型性能综合诊断图",
+   "XGBoost多分类模型综合性能评估与SHAP可解释性分析组合图",
+   "多模型SHAP环形特征变异组合图"
+  ],
+  "members": [
+   "cn-all-remaining-0365-375c7e55",
+   "cn-all-remaining-0628-3c1ec98a",
+   "cn-all-remaining-0637-af7e9678",
+   "cn-all-remaining-0647-88d372e4",
+   "cn-all-remaining-0668-030aa2e3",
+   "cn-all-remaining-0988-a20bde35",
+   "cn-all-remaining-1155-8bbddd06",
+   "cn-all-remaining-1157-9b5ebe33",
+   "cn-all-remaining-1158-3aa32639",
+   "cn-all-remaining-1160-ef830f6d",
+   "cn-all-remaining-1178-999d39af",
+   "cn-all-remaining-1181-c84e0e6e",
+   "cn-all-remaining-1198-b373b9f2",
+   "cn-all-remaining-1201-fc3a4bbf",
+   "cn-all-remaining-1207-4ddc2ebe",
+   "cn-all-remaining-1212-d016f772",
+   "cn-all-remaining-1232-ff5c39e1",
+   "cn-all-remaining-1279-7e6fa4f7"
+  ]
+ },
+ {
+  "cluster": 33,
+  "n": 18,
+  "top_products": [
+   [
+    "AutoCAD",
+    6
+   ],
+   [
+    "AutoCAD Civil 3D",
+    4
+   ],
+   [
+    "鸿业市政管线设计软件 (AutoCAD-based)",
+    3
+   ],
+   [
+    "天正电气 TElec (AutoCAD-based)",
+    1
+   ],
+   [
+    "AutoCAD Civil 3D（道路设计图）",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "cad-drawing-workspace",
+    18
+   ]
+  ],
+  "ui_skeleton": "图纸集/零件树导航 → 图幅或视图列表带版本与图层清单 → 图纸查看器可缩放、开关图层、点选构件读取标注与属性 → 导出 DWG/DXF/PDF 与明细表",
+  "sample_tasks": [
+   "园区道路竣工图缺失横断面与土方表补全",
+   "园区道路纵断设计成果恢复与逐桩高程复核",
+   "竣工图册结构化重构与受控出图",
+   "交通标志标线图表一致性整改",
+   "两处交叉口渠化施工图及车道拓扑重建"
+  ],
+  "members": [
+   "cn-all-remaining-0077-add9ca23",
+   "cn-all-remaining-0078-cda23730",
+   "cn-all-remaining-0123-656e26a4",
+   "cn-all-remaining-0128-db79712b",
+   "cn-all-remaining-0129-cfec2dd0",
+   "cn-all-remaining-0130-7dc96439",
+   "cn-all-remaining-0177-eaac0e4d",
+   "cn-all-remaining-0178-56bf88f1",
+   "cn-all-remaining-0181-49c052bc",
+   "cn-all-remaining-0184-f035325a",
+   "cn-all-remaining-0185-e54d6ed7",
+   "cn-all-remaining-0187-605dc08a",
+   "cn-all-remaining-0343-6e312f2e",
+   "cn-all-remaining-0469-86e80d53",
+   "cn-all-remaining-0803-b381ca33",
+   "cn-all-remaining-0907-ebabf865",
+   "cn-all-remaining-0964-1196f166",
+   "cn-all-remaining-0990-ce20c74a"
+  ]
+ },
+ {
+  "cluster": 6,
+  "n": 17,
+  "top_products": [
+   [
+    "AVEVA PI System (OSIsoft PI 历史数据库)",
+    7
+   ],
+   [
+    "OSIsoft PI System",
+    2
+   ],
+   [
+    "National Instruments LabVIEW DAQ (hydraulic cylinder test-bench data logger)",
+    1
+   ],
+   [
+    "National Instruments LabVIEW DAQ (water tunnel wake control test-bench data logger)",
+    1
+   ],
+   [
+    "National Instruments LabVIEW DAQ (pipeline pump SCADA/DCS commissioning log)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "process-historian-scada",
+    13
+   ],
+   [
+    "test-bench-daq",
+    4
+   ]
+  ],
+  "ui_skeleton": "位号(tag)树与资产层级 → 位号检索列表带单位/量程 → 趋势视图选时间段、聚合方式并叠加多位号，配报警一览 → 导出时序 CSV 或报表",
+  "sample_tasks": [
+   "工业液压缸负载自适应位置控制器",
+   "工业圆柱尾流旋转抑振控制器",
+   "变频泵长输管道末端压力控制器",
+   "工业直流母线储能稳压控制器",
+   "工业巡检机器鱼速度与航向协同控制器"
+  ],
+  "members": [
+   "cn-all-remaining-1267-415f2c64",
+   "cn-all-remaining-1269-3e275392",
+   "cn-all-remaining-1270-b6f5237b",
+   "cn-all-remaining-1271-bd70ed77",
+   "cn-all-remaining-1272-b8bf9c6d",
+   "cn-all-remaining-1276-03751279",
+   "cn-all-remaining-1278-c90c6dfb",
+   "cn-all-remaining-1280-cc53ddd2",
+   "cn-all-remaining-1281-ccaf70df",
+   "cn-all-remaining-1283-b96cb1bf",
+   "cn-all-remaining-1285-7b8649af",
+   "cn-all-remaining-1287-6ddf81af",
+   "cn-all-remaining-1288-f8d5abf9",
+   "cn-all-remaining-1291-6c263615",
+   "cn-all-remaining-1293-6c724b43",
+   "cn-all-remaining-1294-55ac6de2",
+   "cn-all-remaining-1295-13356b7a"
+  ]
+ },
+ {
+  "cluster": 7,
+  "n": 17,
+  "top_products": [
+   [
+    "Salesforce CRM",
+    4
+   ],
+   [
+    "纷享销客CRM",
+    1
+   ],
+   [
+    "SAP EWM",
+    1
+   ],
+   [
+    "SAP Integrated Business Planning (IBP) / SAP ERP 供应链模块",
+    1
+   ],
+   [
+    "CRM system (e.g. Salesforce/纷享销客) + ERP financial ledger (e.g. 用友/SAP)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "record-case-workbench",
+    7
+   ],
+   [
+    "erp-supply-chain-system",
+    7
+   ],
+   [
+    "issue-tracker-board",
+    2
+   ]
+  ],
+  "ui_skeleton": "我的待办与全部单据的状态分栏列表 → 单据详情含表单字段、附件、审批/处理时间线与状态流转按钮 → 关联记录标签页 → 按条件筛选导出台账",
+  "sample_tasks": [
+   "B2B合同回款、退款与销售佣金结算复核",
+   "医药冷链多仓订单履约、FEFO库存分配与N-1韧性优化",
+   "多工厂冷链医药供应网络S&OP、运输排程与韧性发布准入",
+   "华东事业部Q2销售经营复盘与Q3目标拆解",
+   "2026 Q4 企业客户续约风险诊断与服务资源配置"
+  ],
+  "members": [
+   "cn-all-remaining-0419-94921508",
+   "cn-all-remaining-0420-dc253cc1",
+   "cn-all-remaining-0670-306d841f",
+   "cn-all-remaining-0731-abeed8dd",
+   "cn-all-remaining-0779-2c9670ba",
+   "cn-all-remaining-0780-37b43f72",
+   "cn-all-remaining-0789-19e1e516",
+   "cn-all-remaining-0827-a07867a4",
+   "cn-all-remaining-0837-ac7b8f92",
+   "cn-all-remaining-0841-33f3a229",
+   "cn-all-remaining-0856-1dd34f40",
+   "cn-all-remaining-0868-8fb1b76d",
+   "cn-all-remaining-0871-83e54e58",
+   "cn-all-remaining-0875-4793042e",
+   "cn-all-remaining-0879-9c1c7e3e",
+   "cn-all-remaining-0881-7e2226c0",
+   "cn-all-remaining-0965-3d040bba"
+  ]
+ },
+ {
+  "cluster": 10,
+  "n": 17,
+  "top_products": [
+   [
+    "IRIS/FDSN Seismological Data Center",
+    2
+   ],
+   [
+    "IRIS/FDSN 地震数据中心",
+    2
+   ],
+   [
+    "Utah FORGE Geothermal Data Repository (OpenEI GDR)",
+    1
+   ],
+   [
+    "Silixa iDAS",
+    1
+   ],
+   [
+    "Utah FORGE / OpenEI Geothermal Data Repository (GDR)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "seismic-monitoring-data-portal",
+    8
+   ],
+   [
+    "ml-dataset-repository",
+    2
+   ],
+   [
+    "weather-climate-data-portal",
+    2
+   ]
+  ],
+  "ui_skeleton": "台网与事件目录检索(时间/震级/经纬度框选) → 事件或通道列表 → 事件详情含波形/瀑布图、震相拾取与定位结果 → 提交波形请求并下载 miniSEED/SEGY/H5",
+  "sample_tasks": [
+   "FORGE 16A(78)-32 压裂微震监测三维数据集成与高质量图件绘制",
+   "DAS 脉冲响应与应变灵敏度标定",
+   "DAS 光纤监测系统配置多准则性能评估与选型决策",
+   "双台面波频散提取与剪切波速度结构反演开发",
+   "大地电磁一维反演与等效层分析"
+  ],
+  "members": [
+   "cn-all-remaining-0306-324b959e",
+   "cn-all-remaining-0335-2dca6689",
+   "cn-all-remaining-0337-bafa6160",
+   "cn-all-remaining-0338-2beb2471",
+   "cn-all-remaining-0339-08285313",
+   "cn-all-remaining-0361-cf4b6cfb",
+   "cn-all-remaining-0362-01359fb6",
+   "cn-all-remaining-0363-4545ec79",
+   "cn-all-remaining-0364-990a106a",
+   "cn-all-remaining-0379-fa0f25f9",
+   "cn-all-remaining-0380-82b780a6",
+   "cn-all-remaining-0384-5a0c687a",
+   "cn-all-remaining-0385-44efd462",
+   "cn-all-remaining-0387-e17081aa",
+   "cn-all-remaining-0389-68b3c7e8",
+   "cn-all-remaining-0390-6dee4f87",
+   "cn-all-remaining-0392-ba434732"
+  ]
+ },
+ {
+  "cluster": 22,
+  "n": 17,
+  "top_products": [
+   [
+    "Materials Project",
+    11
+   ],
+   [
+    "ASE (Atomic Simulation Environment)",
+    2
+   ],
+   [
+    "AIRSS (cryan)",
+    1
+   ],
+   [
+    "Materials Virtual Lab MEGNet model zoo",
+    1
+   ],
+   [
+    "M3GNet (materialsvirtuallab/m3gnet GitHub repository)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "materials-property-database",
+    12
+   ],
+   [
+    "compute-job-runner",
+    3
+   ],
+   [
+    "ml-dataset-repository",
+    1
+   ]
+  ],
+  "ui_skeleton": "元素周期表+化学式/空间群多面筛选 → 材料条目列表(带形成能、带隙等列) → 单条目详情含结构可视化、能带/相图/计算参数标签页 → 导出 CIF/JSON 或加入收藏批量下载",
+  "sample_tasks": [
+   "面向物理学家的晶体结构三维可视化与配位环境分析 GUI 工具开发",
+   "面向计算材料物理的 CGCNN 晶体图数据管线复现",
+   "面向材料性质预测的 CGCNN 门控图卷积网络复现",
+   "CGCNN 材料性质回归与分类训练评估流程复现",
+   "CGCNN 预训练材料性质推理与论文复现边界审计"
+  ],
+  "members": [
+   "cn-all-remaining-0055-5f8881ce",
+   "cn-all-remaining-0058-784b7023",
+   "cn-all-remaining-0059-07202c4b",
+   "cn-all-remaining-0060-4916f260",
+   "cn-all-remaining-0061-17f616d5",
+   "cn-all-remaining-0062-2b5e3ba2",
+   "cn-all-remaining-0082-9d63781f",
+   "cn-all-remaining-0083-33708ca2",
+   "cn-all-remaining-0084-e75d9c48",
+   "cn-all-remaining-0085-0e8a8102",
+   "cn-all-remaining-0100-af640a96",
+   "cn-all-remaining-0101-a74eea92",
+   "cn-all-remaining-0102-7061cb48",
+   "cn-all-remaining-0103-2b1a2190",
+   "cn-all-remaining-0110-9c074cb8",
+   "cn-all-remaining-0111-21b42612",
+   "cn-all-remaining-0112-94e72782"
+  ]
+ },
+ {
+  "cluster": 44,
+  "n": 17,
+  "top_products": [
+   [
+    "政务服务/业务办件一体化平台 (e-Government or enterprise workflow status system)",
+    1
+   ],
+   [
+    "企业内部业务评估系统（自研OA/BPM工作台）",
+    1
+   ],
+   [
+    "政务/企业公告附件管理系统（CMS）",
+    1
+   ],
+   [
+    "Internal rule/feature-flag management console (LaunchDarkly-style)",
+    1
+   ],
+   [
+    "GitHub Pull Request",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "record-case-workbench",
+    4
+   ],
+   [
+    "asset-inventory-console",
+    2
+   ],
+   [
+    "issue-tracker-board",
+    2
+   ]
+  ],
+  "ui_skeleton": "我的待办与全部单据的状态分栏列表 → 单据详情含表单字段、附件、审批/处理时间线与状态流转按钮 → 关联记录标签页 → 按条件筛选导出台账",
+  "sample_tasks": [
+   "业务状态对接规则实现与验证",
+   "业务工作台列表 Excel 导出实现与验证",
+   "静态资料下载路由实现与验证",
+   "规则状态接口规范化实现与兼容验证",
+   "服务层图片复制变更规则审查"
+  ],
+  "members": [
+   "cn-all-remaining-0218-c55ed2a4",
+   "cn-all-remaining-0257-8171b0b6",
+   "cn-all-remaining-0258-e2a6a474",
+   "cn-all-remaining-0491-aa4d5cc1",
+   "cn-all-remaining-0492-97cc5e1a",
+   "cn-all-remaining-0493-755ec260",
+   "cn-all-remaining-0494-1a9218c7",
+   "cn-all-remaining-0495-5d0e7157",
+   "cn-all-remaining-0570-aca01108",
+   "cn-all-remaining-0572-5e9cacdd",
+   "cn-all-remaining-0573-4839dd74",
+   "cn-all-remaining-0574-b060150c",
+   "cn-all-remaining-0575-7854ceff",
+   "cn-all-remaining-0577-09649bc4",
+   "cn-all-remaining-0578-e86fdf1b",
+   "cn-all-remaining-0579-dc07c355",
+   "cn-all-remaining-0601-a91506be"
+  ]
+ },
+ {
+  "cluster": 25,
+  "n": 16,
+  "top_products": [
+   [
+    "Autodesk Revit",
+    2
+   ],
+   [
+    "品茗工程质量管理系统",
+    1
+   ],
+   [
+    "Autodesk Navisworks Manage",
+    1
+   ],
+   [
+    "Spectora",
+    1
+   ],
+   [
+    "Autodesk Revit (IFC-based BIM model)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "bim-model-browser",
+    6
+   ],
+   [
+    "record-case-workbench",
+    4
+   ],
+   [
+    "asset-inventory-console",
+    2
+   ]
+  ],
+  "ui_skeleton": "模型集与专业分组导航 → 构件树/明细表按类别筛选 → 构件属性面板加三维视口定位、碰撞与问题清单 → 导出明细表与碰撞报告",
+  "sample_tasks": [
+   "    精装修住宅交付查验缺陷分级、整改闭环与交付判定    ",
+   "2F施工图模型机电综合碰撞复核与BCF问题闭环",
+   "二手住宅交易前房屋查验、风险分级与修缮费用评估",
+   "清河商务中心A座3—5层租赁面积复核及BIM空间属性回写",
+   "东城片区5G无线网扩容与优化优先级评估"
+  ],
+  "members": [
+   "cn-all-remaining-0417-e46ae306",
+   "cn-all-remaining-0698-b3bfdb3e",
+   "cn-all-remaining-0707-03195156",
+   "cn-all-remaining-0727-906c12e1",
+   "cn-all-remaining-0770-159164f2",
+   "cn-all-remaining-0778-f1829de6",
+   "cn-all-remaining-0791-05e9ca07",
+   "cn-all-remaining-0807-116749fd",
+   "cn-all-remaining-0808-c3e94902",
+   "cn-all-remaining-0813-0f341d0c",
+   "cn-all-remaining-0822-6a5c9899",
+   "cn-all-remaining-0861-b190cb70",
+   "cn-all-remaining-0865-515ae739",
+   "cn-all-remaining-0872-cbef5357",
+   "cn-all-remaining-0882-fda27236",
+   "cn-all-remaining-0963-6a4b01d0"
+  ]
+ },
+ {
+  "cluster": 36,
+  "n": 16,
+  "top_products": [
+   [
+    "SW6 钢制压力容器分析设计软件",
+    2
+   ],
+   [
+    "SW6压力容器分析设计软件",
+    1
+   ],
+   [
+    "AVEVA PDMS / Smart 3D 管口明细表",
+    1
+   ],
+   [
+    "AutoCAD Civil 3D",
+    1
+   ],
+   [
+    "Glodon (广联达) 计价软件",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "cad-drawing-workspace",
+    5
+   ],
+   [
+    "engineering-design-calculator",
+    4
+   ],
+   [
+    "construction-cost-management",
+    1
+   ]
+  ],
+  "ui_skeleton": "图纸集/零件树导航 → 图幅或视图列表带版本与图层清单 → 图纸查看器可缩放、开关图层、点选构件读取标注与属性 → 导出 DWG/DXF/PDF 与明细表",
+  "sample_tasks": [
+   "球罐设计变更修订——湿硫化氢工况材质替代",
+   "球罐强度校核计算书复现——球罐开孔补强与支柱强度校核",
+   "球罐设计文件校审与图纸修正",
+   "球罐管口方位布置图绘制",
+   "城市次干路交通安全设施设计与出图"
+  ],
+  "members": [
+   "cn-all-remaining-0025-ed678805",
+   "cn-all-remaining-0027-bfeb6744",
+   "cn-all-remaining-0045-5cf73d18",
+   "cn-all-remaining-0049-81912daf",
+   "cn-all-remaining-0124-30d49720",
+   "cn-all-remaining-0126-67b61a90",
+   "cn-all-remaining-0180-5430cc08",
+   "cn-all-remaining-0182-84d4da65",
+   "cn-all-remaining-0256-f2187348",
+   "cn-all-remaining-0341-e33f98f7",
+   "cn-all-remaining-0355-511b8d68",
+   "cn-all-remaining-0370-135929fe",
+   "cn-all-remaining-0457-b003c365",
+   "cn-all-remaining-0962-bdcaeabc",
+   "cn-all-remaining-0996-36bc0e6f",
+   "cn-all-remaining-1000-78619d1a"
+  ]
+ },
+ {
+  "cluster": 51,
+  "n": 16,
+  "top_products": [
+   [
+    "Vernier Logger Pro (optics bench photodetector)",
+    2
+   ],
+   [
+    "Landmark ProMAX",
+    2
+   ],
+   [
+    "ObsPy/MSNoise-style ambient-noise seismic processing toolbox",
+    1
+   ],
+   [
+    "Custom physics simulation benchmark (synthetic wave-tank dataset)",
+    1
+   ],
+   [
+    "Custom computational-electromagnetics validation benchmark (COMSOL-style)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "simulation-study-workspace",
+    5
+   ],
+   [
+    "seismic-processing-workstation",
+    3
+   ],
+   [
+    "optical-photonic-test-station",
+    3
+   ]
+  ],
+  "ui_skeleton": "模型树(几何-材料-物理场-网格-研究) → 参数扫描/工况列表 → 结果页含场图、探针曲线与收敛信息 → 导出结果表与图像",
+  "sample_tasks": [
+   "环境噪声源分布反演",
+   "多源水面波干涉反演",
+   "载流折线路径磁场计算、圆环收敛与协变审计",
+   "变介电二维静电边界值求解与等势线拓扑审计",
+   "干涉仪参数与不确定性反演"
+  ],
+  "members": [
+   "cn-all-remaining-0485-3b1847ee",
+   "cn-all-remaining-0486-21dd301a",
+   "cn-all-remaining-0487-ea176e74",
+   "cn-all-remaining-0488-efcb609a",
+   "cn-all-remaining-0510-d49cdf96",
+   "cn-all-remaining-0511-fb2679a9",
+   "cn-all-remaining-0512-6dc90b5b",
+   "cn-all-remaining-0513-987196c7",
+   "cn-all-remaining-0514-6eab7459",
+   "cn-all-remaining-0529-c2ec96cc",
+   "cn-all-remaining-0530-22ffde1c",
+   "cn-all-remaining-0531-c5738f5e",
+   "cn-all-remaining-0532-b9206571",
+   "cn-all-remaining-0533-bec00c07",
+   "cn-all-remaining-0539-93bf92c9",
+   "cn-all-remaining-0540-2410250a"
+  ]
+ },
+ {
+  "cluster": 77,
+  "n": 16,
+  "top_products": [
+   [
+    "WRF (Weather Research and Forecasting Model)",
+    2
+   ],
+   [
+    "广联达钢筋翻样软件(GTJ钢筋算量)",
+    1
+   ],
+   [
+    "GitHub 开源项目 ImageStitching（naitri/ImageStitching 等同名基线仓库）",
+    1
+   ],
+   [
+    "Udacity Self-Driving Car Engineer Nanodegree - Advanced Lane Finding 项目仓库",
+    1
+   ],
+   [
+    "Copernicus Data Space Ecosystem (Sentinel-2)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "satellite-imagery-portal",
+    5
+   ],
+   [
+    "code-repository-review",
+    2
+   ],
+   [
+    "weather-climate-data-portal",
+    2
+   ]
+  ],
+  "ui_skeleton": "地图框选加时间/云量/传感器筛选 → 影像景(scene)列表带缩略图 → 单景详情含元数据、波段说明与快视图 → 加入购物车生成下载任务取回影像/产品",
+  "sample_tasks": [
+   "预制钢筋可拼接下料模拟退火算法设计与生产方案导出",
+   "多视图图像拼接、质量评估与批处理验收工具",
+   "高级视频车道线检测、时序稳定与质量评估系统",
+   "Sentinel-2 影像子区地表覆盖分类",
+   "预制钢筋可拼接下料模拟退火算法设计与生产方案导出"
+  ],
+  "members": [
+   "cn-all-remaining-0037-7d5ccda9",
+   "cn-all-remaining-0115-4e5886bd",
+   "cn-all-remaining-0116-1362f053",
+   "cn-all-remaining-0183-f366890f",
+   "cn-all-remaining-0239-d34a697d",
+   "cn-all-remaining-0675-f0557959",
+   "cn-all-remaining-0721-5993d63c",
+   "cn-all-remaining-0722-53715935",
+   "cn-all-remaining-0734-f1d1dd31",
+   "cn-all-remaining-0739-dbedc17b",
+   "cn-all-remaining-0771-fa562c12",
+   "cn-all-remaining-0773-95cfc75e",
+   "cn-all-remaining-0795-2d469bcb",
+   "cn-all-remaining-0892-1688f407",
+   "cn-all-remaining-0896-de465666",
+   "cn-all-remaining-0939-ab1a6294"
+  ]
+ },
+ {
+  "cluster": 13,
+  "n": 15,
+  "top_products": [
+   [
+    "GitHub (alibaba/open-code-review)",
+    3
+   ],
+   [
+    "GitHub",
+    3
+   ],
+   [
+    "GitHub (alibaba/higress)",
+    2
+   ],
+   [
+    "GitHub (alibaba/fastjson2 repository)",
+    1
+   ],
+   [
+    "GitHub (apache/dubbo-go)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "code-repository-review",
+    15
+   ]
+  ],
+  "ui_skeleton": "仓库导航(Code/Issues/PR/Actions) → PR/提交列表带状态筛选 → PR 详情含 diff 分片、行内评论、CI 检查与文件树 → 复制 patch/下载源码包",
+  "sample_tasks": [
+   "[BUG] Multiple ArrayIndexOutOfBoundsException in JSONReaderUTF8.java, JSONReaderASCII.java, JSONReader.java",
+   "Inconsistent path resolution: --background-file resolves against CWD, not the repo root",
+   "修复 Affinity Router 初始化阶段因应用名称缺失导致的空指针崩溃",
+   "Higress OpenAI 转 Claude 时丢失缓存 Token 用量",
+   "fix(diff): review merge commits against their first parent"
+  ],
+  "members": [
+   "cn-all-remaining-0219-3028b620",
+   "cn-all-remaining-0259-0f98e766",
+   "cn-all-remaining-0260-00dbcac0",
+   "cn-all-remaining-0261-e71a7c3d",
+   "cn-all-remaining-0262-796b7763",
+   "cn-all-remaining-0263-3cce95f4",
+   "cn-all-remaining-0264-cb4d04f6",
+   "cn-all-remaining-0267-2abe3ec4",
+   "cn-all-remaining-0268-0b9ebbad",
+   "cn-all-remaining-0276-6e6811c4",
+   "cn-all-remaining-0280-56d150e9",
+   "cn-all-remaining-0283-23156729",
+   "cn-all-remaining-0285-6c1acb68",
+   "cn-all-remaining-0286-e2cd489c",
+   "cn-all-remaining-0287-5251edcb"
+  ]
+ },
+ {
+  "cluster": 24,
+  "n": 15,
+  "top_products": [
+   [
+    "Vector CANape",
+    1
+   ],
+   [
+    "GHS (General HydroStatics)",
+    1
+   ],
+   [
+    "游戏服务端GM运营后台",
+    1
+   ],
+   [
+    "中国气象数据网（国家气象科学数据中心）",
+    1
+   ],
+   [
+    "SCADA/能源管理系统历史数据库（如 OSIsoft PI System）",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "game-liveops-admin-console",
+    3
+   ],
+   [
+    "test-bench-daq",
+    2
+   ],
+   [
+    "asset-inventory-console",
+    2
+   ]
+  ],
+  "ui_skeleton": "左侧功能菜单(玩家/活动/掉落/日志) → 玩家或订单查询列表 → 单玩家详情含背包、战斗与结算流水时间线 → 条件筛选后导出流水明细",
+  "sample_tasks": [
+   "800V纯电SUV动力电池液冷热管理工况评估与冷却能力校核 ",
+   "近海工程支持船吊装工况完整稳性、纵倾与压载方案核验",
+   "    手游限时活动奖励、兑换商店与经济闭环自动化回归审计    ",
+   "    夏季城市热岛、连续热浪与遥感地表温度回归的可复现科学分析    ",
+   "工业空压站能效审计、停机保压泄漏核算与联控节能改造校核"
+  ],
+  "members": [
+   "cn-all-remaining-0266-117b85a6",
+   "cn-all-remaining-0327-64d6e8a2",
+   "cn-all-remaining-0328-9e64a75f",
+   "cn-all-remaining-0330-f8d853da",
+   "cn-all-remaining-0395-459e966d",
+   "cn-all-remaining-0398-6d389a9a",
+   "cn-all-remaining-0399-6ddf0530",
+   "cn-all-remaining-0400-2d892a5f",
+   "cn-all-remaining-0402-aa42dfd5",
+   "cn-all-remaining-0404-b99d77e5",
+   "cn-all-remaining-0409-6a7bb0d1",
+   "cn-all-remaining-0423-6de57e18",
+   "cn-all-remaining-0433-48b9ac95",
+   "cn-all-remaining-1103-825a4158",
+   "cn-all-remaining-1134-4eeef84f"
+  ]
+ },
+ {
+  "cluster": 45,
+  "n": 15,
+  "top_products": [
+   [
+    "Materials Project",
+    10
+   ],
+   [
+    "AiiDA",
+    1
+   ],
+   [
+    "NIMS MatNavi / Materials Database",
+    1
+   ],
+   [
+    "NOMAD / Materials Data Facility (research data access portal)",
+    1
+   ],
+   [
+    "NETZSCH Proteus (Dilatometer/TMA Analysis Software)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "materials-property-database",
+    12
+   ],
+   [
+    "compute-job-runner",
+    2
+   ],
+   [
+    "lab-instrument-analysis-software",
+    1
+   ]
+  ],
+  "ui_skeleton": "元素周期表+化学式/空间群多面筛选 → 材料条目列表(带形成能、带隙等列) → 单条目详情含结构可视化、能带/相图/计算参数标签页 → 导出 CIF/JSON 或加入收藏批量下载",
+  "sample_tasks": [
+   "基于声子模态热容加权的负热膨胀 Grüneisen 描述符计算程序",
+   "基于热膨胀系数曲线的负热膨胀区间识别与稳健分类程序",
+   "面向负热膨胀逆向设计的结构合理性与 XRD 新颖性筛选程序",
+   "负热膨胀候选的 Grüneisen–声子稳定性–凸包能三目标 Pareto 决策程序",
+   "可恢复的负热膨胀材料逆向设计批任务编排与状态管理程序"
+  ],
+  "members": [
+   "cn-all-remaining-0145-e95af7e1",
+   "cn-all-remaining-0147-8adc1dee",
+   "cn-all-remaining-0150-c71a0779",
+   "cn-all-remaining-0153-be2ba508",
+   "cn-all-remaining-0154-077b3b0c",
+   "cn-all-remaining-0157-48c5ea38",
+   "cn-all-remaining-0162-c827b242",
+   "cn-all-remaining-0165-b35850c6",
+   "cn-all-remaining-0170-55cf9dab",
+   "cn-all-remaining-0172-6856819c",
+   "cn-all-remaining-0381-cef57a44",
+   "cn-all-remaining-0386-c86d9cd1",
+   "cn-all-remaining-0388-8fa5bc07",
+   "cn-all-remaining-0391-d4a9fbcb",
+   "cn-all-remaining-0393-6a01fe39"
+  ]
+ },
+ {
+  "cluster": 74,
+  "n": 15,
+  "top_products": [
+   [
+    "GitHub",
+    4
+   ],
+   [
+    "GitHub (Apache RocketMQ repository)",
+    2
+   ],
+   [
+    "GitHub (Apache SeaTunnel repository)",
+    2
+   ],
+   [
+    "GitHub (alibaba/nacos)",
+    2
+   ],
+   [
+    "GitHub - apache/rocketmq",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "code-repository-review",
+    15
+   ]
+  ],
+  "ui_skeleton": "仓库导航(Code/Issues/PR/Actions) → PR/提交列表带状态筛选 → PR 详情含 diff 分片、行内评论、CI 检查与文件树 → 复制 patch/下载源码包",
+  "sample_tasks": [
+   "RocketMQ ServiceThread 唤醒信号丢失",
+   "Nacos Config 客户端关闭后监听线程池持续泄漏",
+   "SeaTunnel 多作业 Kafka 分区配置相互污染",
+   "SeaTunnel Flink Schema Evolution 与 XA 事务发生 MDL 死锁",
+   "Nacos 并发订阅与取消订阅导致服务索引丢失"
+  ],
+  "members": [
+   "cn-all-remaining-0284-ee8ca4d8",
+   "cn-all-remaining-0288-9191bb5f",
+   "cn-all-remaining-0289-179b18af",
+   "cn-all-remaining-0292-d702cea3",
+   "cn-all-remaining-0293-55df2006",
+   "cn-all-remaining-0294-fde2ddb5",
+   "cn-all-remaining-0340-1949b8b0",
+   "cn-all-remaining-0342-312b05e2",
+   "cn-all-remaining-0344-8f581a8d",
+   "cn-all-remaining-0394-1e06e38d",
+   "cn-all-remaining-0453-ba71e11e",
+   "cn-all-remaining-0480-62388124",
+   "cn-all-remaining-0490-91ffdc27",
+   "cn-all-remaining-0508-3c61f735",
+   "cn-all-remaining-0509-6e152030"
+  ]
+ },
+ {
+  "cluster": 19,
+  "n": 14,
+  "top_products": [
+   [
+    "Chroma/HIOKI电网模拟与电能质量测试系统",
+    1
+   ],
+   [
+    "KLA Klarity Yield Management System",
+    1
+   ],
+   [
+    "游戏服务端运维日志平台 (Game Backend Ops/Log Platform, e.g. ELK/Grafana)",
+    1
+   ],
+   [
+    "EOS EOSTATE process monitoring + CT/mechanical test lab systems",
+    1
+   ],
+   [
+    "Optical test bench data acquisition system (e.g. Zygo interferometer / Ophir power meter)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "test-bench-daq",
+    6
+   ],
+   [
+    "spc-quality-management",
+    2
+   ],
+   [
+    "process-historian-scada",
+    2
+   ]
+  ],
+  "ui_skeleton": "试验计划/工况矩阵导航 → 试验运行(run)列表带通道配置与状态 → 单次运行详情含多通道时序曲线、事件与判定结果 → 导出原始通道数据与试验报告",
+  "sample_tasks": [
+   "100 kW光伏逆变器低电压穿越、谐波与孤岛保护联合评审及量产并网判定",
+   "28 nm接触孔光刻关键尺寸、套刻与焦距—曝光工艺窗口联合评审及批次放行判定",
+   "跨服公会战房间状态一致性、掉线重连与奖励结算幂等联合回归及上线判定",
+   "LPBF Inconel 718粉末、熔池、孔隙、力学、疲劳与热处理组织联合评审及航空结构件工艺定型判定",
+   "车载1550nm激光雷达发射、接收、杂散光、温漂、眼安全与可靠性联合验收及整车道路验证准入判定"
+  ],
+  "members": [
+   "cn-all-remaining-0816-3ff8f800",
+   "cn-all-remaining-0821-5446eadd",
+   "cn-all-remaining-0826-269c7767",
+   "cn-all-remaining-0908-a1d40822",
+   "cn-all-remaining-0912-51d4ac3e",
+   "cn-all-remaining-0914-bc4975d4",
+   "cn-all-remaining-0915-15619241",
+   "cn-all-remaining-0917-498f7e66",
+   "cn-all-remaining-0919-ae74f23e",
+   "cn-all-remaining-0925-0b3469e8",
+   "cn-all-remaining-0929-cfedb11d",
+   "cn-all-remaining-0943-467f2a4f",
+   "cn-all-remaining-0944-1ca3a5c9",
+   "cn-all-remaining-0946-f43aaf57"
+  ]
+ },
+ {
+  "cluster": 40,
+  "n": 14,
+  "top_products": [
+   [
+    "LAMMPS",
+    5
+   ],
+   [
+    "CP2K",
+    3
+   ],
+   [
+    "LAMMPS (Spectral Heat Current package)",
+    3
+   ],
+   [
+    "MaMiCo",
+    3
+   ]
+  ],
+  "top_families": [
+   [
+    "compute-job-runner",
+    14
+   ]
+  ],
+  "ui_skeleton": "项目与作业队列列表(状态/资源/耗时) → 作业详情含输入脚本、参数、运行日志与收敛曲线 → 工作流依赖图 → 下载输出/轨迹/结构文件",
+  "sample_tasks": [
+   "审计 NH3/Si 几何优化输入的完整性",
+   "评估 NH3/Si 几何优化和 SCF 收敛",
+   "量化 NH3 在 Si 表面的吸附几何演化",
+   "审计 Cu/a-SiO2 双温模型输入和依赖",
+   "分析 Cu/a-SiO2 晶格稳态温度剖面"
+  ],
+  "members": [
+   "cn-all-remaining-0454-9372c08f",
+   "cn-all-remaining-0455-f664e844",
+   "cn-all-remaining-0456-20aab82a",
+   "cn-all-remaining-0458-9f20b0d5",
+   "cn-all-remaining-0459-8e14ff87",
+   "cn-all-remaining-0460-5d875d31",
+   "cn-all-remaining-0461-49aebc48",
+   "cn-all-remaining-0462-529c73fd",
+   "cn-all-remaining-0463-a8720d2c",
+   "cn-all-remaining-0464-f11fcc5a",
+   "cn-all-remaining-0465-6561609b",
+   "cn-all-remaining-0466-f1cc6fdb",
+   "cn-all-remaining-0467-53eeb5e8",
+   "cn-all-remaining-0468-f15a443c"
+  ]
+ },
+ {
+  "cluster": 59,
+  "n": 14,
+  "top_products": [
+   [
+    "Materials Project",
+    4
+   ],
+   [
+    "Editorial Manager (journal peer-review platform)",
+    3
+   ],
+   [
+    "LAMMPS",
+    2
+   ],
+   [
+    "Intel RealSense SDK (librealsense) / D455",
+    1
+   ],
+   [
+    "Intel RealSense Viewer / librealsense SDK (via ROS rviz)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "materials-property-database",
+    5
+   ],
+   [
+    "compute-job-runner",
+    3
+   ],
+   [
+    "record-case-workbench",
+    3
+   ]
+  ],
+  "ui_skeleton": "元素周期表+化学式/空间群多面筛选 → 材料条目列表(带形成能、带隙等列) → 单条目详情含结构可视化、能带/相图/计算参数标签页 → 导出 CIF/JSON 或加入收藏批量下载",
+  "sample_tasks": [
+   "Intel RealSense D455 RGB-D 三维目标感知系统可靠性升级、离线部署与自动化验收交付",
+   "Intel RealSense D455 RGB-D 三维目标感知系统可靠性升级、离线部署与自动化验收交付",
+   "基于 D3REAM 与三模型 MACE 保守估计的 BCN 低能量高密度高维氏硬度多目标逆向设计",
+   "工业定子检测视频抽帧、标注质检与 YOLO 数据集前处理平台开发",
+   "工业定子 YOLO 训练评估、模型转换与 RGB-D 推理部署流水线开发"
+  ],
+  "members": [
+   "cn-all-remaining-0048-20a1803f",
+   "cn-all-remaining-0279-e1055243",
+   "cn-all-remaining-0366-96678dde",
+   "cn-all-remaining-0382-1593e06a",
+   "cn-all-remaining-0383-e493ff6b",
+   "cn-all-remaining-0654-3faaf48b",
+   "cn-all-remaining-0655-46597c07",
+   "cn-all-remaining-0656-39075a94",
+   "cn-all-remaining-0657-35acc768",
+   "cn-all-remaining-0658-a24a0d9e",
+   "cn-all-remaining-0659-ed12deb7",
+   "cn-all-remaining-0774-0738fe73",
+   "cn-all-remaining-0775-b2fdc7cf",
+   "cn-all-remaining-0776-fdff78f7"
+  ]
+ },
+ {
+  "cluster": 64,
+  "n": 14,
+  "top_products": [
+   [
+    "spaCy NLP annotation pipeline",
+    1
+   ],
+   [
+    "Dify",
+    1
+   ],
+   [
+    "FineReport (帆软)",
+    1
+   ],
+   [
+    "Claude Code",
+    1
+   ],
+   [
+    "Wireshark",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "ai-assistant-workbench",
+    3
+   ],
+   [
+    "code-repository-review",
+    2
+   ],
+   [
+    "erp-supply-chain-system",
+    2
+   ]
+  ],
+  "ui_skeleton": "会话/应用列表侧栏 → 会话或任务详情含消息流、引用来源与工具调用记录 → 配置面板(模型、提示词、知识库) → 导出会话记录或生成结果",
+  "sample_tasks": [
+   "离线高频名词提取与文档替换",
+   "RAG 多路检索参数接入",
+   "报告文件下载链路说明与模拟验证",
+   "工具钩子超时与停止响应修复",
+   "网络协议轨迹回放与混合流量验证"
+  ],
+  "members": [
+   "cn-all-remaining-0516-ba0a9cec",
+   "cn-all-remaining-0517-2782f9c8",
+   "cn-all-remaining-0518-b6641c0c",
+   "cn-all-remaining-0519-5bc55e58",
+   "cn-all-remaining-0520-ef6218a4",
+   "cn-all-remaining-0521-3123bf8c",
+   "cn-all-remaining-0522-9576dc11",
+   "cn-all-remaining-0523-6e6f046e",
+   "cn-all-remaining-0621-c04fc018",
+   "cn-all-remaining-0622-f1aaea49",
+   "cn-all-remaining-0623-d2bfa16f",
+   "cn-all-remaining-0624-0d5850a4",
+   "cn-all-remaining-0625-c4a941f4",
+   "cn-all-remaining-0626-bcc9f2e4"
+  ]
+ },
+ {
+  "cluster": 9,
+  "n": 13,
+  "top_products": [
+   [
+    "UCI Machine Learning Repository",
+    3
+   ],
+   [
+    "HAI (HIL-based Augmented ICS) Security Dataset GitHub Repository",
+    1
+   ],
+   [
+    "ChEMBL",
+    1
+   ],
+   [
+    "CRAN R Package Datasets (survival/TH.data - GBSG2)",
+    1
+   ],
+   [
+    "SKAB (Skoltech Anomaly Benchmark) GitHub repository",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "ml-dataset-repository",
+    10
+   ],
+   [
+    "code-repository-review",
+    2
+   ],
+   [
+    "drug-bioactivity-database",
+    1
+   ]
+  ],
+  "ui_skeleton": "按任务类型/特征数/样本量筛选的数据集目录 → 数据集主页含描述、变量字典、引用与版本 → 文件标签页可预览前若干行 → 下载 zip/csv 或复制 API 加载片段",
+  "sample_tasks": [
+   "家电能耗概率区间预测",
+   "工业控制系统多变量时序异常检测 + 受影响过程根因定位",
+   "CYP3A4 抑制活性的定量结构-活性关系建模",
+   "葡萄酒品质序数回归",
+   "酵母基因功能多标签分类"
+  ],
+  "members": [
+   "cn-all-remaining-0211-8626b54a",
+   "cn-all-remaining-0213-58019df6",
+   "cn-all-remaining-0248-45095616",
+   "cn-all-remaining-0252-36566ef7",
+   "cn-all-remaining-0269-78ef8a58",
+   "cn-all-remaining-0272-eaf429b6",
+   "cn-all-remaining-0277-aba735f6",
+   "cn-all-remaining-0282-dc05cea5",
+   "cn-all-remaining-0354-08d6b573",
+   "cn-all-remaining-0473-afcf860c",
+   "cn-all-remaining-0474-6ffc068e",
+   "cn-all-remaining-0478-c21c6715",
+   "cn-all-remaining-0479-abb9f7a8"
+  ]
+ },
+ {
+  "cluster": 15,
+  "n": 13,
+  "top_products": [
+   [
+    "HR薪酬管理系统 (Payroll System, e.g. 北森/薪人薪事/SAP SuccessFactors)",
+    1
+   ],
+   [
+    "电网计费系统 (Utility/Grid Billing System)",
+    1
+   ],
+   [
+    "保险理赔核心系统 (Claims Adjudication System)",
+    1
+   ],
+   [
+    "银行信贷核心系统 (Loan Servicing System)",
+    1
+   ],
+   [
+    "海关跨境电商通关系统 (China Customs Cross-border E-commerce Clearance System)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "billing-ledger-console",
+    5
+   ],
+   [
+    "environmental-monitoring-network",
+    3
+   ],
+   [
+    "record-case-workbench",
+    2
+   ]
+  ],
+  "ui_skeleton": "账期与业务类型筛选 → 账单/交易流水列表带金额与状态 → 单笔账单详情展开计费明细、费率规则与调整记录 → 导出对账文件与汇总报表",
+  "sample_tasks": [
+   "薪资个税计算复核与发布封板审计",
+   "电力账单核验对账与发布封板审计",
+   "保险理赔核验对账与发布封板审计",
+   "银行贷款利息核验对账与发布封板审计",
+   "跨境电商进口税费核验对账与发布封板审计"
+  ],
+  "members": [
+   "cn-all-remaining-0968-a554494c",
+   "cn-all-remaining-0969-6df0820b",
+   "cn-all-remaining-0970-194c0e46",
+   "cn-all-remaining-0971-9cb42684",
+   "cn-all-remaining-0972-58036ef4",
+   "cn-all-remaining-0973-7a1c435c",
+   "cn-all-remaining-0974-4790d8bf",
+   "cn-all-remaining-0975-ea568465",
+   "cn-all-remaining-0976-5aa6f01c",
+   "cn-all-remaining-0977-49dbb8c6",
+   "cn-all-remaining-0978-44ed4df9",
+   "cn-all-remaining-0980-6a4254c5",
+   "cn-all-remaining-0981-628b31f9"
+  ]
+ },
+ {
+  "cluster": 67,
+  "n": 13,
+  "top_products": [
+   [
+    "InfinityQS ProFicient",
+    3
+   ],
+   [
+    "Minitab",
+    3
+   ],
+   [
+    "ReliaSoft Weibull++ / ALTA (reliability test data management)",
+    2
+   ],
+   [
+    "InfinityQS ProFicient (SPC数据采集系统)",
+    1
+   ],
+   [
+    "Neware Battery Test System (BTS)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "spc-quality-management",
+    8
+   ],
+   [
+    "test-bench-daq",
+    4
+   ],
+   [
+    "process-historian-scada",
+    1
+   ]
+  ],
+  "ui_skeleton": "产品-工序-特性导航 → 检验批/测量记录列表 → 控制图与能力分析视图带违规点标记、失效分类下钻 → 导出控制图数据与质量报表",
+  "sample_tasks": [
+   "精密轴尺寸 SPC、过程能力与异常事件关联分析",
+   "汽车连接器注塑件关键尺寸SPC分析、过程能力评估与量产放行判定    ",
+   "新能源汽车电机端盖轴承座孔径量具R&R、SPC过程能力与量产放行审计",
+   "注塑壳体量具R&R、SPC与外观缺陷联合评审及供应商放行判定",
+   "精密阀芯外径测量系统分析、控制图与过程能力量产放行评估"
+  ],
+  "members": [
+   "cn-all-remaining-0089-ab3b3a3c",
+   "cn-all-remaining-0291-e8bd6c4c",
+   "cn-all-remaining-0416-655ce14e",
+   "cn-all-remaining-0677-42a50188",
+   "cn-all-remaining-0683-84d392a1",
+   "cn-all-remaining-0687-72a573b9",
+   "cn-all-remaining-0694-7620d864",
+   "cn-all-remaining-0746-667d6a72",
+   "cn-all-remaining-0801-3012a7dc",
+   "cn-all-remaining-0810-1f45cadd",
+   "cn-all-remaining-0933-8ea9ae7d",
+   "cn-all-remaining-0948-b0c93dc1",
+   "cn-all-remaining-1102-75cdeb82"
+  ]
+ },
+ {
+  "cluster": 69,
+  "n": 13,
+  "top_products": [
+   [
+    "COMSOL Multiphysics",
+    4
+   ],
+   [
+    "Seedance 2.0 (ByteDance image-to-video model)",
+    1
+   ],
+   [
+    "即梦AI Seedance (Doubao Image-to-Video Platform)",
+    1
+   ],
+   [
+    "franka_description (ROS / Franka Emika URDF repository)",
+    1
+   ],
+   [
+    "None — synthetic control-simulation parameter sets, no real-world data source",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "simulation-study-workspace",
+    8
+   ],
+   [
+    "ai-assistant-workbench",
+    2
+   ],
+   [
+    "code-repository-review",
+    1
+   ]
+  ],
+  "ui_skeleton": "模型树(几何-材料-物理场-网格-研究) → 参数扫描/工况列表 → 结果页含场图、探针曲线与收敛信息 → 导出结果表与图像",
+  "sample_tasks": [
+   "story_to_animation_video",
+   "fable_flow_pipeline",
+   "三维 Voronoi 晶界应力模型制作",
+   "Panda 7-DOF 冗余机械臂多约束逆运动学求解(含肘部朝上约束)",
+   "二维钙钛矿太阳能电池模拟"
+  ],
+  "members": [
+   "cn-all-remaining-0081-ba5b245c",
+   "cn-all-remaining-0196-0fcde01e",
+   "cn-all-remaining-0202-e9714142",
+   "cn-all-remaining-0224-36cf0ef9",
+   "cn-all-remaining-0238-ec8b0623",
+   "cn-all-remaining-0244-2e8ded33",
+   "cn-all-remaining-0295-f02f928e",
+   "cn-all-remaining-0347-e95a3726",
+   "cn-all-remaining-0470-3db56cb3",
+   "cn-all-remaining-0472-0ae1c4b2",
+   "cn-all-remaining-0961-cea1fcda",
+   "cn-all-remaining-1211-7e853800",
+   "cn-all-remaining-1260-accd9250"
+  ]
+ },
+ {
+  "cluster": 70,
+  "n": 13,
+  "top_products": [
+   [
+    "神策数据 Sensors Analytics (用户行为分析平台)",
+    1
+   ],
+   [
+    "微信公众号后台（WeChat Official Account Platform）",
+    1
+   ],
+   [
+    "淘宝/天猫商家后台 (Taobao/Tmall Merchant Platform)",
+    1
+   ],
+   [
+    "Toon Boom Storyboard Pro / 动画制作管线工具",
+    1
+   ],
+   [
+    "SolidWorks / Creo (机械CAD-PLM)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "product-analytics-dashboard",
+    2
+   ],
+   [
+    "ecommerce-merchant-admin",
+    2
+   ],
+   [
+    "creative-asset-authoring-suite",
+    2
+   ]
+  ],
+  "ui_skeleton": "日期与维度筛选栏 → 指标卡片加趋势图看板 → 下钻到事件/渠道明细表与漏斗、留存视图 → 导出报表 CSV 或订阅报告",
+  "sample_tasks": [
+   "衡云费控移动端差旅报销关键流程体验整改",
+   "城市文化项目深度稿编校与多平台发布包",
+   "文创品牌双11经营、投放与素材表现联合复盘",
+   "儿童安全科普短片 v04 分镜粗剪 QC 与 v05 送审修订",
+   "86型智能新风控制器前面板 ID 冻结、CMF 与丝印规范"
+  ],
+  "members": [
+   "cn-all-remaining-0682-ffc004ef",
+   "cn-all-remaining-0684-33435d87",
+   "cn-all-remaining-0695-73fb8b8c",
+   "cn-all-remaining-0750-1b6458a9",
+   "cn-all-remaining-0755-7e078c66",
+   "cn-all-remaining-0790-ca61bdb0",
+   "cn-all-remaining-0793-797a30ac",
+   "cn-all-remaining-0797-0871a408",
+   "cn-all-remaining-0818-8c722c79",
+   "cn-all-remaining-0862-62ba3ff3",
+   "cn-all-remaining-0930-3befd0d2",
+   "cn-all-remaining-0931-23dd643d",
+   "cn-all-remaining-0985-65cb1fbe"
+  ]
+ },
+ {
+  "cluster": 23,
+  "n": 12,
+  "top_products": [
+   [
+    "Schlumberger Petrel",
+    2
+   ],
+   [
+    "Hampson-Russell (CGG)",
+    1
+   ],
+   [
+    "Paradigm Echos",
+    1
+   ],
+   [
+    "VISTA Seismic Processing (Geotomo)",
+    1
+   ],
+   [
+    "OpendTect (dGB Earth Sciences)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "seismic-processing-workstation",
+    10
+   ],
+   [
+    "compute-job-runner",
+    1
+   ],
+   [
+    "lab-instrument-analysis-software",
+    1
+   ]
+  ],
+  "ui_skeleton": "工区/测线树 → 处理流程(flow)与作业列表 → 道集/剖面显示窗口带参数面板、速度谱与属性叠加 → 输出 SEG-Y/参数报表导出",
+  "sample_tasks": [
+   "非规则缺道地震重建、防混叠选择与预测不确定性校准",
+   "时变子波盲估计、稀疏反射联合反演与预测区间校准",
+   "变深度拖缆鬼波参数联合反演、稳定去鬼波与实测陷波审计",
+   "多分量极性—方位联合旋转与单调 PP/PS 配准",
+   "速度模型不确定性下的衍射偏移、聚焦稳定性与模型选择"
+  ],
+  "members": [
+   "cn-all-remaining-0534-85915e5c",
+   "cn-all-remaining-0535-5d4acc7c",
+   "cn-all-remaining-0536-1532ccc9",
+   "cn-all-remaining-0537-da51a5f5",
+   "cn-all-remaining-0538-818df7fa",
+   "cn-all-remaining-0554-5033ba94",
+   "cn-all-remaining-0558-8ef62de9",
+   "cn-all-remaining-0559-a1c8015d",
+   "cn-all-remaining-0560-00181d52",
+   "cn-all-remaining-0561-45e9cbd1",
+   "cn-all-remaining-0562-ed5ba58d",
+   "cn-all-remaining-0565-02890366"
+  ]
+ },
+ {
+  "cluster": 26,
+  "n": 12,
+  "top_products": [
+   [
+    "OSIsoft PI System",
+    2
+   ],
+   [
+    "AMR机器人调度系统 (如极智嘉/海康移动机器人RCS)",
+    1
+   ],
+   [
+    "Kongsberg K-Pos Dynamic Positioning System",
+    1
+   ],
+   [
+    "Trioptics ImageMaster MTF test station",
+    1
+   ],
+   [
+    "PC-DMIS / NDT Quality Management System",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "process-historian-scada",
+    6
+   ],
+   [
+    "asset-inventory-console",
+    1
+   ],
+   [
+    "optical-photonic-test-station",
+    1
+   ]
+  ],
+  "ui_skeleton": "位号(tag)树与资产层级 → 位号检索列表带单位/量程 → 趋势视图选时间段、聚合方式并叠加多位号，配报警一览 → 导出时序 CSV 或报表",
+  "sample_tasks": [
+   "智能仓储AMR多传感器定位、交通死锁、充电调度与安全发布准入",
+   "DP2海上风电运维船动力定位故障重构、推力分配与作业准入判定",
+   "工业制冷液氨系统泄漏事件重构、SIS/LOPA验证与复产准入判定",
+   "工业制冷液氨系统泄漏事件重构、SIS/LOPA验证与复产准入判定",
+   "车载摄像模组MTF、畸变、杂散光与热稳定量产准入判定"
+  ],
+  "members": [
+   "cn-all-remaining-0812-90c48c8d",
+   "cn-all-remaining-0819-92642430",
+   "cn-all-remaining-0829-bd2480e9",
+   "cn-all-remaining-0831-8de50919",
+   "cn-all-remaining-0910-a483d04f",
+   "cn-all-remaining-0916-99ed2233",
+   "cn-all-remaining-0920-d3ea6ee1",
+   "cn-all-remaining-0921-befeee11",
+   "cn-all-remaining-0922-76ab0a78",
+   "cn-all-remaining-0923-15b15695",
+   "cn-all-remaining-0924-4456a733",
+   "cn-all-remaining-0942-65033b58"
+  ]
+ },
+ {
+  "cluster": 48,
+  "n": 12,
+  "top_products": [
+   [
+    "SolidWorks",
+    3
+   ],
+   [
+    "KiCad",
+    3
+   ],
+   [
+    "长步道光电(Changbudao Optics) 镜头选型手册",
+    1
+   ],
+   [
+    "Midas GTS NX",
+    1
+   ],
+   [
+    "SKF SimPro Quick",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "cad-drawing-workspace",
+    3
+   ],
+   [
+    "eda-design-verification",
+    3
+   ],
+   [
+    "storefront-product-catalog",
+    2
+   ]
+  ],
+  "ui_skeleton": "图纸集/零件树导航 → 图幅或视图列表带版本与图层清单 → 图纸查看器可缩放、开关图层、点选构件读取标注与属性 → 导出 DWG/DXF/PDF 与明细表",
+  "sample_tasks": [
+   "AR眼动追踪VGA传感器微型镜头规格书设计项目",
+   "明挖基坑有无加固工况数值模拟分析",
+   "人形机器人一体化线性执行器（反转式行星滚柱丝杠构型）结构设计与多物理场校核任务",
+   "水泵机械零部件正向设计与轴承全工况寿命校核综合任务",
+   "新能源汽车电机轴机加工工艺规格书"
+  ],
+  "members": [
+   "cn-all-remaining-0003-753d9f01",
+   "cn-all-remaining-0038-0e6dcacf",
+   "cn-all-remaining-0113-7d680a14",
+   "cn-all-remaining-0195-5825e6c9",
+   "cn-all-remaining-0197-3096cac7",
+   "cn-all-remaining-0200-7d3bbee1",
+   "cn-all-remaining-0201-aa7b482c",
+   "cn-all-remaining-0215-7ece7df7",
+   "cn-all-remaining-0225-67c5083f",
+   "cn-all-remaining-0233-716f6fd9",
+   "cn-all-remaining-0235-b31d2b3b",
+   "cn-all-remaining-0360-312accf1"
+  ]
+ },
+ {
+  "cluster": 39,
+  "n": 11,
+  "top_products": [
+   [
+    "OpenSim",
+    9
+   ],
+   [
+    "OpenCap",
+    2
+   ]
+  ],
+  "top_families": [
+   [
+    "biomechanics-motion-lab",
+    11
+   ]
+  ],
+  "ui_skeleton": "顶部导航按项目/受试者 → 试验(session)列表可按受试者/动作/日期筛选 → 试次详情页含模型参数、事件标记与关节角/力曲线预览 → 下载 .mot/.trc/.osim/c3d 等时序文件或批量导出",
+  "sample_tasks": [
+   "生物力学多模态数据包的源文件溯源、分层 SHA-256 证据链与完整性审计",
+   "人体生物力学模型的字节—拓扑—参数三级重复性判别与试次绑定分析",
+   "人体运动学数据的单位、坐标语义、代理力轴与双侧一致性诊断",
+   "生物力学 K/E/D 分层证据体系下二十类科学主张的可支持性与禁止推断边界分析",
+   "多模态人体运动数据面向八类生物力学构念的逐任务分析资格与降级门控"
+  ],
+  "members": [
+   "cn-all-remaining-1036-190a37ec",
+   "cn-all-remaining-1037-e0ff9cc4",
+   "cn-all-remaining-1038-e267339a",
+   "cn-all-remaining-1039-fc34876b",
+   "cn-all-remaining-1040-7b076b3a",
+   "cn-all-remaining-1041-c4d4364e",
+   "cn-all-remaining-1042-b1c822c2",
+   "cn-all-remaining-1043-18f78780",
+   "cn-all-remaining-1044-4d51104f",
+   "cn-all-remaining-1045-5899466e",
+   "cn-all-remaining-1046-5ee2b39a"
+  ]
+ },
+ {
+  "cluster": 66,
+  "n": 11,
+  "top_products": [
+   [
+    "猎聘网",
+    4
+   ],
+   [
+    "卫生人才网招聘报名系统（如重庆卫生人才网/福建卫生人才网）",
+    1
+   ],
+   [
+    "全国公共资源交易平台/政府采购网",
+    1
+   ],
+   [
+    "中国招标投标公共服务平台",
+    1
+   ],
+   [
+    "猎聘/BOSS直聘（招聘信息平台）",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "recruiting-hr-platform",
+    9
+   ],
+   [
+    "regulatory-filing-portal",
+    2
+   ]
+  ],
+  "ui_skeleton": "职位/候选人搜索框加城市-薪资-经验筛选 → 卡片列表分页 → 职位或候选人详情含 JD、公司信息、流程阶段与评价 → 收藏夹批量导出名单",
+  "sample_tasks": [
+   "福建—重庆公立医院内科医师招聘结构与配置研究",
+   "长三角城市更新建筑设计市场机会评估与重点客户研究",
+   "中国工业设计师人才需求与设计服务机会研究",
+   "长三角既有公共建筑结构检测鉴定与加固设计服务市场研究与区域进入建议",
+   "图形算法工程师人才供需、技术栈与团队建设研究"
+  ],
+  "members": [
+   "cn-all-remaining-0323-3f584fd1",
+   "cn-all-remaining-0406-6b719b00",
+   "cn-all-remaining-0413-32af7365",
+   "cn-all-remaining-0414-b2da4750",
+   "cn-all-remaining-0415-4696e896",
+   "cn-all-remaining-0937-6374de20",
+   "cn-all-remaining-1101-68974701",
+   "cn-all-remaining-1104-be743d3f",
+   "cn-all-remaining-1128-a9104579",
+   "cn-all-remaining-1129-a5a00495",
+   "cn-all-remaining-1130-de532a93"
+  ]
+ },
+ {
+  "cluster": 72,
+  "n": 11,
+  "top_products": [
+   [
+    "AutoCAD",
+    1
+   ],
+   [
+    "Copernicus Marine Service (CMEMS) SST L4 Portal",
+    1
+   ],
+   [
+    "Malvern Panalytical Zetasizer software",
+    1
+   ],
+   [
+    "Buchwald-Hartwig HTE 反应数据集（Merck/Doyle实验室高通量筛选数据，常见于Open Reaction Database等化学反应数据库）",
+    1
+   ],
+   [
+    "实验室多仪器数据整理工作簿（理化分析仪+荧光光谱仪+16S测序管道(如QIIME2)+FT-ICR MS工作站(如Formularity)导出后汇总的Excel）",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "cad-drawing-workspace",
+    2
+   ],
+   [
+    "lab-instrument-analysis-software",
+    2
+   ],
+   [
+    "weather-climate-data-portal",
+    1
+   ]
+  ],
+  "ui_skeleton": "图纸集/零件树导航 → 图幅或视图列表带版本与图层清单 → 图纸查看器可缩放、开关图层、点选构件读取标注与属性 → 导出 DWG/DXF/PDF 与明细表",
+  "sample_tasks": [
+   "4500 m3/d造纸废水处理工艺计算、二沉池口径纠正与CAD一致性审计",
+   "1998-2021年江苏近海SST梯度与HBCF/JSF锋带时空特征可复现分析",
+   "CuS/Cu-ZIF纳米材料多模态表征数据处理与可复现结果报告",
+   "Buchwald-Hartwig 反应条件数据的可复算审计",
+   "红树林沉积物多模态响应证据矩阵与复验排程审计"
+  ],
+  "members": [
+   "cn-all-remaining-0229-ee451ace",
+   "cn-all-remaining-0230-7ad23258",
+   "cn-all-remaining-0232-d62432a4",
+   "cn-all-remaining-0315-288a70d1",
+   "cn-all-remaining-0316-980114f4",
+   "cn-all-remaining-0317-8020fa01",
+   "cn-all-remaining-0318-6f22c371",
+   "cn-all-remaining-0319-56b726ce",
+   "cn-all-remaining-0320-d8bc55d2",
+   "cn-all-remaining-0321-d05903ab",
+   "cn-all-remaining-0991-aea4e661"
+  ]
+ },
+ {
+  "cluster": 1,
+  "n": 10,
+  "top_products": [
+   [
+    "Splunk Enterprise Security",
+    1
+   ],
+   [
+    "Guidewire ClaimCenter",
+    1
+   ],
+   [
+    "Backstage",
+    1
+   ],
+   [
+    "银行卡清算/支付网关核心系统（类 ISO 8583 支付交换机）",
+    1
+   ],
+   [
+    "SAP Ariba 供应商协同门户（Supplier Collaboration Portal）",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "security-posture-console",
+    4
+   ],
+   [
+    "cad-drawing-workspace",
+    2
+   ],
+   [
+    "record-case-workbench",
+    1
+   ]
+  ],
+  "ui_skeleton": "资产/代码库范围选择加严重级筛选 → 漏洞或告警列表带 CVE、评分与状态 → 单条详情含证据、影响路径与修复建议 → 导出报告与 SBOM/清单",
+  "sample_tasks": [
+   "企业云身份入侵多源日志时间线重建、会话归因与控制有效性复核",
+   "企业财产险多币种赔案准备金、再保险分摊与资本压力测试复核",
+   "多租户微服务配置溯源、契约门禁与受控发布计划复核",
+   "跨境银行卡支付生命周期回放、清算净额与流动性修复计划复核",
+   "供应商协同平台 Web/API 安全测试与整改复测"
+  ],
+  "members": [
+   "cn-all-remaining-0431-139098e2",
+   "cn-all-remaining-0437-3f3825f9",
+   "cn-all-remaining-0445-75064ea0",
+   "cn-all-remaining-0669-c5296d6d",
+   "cn-all-remaining-0672-1ff18f83",
+   "cn-all-remaining-0697-38acd0ca",
+   "cn-all-remaining-0725-cda78393",
+   "cn-all-remaining-0783-2131962d",
+   "cn-all-remaining-0880-49ec35b4",
+   "cn-all-remaining-0945-63165974"
+  ]
+ },
+ {
+  "cluster": 11,
+  "n": 10,
+  "top_products": [
+   [
+    "OpenCap",
+    7
+   ],
+   [
+    "OpenSim",
+    3
+   ]
+  ],
+  "top_families": [
+   [
+    "biomechanics-motion-lab",
+    10
+   ]
+  ],
+  "ui_skeleton": "顶部导航按项目/受试者 → 试验(session)列表可按受试者/动作/日期筛选 → 试次详情页含模型参数、事件标记与关节角/力曲线预览 → 下载 .mot/.trc/.osim/c3d 等时序文件或批量导出",
+  "sample_tasks": [
+   "基于 OpenSim 4.5 的短跑途中跑单步态周期下肢三节段仰角协变与分相协调重组分析",
+   "基于 OpenSim 4.5 的短跑途中跑单步态周期有效腿长—扫掠角状态环、滞回结构与周期间重复性分析",
+   "基于 OpenSim 4.5 的短跑途中跑摆动期足尖净空轨迹、足部回收高度与末段接近边界分析",
+   "基于 OpenSim 4.5 的短跑途中跑触地准备期足段姿态、足端接近向量与转换时序分析",
+   "基于 OpenSim 4.5 的短跑途中跑触地准备期足端回拉—下降速度耦合、峰值时序与周期稳定性分析"
+  ],
+  "members": [
+   "cn-all-remaining-1006-ace7a744",
+   "cn-all-remaining-1007-cbbd3d00",
+   "cn-all-remaining-1008-661e29af",
+   "cn-all-remaining-1009-f8c1bb06",
+   "cn-all-remaining-1010-9e7d19d9",
+   "cn-all-remaining-1011-9cd58d92",
+   "cn-all-remaining-1012-dc4ca80e",
+   "cn-all-remaining-1013-1c894eb2",
+   "cn-all-remaining-1014-8fb09ede",
+   "cn-all-remaining-1015-c335be65"
+  ]
+ },
+ {
+  "cluster": 14,
+  "n": 10,
+  "top_products": [
+   [
+    "OpenSim",
+    6
+   ],
+   [
+    "OpenSim (Stanford)",
+    4
+   ]
+  ],
+  "top_families": [
+   [
+    "biomechanics-motion-lab",
+    10
+   ]
+  ],
+  "ui_skeleton": "顶部导航按项目/受试者 → 试验(session)列表可按受试者/动作/日期筛选 → 试次详情页含模型参数、事件标记与关节角/力曲线预览 → 下载 .mot/.trc/.osim/c3d 等时序文件或批量导出",
+  "sample_tasks": [
+   "基于缩放肌骨模型与 IK 运动学的最大速度途中跑无量纲步态组织及速度闭合分析",
+   "基于 IK 运动学与派生接触锚点的最大速度途中跑相邻步速度变化及步长—步频贡献分解",
+   "基于缩放肌骨模型几何的短跑腿长尺度归一及跨试次运动学离散检验",
+   "基于 IK—TRC 同步运动学的最大速度途中跑触地前摆动腿回收几何与模型尺度关联分析",
+   "基于无量纲运动学构念的途中跑记录内速度条件化接触—摆动技术组合分析"
+  ],
+  "members": [
+   "cn-all-remaining-0992-b521b79a",
+   "cn-all-remaining-0993-789beed7",
+   "cn-all-remaining-0994-79906829",
+   "cn-all-remaining-0995-02bb9017",
+   "cn-all-remaining-0997-7c74ee4d",
+   "cn-all-remaining-0998-93dd6a17",
+   "cn-all-remaining-0999-c1768da5",
+   "cn-all-remaining-1003-9c1027c0",
+   "cn-all-remaining-1004-d73aa457",
+   "cn-all-remaining-1005-e06b5f6c"
+  ]
+ },
+ {
+  "cluster": 18,
+  "n": 10,
+  "top_products": [
+   [
+    "OpenSim",
+    10
+   ]
+  ],
+  "top_families": [
+   [
+    "biomechanics-motion-lab",
+    10
+   ]
+  ],
+  "ui_skeleton": "顶部导航按项目/受试者 → 试验(session)列表可按受试者/动作/日期筛选 → 试次详情页含模型参数、事件标记与关节角/力曲线预览 → 下载 .mot/.trc/.osim/c3d 等时序文件或批量导出",
+  "sample_tasks": [
+   "全 Joint 限定路径 PhysicalOffsetFrame 的 SE(3) 可组合性、双向逆闭合与浮点稳定性审计",
+   "Joint offset-frame 平移—Body Mesh 非等方尺度的跨记录归一共识与血缘冲突审计",
+   "Marker location—Body Mesh 非等方尺度的跨记录稳健共识、未匹配项与传播残差审计",
+   "ContactSphere 冻结签名与 Body Mesh 非等方缩放的逐轴尺度归一长度失配、策略未知与能力边界审计",
+   "ContactSphere—Marker 同 socket Body 局部包络、最近表面间隙与跨 Frame 伪距离拒绝审计"
+  ],
+  "members": [
+   "cn-all-remaining-1077-a0ae7167",
+   "cn-all-remaining-1078-2bf9349a",
+   "cn-all-remaining-1079-e22946dc",
+   "cn-all-remaining-1080-87ad17ed",
+   "cn-all-remaining-1081-37a7114a",
+   "cn-all-remaining-1082-3f9336e3",
+   "cn-all-remaining-1083-6bd2640e",
+   "cn-all-remaining-1084-46158fae",
+   "cn-all-remaining-1085-8cf162ff",
+   "cn-all-remaining-1086-04418dc6"
+  ]
+ },
+ {
+  "cluster": 21,
+  "n": 10,
+  "top_products": [
+   [
+    "OpenSim GUI",
+    10
+   ]
+  ],
+  "top_families": [
+   [
+    "biomechanics-motion-lab",
+    10
+   ]
+  ],
+  "ui_skeleton": "顶部导航按项目/受试者 → 试验(session)列表可按受试者/动作/日期筛选 → 试次详情页含模型参数、事件标记与关节角/力曲线预览 → 下载 .mot/.trc/.osim/c3d 等时序文件或批量导出",
+  "sample_tasks": [
+   "OpenSim XML 40600 CustomJoint旋转节点序列、坐标引用闭合与IK覆盖审计",
+   "OpenSim XML 40600 单坐标多轴函数树依赖闭合、节点域占用与规范序列化审计",
+   "OpenSim XML 40600 Coordinate边界–SimmSpline共同定义域错位、连续越域段与输入准入审计",
+   "OpenSim XML 40600 左右 ankle TransformAxis、Frame与函数符号不变的镜像合同审计",
+   "OpenSim XML 40600 WeldJoint零质量Body、完整Socket图与Coordinate唯一归属审计"
+  ],
+  "members": [
+   "cn-all-remaining-1057-cde087f5",
+   "cn-all-remaining-1058-16405e1c",
+   "cn-all-remaining-1059-9a9ee5b0",
+   "cn-all-remaining-1060-60336010",
+   "cn-all-remaining-1061-bad0cf48",
+   "cn-all-remaining-1062-34dcccce",
+   "cn-all-remaining-1063-766bf7d3",
+   "cn-all-remaining-1064-d1df0d07",
+   "cn-all-remaining-1065-41ea6ae2",
+   "cn-all-remaining-1066-9e7aed93"
+  ]
+ },
+ {
+  "cluster": 31,
+  "n": 10,
+  "top_products": [
+   [
+    "OpenSim",
+    5
+   ],
+   [
+    "OpenSim GUI",
+    4
+   ],
+   [
+    "OpenSim (Scaling & Inverse Kinematics tool)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "biomechanics-motion-lab",
+    10
+   ]
+  ],
+  "ui_skeleton": "顶部导航按项目/受试者 → 试验(session)列表可按受试者/动作/日期筛选 → 试次详情页含模型参数、事件标记与关节角/力曲线预览 → 下载 .mot/.trc/.osim/c3d 等时序文件或批量导出",
+  "sample_tasks": [
+   "起跑早期连续六步支撑身体投射、姿态抬升与触地组织状态转移分析",
+   "加速跑支撑-腾空-下一触地连续链离地投射、摆动回收与再触地准备分析",
+   "最大速度阶段途中跑完整摆动腿回收、前摆展开与触地前足速匹配分析",
+   "最大速度阶段途中跑触地前 120 ms 至支撑前 25% 足部回扒、胫骨定向与早期碰撞代理边界分析",
+   "最大速度阶段途中跑全身三维反向摆动协调、角动量代理分解与跨周期稳定性分析"
+  ],
+  "members": [
+   "cn-all-remaining-0309-1e15e796",
+   "cn-all-remaining-0310-0e213c96",
+   "cn-all-remaining-0311-a71a28cc",
+   "cn-all-remaining-0312-ad59def1",
+   "cn-all-remaining-0313-3b7b6938",
+   "cn-all-remaining-0496-fc8160a4",
+   "cn-all-remaining-0497-f44c1602",
+   "cn-all-remaining-0498-e22b368f",
+   "cn-all-remaining-0499-f0b227f8",
+   "cn-all-remaining-0500-5a63c6f7"
+  ]
+ },
+ {
+  "cluster": 32,
+  "n": 10,
+  "top_products": [
+   [
+    "OpenSim",
+    8
+   ],
+   [
+    "OpenSim GUI",
+    2
+   ]
+  ],
+  "top_families": [
+   [
+    "biomechanics-motion-lab",
+    10
+   ]
+  ],
+  "ui_skeleton": "顶部导航按项目/受试者 → 试验(session)列表可按受试者/动作/日期筛选 → 试次详情页含模型参数、事件标记与关节角/力曲线预览 → 下载 .mot/.trc/.osim/c3d 等时序文件或批量导出",
+  "sample_tasks": [
+   "OpenSim 4.5 OSIM 异构 Joint 类型分派、显隐字段规范化与故障保留审计",
+   "OpenSim 4.5 OSIM PhysicalOffsetFrame 作用域路径、Socket 闭合与同名冲突审计",
+   "OpenSim 4.5 SpatialTransform 函数 AST、常量折叠与坐标—轴入射规范化",
+   "OpenSim 4.5 左右 Joint 轴—函数联合符号编码、等价表示与不可配对诊断",
+   "OpenSim 4.5 CustomJoint 声明轴秩、正交性、条件数与跨记录不变量质检"
+  ],
+  "members": [
+   "cn-all-remaining-1067-2463cafc",
+   "cn-all-remaining-1068-72ca191f",
+   "cn-all-remaining-1069-72f41678",
+   "cn-all-remaining-1070-479d2021",
+   "cn-all-remaining-1071-45787c57",
+   "cn-all-remaining-1072-2cec4395",
+   "cn-all-remaining-1073-45b7eb2d",
+   "cn-all-remaining-1074-df2cca32",
+   "cn-all-remaining-1075-1e1d2ced",
+   "cn-all-remaining-1076-e3d6e3cb"
+  ]
+ },
+ {
+  "cluster": 34,
+  "n": 10,
+  "top_products": [
+   [
+    "Pose2Sim",
+    4
+   ],
+   [
+    "OpenSim GUI",
+    3
+   ],
+   [
+    "Sports2D",
+    3
+   ]
+  ],
+  "top_families": [
+   [
+    "biomechanics-motion-lab",
+    10
+   ]
+  ],
+  "ui_skeleton": "顶部导航按项目/受试者 → 试验(session)列表可按受试者/动作/日期筛选 → 试次详情页含模型参数、事件标记与关节角/力曲线预览 → 下载 .mot/.trc/.osim/c3d 等时序文件或批量导出",
+  "sample_tasks": [
+   "多阶段分析流水线的数据链完整性重建与结果资格分层审计",
+   "多版本目录漂移下的逻辑文件角色发现、内容去重与歧义裁决",
+   "多源时序数据的时间轴一致性审计与无外推重采样决策",
+   "多格式数据文件的结构完整性、数值有效性与可移植引用审计",
+   "结构化模型文件的拓扑一致性、参数指纹与重复版本分层审计"
+  ],
+  "members": [
+   "cn-all-remaining-1026-123158fd",
+   "cn-all-remaining-1027-651a1bb4",
+   "cn-all-remaining-1028-e4a02293",
+   "cn-all-remaining-1029-d4bc99ad",
+   "cn-all-remaining-1030-f5a56da3",
+   "cn-all-remaining-1031-e0378e8c",
+   "cn-all-remaining-1032-afa0646c",
+   "cn-all-remaining-1033-da2105bb",
+   "cn-all-remaining-1034-5076252b",
+   "cn-all-remaining-1035-cea90978"
+  ]
+ },
+ {
+  "cluster": 35,
+  "n": 10,
+  "top_products": [
+   [
+    "OpenCap",
+    8
+   ],
+   [
+    "OpenSim GUI",
+    2
+   ]
+  ],
+  "top_families": [
+   [
+    "biomechanics-motion-lab",
+    10
+   ]
+  ],
+  "ui_skeleton": "顶部导航按项目/受试者 → 试验(session)列表可按受试者/动作/日期筛选 → 试次详情页含模型参数、事件标记与关节角/力曲线预览 → 下载 .mot/.trc/.osim/c3d 等时序文件或批量导出",
+  "sample_tasks": [
+   "非有限数值的最早故障节点与可证传播血缘",
+   "TOML二次序列化方言的安全解析、类型保真与 Schema 往返闭合",
+   "Legacy 事件数组与 Refined Pairs 的拓扑、数值及 Authority 一致性审计",
+   "内容时间字段、偏序 DAG 与时钟域可信性联合审计",
+   "逐指标空值分母、边界权重、P95/CV 与发布汇总公式指纹复算"
+  ],
+  "members": [
+   "cn-all-remaining-1047-574583e9",
+   "cn-all-remaining-1048-c591344c",
+   "cn-all-remaining-1049-d95e26d6",
+   "cn-all-remaining-1050-3c8b881b",
+   "cn-all-remaining-1051-20e2a392",
+   "cn-all-remaining-1052-5af33928",
+   "cn-all-remaining-1053-9f8259c5",
+   "cn-all-remaining-1054-83ab11e1",
+   "cn-all-remaining-1055-0722dc39",
+   "cn-all-remaining-1056-6d97d9bf"
+  ]
+ },
+ {
+  "cluster": 41,
+  "n": 10,
+  "top_products": [
+   [
+    "Materials Project",
+    10
+   ]
+  ],
+  "top_families": [
+   [
+    "materials-property-database",
+    10
+   ]
+  ],
+  "ui_skeleton": "元素周期表+化学式/空间群多面筛选 → 材料条目列表(带形成能、带隙等列) → 单条目详情含结构可视化、能带/相图/计算参数标签页 → 导出 CIF/JSON 或加入收藏批量下载",
+  "sample_tasks": [
+   "面向超硬材料筛选的 VASPKIT 弹性应变与维氏硬度评估程序实现",
+   "基于 D3REAM 思路的 BCN 超硬材料维氏硬度逆向设计程序",
+   "基于 MatterSim与D3REAM 的 BCNO 超硬材料维氏硬度逆向设计程序",
+   "基于 MACE 势函数集成的碳超硬材料维氏硬度逆向设计程序",
+   "基于 MACE 势函数集成的高体模量碳材料逆向设计程序"
+  ],
+  "members": [
+   "cn-all-remaining-0086-8ee22d44",
+   "cn-all-remaining-0087-92e43f22",
+   "cn-all-remaining-0104-ae919772",
+   "cn-all-remaining-0105-5db0f5ee",
+   "cn-all-remaining-0106-e68c357a",
+   "cn-all-remaining-0107-1b8e5538",
+   "cn-all-remaining-0108-bf384f35",
+   "cn-all-remaining-0350-ea7a2f54",
+   "cn-all-remaining-0353-faf97d9d",
+   "cn-all-remaining-0367-7a386953"
+  ]
+ },
+ {
+  "cluster": 58,
+  "n": 10,
+  "top_products": [
+   [
+    "Disqus",
+    1
+   ],
+   [
+    "淘宝千牛商家后台 (Taobao Merchant Center)",
+    1
+   ],
+   [
+    "Unity-based mobile game client",
+    1
+   ],
+   [
+    "简道云 (Jiandaoyun)",
+    1
+   ],
+   [
+    "ServiceNow",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "other",
+    4
+   ],
+   [
+    "wiki-document-library",
+    2
+   ],
+   [
+    "content-community-platform",
+    1
+   ]
+  ],
+  "ui_skeleton": "",
+  "sample_tasks": [
+   "评论列表与管理操作页",
+   "批量促销页不可编辑折扣分流",
+   "BattlePass首次打开数据时序与冗余清理",
+   "表单结构加密与发布态缓存治理",
+   "发布申请补丁表单与类型字段联动"
+  ],
+  "members": [
+   "cn-all-remaining-0524-a56ec68a",
+   "cn-all-remaining-0525-220a5eb2",
+   "cn-all-remaining-0526-5b9b4b49",
+   "cn-all-remaining-0527-62c2bf93",
+   "cn-all-remaining-0528-305959c2",
+   "cn-all-remaining-0567-73a84050",
+   "cn-all-remaining-0568-b3b26f42",
+   "cn-all-remaining-0569-c3506d3d",
+   "cn-all-remaining-0571-fb7a5b3f",
+   "cn-all-remaining-0576-f1a9f22f"
+  ]
+ },
+ {
+  "cluster": 62,
+  "n": 10,
+  "top_products": [
+   [
+    "GitHub (开源围棋/MCTS 参考项目)",
+    1
+   ],
+   [
+    "N/A（为本任务编写的规则/验收说明文档）",
+    1
+   ],
+   [
+    "PACS/DICOM 影像浏览系统（如 OsiriX）",
+    1
+   ],
+   [
+    "N/A（为本任务编写的数学验收用例）",
+    1
+   ],
+   [
+    "N/A（为本任务编写的地图/规则 JSON）",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "wiki-document-library",
+    5
+   ],
+   [
+    "instrument-imaging-viewer",
+    2
+   ],
+   [
+    "simulation-study-workspace",
+    2
+   ]
+  ],
+  "ui_skeleton": "空间/目录树导航 → 文档列表带标签、作者与更新时间 → 文档正文页含标题锚点、附件与版本对比 → 导出 PDF/Markdown 或下载附件",
+  "sample_tasks": [
+   "面向用户的围棋对战客户端与基于 MCTS 的简单人机模式开发",
+   "面向用户的五子棋对战客户端与基于 MCTS 的简单人机模式开发",
+   "外科术前二维 CT 分割与规划训练 Web 工具开发",
+   "开发可验证的傅里叶变换与 FFT 交互式教学平台",
+   "基于 HTML5 Canvas 的像素风坦克大战双人及人机对战客户端开发"
+  ],
+  "members": [
+   "cn-all-remaining-0028-a77c10ac",
+   "cn-all-remaining-0051-337ba9a8",
+   "cn-all-remaining-0052-d91396d1",
+   "cn-all-remaining-0053-cd373ca4",
+   "cn-all-remaining-0054-e21dc9ca",
+   "cn-all-remaining-0056-f8c86a19",
+   "cn-all-remaining-0057-9784d630",
+   "cn-all-remaining-0270-2b2cb5bf",
+   "cn-all-remaining-0377-f420b9d5",
+   "cn-all-remaining-0378-b6193635"
+  ]
+ },
+ {
+  "cluster": 68,
+  "n": 10,
+  "top_products": [
+   [
+    "OpenCap",
+    5
+   ],
+   [
+    "OpenSim GUI",
+    5
+   ]
+  ],
+  "top_families": [
+   [
+    "biomechanics-motion-lab",
+    10
+   ]
+  ],
+  "ui_skeleton": "顶部导航按项目/受试者 → 试验(session)列表可按受试者/动作/日期筛选 → 试次详情页含模型参数、事件标记与关节角/力曲线预览 → 下载 .mot/.trc/.osim/c3d 等时序文件或批量导出",
+  "sample_tasks": [
+   "基于OpenSim 4.5的短跑连续步躯干—骨盆—腰骶三层姿态协调、相位耦合与表示一致性分析",
+   "基于OpenSim 4.5的短跑连续步头—颈—躯干双定义姿态波动、限位占用与敏感性分析",
+   "基于OpenSim 4.5的短跑连续步髋—膝—踝方向性角速度峰序、时距与重复性分析",
+   "基于OpenSim 4.5的短跑连续步大腿—小腿相位路径、方向状态转换与拓扑重复性分析",
+   "基于OpenSim 4.5的短跑连续步骨盆前进—竖直振荡耦合、轨迹闭环与表示一致性分析"
+  ],
+  "members": [
+   "cn-all-remaining-1016-2f43b66f",
+   "cn-all-remaining-1017-178c3b2b",
+   "cn-all-remaining-1018-56796b62",
+   "cn-all-remaining-1019-46dfd4ff",
+   "cn-all-remaining-1020-22cf57f2",
+   "cn-all-remaining-1021-1a5aac7b",
+   "cn-all-remaining-1022-838b3c36",
+   "cn-all-remaining-1023-40863b44",
+   "cn-all-remaining-1024-e0d5ca83",
+   "cn-all-remaining-1025-40f44bd5"
+  ]
+ },
+ {
+  "cluster": 78,
+  "n": 10,
+  "top_products": [
+   [
+    "Kongsberg K-Pos Dynamic Positioning System",
+    2
+   ],
+   [
+    "Blue Robotics Thruster Test Bench",
+    1
+   ],
+   [
+    "Shipboard Autopilot/Sea Trial Data Recorder (e.g. Raytheon Anschütz)",
+    1
+   ],
+   [
+    "Humphree Interceptor Trim Control System",
+    1
+   ],
+   [
+    "AVL PUMA Open Engine Test Bed Automation",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "test-bench-daq",
+    5
+   ],
+   [
+    "process-historian-scada",
+    5
+   ]
+  ],
+  "ui_skeleton": "试验计划/工况矩阵导航 → 试验运行(run)列表带通道配置与状态 → 单次运行详情含多通道时序曲线、事件与判定结果 → 导出原始通道数据与试验报告",
+  "sample_tasks": [
+   "双向工业水下螺旋桨推力跟踪控制器",
+   "基于实船回转试验的艏向跟踪舵控器",
+   "双推进器船舶推力与功率约束分配控制器",
+   "高速滑行艇纵横姿态协同控制器",
+   "船用柴油机负载扰动转速调速器"
+  ],
+  "members": [
+   "cn-all-remaining-1230-fa4539ed",
+   "cn-all-remaining-1233-9818d7c6",
+   "cn-all-remaining-1234-3392f4a4",
+   "cn-all-remaining-1235-dfe1264e",
+   "cn-all-remaining-1236-bfcba6a3",
+   "cn-all-remaining-1240-c95aca35",
+   "cn-all-remaining-1241-8a1b94a2",
+   "cn-all-remaining-1244-cd3d21b5",
+   "cn-all-remaining-1258-6624551d",
+   "cn-all-remaining-1261-86ef2e29"
+  ]
+ },
+ {
+  "cluster": 75,
+  "n": 9,
+  "top_products": [
+   [
+    "全国大学生数学建模竞赛 (CUMCM) 赛题库",
+    2
+   ],
+   [
+    "yaahp / Expert Choice（层次分析法判断矩阵工具）",
+    2
+   ],
+   [
+    "Enraf/Honeywell Tank Gauging System",
+    1
+   ],
+   [
+    "Honeywell Enraf TankMaster (罐区自动液位计/罐容标定系统)",
+    1
+   ],
+   [
+    "全国大学生数学建模竞赛 2010年C题官方赛题",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "process-historian-scada",
+    2
+   ],
+   [
+    "regulation-standard-text-portal",
+    2
+   ],
+   [
+    "engineering-design-calculator",
+    2
+   ]
+  ],
+  "ui_skeleton": "位号(tag)树与资产层级 → 位号检索列表带单位/量程 → 趋势视图选时间段、聚合方式并叠加多位号，配报警一览 → 导出时序 CSV 或报表",
+  "sample_tasks": [
+   "纵向倾斜椭圆柱储罐的几何标定与观测校核",
+   "组合储罐变位识别、全量标定与稳健性校核",
+   "双设施输送管线的独立接入与共用汇合布局优化",
+   "城乡分区附加费约束下的输送管线布局优化",
+   "差异化管径费用下共用管线价值与长期方案决策"
+  ],
+  "members": [
+   "cn-all-remaining-0660-e4cfd781",
+   "cn-all-remaining-0661-154126e9",
+   "cn-all-remaining-0662-33d1dec2",
+   "cn-all-remaining-0663-6d22379c",
+   "cn-all-remaining-0664-32d114f1",
+   "cn-all-remaining-0665-5c6ed6d2",
+   "cn-all-remaining-0666-726b573f",
+   "cn-all-remaining-0667-a43c9a79",
+   "cn-all-remaining-0748-1d1d2516"
+  ]
+ },
+ {
+  "cluster": 79,
+  "n": 9,
+  "top_products": [
+   [
+    "电商订单管理系统OMS（如有赞/微盟，结合官网自建商城）",
+    1
+   ],
+   [
+    "Amazon Seller Central (SP-API / MWS exports)",
+    1
+   ],
+   [
+    "即时零售订单管理系统 OMS（美团/饿了么类平台事件流）",
+    1
+   ],
+   [
+    "恒生电子O32基金交易/TA清算系统",
+    1
+   ],
+   [
+    "Industrial IoT data lake (e.g. Azure IoT Hub / Kafka event stream)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "ecommerce-merchant-admin",
+    3
+   ],
+   [
+    "billing-ledger-console",
+    1
+   ],
+   [
+    "process-historian-scada",
+    1
+   ]
+  ],
+  "ui_skeleton": "左侧菜单(商品/订单/营销/数据) → 订单或商品列表按时间-状态-渠道筛选 → 单据详情含商品行、买家与售后时间线 → 导出订单报表与活动明细",
+  "sample_tasks": [
+   "多渠道订单ETL清洗、资金对账与经营日报复核",
+   "跨境电商多源CDC湖仓重放、SCD2与财务对账发布准入",
+   "即时零售订单湖仓增量入仓、迟到数据回补与经营宽表重建",
+   "场外基金交易日终三方对账与异常工单生成",
+   "工业物联网时序数据迟到事件重放、设备日指标与告警补算"
+  ],
+  "members": [
+   "cn-all-remaining-0408-a8f2c013",
+   "cn-all-remaining-0438-8bd2d962",
+   "cn-all-remaining-0798-e29ecb95",
+   "cn-all-remaining-0814-762c2157",
+   "cn-all-remaining-0909-121120de",
+   "cn-all-remaining-0911-57247e16",
+   "cn-all-remaining-0926-04473aa5",
+   "cn-all-remaining-0927-18815878",
+   "cn-all-remaining-0947-03516a1f"
+  ]
+ },
+ {
+  "cluster": 37,
+  "n": 8,
+  "top_products": [
+   [
+    "Landmark ProMAX",
+    1
+   ],
+   [
+    "Landmark ProMAX Velocity Analysis",
+    1
+   ],
+   [
+    "Schlumberger Omega (Marine Deghosting Module)",
+    1
+   ],
+   [
+    "Landmark ProMAX / Petrel Migration QC",
+    1
+   ],
+   [
+    "GEDCO VISTA Multicomponent Processing",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "seismic-processing-workstation",
+    8
+   ]
+  ],
+  "ui_skeleton": "工区/测线树 → 处理流程(flow)与作业列表 → 道集/剖面显示窗口带参数面板、速度谱与属性叠加 → 输出 SEG-Y/参数报表导出",
+  "sample_tasks": [
+   "CMP多视图NMO、semblance与选区质量控制工作台",
+   "原始CMP速度谱计算、多拾取与NMO预览实验台",
+   "多道拖缆深度去鬼波频谱诊断与稳定逆滤波工作台",
+   "偏移速度—孔径聚焦参数沙盒与多指标选择工作台",
+   "多分量偏振旋转、极性与PP/PS非线性配准检查器"
+  ],
+  "members": [
+   "cn-all-remaining-0547-16404817",
+   "cn-all-remaining-0548-d86866df",
+   "cn-all-remaining-0549-710f8d1a",
+   "cn-all-remaining-0550-b00a2d84",
+   "cn-all-remaining-0551-757676d5",
+   "cn-all-remaining-0552-9ca580f7",
+   "cn-all-remaining-0555-369c78bc",
+   "cn-all-remaining-0563-ec4167d9"
+  ]
+ },
+ {
+  "cluster": 38,
+  "n": 8,
+  "top_products": [
+   [
+    "AutoCAD",
+    4
+   ],
+   [
+    "SW6 压力容器强度计算软件 + AutoCAD",
+    2
+   ],
+   [
+    "AutoCAD Mechanical",
+    1
+   ],
+   [
+    "SW6 压力容器分析软件",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "cad-drawing-workspace",
+    5
+   ],
+   [
+    "engineering-design-calculator",
+    3
+   ]
+  ],
+  "ui_skeleton": "图纸集/零件树导航 → 图幅或视图列表带版本与图层清单 → 图纸查看器可缩放、开关图层、点选构件读取标注与属性 → 导出 DWG/DXF/PDF 与明细表",
+  "sample_tasks": [
+   "现场组焊焊接接头编号布置图与检测、硬度部位图",
+   "球罐附属平台盘梯钢结构专项设计",
+   "球罐基础荷载及地脚螺栓设计条件图",
+   "球罐基础条件图与荷载提资",
+   "复核 Amber 罐区正丁烷球罐综合强度与支承稳定性"
+  ],
+  "members": [
+   "cn-all-remaining-0080-d714b92f",
+   "cn-all-remaining-0125-86fa09c7",
+   "cn-all-remaining-0186-e7bbf411",
+   "cn-all-remaining-0188-42909212",
+   "cn-all-remaining-0989-f5bd3548",
+   "cn-all-remaining-1087-0475891c",
+   "cn-all-remaining-1088-31bcc26f",
+   "cn-all-remaining-1089-4ff6887d"
+  ]
+ },
+ {
+  "cluster": 50,
+  "n": 8,
+  "top_products": [
+   [
+    "Open-Meteo Historical Weather API",
+    3
+   ],
+   [
+    "Open-Meteo Archive API",
+    2
+   ],
+   [
+    "USGS National Water Information System (NWIS/waterservices.usgs.gov)",
+    1
+   ],
+   [
+    "UCI Machine Learning Repository (Metro Interstate Traffic Volume Dataset)",
+    1
+   ],
+   [
+    "Open-Meteo Air Quality API",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "weather-climate-data-portal",
+    6
+   ],
+   [
+    "environmental-monitoring-network",
+    1
+   ],
+   [
+    "ml-dataset-repository",
+    1
+   ]
+  ],
+  "ui_skeleton": "按变量-区域-时间构建请求的检索页 → 数据集/站点候选列表 → 产品详情含要素说明、时空分辨率与预览图 → 生成下载任务并取回 NetCDF/CSV",
+  "sample_tasks": [
+   "柏林气象温度递归多步预测",
+   "密西西比河日流量递归多步预测",
+   "交通流量递归多步分位数预测",
+   "北京 PM2.5 递归多步预测",
+   "开普敦太阳辐射递归多步预测"
+  ],
+  "members": [
+   "cn-all-remaining-0209-c0b07690",
+   "cn-all-remaining-0253-e224ded0",
+   "cn-all-remaining-0254-6e32e684",
+   "cn-all-remaining-0278-95674282",
+   "cn-all-remaining-0346-54ee7ce2",
+   "cn-all-remaining-0348-e08b7fe5",
+   "cn-all-remaining-0349-c13fb8d4",
+   "cn-all-remaining-0477-0fe64a0f"
+  ]
+ },
+ {
+  "cluster": 73,
+  "n": 7,
+  "top_products": [
+   [
+    "OpenSim",
+    7
+   ]
+  ],
+  "top_families": [
+   [
+    "biomechanics-motion-lab",
+    7
+   ]
+  ],
+  "ui_skeleton": "顶部导航按项目/受试者 → 试验(session)列表可按受试者/动作/日期筛选 → 试次详情页含模型参数、事件标记与关节角/力曲线预览 → 下载 .mot/.trc/.osim/c3d 等时序文件或批量导出",
+  "sample_tasks": [
+   "途中跑摆动链连续相对相位、多时钟耦合与稳健评分分析",
+   "触地准备与支撑链主导模式、突变与转换矩阵分析",
+   "前摆—下压及支撑—回收双转移时滞互相关、相位同步与替代检验分析",
+   "不同动作相位转移入口正则化 CCA、嵌套来源档案留出与转移兼容性分析",
+   " 不同动作相位下多通道功能 PLS、嵌套来源试次留出与下游步速关联分析"
+  ],
+  "members": [
+   "cn-all-remaining-0501-29fe7995",
+   "cn-all-remaining-0502-7f719b5c",
+   "cn-all-remaining-0503-d5a09c46",
+   "cn-all-remaining-0504-94a7394f",
+   "cn-all-remaining-0505-467c6f39",
+   "cn-all-remaining-0506-090a089f",
+   "cn-all-remaining-0507-8754c588"
+  ]
+ },
+ {
+  "cluster": 52,
+  "n": 6,
+  "top_products": [
+   [
+    "Materials Project",
+    6
+   ]
+  ],
+  "top_families": [
+   [
+    "materials-property-database",
+    6
+   ]
+  ],
+  "ui_skeleton": "元素周期表+化学式/空间群多面筛选 → 材料条目列表(带形成能、带隙等列) → 单条目详情含结构可视化、能带/相图/计算参数标签页 → 导出 CIF/JSON 或加入收藏批量下载",
+  "sample_tasks": [
+   "基于机器学习势函数与 VASPKIT 能量-应变法的晶体材料弹性模量计算项目开发",
+   "基于 ASE 与机器学习势函数统一接口的 B16W4 晶体结构全弛豫项目开发",
+   "基于 Phonopy 有限位移法与机器学习势函数的 B16W4 晶体声子谱计算项目开发",
+   "基于准谐近似、Phonopy 与机器学习势函数的晶体热膨胀系数及体积温度曲线计算项目开发",
+   "基于 Phono3py 与机器学习势函数的 B16W4 晶格热导率计算项目开发"
+  ],
+  "members": [
+   "cn-all-remaining-0011-972a6a8b",
+   "cn-all-remaining-0022-a7309437",
+   "cn-all-remaining-0023-c6ea8ded",
+   "cn-all-remaining-0024-337ba4e9",
+   "cn-all-remaining-0026-729327ea",
+   "cn-all-remaining-0231-5620634f"
+  ]
+ },
+ {
+  "cluster": 57,
+  "n": 6,
+  "top_products": [
+   [
+    "NOAA NCEI Storm Events Database",
+    4
+   ],
+   [
+    "UCI Machine Learning Repository (Adult Census Income)",
+    1
+   ],
+   [
+    "UCI Machine Learning Repository (Adult/Census Income, via scikit-learn mirror)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "government-statistics-portal",
+    4
+   ],
+   [
+    "ml-dataset-repository",
+    2
+   ]
+  ],
+  "ui_skeleton": "主题-地区-年份三级筛选的指标目录 → 指标表格视图带维度切换与分页 → 明细记录页或口径说明 → 生成自定义表并导出 CSV/批量下载年度文件",
+  "sample_tasks": [
+   "Adult Census 表格数据质量审计",
+   "Adult Census 表格数据质量审计",
+   "NOAA 风暴事件月度灾损统计",
+   "风暴致死月度统计",
+   "风暴事件类型归类统计"
+  ],
+  "members": [
+   "cn-all-remaining-0068-c81cc32b",
+   "cn-all-remaining-0159-fc7402fc",
+   "cn-all-remaining-0481-7ab34177",
+   "cn-all-remaining-0482-4ad1c775",
+   "cn-all-remaining-0483-e7f016ec",
+   "cn-all-remaining-0484-47ac327f"
+  ]
+ },
+ {
+  "cluster": 61,
+  "n": 6,
+  "top_products": [
+   [
+    "Vicon Nexus",
+    6
+   ]
+  ],
+  "top_families": [
+   [
+    "biomechanics-motion-lab",
+    6
+   ]
+  ],
+  "ui_skeleton": "顶部导航按项目/受试者 → 试验(session)列表可按受试者/动作/日期筛选 → 试次详情页含模型参数、事件标记与关节角/力曲线预览 → 下载 .mot/.trc/.osim/c3d 等时序文件或批量导出",
+  "sample_tasks": [
+   "途中跑/最大速度候选步态单腿回收事件竞争、时间预算与下游速度闭合分析",
+   "途中跑/最大速度候选步态前摆出口状态、多层相位耦合与触地入口闭合分析",
+   "途中跑/最大速度候选步态下压与触地准备多足参考、触地链反事实及早期支撑闭合分析",
+   "途中跑/最大速度候选步态前支撑几何转换点竞争、身体承接与四路径状态重建分析",
+   "途中跑/最大速度候选步态后支撑/离地准备重新伸展时序、出口状态与下一循环闭合分析"
+  ],
+  "members": [
+   "cn-all-remaining-0427-1a2f2c02",
+   "cn-all-remaining-0428-cf6a351c",
+   "cn-all-remaining-0430-e756a0ff",
+   "cn-all-remaining-0432-17cae668",
+   "cn-all-remaining-0434-09bdddd7",
+   "cn-all-remaining-0436-8f2d8149"
+  ]
+ },
+ {
+  "cluster": 63,
+  "n": 6,
+  "top_products": [
+   [
+    "ENTSO-E Transparency Platform",
+    3
+   ],
+   [
+    "Open Power System Data (OPSD) Time Series Package",
+    1
+   ],
+   [
+    "ENTSO-E Transparency Platform (Open Power System Data)",
+    1
+   ],
+   [
+    "UCI Machine Learning Repository (Metro Interstate Traffic Volume Dataset)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "energy-grid-data-portal",
+    5
+   ],
+   [
+    "ml-dataset-repository",
+    1
+   ]
+  ],
+  "ui_skeleton": "按国家/区域-数据类型-时间粒度筛选 → 负荷、发电与机组数据表格加曲线视图 → 机组或断面明细页 → 导出时序 CSV 与年度报表",
+  "sample_tasks": [
+   "法国逐小时电力负荷预测管道",
+   "克罗地亚逐小时电力负荷预测管道",
+   "塞浦路斯逐小时电力负荷预测管道",
+   "意大利逐小时电力负荷预测管道",
+   "希腊逐小时电力负荷预测管道"
+  ],
+  "members": [
+   "cn-all-remaining-0212-294e3740",
+   "cn-all-remaining-0251-9c900545",
+   "cn-all-remaining-0273-cd6dd51a",
+   "cn-all-remaining-0274-baf882d4",
+   "cn-all-remaining-0352-61295765",
+   "cn-all-remaining-0475-6cd46667"
+  ]
+ },
+ {
+  "cluster": 65,
+  "n": 6,
+  "top_products": [
+   [
+    "NHTSA FARS (Fatality Analysis Reporting System)",
+    1
+   ],
+   [
+    "EIA Form 860 (eia.gov)",
+    1
+   ],
+   [
+    "NHC ATCF / Best Track Archive",
+    1
+   ],
+   [
+    "NASA CNEOS Sentry / JPL SBDB",
+    1
+   ],
+   [
+    "GitHub Releases (kubernetes-sigs/metrics-server)",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "reference-registry-database",
+    2
+   ],
+   [
+    "transportation-mobility-portal",
+    1
+   ],
+   [
+    "energy-grid-data-portal",
+    1
+   ]
+  ],
+  "ui_skeleton": "全局检索加分面筛选 → 条目记录列表 → 单条目规范化字段详情与关联条目、版本变更历史 → 导出记录集或下载全量发布文件",
+  "sample_tasks": [
+   "NHTSA FARS tri-state crash-vehicle-person denominator reconciliation",
+   "EIA-860 California and Texas generator transition and ownership audit",
+   "NHC Hurricane Milton official forecast lead-time verification audit",
+   "NASA CNEOS Sentry to SBDB top-risk identity and orbit audit",
+   "Kubernetes metrics-server release manifest semantic consistency audit"
+  ],
+  "members": [
+   "cn-all-remaining-1219-f163b46b",
+   "cn-all-remaining-1220-8b5989c4",
+   "cn-all-remaining-1221-592f6bbe",
+   "cn-all-remaining-1222-8580dbde",
+   "cn-all-remaining-1226-dee9d6cd",
+   "cn-all-remaining-1227-8e526987"
+  ]
+ },
+ {
+  "cluster": 71,
+  "n": 6,
+  "top_products": [
+   [
+    "CREWES Matlab Toolbox",
+    4
+   ],
+   [
+    "SeismicLab (M. Sacchi)",
+    1
+   ],
+   [
+    "SegyMAT",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "seismic-processing-workstation",
+    6
+   ]
+  ],
+  "ui_skeleton": "工区/测线树 → 处理流程(flow)与作业列表 → 道集/剖面显示窗口带参数面板、速度谱与属性叠加 → 输出 SEG-Y/参数报表导出",
+  "sample_tasks": [
+   "Gabor 反褶积核的确定性流式 Python 迁移",
+   "病态复数 f-p 岭求解器的 NumPy 迁移与逐频率审计",
+   "非均匀坐标局部 tau-p 正演/伴随的内存安全迁移",
+   "Kirchhoff 与相移偏移的统一 Python API 迁移",
+   "SEG-Y Rev0/Rev1 流式 CLI 重写与字节白名单审计"
+  ],
+  "members": [
+   "cn-all-remaining-0541-ec370512",
+   "cn-all-remaining-0542-6307f698",
+   "cn-all-remaining-0543-32a6e969",
+   "cn-all-remaining-0544-5552abfc",
+   "cn-all-remaining-0545-a5793990",
+   "cn-all-remaining-0546-f56c3e5b"
+  ]
+ },
+ {
+  "cluster": 76,
+  "n": 6,
+  "top_products": [
+   [
+    "跨境物流TMS结算系统 (Cross-border Logistics TMS Billing System)",
+    1
+   ],
+   [
+    "电信计费系统 (Telecom BSS/CDR Rating System, e.g. Huawei/ZTE BOSS)",
+    1
+   ],
+   [
+    "环境噪声自动监测系统(如国舜科技/云传监测平台)",
+    1
+   ],
+   [
+    "PKPM 建筑节能设计软件(围护结构传热分析)",
+    1
+   ],
+   [
+    "理正岩土工程设计软件",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "billing-ledger-console",
+    2
+   ],
+   [
+    "engineering-design-calculator",
+    2
+   ],
+   [
+    "environmental-monitoring-network",
+    1
+   ]
+  ],
+  "ui_skeleton": "账期与业务类型筛选 → 账单/交易流水列表带金额与状态 → 单笔账单详情展开计费明细、费率规则与调整记录 → 导出对账文件与汇总报表",
+  "sample_tasks": [
+   "跨境物流运费结算对账与发布封板复核",
+   "电信话单(CDR)批价对账与发布封板复核",
+   "声学噪声评价核验与发布封板复核",
+   "建筑热工传热分析核验与发布封板复核",
+   "岩土工程核验与发布封板复核"
+  ],
+  "members": [
+   "cn-all-remaining-0966-56d245f7",
+   "cn-all-remaining-0967-40ec7019",
+   "cn-all-remaining-0979-0d29ab51",
+   "cn-all-remaining-0982-97178bfe",
+   "cn-all-remaining-0983-73dcdfda",
+   "cn-all-remaining-0984-e729d438"
+  ]
+ },
+ {
+  "cluster": 55,
+  "n": 5,
+  "top_products": [
+   [
+    "OpenSim (with Vicon motion capture)",
+    4
+   ],
+   [
+    "OpenSim GUI",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "biomechanics-motion-lab",
+    5
+   ]
+  ],
+  "ui_skeleton": "顶部导航按项目/受试者 → 试验(session)列表可按受试者/动作/日期筛选 → 试次详情页含模型参数、事件标记与关节角/力曲线预览 → 下载 .mot/.trc/.osim/c3d 等时序文件或批量导出",
+  "sample_tasks": [
+   "起跑预备姿势多定义状态集合、出口条件化评优与部分可识别性分析",
+   "起跑启动至双脚离地双时间事件竞争、出口状态评优与预测归因分析",
+   "起跑加速第一腾空与第一触地准备多层构型及双向边界闭合分析",
+   "起跑加速第一支撑几何转换点竞争、四路径状态重建、步速守恒归因与上游根因去重分析",
+   "连续加速步状态转移、趋势模型竞争、突变/交替稳定性分析"
+  ],
+  "members": [
+   "cn-all-remaining-0372-39b7fe89",
+   "cn-all-remaining-0373-d92411f3",
+   "cn-all-remaining-0374-fe737fbf",
+   "cn-all-remaining-0375-cecf3fe5",
+   "cn-all-remaining-0376-2bcc381d"
+  ]
+ },
+ {
+  "cluster": 56,
+  "n": 4,
+  "top_products": [
+   [
+    "FDA Orange Book",
+    1
+   ],
+   [
+    "NOAA Integrated Global Radiosonde Archive (IGRA)",
+    1
+   ],
+   [
+    "NVD / CISA KEV Catalog",
+    1
+   ],
+   [
+    "MTA GTFS Static Data Feed",
+    1
+   ]
+  ],
+  "top_families": [
+   [
+    "drug-bioactivity-database",
+    1
+   ],
+   [
+    "weather-climate-data-portal",
+    1
+   ],
+   [
+    "security-posture-console",
+    1
+   ]
+  ],
+  "ui_skeleton": "药名-成分-靶点检索 → 结果条目列表带剂型、批准状态或活性值 → 条目详情含标签信息、专利/不良事件或活性测定表 → 导出记录集 CSV",
+  "sample_tasks": [
+   "FDA Orange Book application-level patent and exclusivity integrity audit",
+   "NOAA IGRA Key West sounding structural and pressure-order audit",
+   "NVD and CISA KEV temporal and severity reconciliation audit",
+   "MTA subway GTFS route-service-stop-shape topology audit"
+  ],
+  "members": [
+   "cn-all-remaining-1218-8fa644b4",
+   "cn-all-remaining-1223-b518ccc7",
+   "cn-all-remaining-1224-25c363a2",
+   "cn-all-remaining-1225-9a34fa3d"
+  ]
+ }
+]

@@ -1,0 +1,10 @@
+pass A: 85 batches
+  10/85  b009 ok  174s
+  20/85  b019 ok  347s
+  30/85  b029 ok  467s
+  40/85  b039 ok  615s
+  50/85  b049 ok  773s
+  60/85  b059 ok  912s
+  70/85  b069 ok  1139s
+  80/85  b079 ok  1245s
+pass A done in 1310s

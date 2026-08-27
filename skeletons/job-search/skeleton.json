@@ -1,0 +1,110 @@
+{
+  "bucket": "job-search",
+  "name": "招聘/职位搜索站",
+  "reference": {
+    "product": "BOSS直聘",
+    "url": "https://www.zhipin.com",
+    "captured": "2026-08-25",
+    "capture_notes": "reference/capture.md",
+    "field_names_source": "GET /wapi/zpgeek/search/joblist.json 的真实响应键名"
+  },
+  "runtime": { "type": "static", "backend": "none", "serve": "任意静态服务器，见 README.md" },
+
+  "pages": [
+    {
+      "id": "search",
+      "file": "index.html",
+      "title": "职位搜索（两栏：左列表 + 右详情，点卡不跳页）",
+      "url_params": ["query", "city"],
+      "list_page_size": 15,
+      "card_slots": ["jobName", "salaryDesc", "jobLabels", "brandName", "cityName", "areaDistrict", "businessDistrict"],
+      "panel_slots": ["jobName", "salaryDesc", "cityName", "jobExperience", "jobDegree", "skills",
+                      "postDescription", "welfareList", "bossName", "bossTitle", "bossActiveTime",
+                      "brand.businessInfo", "jobAddress"]
+    },
+    {
+      "id": "job_detail",
+      "file": "job.html",
+      "title": "独立岗位详情页",
+      "url_params": ["jobId"],
+      "slots": ["jobName", "salaryDesc", "cityName", "jobExperience", "jobDegree", "skills",
+                "postDescription", "welfareList", "bossName", "bossTitle", "bossActiveTime",
+                "brand.businessInfo", "jobAddress", "brandStageName", "brandScaleName", "brandIndustry"]
+    },
+    {
+      "id": "company",
+      "file": "company.html",
+      "title": "公司主页",
+      "url_params": ["brandId"],
+      "slots": ["brandName", "brandStageName", "brandScaleName", "brandIndustry",
+                "introduction", "businessInfo", "addresses", "在招职位列表"]
+    },
+    { "id": "company_list", "file": "companies.html", "title": "公司列表" },
+    { "id": "favorites", "file": "favorites.html", "title": "我的收藏（表格，可逐条移除）" }
+  ],
+
+  "record_schema": {
+    "note": "键名直接沿用 BOSS直聘 API，第二层灌数据必须对齐这些名字",
+    "job": {
+      "encryptJobId": "string 主键",
+      "jobName": "string",
+      "salaryDesc": "string，形如 15-25K / 20-30K·13薪；薪资筛选按此解析",
+      "jobLabels": "string[]，卡片上的标签，通常是 [经验, 学历]",
+      "jobExperience": "枚举，见 filters.jobExperience",
+      "jobDegree": "枚举，见 filters.jobDegree",
+      "cityName": "string", "areaDistrict": "string", "businessDistrict": "string",
+      "jobType": "0=全职 1=兼职",
+      "positionCategory": "枚举，见 filters.positionCategory",
+      "skills": "string[]，详情页顶部技能标签",
+      "welfareList": "string[]",
+      "postDescription": "长文本，详情页正文（换行保留）",
+      "jobAddress": "string",
+      "bossName": "string", "bossTitle": "string", "bossOnline": "bool", "bossActiveTime": "string",
+      "encryptBrandId": "外键 → brand",
+      "brandName": "string", "brandIndustry": "string", "brandStageName": "string", "brandScaleName": "string"
+    },
+    "brand": {
+      "encryptBrandId": "string 主键",
+      "brandName": "string", "brandIndustry": "string", "brandStageName": "string", "brandScaleName": "string",
+      "introduction": "string",
+      "businessInfo": "对象，工商信息键值对（公司名称/法定代表人/成立日期/企业类型/经营状态/注册资金）",
+      "addresses": "string[]"
+    }
+  },
+
+  "filters": {
+    "_note": "10 个维度，选项照真站 DOM 实取；单选；不选即「不限」",
+    "cityName": "由数据里出现的城市动态生成",
+    "areaDistrict": "随选中城市动态生成",
+    "positionCategory": ["不限","互联网/AI","电子/电气/通信","产品","客服/运营","销售","人力/行政/法务","财务/审计/税务","技工/普工","生产制造","零售/生活服务","餐饮","酒店/旅游","教育培训","设计","房地产/建筑","直播","影视/传媒","市场/公关/广告","物流/仓储/司机","采购/贸易","汽车","医疗健康","金融","项目管理","咨询/翻译/法律","能源/环保/农业","高级管理","其他"],
+    "jobType": ["不限","全职","兼职"],
+    "salaryDesc": ["不限","3K以下","3-5K","5-10K","10-20K","20-50K","50K以上"],
+    "jobExperience": ["不限","在校生","应届生","经验不限","1年以内","1-3年","3-5年","5-10年","10年以上"],
+    "jobDegree": ["不限","初中及以下","中专/中技","高中","大专","本科","硕士","博士"],
+    "brandIndustry": ["不限","互联网","电子商务","计算机软件","计算机服务","企业服务","医疗健康","游戏","人工智能","云计算","大数据","在线教育","广告营销","信息安全"],
+    "brandScaleName": ["不限","0-20人","20-99人","100-499人","500-999人","1000-9999人","10000人以上"],
+    "brandStageName": ["不限","未融资","天使轮","A轮","B轮","C轮","D轮及以上","已上市","不需要融资"]
+  },
+
+  "interactions": ["关键词搜索", "10 维筛选", "清空筛选", "翻页（15/页）",
+                   "点卡片切右侧详情（不跳页）", "进独立详情页", "进公司页", "收藏/取消收藏", "查看收藏夹"],
+
+  "export_points": [],
+
+  "deliberate_deviations": [
+    { "what": "不做登录墙", "real": "未登录只放 15 条、薪资打码成 **-**元、描述截断在第 4 条", "why": "用户明确要求；打码会让数据无法被读取" },
+    { "what": "实现「无匹配结果」态", "real": "真站搜不到时静默降级成不相关推荐，没有空结果页", "why": "agent 需要能读到「零结果」这个事实" },
+    { "what": "翻页控件用 div.page", "real": "两栏版式对未登录用户不出翻页；此控件取自同产品的 /c<city>/ 版式，样式实测", "why": "两栏版式的无限滚动对 agent 不可判定" },
+    { "what": "城市用下拉而非弹窗", "real": "真站是城市选择弹窗", "why": "骨架只装数据里出现的城市" },
+    { "what": "没有导出按钮", "real": "真站也没有导出，只有收藏", "why": "保真优先；agent 用收藏夹汇总，导出由 agent 自己写文件" }
+  ],
+
+  "layer2_contract": {
+    "note": "第二层（S1 映射 / S4 fork）只准动这三处",
+    "allowed": ["替换 data/jobs.json 与 data/companies.json",
+                "调整 list_page_size",
+                "在 filters 的既有维度里换选项集（必须与数据一致）"],
+    "forbidden": ["新增真站不存在的页面或字段槽", "改动骨架的版式与交互"],
+    "unmappable": "任务输入包里塞不进上述 record_schema 的数据，标 disposition=file 留在磁盘，不进 GUI"
+  }
+}

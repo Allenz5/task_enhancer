@@ -1,0 +1,1211 @@
+{
+ "jobList": [
+  {
+   "encryptJobId": "J0001",
+   "jobName": "游戏测试工程师（兼职）",
+   "salaryDesc": "2-4K",
+   "jobLabels": [
+    "1-3年",
+    "学历不限"
+   ],
+   "jobExperience": "1-3年",
+   "jobDegree": "学历不限",
+   "cityName": "北京",
+   "areaDistrict": "昌平区",
+   "businessDistrict": "回龙观",
+   "jobType": 1,
+   "skills": [
+    "埋点验证",
+    "软件测试经验"
+   ],
+   "welfareList": [
+    "餐补",
+    "补充医疗保险",
+    "交通补助",
+    "带薪年假",
+    "五险一金"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 游戏测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 1-3年工作经验，熟悉软件测试方法与流程；\n2. 掌握 埋点验证、软件测试经验；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京昌平区回龙观8号院A座9层",
+   "bossName": "何女士",
+   "bossTitle": "招聘经理",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "刚刚活跃",
+   "encryptBrandId": "B01",
+   "brandName": "砚川数娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "未融资",
+   "brandScaleName": "20-99人",
+   "positionCategory": "电子/电气/通信"
+  },
+  {
+   "encryptJobId": "J0002",
+   "jobName": "游戏测试",
+   "salaryDesc": "18-30K",
+   "jobLabels": [
+    "5-10年",
+    "学历不限"
+   ],
+   "jobExperience": "5-10年",
+   "jobDegree": "学历不限",
+   "cityName": "北京",
+   "areaDistrict": "海淀区",
+   "businessDistrict": "中关村",
+   "jobType": 0,
+   "skills": [
+    "性能测试",
+    "Python",
+    "SQL",
+    "Jira"
+   ],
+   "welfareList": [
+    "股票期权",
+    "五险一金",
+    "员工旅游",
+    "年终奖"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 游戏测试 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 5-10年工作经验，熟悉软件测试方法与流程；\n2. 掌握 性能测试、Python、SQL；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京海淀区中关村60号院C座17层",
+   "bossName": "何女士",
+   "bossTitle": "资源经理",
+   "bossCert": 3,
+   "bossOnline": false,
+   "bossActiveTime": "本周活跃",
+   "encryptBrandId": "B02",
+   "brandName": "岚屿互娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "天使轮",
+   "brandScaleName": "20-99人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0003",
+   "jobName": "高级游戏测试工程师",
+   "salaryDesc": "6-9K",
+   "jobLabels": [
+    "1-3年",
+    "硕士"
+   ],
+   "jobExperience": "1-3年",
+   "jobDegree": "硕士",
+   "cityName": "北京",
+   "areaDistrict": "昌平区",
+   "businessDistrict": "回龙观",
+   "jobType": 0,
+   "skills": [
+    "SQL",
+    "Unity",
+    "自动化测试"
+   ],
+   "welfareList": [
+    "股票期权",
+    "五险一金",
+    "弹性工作",
+    "带薪年假",
+    "定期体检",
+    "补充医疗保险",
+    "交通补助"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 高级游戏测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 1-3年工作经验，熟悉软件测试方法与流程；\n2. 掌握 SQL、Unity、自动化测试；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京昌平区回龙观67号院B座23层",
+   "bossName": "何女士",
+   "bossTitle": "HR",
+   "bossCert": 3,
+   "bossOnline": false,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "B03",
+   "brandName": "拾光工坊",
+   "brandIndustry": "游戏",
+   "brandStageName": "不需要融资",
+   "brandScaleName": "100-499人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0004",
+   "jobName": "QA 功能测试",
+   "salaryDesc": "30-50K",
+   "jobLabels": [
+    "5-10年",
+    "学历不限"
+   ],
+   "jobExperience": "5-10年",
+   "jobDegree": "学历不限",
+   "cityName": "北京",
+   "areaDistrict": "西城区",
+   "businessDistrict": "西直门",
+   "jobType": 0,
+   "skills": [
+    "TestNG",
+    "Appium",
+    "自动化测试",
+    "埋点验证"
+   ],
+   "welfareList": [
+    "交通补助",
+    "节日福利",
+    "员工旅游",
+    "零食下午茶"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 QA 功能测试 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 5-10年工作经验，熟悉软件测试方法与流程；\n2. 掌握 TestNG、Appium、自动化测试；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京西城区西直门1号院F座5层",
+   "bossName": "何女士",
+   "bossTitle": "资源经理",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "B04",
+   "brandName": "白鹭引擎",
+   "brandIndustry": "游戏",
+   "brandStageName": "已上市",
+   "brandScaleName": "1000-9999人",
+   "positionCategory": "项目管理"
+  },
+  {
+   "encryptJobId": "J0005",
+   "jobName": "测试开发工程师",
+   "salaryDesc": "25-40K",
+   "jobLabels": [
+    "1-3年",
+    "硕士"
+   ],
+   "jobExperience": "1-3年",
+   "jobDegree": "硕士",
+   "cityName": "上海",
+   "areaDistrict": "徐汇区",
+   "businessDistrict": "徐家汇",
+   "jobType": 0,
+   "skills": [
+    "Linux",
+    "性能测试",
+    "TestNG",
+    "Jira"
+   ],
+   "welfareList": [
+    "节日福利",
+    "定期体检",
+    "交通补助",
+    "弹性工作",
+    "股票期权",
+    "餐补"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 测试开发工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 1-3年工作经验，熟悉软件测试方法与流程；\n2. 掌握 Linux、性能测试、TestNG；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "上海徐汇区徐家汇53号院E座5层",
+   "bossName": "陈女士",
+   "bossTitle": "招聘经理",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "刚刚活跃",
+   "encryptBrandId": "B05",
+   "brandName": "木鸢科技",
+   "brandIndustry": "企业服务",
+   "brandStageName": "未融资",
+   "brandScaleName": "20-99人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0006",
+   "jobName": "自动化测试工程师",
+   "salaryDesc": "8-12K",
+   "jobLabels": [
+    "1-3年",
+    "学历不限"
+   ],
+   "jobExperience": "1-3年",
+   "jobDegree": "学历不限",
+   "cityName": "北京",
+   "areaDistrict": "大兴区",
+   "businessDistrict": "西红门",
+   "jobType": 0,
+   "skills": [
+    "Jira",
+    "性能测试",
+    "SQL",
+    "压测经验"
+   ],
+   "welfareList": [
+    "带薪年假",
+    "五险一金",
+    "餐补",
+    "节日福利"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 自动化测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 1-3年工作经验，熟悉软件测试方法与流程；\n2. 掌握 Jira、性能测试、SQL；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京大兴区西红门41号院B座19层",
+   "bossName": "何女士",
+   "bossTitle": "资源经理",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "刚刚活跃",
+   "encryptBrandId": "B06",
+   "brandName": "青柚游戏",
+   "brandIndustry": "游戏",
+   "brandStageName": "A轮",
+   "brandScaleName": "20-99人",
+   "positionCategory": "设计"
+  },
+  {
+   "encryptJobId": "J0007",
+   "jobName": "SLG 游戏测试",
+   "salaryDesc": "8-12K",
+   "jobLabels": [
+    "经验不限",
+    "本科"
+   ],
+   "jobExperience": "经验不限",
+   "jobDegree": "本科",
+   "cityName": "成都",
+   "areaDistrict": "武侯区",
+   "businessDistrict": "桐梓林",
+   "jobType": 0,
+   "skills": [
+    "手游测试经验",
+    "丰富的游戏经验"
+   ],
+   "welfareList": [
+    "补充医疗保险",
+    "节日福利",
+    "弹性工作",
+    "五险一金",
+    "定期体检",
+    "带薪年假"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 SLG 游戏测试 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 经验不限工作经验，熟悉软件测试方法与流程；\n2. 掌握 手游测试经验、丰富的游戏经验；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "成都武侯区桐梓林9号院E座6层",
+   "bossName": "李先生",
+   "bossTitle": "资源经理",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "B07",
+   "brandName": "长风互动",
+   "brandIndustry": "人工智能",
+   "brandStageName": "B轮",
+   "brandScaleName": "100-499人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0008",
+   "jobName": "手游测试工程师",
+   "salaryDesc": "25-40K",
+   "jobLabels": [
+    "5-10年",
+    "学历不限"
+   ],
+   "jobExperience": "5-10年",
+   "jobDegree": "学历不限",
+   "cityName": "北京",
+   "areaDistrict": "东城区",
+   "businessDistrict": "东直门",
+   "jobType": 0,
+   "skills": [
+    "软件测试经验",
+    "Linux"
+   ],
+   "welfareList": [
+    "弹性工作",
+    "年终奖",
+    "员工旅游",
+    "餐补",
+    "五险一金",
+    "定期体检",
+    "交通补助"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 手游测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 5-10年工作经验，熟悉软件测试方法与流程；\n2. 掌握 软件测试经验、Linux；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京东城区东直门38号院D座5层",
+   "bossName": "王女士",
+   "bossTitle": "招聘经理",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "B08",
+   "brandName": "鹿野测试",
+   "brandIndustry": "计算机服务",
+   "brandStageName": "未融资",
+   "brandScaleName": "0-20人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0009",
+   "jobName": "测试组长",
+   "salaryDesc": "20-35K",
+   "jobLabels": [
+    "5-10年",
+    "大专"
+   ],
+   "jobExperience": "5-10年",
+   "jobDegree": "大专",
+   "cityName": "北京",
+   "areaDistrict": "朝阳区",
+   "businessDistrict": "望京",
+   "jobType": 0,
+   "skills": [
+    "丰富的游戏经验",
+    "手游测试经验",
+    "Jira"
+   ],
+   "welfareList": [
+    "交通补助",
+    "节日福利",
+    "员工旅游",
+    "定期体检",
+    "零食下午茶",
+    "补充医疗保险",
+    "餐补"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 测试组长 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 5-10年工作经验，熟悉软件测试方法与流程；\n2. 掌握 丰富的游戏经验、手游测试经验、Jira；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京朝阳区望京28号院B座4层",
+   "bossName": "王女士",
+   "bossTitle": "招聘经理",
+   "bossCert": 3,
+   "bossOnline": false,
+   "bossActiveTime": "刚刚活跃",
+   "encryptBrandId": "B09",
+   "brandName": "云栖数娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "已上市",
+   "brandScaleName": "500-999人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0010",
+   "jobName": "性能测试工程师",
+   "salaryDesc": "8-12K",
+   "jobLabels": [
+    "经验不限",
+    "硕士"
+   ],
+   "jobExperience": "经验不限",
+   "jobDegree": "硕士",
+   "cityName": "北京",
+   "areaDistrict": "东城区",
+   "businessDistrict": "王府井",
+   "jobType": 0,
+   "skills": [
+    "TestNG",
+    "软件测试经验",
+    "SQL"
+   ],
+   "welfareList": [
+    "员工旅游",
+    "带薪年假",
+    "定期体检",
+    "餐补"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 性能测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 经验不限工作经验，熟悉软件测试方法与流程；\n2. 掌握 TestNG、软件测试经验、SQL；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京东城区王府井51号院D座5层",
+   "bossName": "于先生",
+   "bossTitle": "资源经理",
+   "bossCert": 3,
+   "bossOnline": false,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "B10",
+   "brandName": "甘棠软件",
+   "brandIndustry": "计算机软件",
+   "brandStageName": "已上市",
+   "brandScaleName": "10000人以上",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0011",
+   "jobName": "游戏 QA",
+   "salaryDesc": "15-25K",
+   "jobLabels": [
+    "1年以内",
+    "本科"
+   ],
+   "jobExperience": "1年以内",
+   "jobDegree": "本科",
+   "cityName": "北京",
+   "areaDistrict": "昌平区",
+   "businessDistrict": "回龙观",
+   "jobType": 0,
+   "skills": [
+    "软件测试经验",
+    "Unity",
+    "SQL"
+   ],
+   "welfareList": [
+    "餐补",
+    "股票期权",
+    "零食下午茶",
+    "年终奖"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 游戏 QA 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 1年以内工作经验，熟悉软件测试方法与流程；\n2. 掌握 软件测试经验、Unity、SQL；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京昌平区回龙观87号院C座13层",
+   "bossName": "徐女士",
+   "bossTitle": "招聘经理",
+   "bossCert": 3,
+   "bossOnline": false,
+   "bossActiveTime": "本周活跃",
+   "encryptBrandId": "B01",
+   "brandName": "砚川数娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "未融资",
+   "brandScaleName": "20-99人",
+   "positionCategory": "设计"
+  },
+  {
+   "encryptJobId": "J0012",
+   "jobName": "客户端测试工程师（兼职）",
+   "salaryDesc": "2-4K",
+   "jobLabels": [
+    "1年以内",
+    "本科"
+   ],
+   "jobExperience": "1年以内",
+   "jobDegree": "本科",
+   "cityName": "北京",
+   "areaDistrict": "朝阳区",
+   "businessDistrict": "太阳宫",
+   "jobType": 1,
+   "skills": [
+    "自动化测试",
+    "Linux"
+   ],
+   "welfareList": [
+    "弹性工作",
+    "节日福利",
+    "零食下午茶",
+    "带薪年假",
+    "补充医疗保险",
+    "五险一金",
+    "年终奖"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 客户端测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 1年以内工作经验，熟悉软件测试方法与流程；\n2. 掌握 自动化测试、Linux；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京朝阳区太阳宫43号院A座16层",
+   "bossName": "李先生",
+   "bossTitle": "资源经理",
+   "bossCert": 3,
+   "bossOnline": false,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "B02",
+   "brandName": "岚屿互娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "天使轮",
+   "brandScaleName": "20-99人",
+   "positionCategory": "电子/电气/通信"
+  },
+  {
+   "encryptJobId": "J0013",
+   "jobName": "服务端测试工程师",
+   "salaryDesc": "10-15K",
+   "jobLabels": [
+    "5-10年",
+    "大专"
+   ],
+   "jobExperience": "5-10年",
+   "jobDegree": "大专",
+   "cityName": "北京",
+   "areaDistrict": "朝阳区",
+   "businessDistrict": "来广营",
+   "jobType": 0,
+   "skills": [
+    "自动化测试",
+    "丰富的游戏经验"
+   ],
+   "welfareList": [
+    "员工旅游",
+    "带薪年假",
+    "零食下午茶",
+    "弹性工作",
+    "节日福利",
+    "年终奖",
+    "定期体检"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 服务端测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 5-10年工作经验，熟悉软件测试方法与流程；\n2. 掌握 自动化测试、丰富的游戏经验；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京朝阳区来广营32号院F座6层",
+   "bossName": "卓女士",
+   "bossTitle": "招聘经理",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "本周活跃",
+   "encryptBrandId": "B03",
+   "brandName": "拾光工坊",
+   "brandIndustry": "游戏",
+   "brandStageName": "不需要融资",
+   "brandScaleName": "100-499人",
+   "positionCategory": "产品"
+  },
+  {
+   "encryptJobId": "J0014",
+   "jobName": "本地化测试工程师",
+   "salaryDesc": "6-9K",
+   "jobLabels": [
+    "1-3年",
+    "本科"
+   ],
+   "jobExperience": "1-3年",
+   "jobDegree": "本科",
+   "cityName": "北京",
+   "areaDistrict": "朝阳区",
+   "businessDistrict": "望京",
+   "jobType": 0,
+   "skills": [
+    "Jira",
+    "Charles 抓包",
+    "压测经验"
+   ],
+   "welfareList": [
+    "年终奖",
+    "股票期权",
+    "员工旅游",
+    "定期体检"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 本地化测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 1-3年工作经验，熟悉软件测试方法与流程；\n2. 掌握 Jira、Charles 抓包、压测经验；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京朝阳区望京60号院D座8层",
+   "bossName": "何女士",
+   "bossTitle": "人事",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "本周活跃",
+   "encryptBrandId": "B04",
+   "brandName": "白鹭引擎",
+   "brandIndustry": "游戏",
+   "brandStageName": "已上市",
+   "brandScaleName": "1000-9999人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0015",
+   "jobName": "测试主管",
+   "salaryDesc": "15-25K",
+   "jobLabels": [
+    "5-10年",
+    "硕士"
+   ],
+   "jobExperience": "5-10年",
+   "jobDegree": "硕士",
+   "cityName": "北京",
+   "areaDistrict": "大兴区",
+   "businessDistrict": "亦庄",
+   "jobType": 0,
+   "skills": [
+    "Jira",
+    "Charles 抓包"
+   ],
+   "welfareList": [
+    "零食下午茶",
+    "年终奖",
+    "五险一金",
+    "餐补",
+    "交通补助"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 测试主管 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 5-10年工作经验，熟悉软件测试方法与流程；\n2. 掌握 Jira、Charles 抓包；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京大兴区亦庄58号院E座9层",
+   "bossName": "于先生",
+   "bossTitle": "资源经理",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "本周活跃",
+   "encryptBrandId": "B05",
+   "brandName": "木鸢科技",
+   "brandIndustry": "企业服务",
+   "brandStageName": "未融资",
+   "brandScaleName": "20-99人",
+   "positionCategory": "电子/电气/通信"
+  },
+  {
+   "encryptJobId": "J0016",
+   "jobName": "游戏测试工程师",
+   "salaryDesc": "10-15K",
+   "jobLabels": [
+    "5-10年",
+    "学历不限"
+   ],
+   "jobExperience": "5-10年",
+   "jobDegree": "学历不限",
+   "cityName": "深圳",
+   "areaDistrict": "南山区",
+   "businessDistrict": "西丽",
+   "jobType": 0,
+   "skills": [
+    "Python",
+    "Unity"
+   ],
+   "welfareList": [
+    "股票期权",
+    "年终奖",
+    "带薪年假",
+    "节日福利"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 游戏测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 5-10年工作经验，熟悉软件测试方法与流程；\n2. 掌握 Python、Unity；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "深圳南山区西丽83号院D座6层",
+   "bossName": "卓女士",
+   "bossTitle": "人事",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "B06",
+   "brandName": "青柚游戏",
+   "brandIndustry": "游戏",
+   "brandStageName": "A轮",
+   "brandScaleName": "20-99人",
+   "positionCategory": "产品"
+  },
+  {
+   "encryptJobId": "J0017",
+   "jobName": "游戏测试",
+   "salaryDesc": "6-9K",
+   "jobLabels": [
+    "经验不限",
+    "学历不限"
+   ],
+   "jobExperience": "经验不限",
+   "jobDegree": "学历不限",
+   "cityName": "北京",
+   "areaDistrict": "东城区",
+   "businessDistrict": "王府井",
+   "jobType": 0,
+   "skills": [
+    "TestNG",
+    "自动化测试"
+   ],
+   "welfareList": [
+    "员工旅游",
+    "年终奖",
+    "补充医疗保险",
+    "股票期权",
+    "餐补",
+    "交通补助"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 游戏测试 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 经验不限工作经验，熟悉软件测试方法与流程；\n2. 掌握 TestNG、自动化测试；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京东城区王府井28号院A座11层",
+   "bossName": "何女士",
+   "bossTitle": "人事",
+   "bossCert": 3,
+   "bossOnline": false,
+   "bossActiveTime": "本周活跃",
+   "encryptBrandId": "B07",
+   "brandName": "长风互动",
+   "brandIndustry": "人工智能",
+   "brandStageName": "B轮",
+   "brandScaleName": "100-499人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0018",
+   "jobName": "高级游戏测试工程师",
+   "salaryDesc": "20-35K",
+   "jobLabels": [
+    "经验不限",
+    "本科"
+   ],
+   "jobExperience": "经验不限",
+   "jobDegree": "本科",
+   "cityName": "北京",
+   "areaDistrict": "昌平区",
+   "businessDistrict": "沙河",
+   "jobType": 0,
+   "skills": [
+    "自动化测试",
+    "Appium",
+    "TestNG",
+    "性能测试"
+   ],
+   "welfareList": [
+    "年终奖",
+    "节日福利",
+    "弹性工作",
+    "交通补助"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 高级游戏测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 经验不限工作经验，熟悉软件测试方法与流程；\n2. 掌握 自动化测试、Appium、TestNG；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京昌平区沙河3号院B座8层",
+   "bossName": "卓女士",
+   "bossTitle": "人事",
+   "bossCert": 3,
+   "bossOnline": false,
+   "bossActiveTime": "本周活跃",
+   "encryptBrandId": "B08",
+   "brandName": "鹿野测试",
+   "brandIndustry": "计算机服务",
+   "brandStageName": "未融资",
+   "brandScaleName": "0-20人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0019",
+   "jobName": "QA 功能测试",
+   "salaryDesc": "8-12K",
+   "jobLabels": [
+    "1年以内",
+    "大专"
+   ],
+   "jobExperience": "1年以内",
+   "jobDegree": "大专",
+   "cityName": "北京",
+   "areaDistrict": "东城区",
+   "businessDistrict": "东直门",
+   "jobType": 0,
+   "skills": [
+    "Charles 抓包",
+    "TestNG",
+    "自动化测试"
+   ],
+   "welfareList": [
+    "五险一金",
+    "餐补",
+    "带薪年假",
+    "定期体检",
+    "节日福利",
+    "股票期权"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 QA 功能测试 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 1年以内工作经验，熟悉软件测试方法与流程；\n2. 掌握 Charles 抓包、TestNG、自动化测试；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京东城区东直门6号院B座9层",
+   "bossName": "王女士",
+   "bossTitle": "HR",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "刚刚活跃",
+   "encryptBrandId": "B09",
+   "brandName": "云栖数娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "已上市",
+   "brandScaleName": "500-999人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0020",
+   "jobName": "测试开发工程师",
+   "salaryDesc": "40-60K",
+   "jobLabels": [
+    "3-5年",
+    "学历不限"
+   ],
+   "jobExperience": "3-5年",
+   "jobDegree": "学历不限",
+   "cityName": "上海",
+   "areaDistrict": "徐汇区",
+   "businessDistrict": "徐家汇",
+   "jobType": 0,
+   "skills": [
+    "Jira",
+    "SQL"
+   ],
+   "welfareList": [
+    "股票期权",
+    "节日福利",
+    "零食下午茶",
+    "带薪年假",
+    "交通补助",
+    "年终奖"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 测试开发工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 3-5年工作经验，熟悉软件测试方法与流程；\n2. 掌握 Jira、SQL；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "上海徐汇区徐家汇2号院E座13层",
+   "bossName": "王女士",
+   "bossTitle": "资源经理",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "刚刚活跃",
+   "encryptBrandId": "B10",
+   "brandName": "甘棠软件",
+   "brandIndustry": "计算机软件",
+   "brandStageName": "已上市",
+   "brandScaleName": "10000人以上",
+   "positionCategory": "产品"
+  },
+  {
+   "encryptJobId": "J0021",
+   "jobName": "自动化测试工程师",
+   "salaryDesc": "40-60K",
+   "jobLabels": [
+    "3-5年",
+    "硕士"
+   ],
+   "jobExperience": "3-5年",
+   "jobDegree": "硕士",
+   "cityName": "北京",
+   "areaDistrict": "西城区",
+   "businessDistrict": "西直门",
+   "jobType": 0,
+   "skills": [
+    "软件测试经验",
+    "手游测试经验",
+    "SQL"
+   ],
+   "welfareList": [
+    "股票期权",
+    "交通补助",
+    "节日福利",
+    "补充医疗保险",
+    "带薪年假",
+    "五险一金"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 自动化测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 3-5年工作经验，熟悉软件测试方法与流程；\n2. 掌握 软件测试经验、手游测试经验、SQL；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京西城区西直门10号院A座5层",
+   "bossName": "何女士",
+   "bossTitle": "招聘经理",
+   "bossCert": 3,
+   "bossOnline": false,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "B01",
+   "brandName": "砚川数娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "未融资",
+   "brandScaleName": "20-99人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0022",
+   "jobName": "SLG 游戏测试",
+   "salaryDesc": "6-9K",
+   "jobLabels": [
+    "经验不限",
+    "学历不限"
+   ],
+   "jobExperience": "经验不限",
+   "jobDegree": "学历不限",
+   "cityName": "北京",
+   "areaDistrict": "海淀区",
+   "businessDistrict": "学院路",
+   "jobType": 0,
+   "skills": [
+    "埋点验证",
+    "软件测试经验",
+    "Appium",
+    "Jira"
+   ],
+   "welfareList": [
+    "餐补",
+    "定期体检",
+    "弹性工作",
+    "节日福利"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 SLG 游戏测试 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 经验不限工作经验，熟悉软件测试方法与流程；\n2. 掌握 埋点验证、软件测试经验、Appium；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京海淀区学院路2号院E座14层",
+   "bossName": "于先生",
+   "bossTitle": "招聘经理",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "本周活跃",
+   "encryptBrandId": "B02",
+   "brandName": "岚屿互娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "天使轮",
+   "brandScaleName": "20-99人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0023",
+   "jobName": "手游测试工程师（兼职）",
+   "salaryDesc": "2-4K",
+   "jobLabels": [
+    "经验不限",
+    "硕士"
+   ],
+   "jobExperience": "经验不限",
+   "jobDegree": "硕士",
+   "cityName": "北京",
+   "areaDistrict": "西城区",
+   "businessDistrict": "西直门",
+   "jobType": 1,
+   "skills": [
+    "SQL",
+    "手游测试经验",
+    "Linux",
+    "压测经验"
+   ],
+   "welfareList": [
+    "带薪年假",
+    "弹性工作",
+    "节日福利",
+    "补充医疗保险",
+    "员工旅游",
+    "交通补助",
+    "零食下午茶"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 手游测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 经验不限工作经验，熟悉软件测试方法与流程；\n2. 掌握 SQL、手游测试经验、Linux；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京西城区西直门17号院E座18层",
+   "bossName": "何女士",
+   "bossTitle": "人事",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "刚刚活跃",
+   "encryptBrandId": "B03",
+   "brandName": "拾光工坊",
+   "brandIndustry": "游戏",
+   "brandStageName": "不需要融资",
+   "brandScaleName": "100-499人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0024",
+   "jobName": "测试组长",
+   "salaryDesc": "25-40K",
+   "jobLabels": [
+    "3-5年",
+    "本科"
+   ],
+   "jobExperience": "3-5年",
+   "jobDegree": "本科",
+   "cityName": "北京",
+   "areaDistrict": "昌平区",
+   "businessDistrict": "回龙观",
+   "jobType": 0,
+   "skills": [
+    "Charles 抓包",
+    "Unity",
+    "Jira",
+    "埋点验证"
+   ],
+   "welfareList": [
+    "员工旅游",
+    "餐补",
+    "带薪年假",
+    "弹性工作",
+    "交通补助"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 测试组长 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 3-5年工作经验，熟悉软件测试方法与流程；\n2. 掌握 Charles 抓包、Unity、Jira；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京昌平区回龙观50号院B座23层",
+   "bossName": "卓女士",
+   "bossTitle": "HR",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "刚刚活跃",
+   "encryptBrandId": "B04",
+   "brandName": "白鹭引擎",
+   "brandIndustry": "游戏",
+   "brandStageName": "已上市",
+   "brandScaleName": "1000-9999人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0025",
+   "jobName": "性能测试工程师",
+   "salaryDesc": "6-9K",
+   "jobLabels": [
+    "1年以内",
+    "学历不限"
+   ],
+   "jobExperience": "1年以内",
+   "jobDegree": "学历不限",
+   "cityName": "上海",
+   "areaDistrict": "浦东新区",
+   "businessDistrict": "陆家嘴",
+   "jobType": 0,
+   "skills": [
+    "自动化测试",
+    "SQL",
+    "手游测试经验"
+   ],
+   "welfareList": [
+    "五险一金",
+    "股票期权",
+    "年终奖",
+    "交通补助",
+    "带薪年假"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 性能测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 1年以内工作经验，熟悉软件测试方法与流程；\n2. 掌握 自动化测试、SQL、手游测试经验；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "上海浦东新区陆家嘴30号院E座10层",
+   "bossName": "陈女士",
+   "bossTitle": "技术负责人",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "B05",
+   "brandName": "木鸢科技",
+   "brandIndustry": "企业服务",
+   "brandStageName": "未融资",
+   "brandScaleName": "20-99人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0026",
+   "jobName": "游戏 QA",
+   "salaryDesc": "10-15K",
+   "jobLabels": [
+    "1年以内",
+    "硕士"
+   ],
+   "jobExperience": "1年以内",
+   "jobDegree": "硕士",
+   "cityName": "成都",
+   "areaDistrict": "高新区",
+   "businessDistrict": "天府三街",
+   "jobType": 0,
+   "skills": [
+    "丰富的游戏经验",
+    "TestNG"
+   ],
+   "welfareList": [
+    "节日福利",
+    "员工旅游",
+    "餐补",
+    "补充医疗保险"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 游戏 QA 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 1年以内工作经验，熟悉软件测试方法与流程；\n2. 掌握 丰富的游戏经验、TestNG；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "成都高新区天府三街81号院E座9层",
+   "bossName": "陈女士",
+   "bossTitle": "招聘经理",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "刚刚活跃",
+   "encryptBrandId": "B06",
+   "brandName": "青柚游戏",
+   "brandIndustry": "游戏",
+   "brandStageName": "A轮",
+   "brandScaleName": "20-99人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0027",
+   "jobName": "客户端测试工程师",
+   "salaryDesc": "25-40K",
+   "jobLabels": [
+    "1年以内",
+    "硕士"
+   ],
+   "jobExperience": "1年以内",
+   "jobDegree": "硕士",
+   "cityName": "上海",
+   "areaDistrict": "静安区",
+   "businessDistrict": "南京西路",
+   "jobType": 0,
+   "skills": [
+    "自动化测试",
+    "TestNG"
+   ],
+   "welfareList": [
+    "零食下午茶",
+    "弹性工作",
+    "股票期权",
+    "补充医疗保险",
+    "年终奖",
+    "交通补助",
+    "带薪年假"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 客户端测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 1年以内工作经验，熟悉软件测试方法与流程；\n2. 掌握 自动化测试、TestNG；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "上海静安区南京西路62号院E座5层",
+   "bossName": "王女士",
+   "bossTitle": "HR",
+   "bossCert": 3,
+   "bossOnline": false,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "B07",
+   "brandName": "长风互动",
+   "brandIndustry": "人工智能",
+   "brandStageName": "B轮",
+   "brandScaleName": "100-499人",
+   "positionCategory": "电子/电气/通信"
+  },
+  {
+   "encryptJobId": "J0028",
+   "jobName": "服务端测试工程师",
+   "salaryDesc": "8-12K",
+   "jobLabels": [
+    "1年以内",
+    "学历不限"
+   ],
+   "jobExperience": "1年以内",
+   "jobDegree": "学历不限",
+   "cityName": "北京",
+   "areaDistrict": "东城区",
+   "businessDistrict": "东直门",
+   "jobType": 0,
+   "skills": [
+    "Linux",
+    "SQL",
+    "TestNG"
+   ],
+   "welfareList": [
+    "员工旅游",
+    "零食下午茶",
+    "交通补助",
+    "餐补",
+    "补充医疗保险",
+    "定期体检"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 服务端测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 1年以内工作经验，熟悉软件测试方法与流程；\n2. 掌握 Linux、SQL、TestNG；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京东城区东直门14号院A座4层",
+   "bossName": "卓女士",
+   "bossTitle": "技术负责人",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "本周活跃",
+   "encryptBrandId": "B08",
+   "brandName": "鹿野测试",
+   "brandIndustry": "计算机服务",
+   "brandStageName": "未融资",
+   "brandScaleName": "0-20人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0029",
+   "jobName": "本地化测试工程师",
+   "salaryDesc": "15-25K",
+   "jobLabels": [
+    "3-5年",
+    "学历不限"
+   ],
+   "jobExperience": "3-5年",
+   "jobDegree": "学历不限",
+   "cityName": "深圳",
+   "areaDistrict": "福田区",
+   "businessDistrict": "车公庙",
+   "jobType": 0,
+   "skills": [
+    "Python",
+    "Charles 抓包"
+   ],
+   "welfareList": [
+    "五险一金",
+    "股票期权",
+    "带薪年假",
+    "餐补"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 本地化测试工程师 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 3-5年工作经验，熟悉软件测试方法与流程；\n2. 掌握 Python、Charles 抓包；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "深圳福田区车公庙51号院C座16层",
+   "bossName": "李先生",
+   "bossTitle": "资源经理",
+   "bossCert": 3,
+   "bossOnline": false,
+   "bossActiveTime": "本周活跃",
+   "encryptBrandId": "B09",
+   "brandName": "云栖数娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "已上市",
+   "brandScaleName": "500-999人",
+   "positionCategory": "互联网/AI"
+  },
+  {
+   "encryptJobId": "J0030",
+   "jobName": "测试主管",
+   "salaryDesc": "15-25K",
+   "jobLabels": [
+    "5-10年",
+    "硕士"
+   ],
+   "jobExperience": "5-10年",
+   "jobDegree": "硕士",
+   "cityName": "北京",
+   "areaDistrict": "昌平区",
+   "businessDistrict": "沙河",
+   "jobType": 0,
+   "skills": [
+    "SQL",
+    "性能测试",
+    "Python",
+    "埋点验证"
+   ],
+   "welfareList": [
+    "弹性工作",
+    "节日福利",
+    "餐补",
+    "补充医疗保险",
+    "定期体检"
+   ],
+   "postDescription": "岗位职责：\n1. 负责 测试主管 相关模块的测试用例设计、执行与缺陷跟踪；\n2. 参与需求评审，输出测试点拆分文档与测试报告；\n3. 配合研发定位线上问题，推动回归与验收；\n4. 持续完善测试流程与自动化覆盖率。\n\n任职要求：\n1. 5-10年工作经验，熟悉软件测试方法与流程；\n2. 掌握 SQL、性能测试、Python；\n3. 有完整项目从研发到线上运营的测试经验者优先；\n4. 责任心强，沟通顺畅，能承担一定强度的版本压力。",
+   "jobAddress": "北京昌平区沙河38号院E座8层",
+   "bossName": "陈女士",
+   "bossTitle": "招聘经理",
+   "bossCert": 3,
+   "bossOnline": true,
+   "bossActiveTime": "本周活跃",
+   "encryptBrandId": "B10",
+   "brandName": "甘棠软件",
+   "brandIndustry": "计算机软件",
+   "brandStageName": "已上市",
+   "brandScaleName": "10000人以上",
+   "positionCategory": "互联网/AI"
+  }
+ ]
+}

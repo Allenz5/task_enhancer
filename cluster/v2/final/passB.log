@@ -1,0 +1,10 @@
+pass B: 85 batches
+  10/85  b009 ok  183s
+  20/85  b019 ok  357s
+  30/85  b029 ok  523s
+  40/85  b039 ok  691s
+  50/85  b049 ok  787s
+  60/85  b059 ok  932s
+  70/85  b069 ok  1074s
+  80/85  b079 ok  1246s
+pass B done in 1300s

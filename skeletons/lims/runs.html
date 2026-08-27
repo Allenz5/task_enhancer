@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cell Culture Runs</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="chrome"></div>
+<div class="wrap"><div id="head"></div><div id="grid"></div></div>
+<script src="assets/grid.js"></script>
+<script src="assets/app.js"></script>
+<script>
+App.load().then(function (D) {
+  document.getElementById('chrome').innerHTML = App.chrome('Data Dashboard');
+  document.getElementById('head').innerHTML = App.head({
+    crumb: [['Assay List', 'index.html'], ['Cell Culture Batches', 'batches.html'], ['Cell Culture Runs', null]],
+    title: 'Cell Culture Runs', folder: D.assay.folder, desc: D.assay.description,
+    links: App.ACTION_LINKS
+  });
+  new DataRegion({
+    el: '#grid', name: 'CellCultureRuns', rowKey: 'RowId', pageSize: 100,
+    rows: D.runs,
+    columns: [
+      { name: 'Flag', caption: 'Flag', render: function (r) {
+          return r.Flag ? '<span title="' + App.esc(r.Flag) + '" class="qc-reject">⚑</span>' : '<span style="color:#c9c9c9">⚑</span>'; } },
+      { name: 'Name', caption: 'Assay ID', render: function (r) {
+          return '<a href="results.html?run=' + r.RowId + '">' + App.esc(r.Name) + '</a>'; } },
+      { name: 'Created', caption: 'Created' },
+      { name: 'CreatedBy', caption: 'Created By' },
+      { name: 'QCFlags', caption: 'QC Flags', render: function (r) { return App.qcCell(r.QCFlags); } },
+      { name: 'cellCultureUser', caption: 'Lab Technician' },
+      { name: 'incubatorName', caption: 'Incubator/Instrument' },
+      { name: 'Batch', caption: 'Batch', render: function (r) {
+          var b = D.batches.filter(function (x) { return x.RowId === r.Batch; })[0];
+          return b ? '<a href="batches.html">' + App.esc(b.Name) + '</a>' : ''; } },
+      { name: 'ReplacesRun', caption: 'Replaces', render: function (r) {
+          return r.ReplacesRun ? '<a href="results.html?run=' + r.ReplacesRun + '">' +
+            App.esc(App.runName(D, r.ReplacesRun)) + '</a>' : ''; } },
+      { name: 'ReplacedByRun', caption: 'Replaced By', render: function (r) {
+          return r.ReplacedByRun ? '<a href="results.html?run=' + r.ReplacedByRun + '">' +
+            App.esc(App.runName(D, r.ReplacedByRun)) + '</a>' : ''; } },
+      { name: 'Comments', caption: 'Comments' }
+    ]
+  });
+});
+</script>
+</body>
+</html>

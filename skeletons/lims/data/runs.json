@@ -1,0 +1,79 @@
+{
+ "rows": [
+  {
+   "RowId": 1605,
+   "Name": "CellCulture-Group2",
+   "Batch": 501,
+   "cellCultureUser": "Molly O",
+   "incubatorName": "INC-002",
+   "QCFlags": "Reviewed - Passed",
+   "Flag": "",
+   "Created": "2019-08-06 16:32:57",
+   "CreatedBy": "steveh",
+   "Comments": "Nominal run.",
+   "ReplacesRun": null,
+   "ReplacedByRun": null,
+   "DataFile": "CellCulture_run2.xlsx"
+  },
+  {
+   "RowId": 1606,
+   "Name": "CellCulture-Group3",
+   "Batch": 501,
+   "cellCultureUser": "Molly O",
+   "incubatorName": "INC-002",
+   "QCFlags": "Reviewed - Passed",
+   "Flag": "",
+   "Created": "2019-08-06 16:33:17",
+   "CreatedBy": "steveh",
+   "Comments": "Nominal run.",
+   "ReplacesRun": null,
+   "ReplacedByRun": null,
+   "DataFile": "CellCulture_run3.xlsx"
+  },
+  {
+   "RowId": 1608,
+   "Name": "CellCulture-Group4",
+   "Batch": 501,
+   "cellCultureUser": "Steve H",
+   "incubatorName": "INC-001",
+   "QCFlags": "Reviewed - Rejected",
+   "Flag": "cells died in all media",
+   "Created": "2019-08-07 15:08:17",
+   "CreatedBy": "steveh",
+   "Comments": "Cell death observed in control as well; unrelated to media under test. Excluded.",
+   "ReplacesRun": null,
+   "ReplacedByRun": 43950,
+   "DataFile": "CellCulture_run4.xlsx"
+  },
+  {
+   "RowId": 43950,
+   "Name": "CellCulture-Group1",
+   "Batch": 502,
+   "cellCultureUser": "Molly O",
+   "incubatorName": "INC-001",
+   "QCFlags": "Not Yet Reviewed",
+   "Flag": "",
+   "Created": "2023-04-26 15:48:17",
+   "CreatedBy": "steveh",
+   "Comments": "Repeat of Group 4 after incubator service.",
+   "ReplacesRun": 1608,
+   "ReplacedByRun": null,
+   "DataFile": "CellCulture_run1.xlsx"
+  },
+  {
+   "RowId": 43951,
+   "Name": "Data_2023-04-26_15-45-06-1.xlsx",
+   "Batch": 502,
+   "cellCultureUser": "Molly O",
+   "incubatorName": "INC-001",
+   "QCFlags": "Not Yet Reviewed",
+   "Flag": "",
+   "Created": "2023-04-26 16:15:02",
+   "CreatedBy": "steveh",
+   "Comments": "Direct file import, assay id defaulted to filename.",
+   "ReplacesRun": null,
+   "ReplacedByRun": null,
+   "DataFile": "Data_2023-04-26_15-45-06-1.xlsx"
+  }
+ ]
+}

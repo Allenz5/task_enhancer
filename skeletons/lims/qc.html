@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>QC</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="chrome"></div>
+<div class="wrap">
+  <div id="head"></div>
+  <div class="lk-webpart"><h2>Quality Control - Cell Culture</h2>
+    <div class="wp-body" id="qcnote"></div></div>
+  <div class="lk-webpart"><h2>Quality Control Assessments</h2>
+    <div style="padding:0 12px 12px"><div id="grid"></div></div></div>
+</div>
+<script src="assets/grid.js"></script>
+<script src="assets/app.js"></script>
+<script>
+App.load().then(function (D) {
+  document.getElementById('chrome').innerHTML = App.chrome('QC');
+  document.getElementById('head').innerHTML = App.head({
+    title: 'Assay Data Analysis', folder: D.assay.folder
+  });
+
+  var rejected = D.runs.filter(function (r) { return r.QCFlags === 'Reviewed - Rejected'; });
+  document.getElementById('qcnote').innerHTML =
+    '<p>The QC Analyst reviewing the data discovered that the cells died' +
+    (rejected.length ? ' in ' + App.esc(rejected.map(function (r) { return r.Name; }).join(', ')) : '') +
+    ', including those in the control media, indicating an issue unrelated to the media being tested. ' +
+    'This violated the QC criteria, so the run was marked "Reviewed - Rejected", and is excluded from the final analysis.</p>' +
+    '<ul>' +
+      '<li><a href="results.html?qc=' + encodeURIComponent('Reviewed - Passed') + '">Results - Passed QC Review</a>' +
+        ' - Analysis is based on these results.</li>' +
+      '<li><a href="results.html?qc=' + encodeURIComponent('Reviewed - Rejected') + '">Results - Did Not Pass QC Review</a>' +
+        ' - Excluded from analysis.</li>' +
+      '<li><a href="results.html?qc=' + encodeURIComponent('Not Yet Reviewed') + '">Results - Not Yet Reviewed</a>' +
+        ' - These results are not yet included in the analysis.</li>' +
+    '</ul>' +
+    '<p>Fine-grained permissions are available corresponding to different roles in a Lab organization, ' +
+    'such as "QC Analyst", for setting quality control states.</p>';
+
+  new DataRegion({
+    el: '#grid', name: 'QualityControlAssessments', rowKey: 'RowId', pageSize: 100,
+    rows: D.runs,
+    columns: [
+      { name: 'Flag', caption: 'Flag', render: function (r) {
+          return r.Flag ? '<span title="' + App.esc(r.Flag) + '" class="qc-reject">⚑</span>' : '<span style="color:#c9c9c9">⚑</span>'; } },
+      { name: 'Name', caption: 'Assay ID', render: function (r) {
+          return '<a href="results.html?run=' + r.RowId + '">' + App.esc(r.Name) + '</a>'; } },
+      { name: 'Created', caption: 'Created' },
+      { name: 'CreatedBy', caption: 'Created By' },
+      { name: 'QCFlags', caption: 'QC Flags', render: function (r) { return App.qcCell(r.QCFlags); } },
+      { name: 'cellCultureUser', caption: 'Lab Technician' },
+      { name: 'incubatorName', caption: 'Incubator/Instrument' }
+    ]
+  });
+});
+</script>
+</body>
+</html>

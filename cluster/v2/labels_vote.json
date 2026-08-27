@@ -1,0 +1,502 @@
+{
+"0": {
+"slug": "property-management",
+"votes": 3,
+"source_real": "yes"
+},
+"1": {
+"slug": "mechanical-computer-aided-design-mcad",
+"votes": 3,
+"source_real": "no"
+},
+"2": {
+"slug": "x-regulatory-registry",
+"votes": 3,
+"source_real": "yes"
+},
+"3": {
+"slug": "x-regulatory-registry",
+"votes": 3,
+"source_real": "yes"
+},
+"4": {
+"slug": "ai-agent-observability",
+"votes": 2,
+"source_real": "no"
+},
+"5": {
+"slug": "pcb-design",
+"votes": 3,
+"source_real": "yes"
+},
+"6": {
+"slug": "x-government-statistics-portal",
+"votes": 3,
+"source_real": "unsure"
+},
+"7": {
+"slug": "x-motion-capture-biomechanics-lab",
+"votes": 3,
+"source_real": "yes"
+},
+"8": {
+"slug": "ai-agents",
+"votes": 3,
+"source_real": "no"
+},
+"9": {
+"slug": "insurance-claims-management",
+"votes": 3,
+"source_real": "yes"
+},
+"10": {
+"slug": "x-research-dataset-repository",
+"votes": 2,
+"source_real": "unsure"
+},
+"11": {
+"slug": "gis",
+"votes": 3,
+"source_real": "yes"
+},
+"12": {
+"slug": "x-research-dataset-repository",
+"votes": 3,
+"source_real": "no"
+},
+"13": {
+"slug": "gis",
+"votes": 3,
+"source_real": "unsure"
+},
+"14": {
+"slug": "x-motion-capture-biomechanics-lab",
+"votes": 3,
+"source_real": "yes"
+},
+"15": {
+"slug": "x-motion-capture-biomechanics-lab",
+"votes": 3,
+"source_real": "yes"
+},
+"16": {
+"slug": "x-research-dataset-repository",
+"votes": 3,
+"source_real": "unsure"
+},
+"17": {
+"slug": "version-control-software",
+"votes": 3,
+"source_real": "yes"
+},
+"18": {
+"slug": "x-genomics-data-repository",
+"votes": 3,
+"source_real": "unsure"
+},
+"19": {
+"slug": "electronic-data-capture-edc",
+"votes": 3,
+"source_real": "yes"
+},
+"20": {
+"slug": "x-motion-capture-biomechanics-lab",
+"votes": 3,
+"source_real": "yes"
+},
+"21": {
+"slug": "ai-video-generators",
+"votes": 2,
+"source_real": "no"
+},
+"22": {
+"slug": "x-seismic-waveform-data-center",
+"votes": 2,
+"source_real": "unsure"
+},
+"23": {
+"slug": "x-research-dataset-repository",
+"votes": 3,
+"source_real": "yes"
+},
+"24": {
+"slug": "x-seismic-waveform-data-center",
+"votes": 3,
+"source_real": "yes"
+},
+"25": {
+"slug": "crm",
+"votes": 3,
+"source_real": "yes"
+},
+"26": {
+"slug": "x-research-dataset-repository",
+"votes": 3,
+"source_real": "unsure"
+},
+"27": {
+"slug": "x-research-dataset-repository",
+"votes": 3,
+"source_real": "yes"
+},
+"28": {
+"slug": "x-genomics-data-repository",
+"votes": 3,
+"source_real": "yes"
+},
+"29": {
+"slug": "transportation-management-systems-tms",
+"votes": 3,
+"source_real": "yes"
+},
+"30": {
+"slug": "x-motion-capture-biomechanics-lab",
+"votes": 3,
+"source_real": "no"
+},
+"31": {
+"slug": "x-process-historian",
+"votes": 2,
+"source_real": "yes"
+},
+"32": {
+"slug": "x-regulatory-registry",
+"votes": 3,
+"source_real": "yes"
+},
+"33": {
+"slug": "simulation-cae",
+"votes": 3,
+"source_real": "no"
+},
+"34": {
+"slug": "network-monitoring",
+"votes": 2,
+"source_real": "yes"
+},
+"35": {
+"slug": "statistical-analysis",
+"votes": 2,
+"source_real": "no"
+},
+"36": {
+"slug": "x-test-bench-daq",
+"votes": 3,
+"source_real": "yes"
+},
+"37": {
+"slug": "manufacturing-execution-system",
+"votes": 3,
+"source_real": "yes"
+},
+"38": {
+"slug": "3d-modeling",
+"votes": 3,
+"source_real": "yes"
+},
+"39": {
+"slug": "lims",
+"votes": 1,
+"source_real": "yes"
+},
+"40": {
+"slug": "gis",
+"votes": 2,
+"source_real": "yes"
+},
+"41": {
+"slug": "statistical-analysis",
+"votes": 3,
+"source_real": "unsure"
+},
+"42": {
+"slug": "x-motion-capture-biomechanics-lab",
+"votes": 3,
+"source_real": "yes"
+},
+"43": {
+"slug": "civil-engineering-design",
+"votes": 3,
+"source_real": "yes"
+},
+"44": {
+"slug": "digital-accessibility-tools",
+"votes": 2,
+"source_real": "no"
+},
+"45": {
+"slug": "accounting",
+"votes": 2,
+"source_real": "no"
+},
+"46": {
+"slug": "x-research-dataset-repository",
+"votes": 3,
+"source_real": "yes"
+},
+"47": {
+"slug": "manufacturing-execution-system",
+"votes": 3,
+"source_real": "yes"
+},
+"48": {
+"slug": "study-tools",
+"votes": 2,
+"source_real": "no"
+},
+"49": {
+"slug": "animation",
+"votes": 3,
+"source_real": "yes"
+},
+"50": {
+"slug": "urban-planning-and-design",
+"votes": 2,
+"source_real": "no"
+},
+"51": {
+"slug": "version-control-hosting",
+"votes": 3,
+"source_real": "yes"
+},
+"52": {
+"slug": "x-regulatory-registry",
+"votes": 3,
+"source_real": "yes"
+},
+"53": {
+"slug": "internet-of-things-iot-developers",
+"votes": 1,
+"source_real": "unsure"
+},
+"54": {
+"slug": "x-motion-capture-biomechanics-lab",
+"votes": 3,
+"source_real": "yes"
+},
+"55": {
+"slug": "x-game-liveops-console",
+"votes": 3,
+"source_real": "no"
+},
+"56": {
+"slug": "x-seismic-waveform-data-center",
+"votes": 2,
+"source_real": "yes"
+},
+"57": {
+"slug": "x-seismic-waveform-data-center",
+"votes": 3,
+"source_real": "yes"
+},
+"58": {
+"slug": "gis",
+"votes": 3,
+"source_real": "unsure"
+},
+"59": {
+"slug": "x-seismic-processing-workstation",
+"votes": 3,
+"source_real": "yes"
+},
+"60": {
+"slug": "insurance-claims-management",
+"votes": 3,
+"source_real": "yes"
+},
+"61": {
+"slug": "version-control-hosting",
+"votes": 3,
+"source_real": "yes"
+},
+"62": {
+"slug": "usage-based-billing-software",
+"votes": 3,
+"source_real": "yes"
+},
+"63": {
+"slug": "advanced-distribution-management-systems",
+"votes": 2,
+"source_real": "yes"
+},
+"64": {
+"slug": "x-test-bench-daq",
+"votes": 3,
+"source_real": "yes"
+},
+"65": {
+"slug": "document-management",
+"votes": 3,
+"source_real": "no"
+},
+"66": {
+"slug": "x-motion-capture-biomechanics-lab",
+"votes": 3,
+"source_real": "yes"
+},
+"67": {
+"slug": "sports-performance-analytics",
+"votes": 3,
+"source_real": "unsure"
+},
+"68": {
+"slug": "x-motion-capture-biomechanics-lab",
+"votes": 3,
+"source_real": "yes"
+},
+"69": {
+"slug": "x-government-statistics-portal",
+"votes": 3,
+"source_real": "yes"
+},
+"70": {
+"slug": "screen-sharing",
+"votes": 1,
+"source_real": "no"
+},
+"71": {
+"slug": "mechanical-computer-aided-design-mcad",
+"votes": 3,
+"source_real": "yes"
+},
+"72": {
+"slug": "x-test-bench-daq",
+"votes": 3,
+"source_real": "yes"
+},
+"73": {
+"slug": "lims",
+"votes": 2,
+"source_real": "yes"
+},
+"74": {
+"slug": "public-transportation",
+"votes": 3,
+"source_real": "yes"
+},
+"75": {
+"slug": "population-health-management",
+"votes": 1,
+"source_real": "yes"
+},
+"76": {
+"slug": "x-motion-capture-biomechanics-lab",
+"votes": 3,
+"source_real": "yes"
+},
+"77": {
+"slug": "x-motion-capture-biomechanics-lab",
+"votes": 3,
+"source_real": "yes"
+},
+"78": {
+"slug": "vr-training-simulator",
+"votes": 2,
+"source_real": "yes"
+},
+"79": {
+"slug": "api-management",
+"votes": 2,
+"source_real": "yes"
+},
+"80": {
+"slug": "animation",
+"votes": 3,
+"source_real": "yes"
+},
+"81": {
+"slug": "statistical-analysis",
+"votes": 3,
+"source_real": "unsure"
+},
+"82": {
+"slug": "x-research-dataset-repository",
+"votes": 3,
+"source_real": "yes"
+},
+"83": {
+"slug": "simulation-cae",
+"votes": 3,
+"source_real": "no"
+},
+"84": {
+"slug": "civil-engineering-design",
+"votes": 3,
+"source_real": "yes"
+},
+"85": {
+"slug": "x-atomistic-simulation-package",
+"votes": 3,
+"source_real": "unsure"
+},
+"86": {
+"slug": "internal-developer-platforms",
+"votes": 1,
+"source_real": "no"
+},
+"87": {
+"slug": "image-optimization",
+"votes": 3,
+"source_real": "no"
+},
+"88": {
+"slug": "landing-page-builders",
+"votes": 2,
+"source_real": "no"
+},
+"89": {
+"slug": "home-inspection",
+"votes": 3,
+"source_real": "yes"
+},
+"90": {
+"slug": "x-game-liveops-console",
+"votes": 3,
+"source_real": "no"
+},
+"91": {
+"slug": "x-atomistic-simulation-package",
+"votes": 3,
+"source_real": "yes"
+},
+"92": {
+"slug": "x-motion-capture-biomechanics-lab",
+"votes": 3,
+"source_real": "yes"
+},
+"93": {
+"slug": "x-motion-capture-biomechanics-lab",
+"votes": 3,
+"source_real": "yes"
+},
+"94": {
+"slug": "applicant-tracking-systems-ats",
+"votes": 2,
+"source_real": "unsure"
+},
+"95": {
+"slug": "x-seismic-processing-workstation",
+"votes": 3,
+"source_real": "no"
+},
+"96": {
+"slug": "x-atomistic-simulation-package",
+"votes": 3,
+"source_real": "yes"
+},
+"97": {
+"slug": "ai-search-retrieval-infrastructure-platforms",
+"votes": 3,
+"source_real": "no"
+},
+"98": {
+"slug": "pharmacy-inventory-management",
+"votes": 3,
+"source_real": "yes"
+},
+"99": {
+"slug": "x-motion-capture-biomechanics-lab",
+"votes": 3,
+"source_real": "yes"
+}
+}

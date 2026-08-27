@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cell Culture Results</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="chrome"></div>
+<div class="wrap"><div id="head"></div><div id="grid"></div></div>
+<script src="assets/grid.js"></script>
+<script src="assets/app.js"></script>
+<script>
+App.load().then(function (D) {
+  var run = App.qs('run'), qc = App.qs('qc'), excluded = App.qs('excluded');
+  document.getElementById('chrome').innerHTML = App.chrome('Data Dashboard');
+
+  var viewName = null;
+  // 真站的 Run 芯片带 ✕ 可移除，这里照做（不设 locked）
+  var initial = run ? [{ col: 'Run', op: 'eq', value: run }] : [];
+  if (excluded) { initial.push({ col: 'FlaggedAsExcluded', op: 'eq', value: 'true' }); viewName = 'Excluded Data'; }
+  if (qc) {
+    initial.push({ col: 'QCFlags', op: 'eq', value: qc });
+    viewName = qc === 'Reviewed - Passed' ? 'Results - Passed QC Review'
+             : qc === 'Reviewed - Rejected' ? 'Results - Did Not Pass QC Review'
+             : 'Results - Not Yet Reviewed';
+  }
+
+  // 结果行按 LabKey 的做法带上其所属 run 的字段（Assay ID / 技术员 / 仪器 / QC）
+  var byRun = {}; D.runs.forEach(function (r) { byRun[r.RowId] = r; });
+  var rows = D.results.map(function (r) {
+    var R = byRun[r.Run] || {};
+    return Object.assign({}, r, {
+      AssayID: R.Name, LabTechnician: R.cellCultureUser,
+      Incubator: R.incubatorName, QCFlags: R.QCFlags,
+      FlaggedAsExcluded: r.FlaggedAsExcluded ? 'true' : 'false'
+    });
+  });
+
+  document.getElementById('head').innerHTML = App.head({
+    crumb: [['Assay List', 'index.html'], ['Cell Culture Batches', 'batches.html'], ['Cell Culture Runs', 'runs.html']],
+    title: 'Cell Culture Results', folder: D.assay.folder, desc: D.assay.description,
+    links: App.ACTION_LINKS
+  });
+
+  new DataRegion({
+    el: '#grid', name: 'CellCultureResults', rowKey: null, pageSize: 100,
+    rows: rows, initialFilters: initial, viewName: viewName,
+    rowClass: function (r) { return r.FlaggedAsExcluded === 'true' ? 'excluded' : ''; },
+    columns: [
+      { name: 'ParticipantID', caption: 'Sample Id' },
+      { name: 'Date', caption: 'Date' },
+      { name: 'Day', caption: 'Day', align: 'right' },
+      { name: 'cellCount', caption: 'Cell Count', align: 'right' },
+      { name: 'media', caption: 'Media' },
+      { name: 'LabTechnician', caption: 'Lab Technician' },
+      { name: 'Incubator', caption: 'Incubator/Instrument' },
+      { name: 'AssayID', caption: 'Assay ID', render: function (r) {
+          return '<a href="results.html?run=' + r.Run + '">' + App.esc(r.AssayID) + '</a>'; } },
+      { name: 'QCFlags', caption: 'QC Flags', render: function (r) { return App.qcCell(r.QCFlags); } },
+      { name: 'FlaggedAsExcluded', caption: 'Flagged As Excluded' },
+      { name: 'ExclusionComment', caption: 'Exclusion Comment' }
+    ]
+  });
+});
+</script>
+</body>
+</html>

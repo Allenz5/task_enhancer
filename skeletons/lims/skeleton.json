@@ -1,0 +1,108 @@
+{
+  "bucket": "lims",
+  "name": "实验室数据管理（LIMS / Assay）",
+  "reference": {
+    "product": "LabKey Server",
+    "url": "https://www.labkey.org/Explore/Assay%20Data%20Analysis/",
+    "captured": "2026-08-25",
+    "access": "匿名，无需登录",
+    "capture_notes": "reference/capture.md",
+    "field_names_source": "query-getQueryDetails.api 返回的真实 domain 字段名与 caption",
+    "why_this_one": "SENAITE / OpenELIS / LabCollector 的 demo 都在登录墙后；LabKey 官方站本身就是活的 LabKey Server 实例，且 LabKey 自家出 LabKey LIMS"
+  },
+  "runtime": { "type": "static", "backend": "none", "serve": "任意静态服务器，见 README.md" },
+
+  "object_model": {
+    "note": "三层，照 LabKey assay 的 Batch / Run / Data 三个 domain",
+    "batch": {
+      "_desc": "一组实验/一个研究批",
+      "RowId": "主键", "Name": "批次名", "Hypothesis": "假设", "Contact": "联系人",
+      "Comments": "备注", "Created": "创建时间", "CreatedBy": "创建人", "RunCount": "含多少个 run"
+    },
+    "run": {
+      "_desc": "一次上机/一个检测批，是质控与放行判定的单位",
+      "RowId": "主键", "Name": "Assay ID（真站 caption 就叫 Assay ID）",
+      "Batch": "外键 → batch.RowId",
+      "Flag": "行标记，非空则显示红旗并把内容作为 tooltip",
+      "QCFlags": "质控状态，三态：Reviewed - Passed / Reviewed - Rejected / Not Yet Reviewed",
+      "cellCultureUser": "caption「Lab Technician」——assay 自定义 run 字段的示例",
+      "incubatorName": "caption「Incubator/Instrument」——同上",
+      "Comments": "复核意见 / 处置说明",
+      "ReplacesRun": "本 run 复测了哪个 run（真站字段 caption「Replaces」）",
+      "ReplacedByRun": "本 run 被哪个 run 复测（caption「Replaced By」）",
+      "Created": "创建时间", "CreatedBy": "创建人", "DataFile": "原始读数文件名（挂在 Files 面板）"
+    },
+    "result": {
+      "_desc": "结果行",
+      "ParticipantID": "caption「Sample Id」", "Date": "日期",
+      "Run": "外键 → run.RowId",
+      "FlaggedAsExcluded": "caption「Flagged As Excluded」，布尔，为真时整行灰显加删除线",
+      "ExclusionComment": "caption「Exclusion Comment」，剔除理由",
+      "_custom": "Day / cellCount(Cell Count) / media(Media) 是 assay 设计的自定义 Data 字段，属于第二层的填充位"
+    }
+  },
+
+  "extension_point": {
+    "what": "LabKey 的 assay 设计本来就允许自定义 Batch / Run / Data 字段",
+    "means": "第二层给任务加测量列（吸光度、浓度、CV%、回收率、时间点…）是**照真实产品的机制**，不算扭曲骨架",
+    "must_keep": ["RowId","Name","Batch","Flag","QCFlags","Created","CreatedBy","Comments",
+                  "ReplacesRun","ReplacedByRun","ParticipantID","Date","Run",
+                  "FlaggedAsExcluded","ExclusionComment"],
+    "free_to_replace": "上面 result._custom 里那三个，以及 run 的 cellCultureUser / incubatorName"
+  },
+
+  "pages": [
+    { "id": "dashboard", "file": "index.html", "title": "Overview / Data Dashboard",
+      "parts": ["说明 web part", "Cell Culture Runs 网格", "Files 面板（每个 run 的原始读数文件）"] },
+    { "id": "runs", "file": "runs.html", "title": "Cell Culture Runs（完整 run 网格，含 Replaces / Replaced By / Comments 列）" },
+    { "id": "batches", "file": "batches.html", "title": "Cell Culture Batches" },
+    { "id": "results", "file": "results.html", "title": "Cell Culture Results",
+      "url_params": ["run", "qc", "excluded"],
+      "note": "?run= 落一个可移除的 Run 芯片；?qc= 落 QC 具名视图；?excluded=1 落 Excluded Data 视图" },
+    { "id": "qc", "file": "qc.html", "title": "QC 页签（说明 + 三个具名视图链接 + Quality Control Assessments 网格）" }
+  ],
+
+  "grid_interactions": {
+    "note": "这是 agent 的主操作面，全部照真站复刻",
+    "column_menu": ["Sort Ascending","Sort Descending","Clear Sort","Filter...","Clear Filter",
+                    "Remove Column","Summary Statistics...","Bar Chart","Pie Chart","Quick Chart"],
+    "implemented": ["Sort Ascending","Sort Descending","Clear Sort","Filter...","Clear Filter","Remove Column"],
+    "stubbed_disabled": ["Summary Statistics...","Bar Chart","Pie Chart","Quick Chart"],
+    "filter_operators": ["Equals","Does Not Equal","Is Blank","Is Not Blank","Is Greater Than",
+      "Is Greater Than or Equal To","Is Less Than","Is Less Than or Equal To","Contains",
+      "Does Not Contain","Starts With"],
+    "filter_chips": "可叠加，每个带 ✕ 可单独移除",
+    "selection": "逐行复选 + 表头全选",
+    "paging": "100/页，‹ › 翻页，左上角显示「1 - 100 of N」"
+  },
+
+  "export_points": [
+    { "where": "任一网格的工具条导出按钮", "panel": "Excel / Text / Script 三页签",
+      "excel": ["Excel Workbook (.xlsx)","Excel Old Binary Workbook (.xls)","Refreshable Web Query (.iqy)"],
+      "text": { "separator": ["Tab","Comma","Colon","Semicolon"], "quote": ["Double (\")","Single (')"] },
+      "column_headers": ["None","Caption","Field Key"],
+      "export_selected_rows": "未选行时禁用，选了行才可勾",
+      "note": "导出遵守当前筛选与排序" }
+  ],
+
+  "deliberate_deviations": [
+    { "what": "Excel 页签导出的实际是 .csv", "real": "真站导出 .xlsx / .xls / .iqy",
+      "why": "纯静态前端无法生成 xlsx；文件内容与列一致，只是容器格式不同" },
+    { "what": "Summary Statistics / Bar Chart / Pie Chart / Quick Chart 只出现在菜单里且置灰",
+      "real": "真站可用", "why": "不做假的图表；菜单项照抄是为了让菜单结构真实" },
+    { "what": "没有登录、没有 QC 状态的修改动作",
+      "real": "真站登录后 QC Analyst 可以改 QC 状态", "why": "匿名只抓到展示态，没抓到交互，不臆造" },
+    { "what": "没有 run 详情页", "real": "真站有 run properties 视图，本次没抓到",
+      "why": "run 级字段（Comments / Replaces / Replaced By / Flag）改成 Runs 网格里的列——这本来就是 LabKey 的做法，不新增页面" }
+  ],
+
+  "layer2_contract": {
+    "allowed": ["替换 data/batches.json / runs.json / results.json / assay.json",
+                "按 extension_point 换掉自定义测量字段并同步各页的 columns 定义",
+                "调整 pageSize",
+                "改 assay.json 的 assayName / description / folder / files"],
+    "forbidden": ["新增真站不存在的页面", "删掉 extension_point.must_keep 里的字段",
+                  "把置灰的图表菜单项做成能用的（真站有但我们没抓，做了就是臆造）"],
+    "unmappable": "塞不进 object_model 的任务数据标 disposition=file 留在磁盘，不进 GUI"
+  }
+}
