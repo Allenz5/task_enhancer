@@ -2,7 +2,7 @@ import json, os, random, re
 from menu import build
 
 MENU = build()
-rows = json.load(open('../tasks.json'))
+rows = json.load(open('tasks.json'))
 random.Random(20260823).shuffle(rows)
 SAMPLE = rows  # 全量
 json.dump([r['custom_id'] for r in SAMPLE], open('full_ids.json','w'))

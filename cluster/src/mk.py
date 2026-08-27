@@ -1,6 +1,6 @@
 import json, re, os
 B='/Users/allenzhang/Desktop/workspace/task_enhancer/cluster/'
-rows=json.load(open(B+'tasks.json')); v2=json.load(open(B+'v2/final_labels.json'))
+rows=json.load(open(B+'tasks.json')); v2=json.load(open(B+'final_labels.json'))
 prov=json.load(open('prov_round1.json'))
 STOP={'wind','city','snap','mast','building','amplitude','priva','mace','core','flow','origin','pulse','atlas','excel','git','github','python','kaggle','generic','unknown','fusion','vision','spark','arc','edge','delta','prism','matrix','helix','summit','vertex','cluster','portal','platform','system','studio','suite','server','national'}
 TOOL={'microsoft excel','matlab','kubernetes','flask','vs code','docker','numpy','pandas','jupyter','pytorch','tensorflow','scikit-learn','postgresql','mysql','nginx','linux','ubuntu','django','fastapi','sqlite','node.js'}

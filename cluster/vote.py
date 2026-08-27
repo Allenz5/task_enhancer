@@ -14,7 +14,7 @@ def load(d):
 
 runs = [load(d) for d in ('fullA','fullB','fullC') if glob.glob(d+'/*.json')]
 ids  = json.load(open('full_ids.json'))
-rows = json.load(open('../tasks.json')); byid = {r['custom_id']: r for r in rows}
+rows = json.load(open('tasks.json')); byid = {r['custom_id']: r for r in rows}
 g2   = json.load(open('g2_categories.json'))
 from menu import SUPPLEMENT
 NAME = {**g2, **SUPPLEMENT}

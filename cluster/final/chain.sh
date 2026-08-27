@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /Users/allenzhang/Desktop/workspace/task_enhancer/cluster/v2/final
+cd /Users/allenzhang/Desktop/workspace/task_enhancer/cluster/final
 for p in A B; do
   for i in 1 2 3; do
     python3 run.py $p >> pass$p.log 2>&1

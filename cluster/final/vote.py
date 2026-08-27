@@ -1,5 +1,5 @@
 import json, glob, re, csv, collections, sys
-V='/Users/allenzhang/Desktop/workspace/task_enhancer/cluster/v2/'
+V='/Users/allenzhang/Desktop/workspace/task_enhancer/cluster/'
 sys.path.insert(0,V)
 from menu import SUPPLEMENT
 B='/Users/allenzhang/Desktop/workspace/task_enhancer/cluster/'

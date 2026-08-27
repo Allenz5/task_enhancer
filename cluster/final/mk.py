@@ -1,15 +1,15 @@
 import json, re, os, sys
 B='/Users/allenzhang/Desktop/workspace/task_enhancer/cluster/'
-sys.path.insert(0,'/Users/allenzhang/Desktop/workspace/task_enhancer/cluster/v2')
+sys.path.insert(0,'/Users/allenzhang/Desktop/workspace/task_enhancer/cluster')
 from menu import SUPPLEMENT
-g2=json.load(open('/Users/allenzhang/Desktop/workspace/task_enhancer/cluster/v2/g2_categories.json')); keep=json.load(open('/Users/allenzhang/Desktop/workspace/task_enhancer/cluster/v2/menu_keep.json'))
+g2=json.load(open('/Users/allenzhang/Desktop/workspace/task_enhancer/cluster/g2_categories.json')); keep=json.load(open('/Users/allenzhang/Desktop/workspace/task_enhancer/cluster/menu_keep.json'))
 def strip_ex(d): return re.sub(r'\s*[（(].*','',d.split('——')[0]).strip() or d[:60]
 MENU='\n'.join([f'{s} | {g2[s]}' for s in keep]+[f'{s} | {strip_ex(d)}' for s,d in SUPPLEMENT.items()])
 
 rows=json.load(open(B+'tasks.json')); byid={r['custom_id']:r for r in rows}
-roles=json.load(open('/Users/allenzhang/Desktop/workspace/task_enhancer/cluster/v2/src/roles.json'))
+roles=json.load(open('/Users/allenzhang/Desktop/workspace/task_enhancer/cluster/src/roles.json'))
 done={c for c,v in roles.items() if v.get('role')=='出处' and v.get('source')}
-poison=json.load(open('/Users/allenzhang/Desktop/workspace/task_enhancer/cluster/v2/src/poison.json'))
+poison=json.load(open('/Users/allenzhang/Desktop/workspace/task_enhancer/cluster/src/poison.json'))
 todo=[r['custom_id'] for r in rows if r['custom_id'] not in done]
 print(f'待分类 {len(todo)} 条（已筛走 {len(done)}），其中毒名任务 {len([c for c in todo if c in poison])} 条')
 json.dump(todo, open('final/ids.json','w'))

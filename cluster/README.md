@@ -113,8 +113,6 @@ x-research-dataset-repository       公开数据集下载页     (UCI, Zenodo, K
 
 ```bash
 python3 extract.py                      # 上游 jsonl → tasks.json（1299 条）
-
-cd v2
 python3 menu.py                         # g2_categories.json + SUPPLEMENT → menu.txt
 python3 mkprompts_full.py               # → prompts_full/
 python3 runfull.py A                    # → fullA/
@@ -127,14 +125,14 @@ python3 mk.py && python3 run.py         # → p/ → oA/ → roles.json
 python3 blind2.py && python3 runb2.py   # → 盲测
 
 cd ..                                   # 第二层：菜单投票
-python3 final/mk.py                     # ← 这一步在 v2/ 下跑，→ final/ids.json + final/p/
+python3 final/mk.py                     # ← 这一步在 cluster/ 下跑，→ final/ids.json + final/p/
 cd final
 python3 run.py                          # → rA/ rB/
 python3 third.py && python3 run.py C
 python3 vote.py                         # → final_all.json + assignment_full.csv
 ```
 
-注意 `final/mk.py` 的工作目录是 `v2/`，而同目录下其余脚本的工作目录是 `v2/final/`。
+注意 `final/mk.py` 的工作目录是 `cluster/`，而同目录下其余脚本的工作目录是 `cluster/final/`。
 
 `chain.sh` / `chain2.sh` 是把上面几步串起来的守护脚本（等前一轮跑完、失败重试）。
 

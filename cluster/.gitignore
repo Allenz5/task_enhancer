@@ -3,23 +3,23 @@ tasks.json
 
 # 逐批 LLM prompt 与响应 —— 重跑即重建，聚合结果（final_labels.json /
 # roles.json / final_all.json）都已入库
-v2/prompts_full/
-v2/fullA/
-v2/fullB/
-v2/fullC/
-v2/final/p/
-v2/final/rA/
-v2/final/rB/
-v2/final/rC/
-v2/final/sp/
-v2/final/sA/
-v2/final/sB/
-v2/src/p/
-v2/src/oA/
-v2/src/bp/
-v2/src/bp2/
-v2/src/bA/
-v2/src/b2A/
+prompts_full/
+fullA/
+fullB/
+fullC/
+final/p/
+final/rA/
+final/rB/
+final/rC/
+final/sp/
+final/sA/
+final/sB/
+src/p/
+src/oA/
+src/bp/
+src/bp2/
+src/bA/
+src/b2A/
 
 *.log
 *.done

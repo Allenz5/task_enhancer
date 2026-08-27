@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /Users/allenzhang/Desktop/workspace/task_enhancer/cluster/v2
+cd /Users/allenzhang/Desktop/workspace/task_enhancer/cluster
 while pgrep -f "runfull.py A" > /dev/null; do sleep 20; done
 python3 runfull.py B > passB.log 2>&1
 python3 mkthird.py > third.log 2>&1
