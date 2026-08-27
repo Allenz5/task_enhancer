@@ -66,7 +66,7 @@ for b, chunk in enumerate(llm.batched(ids, 10)):
     for j, cid in enumerate(chunk):
         r = byid[cid]
         nm = named[cid]['source']
-        fn = ', '.join(f['name'] or '' for f in r['files'][:6])
+        fn = ', '.join(r['files'][:6])
         body.append(f"### 任务 {b*10+j}\ntask_name: {redact(r['task_name'] or '', nm)}\n"
                     f"industry_domain: {r['industry_domain']}\nfiles: {redact(fn, nm)}\n"
                     f"task_description: {redact(re.sub(r'\s+',' ', r['desc'])[:900], nm)}\n"

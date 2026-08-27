@@ -73,7 +73,7 @@ for b, chunk in enumerate(llm.batched(todo, 12)):
             nm = '、'.join(f'「{x}」' for x in v['names'])
             warn = (f"\n⚠ 本任务提到的 {nm} 已判定为**{v['role']}**，"
                     f"不是数据来源，不要据此判断。")
-        fn = ', '.join(f['name'] or '' for f in r['files'][:6])
+        fn = ', '.join(r['files'][:6])
         body.append(f"### 任务 {b*12+j}{warn}\ntask_name: {r['task_name']}\n"
                     f"industry_domain: {r['industry_domain']}\nfiles: {fn}\n"
                     f"task_description: {re.sub(r'\s+',' ', r['desc'])[:900]}\n"
