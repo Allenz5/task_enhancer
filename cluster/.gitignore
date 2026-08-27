@@ -1,40 +1,9 @@
-.venv/
-__pycache__/
-out/
-asg/
-ev/
-ev2/
-ev3/
-batches/
-*.npz
-*.npy
+# 从上游 jsonl 抽出的语料（11M，extract.py 重建）
 tasks.json
-docs.json
-ev4/
-ev5/
-ev6/
-ev7/
-fit/
-fit2/
-fc11/
-fc22/
-fc33/
-gran/
-hard1/
-hard2/
-rand1/
-settle/
-settle2/
-shape/
-cat/
-cat2/
-swjudge/
-_stale_round1/
 
-# v2/ 是现行方法（G2 品类 + 原文点名），只排除逐批 LLM prompt/响应
-v2/prompts/
+# 逐批 LLM prompt 与响应 —— 重跑即重建，聚合结果（final_labels.json /
+# roles.json / final_all.json）都已入库
 v2/prompts_full/
-v2/out[0-9]/
 v2/fullA/
 v2/fullB/
 v2/fullC/
@@ -42,12 +11,16 @@ v2/final/p/
 v2/final/rA/
 v2/final/rB/
 v2/final/rC/
+v2/final/sp/
 v2/final/sA/
 v2/final/sB/
-v2/final/sp/
 v2/src/p/
 v2/src/oA/
 v2/src/bp/
 v2/src/bp2/
 v2/src/bA/
 v2/src/b2A/
+
+*.log
+*.done
+__pycache__/

@@ -1,9 +1,0 @@
-pass C: 74 batches
-  10/74  b011 ok  197s
-  20/74  b022 ok  380s
-  30/74  b033 ok  536s
-  40/74  b043 ok  678s
-  50/74  b053 ok  838s
-  60/74  b066 ok  965s
-  70/74  b079 ok  1146s
-pass C done in 1176s
