@@ -15,7 +15,8 @@
 ## 菜单
 
 `g2.html` 是 G2 品类页的存档，抽出 **2239 个品类**存进 `g2_categories.json`，
-`menu_keep.json` 是剪枝后实际使用的 780 项。
+`menu_keep.json` 是剪枝后实际使用的 780 项 —— 加上补充项共 794 行，
+分类与盲测都用这一份。
 
 `menu.py` 在这之上手写了 **14 个 `x-` 补充项**，都是 G2 没有对应行的垂直领域：
 
@@ -29,16 +30,25 @@ x-research-dataset-repository       公开数据集下载页     (UCI, Zenodo, K
 ```
 
 易混的两两之间写了显式辨析（"注意与 SCADA 区分"），因为模型最容易在这种地方滑走。
-最终菜单 `menu.txt` 共 2253 行。
+补充项在喂给模型前会被 `strip_ex()` 去掉产品举例，免得模型直接从菜单里抄名字。
 
 ## 两层，按顺序
 
-### 第一层：规则 + 角色判定（`src/`）
+### 第一层：抽取 + 角色判定（`src/`）
 
-`src/mk.py` 用产品名词表和 URL 正则扫任务原文，扫出 **410 条**带候选名字的任务。
+**抽取**（`mk_cand.py` → `runc.py` → `parse_cand.py`）。让模型通读每条任务的原文，
+把可能跟数据出身有关的名字列出来，每个名字附一段逐字引用。这一步只管找名字、
+不判断角色，指令明确要求**宁可多给不要漏** —— precision 由下一步负责。
 
-但名字出现 ≠ 名字是来源。同一个名字可能是五种角色之一，所以不直接采信，
-交给模型判断（`src/run.py` 驱动）：
+`parse_cand.py` 做落地校验：名字和引用都必须能在原文里字符串匹配上，对不上的丢弃。
+这是补回正则唯一的优点 —— 正则命中一定真实存在，模型抽取不然。
+
+> 早先这一步是拿正则扫一份产品名词表，词表来自上一轮模型对同一批任务的猜测。
+> 天花板是硬的：上一轮没猜到的名字永远进不了候选池，而且为了拿这份词表得先跑
+> 一整轮全量标注，标完的 slug 又全部作废。换成模型抽取后，那一轮连同词表一起删了。
+
+**角色判定**（`mk.py` → `run.py`）。名字出现 ≠ 名字是来源，同一个名字可能是五种角色
+之一，所以不直接采信 —— 模型只看到任务名 + 候选名 + 每个候选前后各 110 字符：
 
 | 角色 | 条数 | 例子 |
 |---|---:|---|
@@ -112,15 +122,11 @@ x-research-dataset-repository       公开数据集下载页     (UCI, Zenodo, K
 
 ```bash
 python3 extract.py                      # 上游 jsonl → tasks.json（1299 条）
-python3 menu.py                         # g2_categories.json + SUPPLEMENT → menu.txt
-python3 mkprompts_full.py               # → prompts_full/
-python3 runfull.py A                    # → fullA/
-python3 runfull.py B                    # → fullB/
-python3 mkthird.py && python3 runfull.py C third_batches.txt
-python3 vote.py                         # → final_labels.json（第一层要用它的产品名建词表）
 
-cd src                                  # 第一层：规则 + 角色
-python3 mk.py && python3 run.py         # → p/ → oA/ → roles.json
+cd src                                  # 第一层：抽取 + 角色判定
+python3 mk_cand.py && python3 runc.py A # → cp/ → cA/     全量抽取候选
+python3 parse_cand.py                   # → cands.json    落地校验
+python3 mk.py && python3 run.py A       # → p/ → oA/ → roles.json
 python3 blind2.py && python3 runb2.py   # → 盲测
 
 cd ..                                   # 第二层：菜单投票
@@ -133,8 +139,6 @@ python3 vote.py                         # → final_all.json + assignment_full.c
 
 注意 `final/mk.py` 的工作目录是 `cluster/`，而同目录下其余脚本的工作目录是 `cluster/final/`。
 
-`chain.sh` / `chain2.sh` 是把上面几步串起来的守护脚本（等前一轮跑完、失败重试）。
-
 ## 还缺的
 
 - **三处硬编码绝对路径**：`src/mk.py`、`final/mk.py`、`final/vote.py` 里写死了
@@ -143,8 +147,6 @@ python3 vote.py                         # → final_all.json + assignment_full.c
   `menu_keep.json` 的剪枝、`poison.json` 的整理，都是当时手动做的。
 - **`split_result.json` 是一次没留脚本的二次核对**：对最大的 `x-test-bench-daq`
   等品类抽了 111 条重判，100 条维持、11 条改判。想复现得重写。
-- **`prov_round1.json` 是早期一轮的遗留**，`src/mk.py` 只拿它扩充正则词表。
-  丢了不影响结论，只会让第一层少扫出几条候选。
 - **`tasks.json` 没有入库**（11M），`extract.py` 读的上游 jsonl 也不在仓库里。
   clone 下来跑不了全流程，但 `final_all.json` 等结论文件是完整的。
 

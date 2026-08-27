@@ -1,9 +1,9 @@
 import subprocess, glob, os, sys, concurrent.futures as cf, time, json, re
 PASS = sys.argv[1]                       # A / B / C
 ONLY = sys.argv[2] if len(sys.argv) > 2 else None   # 可选：只跑这个文件里列的批次
-outdir = f'full{PASS}'
+outdir = f'c{PASS}'
 os.makedirs(outdir, exist_ok=True)
-files = sorted(glob.glob('prompts_full/*.txt'))
+files = sorted(glob.glob('cp/*.txt'))
 if ONLY:
     keep = set(open(ONLY).read().split())
     files = [f for f in files if os.path.basename(f).replace('.txt','') in keep]

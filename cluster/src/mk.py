@@ -1,30 +1,7 @@
-import json, re, os
+import json, os
 B='/Users/allenzhang/Desktop/workspace/task_enhancer/cluster/'
-rows=json.load(open(B+'tasks.json')); v2=json.load(open(B+'final_labels.json'))
-prov=json.load(open('prov_round1.json'))
-STOP={'wind','city','snap','mast','building','amplitude','priva','mace','core','flow','origin','pulse','atlas','excel','git','github','python','kaggle','generic','unknown','fusion','vision','spark','arc','edge','delta','prism','matrix','helix','summit','vertex','cluster','portal','platform','system','studio','suite','server','national'}
-TOOL={'microsoft excel','matlab','kubernetes','flask','vs code','docker','numpy','pandas','jupyter','pytorch','tensorflow','scikit-learn','postgresql','mysql','nginx','linux','ubuntu','django','fastapi','sqlite','node.js'}
-def norm(p): return re.split(r'[（(/、,]', p)[0].strip()
-lex=set()
-for s in (v2, prov):
-    for v in s.values():
-        p=v.get('product')
-        if p:
-            n=norm(p)
-            if len(n)>=4 and n.lower() not in STOP and n.lower() not in TOOL: lex.add(n)
-pat=re.compile(r'(?<![A-Za-z0-9])('+'|'.join(sorted((re.escape(x) for x in lex),key=len,reverse=True))+r')(?![A-Za-z0-9])',re.I)
-url=re.compile(r'https?://\S+|www\.[a-z0-9-]+\.[a-z]{2,}|\b[a-z0-9-]{3,}\.(?:com|org|net|gov|edu|io|cn)\b',re.I)
-def blob(r): return ' ⏐ '.join([r['task_name'] or '', r['desc'] or '', r['reqs'] or '', r['verify'] or '',
-                                ' '.join(f['name'] or '' for f in r['files'])])
-cands=[]
-for r in rows:
-    s=re.sub(r'\s+',' ', blob(r)); seen={}
-    for m in list(pat.finditer(s))+list(url.finditer(s)):
-        k=m.group(0)
-        if k.lower() in seen: continue
-        seen[k.lower()]=s[max(0,m.start()-110):min(len(s),m.end()+110)]
-        if len(seen)>=4: break
-    if seen: cands.append((r, seen))
+rows=json.load(open(B+'tasks.json')); byid={r['custom_id']:r for r in rows}
+cands=[(byid[cid], seen) for cid, seen in json.load(open('cands.json')).items()]
 print('待判任务', len(cands))
 json.dump([r['custom_id'] for r,_ in cands], open('ids.json','w'))
 

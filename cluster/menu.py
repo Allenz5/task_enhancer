@@ -21,13 +21,3 @@ SUPPLEMENT = {
 # 已删除（与 G2 撞车）：
 #   x-eda-design-verification  → 用 G2 的 pcb-design
 #   x-code-review-workbench    → 用 G2 的 version-control-hosting / version-control-software
-
-def build():
-    g2 = json.load(open('g2_categories.json'))
-    lines = [f"{s} | {n}" for s, n in sorted(g2.items())]
-    lines += [f"{s} | {n}" for s, n in SUPPLEMENT.items()]
-    return "\n".join(lines)
-
-if __name__ == '__main__':
-    m = build(); open('menu.txt','w').write(m)
-    print(len(m.splitlines()), 'entries, ~', len(m)//4, 'tokens')
