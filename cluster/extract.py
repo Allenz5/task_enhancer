@@ -15,7 +15,6 @@ for line in open(SRC):
         'task_name': d.get('task_name'),
         'status': d.get('status'),
         'industry_domain': t.get('industry_domain'),
-        'software': t.get('software_and_version'),
         'os': t.get('operating_system'),
         'licensing': t.get('software_licensing'),
         'desc': t.get('task_description') or '',
