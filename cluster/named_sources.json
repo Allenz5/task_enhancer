@@ -1,0 +1,2017 @@
+{
+"cn-all-remaining-0012-3f9dd525": {
+"source": "OpenSim 4.3",
+"confidence": 0.85,
+"context": "基于 OpenSim 4.3 的最大速度短跑支撑期下肢动力学审计与技术限制因子判定 ⏐ Agent 将收到短跑最大速度阶段的 OpenSim 输入数据、OpenSim 4.3 模型/设置文件、IK/ID 输出、GRF 或派生力学数据、运动员基础信息"
+},
+"cn-all-remaining-0013-177a3250": {
+"source": "OpenSim 4.3",
+"confidence": 0.6,
+"context": "基于 OpenSim 4.3 的短跑起跑器设置 A/B 对比、前两步推进效率与肌肉需求分析 ⏐ Agent 将收到 2 个合成 subject profile 在 BASE 与 ADJ 两种场景标签下的 8 条 synthetic fixture。"
+},
+"cn-all-remaining-0014-ae2a0ad8": {
+"source": "OpenSim 4.3",
+"confidence": 0.9,
+"context": "基于 OpenSim 4.3 输出的短跑干预研究可复现统计分析与论文结果包生成 ⏐ Agent 作为科研数据分析师，接收 OpenSim 4.3 处理后的短跑最大速度阶段 IK、ID、QC、支撑期指标和 101 点归一化曲线。Agent 必须完成数"
+},
+"cn-all-remaining-0015-c1b61c11": {
+"source": "OpenSim 4.3",
+"confidence": 0.9,
+"context": "基于 OpenSim 4.3 的短跑动力学指标测试-重测可靠性、测量误差与科研结局变量筛选 ⏐ Agent 作为科研数据分析师，接收 OpenSim 4.3 输出型短跑最大速度阶段 IK、ID、QC、支撑期指标、关节做功和 101 点归一化曲线。O"
+},
+"cn-all-remaining-0017-e3ac6e4a": {
+"source": "Severstal Steel Defect Detection",
+"confidence": 0.85,
+"context": "行自动化检测和质量评估。 在钢铁生产过程中，表面缺陷会严重影响产品质量和下游加工。本任务要求你分析给定的钢板表面图像，检测并分割缺陷区域，同时生成专业的质量评估报告。 【数据来源】 本任务使用 Kaggle 公开数据集 Severstal Steel Defect Detection。 【任务输入】 从附件 severstal-input.zip 解压得到： - 00001.jpg — 存在折叠(Fold)缺陷 - 00002.jpg — 存在划痕(Scratch)缺陷 - 00003.jpg — "
+},
+"cn-all-remaining-0022-a7309437": {
+"source": "VASP",
+"confidence": 0.9,
+"context": "基于 ASE 与机器学习势函数统一接口的 B16W4 晶体结构全弛豫项目开发 ⏐ 请基于已上传的 VASP 结构文件 `POSCAR`，开发一个完整、可安装、可运行、可测试的 Python 项目，使用 ASE 组织晶体结构弛豫流程，并通过 ASE Calculator 统一接口调用机器学习势函数。项目需要对 `POSCAR`"
+},
+"cn-all-remaining-0023-c6ea8ded": {
+"source": "VASP",
+"confidence": 0.9,
+"context": "基于 Phonopy 有限位移法与机器学习势函数的 B16W4 晶体声子谱计算项目开发 ⏐ 请基于已上传的 VASP 结构文件 `POSCAR`，开发一个完整、可安装、可运行、可测试的 Python 项目，使用 Phonopy 有限位移法生成超胞位移构型，并通过标准 ASE Calculator 接口调用机器学习势函数计算每个位移超胞"
+},
+"cn-all-remaining-0024-337ba4e9": {
+"source": "VASP",
+"confidence": 0.9,
+"context": "基于准谐近似、Phonopy 与机器学习势函数的晶体热膨胀系数及体积温度曲线计算项目开发 ⏐ 请基于已上传的 VASP 结构文件 `POSCAR`，开发一个完整、可安装、可运行、可测试的 Python 项目，使用准谐近似（QHA）计算晶体材料的体积热膨胀系数和体积随温度变化的曲线。项目需要使用 ASE 组织零温结构弛豫和机器学习势函数调"
+},
+"cn-all-remaining-0026-729327ea": {
+"source": "VASP",
+"confidence": 0.9,
+"context": "基于 Phono3py 与机器学习势函数的 B16W4 晶格热导率计算项目开发 ⏐ 请基于已上传的 VASP 结构文件 `POSCAR`，开发一个完整、可安装、可运行、可测试的 Python 项目，使用 Phono3py 有限位移法和机器学习势函数计算 B16W4 晶体的温度依赖晶格热导率。项目需要通过 ASE Calcula"
+},
+"cn-all-remaining-0030-349ac3ae": {
+"source": "Geofabrik",
+"confidence": 0.9,
+"context": "摩纳哥公国的离线矢量瓦片包，要求兼容 OpenMapTiles Vector Tile Schema v3.0，能直接被 tileserver-gl 上线、用 maplibre-gl 样式表渲染出来。数据已经下好了，是 Geofabrik 的 monaco-latest.osm.pbf（686KB，ODbL，可自由再分发），放在 reference_files 目录里，同目录还有一份 task_spec.md 是验收规范，你先读一遍。另外还有一份实习同学"
+},
+"cn-all-remaining-0031-b2b5d783": {
+"source": "OpenSim 4.5.1",
+"confidence": 0.7,
+"context": "OpenSim 4.5.1 途中跑单步支撑外部力学有效性分析 ⏐ 你将收到 3 名匿名短跑运动员在最大速度附近途中跑阶段的 OpenSim 4.5.1 scaled 模型、12 个关节坐标时序文件、同步模型派生地面反作用力和 24 个左右支撑搜索"
+},
+"cn-all-remaining-0032-4d3edeb8": {
+"source": "OpenSim 4.5",
+"confidence": 0.92,
+"context": "途中跑前摆事件格状态转移、双向闭合与下一支撑准备度分析 ⏐ 使用附件提供的匿名化 OpenSim 4.5 模型、坐标时序和模型派生地面反作用力，对标称最大速度途中跑的前摆阶段进行可复算、可证伪的生物力学分析。任务对象是既有 OpenSim 数据，不包含视频识别、动作采集或上游数据生成；原始模型、motion、派生 GRF "
+},
+"cn-all-remaining-0041-c6549c75": {
+"source": "OpenSim",
+"confidence": 0.75,
+"context": "短跑途中跑下压阶段多证据链双向验证分析 ⏐ 基于 26 条匿名短跑途中跑试次、26 个缩放 OpenSim 模型、26 份运动表、26 份接触事件信号及 858 张 BodyKinematics/PointKinematics 表，完成终末摆动下压阶段到触地状态、再到触地后制动结果的可复核分析。 任务要求并行识别 P1-P4"
+},
+"cn-all-remaining-0043-bf5fc64f": {
+"source": "淘宝",
+"confidence": 0.85,
+"context": "增长规划。请基于指定输入附件及公开可访问资料，完成 2023 年 1 月 1 日至 2025 年 12 月 31 日中国宠物食品行业研究，重点分析行业规模与增长、细分品类变化、消费者需求、线上渠道趋势及竞争格局；附件中的淘宝、抖音商品页和小红书笔记为竞品当前快照证据，须用于产品、价格、渠道及内容营销分析。 本任务的固定竞品为：顽皮 Wanpy、麦富迪 Myfoodie、太阳家、鲜朗 RosyFresh、疯狂小狗、多格漫 Doggyman、Z"
+},
+"cn-all-remaining-0046-451fb7f6": {
+"source": "LogPAI/loghub",
+"confidence": 0.95,
+"context": "k）出现异常（写入失败、副本不足、BlockRecovery 异常）。需要你从 HDFS 日志里识别出哪些 block_id 是异常的，输出一份预测表给下游 SRE 排障用。 数据来自业界公开 benchmark —— LogPAI/loghub 的 HDFS 子集（github.com/logpai/loghub，CC-BY 4.0，可自由再分发），是真实 Hadoop 集群运行产生的块级操作日志，1000+ 论文都在用。公司日志已经被 ELK / Loki "
+},
+"cn-all-remaining-0047-0ba8b32b": {
+"source": "DLRobot TR500",
+"confidence": 0.8,
+"context": "STM32F407 TR500 移动机器人全链路控制可靠性升级、自动化验证与可追溯交付 ⏐ \"现有工程是运行于 STM32F407VETx 的 DLRobot TR500 差速移动底盘控制固件。USER/main.c 创建 FreeRTOS 启动任务，随后启动 Balance_task、MPU6050_task、show_task、led_task、data_task 和 RC_task"
+},
+"cn-all-remaining-0048-20a1803f": {
+"source": "Intel RealSense D455",
+"confidence": 0.8,
+"context": "Intel RealSense D455 RGB-D 三维目标感知系统可靠性升级、离线部署与自动化验收交付 ⏐ 本任务以 D455_ws 的真实构建缓存为准：工程实际基于 Ubuntu Bionic、ROS Melodic、CPython 3.6.9 与 vi"
+},
+"cn-all-remaining-0061-17f616d5": {
+"source": "CGCNN",
+"confidence": 0.85,
+"context": "CGCNN 预训练材料性质推理与论文复现边界审计 ⏐ 请复现 CGCNN 的预训练模型推理程序，并对论文复现范围形成可审计报告。程序需要加载 7 个回归检查点和 1 个金属/半导体分类检查点，对固定 10 个 CIF 晶体输出材料"
+},
+"cn-all-remaining-0062-2b5e3ba2": {
+"source": "D3REAM",
+"confidence": 0.75,
+"context": "面向凝聚态物理的 D3REAM 全空间晶体描述符与周期晶体图复现 ⏐ 请依据 Inputs 中提供的 D3REAM 论文、确定性复现规格和五个晶体结构，开发一个完整、可运行、可测试的 Python 项目，复现论文中以元素向量 `a`、化学计量向量 `"
+},
+"cn-all-remaining-0063-4a16f58b": {
+"source": "Server Machine Dataset",
+"confidence": 0.9,
+"context": "U/内存/磁盘 IO/网络/负载等，已归一化到 [0,1]），每分钟采一次。最近服务器频繁告警，需要你从多变量时序数据里识别出哪些时间窗口是异常的，输出一份预测表给运维排障用。数据来自业界公开 benchmark —— Server Machine Dataset (SMD)（github.com/NetManAIOps/OmniAnomaly，MIT License，可自由再分发），由清华 NetMan 实验室发布、KDD 2019 论文配套，真实互联网公司 28 台服务器 5"
+},
+"cn-all-remaining-0064-f465db7b": {
+"source": "OTTO",
+"confidence": 0.9,
+"context": "OTTO 电商会话 next-click 推荐 ⏐ Top-20 商品（aid），用于首页 / 详情页\"看了又看\"推荐位。 数据来自业界公开 benchmark —— OTTO Recommender Systems Datas"
+},
+"cn-all-remaining-0066-a535bec7": {
+"source": "FORWARD",
+"confidence": 0.75,
+"context": "alization_contract.json` 是程序必须读取的公开处理契约。程序必须自动忽略同一目录中的 `.xlsm` 文件，不能把 JSON 或工作簿误判为测井数据。 2. 必须支持制表符分隔文本、空格分隔文本、FORWARD/LOGEXPRESS 文本和 LAS 2.0。`LOG_003.las` 虽声明 `WRAP=NO`，但一个深度记录实际跨多行，程序应按照曲线数正确重组记录。 3. 输出曲线及顺序固定为：DEPTH SP GR AC "
+},
+"cn-all-remaining-0068-c81cc32b": {
+"source": "Adult Census Income",
+"confidence": 0.95,
+"context": "审计：补全实习同学提交的残缺校验规则配置（expectations），对全表执行验证，输出结构化质量报告 validation_report.json，精确标记每条规则命中了哪些违反行。数据来自公开 benchmark Adult Census Income（UCI ML Repository，经 scikit-learn 镜像，CC0-1.0 public domain，可自由再分发，无需署名）。业界对表格数据质量审计有标准做法：定义 expectations（期望规则集"
+},
+"cn-all-remaining-0070-65ebea1e": {
+"source": "Steam",
+"confidence": 0.8,
+"context": "Steam 英文游戏名到国区官方中文名批量匹配与审核工具 ⏐ \" 现有项目需要整理一批 Steam 游戏名称数据，用于建立“英文游戏名与中国大陆地区 Steam 商店官方简体中文名”的可靠对应关系。前期已经完成游戏名称清洗、英文全"
+},
+"cn-all-remaining-0071-37996442": {
+"source": "OTTO Recommender Systems Dataset",
+"confidence": 0.95,
+"context": "on）记录了依次点击/加购/下单的商品（aid）。给定每会话前 70% 的行为历史，预测该用户在剩余 30% 未来行为里会交互哪些商品，为每个会话产出 Top-20 召回列表。数据来自业界公开 benchmark —— OTTO Recommender Systems Dataset（github.com/otto-de/recsys-dataset，数据 CC-BY 4.0 License、代码 MIT，可自由再分发），真实德国 OTTO 电商会话日志，2022 RecSys 挑战赛配套。本任务取"
+},
+"cn-all-remaining-0072-1e08f36f": {
+"source": "Open Power System Data",
+"confidence": 0.95,
+"context": "，需要从起点 2020-08-31 23:00 出发，一次性预测 2020-09-01 00:00:00 到 2020-09-30 23:00:00 共 720 小时的负荷。 数据来自业界公开 benchmark —— Open Power System Data（time_series 包，版本 2020-10-06 最终冻结版，DOI 10.25832/time_series/2020-10-06），是德国（DE）国家层面 ENTSO-E Transparency 实测负荷 "
+},
+"cn-all-remaining-0073-452b7fbc": {
+"source": "Bank Marketing",
+"confidence": 0.95,
+"context": "（带订阅结果 y），训练二分类模型预测客户是否会订阅（y ∈ {yes,no}），用于呼叫前客户优先级排序。任务只用通话前可知的特征（已剔除目标泄漏列 duration=通话时长）。数据来自业界公开 benchmark Bank Marketing（UCI ML Repository，archive.ics.uci.edu/dataset/222/bank+marketing，CC-BY 4.0 License，可自由再分发），Moro et al. 2014，真"
+},
+"cn-all-remaining-0074-d8d19fe8": {
+"source": "NASA C-MAPSS",
+"confidence": 0.95,
+"context": "靠性 / PHM 数据工程师，负责航空发动机机队的健康管理与剩余寿命（RUL）预测。公司需要从每台发动机的多传感器退化时序中，预测每个观测时刻的剩余寿命（单位：循环），RUL 越短越优先安排检修。 数据来自业界公开基准 NASA C-MAPSS（data.nasa.gov，CC0 / Public Domain，可自由再分发、可商用），是真实涡扇发动机退化仿真产生的多传感器时序，航空/制造业 PHM 领域 1000+ 论文都在用。你拿到的是 FD001 子集："
+},
+"cn-all-remaining-0075-d8b42022": {
+"source": "AG News Topic Classification",
+"confidence": 0.95,
+"context": " 公司新闻聚合产品每天抓取数十万条英文新闻，需要把它们自动归到 4 个主题频道——World / Sports / Business / Sci/Tech，给下游推荐和分发系统用。数据来自业界公开 benchmark——AG News Topic Classification（Xiang Zhang, Junbo Zhao, Yann LeCun, NIPS 2015，由 AG 新闻语料库 ComeToMyHead 学术搜索引擎构造，是 NLP 文本分类最经典的 benchmark 之一，被"
+},
+"cn-all-remaining-0076-9295b271": {
+"source": "20 Newsgroups",
+"confidence": 0.95,
+"context": "20 Newsgroups 多类文本分类管道 ⏐ 你是一名 NLP / 数据工程师，岗位是\"文本分类 / 内容路由工程师\"。公司有一个新闻组（newsgroup）论坛归档，需要把海量帖子自动归类到 20 个话题板块（如 comp.graphics"
+},
+"cn-all-remaining-0079-687957c7": {
+"source": "UNSW-NB15",
+"confidence": 0.95,
+"context": "安全 ML 工程师。从网络流量记录（每条连接 flow 的统计特征：协议/服务/包数/字节数/时间…）识别攻击流量（label=1）vs 正常（label=0），用于自动告警筛选。 数据来自业界公开 benchmark UNSW-NB15（UNSW 网络安全数据集，GitHub 多镜像可下载，ACCS 创建；版权归 ACCS/UNSW 保留，官方 research.unsw.edu.au/projects/unsw-nb15-dataset 授予学术研究"
+},
+"cn-all-remaining-0090-ab9a3d0b": {
+"source": "SMMT",
+"confidence": 0.55,
+"context": "实、数据、法规、税率或结论直接用于英国研究。英国部分的全部市场数据、法规政策、税费、认证要求、企业信息和自然环境信息，均须通过公开资料重新检索、验证并标注来源。优先使用英国政府部门、VCA、DVSA、DVLA、HMRC、SMMT、ICO、Met Office、英国地质调查局、行业机构及企业官网等权威公开来源；数据有效期截至 2026 年 7 月 24 日。 研究内容须沿用案例的三类宏观环境结构： 技术环境：英国汽车产业发展历程、研发与制造能力、"
+},
+"cn-all-remaining-0094-f32031a4": {
+"source": "OpenSim 4.5",
+"confidence": 0.9,
+"context": "OpenSim 4.5 短跑起跑加速期单步态周期下肢生物力学分解与技术诊断分析 ⏐ 基于已提供的 OpenSim 4.5 IK、缩放模型和派生 GRF，对匿名短跑起跑加速连续记录切分出的三个事件窗口进行单步态周期分析。每个窗口的第 3 个支撑"
+},
+"cn-all-remaining-0095-8f5537c0": {
+"source": "OpenSim 4.5",
+"confidence": 0.9,
+"context": "短跑途中跑（最大速度期）单步态周期下肢生物力学分解与刚度-力施加技术分析 ⏐ 你将扮演运动生物力学数据分析师，处理同一匿名短跑运动员在同一场次中的 2 次独立最大速度期标签试次。输入包括 OpenSim 4.5 逆运动学数据、左右足派生地面反作用力、对应缩放模型、元数据和机器可读规则。请对每次试次第 2 个支撑期及其完整同侧步态周期完成输入质检、滤波、事件识别、触地/腾空与条件化 AP 子相位、OpenSim 逆动力学、髋膝踝"
+},
+"cn-all-remaining-0097-f836cdfa": {
+"source": "OpenSim 4.5",
+"confidence": 0.9,
+"context": "短跑途中跑单记录片段多证据时空组织、状态闭合与分辨率审计 ⏐ 给定一条匿名短跑途中跑记录片段的 OpenSim 4.5 IK、标记点轨迹、缩放肌骨模型、合成模型派生 GRF 代理、匿名体格参数和冻结规则，答题者需要完成该记录的时空步态组织、多证据内部闭合、侧别—时间可辨识性和事件分辨率敏感性审计。 任务从给定 IK、标记点和合成模型派生"
+},
+"cn-all-remaining-0098-da2ff8ac": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "短跑加速单试次派生 GRF—骨盆运动学连续时间双向状态重建、处理路径归因与可辨识性审计 ⏐ 你将扮演运动生物力学数据分析师，处理一条匿名短跑加速记录的既有 OpenSim 逆运动学表与派生 GRF 表。正式 ik.mot 和 derived_grf.sto 已完整提供并冻结；不得删行、改列、补全、平滑覆盖或重写正式输入。任务目标不是简单输出若干指标，而是在同一时间网格上建立一条可由正式输"
+},
+"cn-all-remaining-0099-d5e10074": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "短跑起跑加速期多步态身体构型、关节协调拓扑与跨试次稳健性分析 ⏐ 给定同一匿名短跑运动员 3 条约 59.5 Hz 的完整起跑加速记录，包括 OpenSim IK、标准化标记点轨迹、模型派生 GRF 和每条记录唯一配对的缩放模型。每条记录识别前 7 个支撑期，第 2–5 支撑期进入分析，共形成 12 个完整分析步。 任务首先输出可复算的触地构型、支撑期关节运动、同侧摆动回收"
+},
+"cn-all-remaining-0103-2b1a2190": {
+"source": "QM9",
+"confidence": 0.55,
+"context": " MEGNet 预训练推理与论文复现边界审计 ⏐ 请复现 MEGNet 论文程序的预训练模型加载和本地固定样例推理，并提交一份论文复现边界审计报告。程序应加载输入包内的 HDF5+JSON 模型，对固定晶体 CIF 和 QM9 分子样例输出预测 CSV，并明确区分“本地预训练推理可复现”和“论文规模重新训练仍需完整数据与算力”的边界。 本任务面向从事材料机器学习复现实验和科研模型审计的物理学家或科研软件工程师。交付物必须是可运行、可验证的推理"
+},
+"cn-all-remaining-0110-9c074cb8": {
+"source": "VASP",
+"confidence": 0.6,
+"context": "M3GNet 周期晶体图与三体索引构建模块复现 ⏐ 请根据输入材料中给出的周期图定义和 3 个 VASP POSCAR 晶体结构，开发一个完整、可运行、可测试的 Python 项目，复现 M3GNet 类材料图网络在模型输入阶段使用的周期晶体图构建流程。项目需要从晶格、元素和分数坐标出发，在周期边界条件下生成有向近邻边、周"
+},
+"cn-all-remaining-0117-1fe73b6d": {
+"source": "ttcrpy",
+"confidence": 0.6,
+"context": "，以及哪些坐标实际上不能由数据唯一确定。请帮我开发二维P−S差时定位和批量精度评估程序。附件提供关于光纤轴对称的非均匀 \\(V_P,V_S\\) 模型、垂直DAS几何和5个盲测事件的差时数据。五个事件分布在光纤两侧，差时由ttcrpy理论走时加入均值为0、标准差为0.15 ms的高斯噪声生成，并使用固定随机种子2305形成可重复的确定性噪声实现；其真实位置不作为答题输入。`observed_ps_benchmark.csv` 中的 `sigma_s="
+},
+"cn-all-remaining-0119-59547d3b": {
+"source": "Utah FORGE",
+"confidence": 0.95,
+"context": "Utah FORGE 井轨迹与压裂微震几何下载、清洗及三维可视化 ⏐ 我们正在整理 Utah FORGE 地热试验场的井网和压裂微震几何关系，为后续的射线路径分析、事件定位质量控制和井间监测设计提供统一底图。目前井轨迹和 2022 年 4 "
+},
+"cn-all-remaining-0122-af317fbc": {
+"source": "Utah FORGE",
+"confidence": 0.95,
+"context": "Utah FORGE公开数据下载、三维速度模型重建与可视化 ⏐ 我需要在后续微震定位、射线追踪和波形模拟中统一使用 Utah FORGE 中央区域三维 P、S 波速度模型。现有公开资料分散在多个数据集：61 个 SPAC 一维 Vs 剖面、"
+},
+"cn-all-remaining-0127-6da3cfcb": {
+"source": "Pose2Sim",
+"confidence": 0.7,
+"context": "les.yaml 固定全部计算、模型选择、反事实、敏感性及证据裁决规则；coordinate_overrides.yaml 固定坐标解释；provenance/ 固化来源与派生链、权利主体、参与者授权索引、去标识化边界、Pose2Sim BSD-3-Clause 许可证、Rajagopal 科学归属、模型修改和可视化几何资产边界。 执行者在 原始项目文件.zip 解压后的 SPRINT-ACC-ARM-01_skeleton/ 内实现候选计算。sche"
+},
+"cn-all-remaining-0131-17b02b87": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "短跑起跑加速期触地落点—躯干前倾的模型—物理—鲁棒性三层闭合分析 ⏐ 你是一名短跑生物力学分析师。输入是一条已完成匿名化、OpenSim 缩放、逆运动学和派生力代理处理的冻结起跑加速记录。任务不包括采集、视频识别、缩放、重新求解 IK 或逆动力学，也不允许修改原始 TRC、MOT、STO、OSIM 与上游 QC 文件。 正式主分析对象仍为 20 N 主阈"
+},
+"cn-all-remaining-0132-a04b6dbd": {
+"source": "UCI Human Activity Recognition Using Smartphones",
+"confidence": 0.95,
+"context": "ALKING / WALKING_UPSTAIRS / WALKING_DOWNSTAIRS / SITTING / STANDING / LAYING），用于健康监测/运动追踪。 数据来自业界公开 benchmark UCI Human Activity Recognition Using Smartphones（archive.ics.uci.edu/dataset/240，UCI 公开，学术研究免费使用，可再分发注明来源），30 名受试者、6 类活动、内置 7352/2947 标准 train/test 切分。561 维特征"
+},
+"cn-all-remaining-0133-f7460d93": {
+"source": "Pen-Based Recognition of Handwritten Digits",
+"confidence": 0.95,
+"context": "符号的轨迹特征（数字笔采集，16 维归一化坐标特征），没有标签、也不知道有多少种符号。需要用无监督聚类把样本分成若干自然簇，每个簇对应一种符号，用于符号库自动整理/无标签数据初探。 数据来自业界公开 benchmark Pen-Based Recognition of Handwritten Digits（UCI ML Repository，archive.ics.uci.edu/dataset/81，UCI 公开，学术研究免费使用，可再分发注明来源），手写符号笔轨迹，每样本 16 维（8 个 (x,y) 重采样坐标）。"
+},
+"cn-all-remaining-0134-cd25fa80": {
+"source": "Electrical Grid Stability Simulated Data",
+"confidence": 0.95,
+"context": "节点星型系统，给定各节点反应时间 tau1-4、功率平衡 p1-4、价格弹性 g1-4，训练二分类模型预测电网稳定（stable）还是失稳（unstable），用于电网调度/预警。 数据来自业界公开 benchmark Electrical Grid Stability Simulated Data（UCI ML Repository，archive.ics.uci.edu/dataset/471，UCI 公开，学术研究免费使用，可再分发注明来源），Denis et al. 2018，4 节点智能电网稳定性仿真。1"
+},
+"cn-all-remaining-0135-8319cf05": {
+"source": "USGS FDSN Event Web Service",
+"confidence": 0.95,
+"context": "8日，美国犹他州Magna附近发生Mw 5.7地震，随后产生了密集余震序列。我的研究课题就是分析这次主震发生后的余震统计量。附件 `magna_usgs_catalog_raw.csv` 是使用固定时间、空间和震级条件从USGS FDSN Event Web Service获得的真实目录。目录包含1858条事件记录及定位、震级和质量字段，但尚未完成统计分析。 请开发一套可重复运行的地震序列分析程序，完成目录质量控制、主震和余震选择、完整性震级评估、Gutenberg–Richter b值及"
+},
+"cn-all-remaining-0136-025708d5": {
+"source": "MNIST",
+"confidence": 0.95,
+"context": "MNIST 手写数字识别管道 ⏐ 公司有一个手写数字自动录入系统（票据/邮编/表单），需要训练一个数字识别模型。你拿到 12,000 张带标签训练图（28×28 灰度，label 0-9）和 10,000 张无标签测试图，需要对测"
+},
+"cn-all-remaining-0138-69bd676c": {
+"source": "UCI Covertype",
+"confidence": 0.95,
+"context": "变量（海拔、坡度、距水源/道路/火点距离、Hillshade、4 个 Wilderness_Area、40 个 Soil_Type），需要预测每个单元的森林覆盖类型（7 类）。数据来自业界公开 benchmark —— UCI Covertype（archive.ics.uci.edu/dataset/31/covertype，CC-BY 4.0，可自由再分发），森林覆盖类型预测的标准 benchmark。**测试集为私有随机切分**：全量 581,012 行已"
+},
+"cn-all-remaining-0139-9b7aa92c": {
+"source": "UCI Bank Marketing",
+"confidence": 0.95,
+"context": "管道 ⏐ 银行刚结束一轮定期存款电话营销，市场部需要一份\"哪些客户会订阅\"的预测表，用来为下一轮外呼排优先级。你手上有历史客户画像与宏观经济指标，需要预测测试客户的订阅倾向。 数据来自业界公开 benchmark —— UCI Bank Marketing（archive.ics.uci.edu/dataset/222/bank+marketing，CC-BY 4.0，可自由再分发），葡萄牙银行真实电话营销数据，客户响应预测的标准 benchmark。**测试集为私有随机"
+},
+"cn-all-remaining-0142-0a9b052b": {
+"source": "Open Power System Data",
+"confidence": 0.9,
+"context": "你是一名能源 / 电力数据工程师，岗位是\"负荷预测工程师\"。电力公司需要预测未来一段时段每个小时的用电负荷（单位 MW），用于发电机组调度、新能源消纳与电力市场交易——预测越准，备用容量成本越低。 数据来自业界公开基准 Open Power System Data（time_series 数据包，data.open-power-system-data.org，CC-BY 4.0，可自由再分发）。你拿到的是德国（DE）实际电网逐小时负荷（ENTSO-E Transparency），"
+},
+"cn-all-remaining-0143-17a50046": {
+"source": "Fashion-MNIST",
+"confidence": 0.9,
+"context": "Fashion-MNIST 服装图像分类管道 ⏐ 你是一名计算机视觉 / 数据工程师，岗位是\"图像分类工程师\"。电商平台需要把商品图片自动归类到 10 个服装品类（T-shirt、Trouser、Pullover、Dress、Coat、Sanda"
+},
+"cn-all-remaining-0144-a17cd5ce": {
+"source": "美国地质调查局",
+"confidence": 0.9,
+"context": "实测 MT/AMT EDI 质控与平滑一维电阻率反演 ⏐ 附件是美国地质调查局公开发布的 Mount St. Helens 火山区 13 个实测电磁测点 EDI 文件。请开发一个可复用的 EDI 质控与一维电阻率反演流程，读取完整阻抗张量，计算视电阻率、相位、行列式响应和相位张量指标，识别缺失值、"
+},
+"cn-all-remaining-0146-83026528": {
+"source": "UCI Superconductivity Data",
+"confidence": 0.95,
+"context": "，岗位是\"材料属性预测工程师\"。实验室在大量候选超导材料中筛选，需要从材料的原子/热力学特征预测其临界温度 critical_temp（K），给下游高通量材料发现排优先级——临界温度越高越有价值。 数据来自业界标准基准 UCI Superconductivity Data（Hamidieh 2018，archive.ics.uci.edu，开放需署名引用，可商用）。21,263 种超导材料 × 81 个特征（8 类原子属性的 mean/wtd_mean/gmean/entropy/ran"
+},
+"cn-all-remaining-0148-25afc0d0": {
+"source": "MIDAS",
+"confidence": 0.75,
+"context": "真实 GNSS 速度场质量控制与稳健二维应变率反演 ⏐ 我准备利用北美GNSS速度产品研究加利福尼亚—内华达构造变形，但原始MIDAS文件覆盖范围很大，站点观测时长、有效历元数和速度不确定度差异明显，站点空间分布也高度不规则。若直接插值后做有限差分，稀疏区、离群速度和边界外推会产生没有观测支持的高应变。 请帮我开发一条可审计的二维水平应变率反演流程：正"
+},
+"cn-all-remaining-0149-4942e976": {
+"source": "UCI Human Activity Recognition Using Smartphones",
+"confidence": 0.95,
+"context": "岗位是\"活动识别工程师\"。公司有一款智能手环/手机健康 App，需要从设备传感器（加速度计+陀螺仪）的统计特征判定用户当前的活动（走路、上下楼、坐、站、躺），给下游运动追踪、久坐提醒、跌倒检测用。 数据来自业界标准基准 UCI Human Activity Recognition Using Smartphones（Anguita et al.，archive.ics.uci.edu，开放需署名引用，可商用）。30 名受试者腰挎智能手机做 6 类活动；原始信号经工程化提取为 561 维时域/频域/角度统计特征（已归一化到 [-1,"
+},
+"cn-all-remaining-0151-f7249cf5": {
+"source": "IU.ANMO",
+"confidence": 0.9,
+"context": "真实远震三分量响应校正、坐标旋转与震相验证 ⏐ 附件是 2011 年 3 月 11 日 Mw 9.1 东北日本地震在 IU.ANMO 台站记录的真实三分量 MiniSEED、台站 StationXML 和事件 QuakeML。请建立一个可复用的 ObsPy 波形处理工程，将原始 counts 正确转换为地面速度，依据通道元数据完成方向旋转，计算理论震"
+},
+"cn-all-remaining-0152-263ab951": {
+"source": "UCI Beijing PM2.5",
+"confidence": 0.95,
+"context": "5 浓度回归预测管道 ⏐ 你是一名环境工程 / 空气质量数据工程师，岗位是\"空气质量预测工程师\"。环保部门需要从逐小时气象观测预测 PM2.5 浓度（µg/m³），用于污染预警与公众健康风险提示。 数据来自业界标准基准 UCI Beijing PM2.5（Liang et al.，archive.ics.uci.edu，开放需署名引用，可商用）。北京驻站 2010–2014 逐小时 PM2.5 + 气象（气温、气压、露点、风向、风速、雨雪）。业界标准做法（逐点回归，非时"
+},
+"cn-all-remaining-0155-15cf16ab": {
+"source": "Comstock",
+"confidence": 0.9,
+"context": "航磁测线交叉点平差与调平 ⏐ 我们项目组收到了一批美国 Comstock 地区的航空磁测数据库，准备利用这批资料追踪断裂、侵入体边界和区域磁性结构。初步质控显示，两组近正交测线在交点处存在系统性不闭合；如果未经调平直接网格化，结果会出现沿飞行方向的条带，掩盖弱磁异常并影响构造解释。请帮我开发"
+},
+"cn-all-remaining-0156-d5cf6958": {
+"source": "DART",
+"confidence": 0.85,
+"context": "DART海啸到时与传播速度判定 ⏐ 2011 年日本东北地震发生后，值班人员需要从北太平洋 DART 海底压力记录中尽快确认海啸是否已经越过监测阵列，并向传播模型提供可复核的观测时标。原始年度文件同时混有 15 分钟、1 分钟和"
+},
+"cn-all-remaining-0159-fc7402fc": {
+"source": "Adult Census Income",
+"confidence": 0.95,
+"context": "计：补全实习同学提交的残缺校验规则配置（expectations），对全表执行验证，输出结构化质量报告 validation_report.json，精确标记每条规则命中了哪些违反行。 数据来自公开 benchmark Adult Census Income（UCI ML Repository，经 scikit-learn 镜像，CC0-1.0 public domain，可自由再分发，无需署名）。业界对表格数据质量审计有标准做法：定义 expectations（期望规则集"
+},
+"cn-all-remaining-0161-5575a6fd": {
+"source": "Fashion-MNIST",
+"confidence": 0.95,
+"context": "Fashion-MNIST 衣物图像十分类 ⏐ 公司电商平台的商品图片需要做自动分类打标。你拿到一份衣物图像 benchmark（Fashion-MNIST，28×28 灰度，10 类），需要训练一个图像分类器，对测试集每张图预测类别，输出 pr"
+},
+"cn-all-remaining-0163-f216c49f": {
+"source": "IU.COLA",
+"confidence": 0.9,
+"context": "真实 SKS 剪切波分裂测量与上地幔各向异性评估 ⏐ 我近期打算开展一些上地幔各向异性研究丰富我的博士课题。初步准备利用阿拉斯加 IU.COLA 台站研究上地幔各向异性。现有 16 个震中距 85°–130°、Mw≥6.8 的真实远震 SKS 波形。不同事件的入射方位、信噪比和横向能量差异很大，部分事件可能是 null，部分最优解会落在延迟搜索边界。如果只对所有"
+},
+"cn-all-remaining-0164-ac08314c": {
+"source": "California Housing",
+"confidence": 0.95,
+"context": "加州房价回归预测 ⏐ 公司房产评估部门需要自动化房价估算模型。你拿到加州人口普查街区房价数据（California Housing），需要训练回归模型，对测试集每个街区预测房价中位数，输出 predictions.csv 给评估系统。 数据来自公开 benchmark California Housing（1990 加州人口普查，经 Aurélie"
+},
+"cn-all-remaining-0166-b4934700": {
+"source": "Ridgecrest",
+"confidence": 0.75,
+"context": "Ridgecrest 主震后地震簇稳健双差重定位 ⏐ double-difference是一种非常经典的地震相对定位算法。我想在想用该算法处理实际数据：Ridgecrest 主震后 24 小时内，目录中相邻余震的绝对位置误差与断层分支间距处"
+},
+"cn-all-remaining-0167-883d33da": {
+"source": "MNIST",
+"confidence": 0.95,
+"context": "MNIST 数字无监督聚类 ⏐ 公司拿到一批手写数字图像（MNIST）但没有标签，需要用无监督聚类把\"长得像\"的数字自动分到同一簇，输出每个样本的簇号给下游人工标注系统（每簇只标一次就能给整簇打标）。 数据来自公开 benchma"
+},
+"cn-all-remaining-0168-382cfa9c": {
+"source": "AG News",
+"confidence": 0.95,
+"context": "AG News 新闻主题建模 ⏐ 公司拿到一批新闻文章（AG News）但没有类别标签，需要用无监督主题建模（LDA）自动发现潜在主题，把每篇文章分配到最相关主题，输出主题词分布 + 文档-主题分配给下游内容分析系统。 数据来自公开 "
+},
+"cn-all-remaining-0169-866f3425": {
+"source": "Cora",
+"confidence": 0.95,
+"context": "基于Cora的引文网络链接预测 ⏐ 公司有一个学术引文网络（Cora，论文间的引用关系），需要你做链接预测：给定论文节点特征 + 已观察到的部分引用边，预测测试集中的论文对之间是否会有引用关系。这能用于好友推荐/论文推荐/商品关联挖"
+},
+"cn-all-remaining-0171-e39ad0aa": {
+"source": "NASA C-MAPSS",
+"confidence": 0.95,
+"context": "NASA C-MAPSS 涡扇发动机 RUL 预测 ⏐ 航空公司有一批涡扇发动机在持续运行，传感器每周期记录运行参数（温度/压力/转速）。发动机随时间退化最终故障。你需要预测每台发动机的剩余使用寿命（RUL）——还能安全运行多少周期——以便在故"
+},
+"cn-all-remaining-0173-475052f5": {
+"source": "UCI Bike Sharing Dataset",
+"confidence": 0.95,
+"context": "公司共享单车运营团队需要逐时预估未来各时段的租赁量 cnt，用于车辆调度、运维排班和库存规划。你拿到历史的逐时租赁数据 + 天气/日历特征，需要训练回归模型预测未来时段的 cnt。数据来自业界公开 benchmark——UCI Bike Sharing Dataset（Hadi Fanaee-T, University of Porto, 2014，Capital Bikeshare 系统 2011-2012 真实逐时租赁数据 + 天气/日历特征，CC-BY 4.0 明确可自由再分发"
+},
+"cn-all-remaining-0174-9d91f75b": {
+"source": "CWRU Bearing Dataset",
+"confidence": 0.95,
+"context": "，轴承故障是导致非计划停机的首要原因。你通过分析轴承座加速度传感器的振动信号，判断轴承处于 正常 / 内圈故障 / 外圈故障 / 滚珠故障 哪种状态，给运维团队排程检修。 数据来自业界最权威的公开 benchmark——CWRU Bearing Dataset（Case Western Reserve University Bearing Data Center），滚动轴承故障诊断领域的标准数据集，预测性维护/CBM 领域上千篇论文都在用，学术研究免费使用。12kHz 采样驱"
+},
+"cn-all-remaining-0175-d4ad3f28": {
+"source": "Steel Plates Faults",
+"confidence": 0.95,
+"context": "哪一类（Pastry / Z_Scratch / K_Scatch / Stains / Dirtiness / Bumps / Other_Faults），用于产线自动分拣/告警。数据来自业界公开 benchmark Steel Plates Faults（UCI ML Repository，archive.ics.uci.edu/dataset/198，UCI 公开，学术研究免费使用，可再分发注明来源），钢带表面缺陷自动图像分析特征，1941 条样本。7 类高度不平衡（"
+},
+"cn-all-remaining-0176-d6d67203": {
+"source": "UCI Concrete Compressive Strength",
+"confidence": 0.95,
+"context": "司需要预测不同配合比混凝土的 28 天抗压强度（MPa），用于配方优化与质量控制。你拿到 UCI Concrete 数据（8 个配合比成分 + 龄期 → 强度），需训练回归模型预测强度。数据来自公开 benchmark UCI Concrete Compressive Strength（1030 样本 × 8 特征，UCI ML Repository 免费学术使用广泛再分发）。业界做法：GBM/RandomForest 非线性回归（混凝土强度-配合比是强非线性关系，线性 Ridge R² 仅 0.63"
+},
+"cn-all-remaining-0183-f366890f": {
+"source": "Sentinel-2 L2A",
+"confidence": 0.9,
+"context": "Sentinel-2 影像子区地表覆盖分类 ⏐ 你在遥感应用中心负责地表覆盖制图。 image.tif 为一景 Sentinel-2 L2A 地表反射率影像的子区，5 个波段依次为 blue、green、red、nir、swir16，512 × 512 像元，空间分辨率 20 米，投影 UTM 50N，成像日期 2023-11-14，覆盖约 10.2 公里见"
+},
+"cn-all-remaining-0191-ca010215": {
+"source": "ttcrpy",
+"confidence": 0.8,
+"context": "收器坐标、1800 条含测量噪声及少量异常值的首波到时，以及一个只包含垂向速度梯度的初始 P 波速度模型。该数据是我在井间层析方法开发工作中采用的相关数据：速度模型、观测系统、干净理论到时和含噪观测均由固定 NumPy/ttcrpy 物理正演程序生成，并保留生成代码、参数与随机种子。受保护的真实模型和干净到时仅用于结果评测，不向答题agent开放。真实模型包含初始模型中没有的横向速度异常。请设计一个完整的二维首波走时层析成像程序，从给定初始模型和观"
+},
+"cn-all-remaining-0204-96586aa4": {
+"source": "SEC",
+"confidence": 0.9,
+"context": "构建 SEC Inline XBRL 申报审计与 Company Facts 对账数据管道 ⏐ 作为资本市场数据平台的数据工程师，使用给定的 NVIDIA CORP 2025-11-19 Form 10-Q 官方 SEC 固定快照，"
+},
+"cn-all-remaining-0206-ba9d1d88": {
+"source": "GSE242889",
+"confidence": 0.85,
+"context": "(untitled) ⏐ 请进行GSE242889 单细胞转录组下游分析。项目已提供从 GEO 下载的 GSE242889_RAW.tar 和 environment.md；以 environment.md 为环境规格，由你完成环境安装、验证和锁定，不再另行设计软件栈。"
+},
+"cn-all-remaining-0207-8b063b46": {
+"source": "NVD",
+"confidence": 0.9,
+"context": "构建 NVD/CISA 漏洞情报规范化与时态修复优先级数据产品 ⏐ 作为企业安全运营平台的漏洞情报数据工程师，使用给定的 NVD CVE API 2.0 发布时间窗口与 CISA KEV 官方目录固定快照，离线构建一条可审计、可重复"
+},
+"cn-all-remaining-0209-c0b07690": {
+"source": "Open-Meteo Archive",
+"confidence": 0.95,
+"context": "柏林气象温度递归多步预测 ⏐ 气象局需要预测未来 72 小时（3 天）逐小时 2m 气温（°C），用于农业霜冻预警、能源供暖调度、交通结冰预警。你拿到 Open-Meteo Archive 柏林 2022-2023 逐小时实测气象数据（5 变量），需训练回归模型递归多步预测温度。 数据来自公开气象 API Open-Meteo Archive（CC-BY 4.0 可自由再分发），柏林 52.52°N 13"
+},
+"cn-all-remaining-0210-a492a1f7": {
+"source": "SKAB",
+"confidence": 0.95,
+"context": "速度/电流/压力/温度/热电偶/电压/体积流量）每秒采样。近期频繁告警，疑似有部分时段出现异常（阀门异常启闭、泵气蚀、堵塞）。需要从多变量时序里识别出哪些时间窗口异常，给运维排障。 数据来自业界公开 benchmark SKAB（Skoltech Anomaly Benchmark，github.com/waico/SKAB，GPL-3.0，开源可再分发可商用）。35 个实验，每实验是一段含/不含注入异常的连续运行，共 46,806 采样点 ×"
+},
+"cn-all-remaining-0211-8626b54a": {
+"source": "UCI Appliances Energy Prediction",
+"confidence": 0.95,
+"context": "。低能耗住宅的家电耗电波动剧烈（10分钟级，0-1080 Wh）。构建概率预测模型，给定房屋内外传感器条件（各房间温湿度、室外天气、照度、日历），预测每个测试样本家电能耗的 80% 预测区间（q10/q90）。数据来自 UCI Appliances Energy Prediction（Candanedo et al. 2017, archive.ics.uci.edu/ml/datasets/appliances+energy+prediction，学术研究使用）。实习同学只做了点预测（无区间能力）"
+},
+"cn-all-remaining-0212-294e3740": {
+"source": "Open Power System Data",
+"confidence": 0.9,
+"context": " 2015-01-01 到 2020-09-16 的法国逐小时历史负荷，需要从起点出发，递归多步预测 2020-09-17 到 2020-09-30 共 336 小时的负荷。 数据来自业界公开 benchmark —— Open Power System Data（time_series 包，版本 2020-10-06，DOI 10.25832/time_series/2020-10-06，CC-BY 4.0，OPSD 平台声明 + PyPSA-Eur 文档双源佐证，可自由再分发"
+},
+"cn-all-remaining-0213-58019df6": {
+"source": "HAI Security Dataset",
+"confidence": 0.95,
+"context": "真P4）持续采集79路运维指标。近期系统遭受多起网络攻击，部分时段指标异常。你需要从多变量时序数据识别哪些时间窗口异常，并定位异常发生在哪个工艺过程(P1/P2/P3)，给运维排障用。 数据来自公开 benchmark HAI Security Dataset（github.com/icsdataset/hai，HIL-based Augmented ICS，真实工业控制系统+硬件在环仿真，KDD 2019 领域，学术研究使用），2020+ 发布，ICS 安全检测专业数据集（"
+},
+"cn-all-remaining-0224-36cf0ef9": {
+"source": "franka_description",
+"confidence": 0.8,
+"context": "Panda 7-DOF 冗余机械臂多约束逆运动学求解(含肘部朝上约束) ⏐ 基于 Franka Emika Panda 官方公开 URDF(franka_description 提供的 运动学与几何参数),对给定的目标末端位姿 T_target 求解 7 自由度冗余 机械臂的逆运动学(IK)。由于 Panda 属于 7-DOF 冗余臂,IK 解不唯一, Agent 必须在冗余零空间中挑选一个同"
+},
+"cn-all-remaining-0226-3fc6271b": {
+"source": "CPIC",
+"confidence": 0.75,
+"context": "基于CPIC指南的药物基因组学个体化用药决策支持系统构建与验证 ⏐ \"需从零构建PGx-CDSS（药物基因组学临床决策 支持系统）。精读3份CPIC指南（华法林/氯吡格雷/ 他汀），提取基因型→表型翻译规则，实现IWPC 12参数剂"
+},
+"cn-all-remaining-0228-930473c4": {
+"source": "WHO/ISH",
+"confidence": 0.75,
+"context": "基于WHO/ISH 2019模型的 CVD风险评估与分级管理 ⏐ \"世界卫生组织与国际高血压学会联合发布了2019版心血管疾病风险预测图表，采用颜色编码矩阵快速评估个体未来10年发生致死性或非致死性主要心血管事件的综合风险。你是心内科方向"
+},
+"cn-all-remaining-0231-5620634f": {
+"source": "VASP",
+"confidence": 0.95,
+"context": "B16W4 晶体有限温度体积响应与热膨胀计算工作流开发 ⏐ 请基于已上传的 VASP 结构文件 `POSCAR`，开发一个完整、可安装、可运行、可测试的 Python 项目，使用准谐近似（QHA）计算晶体材料的体积热膨胀系数和体积随温度变化的曲线。项目需要使用 ASE 组织零温结构弛豫和机器学习势函数调"
+},
+"cn-all-remaining-0232-d62432a4": {
+"source": "Origin",
+"confidence": 0.7,
+"context": "CuS/Cu-ZIF纳米材料多模态表征数据处理与可复现结果报告 ⏐ 现有一套Cu-ZIF前驱体及不同硫化条件样品的真实多模态表征资料，包含DLS原始工作簿、UV-vis-NIR与FTIR仪器导出数据、Origin工程、Zeta电位图，以及记录TEM、光热升温和降解现象的原始PPT。请建立一套可重复运行的Python分析项目，在不改写任何原始文件的前提下，统一样品命名，完成DLS、Zeta、UV-vis-NIR和FTIR的定量整理"
+},
+"cn-all-remaining-0241-a840346d": {
+"source": "MTA",
+"confidence": 0.7,
+"context": "构建 MTA 地铁无障碍资产与站点运维审计数据产品 ⏐ 作为公共交通资产数据平台的资深数据工程师，使用给定的 MTA / New York State Open Data 固定快照，离线构建一条可审计、可重复运行的数据管道。统一站点"
+},
+"cn-all-remaining-0242-be25547c": {
+"source": "University_Utah_FORGE_78B-32_FMI_dips.las",
+"confidence": 0.75,
+"context": "高裂缝带自动识别 ⏐ 我是地球物理学博士，对成像测井解释与裂缝统计并不熟悉。目前科研成果需要从78B-32 井的 FMI 解释成果中确定裂缝随深度的变化、高裂缝段和优势产状，为后续地热井段对比与现场复核提供依据。附件 `University_Utah_FORGE_78B-32_FMI_dips.las` 是已经解释出的平面构造拾取记录。每条记录包含测深、裂缝倾向、真倾角、孔径、井斜和解释类型；其中既有天然裂缝，也有钻井诱导张裂缝和井壁崩落。请帮我开发一套 Python 程序，读取该 LAS 3.0 文件，区分天然裂缝"
+},
+"cn-all-remaining-0245-a6640871": {
+"source": "Anza",
+"confidence": 0.75,
+"context": "非因果部分可能不对称。Sheng 等（2017）提出利用多个次级源台站的晚期 C1 尾波再次互相关，构造 C3，并将次级源的垂直、北向和东向分量组合成多分量 C3。 请依据附件论文独立复现该处理流程，并在附件的一天真实 Anza 环境噪声子集上验证。数据已经去仪器响应为地表速度并降采样到约 1 Hz。固定 R1 为 `YN.TR02..HHZ`；`YN.TFRD`、`YN.JORD`、`YN.GVAR1` 和 `YN.RHIL` 同时作为候选 "
+},
+"cn-all-remaining-0249-07d18b19": {
+"source": "FlyWire",
+"confidence": 0.85,
+"context": "你是一名计算神经科学可视化工程师。你的任务是根据提供的果蝇（Drosophila）视叶连接组神经元数据，生成一个符合 Neuroglancer 规范的复杂可视化状态文件。 起始状态： - 你有一个包含 2000 个真实 FlyWire 神经元的数据文件（target_neurons.csv），包含神经元 ID、细胞类型和 3D 质心坐标。 - 你有一个 Neuroglancer 初始状态模板（base_state_template.json），包含基"
+},
+"cn-all-remaining-0250-dd5e6757": {
+"source": "benedekrozemberczki/datasets",
+"confidence": 0.85,
+"context": "师，岗位是\"药物相互作用预测工程师\"。制药公司需要从已知\"药物→靶点基因\"关联网络中，预测哪些药物对会发生相互作用（共用代谢/转运通路导致药效或毒副作用改变），用于上市后安全监测与新药联用筛选。 数据来自公开生物医学图（benedekrozemberczki/datasets 的 tigerlily 示例数据，MIT 许可，可自由再分发；底层为公开 DrugBank 药物 + Entrez 基因）。1106 个药物、约 2.6 万靶点基因、81.7 万药物-基因关联。业界对药物相互作用(DD"
+},
+"cn-all-remaining-0251-9c900545": {
+"source": "Open Power System Data",
+"confidence": 0.9,
+"context": "/亚得里亚海小电网，峰荷~3000MW）需要预测未来两周（336小时）逐时负荷。你拿到2015-01-01到2020-09-16的HR逐小时历史负荷，需递归多步预测2020-09-17到09-30共336小时。 数据来自Open Power System Data（time_series包，版本2020-10-06，DOI 10.25832/time_series/2020-10-06，CC-BY 4.0）。克罗地亚(HR)ENTSO-E Transparency实测逐时负荷。标"
+},
+"cn-all-remaining-0252-36566ef7": {
+"source": "UCI Wine Quality",
+"confidence": 0.9,
+"context": "庄需要从葡萄酒的理化指标(酸度/酒精/pH/硫化物等 11 维 + 红白类型)预测品质评分(0-10 整数，序数离散)，用于品控分级。品质是有序的(9>8>7>...>3)，预测差 1 级比差 3 级的代价小。数据来自 UCI Wine Quality(红+白葡萄酒，6497 行，学术研究使用)。业界做法：序数分类(RandomForest)——把品质当有序离散类别，比连续回归(输出小数再取整)更优。实习同学误用连续回归(linear_regression 输出 5."
+},
+"cn-all-remaining-0253-e224ded0": {
+"source": "USGS Water Data",
+"confidence": 0.95,
+"context": " 天密西西比河（St. Louis 站）逐日平均流量（cfs），用于防洪调度、水库泄洪、航运管理。你拿到 USGS 公开数据（站点 07010000，2010-2023 日流量），需训练回归模型递归多步预测。 数据来自 USGS Water Data（waterservices.usgs.gov，站点 07010000，US federal public domain 可自由使用）。业界做法：日历 sin/cos（month 季节）+ 流量滞后（t-1/7/14/3"
+},
+"cn-all-remaining-0254-6e32e684": {
+"source": "UCI Metro Interstate Traffic Volume",
+"confidence": 0.97,
+"context": "交通流量递归多步分位数预测 ⏐ 交通管理部门需预测未来两周(336小时)逐小时交通流量，需概率预测(p10/p50/p90分位数)，用于风险评估。数据来自UCI Metro Interstate Traffic Volume(CC-BY 4.0)，每小时流量+天气/假期，2012-2018。业界做法：时间周期(sin/cos)+天气+滞后→GBR(loss='quantile',alpha)×3→递归多步。实习同学残缺：squared_er"
+},
+"cn-all-remaining-0255-b2e13f01": {
+"source": "IGS",
+"confidence": 0.75,
+"context": "IGS NYA2 多星座 RINEX-Kp 完整性审计 ⏐ 我提供挪威斯瓦尔巴 NYA2（NYA200NOR）站 2024-05-09 至 2024-05-12四个 GPS 日的 IGS RINEX 3.05 观测文件、`NY"
+},
+"cn-all-remaining-0261-e71a7c3d": {
+"source": "Higress",
+"confidence": 0.9,
+"context": "Higress OpenAI 转 Claude 时丢失缓存 Token 用量 ⏐ 在提供的 Higress 修复前源码中，完善 OpenAI 响应转换为 Claude 响应时的 Token 用量映射逻辑。 当前转换流程能够传递普通输入"
+},
+"cn-all-remaining-0262-796b7763": {
+"source": "Alibaba Open Code Review",
+"confidence": 0.92,
+"context": "fix(diff): review merge commits against their first parent ⏐ 在提供的 Alibaba Open Code Review 修复前源码中，修复 commit 模式无法正确处理 Git merge commit 的问题。 当前执行： ocr review --commit <merge-commit> 时，底层使用普通的 git show 命"
+},
+"cn-all-remaining-0263-3cce95f4": {
+"source": "Alibaba Open Code Review",
+"confidence": 0.92,
+"context": "并发代码审查中的 WaitGroup 竞态与任务错误 ⏐ 在提供的 Alibaba Open Code Review 修复前源码中，修复多文件并发审查过程中 CommentWorkerPool 的 WaitGroup 竞态问题。 当前每个文件的审查 goroutine 在执行 review filter 前，会调用任务池级别的全局 A"
+},
+"cn-all-remaining-0264-cb4d04f6": {
+"source": "Higress",
+"confidence": 0.9,
+"context": "Higress MCP 配置更新导致 SSE 长连接中断 ⏐ 在提供的 Higress 修复前完整源码中，修复 MCP Golang Filter 配置更新可能导致 Listener 配置变化及 SSE 长连接中断的问题。 当前 MC"
+},
+"cn-all-remaining-0267-2abe3ec4": {
+"source": "Apache APISIX",
+"confidence": 0.92,
+"context": "APISIX PATCH 导致插件密钥重复加密 ⏐ 在提供的 Apache APISIX 修复前完整源码中，修复 Admin API PATCH 导致插件 encrypt_fields 重复加密的问题。 启用 data_encryption.enable_encrypt_fields 后，插件配置中由 en"
+},
+"cn-all-remaining-0268-0b9ebbad": {
+"source": "Apache APISIX",
+"confidence": 0.92,
+"context": "APISIX Anthropic 协议转换中的工具参数与流式结束异常 ⏐ 在提供的 Apache APISIX 修复前完整源码中，修复 Anthropic Messages 与 OpenAI Chat 协议转换过程中的工具字段转发错误和流式响应无法正常结束的问题。 问题一：无工具时错误转发工具控制字段 Anthropic 请求可"
+},
+"cn-all-remaining-0272-eaf429b6": {
+"source": "German Breast Cancer Study Group 2",
+"confidence": 0.95,
+"context": "乳腺癌生存风险预测 ⏐ 你是医学数据科学家。给定乳腺癌患者临床特征(年龄/肿瘤大小/分级/淋巴结/激素受体/激素治疗/绝经状态)，预测每个患者的生存风险分数(越大=预后越差)，用于高危患者识别。数据来自 German Breast Cancer Study Group 2(GBSG-2，686名患者，299事件/43.6%删失率)。这是生存分析——不是普通回归：数据中有删失样本(cens=0的患者真实事件时间未知)。业界做法：仅用非删失样本训练时间回归→风险分数=-预测时间；或Cox回归"
+},
+"cn-all-remaining-0273-cd6dd51a": {
+"source": "Open Power System Data",
+"confidence": 0.93,
+"context": "~500MW峰值，旅游/天气驱动高波动）需要预测未来两周（336小时）逐时负荷。你拿到2015-01-01到2020-09-16的CY逐小时历史负荷，需递归多步预测2020-09-17到09-30共336小时。 数据来自Open Power System Data（time_series包，版本2020-10-06，DOI 10.25832/time_series/2020-10-06，CC-BY 4.0）。塞浦路斯(CY)ENTSO-E Transparency实测逐时负荷。业"
+},
+"cn-all-remaining-0274-baf882d4": {
+"source": "Open Power System Data",
+"confidence": 0.95,
+"context": "大国，峰荷~55000MW，南北差异大）需要预测未来两周（336小时）逐时负荷。你拿到2015-01-01到2020-09-16的IT逐小时历史负荷，需递归多步预测2020-09-17到09-30共336小时。 数据来自Open Power System Data（time_series包，版本2020-10-06，DOI 10.25832/time_series/2020-10-06，CC-BY 4.0）。意大利(IT)ENTSO-E Transparency实测逐时负荷。标准"
+},
+"cn-all-remaining-0275-5e80942a": {
+"source": "Metro Interstate Traffic Volume",
+"confidence": 0.9,
+"context": "程师\"。公路运营方需要预测未来一段时段每小时的交通量（辆/小时），用于收费 staffing、拥堵预警、施工排期。你拿到一段州际公路（I-94）的历史逐小时交通量 + 同期天气 + 节假日标注。 数据来自业界公开数据集 Metro Interstate Traffic Volume（UCI ID 492，archive.ics.uci.edu，开放需署名，非 NC 可商用）。明尼苏达 I-94 州际公路 2012–2018 逐小时真实交通量 + OpenWeatherMap 天气 + 美国节假日。"
+},
+"cn-all-remaining-0277-aba735f6": {
+"source": "SKAB",
+"confidence": 0.95,
+"context": "程师，岗位是\"故障诊断工程师\"。工厂液压循环试验台（水箱+泵+阀），8 路传感器逐秒采样。运维需要从信号片段判断当前处于什么故障类型（正常/阀门故障/其他故障），给排障团队快速定位。数据来自业界公开 benchmark SKAB（Skoltech Anomaly Benchmark，github.com/waico/SKAB，GPL-3.0），信号已预切为 60 点窗口（每片 8×60=480 采样值），按实验分层切分 train/test。业"
+},
+"cn-all-remaining-0278-95674282": {
+"source": "Open-Meteo Air Quality API",
+"confidence": 0.95,
+"context": "北京 PM2.5 递归多步预测 ⏐ 环保部门需要预测未来 24 小时逐小时 PM2.5 浓度（μg/m³），用于健康预警、重污染应急响应。数据来自 Open-Meteo Air Quality API（CC-BY 4.0），北京 2022-2023 逐小时 PM2.5。业界做法：日历 sin/cos + PM2.5 滞后 + rolling + RF → 递归多步 24h。实习同学提交残缺配置：lags/calend"
+},
+"cn-all-remaining-0282-dc05cea5": {
+"source": "Twitch Gamers Social Network",
+"confidence": 0.9,
+"context": "社交图链路预测 ⏐ 公司有Twitch游戏玩家社交图（互粉关系），需做链路预测：给定两节点，预测是否存在边（好友关系），用于好友推荐。数据来自Twitch Gamers Social Network（snap.stanford.edu，Rozemberczki et al. 2021，SNAP公共数据集），真实游戏玩家互粉图，取20000节点诱导子图。业界做法：训练图→拓扑特征(共同邻居/Jaccard/Adami"
+},
+"cn-all-remaining-0288-9191bb5f": {
+"source": "Alibaba Nacos",
+"confidence": 0.97,
+"context": "Nacos Config 客户端关闭后监听线程池持续泄漏 ⏐ 在提供的Alibaba Nacos修复前完整源码中，修复ConfigRpcTransportClient中的监听任务执行器创建竞态和客户端关闭后线程池泄漏问题。 ConfigRpcTransportClient会根据taskId为配置监听任务动态创建Ex"
+},
+"cn-all-remaining-0289-179b18af": {
+"source": "Apache SeaTunnel",
+"confidence": 0.97,
+"context": "SeaTunnel 多作业 Kafka 分区配置相互污染 ⏐ 在提供的Apache SeaTunnel修复前完整源码中，修复Kafka Sink的MessageContentPartitioner在多个作业之间共享assign_partitions配置的问题。 当前MessageContentPartitioner使用s"
+},
+"cn-all-remaining-0292-d702cea3": {
+"source": "Apache SeaTunnel",
+"confidence": 0.97,
+"context": "SeaTunnel Flink Schema Evolution 与 XA 事务发生 MDL 死锁 ⏐ 在提供的Apache SeaTunnel修复前完整源码中，修复Flink执行引擎下MySQL CDC Schema Evolution与JDBC Exactly-Once XA事务之间的Metadata Lock死锁问题。 场景如下： 1. Source使用M"
+},
+"cn-all-remaining-0293-55df2006": {
+"source": "Alibaba Nacos",
+"confidence": 0.97,
+"context": "Nacos 并发订阅与取消订阅导致服务索引丢失 ⏐ 在提供的Alibaba Nacos修复前完整源码中，修复ClientServiceIndexesManager在并发添加和删除服务订阅索引时可能丢失新订阅者的问题。 ClientServiceIndexesManager使用： ConcurrentMap"
+},
+"cn-all-remaining-0294-fde2ddb5": {
+"source": "Apache Fluss",
+"confidence": 0.97,
+"context": "Fluss 主键表批量读取丢失 Change Log 尾部记录 ⏐ 在提供的Apache Fluss修复前完整源码中，修复主键表批量读取时，Snapshot耗尽后Change Log尾部记录被静默丢失的问题。 Fluss主键表的完整批量结果由两部分组成： 1. KV Snapshot中的历史记录； 2. Snapsho"
+},
+"cn-all-remaining-0296-45de6b63": {
+"source": "BTS",
+"confidence": 0.82,
+"context": "复现并审计美国交通部 2025 年 1 月航空准点率监管数据产品 ⏐ 你是航空运营监管数据团队的资深数据工程师。使用输入包内美国交通部 BTS 2025 年 1 月逐航班固定快照和 Technical Reporting Directive #39，离线复现按实际承运人统计的月度准点率监管数据产品。需要流式处理 539,747 条真实航班记录，完成 14 家承"
+},
+"cn-all-remaining-0297-075420d6": {
+"source": "TCGA",
+"confidence": 0.72,
+"context": "immune inflitration ⏐ 我提供TCGA目标癌症（Brain Lower Grade Glioma, LGG）经MCPcounter计算后的免疫浸润结果表格，以及包含临床注释和基因表达排序信息的样本注释表格，请根据文献参考风格输出可以复现该免疫浸润热图。 ⏐ "
+},
+"cn-all-remaining-0298-23ad7da2": {
+"source": "FARS",
+"confidence": 0.82,
+"context": "复现并审计 NHTSA 2024 FARS 超速致死事故监管数据产品 ⏐ 作为道路安全监管分析团队的资深数据工程师，使用 NHTSA 官方 2024 FARS Annual Report File 和 FARS Analytical User’s Manual，"
+},
+"cn-all-remaining-0299-fe86cac8": {
+"source": "AQS",
+"confidence": 0.82,
+"context": "复算并审计 EPA 2022–2024 全国臭氧设计值数据产品 ⏐ 作为空气质量监管分析团队的资深数据工程师，使用 EPA AQS 官方 2022、2023、2024 年臭氧日汇总和 EPA 2024 Ozone Design Values 正式报表的机械导出，离线构建一条可审计的数据管道。处理全国百万级日汇总记录，完成异常事件多视图去重、POC "
+},
+"cn-all-remaining-0301-1a02a327": {
+"source": "PGLib-OPF",
+"confidence": 0.78,
+"context": "E 118 母线 N-1 安全筛查与补救调度 ⏐ 你是一名电力系统规划与安全分析工程师。请在 Windows 11 上使用 MATLAB R2023a Update 1 与 MATPOWER 8.1，对给定且不可修改的 PGLib-OPF IEEE 118 母线案例执行端到端交流 N-1 支路安全筛查与补救调度分析。 先验证输入文件哈希和电网结构，再求解基准 AC OPF。随后从同一个冻结的基准状态出发，按原始支路行号升序逐条断开全部 186 条在运支路"
+},
+"cn-all-remaining-0302-299009d0": {
+"source": "NYC Taxi & Limousine Commission",
+"confidence": 0.75,
+"context": "NYC Yellow Taxi January 2023 — Multi-source Data Engineering Pipeline ⏐ 你是 NYC Taxi & Limousine Commission 的一名数据工程师。请按照 input/pipeline_spec.md 中的 8 个步骤处理 2023 年 1 月 Yellow Taxi 行程数据，构建一条端到端的数据管道： 1. 加载 input/raw_trip"
+},
+"cn-all-remaining-0303-a8e1cff9": {
+"source": "WG.WCA13",
+"confidence": 0.9,
+"context": "立一套能留下审计证据的标准化预处理程序。旧 notebook 能画出波形，但混合了本机路径、重复降采样和缓存结果，无法证明输出仍在正确的物理量级，也无法判断低能瞬态、时钟断点或重采样混叠是否影响后续工作。 请使用附件中 WG.WCA13 的六小时真实三分量连续记录，开发一个可复用的预处理与质量审计程序。程序必须从 StationXML 识别分量和响应，完成地面速度响应校正、抗混叠重采样、逐道和逐窗质量控制，并用响应频率采样、谱形和时间域统计验证处理结果"
+},
+"cn-all-remaining-0304-cbead67f": {
+"source": "WG.WCA13",
+"confidence": 0.7,
+"context": "背景噪声 PPSD、独立谱回代与台站频段适用性评估 ⏐ 项目组计划用 WG.WCA13 做区域环境噪声互相关和弱震检测，但手头只有一份旧 notebook 画出的普通频谱。单条 FFT 不能说明噪声随时间的分布，也无法区分仪器响应、短时瞬态和稳定背景噪声。我需要在下载整月数据之前，先用一段真实连续记录建立"
+},
+"cn-all-remaining-0305-ea897654": {
+"source": "WG.WCA13",
+"confidence": 0.85,
+"context": "三分量环境噪声频率依赖极化与方向稳定性分析 ⏐ 我需要判断 WG.WCA13 的环境振动是否由稳定方向的波场控制，以及这种方向是否随频率和时间改变。旧代码只画了少量窗口的主特征向量，未处理 180° 轴向周期、低极化窗、能量异常窗和方向区间，因此很容易把无约束方位角解释为稳定噪声源。 请对六小时"
+},
+"cn-all-remaining-0306-324b959e": {
+"source": "Utah FORGE",
+"confidence": 0.85,
+"context": "FORGE 16A(78)-32 压裂微震监测三维数据集成与高质量图件绘制 ⏐ 项目组已完成 Utah FORGE 2022 年 4 月 16A(78)-32 井压裂微震监测的数据采集。数据分散在多个来源中：多 sheet 井轨迹工作簿（含 16A/58-32/78B-32/56-32/78A/VSP）、78B 定向测量 CSV、1"
+},
+"cn-all-remaining-0308-1be316f2": {
+"source": "Utah FORGE",
+"confidence": 0.85,
+"context": "Utah FORGE 78B-32井轨迹校正的FMI裂缝组系、P10强度与裂缝走廊联合解释 ⏐ 我需要利用78B-32井的FMI解释结果识别裂缝组系和高裂缝强度层段，但原始裂缝是按测深MD记录的，井眼又是倾斜的。若直接按MD计数、把倾向角当"
+},
+"cn-all-remaining-0309-1e15e796": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "起跑早期连续六步支撑身体投射、姿态抬升与触地组织状态转移分析 ⏐ 你是一名短跑生物力学与运动表现分析师。你将收到 6 条匿名、已完成上游 OpenSim 缩放和 IK 的记录，以及逐记录 scaled OSIM、TRC、IK MOT、synthetic GRF STO、原始 marker-error/QC 文件、阶段元数据、冻结 proxy contact 索引和机器可"
+},
+"cn-all-remaining-0310-0e213c96": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "加速跑支撑-腾空-下一触地连续链离地投射、摆动回收与再触地准备分析 ⏐ 你是一名短跑生物力学与运动表现分析师。你将收到 6 条匿名、已完成上游 OpenSim 缩放和 IK 的记录，以及逐记录 scaled OSIM、TRC、IK MOT、synthetic GRF STO、原始 marker-error/QC 文件、阶段元数据、冻结 proxy contact 索引和机器可"
+},
+"cn-all-remaining-0311-a71a28cc": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "最大速度阶段途中跑完整摆动腿回收、前摆展开与触地前足速匹配分析 ⏐ 你是一名短跑生物力学与运动表现分析师。你将收到 8 条匿名、已完成上游 OpenSim 缩放和 IK 的记录，以及逐记录 scaled OSIM、TRC、IK MOT、synthetic GRF STO、marker-error/QC、阶段元数据、冻结 proxy contact 和机器可读规则。请使用原"
+},
+"cn-all-remaining-0312-ad59def1": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "最大速度阶段途中跑触地前 120 ms 至支撑前 25% 足部回扒、胫骨定向与早期碰撞代理边界分析 ⏐ 你是一名短跑生物力学与运动表现分析师。你将收到 8 条匿名、已完成上游 OpenSim 缩放和 IK 的记录，以及逐记录 scaled OSIM、TRC、IK MOT、synthetic GRF STO、marker-error/QC、阶段元数据、冻结 proxy contact 和机器可读规则。请使用原"
+},
+"cn-all-remaining-0313-3b7b6938": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "最大速度阶段途中跑全身三维反向摆动协调、角动量代理分解与跨周期稳定性分析 ⏐ 你是一名短跑生物力学与运动表现分析师。你将收到 8 条匿名、已完成上游 OpenSim 缩放和 IK 的记录，以及逐记录 scaled OSIM、TRC、IK MOT、synthetic GRF STO、原始 marker-error/QC 文件、阶段元数据、冻结 proxy contact 索引和机器可"
+},
+"cn-all-remaining-0316-980114f4": {
+"source": "FT-ICR MS",
+"confidence": 0.5,
+"context": "把数据缺口原样暴露出来。 研究设计包含 CK、PBAT、PE、FZS 四个处理与 0d、15d、30d、60d 四个时间点。资料并非整齐的平衡设计：有的 0d 指标只记录 CK，部分微生物样本需要借助冻结映射表才能识别，FT-ICR MS 只留下分类比例，五张项目图片没有可供重新统计的底层矩阵。处理时应先确定每一块证据回答什么，再考虑横向比较；不能把全部升降压成一个“有效性总分”。 理化部分来自 `physicochemical.xlsx`，其中 SUV"
+},
+"cn-all-remaining-0317-8020fa01": {
+"source": "Moldflow",
+"confidence": 0.65,
+"context": "上盖注塑模具图纸放行前工程一致性审计 ⏐ 图纸会签停在一处矛盾上：耳机收纳盒上盖模具的参数表、二维布置图和设备校核表都声称采用一模两腔方案，但评审人员无法仅凭现成图像判断这些文件是否真正使用了同一组尺寸，也无法确认历史 Moldflow 摘要中的改善比例是否算对。更关键的是，设备表给出了 131 cm3 最大注射量，却没有给出两件塑件、流道和安全系数合成后的需求体积。如果继续把“文件看起来齐全”当作制造放行依据，后续 CAD 细化、设备安装或试模阶段可"
+},
+"cn-all-remaining-0335-2dca6689": {
+"source": "Silixa iDAS",
+"confidence": 0.6,
+"context": "项目在 FORGE 16A(78)-32 井中布设了 DAS 光纤。DAS 询问仪向光纤发射光脉冲，脉冲形状、规整长度（gauge length）和接收带宽共同决定了系统的脉冲响应。本题要求对 3 台真实 DAS 仪器（Silixa iDAS、AP Sensing、OZ Optics）进行脉冲响应建模与应变灵敏度标定。 具体任务： 1. **脉冲响应建模**：根据光脉冲形状（高斯/矩形/sinc）和规整长度，通过空间卷积计算 DAS 脉冲响应 h(s) = "
+},
+"cn-all-remaining-0338-2beb2471": {
+"source": "PREM",
+"confidence": 0.9,
+"context": "=5.5，深度 10 km）事件中获得了两个同方位台站的 频域合成地震图。团队需要由双台记录提取 Rayleigh 面波相速度频散，反演台站下方 0–50 km 的 Vs 剖面，并评估反演的非唯一性。 附件提供基于真实 PREM 大陆地壳分层模型（层厚 5 km，Moho 在 ~30 km，Vp/Vs/ρ 为 真实地壳值）用 Thomson–Haskell 传递矩阵法正演得到的频域合成地震图（Brune 震源谱 + 柱面几何扩散 + 衰减 + "
+},
+"cn-all-remaining-0340-1949b8b0": {
+"source": "Apache RocketMQ",
+"confidence": 0.65,
+"context": "修复 Apache RocketMQ 多派生存储后端下 CommitLog 加速恢复起点与 Checkpoint 一致性问题 ⏐ Apache RocketMQ 在 Broker 启动恢复 CommitLog 时，需要根据各派生存储已经持久化的数据位置，确"
+},
+"cn-all-remaining-0342-312b05e2": {
+"source": "Apache SeaTunnel",
+"confidence": 0.65,
+"context": "修复 Apache SeaTunnel Paimon Sink 从 Savepoint 恢复时重复提交 Checkpoint 状态导致任务退出的问题 ⏐ pache SeaTunnel 的 Paimon Sink 在创建 Savepoint 时，会将当前 C"
+},
+"cn-all-remaining-0344-8f581a8d": {
+"source": "Apache SeaTunnel",
+"confidence": 0.65,
+"context": "SeaTunnel 有界 Source 在 Reader 故障重注册后丢失 NoMoreSplitsEvent 导致作业永久不结束 ⏐ 在提供的Apache SeaTunnel修复前完整源码中，修复有界Source在TaskManager故障恢复后无法自然结束的问题。 有界Source在完成Split枚举后，会向SourceReader发送NoMoreSplitsEvent，通知Reader不"
+},
+"cn-all-remaining-0345-a6224347": {
+"source": "UCI Machine Learning Repository",
+"confidence": 0.95,
+"context": "6 万条逐条交易（不是预建特征表），每个客户有几十到几千条交易行。客户复购是客户级问题——每个客户最终只有一行特征 + 一个标签，必须先把交易聚合到客户级（每个客户一行 RFM + 行为特征）才能训练分类器。 数据来自 UCI Machine Learning Repository 公开数据集 Online Retail Data Set（ID 352，开源可自由再分发可商用）。某英国在线礼品零售商 2010-12-01 ~ 2011-12-09 的全部交易，本任务取 2011 年 Jan-Nov"
+},
+"cn-all-remaining-0346-54ee7ce2": {
+"source": "Open-Meteo Archive",
+"confidence": 0.95,
+"context": "开普敦太阳辐射递归多步预测 ⏐ 光伏电站需要预测未来 168h 逐小时太阳辐射（W/m²），用于发电量预估、电网调度、储能决策。数据来自 Open-Meteo Archive（CC-BY 4.0），开普敦（南半球）2022-2023 逐小时 4 变量（辐射+温度+湿度+云量）。太阳辐射是零膨胀时序（夜间=0，白天>0，约47%零值），业界做法：日历 sin/cos + is_daytime "
+},
+"cn-all-remaining-0348-e08b7fe5": {
+"source": "Open-Meteo Archive",
+"confidence": 0.97,
+"context": "东京地面气压递归多步预测 ⏐ 气象局需要预测未来168h(7天)逐小时地面气压(hPa)，用于天气预报模型、航空管制、风暴预警。数据来自Open-Meteo Archive(CC-BY 4.0)东京2022-2023逐小时4变量(气压+风速+湿度+温度)。业界做法：日历sin/cos+气压滞后(1/3/6/24/168)+rolling+辅助carry-forward→RF→递归多步168"
+},
+"cn-all-remaining-0349-c13fb8d4": {
+"source": "Open-Meteo Archive",
+"confidence": 0.97,
+"context": "上海相对湿度递归多步预测 ⏐ 智能楼宇系统需要预测未来168h(7天)逐小时相对湿度(%)，用于空调控制、防凝露预警。数据来自Open-Meteo Archive(CC-BY 4.0)上海2022-2023逐小时4变量(湿度+温度+气压+风速)。日历sin/cos+湿度滞后(1/3/6/24/168)+rolling+辅助carry-forward→RF→递归多步168h。残缺："
+},
+"cn-all-remaining-0351-c0f3eb29": {
+"source": "UCI Online Retail",
+"confidence": 0.95,
+"context": "36 万条逐条交易流水（同一张发票/订单内的多个 SKU 天然构成\"共购\"），需要你从原始流水自行构建产品共购图，再预测给定产品对在未来是否会被一起购买，用于捆绑销售、关联推荐、货架陈列优化。 数据来自公开零售交易流水（UCI Online Retail 数据集的衍生，开放可商用再分发）。约 36 万条逐 SKU 交易记录，覆盖多国多客户。业界对产品共购图链接预测的标准做法：先从流水构建产品共购图（同一 InvoiceNo 下的产品两两连边），再对候选产品对算图拓扑相似"
+},
+"cn-all-remaining-0352-61295765": {
+"source": "Open Power System Data",
+"confidence": 0.9,
+"context": "互联，夏季旅游/空调高峰、冬季供暖双峰）需要预测未来两周（336小时）逐时负荷。你拿到2015-01-01到2020-09-16的GR逐小时历史负荷，需递归多步预测2020-09-17到09-30共336小时。 数据来自Open Power System Data（time_series包，版本2020-10-06，DOI 10.25832/time_series/2020-10-06，CC-BY 4.0）。希腊(GR)ENTSO-E Transparency实测逐时负荷。标准做"
+},
+"cn-all-remaining-0354-08d6b573": {
+"source": "CWRU Bearing Dataset",
+"confidence": 0.95,
+"context": "CWRU 轴承故障诊断·跨工况泛化 ⏐ 电机轴承故障诊断。给定驱动端加速度振动信号(12kHz)，识别 4 种状态：Normal / Ball(滚珠) / IR(内圈) / OR(外圈)。数据来自 CWRU Bearing Dataset(Case Western Reserve University，公开/可自由再分发)，已按 2048 点非重叠窗切分，合并故障直径与外圈方位。 核心难点=跨工况泛化：训练数据来自负载 0/1/2 hp(RPM 1797"
+},
+"cn-all-remaining-0361-cf4b6cfb": {
+"source": "ETOPO1",
+"confidence": 0.85,
+"context": "出题方内部。 本题重点是位场延拓、区域-剩余分离、水平梯度、欧拉反褶积与断裂识别的完整工作流。 **数据来源与工作流独创性说明**（符合 ALE 公开 Benchmark 条例允许例外）： - 仅采用 NOAA 发布的 ETOPO1 全球海底地形模型作为合成重力正演的几何界面输入，不使用任何公开重力异常数据集。 - 基于私有三维密度分层模型与私有 3 条断层正演生成合成重力异常，处理流程为「多高度 FFT 上延 → 区域-剩余分离 → 水平梯度模 "
+},
+"cn-all-remaining-0362-01359fb6": {
+"source": "FORGE",
+"confidence": 0.6,
+"context": "微震全矩张量反演与分解 ⏐ 某地热（FORGE 花岗岩）水力压裂微震监测项目记录到一次诱发微震事件的 P 波初动振幅。 项目组需要从台网观测反演该事件的**全矩张量**，判断其中是否含有非双偶成分 （ISO / CLVD），并给出双偶分量的震源机制解（strike/"
+},
+"cn-all-remaining-0367-7a386953": {
+"source": "MACE-C",
+"confidence": 0.7,
+"context": "碳相维氏硬度代理候选筛选与 VASPKIT 弹性任务生成 ⏐ 请实现一个可复验的计算材料筛选程序：从固定的 10 个去标识化碳相候选结构中读取三组 MACE-C 维氏硬度代理预测，执行组成与结构健康检查，按保守维氏硬度分数排序，并为排名前 `top_k=5` 的候选生成 VASPKIT task 201 弹性应变工作目录。 这条任务聚焦“维氏硬度代理筛选”，不同于剪切模量或杨氏"
+},
+"cn-all-remaining-0372-39b7fe89": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "起跑预备姿势多定义状态集合、出口条件化评优与部分可识别性分析 ⏐ 使用匿名 TRC、OpenSim IK MOT、逐记录 scaled OSIM、synthetic GRF 事件代理及原始质量文件，对 A0：预备姿势 完成“质量门→事件/区域→入口→轨迹→出口→下游结果→评分→证据诊断”的端到端工作流。输入包只含输入"
+},
+"cn-all-remaining-0373-d92411f3": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "起跑启动至双脚离地双时间事件竞争、出口状态评优与预测归因分析 ⏐ 使用匿名 TRC、OpenSim IK MOT、逐记录 scaled OSIM、synthetic GRF 事件代理及原始质量文件，对 A1：启动-双脚离开支撑 完成“质量门→事件/区域→入口→轨迹→出口→下游结果→评分→证据诊断”的端到端工作流。输入"
+},
+"cn-all-remaining-0374-fe737fbf": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "起跑加速第一腾空与第一触地准备多层构型及双向边界闭合分析 ⏐ 使用匿名 TRC、OpenSim IK MOT、逐记录 scaled OSIM、synthetic GRF 事件代理及原始质量文件，对 A2：第一腾空与第一触地准备 完成“质量门→事件/区域→入口→轨迹→出口→下游结果→评分→证据诊断”的端到端工作流。"
+},
+"cn-all-remaining-0375-cecf3fe5": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "起跑加速第一支撑几何转换点竞争、四路径状态重建、步速守恒归因与上游根因去重分析 ⏐ 使用匿名 TRC、OpenSim IK MOT、逐记录 scaled OSIM、synthetic GRF 事件代理及原始质量文件，对 A3：第一支撑 完成“质量门→事件/区域→入口→轨迹→出口→下游结果→评分→证据诊断”的端到端工作流。输入包只含输入"
+},
+"cn-all-remaining-0376-2bcc381d": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "连续加速步状态转移、趋势模型竞争、突变/交替稳定性分析 ⏐ 使用匿名 TRC、OpenSim IK MOT、逐记录 scaled OSIM、synthetic GRF 事件代理及原始质量文件，对 A4：连续加速步进展 完成“质量门→事件/区域→入口→轨迹→出口→下游结果→评分→证据诊断”的端到端工作流。输入包只"
+},
+"cn-all-remaining-0379-fa0f25f9": {
+"source": "中创新航",
+"confidence": 0.65,
+"context": "IPO 可比公司筛选与估值定价 ⏐ 某投行新能源行业团队正在为一家动力电池系统制造商（发行人，匿名代号 S000，基于中创新航真实财务结构）准备 A 股主板 IPO 估值定价材料。团队已收集 28 家电池产业链上市公司 2025 年年报财务数据（公司名匿名化为 S001-S028，但财务数据真实）。 你需要：(1) 按照投行内部多维筛选标准从 "
+},
+"cn-all-remaining-0394-1e06e38d": {
+"source": "Nacos",
+"confidence": 0.85,
+"context": "修复 Nacos Naming 模块 ConcurrentHashMap 上 check-then-act 竞态导致的潜在 NPE ⏐ 根据官方修复整理的任务契约，非官方 Issue/PR 原文） 在真实 Nacos 源码（修复前提交）"
+},
+"cn-all-remaining-0396-47ba439c": {
+"source": "CODESYS",
+"confidence": 0.55,
+"context": "PAC 加药撬双泵 PLC 联锁、轮换与 FAT 交付 ⏐ 北区净水单元的 PAC 加药撬采用 P-101A/B 两台机械隔膜计量泵一用一备，PLC 为 CODESYS 平台。最近两周运行记录显示，主泵故障后仍需值班员手动切泵，PT-101 的 1–2 s 压力尖峰会直接触发跳车，PLC、HMI 和 FAT 记录中的报警阈值也不一致。附件提供现有 V1.7 IEC 61131-3 ST"
+},
+"cn-all-remaining-0408-a8f2c013": {
+"source": "微信小程序",
+"confidence": 0.8,
+"context": "多渠道订单ETL清洗、资金对账与经营日报复核 ⏐ 本人在一家多渠道零售企业负责数据仓库日常质量和订单资金对账。现有官网、App和微信小程序三个渠道的订单、支付、退款导出，数据覆盖7个订单日。原始文件中混入重复主键、缺失主键、未知渠道或SKU、非法数量、主数据价格不一致、非法状态、未知订单、非整数金额、非人民币记录和事件时间倒置等问题。 请以大数据工程技术人"
+},
+"cn-all-remaining-0453-ba71e11e": {
+"source": "Nacos",
+"confidence": 0.85,
+"context": "修复 Nacos 集群 TCP 健康检查 SocketChannel 资源泄漏与 hasMember IP 前缀误匹配 ⏐ 在真实 Nacos 源码（修复前提交）中，修复集群 TCP 健康检查中的 SocketChannel 泄漏，并将"
+},
+"cn-all-remaining-0455-f664e844": {
+"source": "CP2K",
+"confidence": 0.85,
+"context": "评估 NH3/Si 几何优化和 SCF 收敛 ⏐ 从完整 CP2K 输出日志解析每个几何优化步的总能量、SCF 迭代次数与收敛状态，核对几何优化完成、程序正常结束和警告数量，形成结构化审计结果、收敛图和专业报告。不得重跑 DFT，也不得硬编码结果。 ⏐ 提交 analyze_cp2k_"
+},
+"cn-all-remaining-0456-20aab82a": {
+"source": "CP2K",
+"confidence": 0.85,
+"context": "量化 NH3 在 Si 表面的吸附几何演化 ⏐ 读取 CP2K XYZ 优化轨迹与输入结构，识别 NH3 和表面 Si 原子，逐帧计算最近 N–Si 距离、三个 N–H 键长、H–N–H 键角、NH3 质心高度与相对初始帧位移，并判断末段几何稳定性。 ⏐ 提交 analyze_ad"
+},
+"cn-all-remaining-0460-5d875d31": {
+"source": "LAMMPS",
+"confidence": 0.85,
+"context": "审计 Cu/a-SiO2 双温计算的运行稳定性 ⏐ 从 LAMMPS 完整日志和输入脚本重建各运行段，解析 thermo 表，检查温度、能量、压力和时间步的有限性及连续性，识别异常跳变、warning/error、正常结束与最终重启产物的一致性。不得重新运行计算。 ⏐ 提交 audit_"
+},
+"cn-all-remaining-0464-f11fcc5a": {
+"source": "MaMiCo",
+"confidence": 0.7,
+"context": "核对 MaMiCo 配置与实际输出覆盖范围 ⏐ 解析 couette.xml 的域、耦合周期、求解器和数据交换配置，并扫描实际耦合日志，形成配置目标与实际产出的差异表，明确已完成连续周期、缺失产物和不可由现有证据确认的阶段。不得把配置目标"
+},
+"cn-all-remaining-0473-afcf860c": {
+"source": "UCI Mice Protein Expression",
+"confidence": 0.97,
+"context": "小鼠皮层蛋白质组学基因型分类 ⏐ 你是神经蛋白质组学数据科学家。从 72 只小鼠皮层的 77 个蛋白表达量预测小鼠基因型（Control=0 正常 / Ts65Dn=1 唐氏综合征模型）。数据来自真实质谱实验 UCI Mice Protein Expression（Higuera/Gardiner/Bhatt 等 2015，学术研究使用）。关键在于组外泛化：test 集是训练中从未见过的小鼠，必须预测其基因型。 核心方法论陷阱（决定能否达标）： 1) MouseID 形如 '30"
+},
+"cn-all-remaining-0474-6ffc068e": {
+"source": "Fortuna 等 2007",
+"confidence": 0.9,
+"context": "气浓度软测量 ⏐ 你是化工过程数据科学家。为炼油厂硫磺回收装置(SRU, Claus 工艺)建软测量模型：从进料气流量 u1-u5(归一化)估算尾气 H2S(y1)/SO2(y2) 浓度(归一化)。数据来自真实工业基准(Fortuna 等 2007，学术研究使用)。 核心方法论陷阱(决定能否达标)： 1) 过程有动态时延——u 与 y 的瞬时(lag-0)相关几乎为 0(最大约0.13)。静态 y_t=f(u_t) R²≈0 必挂；必须用输入滞后 u_{t-1.."
+},
+"cn-all-remaining-0475-6cd46667": {
+"source": "UCI Metro Interstate Traffic Volume",
+"confidence": 0.95,
+"context": "Metro 州际公路交通流量预测 ⏐ 城市州际公路收费站逐小时交通流量预测。数据来自 UCI Metro Interstate Traffic Volume（archive.ics.uci.edu/dataset/492，CC-BY 4.0；MnDOT 真实车辆计数 + OpenWeather，逐小时）。拿到 2012-10-02 到 2018-09-16 的历史逐小时流量"
+},
+"cn-all-remaining-0476-fb434d54": {
+"source": "SKAB",
+"confidence": 0.95,
+"context": "工业 SKAB 预测-残差时间戳级异常检测管道 ⏐ 你是工业 / 设备状态监测工程师，岗位是\"异常检测算法工程师\"。工厂液压循环试验台（水箱+泵+阀），8 路传感器（流量/温度/压力/电流/泵功率等）逐秒采样。运维需要从原始多元时序里"
+},
+"cn-all-remaining-0477-0fe64a0f": {
+"source": "Open-Meteo Archive",
+"confidence": 0.95,
+"context": "北京参考作物蒸散量(ET0)预测 ⏐ 农田智能灌溉系统需根据未来168h(7天)天气预报，预测逐小时参考作物蒸散量ET0(mm/h,FAO-56)，用于灌溉排程与墒情估算。数据来自Open-Meteo Archive(CC-BY 4.0)北京2022-2023逐小时，目标et0_fao_evapotranspiration，驱动温度+气压+风速+湿度+云量(辐射代理)。日历sin/cos(昼夜/季节太阳几何)+全驱动+饱和水汽压差V"
+},
+"cn-all-remaining-0478-c21c6715": {
+"source": "UCI Steel Plates Faults",
+"confidence": 0.95,
+"context": ")需把高速相机捕获的缺陷区域分类为7种缺陷类型(Bumps/Dirtiness/K_Scratch/Other_Faults/Pastry/Stains/Z_Scratch，类别不平衡)，用于质量分级与工艺改进。数据来自UCI Steel Plates Faults(CC-BY 4.0,经OpenML id 40982)，1941真实样本，27个几何+光度特征(坐标/面积/周长/光度/钢板属性/13个无量纲指数)。业界做法：随机森林(尺度无关+非线性决策边界)+class_weig"
+},
+"cn-all-remaining-0479-abb9f7a8": {
+"source": "UCI Human Activity Recognition Using Smartphones",
+"confidence": 0.96,
+"context": "计+陀螺仪信号识别用户活动(6类：WALKING/WALKING_UPSTAIRS/WALKING_DOWNSTAIRS/SITTING/STANDING/LAYING)，用于卡路里估算、跌倒检测、运动健康追踪。数据来自UCI Human Activity Recognition Using Smartphones(CC-BY 4.0)，30受试者，561个时域+频域(FFT)+重力角度特征(已归一化)，受试者隔离划分(train 7352窗/test 2947窗)。业界做法：全561特征+RandomForest(无分布假设、抗"
+},
+"cn-all-remaining-0480-62388124": {
+"source": "RocketMQ",
+"confidence": 0.9,
+"context": "修复 RocketMQ ConsumeQueueStore 中 deleteTopic 与 FlushConsumeQueueService 的竞态导致已删除 Topic 被重新 ⏐ 在真实 RocketMQ 源码（修复前提交）中，消除 Co"
+},
+"cn-all-remaining-0481-7ab34177": {
+"source": "NOAA NCEI Storm Events Details",
+"confidence": 0.96,
+"context": "NOAA 风暴事件月度灾损统计 ⏐ 应急/保险团队需把真实 NOAA Storm Events 原始事件记录聚合成每州每月灾损统计，用于灾害评估与理赔。数据来自真实 NOAA NCEI Storm Events Details（美国政府开放数据），2023 年 75593 个事件（含 Maui 火灾等重大事件，损失达百亿）。真实工程坑：DAMAGE_PROPERTY/DAMAGE_CROPS 是字符串 \"1.00K\"/\"9.90M\"/\"2.5"
+},
+"cn-all-remaining-0482-4ad1c775": {
+"source": "NOAA Storm Events",
+"confidence": 0.95,
+"context": "风暴致死月度统计 ⏐ 应急管理部门需把真实 NOAA Storm Events 的两张表（事件详情 details 每事件一行 75593 + 致死记录 fatalities 每死亡一行 1466）合并成每州每月致死统计。两表靠 EVENT_ID 一对多关联（161 个多死亡事件，最多 150 死"
+},
+"cn-all-remaining-0483-e7f016ec": {
+"source": "NOAA Storm Events",
+"confidence": 0.95,
+"context": "风暴事件类型归类统计 ⏐ 应急/气候团队需把真实 NOAA Storm Events 的 51 种细事件类型，按提供的查找表归为 7 大气象类别（Convective/Wind/Flood/Winter/Heat_Drought_Fire/Tropical/Other），产出每州每月每类事件统计。数据来"
+},
+"cn-all-remaining-0484-47ac327f": {
+"source": "NOAA Storm Events",
+"confidence": 0.97,
+"context": "风暴系统(episode)月度统计 ⏐ 气候监测团队需从真实 NOAA Storm Events 数据统计每州每月的风暴系统(episode)数量与事件密度。数据来自真实 NOAA Storm Events（美国政府开放数据，2023）。每事件一行（75593 行），但只有 10359 个不同风暴系统（episod"
+},
+"cn-all-remaining-0490-91ffdc27": {
+"source": "RocketMQ",
+"confidence": 0.9,
+"context": "修复 RocketMQ 异步 request-reply 中 RequestCallback 可能被多次触发的竞态与过早回调问题 ⏐ 在真实 RocketMQ 源码（修复前提交）中，消除异步 request-reply 路径上的过早回调与 r"
+},
+"cn-all-remaining-0496-fc8160a4": {
+"source": "OpenSim",
+"confidence": 0.92,
+"context": "短跑连续步条件稳健残差、多模型嵌套验证与异常可识别性审计 ⏐ 你将扮演运动生物力学数据科学家，从匿名视频派生 OpenSim 记录中完成 ALG-01 的端到端专业工作流。任务输入包含未经服务器端重采样或裁窗的 TRC、IK MOT、scaled OSIM、synthetic GRF proxy、IK marker error、IK 状态与几"
+},
+"cn-all-remaining-0497-f44c1602": {
+"source": "OpenSim",
+"confidence": 0.92,
+"context": "短跑多指标稳健协方差、马氏距离贡献守恒与联合状态域外审计 ⏐ 你将扮演运动生物力学数据科学家，从匿名视频派生 OpenSim 记录中完成 ALG-02 的端到端专业工作流。任务输入包含未经服务器端重采样或裁窗的 TRC、IK MOT、scaled OSIM、synthetic GRF proxy、IK marker error、IK 状态与几"
+},
+"cn-all-remaining-0498-e22b368f": {
+"source": "OpenSim",
+"confidence": 0.92,
+"context": "短跑多关节整周期 MFPCA、训练折内函数标准化与模态稳定性分析 ⏐ 你将扮演运动生物力学数据科学家，从匿名视频派生 OpenSim 记录中完成 ALG-03 的端到端专业工作流。任务输入包含未经服务器端重采样或裁窗的 TRC、IK MOT、scaled OSIM、synthetic GRF proxy、IK marker error、IK 状态与几"
+},
+"cn-all-remaining-0499-f0b227f8": {
+"source": "OpenSim",
+"confidence": 0.92,
+"context": "短跑三周期 Fourier 基函数压缩、阶数选择与跨频率/相位不变量分析 ⏐ 你将扮演运动生物力学数据科学家，从匿名视频派生 OpenSim 记录中完成 ALG-04 的端到端专业工作流。任务输入包含未经服务器端重采样或裁窗的 TRC、IK MOT、scaled OSIM、synthetic GRF proxy、IK marker error、IK 状态与几"
+},
+"cn-all-remaining-0500-5a63c6f7": {
+"source": "OpenSim",
+"confidence": 0.92,
+"context": "短跑周期曲线相位差异、试次内连续速度效应与功能混合模型可识别性分析 ⏐ 你将扮演运动生物力学数据科学家，从匿名视频派生 OpenSim 记录中完成 ALG-05 的端到端专业工作流。任务输入包含未经服务器端重采样或裁窗的 TRC、IK MOT、scaled OSIM、synthetic GRF proxy、IK marker error、IK 状态与几"
+},
+"cn-all-remaining-0501-29fe7995": {
+"source": "OSIM",
+"confidence": 0.85,
+"context": "途中跑摆动链连续相对相位、多时钟耦合与稳健评分分析 ⏐ 你将扮演运动生物力学科研数据分析师，基于完整原始 TRC、IK、逐记录 scaled OSIM、synthetic GRF proxy 与原始质量文件，完成 M1→M2→M3 摆动链与肩—对侧髋跨肢补充层 的 连续相对相位 CRP 端到端分析。重建功能时钟后计算多关节/肢段连续相对相位、圆统计、相位跳变和固定分母"
+},
+"cn-all-remaining-0502-7f719b5c": {
+"source": "OSIM",
+"confidence": 0.85,
+"context": "触地准备与支撑链主导模式、突变与转换矩阵分析 ⏐ 你将扮演运动生物力学科研数据分析师，基于完整原始 TRC、IK、逐记录 scaled OSIM、synthetic GRF proxy 与原始质量文件，完成 M3→M4→M5 触地准备—前支撑—后支撑链 的 Modified Vector Coding 端到端分析。计算近端—远端向量编码角、八类协调模式、转换矩阵"
+},
+"cn-all-remaining-0503-d5a09c46": {
+"source": "OSIM",
+"confidence": 0.85,
+"context": "前摆—下压及支撑—回收双转移时滞互相关、相位同步与替代检验分析 ⏐ 你将扮演运动生物力学科研数据分析师，基于完整原始 TRC、IK、逐记录 scaled OSIM、synthetic GRF proxy 与原始质量文件，完成 M2→M3 与 M5→M1(next) 双转移 的 时滞互相关与相位同步 端到端分析。计算有符号时滞互相关、相位锁定、循环移位替代检验和时序错位敏感性。 输"
+},
+"cn-all-remaining-0504-94a7394f": {
+"source": "OSIM",
+"confidence": 0.85,
+"context": "不同动作相位转移入口正则化 CCA、嵌套来源档案留出与转移兼容性分析 ⏐ 你将扮演运动生物力学科研数据分析师，基于完整原始 TRC、IK、逐记录 scaled OSIM、synthetic GRF proxy 与原始质量文件，完成 M2 exit→M3 entry→M4 entry 的 CCA 出口—入口关系 端到端分析。构造出口/入口多变量 profile，执行训练折内标准化、正则化"
+},
+"cn-all-remaining-0505-467c6f39": {
+"source": "OSIM",
+"confidence": 0.85,
+"context": " 不同动作相位下多通道功能 PLS、嵌套来源试次留出与下游步速关联分析 ⏐ 你将扮演运动生物力学科研数据分析师，基于完整原始 TRC、IK、逐记录 scaled OSIM、synthetic GRF proxy 与原始质量文件，完成 M3/M4 多通道功能波形→下一步内部运动学结果 的 功能 PLS 端到端分析。从原生曲线构造 trial-level 功能数据，执行嵌套来源留出、PLS "
+},
+"cn-all-remaining-0506-090a089f": {
+"source": "OSIM",
+"confidence": 0.85,
+"context": "起跑连续加速步低维状态空间、嵌套模型竞争与异常转移分析 ⏐ 你将扮演运动生物力学科研数据分析师，基于完整原始 TRC、IK、逐记录 scaled OSIM、synthetic GRF proxy 与原始质量文件，完成 A1→A4 连续加速步状态轨迹 的 状态空间模型 端到端分析。构造连续步观察状态，比较状态维数与正则化，执行分组嵌套验证、一步预测、平滑与异常转移审计。 输"
+},
+"cn-all-remaining-0507-8754c588": {
+"source": "OSIM",
+"confidence": 0.85,
+"context": "连续途中跑候选策略 HMM、切换动力学、标签对齐与模式可识别性分析 ⏐ 你将扮演运动生物力学科研数据分析师，基于完整原始 TRC、IK、逐记录 scaled OSIM、synthetic GRF proxy 与原始质量文件，完成 连续多周期途中跑，已知相位与隐藏候选模式分离 的 Switching State-Space / HMM 端到端分析。比较隐藏状态数与初始化，执行来源序列留"
+},
+"cn-all-remaining-0508-3c61f735": {
+"source": "Alibaba Nacos",
+"confidence": 0.95,
+"context": "修复Alibaba Nacos TCP健康检查SocketChannel资源泄漏及集群成员IP前缀误匹配问题 ⏐ 在提供的Alibaba Nacos修复前完整源码中，修复TCP健康检查SocketChannel资源泄漏和集群成员IP前缀误匹配问题。 "
+},
+"cn-all-remaining-0509-6e152030": {
+"source": "Apache SeaTunnel",
+"confidence": 0.95,
+"context": "修复Apache SeaTunnel文件连接器读取空目录时Schema和分区推断越界的问题 ⏐ 在提供的Apache SeaTunnel修复前完整源码中，修复文件连接器读取空目录时发生IndexOutOfBoundsException的问题。 SeaTun"
+},
+"cn-all-remaining-0515-6253a2c7": {
+"source": "EPA",
+"confidence": 0.9,
+"context": "构建 EPA GHGRP California 2023 设施排放跨源审计产品 ⏐ 作为环境合规数据工程师，使用 EPA 公开的 California 2023 设施—子部—气体明细和年度 Direct Point Emitters"
+},
+"cn-all-remaining-0629-ce075e67": {
+"source": "MTA New York City Transit Subway GTFS",
+"confidence": 0.95,
+"context": "构建 MTA 地铁 GTFS 服务日、班次模式与几何一致性审计数据产品 ⏐ 使用冻结的 MTA New York City Transit Subway GTFS 官方快照，离线构建可运营审计的九表 SQLite 数据仓库，并生成线路-服务日 CSV 和数据库回查 JSON 摘要。工作流需正确解析周历与日期例外、超过 24:00 的 GTFS 服务时间、方向站点与父站层级、有向换"
+},
+"cn-all-remaining-0630-3d193fa5": {
+"source": "FDA Electronic Orange Book",
+"confidence": 0.9,
+"context": "构建 FDA Orange Book 专利、独占期与治疗等效跨库监管审计数据产品 ⏐ 使用固定的 FDA Electronic Orange Book 2026 年 6 月月度归档和 Drugs@FDA 2026-08-10 关系型归档，离线重建申请—产品—审批动作—上市状态—TE—专利—独占期关系。保留两套官方数据库的不同更新时间与真实分歧，形成产品级对账、申请审批"
+},
+"cn-all-remaining-0631-ea4b7723": {
+"source": "NHC",
+"confidence": 0.9,
+"context": "Hurricane Helene 跨 NHC、NOAA 与 FEMA 公共援助审计 ⏐ 作为高级联邦灾害数据工程师，使用冻结的 NHC、NOAA/NCEI Storm Events 与 FEMA OpenFEMA 官方数据，离线构建 Hurricane Helen"
+},
+"cn-all-remaining-0632-5b302678": {
+"source": "NASR",
+"confidence": 0.9,
+"context": "构建 FAA Part 77 机场障碍物净空筛查与控制障碍物对账数据产品 ⏐ 作为资深机场 GIS 和航空数据工程师，使用 FAA 2026-08-06 NASR 机场/跑道快照、2026-08-02 DOF 数字障碍物快照和冻结的 14 CFR Part 77，为 EWR、JFK、LGA、TEB 四个机场构建离线监管筛查产品。 需要完成 FAA 关联数据和 127 列固定宽度 "
+},
+"cn-all-remaining-0633-f8c6a3ac": {
+"source": "NASR",
+"confidence": 0.9,
+"context": "构建 FAA 2608 仪表进近跑道就绪度与程序一致性审计产品 ⏐ 作为航空数据工程师，使用冻结的 FAA NASR 2026-08-06 APT、AWOS、FRQ、ILS 快照和 FAA d-TPP 2608 周期 XML，构建全美运行中、公共使用机场的离线关系审计产品。你需要重建跨页逻辑仪表进近程序，区分删除记录、盘旋/直升机/未"
+},
+"cn-all-remaining-0635-08f8465d": {
+"source": "FDA Electronic Orange Book",
+"confidence": 0.9,
+"context": "构建 FDA Orange Book 药品监管组合仓库与 Drugs@FDA 跨系统审计 ⏐ 作为资深药品监管数据工程师，使用 2026-08-10 冻结的 FDA Electronic Orange Book 与 Drugs@FDA 下载包，离线构建可审计的药品监管组合数据产品。需要完整处理产品身份、NDA/ANDA/BLA 类型、在售状态、RLD/RS/TE 语义、专利与独占期时间线、等价产品族、保护期传导以及跨系统差异队"
+},
+"cn-all-remaining-0636-316cb833": {
+"source": "eCFR",
+"confidence": 0.9,
+"context": "OMB 2024 Uniform Guidance 生效日法规变更控制审计 ⏐ 作为高级法规数据工程师，使用冻结的 2024-09-30 与 2024-10-01 eCFR 2 CFR Part 200 XML 快照，以及 Federal Register 文档 2024-07496 的 XML、JSON 与 GovInfo PDF，构建一个完全离线、可重建的生效日法规变更控制仓库。工作必"
+},
+"cn-all-remaining-0638-0c7751f3": {
+"source": "Form EIA-860",
+"confidence": 0.9,
+"context": "构建 EIA Texas 2024 发电机生命周期与运营对账审计产品 ⏐ 以冻结的最终版 Form EIA-860、最终版 Form EIA-923 和独立发布的 Texas Electricity Profile 2024 为起点，离线构建一个可复核的 Texas 电力资产与运营审计仓库。执行 Agent 需要统一发电机生命周期、"
+},
+"cn-all-remaining-0639-858c15f4": {
+"source": "Form EIA-860",
+"confidence": 0.9,
+"context": "构建 EIA-EPA 2023 发电机发电量重建与 eGRID 跨机构审计数据产品 ⏐ 作为资深电力监管数据工程师，使用冻结的 Form EIA-860 2023、修订最终版 Form EIA-923 2023 和 EPA eGRID2023 Revision 2，离线构建全国发电机资产、生命周期、plant-prime-mover-fuel 运营账、发电机明细与 EP"
+},
+"cn-all-remaining-0640-8ed4408f": {
+"source": "NHC",
+"confidence": 0.9,
+"context": "Build an NHC 2024 Atlantic official forecast and wind-radii verification audit ⏐ Act as a senior tropical-cyclone verifica"
+},
+"cn-all-remaining-0641-e0995661": {
+"source": "NOAA",
+"confidence": 0.9,
+"context": "构建 NOAA–USCG 旧金山湾助航标志海图发布就绪度对账审计 ⏐ 作为水道测量数据质量工程师，使用冻结的 NOAA 2026-08-10 ENC Product Catalog、Coastal/Approach/Harbour 三"
+},
+"cn-all-remaining-0642-a70454dd": {
+"source": "OFAC",
+"confidence": 0.9,
+"context": "构建 OFAC SDN 多语身份图谱与三格式制裁数据合规审计产品 ⏐ 以 OFAC 2026-08-07 SDN 官方快照为唯一起点，解析 Advanced XML v3 的引用值、主体、多语名称、特征、地址、证件、制裁项目和有向关系"
+},
+"cn-all-remaining-0643-75f76d95": {
+"source": "33 CFR Part 117",
+"confidence": 0.95,
+"context": "构建纽约州活动桥法规运营日历与联邦—州资产对账数据产品 ⏐ 作为资深桥梁运营数据工程师和海事监管分析师，使用冻结的 33 CFR Part 117、FHWA/BTS 2025 National Bridge Inventory、NYSDOT 活动桥清单及 OPM 2026 联邦假日页面，为 14 个受监管活动桥身份构建离线审计数据产品。需保留一个法规桥对应零个、一"
+},
+"cn-all-remaining-0644-6f64bd2d": {
+"source": "FDIC BankFind",
+"confidence": 0.9,
+"context": "FDIC/FFIEC 商业地产集中度、机构连续性与发布修订审计 ⏐ 基于冻结的 2022Q4/2025Q4 FDIC BankFind 财务 API、三年机构结构事件、FDIC Q4 2025 QBP 发布工作簿以及两份官方 CRE 监管口径，离线构建银行级监管数据产品。任务需要建立并购前身图，分别执行 SR 07-1 与 Federal Reserv"
+},
+"cn-all-remaining-0645-206c5b2d": {
+"source": "NOAA US5NYCCF",
+"confidence": 0.95,
+"context": "重建 NOAA 纽约港 ENC 更新链并与 USCG 航标名录执行导航安全审计 ⏐ 作为资深水道测量 GIS 数据工程师，从冻结的 NOAA US5NYCCF edition 10 基础 cell 和 .001–.005 五个官方更新补丁重建六个完整阶段。以稳定 LNAM 建立全量语义对象谱系，对属性和 2D/3D 几何做确定性规范化，保留真实的插入、删除、瞬态对象和共享空间"
+},
+"cn-all-remaining-0648-a8828ee9": {
+"source": "TreasuryDirect Auction Query",
+"confidence": 0.9,
+"context": "构建美国财政部 2025Q1 国债拍卖生命周期、定价与配售审计数据产品 ⏐ 作为资深财政资本市场数据控制工程师，使用冻结的 TreasuryDirect Auction Query、FiscalData Treasury Securities Auctions Data、107 份逐场官方结果 XML 和 2025-03-31 历史时点 31 CFR Part 356，离线构建发行日在 2025Q"
+},
+"cn-all-remaining-0649-f4bed7ef": {
+"source": "USGS",
+"confidence": 0.95,
+"context": "构建 USGS 2024 地震影响产品发布血缘与版本修订审计 ⏐ 作为高级地震数据与灾害影响产品发布工程师，使用六次 2024 年 USGS 已完成地震发布的冻结快照，构建可重现的离线审计仓库。按 ComCat preferredWe"
+},
+"cn-all-remaining-0650-3d91eb5e": {
+"source": "BSEE",
+"confidence": 0.95,
+"context": "构建 BSEE 2024 海上设施事故、调查与检查执法连续性审计 ⏐ 作为海上安全法规数据工程师，使用 BSEE 2024 年事故明细工作簿、平台结构生命周期、事故调查、检查与 INC 执法快照，以及 2024-12-31 eCFR "
+},
+"cn-all-remaining-0651-88bde7d0": {
+"source": "FRA",
+"confidence": 0.95,
+"context": "构建 FRA Cook County 道口生命周期、事故时点与 ENS 监管审计数据产品 ⏐ 使用冻结的美国联邦铁路管理局（FRA）Form 71 当前与历史道口清单、Form 57 的 2020–2025 年事故报告、FRA 机器"
+},
+"cn-all-remaining-0652-b9c7d500": {
+"source": "NHC",
+"confidence": 0.85,
+"context": "构建 NOAA Hurricane Ian 潮位站风暴增水、垂直基准与洪水阈值审计产品 ⏐ 作为高级海岸观测数据工程师，使用 NHC Hurricane Ian 最终报告 Table 3 选定的六座 Florida NOS 潮位站，以及冻结的 CO-OPS 站点元数据、MLLW/MHHW/NAVD88 基准、沿海洪水阈值、已验证六分钟水位、六分钟天文"
+},
+"cn-all-remaining-0658-a24a0d9e": {
+"source": "VASP",
+"confidence": 0.65,
+"context": "证据复核 ⏐ 针对审稿人对“为何五个计算足以得到所有 Cij”“DFT 与 MLFF 如何求弹性常数”以及“K、G 预测精度未给出”的质疑，开发一个可复跑的轻量复核工程。工程读取 Input Materials 中真实 VASPKIT 应变设置、VASP 参数、POSCAR 和 6×6 弹性刚度矩阵，不运行受许可限制的 VASP，也不重新训练 MACE；它应检查方法合同、解析张量、计算 Voigt/Reuss/Hill 聚合模量、Young 模"
+},
+"cn-all-remaining-0674-84436791": {
+"source": "BLS",
+"confidence": 0.9,
+"context": "字体验服务。管理层正在制定未来24个月的人才与服务组合计划，需要判断：平面设计师职业是否正在收缩、AI最先影响哪些工作环节、招聘和培养应向哪些相邻能力迁移，以及工作室是否应减少常规延展、增加品牌与数字服务。请以附件提供的BLS、O*NET与WEF公开资料摘录为唯一外部事实基础，完成一项可供合伙人会议直接使用的行业研究。研究不是泛泛讨论AI趋势，而要把职业规模、薪酬、就业展望、任务结构、软件技能和客户给定的经营情景连接起来，形成可复算的结论与2"
+},
+"cn-all-remaining-0686-25b0fcd7": {
+"source": "CRM",
+"confidence": 0.85,
+"context": "2024—2026 AR应用开发工程师项目机会、技术栈与产能研究 ⏐ 我负责一家工业数字化服务商的 XR 交付中心。管理层正在做 2026 年下半年业务与人员计划，但 CRM 中的项目机会、招聘需求和团队技能口径长期不一致：同一设备有多种写法，销售记录中的技术词混有厂商名、引擎、平台和功能；部分项目处于需求澄清或方案评审阶段，不能按已成交项目统计。现在需要把这批资料整理成一份可复算的 AR "
+},
+"cn-all-remaining-0692-1233fccb": {
+"source": "BLS Occupational Outlook Handbook",
+"confidence": 0.9,
+"context": "场、薪酬与能力结构研究（2024-2034） ⏐ 一家面向航空制造、商业航天与国防客户的工程服务公司正在编制 2027 年美国工程人才预算，需要先把“航空航天工程师”这一职业的人才市场口径做扎实。请基于附件中已经固化的 BLS Occupational Outlook Handbook 与 O*NET 17-2011.00 官方资料快照，完成美国航空航天工程师（SOC 17-2011）的就业规模、增长、薪酬、主要雇主行业、教育门槛、岗位能力与常用工程工具研究，并给出可用于招聘和能力建设的管理建议。 研"
+},
+"cn-all-remaining-0693-64f8726a": {
+"source": "BLS",
+"confidence": 0.9,
+"context": "美上游工程人才布局，技术能力中心需要在预算评审前给管理层一份可落地的石油工程师劳动市场基准。目前内部只有零散招聘反馈，无法量化区分“人才池规模、职业集中度、雇主结构、薪酬水平和替代性招聘需求”。附件已冻结美国劳工统计局 BLS 的 OEWS、Occupational Outlook Handbook / Employment Projections，以及 O*NET 的公开数据摘录。请以 SOC 17-2171 / O*NET 17-2171"
+},
+"cn-all-remaining-0696-91bc054f": {
+"source": "IRT",
+"confidence": 0.7,
+"context": "1中心C0201监查前多源数据清理、偏离识别与闭环 ⏐ 我负责某中心一项随机、双盲、Ⅲ期降压药临床试验（研究编号 CT-HTN-301）的日常协调工作，中心 C0201 将在 5 个工作日后接受例行监查。监查准备时发现 IRT、EDC、现场访视登记、中心实验室样本、试验用药收发存及 EDC 质疑导出之间存在日期不一致、重复记录、漏录、访视逾窗、样本异常和药盒归还记录不完整等问题。 请以 2026-07-31 为数据截止日，对中心 C0201 "
+},
+"cn-all-remaining-0721-5993d63c": {
+"source": "Sentinel-2",
+"confidence": 0.9,
+"context": " 多时相Sentinel-2冬小麦长势异常地块识别与风险核查 ⏐ 项目组需要在冬小麦灌浆期前完成一次地块巡查排序。附件给出72个已确认种植冬小麦的地块边界、7期按Sentinel-2 Level-2A数据结构组织的多光谱影像、场景分类层、两次地面观"
+},
+"cn-all-remaining-0723-215c4ee4": {
+"source": "BLS Occupational Outlook Handbook",
+"confidence": 0.92,
+"context": "工资乘人数，没有区分雇员工资统计与就业预测的统计口径，导致候选城市、预算区间和岗位要求都偏宽。 附件为从 BLS Occupational Employment and Wage Statistics（2025年5月）、BLS Occupational Outlook Handbook（2024—2034预测）及 O*NET 30.3 整理的官方数据快照，并附来源登记与文件哈希。请以 SOC 27-1024 / O*NET 27-1024.00 为唯一研究对象，完成一套可重复运行、可审计的平面设计师用"
+},
+"cn-all-remaining-0724-5140b215": {
+"source": "BLS Occupational Employment and Wage Statistics",
+"confidence": 0.92,
+"context": "力。 现有内部材料把机械工程师、机械工程技术员、工业工程师和“其他工程师”混在一起，并直接采用全体工程师平均工资估算预算；行业数据又把工程服务父级与子级重复相加，导致人才规模、薪酬基准和竞品雇主名单均存在偏差。 附件为从BLS Occupational Employment and Wage Statistics（2025年5月）、BLS Occupational Outlook Handbook（2024—2034预测）及O*NET 30.3整理的官方数据快照，并附来源登记与文件哈希。请以SOC 17-2141 / O*NET"
+},
+"cn-all-remaining-0729-3456fff7": {
+"source": "BLS",
+"confidence": 0.88,
+"context": "⏐ 一家在美国设有研发和质量团队的生物技术企业，正在重新划分微生物学家岗位层级，并为下一年度招聘预算准备外部人才市场依据。管理层目前只有零散的职业介绍，缺少同口径的就业规模、增长、岗位空缺、工资和岗位能力对标。附件提供 BLS 2024–2034 职业预测表和 O*NET 30.3 职业数据库快照。请以 19-1022 Microbiologists 为目标职业，与生物化学家、医学科学家、食品科学家、环境科学家和流行病学家五个相邻职业进行固定"
+},
+"cn-all-remaining-0734-f1d1dd31": {
+"source": "Al7075_RRA_screening_baseline",
+"confidence": 0.85,
+"context": "位、1 根试样力值方向相反和 1 个重复时间戳；硬度与电导率记录中含现场已确认的无效点。试验室原有工程仅靠 Notebook 手工换路径、抄数和作图，屈服强度口径、温度修正、无效点处理和工艺结论无法复核。 请以附件中的 Al7075_RRA_screening_baseline 为唯一改造基线，把这项工作整理为可离线复跑的材料试验数据分析项目。程序需从原始文件重建每根试样的拉伸性能，合并硬度和 20 ℃电导率，核对各热处理段炉温合规性，提取 DSC 两个放热峰的峰温和焓变，最后按给定门槛判断五"
+},
+"cn-all-remaining-0741-4360744e": {
+"source": "NREL",
+"confidence": 0.9,
+"context": "PVDAQ实测光伏数据源尽调与运维对标样本库构建 ⏐ 项目组准备基于 NREL/OEDI PVDAQ 公开实测数据库开发光伏电站发电性能基线、故障识别和长期衰减分析工具。公开系统清单覆盖不同容量、安装形式、气候区、数据年限和传感器配置，部分记录存在同一 system_id 对应不同阵列朝向、安装类"
+},
+"cn-all-remaining-0744-480b57b9": {
+"source": "职业分类大典",
+"confidence": 0.85,
+"context": "提升项目。现有材料存在三类问题：人力团队把证券行业36万余名登记人员全部视为投资研究人才；业务团队用券商收入和公募基金规模直接推算岗位缺口；培训课程侧重金融概念，缺少财务模型、市场风险、研究底稿和合规边界。请基于附件中的职业分类大典摘录、中国证券业协会从业人员和经营数据、中国证券投资基金业协会公募基金数据，完成行业结构、人才配置、岗位能力和培训产品研究。成果用于内部组织规划和课程立项，不得形成具体股票推荐，不得编造招聘人数、薪酬、资格考试通过率或个"
+},
+"cn-all-remaining-0752-efc39390": {
+"source": "KiCad",
+"confidence": 0.8,
+"context": "路电芯电压与 8 路 NTC 温度采样。试制阶段暴露出少数通道阶跃收敛慢、噪声偏高、NTC 温度换算异常以及 AFE 5V 纹波偏大的问题，线束连续性复核还发现两路采样映射不一致。 现在需要以附件中的 RevA 可编辑 KiCad 工程、BOM/netlist/前端参数导出、连续性记录和台架 CSV 为唯一工程基线，完成一次正式的 RevB 硬件 ECO 审查与整改交付。工作内容包括：从原始资料定位问题根因，区分设计值/装配值/映射错误；按冻结需"
+},
+"cn-all-remaining-0753-fd173b01": {
+"source": "iperf3",
+"confidence": 0.75,
+"context": "路或只保留 LEAF02 时大量丢包。现场已恢复，不能再登录设备。请使用附件中的匿名化拓扑、服务器 bond/VLAN/MTU 状态、交换机配置和 LACP/MLAG 状态、接口计数器、链路事件时间线、ICMP 抓包及 iperf3 JSON，对本轮回归做离线复盘。需要区分正常收敛、VLAN 放行、MTU 和物理链路问题，给出可复算的测试结果、主根因、排除项、修复配置和完整复测计划，并把分析过程实现为可重复执行的离线工具。附件来自同一轮实验室回归，"
+},
+"cn-all-remaining-0773-95cfc75e": {
+"source": "WRF",
+"confidence": 0.88,
+"context": "WRF 强降水个例双方案模式检验与敏感性评估 ⏐ 项目组正在复盘一次区域性强降水个例。两组 WRF d02 试验已经计算完成，分别为 CTRL 和 MP8，积分时段为 2024-07-19 00 UTC 至 2024-07-2"
+},
+"cn-all-remaining-0780-37b43f72": {
+"source": "ERP",
+"confidence": 0.9,
+"context": "华东大区半年度销售经营复盘、Q3预测与目标拆解 ⏐ 我是澜川商用净水设备有限公司华东大区的销售主管，7月8日要参加半年度经营会。附件是截至2025年6月30日从ERP、CRM和销售运营台账导出的脱敏资料，包括H1开票明细、12名销售的月度目标和组织信息、336条商机以及产品折扣和毛利底线。管理层需要的不只是销售排名，而是能解释H1差距、判断Q3目标能否兑现、并落实到具体人员和商机的经"
+},
+"cn-all-remaining-0781-0439c6a6": {
+"source": "Godot",
+"confidence": 0.75,
+"context": "Godot 游戏项目资源依赖审计与安全批量修复工具 ⏐ 《Rift Runner》项目在一次内容目录整理中，把 UI 图标、武器特效和仓库关卡贴图从临时目录迁入了规范目录。合并分支后，部分 `.tscn`、`.tres` 和 GD"
+},
+"cn-all-remaining-0784-a74f0a42": {
+"source": "SCADA",
+"confidence": 0.85,
+"context": "kV工业园区馈线分时潮流与分布式光伏接入承载力评估 ⏐ 园区计划在 5 处厂房和公共建筑屋顶分期建设分布式光伏。现有 10 kV 馈线为单电源辐射运行，运行部门已整理线路、负荷、常开联络、典型日 96 点曲线和 3 组 SCADA 校核快照，但还没有形成可重复的接入承载力结论。请先核对模型口径和量测一致性，再完成无新增光伏及规划光伏方案的分时潮流，检查母线电压、线路载流量、主变负载和源点反向潮流；同时按附件给出的两类故障和联络转供方式开展 N-1"
+},
+"cn-all-remaining-0795-2d469bcb": {
+"source": "Fama/French",
+"confidence": 0.9,
+"context": "or_backtest.py` 能生成净值，但它使用全样本均值确定方向、在同一交易日使用信号与收益、忽略风险利率和交易成本，也没有固定配置、换仓审计、归因、滚动风险或可复现检查，现有净值不能用于评审。 请以附件中的冻结 Fama/French 五因子日收益、换仓日历和 YAML 口径为唯一数据基线，把原型升级为一个离线、可配置、无前视、可审计、可重复运行的五因子另类风险溢价基金研究系统。系统需在月末形成趋势方向，在下一交易日执行；使用 EWMA 风险模型做逆"
+},
+"cn-all-remaining-0802-f5452942": {
+"source": "HIS",
+"confidence": 0.85,
+"context": "住院抗菌药物医嘱专项点评与药师干预清单生成 ⏐ 药学部准备开展2026年7月住院抗菌药物专项点评。附件是从HIS、LIS、手麻系统和药学问诊底稿整理出的教学模拟数据，患者基本信息、肾功能、过敏史、手术切皮时间、抗菌药物医嘱及微生物药敏分散在多份文件中。需要按院内审核规则完成60例患者、92条抗菌药物医嘱的逐条审核，重点核对Cock"
+},
+"cn-all-remaining-0822-6a5c9899": {
+"source": "EPSG:4547",
+"confidence": 0.7,
+"context": "和周边租赁需求放到同一套可复核口径下，筛出近期能落地的地块并估算住房容量。 附件提供42宗地块与权属台账、188栋现状建筑、638个步行路网节点和1206条路网边、公共交通与服务设施、420条租赁市场样本。全部X/Y为从EPSG:4547仅做未知常量平移后的匿名化局部米制坐标，距离、面积和相对位置保持不变，但不可用于实际地理定位。片区中部有河道，步行只能通过三处桥梁，直线缓冲会明显高估可达性。请完成数据清洗、路网可达性计算、硬性条件筛选、综合评分、住房容"
+},
+"cn-all-remaining-0832-b6b0d79c": {
+"source": "Unity",
+"confidence": 0.75,
+"context": "Unity 资源预提交审计与 CI 批处理工具开发 ⏐ Project Aster 是一款仍在持续更新的 Unity 手游，内容团队按主干、活动分支和 DLC 分支并行开发。最近几次合并里出现过主包 Prefab 误引用活动资源、"
+},
+"cn-all-remaining-0840-777d7230": {
+"source": "Matrix Market",
+"confidence": 0.75,
+"context": "。合作组导出的 12 组链复形都给出了 d3、d2、d1 三个稀疏整数边界矩阵，但现有脚本只在有理数域上计算秩，只能得到 Betti 数，无法识别有限扭结部分；不同批次还会改变链群基的排序和符号。请对附件中的 36 个 Matrix Market 矩阵做一次完整审计：先核对矩阵维数、整数条目和链条件，再用精确整数算法计算 H0 至 H3、各边界算子的 Smith 标准形和 Euler–Poincaré 一致性，最后用固定种子的带符号基置换复算，确认结果不依赖导出"
+},
+"cn-all-remaining-0845-a6a750c1": {
+"source": "GHCN-Daily",
+"confidence": 0.85,
+"context": "时，值班组发现旧版日报在季节早晚段、阈值边界日和相邻高温过程划分上与人工复核不一致，但现有结果缺少原始质量标志、输入哈希和历史排名，无法直接判断是数据问题、方法问题还是事件合并逻辑造成的。 附件提供 NOAA/NCEI GHCN-Daily 真实单站冻结观测、站点元数据、字段说明、分析配置和版本变更需求；“原始项目文件”中提供旧版源代码、旧版输出及问题登记表。请在不修改原始观测和旧版工程的前提下，独立审计旧版方法，重建正确的日历日P90和热浪识别流程，完成"
+},
+"cn-all-remaining-0850-f0bd0a8c": {
+"source": "DailyMed",
+"confidence": 0.9,
+"context": "开，围手术期停药时间没有来源页码，“避免使用”“不推荐”“禁忌”和“无法给出剂量建议”也被写成同一种红色提示。 附件提供 ELIQUIS、XARELTO、dabigatran etexilate 和 SAVAYSA 的 DailyMed 美国处方药标签 PDF，以及本轮要复核的 11 个成人主题。请像医院药学信息团队做会议前标签核查一样，完成来源控制、证据定位、规则标准化、剂量矩阵、相互作用与风险边界矩阵，并形成一套能直接交给药事会议使用的 Word "
+},
+"cn-all-remaining-0851-f49f24e5": {
+"source": "EPA 官方 2024 Test Car List",
+"confidence": 0.85,
+"context": "下一轮整车平台的轮胎、空气阻力和高速能耗目标讨论。现有 v1 程序输出与工程师手算不一致：部分配置缺失、同车型不同轮胎/驱动配置被合并、70 mph 功率整体偏低，且旧表使用测功机 Set 系数进行竞品排名。 附件提供 EPA 官方 2024 Test Car List 冻结副本、从中原样抽取的 610 条 Electricity 试验记录、计算口径、来源清单，以及旧版程序和旧版结果。请完成一次可复现的方法审计和全量复算：确认旧版问题及影响，按正确道路载荷口径建立唯一配置级基准，形成同"
+},
+"cn-all-remaining-0854-dffd1f7e": {
+"source": "ArenaNetPerf_Baseline_SourceOnly.zip",
+"confidence": 0.75,
+"context": "制状态、Dormancy、碰撞和移动组件。目标是消除重复伤害和无效 Tick，同时把服务器帧、出站带宽与 ActorChannel 峰值压回项目预算。该题不要求改蓝图、美术、Niagara 或关卡资产。 ⏐ 1. 以 `ArenaNetPerf_Baseline_SourceOnly.zip` 为起点，工程必须在 Unreal Engine 5.4.4、Win64 Development Editor 下编译。不得引入 Marketplace 插件，不得修改 `test_scenario.json`、`qa"
+},
+"cn-all-remaining-0859-794a0507": {
+"source": "UCI SECOM",
+"confidence": 0.9,
+"context": "大量匿名特征，却没有说明哪些量测点值得工程师回到设备、量具和 MES 数据字典中核查。下一次工艺质量例会需要决定该方案是否具备影子运行条件，同时质检组的人工能力只能复核每个待审批次风险最高的 20% 生产实体。 附件是 UCI SECOM 半导体制造过程数据的固定快照，包含 1567 个生产实体、590 个匿名传感器/过程量测特征、PASS/FAIL 标签和时间戳。FAIL 只有 104 个，数据存在缺失、常量列和明显类别不平衡。特征没有物理名称，因此本"
+},
+"cn-all-remaining-0860-94376395": {
+"source": "C-MAPSS FD001",
+"confidence": 0.85,
+"context": "NASA C-MAPSS FD001涡扇发动机RUL基线复核与算法准入 ⏐ 动力装置健康管理组准备把一个剩余寿命（RUL）基线纳入供应商算法准入。现有 v0.7 工程使用 NASA PCoE 发布的 C-MAPSS FD001 涡扇发动机退化仿真数据，但复"
+},
+"cn-all-remaining-0862-62ba3ff3": {
+"source": "天猫旗舰店",
+"confidence": 0.7,
+"context": " 原创文创品牌 Q2 经营复盘与 618 投放预算重分配 ⏐ 我们正在给一个原创文创家居品牌做 2025 年第二季度经营复盘。品牌同时经营天猫旗舰店、京东自营、抖音商城、微信小店和小红书店铺，财务、运营和投放团队分别导出了订单、退款、流量和广告数据。现在的问题是：各平台口径不一致，订单表里有重复行、取消单和测试单，退款又跨到 7 月，平台归因收入也不能直接当成财务净"
+},
+"cn-all-remaining-0863-d6bf7ae0": {
+"source": "EIA-930",
+"confidence": 0.9,
+"context": "CISO 2021Q3 净负荷爬坡与负荷预测偏差复核 ⏐ 运行分析组正在做 2021 年三季度电网运行方法复盘。现有脚本用 EIA-930 小时数据生成 CISO 负荷预测偏差和净负荷爬坡清单，但 9 月晚高峰结果与人工抽查不一致：部分小时被删除，水电及抽蓄被并入风光出力，跨日爬坡也有异常。请接手旧工程，基于附件中的官方冻结数据完成输入核验、调整值口径统一"
+},
+"cn-all-remaining-0867-2acdfc1e": {
+"source": "NAIC Schedule P",
+"confidence": 0.75,
+"context": "备金行业基准复核 ⏐ 准备金方法组正在整理商业车险责任险的行业回溯基准，用于复核内部链梯法程序和方法说明。现有旧版程序在2007年估值截面上给出的未决赔款准备金偏低，开发因子也与人工复核不一致。请接手旧工程，使用CAS从NAIC Schedule P整理的商业车险责任险数据，识别完整公司三角，严格按2007年估值日截取可见单元，完成已付链梯、已报案链梯和Bornhuetter-Ferguson测算，按配置形成事故年选择，并使用估值日后的10年已付结果做回溯验证。最终"
+},
+"cn-all-remaining-0893-6a26dc5f": {
+"source": "AirQualityUCI.csv",
+"confidence": 0.9,
+"context": "究结论要回答：该阵列在未参与训练的后续月份中能否保持可用的 CO 定量精度，以及是否仍需要定期共址重标定。不能把其他污染物参考分析仪浓度当作低成本传感器输入，也不能用随机打乱交叉验证替代时间外推。 ⏐ 1. 直接读取 `AirQualityUCI.csv`。文件使用分号分隔、逗号小数，日期为 `DD/MM/YYYY`、时间为 `HH.MM.SS`；剔除末尾空记录和空列，将数值 `-200` 统一转换为缺失值。不得修改或覆盖输入文件。 2. 以 `CO(GT)` 为目标；"
+},
+"cn-all-remaining-0894-d2a9c435": {
+"source": "GSE52778",
+"confidence": 0.95,
+"context": "GSE52778 配对 RNA-seq 质控、差异表达与可复现结果审计 ⏐ 项目组准备复核一套已发表的人气道平滑肌细胞 RNA-seq 数据，目的是确认旧版分析中样本配对、低表达过滤和差异表达排序是否可以稳定复现，再决定是否将该结果作为"
+},
+"cn-all-remaining-0898-45d332c5": {
+"source": "GeoMet",
+"confidence": 0.75,
+"context": "匿名钻孔多元素化探迁移复核与复验优先级 ⏐ 项目组正在验收一批从旧勘查数据库迁移到新系统的钻孔化验记录。附件 `drillholes.csv` 是 GeoMet 公共数据集的原始钻孔样点中心坐标及多元素化验结果（Zenodo DOI：10.5281/zenodo.7051975），坐标为匿名局部笛卡尔坐标。请对 `review_scope.csv` 指定的 4、5、7、8 号孔"
+},
+"cn-all-remaining-0899-48762d98": {
+"source": "NOAA GHCN-Daily",
+"confidence": 0.9,
+"context": "旧金山湾区长期极端降水指标、趋势与三日暴雨事件评估 ⏐ 湾区水务与防洪研究组正在更新站点尺度的极端降水基线，用于排水能力复核、暴雨事件回溯和后续区域化研究。附件提供 NOAA GHCN-Daily 的三个旧金山湾区站点原始定长文件。记录跨越多个年代，包含微量降水、缺测值和质量标志，不能直接用于水年统计。请在完全离线的条件下完成原始记录解析、质量控制、1951—2024 水年极端降水指数计算、长期趋势检验、独立三日"
+},
+"cn-all-remaining-0930-3befd0d2": {
+"source": "天猫",
+"confidence": 0.55,
+"context": "终冻结数据重新跑一遍，先把订单、退款、SKU 成本、流量和素材投放接到同一套可追溯口径上，再回答三件事：6/1—6/20 核心期三个渠道真实赚了多少；哪些 SKU/素材看起来有量但被退款或成本吃掉；下一周期总预算锁死后，天猫、抖音、京东该怎么重分。 附件里给的是实际复盘会会用到的明细和项目过程材料。最终交付不能只给一页结论或截图，所有渠道、商品、素材和预算数字都要能从明细重新算出来，平台回传数据与订单归因不一致的地方要保留对账差异，不要为了"
+},
+"cn-all-remaining-0945-63165974": {
+"source": "OpenAPI",
+"confidence": 0.8,
+"context": "企业客户门户API授权边界、网关控制与修复回归复核 ⏐ 某B2B SaaS企业客户门户准备发布季度版本。安全测试团队已从OpenAPI、测试身份台账、代理工具、动态扫描器、API网关、WAF和整改工单系统导出脱敏记录。需要将分散证据统一到同一时间和路由口径，复核角色权限、跨租户对象访问、CORS、缓存、速率限制、WAF处置及整改后复测，形成可追溯的发布"
+},
+"cn-all-remaining-0949-8fa819f1": {
+"source": "EEGEyeState.arff",
+"confidence": 0.95,
+"context": "`、`requirements.txt`。主程序必须支持： `python run_analysis.py --input <输入目录> --output <输出目录>`，全程离线运行，不得修改输入文件。 2. 解析 `EEGEyeState.arff`，保留原始时间顺序和全部 14980 行；通道顺序固定为 AF3、F7、F3、FC5、T7、P7、O1、O2、P8、T8、FC6、F4、F8、AF4。`eyeDetection=0` 为睁眼，`1` 为闭眼。原始数值只"
+},
+"cn-all-remaining-0992-b521b79a": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "，每条包含 scaled `model.osim`、米制 `markers.trc`、已完成的 `ik.mot`、`proxy_events.sto` 与 `ik_marker_errors.sto`。模型文档版本为 `OpenSimDocument Version=40600`，本题只对 XML 做静态解析，不要求也不声称 OpenSim 4.5 运行时兼容。不需要重新执行 IK、重新缩放模型或访问任何网络/服务器。 本题的专业目标是：从逐试次 s"
+},
+"cn-all-remaining-0993-789beed7": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "，每条包含 scaled `model.osim`、米制 `markers.trc`、已完成的 `ik.mot`、`proxy_events.sto` 与 `ik_marker_errors.sto`。模型文档版本为 `OpenSimDocument Version=40600`，本题只对 XML 做静态解析，不要求也不声称 OpenSim 4.5 运行时兼容。不需要重新执行 IK、重新缩放模型或访问任何网络/服务器。 本题的专业目标是：对同一匿名试"
+},
+"cn-all-remaining-0994-79906829": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "，每条包含 scaled `model.osim`、米制 `markers.trc`、已完成的 `ik.mot`、`proxy_events.sto` 与 `ik_marker_errors.sto`。模型文档版本为 `OpenSimDocument Version=40600`，本题只对 XML 做静态解析，不要求也不声称 OpenSim 4.5 运行时兼容。不需要重新执行 IK、重新缩放模型或访问任何网络/服务器。 本题的专业目标是：对步长、步时"
+},
+"cn-all-remaining-0995-02bb9017": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "，每条包含 scaled `model.osim`、米制 `markers.trc`、已完成的 `ik.mot`、`proxy_events.sto` 与 `ik_marker_errors.sto`。模型文档版本为 `OpenSimDocument Version=40600`，本题只对 XML 做静态解析，不要求也不声称 OpenSim 4.5 运行时兼容。不需要重新执行 IK、重新缩放模型或访问任何网络/服务器。 本题的专业目标是：在每个 pr"
+},
+"cn-all-remaining-0997-7c74ee4d": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "，每条包含 scaled `model.osim`、米制 `markers.trc`、已完成的 `ik.mot`、`proxy_events.sto` 与 `ik_marker_errors.sto`。模型文档版本为 `OpenSimDocument Version=40600`，本题只对 XML 做静态解析，不要求也不声称 OpenSim 4.5 运行时兼容。不需要重新执行 IK、重新缩放模型或访问任何网络/服务器。 本题的专业目标是：把每个合格 "
+},
+"cn-all-remaining-0998-93dd6a17": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "，每条包含 scaled `model.osim`、米制 `markers.trc`、已完成的 `ik.mot`、`proxy_events.sto` 与 `ik_marker_errors.sto`。模型文档版本为 `OpenSimDocument Version=40600`，本题只对 XML 做静态解析，不要求也不声称 OpenSim 4.5 运行时兼容。不需要重新执行 IK、重新缩放模型或访问任何网络/服务器。 本题的专业目标是：以六个预注册"
+},
+"cn-all-remaining-0999-c1768da5": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "，每条包含 scaled `model.osim`、米制 `markers.trc`、已完成的 `ik.mot`、`proxy_events.sto` 与 `ik_marker_errors.sto`。模型文档版本为 `OpenSimDocument Version=40600`，本题只对 XML 做静态解析，不要求也不声称 OpenSim 4.5 运行时兼容。不需要重新执行 IK、重新缩放模型或访问任何网络/服务器。 本题的专业目标是：把同一合格步"
+},
+"cn-all-remaining-1003-9c1027c0": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "入是 6 条去标识试次，每条包含 scaled model.osim、米制 markers.trc、已完成的 ik.mot、proxy_events.sto 与 ik_marker_errors.sto。模型文档版本为 OpenSimDocument Version=40600，本题只对 XML 做静态解析，不要求也不声称 OpenSim 4.5 运行时兼容。不需要重新执行 IK、重新缩放模型或访问任何网络/服务器。 本题的专业目标是：在 proxy"
+},
+"cn-all-remaining-1004-d73aa457": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "入是 6 条去标识试次，每条包含 scaled model.osim、米制 markers.trc、已完成的 ik.mot、proxy_events.sto 与 ik_marker_errors.sto。模型文档版本为 OpenSimDocument Version=40600，本题只对 XML 做静态解析，不要求也不声称 OpenSim 4.5 运行时兼容。不需要重新执行 IK、重新缩放模型或访问任何网络/服务器。 本题的专业目标是：从每个 pro"
+},
+"cn-all-remaining-1005-e06b5f6c": {
+"source": "OpenSim",
+"confidence": 0.95,
+"context": "入是 6 条去标识试次，每条包含 scaled model.osim、米制 markers.trc、已完成的 ik.mot、proxy_events.sto 与 ik_marker_errors.sto。模型文档版本为 OpenSimDocument Version=40600，本题只对 XML 做静态解析，不要求也不声称 OpenSim 4.5 运行时兼容。不需要重新执行 IK、重新缩放模型或访问任何网络/服务器。 本题的专业目标是：审计 24 至"
+},
+"cn-all-remaining-1006-ace7a744": {
+"source": "OpenSim",
+"confidence": 0.8,
+"context": "基于 OpenSim 4.5 的短跑途中跑单步态周期下肢三节段仰角协变与分相协调重组分析 ⏐ D01. 科学问题：在匿名途中跑平面运动学记录中，以同侧相邻 proxy start 冻结完整周期，重建大腿、小腿和足段仰角协变状态，对全周期及 "
+},
+"cn-all-remaining-1007-cbbd3d00": {
+"source": "OpenSim",
+"confidence": 0.8,
+"context": "基于 OpenSim 4.5 的短跑途中跑单步态周期有效腿长—扫掠角状态环、滞回结构与周期间重复性分析 ⏐ D01. 科学问题：以 Hip 到固定 foot_ref 的平面距离和扫掠角构造单周期状态环，量化符号面积、闭合误差、长度/角度转折"
+},
+"cn-all-remaining-1008-661e29af": {
+"source": "OpenSim",
+"confidence": 0.8,
+"context": "基于 OpenSim 4.5 的短跑途中跑摆动期足尖净空轨迹、足部回收高度与末段接近边界分析 ⏐ D01. 科学问题：对完整 proxy-swing 窗内 BigToe、SmallToe 和 ToeCenter 的净空轨迹进行三定义同事件比"
+},
+"cn-all-remaining-1009-f8c1bb06": {
+"source": "OpenSim",
+"confidence": 0.8,
+"context": "基于 OpenSim 4.5 的短跑途中跑触地准备期足段姿态、足端接近向量与转换时序分析 ⏐ D01. 科学问题：在每个 primary-side proxy start 前 -120 至 -20 ms 的原生短窗内，联合足段俯仰、Heel"
+},
+"cn-all-remaining-1010-9e7d19d9": {
+"source": "OpenSim",
+"confidence": 0.8,
+"context": "基于 OpenSim 4.5 的短跑途中跑触地准备期足端回拉—下降速度耦合、峰值时序与周期稳定性分析 ⏐ D01. 科学问题：在事件前短窗中以骨盆为局部基准，量化 foot_ref 的水平回拉速度与竖直下降速度的共同占时、相关、峰值时差和四"
+},
+"cn-all-remaining-1011-9cd58d92": {
+"source": "OpenSim 4.5",
+"confidence": 0.8,
+"context": "基于 OpenSim 4.5 的短跑途中跑摆动期足端轨迹曲率、回转结构与路径直接性分析 ⏐ D01. 科学问题：在完整 proxy-swing 中计算 foot_ref 相对骨盆的平面弧长、弦长、路径直接性、AP 回转点和通过二阶导质量门的曲率代理"
+},
+"cn-all-remaining-1012-dc4ca80e": {
+"source": "OpenSim 4.5",
+"confidence": 0.8,
+"context": "基于 OpenSim 4.5 的短跑途中跑髋—膝—踝解析运动链对足端速度的 Jacobian 贡献分解与闭合残差诊断 ⏐ D01. 科学问题：用 Hip-Knee-Ankle-foot_ref 三连杆平面正运动学和解析 Jacobian，将摆动足相"
+},
+"cn-all-remaining-1013-1c894eb2": {
+"source": "OpenSim 4.5",
+"confidence": 0.8,
+"context": "基于 OpenSim 4.5 的短跑途中跑触地准备期多足部参考点定义敏感性、事件一致性与结论稳健性分析 ⏐ D01. 科学问题：在共同事件窗内比较 Heel、BigToe、SmallToe、Ankle、ToeCenter 和固定 FootRef 六"
+},
+"cn-all-remaining-1014-8fb09ede": {
+"source": "OpenSim 4.5",
+"confidence": 0.8,
+"context": "基于 OpenSim 4.5 的短跑途中跑触地前后胫骨倾角—足段姿态—足端位置联合状态迁移与越零时序分析 ⏐ D01. 科学问题：在 primary-side proxy start 前后 120 ms 内，联合胫骨倾角、足段俯仰和足端相对骨盆的腿"
+},
+"cn-all-remaining-1015-c335be65": {
+"source": "OpenSim 4.5",
+"confidence": 0.8,
+"context": "基于 OpenSim 4.5 的短跑途中跑双腿剪刀式交换的膝—踝—足多层级越零时序与任务空间几何分析 ⏐ D01. 科学问题：用一侧 proxy end 到首个对侧 proxy start 的短窗重建双腿 Knee、Ankle 和 FootRef "
+},
+"cn-all-remaining-1016-2f43b66f": {
+"source": "OpenSim 4.5",
+"confidence": 0.95,
+"context": "基于OpenSim 4.5的短跑连续步躯干—骨盆—腰骶三层姿态协调、相位耦合与表示一致性分析 ⏐ 你将扮演短跑轴向姿态与 OpenSim 运动学研究员，处理 6 条去标识短跑记录的 scaled OpenSim 模型、TRC、IK、marker "
+},
+"cn-all-remaining-1017-178c3b2b": {
+"source": "OpenSim 4.5",
+"confidence": 0.9,
+"context": "基于OpenSim 4.5的短跑连续步头—颈—躯干双定义姿态波动、限位占用与敏感性分析 ⏐ 你将扮演短跑上体姿态与视频派生运动学质量研究员，处理 4 条去标识短跑记录的 scaled OpenSim 模型、TRC、IK、marker error、"
+},
+"cn-all-remaining-1018-56796b62": {
+"source": "OpenSim 4.5",
+"confidence": 0.9,
+"context": "基于OpenSim 4.5的短跑连续步髋—膝—踝方向性角速度峰序、时距与重复性分析 ⏐ 你将扮演短跑近端—远端关节时序分析师，处理 6 条去标识短跑记录的 scaled OpenSim 模型、TRC、IK、marker error、几何摘要和派生"
+},
+"cn-all-remaining-1019-46dfd4ff": {
+"source": "OpenSim 4.5",
+"confidence": 0.9,
+"context": "基于OpenSim 4.5的短跑连续步大腿—小腿相位路径、方向状态转换与拓扑重复性分析 ⏐ 你将扮演短跑节段协调与状态路径分析师，处理 6 条去标识短跑记录的 scaled OpenSim 模型、TRC、IK、marker error、几何摘要和"
+},
+"cn-all-remaining-1020-22cf57f2": {
+"source": "OpenSim 4.5",
+"confidence": 0.9,
+"context": "基于OpenSim 4.5的短跑连续步骨盆前进—竖直振荡耦合、轨迹闭环与表示一致性分析 ⏐ 你将扮演短跑时空运动学与骨盆任务轨迹分析师，处理 5 条去标识短跑记录的 scaled OpenSim 模型、TRC、IK、marker error、几何"
+},
+"cn-all-remaining-1021-1a5aac7b": {
+"source": "OpenSim 4.5",
+"confidence": 0.9,
+"context": "基于OpenSim 4.5的短跑连续步上下肢对侧反向旋转、时滞结构与同侧对照分析 ⏐ 你将扮演短跑全身节段协调分析师，处理 5 条去标识短跑记录的 scaled OpenSim 模型、TRC、IK、marker error、几何摘要和派生 pro"
+},
+"cn-all-remaining-1022-838b3c36": {
+"source": "OpenSim 4.5",
+"confidence": 0.9,
+"context": "基于OpenSim 4.5的短跑连续步左右肢幅度—时序配对、非交替拒绝与不对称象限分析 ⏐ 你将扮演短跑双侧运动学与事件链分析师，处理 5 条去标识短跑记录的 scaled OpenSim 模型、TRC、IK、marker error、几何摘要和"
+},
+"cn-all-remaining-1023-40863b44": {
+"source": "OpenSim 4.5",
+"confidence": 0.9,
+"context": "基于OpenSim 4.5的短跑连续周期分段配准、多通道波形距离与代表周期分析 ⏐ 你将扮演短跑周期时间序列与功能数据分析师，处理 6 条去标识短跑记录的 scaled OpenSim 模型、TRC、IK、marker error、几何摘要和派生"
+},
+"cn-all-remaining-1024-e0d5ca83": {
+"source": "OpenSim 4.5",
+"confidence": 0.9,
+"context": "基于OpenSim 4.5的短跑连续周期侧别中心化序列稳健趋势、早晚差、质量混杂与单变点边界分析 ⏐ 你将扮演短跑序列漂移与数据质量共变量研究员，处理 3 条去标识短跑记录的 scaled OpenSim 模型、TRC、IK、marker err"
+},
+"cn-all-remaining-1025-40f44bd5": {
+"source": "OpenSim 4.5",
+"confidence": 0.9,
+"context": "基于OpenSim 4.5的短跑连续步下一同侧代理接触起始构型的分组嵌套 Ridge 预测、双基线比较与特征消融分析 ⏐ 你将扮演计算生物力学与科学机器学习研究员，处理 8 条去标识短跑记录的 scaled OpenSim 模型、TRC、IK、m"
+},
+"cn-all-remaining-1027-651a1bb4": {
+"source": "OpenSimDocument",
+"confidence": 0.8,
+"context": "_grf、raw_config、meters_config，basename 比较采用 ASCII 大小写不敏感规则，不能新增隐藏别名。 R03. 对 JSON 和 TOML 执行完整严格解析，对 OSIM 要求可解析 OpenSimDocument，对 Storage 要求找到 endheader 且每行宽度完整，对 TRC 要求 PathFileType、表头宽度、坐标有限和单位合同全部通过。 R04. 为每个候选生成公开 content_signature，并"
+},
+"cn-all-remaining-1030-f5a56da3": {
+"source": "OpenSim",
+"confidence": 0.8,
+"context": "计 ⏐ 你将作为结构化模型资产审计者，仅从每个 trial 的 scaled_osim 静态文件计算结构、质量、字节哈希、拓扑指纹和参数指纹。 模型采用安全 UTF-8 XML 解析，拒绝 DTD/ENTITY，不运行 OpenSim，也不允许任何运行时自动补全或修复。 需要按 local tag 统计 Body、受支持 Joint、Coordinate、Marker，并从每个 Body 的直接 mass 子元素计算有限总质量。 固定结构合同为 22"
+},
+"cn-all-remaining-1036-190a37ec": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "id 不代表运动员、重复试次或实验组。 缺失处理：只在当前 trial 内记录缺失状态和原因码；不得跨 trial 借用、均值填补、复制邻近记录或假设上游已成功。 3. scaled_osim 科学层级：K。 文件格式：OpenSim XML。 单位合同：模型字段自带；长度按 m，质量按 kg。 允许用途：读取模型拓扑、坐标、marker 和缩放参数。 证据上限：模型参数是逐记录模型资产，不是真实人体测量真值。 缺失处理：只在当前 trial 内记录"
+},
+"cn-all-remaining-1037-e0ff9cc4": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "id 不代表运动员、重复试次或实验组。 缺失处理：只在当前 trial 内记录缺失状态和原因码；不得跨 trial 借用、均值填补、复制邻近记录或假设上游已成功。 3. scaled_osim 科学层级：K。 文件格式：OpenSim XML。 单位合同：模型字段自带；长度按 m，质量按 kg。 允许用途：读取模型拓扑、坐标、marker 和缩放参数。 证据上限：模型参数是逐记录模型资产，不是真实人体测量真值。 缺失处理：只在当前 trial 内记录"
+},
+"cn-all-remaining-1038-e267339a": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "id 不代表运动员、重复试次或实验组。 缺失处理：只在当前 trial 内记录缺失状态和原因码；不得跨 trial 借用、均值填补、复制邻近记录或假设上游已成功。 3. scaled_osim 科学层级：K。 文件格式：OpenSim XML。 单位合同：模型字段自带；长度按 m，质量按 kg。 允许用途：读取模型拓扑、坐标、marker 和缩放参数。 证据上限：模型参数是逐记录模型资产，不是真实人体测量真值。 缺失处理：只在当前 trial 内记录"
+},
+"cn-all-remaining-1040-7b076b3a": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "id 不代表运动员、重复试次或实验组。 缺失处理：只在当前 trial 内记录缺失状态和原因码；不得跨 trial 借用、均值填补、复制邻近记录或假设上游已成功。 3. scaled_osim 科学层级：K。 文件格式：OpenSim XML。 单位合同：模型字段自带；长度按 m，质量按 kg。 允许用途：读取模型拓扑、坐标、marker 和缩放参数。 证据上限：模型参数是逐记录模型资产，不是真实人体测量真值。 缺失处理：只在当前 trial 内记录"
+},
+"cn-all-remaining-1045-5899466e": {
+"source": "OpenSim XML",
+"confidence": 0.9,
+"context": "id 不代表运动员、重复试次或实验组。 缺失处理：只在当前 trial 内记录缺失状态和原因码；不得跨 trial 借用、均值填补、复制邻近记录或假设上游已成功。 3. scaled_osim 科学层级：K。 文件格式：OpenSim XML。 单位合同：模型字段自带；长度按 m，质量按 kg。 允许用途：读取模型拓扑、坐标、marker 和缩放参数。 证据上限：模型参数是逐记录模型资产，不是真实人体测量真值。 缺失处理：只在当前 trial 内记录缺失状态"
+},
+"cn-all-remaining-1046-5ee2b39a": {
+"source": "OSIM",
+"confidence": 0.85,
+"context": "用外层 data 资产补足内层角色，或在三个候选 ZIP 之间互相补缺。 工作目标：按公开安全包合同逐包检查 ZIP 可读性、CRC、加密、路径、重复成员、特殊类型、清单、SHA-256、异常膨胀、泄露和角色覆盖；解析 OSIM、ExternalLoads 与 setup XML 的外部依赖并执行重放硬门，再对三个声明包完成解压总量上限 0.5、1.0、2.0 倍三情景敏感性重算。 本题不是撰写概念性说明，而是完成一条可复算的数据工程流水线。必"
+},
+"cn-all-remaining-1047-574583e9": {
+"source": "OSIM",
+"confidence": 0.85,
+"context": "非有限数值的最早故障节点与可证传播血缘 ⏐ 你将对同一匿名试次目录中的配置、TRC、MOT、OSIM、Scale/IK setup XML、运行日志和状态 JSON 做纯静态故障取证。任务不是搜索任意字符串，也不是把最后一条报错直接当根因；必须先完成文件角色绑定，再在语境中识别完整的 NaN/Inf token、表格空"
+},
+"cn-all-remaining-1052-5af33928": {
+"source": "OSIM",
+"confidence": 0.85,
+"context": "多源质量字段、OSIM Body 汇总与归一化除数污染血缘 ⏐ 你将审计 config、多个 status/raw/summary JSON 与 OSIM Body mass 汇总之间的质量来源，并从所有有限非零 raw/per-kg 数值对"
+},
+"cn-all-remaining-1056-6d97d9bf": {
+"source": "OSIM",
+"confidence": 0.85,
+"context": "IK 通道退化、OSIM 边界占用、平台时长与假稳定可辨识性 ⏐ 你将把 IK MOT 的每个非 time 通道与 OSIM Coordinate 的 range、clamped、locked 绑定，识别真实冻结、模型锁定矛盾、边界夹持平台、近"
+},
+"cn-all-remaining-1057-cde087f5": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim XML 40600 CustomJoint旋转节点序列、坐标引用闭合与IK覆盖审计 ⏐ 你将扮演OpenSim XML 拓扑与坐标引用审计工程师。任务的权威目标是：按 XML 声明顺序抽取 ground_pelvis "
+},
+"cn-all-remaining-1058-16405e1c": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim XML 40600 单坐标多轴函数树依赖闭合、节点域占用与规范序列化审计 ⏐ 你将扮演科学模型函数树与依赖图审计工程师。任务的权威目标是：抽取双侧 walker_knee 中由单一 Coordinate 共享驱动的 L"
+},
+"cn-all-remaining-1059-9a9ee5b0": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim XML 40600 Coordinate边界–SimmSpline共同定义域错位、连续越域段与输入准入审计 ⏐ 你将扮演OpenSim 参数域与时序准入工程师。任务的权威目标是：从每条 OSIM 重建 knee Coo"
+},
+"cn-all-remaining-1060-60336010": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim XML 40600 左右 ankle TransformAxis、Frame与函数符号不变的镜像合同审计 ⏐ 你将扮演左右模型字段镜像合同审计工程师。任务的权威目标是：以完整组件路径配对左右 ankle Joint，区"
+},
+"cn-all-remaining-1061-bad0cf48": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim XML 40600 WeldJoint零质量Body、完整Socket图与Coordinate唯一归属审计 ⏐ 你将扮演OpenSim 组件图与引用完整性审计工程师。任务的权威目标是：从 Body、Joint、Phys"
+},
+"cn-all-remaining-1062-34dcccce": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim XML 40600 ContactGeometrySet–ForceSet–ComponentSet三集合能力字段与代理数据准入审计 ⏐ 你将扮演模型能力字段与接触组件准入审计工程师。任务的权威目标是：分集合枚举接触几"
+},
+"cn-all-remaining-1063-766bf7d3": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim XML 40600 Body–Mesh scale_factors多层链、极端值和异常传播范围审计 ⏐ 你将扮演缩放参数链与异常传播审计工程师。任务的权威目标是：逐 Body、逐 Mesh 保留三轴 scale_fac"
+},
+"cn-all-remaining-1064-d1df0d07": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim XML 40600 Body mass_center–Joint Frame同局部坐标绑定、轴向投影与正确拒绝审计 ⏐ 你将扮演质心参数与局部坐标引用审计工程师。任务的权威目标是：按公开 Body→近端Joint fr"
+},
+"cn-all-remaining-1065-41ea6ae2": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim XML 40600 Body惯量张量对称构造、PSD–三角必要条件与缩放可比性审计 ⏐ 你将扮演惯量张量与物理必要条件审计工程师。任务的权威目标是：按 OpenSim 六元顺序构造对称惯量矩阵，用特征值与 Sylves"
+},
+"cn-all-remaining-1066-9e7aed93": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim XML 40600 Marker–Joint OffsetFrame完整路径绑定、局部偏置与左右镜像残差审计 ⏐ 你将扮演Marker–Joint 局部字段绑定与消歧审计工程师。任务的权威目标是：以公开 Marker→"
+},
+"cn-all-remaining-1067-2463cafc": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim 4.5 OSIM 异构 Joint 类型分派、显隐字段规范化与故障保留审计 ⏐ 你要解决的问题 你将收到四条匿名化冻结记录，每条匿名记录含 1 份 scaled OSIM。你作为科学数据模型与 XML 数据工程师，需要"
+},
+"cn-all-remaining-1068-72ca191f": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim 4.5 OSIM PhysicalOffsetFrame 作用域路径、Socket 闭合与同名冲突审计 ⏐ 你要解决的问题 你将收到四条匿名化冻结记录，每条匿名记录含 1 份 scaled OSIM。你作为科学组件图与"
+},
+"cn-all-remaining-1069-72f41678": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim 4.5 SpatialTransform 函数 AST、常量折叠与坐标—轴入射规范化 ⏐ 你要解决的问题 你将收到四条匿名化冻结记录，每条匿名记录含 1 份 scaled OSIM。你作为科学计算表达式与 Schema"
+},
+"cn-all-remaining-1070-479d2021": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim 4.5 左右 Joint 轴—函数联合符号编码、等价表示与不可配对诊断 ⏐ 你要解决的问题 你将收到四条匿名化冻结记录，每条匿名记录含 1 份 scaled OSIM。你作为双侧模型编码与一致性数据工程师，需要在不运行"
+},
+"cn-all-remaining-1071-45787c57": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim 4.5 CustomJoint 声明轴秩、正交性、条件数与跨记录不变量质检 ⏐ 你要解决的问题 你将收到四条匿名化冻结记录，每条匿名记录含 1 份 scaled OSIM。你作为数值线性代数与模型质量工程师，需要在不运"
+},
+"cn-all-remaining-1072-2cec4395": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "OpenSim 4.5 Walker knee MultiplierFunction—Mesh 尺度绑定、节点血缘与往返审计 ⏐ 你要解决的问题 你将收到四条匿名化冻结记录，每条匿名记录含 1 份 scaled OSIM。你作为模型缩"
+},
+"cn-all-remaining-1073-45b7eb2d": {
+"source": "OpenSim",
+"confidence": 0.75,
+"context": "你要解决的问题 你将收到四条匿名化冻结记录，每条匿名记录含 1 份 scaled OSIM、1 份既有 IK MOT 和 1 份 IK marker-error STO。你作为数值插值与科学时序质量工程师，需要在不运行 OpenSim、不读取参考答案的条件下完成：对 Walker knee 四条 spline 分量执行严格节点检查、区间弦增益和伴随分量病态分类，并将 IK knee_angle 转 rad 后做半开区间占用与域外样本隔离。 这不是“给"
+},
+"cn-all-remaining-1074-df2cca32": {
+"source": "OpenSim",
+"confidence": 0.75,
+"context": "OpenSim 4.5 Coordinate 默认构型—IK 时序 Schema 连接、范围距离与越界污染审计 ⏐ 你要解决的问题 你将收到四条匿名化冻结记录，每条匿名记录含 1 份 scaled OSIM、1 份既有 IK MOT "
+},
+"cn-all-remaining-1075-1e1d2ced": {
+"source": "OpenSim",
+"confidence": 0.75,
+"context": "OpenSim 4.5 MarkerSet—Joint—Coordinate 子树图、静态覆盖与 IK 退化反例审计 ⏐ 你要解决的问题 你将收到四条匿名化冻结记录，每条匿名记录含 1 份 scaled OSIM、1 份既有 IK M"
+},
+"cn-all-remaining-1076-e3d6e3cb": {
+"source": "OpenSim",
+"confidence": 0.75,
+"context": "OpenSim 4.5 踝—距下—MTP 多级 Joint q=0 共同 Frame 轴秩与 IK 有效自由度审计 ⏐ 你要解决的问题 你将收到四条匿名化冻结记录，每条匿名记录含 1 份 scaled OSIM、1 份既有 IK MO"
+},
+"cn-all-remaining-1077-a0ae7167": {
+"source": "OpenSim",
+"confidence": 0.8,
+"context": "全 Joint 限定路径 PhysicalOffsetFrame 的 SE(3) 可组合性、双向逆闭合与浮点稳定性审计 ⏐ 从 JointSet 限定作用域枚举 PhysicalOffsetFrame，冻结 OpenSim XYZ body-fixed 旋转合同，构造齐次变换并对结构、有限性、SO(3) 不变量和双向解析逆进行可复核审计。 本题的完整工作单元包括：公开输入解析、稳定组件键建立、冻结算法重算、失败行保留、记录或组级摘要、受控"
+},
+"cn-all-remaining-1078-2bf9349a": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "tract.json；解压 原始项目文件.zip，实现待完成的核心流水线，将结果写入全新空目录。求解范围只包含这两个公开附件；第三附件由平台按附件角色管理，不属于求解输入。 输入基线 canonical_model / OpenSim .osim XML：字段、组件路径、socket 和静态模型合同的权威输入 匿名 record_id 只是包内稳定主键，不代表独立受试者，也不可用于身份推断。所有主结论必须来自公开包内原始字段与冻结算法，不得读取包外 "
+},
+"cn-all-remaining-1079-e22946dc": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "tract.json；解压 原始项目文件.zip，实现待完成的核心流水线，将结果写入全新空目录。求解范围只包含这两个公开附件；第三附件由平台按附件角色管理，不属于求解输入。 输入基线 canonical_model / OpenSim .osim XML：字段、组件路径、socket 和静态模型合同的权威输入 匿名 record_id 只是包内稳定主键，不代表独立受试者，也不可用于身份推断。所有主结论必须来自公开包内原始字段与冻结算法，不得读取包外 "
+},
+"cn-all-remaining-1080-87ad17ed": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "tract.json；解压 原始项目文件.zip，实现待完成的核心流水线，将结果写入全新空目录。求解范围只包含这两个公开附件；第三附件由平台按附件角色管理，不属于求解输入。 输入基线 canonical_model / OpenSim .osim XML：字段、组件路径、socket 和静态模型合同的权威输入 匿名 record_id 只是包内稳定主键，不代表独立受试者，也不可用于身份推断。所有主结论必须来自公开包内原始字段与冻结算法，不得读取包外 "
+},
+"cn-all-remaining-1081-37a7114a": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "tract.json；解压 原始项目文件.zip，实现待完成的核心流水线，将结果写入全新空目录。求解范围只包含这两个公开附件；第三附件由平台按附件角色管理，不属于求解输入。 输入基线 canonical_model / OpenSim .osim XML：字段、组件路径、socket 和静态模型合同的权威输入 匿名 record_id 只是包内稳定主键，不代表独立受试者，也不可用于身份推断。所有主结论必须来自公开包内原始字段与冻结算法，不得读取包外 "
+},
+"cn-all-remaining-1082-3f9336e3": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "tract.json；解压 原始项目文件.zip，实现待完成的核心流水线，将结果写入全新空目录。求解范围只包含这两个公开附件；第三附件由平台按附件角色管理，不属于求解输入。 输入基线 canonical_model / OpenSim .osim XML：字段、组件路径、socket 和静态模型合同的权威输入 匿名 record_id 只是包内稳定主键，不代表独立受试者，也不可用于身份推断。所有主结论必须来自公开包内原始字段与冻结算法，不得读取包外 "
+},
+"cn-all-remaining-1083-6bd2640e": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "tract.json；解压 原始项目文件.zip，实现待完成的核心流水线，将结果写入全新空目录。求解范围只包含这两个公开附件；第三附件由平台按附件角色管理，不属于求解输入。 输入基线 canonical_model / OpenSim .osim XML：字段、组件路径、socket 和静态模型合同的权威输入 匿名 record_id 只是包内稳定主键，不代表独立受试者，也不可用于身份推断。所有主结论必须来自公开包内原始字段与冻结算法，不得读取包外 "
+},
+"cn-all-remaining-1084-46158fae": {
+"source": "OpenSim",
+"confidence": 0.85,
+"context": "ntactHalfSpace 的版本化 canonical -X 法向、XYZ body-fixed 姿态与反重力一致性审计 ⏐ 在公开冻结 canonical HalfSpace 局部法向 n0=(-1,0,0) 和 OpenSim XYZ body-fixed 旋转合同后，将 HalfSpace 法向变换到模型 frame，计算它与反重力向量的夹角/符号关系，并将没有自然负例的证据限定为结构不变量审计。 本题的完整工作单元包括：公开输入解析、稳定"
+},
+"cn-all-remaining-1085-8cf162ff": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "tract.json；解压 原始项目文件.zip，实现待完成的核心流水线，将结果写入全新空目录。求解范围只包含这两个公开附件；第三附件由平台按附件角色管理，不属于求解输入。 输入基线 canonical_model / OpenSim .osim XML：字段、组件路径、socket 和静态模型合同的权威输入 package_file_tree / 公开包内文件与 manifest：仅用于限定资产解析、存在性、大小和哈希血缘 匿名 record_id"
+},
+"cn-all-remaining-1086-04418dc6": {
+"source": "OpenSim",
+"confidence": 0.9,
+"context": "tract.json；解压 原始项目文件.zip，实现待完成的核心流水线，将结果写入全新空目录。求解范围只包含这两个公开附件；第三附件由平台按附件角色管理，不属于求解输入。 输入基线 canonical_model / OpenSim .osim XML：字段、组件路径、socket 和静态模型合同的权威输入 external_loads_contract / ExternalLoads XML：ExternalForce 对象、Body/frame"
+},
+"cn-all-remaining-1090-c33ca50d": {
+"source": "FEC",
+"confidence": 0.9,
+"context": "构建 FEC 2024 联邦参议院委员会资金流、修订血缘与限额筛查审计产品 ⏐ 作为竞选财务审计数据工程师，使用冻结的 FEC 2024 candidate-committee linkage、committee-to-candid"
+},
+"cn-all-remaining-1091-55784277": {
+"source": "IRS SOI",
+"confidence": 0.85,
+"context": "IRS 2022–2023 县际迁移发布、披露与 Census 邻接走廊审计 ⏐ 你是州政府财政与区域规划数据平台主管。使用输入包中冻结的 IRS SOI 2022–2023 county/state inflow 与 outflow 官方发布、IRS Migration Data Users Guide 和 U.S. Census Bureau 2023 County "
+},
+"cn-all-remaining-1092-7a4f421f": {
+"source": "NRC",
+"confidence": 0.85,
+"context": "NRC 2024 年 5 月核电机组事件通知、监管时限与运行状态联动审计 ⏐ 基于冻结的 NRC 2024 年 5 月 Event Notification 日报、2024-05-01 至 2024-06-02 的每日 Pow"
+},
+"cn-all-remaining-1093-6cb23e67": {
+"source": "tzdata",
+"confidence": 0.85,
+"context": "构建 Python tzdata 2026.2 至 2026.3 TZif 迁移与供应链审计产品 ⏐ 作为高级时间数据平台与软件发布工程师，基于冻结的 Python `tzdata` 2026.2、2026.3 wheel 与 sdist、对应 PyP"
+},
+"cn-all-remaining-1094-a7759ced": {
+"source": "CMS",
+"confidence": 0.9,
+"context": "CMS 加州护理院检查、执法与所有权网络监管审计 ⏐ 作为长期护理监管团队的合规数据工程师，使用冻结的 CMS 2026 年 7 月官方数据和项目文档，离线构建一套加州护理院监管审计仓库。需要重建检查与评级状态，处理争议、豁免"
+},
+"cn-all-remaining-1095-9bcec495": {
+"source": "USITC",
+"confidence": 0.85,
+"context": "USITC 2025 汽车 Section 232 两阶段关税变更控制审计 ⏐ 作为资深海关监管数据工程师，从冻结的 USITC 2025 HTS Revision 5 前状态与 Presidential Proclamation"
+},
+"cn-all-remaining-1096-067138a9": {
+"source": "MSHA",
+"confidence": 0.9,
+"context": "构建 MSHA 2024 Part 50 矿山伤害、工时暴露与官方发布对账审计数据产品 ⏐ 作为矿山安全法规数据工程师，使用 MSHA 2024 年最终版煤矿和金属/非金属矿 operator/contractor Part 50 固"
+},
+"cn-all-remaining-1097-96b36b44": {
+"source": "美国国会图书馆",
+"confidence": 0.85,
+"context": "构建美国国会图书馆中文 MARC 多语种权威与系谱迁移审计产品 ⏐ 使用冻结的美国国会图书馆 LCDB 中文书目 MARCXML 查询窗口，以及独立冻结的 NAF/SAF 名称和主题权威响应，构建离线、可复现的集成图书馆系统迁移审计仓库。"
+},
+"cn-all-remaining-1098-eff835fa": {
+"source": "Wikimedia Foundation",
+"confidence": 0.7,
+"context": "构建 Wikimedia 非营利组织税务、资助与关联方尽调审计 ⏐ 作为资深非营利组织税务和财务数据审计工程师，使用 Wikimedia Foundation 与 Wikimedia Endowment 的 FY2024 Form 990、KPMG 审计报表，以及冻结的 IRS Pub.78、自动撤销和 California EO BMF 快照，构建可重复的离线尽调仓库。需要"
+},
+"cn-all-remaining-1099-a6550f2f": {
+"source": "MSHA",
+"confidence": 0.85,
+"context": "MSHA 2024-H2 Impact Inspection Enforcement and Adjudication Audit ⏐ Act as a senior mine-safety enforcement data-c"
+},
+"cn-all-remaining-1112-88167b19": {
+"source": "IAEA/AMDC",
+"confidence": 0.55,
+"context": "同时保留了 AME2016 与 AME2020 的历史结果，部分旧图没有记录输入哈希，也没有区分 AME 文件中以“#”标记的外推质量；同一个壳隙峰值到底来自已评估质量还是外推质量，复核时需要重新翻原始表。 本次工作以 IAEA/AMDC 官方发布的 AME2016、AME2020 ASCII 质量表冻结副本为数据基线，重新建立 Ca、Ni、Sn 三条同位素链的质量数据、双中子分离能 S2n 和经验双中子壳隙 δ2n，并审计两个 AME 版本间的质量、S"
+},
+"cn-all-remaining-1119-5b062242": {
+"source": "HIS",
+"confidence": 0.85,
+"context": "三级医院药库效期与库存周转专项复盘、跨药房调拨及采购调整 ⏐ 本人在三级综合医院药学部负责药库和药品供应管理。季度盘点后，需要在下一采购周期前把中心药库、门诊药房、住院药房和急诊药房的效期、周转和在途采购一起复盘。平时从HIS和库存系统导出的数据并不干净，常见情况包括同一库存记录重复导出、无效药品编码、效期缺失、负库存、出库数量缺失或为负、账实不一致；如果直接拉近效期清单，很容易把数据问题当成库存问题。 这次工作要求从原始数据治理开始，把库存"
+},
+"cn-all-remaining-1126-ac0908b4": {
+"source": "USGS Earthquake Hazards Program",
+"confidence": 0.9,
+"context": "发生 M4.24 事件后，旧版 v1.3 流水线给出了“活动率明显升高”的草稿结论，准备进入内部周报；但组内方法复核时发现，旧代码可能把地名描述当作空间筛选条件，也没有统一处理震级类型、目录完备性和背景活动。 附件提供 USGS Earthquake Hazards Program 的 30 天地震目录冻结快照，以及研究组旧版代码、旧版结果和待复核问题清单。请以旧项目为开发起点，对旧结果完成一次可追溯的方法缺陷审计，并在不覆盖原始项目的前提下建立 v2.0 复核流水线。 这项工作的重点不是单独算出"
+},
+"cn-all-remaining-1143-0899ebce": {
+"source": "Delaware modified LAR",
+"confidence": 0.65,
+"context": "2023 Delaware HMDA Regulation C Release-Control Audit ⏐ 基于冻结的 FFIEC/CFPB 2023 年 Delaware modified LAR、独立 filer API、官方 derived-field 源码和 12 CFR Part 1003，构建离线 HMDA 发布控制数据库。任务覆盖 action/reportability 语义、官方 race/eth"
+},
+"cn-all-remaining-1144-8a6c2142": {
+"source": "usaspending",
+"confidence": 0.55,
+"context": "；portfolio summary JSON 4 分。全表按规范化逻辑内容比较，CSV/JSON 按规范字节比较；任一缺失/额外文件、schema/行/状态/累计额/范围不变量差异均失败并返回非零退出码。 ⏐ gsa_usaspending_order_modification_task_inputs.zip gsa_usaspending_order_modification_reference_and_evaluator.zip"
+},
+"cn-all-remaining-1145-c17d3877": {
+"source": "UN Comtrade",
+"confidence": 0.65,
+"context": "UN Comtrade HS 2017→2022 商品分类迁移与贸易序列连续性审计 ⏐ 将新加坡对世界出口的冻结 2021 原始 HS 2017 记录与 2022 原始 HS 2022 记录，按照 UNSD 官方完整 correlation "
+},
+"cn-all-remaining-1146-6532ab9d": {
+"source": "NASA PS",
+"confidence": 0.6,
+"context": "NASA–ESA 系外行星星历、宿主星天体测量与多系统观测就绪审计 ⏐ 对 NASA PS 多文献参数解与 ESA Gaia DR3 独立宿主星天体测量进行身份、历元、星历不确定性、替代解分歧和多行星系统级发布控制。 ⏐ 哈希校验；精确 Gaia DR3 标识；完整默认解优先、默认缺失时最小传播不确定性回退；"
+},
+"cn-all-remaining-1147-7c690611": {
+"source": "O*NET",
+"confidence": 0.7,
+"context": "构建 O*NET 注册学徒制职业阶梯、技能连续性和 OOH 终点对账产品 ⏐ 使用冻结的 O*NET 30.3 文本数据库、RAPIDS 注册学徒职业对照、BLS OOH 对照和 O*NET-SOC 2019→2018 SOC 对照，离"
+},
+"cn-all-remaining-1148-ddabd7cf": {
+"source": "MapPLUTO",
+"confidence": 0.65,
+"context": "NYC MapPLUTO–建筑轮廓–DOB 占用证拓扑与谱系审计 ⏐ 对公式定义的连续范围 Manhattan 整数 blocks 1–180 的税 lot、建筑 MultiPolygon/BIN 与 legacy/DOB NOW CO 全历史"
+},
+"cn-all-remaining-1149-9529549a": {
+"source": "FCC",
+"confidence": 0.7,
+"context": "FCC ULS Microwave Path and ASR Compliance Audit ⏐ 从 FCC 冻结的微波 application/license 日包中重建固定点对点路径，解析 LO/PA/AN/FR 复合键"
+},
+"cn-all-remaining-1150-aa72ec91": {
+"source": "NPS Everything",
+"confidence": 0.85,
+"context": "NPS 国家历史名录登记事件、状态快照与空间谱系审计 ⏐ 将 NPS Everything 的重提交/追加文件事件链与 Listed、Removed、NHL 官方快照及 CRGIS 点面 GUID 谱系耦合，形成 District of Columbia 公共空间发布审计。 ⏐ 校验十个冻结来源；保留完整 a"
+},
+"cn-all-remaining-1151-3a37412b": {
+"source": "USDA FoodData Central",
+"confidence": 0.95,
+"context": "构建 USDA Foundation Foods 分析谱系、营养素统计复核与 SR Legacy 跨版本对账产品 ⏐ 使用冻结的 USDA FoodData Central 2026 年 4 月 Foundation Foods CSV 与最终 2018 年 4 月 SR Legacy CSV，离线构建食品成分分析谱系、Decimal 营养素统计复核和跨版本历史对账产品。 ⏐ 核验两份官方"
+},
+"cn-all-remaining-1152-b88db992": {
+"source": "SEC",
+"confidence": 0.85,
+"context": "SEC 2024 Adjudicatory Proceeding Lifecycle Audit ⏐ 从 SEC 完整冻结的 2024 Commission Opinions and Adjudicatory Orders 与"
+},
+"cn-all-remaining-1161-7adde7ff": {
+"source": "FHWA",
+"confidence": 0.9,
+"context": "FHWA Delaware Bridge Element Condition Reconciliation ⏐ 作为桥梁资产数据与检查治理工程师，离线对账 FHWA 2025 Delaware NBI 桥梁清单与独立发布的 FH"
+},
+"cn-all-remaining-1162-11cb0898": {
+"source": "USGS",
+"confidence": 0.9,
+"context": "USGS–NOAA River Gauge Rating and Flood Audit ⏐ 作为水文数据与洪水运营工程师，离线对账 USGS 2024 官方日值观测与 NOAA NWPS 站点元数据、洪水阈值和水位—流量评级曲"
+},
+"cn-all-remaining-1163-87b43970": {
+"source": "USDA Soil Data Access",
+"confidence": 0.9,
+"context": "t dwelling interpretations。完整保留真实缺失、NULL、零值、双水文组和百分比异常，重算 0–150 cm 剖面指标、构件限制等级、加权 mapunit 决策与发布状态。 ⏐ 核验 5 份冻结 USDA Soil Data Access 官方源的路径、字节数、SHA-256 与表形；保留 opaque keys、NULL、零、全部 horizon 和 interpretation flags；使用 Decimal/ROUND_HALF_UP 复算区间并"
+},
+"cn-all-remaining-1164-4f0e142d": {
+"source": "美联储",
+"confidence": 0.9,
+"context": "构建美联储 2024 压力测试与资本要求修订调和审计 ⏐ 作为高级银行资本数据工程师，将 2024 严重不利情景 CET1 结果与 2024-10-01 生效的大型银行资本要求匹配，验证资本栈构成，计算压力下降、SCB 下限与隐含"
+},
+"cn-all-remaining-1165-1a802104": {
+"source": "CDC",
+"confidence": 0.9,
+"context": "构建 CDC NNDSS 2023 第 52 周暂定值与最终年表调和审计 ⏐ 对 14 个精确发布标签，将 CDC 第 52 周 US RESIDENTS 暂定计数与最终 2023 Table 1 调和，保留 COUNT、ZERO "
+},
+"cn-all-remaining-1166-f86d5a49": {
+"source": "Federal Register",
+"confidence": 0.8,
+"context": "⏐ 重建 DOL 2024 加班薪资门槛规则的发布/生效、2024-11-15 撤销、eCFR 文本滞后与 2026-05-15 技术修订之间的双时态关系，并用七个官方日期快照证明最终机器状态。 ⏐ 验证 11 份冻结 Federal Register/govinfo/eCFR 官方源的 manifest、哈希与身份；抽取 541.600/541.601/541.607 规范文本与指纹；区分 2019 baseline 和 2024 分阶段金额；按封闭官方事件线计算 "
+},
+"cn-all-remaining-1167-66c3f015": {
+"source": "Federal Register",
+"confidence": 0.85,
+"context": "构建 2024 镀锡轧材 Commerce-USITC 贸易救济生命周期审计 ⏐ 从完整 Federal Register 搜索中识别 2024 镀锡轧材最终 AD/CVD 决定，保留真实搜索噪声，再将每个调查与 USITC 负损害、忽略不计或终止结果对账，确定是否具备命令条件。 ⏐ 验证 4 份冻结 Federal Register/US"
+},
+"cn-all-remaining-1168-082afeef": {
+"source": "eCFR",
+"confidence": 0.8,
+"context": " 年报重建滚动五年表，对账历史重复值，独立复算 sustain rate，区分 effectiveness rate，并按明确语义记录 100 天决定和机构未执行建议事件。 ⏐ 验证五份年度报告、一份独立趋势报告和一份 eCFR 快照的 manifest、成员、字节数与 SHA-256；保留每份年度报告中当年及历史年度的 raw/numeric 观测，并按报告年度与观测年度区分来源；对重复观测生成 continuity control，只按数值"
+},
+"cn-all-remaining-1169-9af1b22b": {
+"source": "UCD",
+"confidence": 0.8,
+"context": "构建 Unicode 15.1 至 16.0 标识符安全迁移与同形碰撞审计产品 ⏐ 基于冻结 UCD、UTS #39 安全数据及 UAX #31/UTS #39 规范，独立解析 Unicode 15.1 与 16.0 两版 code-point 属性，重建 canonical NFD 和 confusable skel"
+},
+"cn-all-remaining-1170-a70baa13": {
+"source": "NOAA NCEI",
+"confidence": 0.9,
+"context": "5 原始与官方派生探空，保留 fixed-width sentinel/flag 语义，审计不同坐标域的垂直剖面，对账压力、温度与高度层，并发布确定性的 SQLite/CSV/JSON 决策产品。 ⏐ 验证 6 份冻结 NOAA NCEI 官方源和 archive member CRC；解析全部 raw/derived fixed-width block 与 declared cardinality；保留真实 level-type、QA sentinel"
+},
+"cn-all-remaining-1171-bc798e9b": {
+"source": "SPDX",
+"confidence": 0.85,
+"context": "构建 SPDX 3.21→3.26、OSI 与 Kubernetes v1.31 SBOM 许可迁移门禁 ⏐ 调和 SPDX License/Exception List 3.21→3.26、OSI 官方批准记录、Kubernetes"
+},
+"cn-all-remaining-1172-be243fd3": {
+"source": "metrics-server",
+"confidence": 0.85,
+"context": "构建 Kubernetes 1.29→1.32 OpenAPI schema 与 metrics-server 依赖迁移门禁 ⏐ 基于 Kubernetes 1.29/1.32 官方 OpenAPI 和 metrics-server v0.7.2 manifest，独立建立 GVK/scope lineage，递归验证实际文档，"
+},
+"cn-all-remaining-1173-7c23ef43": {
+"source": "NASA DONKI",
+"confidence": 0.85,
+"context": "构建 NASA DONKI / NOAA SWPC 2024 年 5 月空间天气事件血缘与归因审计 ⏐ 将 NASA DONKI 的 flare、CME、geomagnetic storm 与 NOAA SWPC edited event rep"
+},
+"cn-all-remaining-1174-a98c2f1e": {
+"source": "NGA",
+"confidence": 0.85,
+"context": "构建 NGA / Wikidata 藏品构成者权威、时间与多角色调和审计 ⏐ 将 NGA 官方 constituents、alternate names、text entries 与大规模 object-role 关系，同 Wiki"
+},
+"cn-all-remaining-1175-e6dc03a4": {
+"source": "NHTSA",
+"confidence": 0.9,
+"context": "NHTSA Recall Campaign Completion Lifecycle Audit ⏐ Reconstruct complete 2020-received NHTSA campaign scope and reco"
+},
+"cn-all-remaining-1176-1da3ce1d": {
+"source": "EPA",
+"confidence": 0.85,
+"context": "EPA TRI PFAS 释放与废物管理变更控制核验 ⏐ 使用冻结的 EPA 2023–2024 北卡 TRI Basic Data、PFAS 化学品名录与官方字段/变更文档，建立十位 compound ID 权威闭包，重算释"
+},
+"cn-all-remaining-1177-c31afdfe": {
+"source": "CPSC",
+"confidence": 0.85,
+"context": "美加 2024 年消费品召回标识、伤害与补救措施跨境一致性审计 ⏐ 基于冻结的 CPSC 2024 召回 API 数据和 Health Canada 召回开放数据，保留嵌套数组的真实出现次序，仅用官方 URL 字节相等进行跨境连接，区分多监管机构、未解析 URL 与 Transport Canada 分支，"
+},
+"cn-all-remaining-1179-fcde4aaf": {
+"source": "DISA",
+"confidence": 0.85,
+"context": "DISA RHEL 9 STIG 与 NIST OSCAL 安全控制治理审计 ⏐ 作为 Linux 安全基线与控制框架治理工程师，使用冻结的 DISA RHEL 9 V2R4 XCCDF、DISA CCI List 与固定 NI"
+},
+"cn-all-remaining-1180-0e2cadcc": {
+"source": "BTS",
+"confidence": 0.8,
+"context": "BTS-CBP 陆路口岸货运流量与月度连续性核验 ⏐ 以 CBP 四位 port code 为强制身份键，将 BTS 2024 入境月度记录与官方键表和 definitions 闭合，保留未知 code、名称变体、缺月和已报告"
+},
+"cn-all-remaining-1182-3a8e8666": {
+"source": "NCUA",
+"confidence": 0.9,
+"context": "NCUA 2024 年信用合作社资本充足与复杂机构分类生命周期审计 ⏐ 基于四个 NCUA 官方季度 Call Report 完整 ZIP 与冻结 eCFR 12 CFR Part 702，重建拆分资本记录，区分 new/com"
+},
+"cn-all-remaining-1183-ad6aeed5": {
+"source": "USDA RMA",
+"confidence": 0.9,
+"context": "USDA RMA 农作物保险损失原因与赔款闭包核验 ⏐ 使用冻结的 USDA RMA 2024 Cause of Loss 全国原始档、官方 30 字段 record layout、stage-code 版本表和 National Su"
+},
+"cn-all-remaining-1184-7d57859b": {
+"source": "AHRQ PSI",
+"confidence": 0.85,
+"context": "AHRQ 患者安全指标 v2023—v2024 临床代码集谱系与发布影响审计 ⏐ 使用冻结的 AHRQ PSI v2023 与 v2024 SAS 软件、两份官方代码变更工作簿，以及 FY2024 ICD-10-CM/PCS 权威文件，重建可执行代码集定义，调和跨版本完整差异，验证代码体系有效性，并发布可审计的代码集谱系数据库与"
+},
+"cn-all-remaining-1185-d7d58067": {
+"source": "ECOS",
+"confidence": 0.8,
+"context": "USFWS 受威胁与濒危物种法定名录及关键栖息地变更核验 ⏐ 把 ECOS 当前物种 assertions 按稳定 ID 聚合，与截至 2024-12-31 的 50 CFR 17.11/17.12 法律单元、Federal Register Rule/Proposed Rule 生命周期及恢"
+},
+"cn-all-remaining-1186-bab0b07d": {
+"source": "postgresql-common",
+"confidence": 0.75,
+"context": "Debian 平台 PostgreSQL 数据库平台工程师，使用冻结的 PostgreSQL 14.23、15.18、16.14、17.10 官方源码发布包、相邻官方 SHA-256 sidecar，以及 Debian postgresql-common 的 debian/293 固定源码，离线建立全部六个 major 升级对的兼容迁移审计。联合解析 parser keyword、sample GUC、contrib extension control、upstream"
+},
+"cn-all-remaining-1187-c0c21c44": {
+"source": "Zenodo",
+"confidence": 0.7,
+"context": "Zenodo、DataCite 与 Software Heritage 科研软件发布谱系审计 ⏐ 作为科研软件保存与元数据治理工程师，使用冻结的 Zenodo Astropy versions、DataCite DOI record"
+},
+"cn-all-remaining-1188-be477324": {
+"source": "USAC",
+"confidence": 0.5,
+"context": "-Rate Form 471 Original/Current FRN 历史，解析类别折扣，将承诺额与授权拨款同独立 invoice lines 调和，保留 recipient lineage，并仅在规范化名称唯一时把 USAC 当前学校匹配到 NCES EDGE location authority。 ⏐ 校验十个冻结来源；保留 source ordinal 与真实重复记录；验证四个 Socrata metadata contracts 和四"
+},
+"cn-all-remaining-1190-ee12ce0a": {
+"source": "Sentry",
+"confidence": 0.7,
+"context": "NASA CNEOS 与 ESA NEOCC 近地天体撞击风险联合审计 ⏐ 作为行星防御风险数据工程师，使用冻结的 NASA/JPL Sentry current、removed、45,859 个 virtual impactors 和 ESA NEOCC main/special risk lists，离线完成 VI aggregate 验证、current/r"
+},
+"cn-all-remaining-1191-c00b9d6f": {
+"source": "DOE AFDC",
+"confidence": 0.75,
+"context": "DOE-FHWA 电动汽车替代燃料走廊充电站就绪度与缺口拓扑核验 ⏐ 把 DOE AFDC Alabama 合格充电站的 CSV 正式筛选字段与 GeoJSON charging-unit 细目闭合，再与 FHWA/BTS NTAD Round 8 累积替代燃料走廊对齐，重建 MultiLineString "
+},
+"cn-all-remaining-1192-e8a7b525": {
+"source": "HUD",
+"confidence": 0.8,
+"context": "HUD 2025 财年小区域公平市场租金与住房券支付标准政策审计 ⏐ 重建 FY2024/FY2025 HUD county FMR 与复合 (ZIP, HUD area) SAFMR schedules，复核每个 90%/1"
+},
+"cn-all-remaining-1193-f47eaab5": {
+"source": "Met",
+"confidence": 0.75,
+"context": "大都会艺术博物馆藏品与 Getty AAT 权威词迁移审计 ⏐ 作为博物馆藏品数据管理员，仅使用冻结的 Met sunflowers 搜索、前 36 个 object details 与它们实际引用的 25 个 Getty AAT JSON-LD 概念，离线完成 legacy AAT/ULAN 链接解析、AAT relation"
+},
+"cn-all-remaining-1218-8fa644b4": {
+"source": "FDA Orange Book",
+"confidence": 0.95,
+"context": "FDA Orange Book application-level patent and exclusivity integrity audit ⏐ 使用附件中冻结的真实公开数据完成：Reconcile product, patent, and ex"
+},
+"cn-all-remaining-1219-f163b46b": {
+"source": "NHTSA FARS",
+"confidence": 0.95,
+"context": "NHTSA FARS tri-state crash-vehicle-person denominator reconciliation ⏐ 【Authorized Ground Truth revision 2026-08-18】使用附件"
+},
+"cn-all-remaining-1220-8b5989c4": {
+"source": "EIA-860",
+"confidence": 0.95,
+"context": "EIA-860 California and Texas generator transition and ownership audit ⏐ 【Authorized Ground Truth revision 2026-08-18】"
+},
+"cn-all-remaining-1221-592f6bbe": {
+"source": "ATCF",
+"confidence": 0.85,
+"context": " forecast lead-time verification audit ⏐ 【Authorized Ground Truth revision 2026-08-18】使用附件中的冻结真实公开数据完成：Decode ATCF official forecasts and best-track records for Hurricane Milton, align valid times, and compute lead-time trac"
+},
+"cn-all-remaining-1222-8580dbde": {
+"source": "SBDB",
+"confidence": 0.75,
+"context": "NASA CNEOS Sentry to SBDB top-risk identity and orbit audit ⏐ 【Authorized Ground Truth revision 2026-08-18】使用附件中的冻结真实公开数据完成：Reconcile t"
+},
+"cn-all-remaining-1223-b518ccc7": {
+"source": "IGRA",
+"confidence": 0.9,
+"context": "NOAA IGRA Key West sounding structural and pressure-order audit ⏐ 使用附件中冻结的真实公开数据完成：Parse 2026 Key West IGRA soundings, "
+},
+"cn-all-remaining-1224-25c363a2": {
+"source": "NVD",
+"confidence": 0.85,
+"context": "NVD and CISA KEV temporal and severity reconciliation audit ⏐ 使用附件中冻结的真实公开数据完成：Cross-reconcile the first 100 NVD "
+},
+"cn-all-remaining-1225-9a34fa3d": {
+"source": "MTA",
+"confidence": 0.8,
+"context": "MTA subway GTFS route-service-stop-shape topology audit ⏐ 使用附件中冻结的真实公开数据完成：Build a route-level topology audit acr"
+},
+"cn-all-remaining-1226-dee9d6cd": {
+"source": "GitHub",
+"confidence": 0.75,
+"context": "t semantic consistency audit ⏐ 【Authorized Ground Truth revision 2026-08-18】使用附件中的冻结真实公开数据完成：Reconcile latest GitHub release metadata with standard and high-availability manifests, including image tags, replicas, container arg"
+},
+"cn-all-remaining-1227-8e526987": {
+"source": "tzdata",
+"confidence": 0.85,
+"context": "IANA tzdata 2026b to 2026c semantic entity migration audit ⏐ 【Authorized Ground Truth revision 2026-08-18】使用附件中的冻结真实公开数据完"
+},
+"cn-all-remaining-1246-c333a712": {
+"source": "openFDA",
+"confidence": 0.9,
+"context": "药品短缺与 NDC 供应谱系审计（FDA 2026） ⏐ 从冻结的 openFDA 短缺/NDC Directory 和 NIH/NLM RxNorm 响应恢复逐包装供应谱系，保留目录缺失、RxNorm 解析和嵌入包装证据的差异，并生成族级供应风险审计。无既有可编辑项目；仅需交付 deliverabl"
+},
+"cn-all-remaining-1249-ce04e010": {
+"source": "IANA HTTP Status Code Registry",
+"confidence": 0.9,
+"context": "IETF RFC 与 IANA HTTP 注册表引用谱系治理审计 ⏐ 你是标准注册表治理工程师。请在完全离线环境中，从冻结的 IANA HTTP Status Code Registry 与 RFC Editor 完整 RFC Index 官方快照，构建可审计的 SQLite 治理产品、规范 CSV 和 summary JSON。先验证 task_inputs/SOURCE_MANIFEST.json；"
+},
+"cn-all-remaining-1250-4aa7de13": {
+"source": "Mozilla NSS",
+"confidence": 0.9,
+"context": "Mozilla NSS 与 Chromium 根证书库信任、约束及跨签名治理审计 ⏐ 从 Mozilla NSS 固定 tag 的 PKCS#11 certdata.txt 和 Chromium Root Store textproto 出发"
+},
+"cn-all-remaining-1251-b6824008": {
+"source": "PyPI",
+"confidence": 0.85,
+"context": "PyPI 与 OSV Python 发布物来源、漏洞区间及解析决策审计 ⏐ 调和 urllib3、requests、setuptools、pip 的 PyPI PEP 691 Simple JSON、project JSON 与"
+},
+"cn-all-remaining-1252-1e0765a9": {
+"source": "NCBI",
+"confidence": 0.85,
+"context": "NCBI SRA 与 ENA 测序研究、样本及运行元数据治理审计 ⏐ 对三个完整、公开、非人体的 E. coli BioProject 调和 NCBI BioProject/SRA RunInfo 与 ENA read_run "
+},
+"cn-all-remaining-1253-671145bb": {
+"source": "Smithsonian",
+"confidence": 0.85,
+"context": "跨机构 IIIF 文化遗产清单互操作与迁移治理审计 ⏐ 依据 IIIF Presentation 2/3 官方 context，将 Smithsonian 旧 Shared Canvas/Presentation 2 manifest 和 Wellcome Presentation 3 manifest 规范为统一资源图，并治理 language maps、rights/"
+},
+"cn-all-remaining-1254-9691ae4f": {
+"source": "CDC NWSS",
+"confidence": 0.9,
+"context": "加州污水监测人口覆盖与连续性审计（CDC 2025） ⏐ 依据 CDC NWSS 2025 加州样本级记录和 Census 2024 县人口估计，重建站点月连续性、跨县人口分配、县级封顶覆盖率和零采样月份。无既有可编辑项目；只需交付 deliverables 下三个文件。 ⏐ 验证 cdc_nwss"
+},
+"cn-all-remaining-1255-d3f1f3cb": {
+"source": "NOAA",
+"confidence": 0.9,
+"context": "联邦渔业库存状态季度迁移审计（NOAA 2024） ⏐ 从 NOAA Q1/Q4 多页 FSSI/non-FSSI 状态表重建库存快照，处理季度重命名、状态风险和 B/Bmsy 表示差异，并与季度概览和年度官方结果对账。无既有可编辑项目；只需交付 deliv"
+},
+"cn-all-remaining-1256-543f9374": {
+"source": "USDA PDP",
+"confidence": 0.9,
+"context": "农产品农药残留与 EPA 容许量合规审计（USDA PDP 2023） ⏐ 从 USDA PDP 原始样本/结果和官方 tolerance reference 重建检测、presumptive violation 与 annotation 一致性，并以冻结 eCFR Part "
+},
+"cn-all-remaining-1257-2f561d5d": {
+"source": "EPA SDWIS",
+"confidence": 0.9,
+"context": "伊利诺伊饮用水违规与执法生命周期审计（EPA SDWIS） ⏐ 对 McLean County 公共供水系统名册与违规-执法展开记录做全外连接和生命周期审计，保留复合 vioid、重复动作、时序异常、名册缺失系统、零违规系统，并核验 Part 141 规则族。无既有可编辑项目"
+},
+"cn-all-remaining-1259-7713fc3c": {
+"source": "OCC",
+"confidence": 0.85,
+"context": "FDIC 与 OCC 银行牌照监管边界及机构身份核验 ⏐ 把 OCC 全国银行、信托银行与联邦储蓄协会活动清单，同 FDIC BankFind 活跃机构快照按 FDIC 证书号、规范化名称和所在地完成法律实体核验，并形成跨清单成员关系与主要"
+},
+"cn-all-remaining-1262-e78cfd80": {
+"source": "OSHA IMIS",
+"confidence": 0.9,
+"context": "OSHA 德州电力行业检查、引用标准与罚款闭包审计 ⏐ 从 OSHA IMIS 搜索结果闭合 2024 年德州 NAICS 2211 检查集合，解析逐案详情、citation 修订、罚款与相关活动，并将 OSHA 压缩标准代码映射到冻结的 29 CFR section。 ⏐ 读取 task_inp"
+},
+"cn-all-remaining-1264-008f2bdb": {
+"source": "PHMSA Enforcement Raw Data",
+"confidence": 0.9,
+"context": "PHMSA 管道安全执法案件阶段、引用法规与处罚闭包审计 ⏐ 将 PHMSA Enforcement Raw Data 的 CPF 案件重建为立案、命令、结案和处罚收缴生命周期，并将历史引用同 2026-07-01 的 49 CFR Parts 190–195、199 section 对账。 ⏐ 读取 task_inputs/phmsa"
+},
+"cn-all-remaining-1265-1a7bc99d": {
+"source": "National Tunnel Inventory",
+"confidence": 0.85,
+"context": "FHWA 国家隧道检查合规与年度资产生命周期审计 ⏐ 对 FHWA 2024/2025 National Tunnel Inventory 做复合资产身份与年度 union，依据 23 CFR 650.511 的两个月容差在 2025-12-31 时点计算例行检查到期状态，并逐 element 行验证 condition quantity 闭包。 ⏐ 读取"
+},
+"cn-all-remaining-1266-830a170d": {
+"source": "Maritime Administration",
+"confidence": 0.8,
+"context": "DOE 与 Federal Register LNG 深水港申请生命周期及出口流量核验 ⏐ 将 Maritime Administration 的 Federal Register LNG 深水港文书组装成五个项目的申请生命周期，并仅以 DOE 交易表中的实体、供应商或出口点字段核验项目流量，排除同名船舶造成的错误归属。 ⏐ 读取 task_inputs/fe"
+},
+"cn-all-remaining-1284-b217705c": {
+"source": "FlyWire",
+"confidence": 0.85,
+"context": "FlyWire-Hemibrain 连接组数据交叉对齐 ⏐ 将果蝇大脑两个连接组数据集——FlyWire 全脑注释（FAFB v14.1，3000 个神经元）与 hemibrain 数据集（FIB25）——进行交叉对齐，产出符合 Vi"
+},
+"cn-all-remaining-1286-57ed5e7e": {
+"source": "NeuroMorpho.Org",
+"confidence": 0.95,
+"context": "SWC 神经元形态重建与多指标量化分析 ⏐ 对 9 个真实神经元 SWC 追踪文件（来自 NeuroMorpho.Org 公开库，含果蝇/FlyWire 与小鼠锥体细胞，总 35440 个节点；其中 5 个 FlyWire 文件头部声明纳米单位，需按声明换算为微米）执行端到端形态学量化：拓扑验证（6 项完整性检查）；数据清洗（负半径修复、"
+}
+}
