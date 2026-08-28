@@ -10,10 +10,11 @@
 两轮之间做落地校验：名字和引用都必须能在原文里字符串匹配上，否则丢弃。这是模型抽取
 唯一比不上正则的地方 —— 正则命中一定真实存在 —— 所以要显式补回来。
 
-产出
-  named_sources.json  原文点明来源的任务 → {来源名, 置信度, 上下文}
-  poison_names.json   原文提了名字但不是来源的任务 → {名字, 角色}
-                      classify.py 会把这些名字标成陷阱注进 prompt，免得分类器被带偏
+产出 named_sources.json —— 原文点明来源的任务 → {来源名, 置信度, 上下文}
+
+判为非出处的任务不额外记录，也不给 classify.py 任何提示。角色判定本身就是一次会
+出错的模型调用，把它的结论写成「已判定为解题工具」塞进下一步的 prompt，等于给分类器
+一个推翻不了的前提 —— 判错一次那条任务就没有翻案余地。原始响应留在 runs/ 里可查。
 """
 import json, re, collections
 import llm
@@ -157,7 +158,7 @@ roles = llm.by_id(llm.ask('find_sources', 'roles', prompts))
 
 # ─────────────────────────── 分成两路 ───────────────────────────
 
-named, poison, odd = {}, {}, collections.Counter()
+named, odd = {}, collections.Counter()
 for j, cid in enumerate(cand_ids):
     v = roles.get(j)
     if not v:
@@ -171,18 +172,14 @@ for j, cid in enumerate(cand_ids):
             odd['出处名不在候选里'] += 1
             continue
         named[cid] = dict(source=name, confidence=v.get('confidence'), context=ctx)
-    else:
-        poison[cid] = dict(names=list(cands[cid]), role=v.get('role'))
 
 json.dump(named, open('named_sources.json', 'w'), ensure_ascii=False, indent=0)
-json.dump(poison, open('poison_names.json', 'w'), ensure_ascii=False, indent=0)
 
 seen_roles = collections.Counter(roles[j].get('role') for j in range(len(cand_ids)) if j in roles)
 print(f'\n角色判定 {sum(seen_roles.values())}/{len(cand_ids)} 条：{dict(seen_roles)}')
 if odd:
     print(f'  ⚠ {dict(odd)}')
 print(f'\n原文点名来源  {len(named)} 条 → named_sources.json')
-print(f'提了名字但不是来源  {len(poison)} 条 → poison_names.json')
 print(f'待 classify.py 分类  {len(ids)-len(named)} 条')
 print('\n最常见来源:')
 for s, n in collections.Counter(v['source'].lower() for v in named.values()).most_common(10):

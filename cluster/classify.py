@@ -16,7 +16,6 @@ from menu import SUPPLEMENT
 rows = json.load(open('tasks.json'))
 byid = {r['custom_id']: r for r in rows}
 named = json.load(open('named_sources.json'))
-poison = json.load(open('poison_names.json'))
 g2 = json.load(open('g2_categories.json'))
 keep = json.load(open('menu_keep.json'))
 
@@ -30,8 +29,7 @@ MENU = '\n'.join([f'{s} | {g2[s]}' for s in keep] +
                  [f'{s} | {strip_ex(d)}' for s, d in SUPPLEMENT.items()])
 
 todo = [r['custom_id'] for r in rows if r['custom_id'] not in named]
-print(f'待分类 {len(todo)} 条（find_sources.py 已钉死 {len(named)} 条），'
-      f'其中带毒名的 {len([c for c in todo if c in poison])} 条')
+print(f'待分类 {len(todo)} 条（find_sources.py 已钉死 {len(named)} 条）')
 
 GOAL = """判断每条任务的**输入数据在现实里最可能从哪一类软件/网站导出**。
 不是问用什么工具解题（Python/Excel 之类一律不算）。问的是：这份数据原本躺在谁的界面里？
@@ -43,7 +41,17 @@ GOAL = """判断每条任务的**输入数据在现实里最可能从哪一类�
 公开数据集套一个虚构岗位，出处仍然是数据集仓库。
 
 判断依据优先级：数据形态与领域词汇（实体、字段、单位、专有格式）> 工作场景 > 文件名。
-industry_domain 只能弱参考——它说的是"谁在用"，不是"数据出自哪个系统"。"""
+industry_domain 只能弱参考——它说的是"谁在用"，不是"数据出自哪个系统"。
+
+**原文里出现的软件名未必是数据来源，多数时候不是。** 同一个名字可能是：
+- 拿来解题的工具 —— "使用墨刀完成 PRD 输出"、"不得重跑 LAMMPS"、"若无 VASP 则跳过"
+- 这道题要生成的产出物 —— "生成 Neuroglancer 状态文件"
+- 数据内容里的一个字段值 —— 数据是招聘岗位表，文中的 RenderDoc 是某个岗位要求里的技能
+- 设计参考 —— "交互页面可参考有赞小程序或唯品会小程序的产品架构"
+
+这些名字往往是整段文字里最显眼的词，很容易顺着它答。**判断品类之前先自问：那个名字
+到底是不是这份数据的出处？不是的话就忽略它，回到数据本身的形态。**
+注意否定句是陷阱：「不需要运行 VASP 能量计算」里的 VASP 是明确不用的解题工具。"""
 
 RULES = """每条给两个独立判断：
 
@@ -67,14 +75,8 @@ for b, chunk in enumerate(llm.batched(todo, 12)):
     body = []
     for j, cid in enumerate(chunk):
         r = byid[cid]
-        warn = ''
-        if cid in poison:
-            v = poison[cid]
-            nm = '、'.join(f'「{x}」' for x in v['names'])
-            warn = (f"\n⚠ 本任务提到的 {nm} 已判定为**{v['role']}**，"
-                    f"不是数据来源，不要据此判断。")
         fn = ', '.join(r['files'][:6])
-        body.append(f"### 任务 {b*12+j}{warn}\ntask_name: {r['task_name']}\n"
+        body.append(f"### 任务 {b*12+j}\ntask_name: {r['task_name']}\n"
                     f"industry_domain: {r['industry_domain']}\nfiles: {fn}\n"
                     f"task_description: {re.sub(r'\s+',' ', r['desc'])[:900]}\n"
                     f"specific_requirements: {re.sub(r'\s+',' ', r['reqs'])[:600]}")
