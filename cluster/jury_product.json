@@ -1,0 +1,1352 @@
+[
+{
+"a": "cn-all-remaining-0313-3b7b6938",
+"b": "cn-all-remaining-1036-190a37ec",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "运动曲线 vs 哈希血缘树"
+},
+{
+"a": "cn-all-remaining-1047-574583e9",
+"b": "cn-all-remaining-0376-2bcc381d",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "故障DAG vs 事件工作流"
+},
+{
+"a": "cn-all-remaining-1056-6d97d9bf",
+"b": "cn-all-remaining-1005-e06b5f6c",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "通道决策表 vs 多速率对比"
+},
+{
+"a": "cn-all-remaining-1078-2bf9349a",
+"b": "cn-all-remaining-1065-41ea6ae2",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "都是XML字段审计"
+},
+{
+"a": "cn-all-remaining-0375-cecf3fe5",
+"b": "cn-all-remaining-1020-22cf57f2",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "都是轨迹事件工作流"
+},
+{
+"a": "cn-all-remaining-0999-c1768da5",
+"b": "cn-all-remaining-1007-cbbd3d00",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "都是几何状态环/凸包"
+},
+{
+"a": "cn-all-remaining-1065-41ea6ae2",
+"b": "cn-all-remaining-0994-79906829",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "静态XML vs 时序运动学"
+},
+{
+"a": "cn-all-remaining-1003-9c1027c0",
+"b": "cn-all-remaining-0372-39b7fe89",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "匹配表 vs 相位状态表"
+},
+{
+"a": "cn-all-remaining-1052-5af33928",
+"b": "cn-all-remaining-0500-5a63c6f7",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "字段血缘 vs 功能曲线模型"
+},
+{
+"a": "cn-all-remaining-1010-9e7d19d9",
+"b": "cn-all-remaining-0999-c1768da5",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "都是逐步几何/状态特征"
+},
+{
+"a": "cn-all-remaining-1017-178c3b2b",
+"b": "cn-all-remaining-1007-cbbd3d00",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为骨架分析链"
+},
+{
+"a": "cn-all-remaining-1059-9a9ee5b0",
+"b": "cn-all-remaining-1070-479d2021",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为OSIM静态审计"
+},
+{
+"a": "cn-all-remaining-0506-090a089f",
+"b": "cn-all-remaining-0094-f32031a4",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为单周期分析链"
+},
+{
+"a": "cn-all-remaining-1080-87ad17ed",
+"b": "cn-all-remaining-0374-fe737fbf",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "静态审计vs阶段流程"
+},
+{
+"a": "cn-all-remaining-0993-789beed7",
+"b": "cn-all-remaining-1027-651a1bb4",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "指标分析vs文件去重"
+},
+{
+"a": "cn-all-remaining-1038-e267339a",
+"b": "cn-all-remaining-1073-45b7eb2d",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为字段级审计"
+},
+{
+"a": "cn-all-remaining-1075-1e1d2ced",
+"b": "cn-all-remaining-1067-2463cafc",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为OSIM对象审计"
+},
+{
+"a": "cn-all-remaining-0505-467c6f39",
+"b": "cn-all-remaining-0999-c1768da5",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为运动学统计分析"
+},
+{
+"a": "cn-all-remaining-1037-e0ff9cc4",
+"b": "cn-all-remaining-1024-e0d5ca83",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "指纹分组vs时序趋势"
+},
+{
+"a": "cn-all-remaining-1074-df2cca32",
+"b": "cn-all-remaining-0372-39b7fe89",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "静态审计vs阶段流程"
+},
+{
+"a": "cn-all-remaining-1072-2cec4395",
+"b": "cn-all-remaining-0497-f44c1602",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "XML结构审计vs运动分析报告"
+},
+{
+"a": "cn-all-remaining-0374-fe737fbf",
+"b": "cn-all-remaining-0097-f836cdfa",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为试次时序分析报告"
+},
+{
+"a": "cn-all-remaining-1023-40863b44",
+"b": "cn-all-remaining-1086-04418dc6",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "波形距离分析vs表头审计"
+},
+{
+"a": "cn-all-remaining-1056-6d97d9bf",
+"b": "cn-all-remaining-0097-f836cdfa",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "坐标状态审计vs运动分析"
+},
+{
+"a": "cn-all-remaining-0013-177a3250",
+"b": "cn-all-remaining-0505-467c6f39",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "AB对比表vs多通道PLS曲线"
+},
+{
+"a": "cn-all-remaining-1075-1e1d2ced",
+"b": "cn-all-remaining-1076-e3d6e3cb",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同类OSIM结构审计骨架"
+},
+{
+"a": "cn-all-remaining-0095-8f5537c0",
+"b": "cn-all-remaining-0498-e22b368f",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "均为试次生物力学报告"
+},
+{
+"a": "cn-all-remaining-0013-177a3250",
+"b": "cn-all-remaining-1046-5ee2b39a",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "AB对比vs归档安全审计"
+},
+{
+"a": "cn-all-remaining-1074-df2cca32",
+"b": "cn-all-remaining-0031-b2b5d783",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "结构审计vs支撑力学分析"
+},
+{
+"a": "cn-all-remaining-1003-9c1027c0",
+"b": "cn-all-remaining-0995-02bb9017",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同套trial任务空间分析"
+},
+{
+"a": "cn-all-remaining-1081-37a7114a",
+"b": "cn-all-remaining-1024-e0d5ca83",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "XML组件审计 vs 时序步态"
+},
+{
+"a": "cn-all-remaining-1024-e0d5ca83",
+"b": "cn-all-remaining-1082-3f9336e3",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "时序步态 vs XML几何审计"
+},
+{
+"a": "cn-all-remaining-1068-72ca191f",
+"b": "cn-all-remaining-0309-1e15e796",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "XML拓扑审计 vs 支撑期时序"
+},
+{
+"a": "cn-all-remaining-0999-c1768da5",
+"b": "cn-all-remaining-1064-d1df0d07",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "凸包点云 vs XML字段审计"
+},
+{
+"a": "cn-all-remaining-1081-37a7114a",
+"b": "cn-all-remaining-1061-bad0cf48",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为OpenSim XML组件审计"
+},
+{
+"a": "cn-all-remaining-1085-8cf162ff",
+"b": "cn-all-remaining-1084-46158fae",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为资产/字段结构审计"
+},
+{
+"a": "cn-all-remaining-0992-b521b79a",
+"b": "cn-all-remaining-1008-661e29af",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "均为步态时序窗口分析"
+},
+{
+"a": "cn-all-remaining-1060-60336010",
+"b": "cn-all-remaining-0506-090a089f",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "XML镜像审计 vs 状态空间模型"
+},
+{
+"a": "cn-all-remaining-0313-3b7b6938",
+"b": "cn-all-remaining-1045-5899466e",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "角动量时序 vs 记录筛选排序"
+},
+{
+"a": "cn-all-remaining-1086-04418dc6",
+"b": "cn-all-remaining-1020-22cf57f2",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "STO表头审计 vs 骨盆轨迹时序"
+},
+{
+"a": "cn-all-remaining-1070-479d2021",
+"b": "cn-all-remaining-0015-c1b61c11",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "关节符号诊断vs可靠性统计"
+},
+{
+"a": "cn-all-remaining-1019-46dfd4ff",
+"b": "cn-all-remaining-1018-56796b62",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同模板不同指标的状态/时序分析"
+},
+{
+"a": "cn-all-remaining-0376-2bcc381d",
+"b": "cn-all-remaining-1013-1c894eb2",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "锚点阶段框架vs D式定义敏感性"
+},
+{
+"a": "cn-all-remaining-0310-0e213c96",
+"b": "cn-all-remaining-1010-9e7d19d9",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "36单位闭合链vs D式窗口耦合"
+},
+{
+"a": "cn-all-remaining-1045-5899466e",
+"b": "cn-all-remaining-0503-d5a09c46",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "候选筛选选样vs滞后互相关"
+},
+{
+"a": "cn-all-remaining-1008-661e29af",
+"b": "cn-all-remaining-1027-651a1bb4",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "运动轨迹分析vs文件角色发现"
+},
+{
+"a": "cn-all-remaining-0041-c6549c75",
+"b": "cn-all-remaining-1056-6d97d9bf",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "ML建模流水线vs通道退化诊断"
+},
+{
+"a": "cn-all-remaining-1019-46dfd4ff",
+"b": "cn-all-remaining-0372-39b7fe89",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "状态路径分析vs锚点阶段框架"
+},
+{
+"a": "cn-all-remaining-1082-3f9336e3",
+"b": "cn-all-remaining-1008-661e29af",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "关节几何凸包vs足尖轨迹"
+},
+{
+"a": "cn-all-remaining-1015-c335be65",
+"b": "cn-all-remaining-0499-f0b227f8",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "过零时序几何vs傅里叶压缩"
+},
+{
+"a": "cn-all-remaining-1070-479d2021",
+"b": "cn-all-remaining-1081-37a7114a",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "OpenSim组件比对同构"
+},
+{
+"a": "cn-all-remaining-1047-574583e9",
+"b": "cn-all-remaining-0998-93dd6a17",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "取证DAG非聚类"
+},
+{
+"a": "cn-all-remaining-1003-9c1027c0",
+"b": "cn-all-remaining-1025-40f44bd5",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "试次管线相近"
+},
+{
+"a": "cn-all-remaining-0032-4d3edeb8",
+"b": "cn-all-remaining-0372-39b7fe89",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "事件格非状态集"
+},
+{
+"a": "cn-all-remaining-1079-e22946dc",
+"b": "cn-all-remaining-0099-d5e10074",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "审计非步态分析"
+},
+{
+"a": "cn-all-remaining-1052-5af33928",
+"b": "cn-all-remaining-0015-c1b61c11",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "血缘审计非信度"
+},
+{
+"a": "cn-all-remaining-1024-e0d5ca83",
+"b": "cn-all-remaining-0507-8754c588",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "序列建模相近"
+},
+{
+"a": "cn-all-remaining-0015-c1b61c11",
+"b": "cn-all-remaining-0099-d5e10074",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "信度非步态PCA"
+},
+{
+"a": "cn-all-remaining-1082-3f9336e3",
+"b": "cn-all-remaining-0012-3f9dd525",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "审计非动力学"
+},
+{
+"a": "cn-all-remaining-0993-789beed7",
+"b": "cn-all-remaining-0312-ad59def1",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "步态分解相近"
+},
+{
+"a": "cn-all-remaining-0310-0e213c96",
+"b": "cn-all-remaining-1046-5ee2b39a",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "曲线分析vs数据包审计"
+},
+{
+"a": "cn-all-remaining-1079-e22946dc",
+"b": "cn-all-remaining-0373-d92411f3",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "XML匹配vs事件评分流"
+},
+{
+"a": "cn-all-remaining-1086-04418dc6",
+"b": "cn-all-remaining-1058-16405e1c",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "审计文件结构不同"
+},
+{
+"a": "cn-all-remaining-0993-789beed7",
+"b": "cn-all-remaining-0131-17b02b87",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "多试次vs单记录执行"
+},
+{
+"a": "cn-all-remaining-1019-46dfd4ff",
+"b": "cn-all-remaining-1045-5899466e",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "曲线分析vs候选筛选"
+},
+{
+"a": "cn-all-remaining-1019-46dfd4ff",
+"b": "cn-all-remaining-1020-22cf57f2",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同模板仅指标不同"
+},
+{
+"a": "cn-all-remaining-0505-467c6f39",
+"b": "cn-all-remaining-0994-79906829",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "PLS建模vs归一检验"
+},
+{
+"a": "cn-all-remaining-0031-b2b5d783",
+"b": "cn-all-remaining-0506-090a089f",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "详细力学vs状态空间模板"
+},
+{
+"a": "cn-all-remaining-0310-0e213c96",
+"b": "cn-all-remaining-1061-bad0cf48",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "曲线分析vsXML图审计"
+},
+{
+"a": "cn-all-remaining-0499-f0b227f8",
+"b": "cn-all-remaining-0013-177a3250",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "傅里叶分析vsAB评分矩阵"
+},
+{
+"a": "cn-all-remaining-1074-df2cca32",
+"b": "cn-all-remaining-0012-3f9dd525",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "审计表 vs 全流程报告"
+},
+{
+"a": "cn-all-remaining-1003-9c1027c0",
+"b": "cn-all-remaining-0499-f0b227f8",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "配对实体 vs 分解实体"
+},
+{
+"a": "cn-all-remaining-1007-cbbd3d00",
+"b": "cn-all-remaining-0311-a71a28cc",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为周期相平面分析"
+},
+{
+"a": "cn-all-remaining-1078-2bf9349a",
+"b": "cn-all-remaining-1037-e0ff9cc4",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为XML一致性审计"
+},
+{
+"a": "cn-all-remaining-1016-2f43b66f",
+"b": "cn-all-remaining-1068-72ca191f",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "全流程分析 vs XML审计"
+},
+{
+"a": "cn-all-remaining-1006-ace7a744",
+"b": "cn-all-remaining-1024-e0d5ca83",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "PCA平面 vs 趋势变点"
+},
+{
+"a": "cn-all-remaining-0095-8f5537c0",
+"b": "cn-all-remaining-1021-1a5aac7b",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "刚度报告 vs 耦合审计"
+},
+{
+"a": "cn-all-remaining-1059-9a9ee5b0",
+"b": "cn-all-remaining-1079-e22946dc",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为XML/时序审计"
+},
+{
+"a": "cn-all-remaining-1072-2cec4395",
+"b": "cn-all-remaining-1037-e0ff9cc4",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为XML模型审计"
+},
+{
+"a": "cn-all-remaining-1006-ace7a744",
+"b": "cn-all-remaining-0041-c6549c75",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "PCA分析 vs ML建模"
+},
+{
+"a": "cn-all-remaining-1008-661e29af",
+"b": "cn-all-remaining-0309-1e15e796",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同类短跑运动学分析"
+},
+{
+"a": "cn-all-remaining-1017-178c3b2b",
+"b": "cn-all-remaining-1003-9c1027c0",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同类短跑运动学分析"
+},
+{
+"a": "cn-all-remaining-1013-1c894eb2",
+"b": "cn-all-remaining-0497-f44c1602",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同文件同产出结构"
+},
+{
+"a": "cn-all-remaining-1022-838b3c36",
+"b": "cn-all-remaining-0312-ad59def1",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同类短跑运动学分析"
+},
+{
+"a": "cn-all-remaining-1059-9a9ee5b0",
+"b": "cn-all-remaining-0099-d5e10074",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "XML审计vs运动学"
+},
+{
+"a": "cn-all-remaining-1013-1c894eb2",
+"b": "cn-all-remaining-0499-f0b227f8",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同文件同产出结构"
+},
+{
+"a": "cn-all-remaining-1021-1a5aac7b",
+"b": "cn-all-remaining-1052-5af33928",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "运动学vs血缘审计"
+},
+{
+"a": "cn-all-remaining-1003-9c1027c0",
+"b": "cn-all-remaining-1058-16405e1c",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "运动学vs XML审计"
+},
+{
+"a": "cn-all-remaining-0313-3b7b6938",
+"b": "cn-all-remaining-1079-e22946dc",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "运动学vs一致性审计"
+},
+{
+"a": "cn-all-remaining-0013-177a3250",
+"b": "cn-all-remaining-1063-766bf7d3",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "配置对比vs XML审计"
+},
+{
+"a": "cn-all-remaining-1062-34dcccce",
+"b": "cn-all-remaining-1061-bad0cf48",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同OpenSim组件审计骨架"
+},
+{
+"a": "cn-all-remaining-0013-177a3250",
+"b": "cn-all-remaining-1071-45787c57",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "合成拟合统计vs线性代数审计"
+},
+{
+"a": "cn-all-remaining-1078-2bf9349a",
+"b": "cn-all-remaining-0503-d5a09c46",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "字段共识审计vs时序相关分析"
+},
+{
+"a": "cn-all-remaining-0503-d5a09c46",
+"b": "cn-all-remaining-1073-45b7eb2d",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "时序互相关vs样条质量审计"
+},
+{
+"a": "cn-all-remaining-1065-41ea6ae2",
+"b": "cn-all-remaining-1006-ace7a744",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "张量审计vs协变PCA分析"
+},
+{
+"a": "cn-all-remaining-1079-e22946dc",
+"b": "cn-all-remaining-0310-0e213c96",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "字段共识审计vs弹道摆动分析"
+},
+{
+"a": "cn-all-remaining-1040-7b076b3a",
+"b": "cn-all-remaining-1057-cde087f5",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "资格门控vsXML拓扑审计"
+},
+{
+"a": "cn-all-remaining-1061-bad0cf48",
+"b": "cn-all-remaining-1084-46158fae",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "不同输入清单结构族"
+},
+{
+"a": "cn-all-remaining-1025-40f44bd5",
+"b": "cn-all-remaining-0997-7c74ee4d",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "预测建模vs分层斜率分析"
+},
+{
+"a": "cn-all-remaining-0312-ad59def1",
+"b": "cn-all-remaining-1040-7b076b3a",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "连续运动学分析vs资格门控"
+},
+{
+"a": "cn-all-remaining-1040-7b076b3a",
+"b": "cn-all-remaining-0498-e22b368f",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "QC门控表vs功能PCA曲线分析"
+},
+{
+"a": "cn-all-remaining-1075-1e1d2ced",
+"b": "cn-all-remaining-1014-8fb09ede",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "静态XML图谱vs时序状态分析"
+},
+{
+"a": "cn-all-remaining-1046-5ee2b39a",
+"b": "cn-all-remaining-1018-56796b62",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "包安全审计vs关节峰值时序"
+},
+{
+"a": "cn-all-remaining-1027-651a1bb4",
+"b": "cn-all-remaining-1045-5899466e",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "都是记录级决策表+状态码"
+},
+{
+"a": "cn-all-remaining-1025-40f44bd5",
+"b": "cn-all-remaining-1027-651a1bb4",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "ML预测管线vs文件角色发现"
+},
+{
+"a": "cn-all-remaining-0501-29fe7995",
+"b": "cn-all-remaining-0015-c1b61c11",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "相位圆统计vs配对可靠性统计"
+},
+{
+"a": "cn-all-remaining-1057-cde087f5",
+"b": "cn-all-remaining-0374-fe737fbf",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "XML拓扑审计vs事件轨迹分析"
+},
+{
+"a": "cn-all-remaining-0183-f366890f",
+"b": "cn-all-remaining-0721-5993d63c",
+"arm": "bucket",
+"slug": "Sentinel-2",
+"how": "点名",
+"same": false,
+"why": "单幅分类vs多期地块时序排序"
+},
+{
+"a": "cn-all-remaining-0500-5a63c6f7",
+"b": "cn-all-remaining-1030-f5a56da3",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "曲线相位分析vs模型文件审计"
+},
+{
+"a": "cn-all-remaining-1068-72ca191f",
+"b": "cn-all-remaining-0376-2bcc381d",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "静态Socket审计vs步态状态转移"
+},
+{
+"a": "cn-all-remaining-0375-cecf3fe5",
+"b": "cn-all-remaining-0496-fc8160a4",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为记录级OpenSim分析产出"
+},
+{
+"a": "cn-all-remaining-0309-1e15e796",
+"b": "cn-all-remaining-0310-0e213c96",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同模板仅相位不同"
+},
+{
+"a": "cn-all-remaining-1046-5ee2b39a",
+"b": "cn-all-remaining-1038-e267339a",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "实体不同:zip包vs记录字段"
+},
+{
+"a": "cn-all-remaining-0312-ad59def1",
+"b": "cn-all-remaining-0507-8754c588",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同类记录管线不同算法"
+},
+{
+"a": "cn-all-remaining-1009-f8c1bb06",
+"b": "cn-all-remaining-1022-838b3c36",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同D编号模板同输入形态"
+},
+{
+"a": "cn-all-remaining-0992-b521b79a",
+"b": "cn-all-remaining-1017-178c3b2b",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "均记录级链式分析产出"
+},
+{
+"a": "cn-all-remaining-1085-8cf162ff",
+"b": "cn-all-remaining-0374-fe737fbf",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "XML资产审计vs相位记录分析"
+},
+{
+"a": "cn-all-remaining-1011-9cd58d92",
+"b": "cn-all-remaining-1081-37a7114a",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "轨迹曲线vs组件socket审计"
+},
+{
+"a": "cn-all-remaining-0094-f32031a4",
+"b": "cn-all-remaining-0312-ad59def1",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为单周期记录级分析"
+},
+{
+"a": "cn-all-remaining-1017-178c3b2b",
+"b": "cn-all-remaining-1084-46158fae",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "姿态记录分析vs模型不变量审计"
+},
+{
+"a": "cn-all-remaining-0993-789beed7",
+"b": "cn-all-remaining-1004-d73aa457",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同6试次OpenSim分析结构"
+},
+{
+"a": "cn-all-remaining-1021-1a5aac7b",
+"b": "cn-all-remaining-0496-fc8160a4",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同5记录OpenSim分析结构"
+},
+{
+"a": "cn-all-remaining-1061-bad0cf48",
+"b": "cn-all-remaining-0031-b2b5d783",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "XML拓扑审计vs运动学计算"
+},
+{
+"a": "cn-all-remaining-1078-2bf9349a",
+"b": "cn-all-remaining-1070-479d2021",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "都是纯OSIM字段审计"
+},
+{
+"a": "cn-all-remaining-1019-46dfd4ff",
+"b": "cn-all-remaining-1066-9e7aed93",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "状态机运动学vs XML审计"
+},
+{
+"a": "cn-all-remaining-1052-5af33928",
+"b": "cn-all-remaining-0313-3b7b6938",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "血缘反推vs时序生物力学"
+},
+{
+"a": "cn-all-remaining-0372-39b7fe89",
+"b": "cn-all-remaining-0312-ad59def1",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "算法拼装vs完整交付流水线"
+},
+{
+"a": "cn-all-remaining-1066-9e7aed93",
+"b": "cn-all-remaining-0501-29fe7995",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "XML审计vs CRP时序分析"
+},
+{
+"a": "cn-all-remaining-0099-d5e10074",
+"b": "cn-all-remaining-1003-9c1027c0",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为分步运动学分析"
+},
+{
+"a": "cn-all-remaining-0015-c1b61c11",
+"b": "cn-all-remaining-0313-3b7b6938",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "可靠性统计vs波形事件分析"
+},
+{
+"a": "cn-all-remaining-0012-3f9dd525",
+"b": "cn-all-remaining-1037-e0ff9cc4",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "生物力学分析 vs 哈希指纹审计"
+},
+{
+"a": "cn-all-remaining-0031-b2b5d783",
+"b": "cn-all-remaining-0503-d5a09c46",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为试次-事件-波形分析"
+},
+{
+"a": "cn-all-remaining-0014-ae2a0ad8",
+"b": "cn-all-remaining-0041-c6549c75",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "统计报告 vs 60候选模型网格"
+},
+{
+"a": "cn-all-remaining-1036-190a37ec",
+"b": "cn-all-remaining-1014-8fb09ede",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "文件哈希溯源 vs 运动学状态"
+},
+{
+"a": "cn-all-remaining-1068-72ca191f",
+"b": "cn-all-remaining-1020-22cf57f2",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "XML拓扑审计 vs 骨盆轨迹分析"
+},
+{
+"a": "cn-all-remaining-1030-f5a56da3",
+"b": "cn-all-remaining-0095-8f5537c0",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "模型指纹审计 vs 步态力学"
+},
+{
+"a": "cn-all-remaining-0014-ae2a0ad8",
+"b": "cn-all-remaining-1083-6bd2640e",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "统计报告 vs Mesh缩放审计"
+},
+{
+"a": "cn-all-remaining-1074-df2cca32",
+"b": "cn-all-remaining-1065-41ea6ae2",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为静态OSIM结构审计"
+},
+{
+"a": "cn-all-remaining-0372-39b7fe89",
+"b": "cn-all-remaining-1009-f8c1bb06",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为姿态状态窗口分析"
+},
+{
+"a": "cn-all-remaining-1018-56796b62",
+"b": "cn-all-remaining-1068-72ca191f",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "关节峰值分析 vs Socket审计"
+},
+{
+"a": "cn-all-remaining-1006-ace7a744",
+"b": "cn-all-remaining-0031-b2b5d783",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为逐记录窗口分析产出"
+},
+{
+"a": "cn-all-remaining-1084-46158fae",
+"b": "cn-all-remaining-0498-e22b368f",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "静态结构审计vs时序曲线"
+},
+{
+"a": "cn-all-remaining-1079-e22946dc",
+"b": "cn-all-remaining-1047-574583e9",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "字段共识表vs故障DAG"
+},
+{
+"a": "cn-all-remaining-1078-2bf9349a",
+"b": "cn-all-remaining-1052-5af33928",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "共识审计vs血缘溯源"
+},
+{
+"a": "cn-all-remaining-1071-45787c57",
+"b": "cn-all-remaining-0309-1e15e796",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "矩阵审计vs连续曲线"
+},
+{
+"a": "cn-all-remaining-1009-f8c1bb06",
+"b": "cn-all-remaining-0995-02bb9017",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同为触地前窗口特征"
+},
+{
+"a": "cn-all-remaining-1046-5ee2b39a",
+"b": "cn-all-remaining-0311-a71a28cc",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "压缩包安全vs运动曲线"
+},
+{
+"a": "cn-all-remaining-1047-574583e9",
+"b": "cn-all-remaining-1046-5ee2b39a",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "故障DAG vs包安全审计"
+},
+{
+"a": "cn-all-remaining-0998-93dd6a17",
+"b": "cn-all-remaining-0997-7c74ee4d",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": true,
+"why": "同批trial特征统计"
+},
+{
+"a": "cn-all-remaining-1037-e0ff9cc4",
+"b": "cn-all-remaining-0099-d5e10074",
+"arm": "bucket",
+"slug": "OpenSim",
+"how": "点名",
+"same": false,
+"why": "文件指纹vs运动曲线"
+}
+]

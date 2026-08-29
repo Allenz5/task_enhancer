@@ -1,0 +1,7170 @@
+{
+"cn-all-remaining-0001-786f6572": {
+"slug": "software-design",
+"section": "Design Software",
+"source_real": "unsure",
+"l1_votes": "1/3",
+"l2_votes": "2/3",
+"confidence": 0.73
+},
+"cn-all-remaining-0002-04d42ced": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0003-753d9f01": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.58
+},
+"cn-all-remaining-0004-4cdb03e3": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.63
+},
+"cn-all-remaining-0005-c20d1c2e": {
+"slug": "demand-side-platform-dsp",
+"section": "Digital Advertising Tech",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.75
+},
+"cn-all-remaining-0006-9effbd05": {
+"slug": "discrete-erp",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0007-05d253cc": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.68
+},
+"cn-all-remaining-0008-8a350880": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.68
+},
+"cn-all-remaining-0009-3a0514d6": {
+"slug": "ai-agent-builders",
+"section": "Artificial Intelligence Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.65
+},
+"cn-all-remaining-0010-01d05df5": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0011-972a6a8b": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.63
+},
+"cn-all-remaining-0016-0cee6d6b": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.73
+},
+"cn-all-remaining-0018-920bd0dc": {
+"slug": "urban-planning-and-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0019-034c6ce9": {
+"slug": null,
+"section": "Governance, Risk & Compliance Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.85
+},
+"cn-all-remaining-0020-aa2698d8": {
+"slug": "third-party-supplier-risk-management",
+"section": "Governance, Risk & Compliance Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0021-e1224663": {
+"slug": "anti-money-laundering",
+"section": "Governance, Risk & Compliance Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0025-ed678805": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.58
+},
+"cn-all-remaining-0027-bfeb6744": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0028-a77c10ac": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0029-e2d81865": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0033-aca86d82": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0034-ca542016": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0035-880f8bef": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "3/3",
+"confidence": 0.85
+},
+"cn-all-remaining-0036-45b77900": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0037-7d5ccda9": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0038-0e6dcacf": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0039-eaf07265": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0040-333737ca": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-0042-7d1cdb25": {
+"slug": "3d-design",
+"section": "Design Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0044-cf1dd46c": {
+"slug": null,
+"section": "Governance, Risk & Compliance Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0045-5cf73d18": {
+"slug": "mechanical-computer-aided-design-mcad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.63
+},
+"cn-all-remaining-0049-81912daf": {
+"slug": "mechanical-computer-aided-design-mcad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0050-80528855": {
+"slug": "drug-discovery",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.35
+},
+"cn-all-remaining-0051-337ba9a8": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0052-d91396d1": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0053-cd373ca4": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-0054-e21dc9ca": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0055-5f8881ce": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0056-f8c86a19": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0057-9784d630": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0058-784b7023": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0059-07202c4b": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0060-4916f260": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0065-5018d030": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0067-37577e9e": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0069-0fc51497": {
+"slug": "document-creation",
+"section": "Collaboration & Productivity Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.45
+},
+"cn-all-remaining-0077-add9ca23": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-0078-cda23730": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-0080-d714b92f": {
+"slug": "mechanical-computer-aided-design-mcad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0081-ba5b245c": {
+"slug": "animation",
+"section": "Design Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0082-9d63781f": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.91
+},
+"cn-all-remaining-0083-33708ca2": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.91
+},
+"cn-all-remaining-0084-e75d9c48": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.91
+},
+"cn-all-remaining-0085-0e8a8102": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.91
+},
+"cn-all-remaining-0086-8ee22d44": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.88
+},
+"cn-all-remaining-0087-92e43f22": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.88
+},
+"cn-all-remaining-0088-743e1e5d": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.68
+},
+"cn-all-remaining-0089-ab3b3a3c": {
+"slug": "quality-management-qms",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0091-2ce46b58": {
+"slug": "game-development",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0092-5dd2fd62": {
+"slug": "source-code-management",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0093-c2a8c48f": {
+"slug": "c-c-integrated-development-environments-ide",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0096-b45060b6": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0100-af640a96": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0101-a74eea92": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0102-7061cb48": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0104-ae919772": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0105-5db0f5ee": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0106-e68c357a": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0107-1b8e5538": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0108-bf384f35": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.84
+},
+"cn-all-remaining-0109-4cb28698": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0111-21b42612": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0112-94e72782": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.89
+},
+"cn-all-remaining-0113-7d680a14": {
+"slug": "mechanical-computer-aided-design-mcad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0114-a85885be": {
+"slug": "market-research-services",
+"section": "Marketing Services Providers",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.57
+},
+"cn-all-remaining-0115-4e5886bd": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.83
+},
+"cn-all-remaining-0116-1362f053": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-0118-3dc7cdd7": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0120-b0a2424b": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-0121-037801b0": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-0123-656e26a4": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.63
+},
+"cn-all-remaining-0124-30d49720": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0125-86fa09c7": {
+"slug": "plant-design-management-systems",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0126-67b61a90": {
+"slug": "construction-estimating-software",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.38
+},
+"cn-all-remaining-0128-db79712b": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.63
+},
+"cn-all-remaining-0129-cfec2dd0": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0130-7dc96439": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.63
+},
+"cn-all-remaining-0137-9ebb5d85": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0140-b00e71e8": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0141-b2af36d4": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0145-e95af7e1": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0147-8adc1dee": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.9
+},
+"cn-all-remaining-0150-c71a0779": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.9
+},
+"cn-all-remaining-0153-be2ba508": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.9
+},
+"cn-all-remaining-0154-077b3b0c": {
+"slug": "workload-automation",
+"section": "IT Management Software",
+"source_real": "unsure",
+"l1_votes": "1/3",
+"l2_votes": "2/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0157-48c5ea38": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.9
+},
+"cn-all-remaining-0158-341df0ea": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-0160-5d376197": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.73
+},
+"cn-all-remaining-0162-c827b242": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0165-b35850c6": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0170-55cf9dab": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0172-6856819c": {
+"slug": null,
+"section": "Data Privacy Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-0177-eaac0e4d": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0178-56bf88f1": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0179-4e71f3aa": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0180-5430cc08": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0181-49c052bc": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0182-84d4da65": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0184-f035325a": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0185-e54d6ed7": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0186-e7bbf411": {
+"slug": "cad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0187-605dc08a": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0188-42909212": {
+"slug": "cad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0189-d989a5b8": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0190-3c8f53db": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0192-dd5aeb8b": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0193-9b57cb86": {
+"slug": null,
+"section": "Development Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0194-b11424c0": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0195-5825e6c9": {
+"slug": "mechanical-computer-aided-design-mcad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-0196-0fcde01e": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0197-3096cac7": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0198-6f703aa0": {
+"slug": null,
+"section": "IT Management Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0199-7d1d6e95": {
+"slug": null,
+"section": "IT Management Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0200-7d3bbee1": {
+"slug": "pcb-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.88
+},
+"cn-all-remaining-0201-aa7b482c": {
+"slug": "pcb-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.88
+},
+"cn-all-remaining-0202-e9714142": {
+"slug": "simulation-cae",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0203-0a333446": {
+"slug": null,
+"section": "IT Management Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0205-56a2c514": {
+"slug": null,
+"section": "Design Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0208-3882716b": {
+"slug": null,
+"section": "IT Management Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0214-53980c22": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.91
+},
+"cn-all-remaining-0215-7ece7df7": {
+"slug": "pcb-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.88
+},
+"cn-all-remaining-0216-24153bc9": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.91
+},
+"cn-all-remaining-0217-fbf764f2": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.86
+},
+"cn-all-remaining-0218-c55ed2a4": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0219-3028b620": {
+"slug": "source-code-management",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0220-bb326e7d": {
+"slug": null,
+"section": "Marketing Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0221-2cf3a288": {
+"slug": "laboratory",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0222-930d164f": {
+"slug": "clinical-research",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0223-6433ad04": {
+"slug": "test-management",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0225-67c5083f": {
+"slug": "urban-planning-and-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0227-eea5b2ab": {
+"slug": "3d-design",
+"section": "Design Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0229-ee451ace": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0230-7ad23258": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.92
+},
+"cn-all-remaining-0233-716f6fd9": {
+"slug": "mechanical-computer-aided-design-mcad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.75
+},
+"cn-all-remaining-0234-9f997aba": {
+"slug": null,
+"section": "Development Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0235-b31d2b3b": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.55
+},
+"cn-all-remaining-0236-9d88defd": {
+"slug": "3d-design",
+"section": "Design Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0237-8fc39a86": {
+"slug": null,
+"section": "Governance, Risk & Compliance Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0238-ec8b0623": {
+"slug": "simulation-cae",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.9
+},
+"cn-all-remaining-0239-d34a697d": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0240-6c615bee": {
+"slug": "regulatory-change-management",
+"section": "Governance, Risk & Compliance Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0243-885c2ff8": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.92
+},
+"cn-all-remaining-0244-2e8ded33": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-0246-df9e58bb": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.92
+},
+"cn-all-remaining-0247-3a150457": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.92
+},
+"cn-all-remaining-0248-45095616": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.83
+},
+"cn-all-remaining-0256-f2187348": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.65
+},
+"cn-all-remaining-0257-8171b0b6": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0258-e2a6a474": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0259-0f98e766": {
+"slug": "source-code-management",
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0260-00dbcac0": {
+"slug": "source-code-management",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0265-ae028604": {
+"slug": "staffing-agencies",
+"section": "Staffing Services Providers",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.53
+},
+"cn-all-remaining-0266-117b85a6": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0269-78ef8a58": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.86
+},
+"cn-all-remaining-0270-2b2cb5bf": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0271-7788ccc0": {
+"slug": "test-management",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0276-6e6811c4": {
+"slug": "source-code-management",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.58
+},
+"cn-all-remaining-0279-e1055243": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.77
+},
+"cn-all-remaining-0280-56d150e9": {
+"slug": "source-code-management",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.63
+},
+"cn-all-remaining-0281-5f45e300": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0283-23156729": {
+"slug": "source-code-management",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0284-ee8ca4d8": {
+"slug": "source-code-management",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0285-6c1acb68": {
+"slug": "source-code-management",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0286-e2cd489c": {
+"slug": "source-code-management",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0287-5251edcb": {
+"slug": "source-code-management",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0290-e90402a5": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0291-e8bd6c4c": {
+"slug": "quality-management-qms",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0295-f02f928e": {
+"slug": "simulation-cae",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.9
+},
+"cn-all-remaining-0300-646973ab": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0307-0a4a417e": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0314-df121ac2": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0315-288a70d1": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.86
+},
+"cn-all-remaining-0318-6f22c371": {
+"slug": "distribution",
+"section": "Supply Chain & Logistics Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0319-56b726ce": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.9
+},
+"cn-all-remaining-0320-d8bc55d2": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.63
+},
+"cn-all-remaining-0321-d05903ab": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-0322-c294fc85": {
+"slug": "recruiting",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0323-3f584fd1": {
+"slug": null,
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.58
+},
+"cn-all-remaining-0324-4be0ddcf": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.4
+},
+"cn-all-remaining-0325-eb2f0968": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0326-9882d4ca": {
+"slug": "test-management",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0327-64d6e8a2": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.75
+},
+"cn-all-remaining-0328-9e64a75f": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-0329-17bc3a39": {
+"slug": "laboratory",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0330-f8d853da": {
+"slug": "weather-data-software",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.58
+},
+"cn-all-remaining-0331-a4f0c1fc": {
+"slug": "laboratory",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.4
+},
+"cn-all-remaining-0332-f8e4da12": {
+"slug": "laboratory",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.4
+},
+"cn-all-remaining-0333-8f712f0a": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-0334-839d2c46": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0336-4dee3ef5": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0337-bafa6160": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0339-08285313": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0341-e33f98f7": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0343-6e312f2e": {
+"slug": "general-purpose-cad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.68
+},
+"cn-all-remaining-0347-e95a3726": {
+"slug": "simulation-cae",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.9
+},
+"cn-all-remaining-0350-ea7a2f54": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-0353-faf97d9d": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-0355-511b8d68": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.58
+},
+"cn-all-remaining-0356-d600f1dc": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.73
+},
+"cn-all-remaining-0357-9d6f6ae8": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0358-a36b0f21": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.77
+},
+"cn-all-remaining-0359-ab661e58": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0360-312accf1": {
+"slug": "pcb-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0363-4545ec79": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.89
+},
+"cn-all-remaining-0364-990a106a": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0365-375c7e55": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.73
+},
+"cn-all-remaining-0366-96678dde": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.84
+},
+"cn-all-remaining-0368-6fa8f105": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.76
+},
+"cn-all-remaining-0369-bbf80adf": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.73
+},
+"cn-all-remaining-0370-135929fe": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.75
+},
+"cn-all-remaining-0371-8bb9b097": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0377-f420b9d5": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0378-b6193635": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-0380-82b780a6": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0381-cef57a44": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.89
+},
+"cn-all-remaining-0382-1593e06a": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.77
+},
+"cn-all-remaining-0383-e493ff6b": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.77
+},
+"cn-all-remaining-0384-5a0c687a": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "3/3",
+"confidence": 0.92
+},
+"cn-all-remaining-0385-44efd462": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.89
+},
+"cn-all-remaining-0386-c86d9cd1": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.89
+},
+"cn-all-remaining-0387-e17081aa": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.89
+},
+"cn-all-remaining-0388-8fa5bc07": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.89
+},
+"cn-all-remaining-0389-68b3c7e8": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0390-6dee4f87": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0391-d4a9fbcb": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-0392-ba434732": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.92
+},
+"cn-all-remaining-0393-6a01fe39": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-0395-459e966d": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.45
+},
+"cn-all-remaining-0397-64a67ace": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.4
+},
+"cn-all-remaining-0398-6d389a9a": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0399-6ddf0530": {
+"slug": null,
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0400-2d892a5f": {
+"slug": "medical-qms",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.45
+},
+"cn-all-remaining-0401-c65c75e3": {
+"slug": "laboratory",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0402-aa42dfd5": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-0403-f1abed95": {
+"slug": null,
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.68
+},
+"cn-all-remaining-0404-b99d77e5": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.75
+},
+"cn-all-remaining-0405-37b50b73": {
+"slug": "warehouse-management",
+"section": "Supply Chain & Logistics Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0406-6b719b00": {
+"slug": null,
+"section": "Sales Tools",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.86
+},
+"cn-all-remaining-0407-b77013e8": {
+"slug": "quality-management-qms",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0409-6a7bb0d1": {
+"slug": "iot-device-management-platforms",
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.58
+},
+"cn-all-remaining-0410-7e8ac79d": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-0411-51fd07e5": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.4
+},
+"cn-all-remaining-0412-a20676d9": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.4
+},
+"cn-all-remaining-0413-32af7365": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.35
+},
+"cn-all-remaining-0414-b2da4750": {
+"slug": null,
+"section": "Sales Tools",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.86
+},
+"cn-all-remaining-0415-4696e896": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.37
+},
+"cn-all-remaining-0416-655ce14e": {
+"slug": "quality-management-qms",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0417-e46ae306": {
+"slug": "home-inspection",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.68
+},
+"cn-all-remaining-0418-1fa412f3": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.72
+},
+"cn-all-remaining-0419-94921508": {
+"slug": "sales-compensation",
+"section": "Sales Tools",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0420-dc253cc1": {
+"slug": "supply-chain-planning",
+"section": "Supply Chain & Logistics Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.58
+},
+"cn-all-remaining-0421-9128c0d2": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.72
+},
+"cn-all-remaining-0422-d68716cc": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.94
+},
+"cn-all-remaining-0423-6de57e18": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-0424-4587bf87": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0425-800c9d3c": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.91
+},
+"cn-all-remaining-0426-e25051a2": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.75
+},
+"cn-all-remaining-0427-1a2f2c02": {
+"slug": "sports-performance-analytics",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.5
+},
+"cn-all-remaining-0428-cf6a351c": {
+"slug": "sports-performance-analytics",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.5
+},
+"cn-all-remaining-0429-bb30f48c": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.65
+},
+"cn-all-remaining-0430-e756a0ff": {
+"slug": "sports-performance-analytics",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.5
+},
+"cn-all-remaining-0431-139098e2": {
+"slug": "security-information-and-event-management-siem",
+"section": "Security Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.6
+},
+"cn-all-remaining-0432-17cae668": {
+"slug": "sports-performance-analytics",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.5
+},
+"cn-all-remaining-0433-48b9ac95": {
+"slug": null,
+"section": "Governance, Risk & Compliance Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0434-09bdddd7": {
+"slug": "sports-performance-analytics",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.5
+},
+"cn-all-remaining-0435-cb32ec24": {
+"slug": "insurance-claims-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.5
+},
+"cn-all-remaining-0436-8f2d8149": {
+"slug": "sports-performance-analytics",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.5
+},
+"cn-all-remaining-0437-3f3825f9": {
+"slug": "insurance-claims-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.5
+},
+"cn-all-remaining-0438-8bd2d962": {
+"slug": "etl-tools",
+"section": "IT Infrastructure Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.42
+},
+"cn-all-remaining-0439-e36f8864": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0440-a3ce5637": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.91
+},
+"cn-all-remaining-0441-8ac911fe": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0442-86e060cb": {
+"slug": null,
+"section": "IT Infrastructure Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0443-dc5f61f5": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0444-8561ae74": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0445-75064ea0": {
+"slug": null,
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.42
+},
+"cn-all-remaining-0446-824b7977": {
+"slug": "medical-qms",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0447-8b6c01c6": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.72
+},
+"cn-all-remaining-0448-dfc6984c": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.65
+},
+"cn-all-remaining-0449-c6b07660": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0450-cdd63c3c": {
+"slug": "pcb-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.58
+},
+"cn-all-remaining-0451-0d05beaf": {
+"slug": "requirements-management",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.42
+},
+"cn-all-remaining-0452-5e88f7b8": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-0454-9372c08f": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0457-b003c365": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0458-9f20b0d5": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0459-8e14ff87": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0461-49aebc48": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0462-529c73fd": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0463-a8720d2c": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0465-6561609b": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0466-f1cc6fdb": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0467-53eeb5e8": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.9
+},
+"cn-all-remaining-0468-f15a443c": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.9
+},
+"cn-all-remaining-0469-86e80d53": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0470-3db56cb3": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "unsure",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0471-0d77c114": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0472-0ae1c4b2": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "no",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.92
+},
+"cn-all-remaining-0485-3b1847ee": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.86
+},
+"cn-all-remaining-0486-21dd301a": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.86
+},
+"cn-all-remaining-0487-ea176e74": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.92
+},
+"cn-all-remaining-0488-efcb609a": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.92
+},
+"cn-all-remaining-0489-dacccbb8": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.72
+},
+"cn-all-remaining-0491-aa4d5cc1": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0492-97cc5e1a": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.63
+},
+"cn-all-remaining-0493-755ec260": {
+"slug": "digital-experience-monitoring-dem",
+"section": "IT Management Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0494-1a9218c7": {
+"slug": "purchasing-software",
+"section": "ERP Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0495-5d0e7157": {
+"slug": null,
+"section": "IT Management Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0510-d49cdf96": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.86
+},
+"cn-all-remaining-0511-fb2679a9": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.86
+},
+"cn-all-remaining-0512-6dc90b5b": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.86
+},
+"cn-all-remaining-0513-987196c7": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.86
+},
+"cn-all-remaining-0514-6eab7459": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.86
+},
+"cn-all-remaining-0516-ba0a9cec": {
+"slug": "natural-language-processing-nlp",
+"section": "Artificial Intelligence Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0517-2782f9c8": {
+"slug": "ai-search-retrieval-infrastructure-platforms",
+"section": "Artificial Intelligence Software",
+"source_real": "no",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0518-b6641c0c": {
+"slug": "document-management",
+"section": "Content Management Systems",
+"source_real": "unsure",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.4
+},
+"cn-all-remaining-0519-5bc55e58": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0520-ef6218a4": {
+"slug": null,
+"section": "Development Software",
+"source_real": "unsure",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.68
+},
+"cn-all-remaining-0521-3123bf8c": {
+"slug": "integrated-development-environments-ide",
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "2/2",
+"l2_votes": "1/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0522-9576dc11": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "no",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0523-6e6f046e": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0524-a56ec68a": {
+"slug": "commenting-systems",
+"section": "Content Management Systems",
+"source_real": "unsure",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-0525-220a5eb2": {
+"slug": "e-merchandising",
+"section": "Commerce Software",
+"source_real": "unsure",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.35
+},
+"cn-all-remaining-0526-5b9b4b49": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0527-62c2bf93": {
+"slug": "rapid-application-development-rad",
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.37
+},
+"cn-all-remaining-0528-305959c2": {
+"slug": "application-release-orchestration",
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0529-c2ec96cc": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.92
+},
+"cn-all-remaining-0530-22ffde1c": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.92
+},
+"cn-all-remaining-0531-c5738f5e": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.92
+},
+"cn-all-remaining-0532-b9206571": {
+"slug": null,
+"section": "Design Software",
+"source_real": "no",
+"l1_votes": "1/3",
+"l2_votes": "3/3",
+"confidence": 0.85
+},
+"cn-all-remaining-0533-bec00c07": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0534-85915e5c": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0535-5d4acc7c": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0536-1532ccc9": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0537-da51a5f5": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0538-818df7fa": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0539-93bf92c9": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0540-2410250a": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0541-ec370512": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.42
+},
+"cn-all-remaining-0542-6307f698": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0543-32a6e969": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0544-5552abfc": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.55
+},
+"cn-all-remaining-0545-a5793990": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.65
+},
+"cn-all-remaining-0546-f56c3e5b": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.5
+},
+"cn-all-remaining-0547-16404817": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.65
+},
+"cn-all-remaining-0548-d86866df": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.65
+},
+"cn-all-remaining-0549-710f8d1a": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.6
+},
+"cn-all-remaining-0550-b00a2d84": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.55
+},
+"cn-all-remaining-0551-757676d5": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.6
+},
+"cn-all-remaining-0552-9ca580f7": {
+"slug": "data-observability",
+"section": "IT Management Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0553-14dfdc04": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.6
+},
+"cn-all-remaining-0554-5033ba94": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.6
+},
+"cn-all-remaining-0555-369c78bc": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.65
+},
+"cn-all-remaining-0556-376c3f15": {
+"slug": "geology-and-seismic",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.55
+},
+"cn-all-remaining-0557-1a82cfc1": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.72
+},
+"cn-all-remaining-0558-8ef62de9": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "unsure",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0559-a1c8015d": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.68
+},
+"cn-all-remaining-0560-00181d52": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0561-45e9cbd1": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "unsure",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0562-ed5ba58d": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0563-ec4167d9": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0564-0ebc10e7": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "unsure",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.83
+},
+"cn-all-remaining-0565-02890366": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.64
+},
+"cn-all-remaining-0566-a2d8c1d9": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0567-73a84050": {
+"slug": null,
+"section": "Collaboration & Productivity Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.73
+},
+"cn-all-remaining-0568-b3b26f42": {
+"slug": "mobile-development-frameworks",
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.45
+},
+"cn-all-remaining-0569-c3506d3d": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0570-aca01108": {
+"slug": "generative-ai",
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0571-fb7a5b3f": {
+"slug": "web-content-management",
+"section": "Content Management Systems",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0572-5e9cacdd": {
+"slug": null,
+"section": "Customer Service Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0573-4839dd74": {
+"slug": null,
+"section": "Design Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.42
+},
+"cn-all-remaining-0574-b060150c": {
+"slug": "large-language-model-operationalization-llmops",
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0575-7854ceff": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.89
+},
+"cn-all-remaining-0576-f1a9f22f": {
+"slug": "document-management",
+"section": "Content Management Systems",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0577-09649bc4": {
+"slug": "api-generation",
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0578-e86fdf1b": {
+"slug": null,
+"section": "Customer Service Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0579-dc07c355": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.9
+},
+"cn-all-remaining-0580-76602658": {
+"slug": "e-merchandising",
+"section": "Commerce Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.35
+},
+"cn-all-remaining-0581-e08e758f": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0582-4188ca1d": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "no",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0583-17788e34": {
+"slug": "network-management-tools",
+"section": "IT Infrastructure Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.4
+},
+"cn-all-remaining-0584-e9203330": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.58
+},
+"cn-all-remaining-0585-7aeec106": {
+"slug": "mlops-platforms",
+"section": "Artificial Intelligence Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0586-a05e26cb": {
+"slug": "software-supply-chain-security-tools",
+"section": "Development Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-0587-8e9e5ec2": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0588-2b3a5bb1": {
+"slug": null,
+"section": "Governance, Risk & Compliance Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0589-34113feb": {
+"slug": "ai-agent-builders",
+"section": "Artificial Intelligence Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.45
+},
+"cn-all-remaining-0590-9647ec18": {
+"slug": "source-code-management",
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0591-34a6f98a": {
+"slug": "document-management",
+"section": "Content Management Systems",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0592-858b62fe": {
+"slug": "headless-cms",
+"section": "Content Management Systems",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.38
+},
+"cn-all-remaining-0593-f9a3598c": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-0594-0e93fd4c": {
+"slug": null,
+"section": "Collaboration & Productivity Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.68
+},
+"cn-all-remaining-0595-3da51d53": {
+"slug": null,
+"section": "Design Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0596-3cbe5e02": {
+"slug": "ai-coding-assistants",
+"section": "Artificial Intelligence Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.45
+},
+"cn-all-remaining-0597-a89824be": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0598-655c2894": {
+"slug": "ai-writing-assistant",
+"section": "Artificial Intelligence Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.42
+},
+"cn-all-remaining-0599-83c0cf1e": {
+"slug": null,
+"section": "Collaboration & Productivity Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0600-e18062ab": {
+"slug": "core-hr",
+"section": "HR Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.63
+},
+"cn-all-remaining-0601-a91506be": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0602-6ec5492d": {
+"slug": "rapid-application-development-rad",
+"section": "Development Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.4
+},
+"cn-all-remaining-0603-966a0fae": {
+"slug": "bug-tracking",
+"section": "Development Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.4
+},
+"cn-all-remaining-0604-15615a60": {
+"slug": "game-development",
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.63
+},
+"cn-all-remaining-0605-8adc3d8f": {
+"slug": "ai-sre-tools",
+"section": "Development Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.42
+},
+"cn-all-remaining-0606-2a5f0d02": {
+"slug": null,
+"section": "Customer Service Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0607-f9396fd1": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0608-a7575ce7": {
+"slug": "ai-search-retrieval-infrastructure-platforms",
+"section": "Artificial Intelligence Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0609-f7beb4d8": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0610-e98822a0": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0611-859ee5f2": {
+"slug": "component-libraries",
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.58
+},
+"cn-all-remaining-0612-989169dd": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.77
+},
+"cn-all-remaining-0613-5494b016": {
+"slug": "video-effects",
+"section": "Design Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.45
+},
+"cn-all-remaining-0614-72046a0a": {
+"slug": null,
+"section": "Development Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0615-3b85ed21": {
+"slug": "live-stream-software",
+"section": "Design Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0616-04e64d59": {
+"slug": "server-monitoring",
+"section": "IT Infrastructure Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.32
+},
+"cn-all-remaining-0617-b2d4b673": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.77
+},
+"cn-all-remaining-0618-a217bf7e": {
+"slug": null,
+"section": "Customer Service Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0619-2928718d": {
+"slug": null,
+"section": "Collaboration & Productivity Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-0620-e58676dc": {
+"slug": "game-development",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0621-c04fc018": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0622-f1aaea49": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0623-d2bfa16f": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.75
+},
+"cn-all-remaining-0624-0d5850a4": {
+"slug": "help-authoring-tool-hat",
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.4
+},
+"cn-all-remaining-0625-c4a941f4": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0626-bcc9f2e4": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "no",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.75
+},
+"cn-all-remaining-0627-1a5d9548": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0628-3c1ec98a": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.65
+},
+"cn-all-remaining-0634-24ab0d4d": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0637-af7e9678": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.65
+},
+"cn-all-remaining-0646-cc7e1cbd": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-0647-88d372e4": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.65
+},
+"cn-all-remaining-0653-d8ed86b4": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.75
+},
+"cn-all-remaining-0654-3faaf48b": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.7
+},
+"cn-all-remaining-0655-46597c07": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.7
+},
+"cn-all-remaining-0656-39075a94": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.7
+},
+"cn-all-remaining-0657-35acc768": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-0659-ed12deb7": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0660-e4cfd781": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0661-154126e9": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0662-33d1dec2": {
+"slug": null,
+"section": "Supply Chain & Logistics Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.83
+},
+"cn-all-remaining-0663-6d22379c": {
+"slug": null,
+"section": "Supply Chain & Logistics Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.83
+},
+"cn-all-remaining-0664-32d114f1": {
+"slug": null,
+"section": "Supply Chain & Logistics Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.85
+},
+"cn-all-remaining-0665-5c6ed6d2": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-0666-726b573f": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.91
+},
+"cn-all-remaining-0667-a43c9a79": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.91
+},
+"cn-all-remaining-0668-030aa2e3": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.65
+},
+"cn-all-remaining-0669-c5296d6d": {
+"slug": "payment-processing",
+"section": "Commerce Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.53
+},
+"cn-all-remaining-0670-306d841f": {
+"slug": "sales-ops-planning",
+"section": "Supply Chain & Logistics Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0671-060dc9bc": {
+"slug": "child-care",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.42
+},
+"cn-all-remaining-0672-1ff18f83": {
+"slug": "penetration-testing-tools",
+"section": "Security Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.53
+},
+"cn-all-remaining-0673-e23ff9b3": {
+"slug": "general-purpose-cad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0675-f0557959": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.68
+},
+"cn-all-remaining-0676-ae727883": {
+"slug": null,
+"section": "IT Infrastructure Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.42
+},
+"cn-all-remaining-0677-42a50188": {
+"slug": "quality-management-qms",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0678-e0cb5301": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.89
+},
+"cn-all-remaining-0679-f7d822c2": {
+"slug": null,
+"section": "Business Services Providers",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-0680-0d7a9db2": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.38
+},
+"cn-all-remaining-0681-fa021dc7": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.92
+},
+"cn-all-remaining-0682-ffc004ef": {
+"slug": "travel-expense",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0683-84d392a1": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0684-33435d87": {
+"slug": null,
+"section": "Content Management Systems",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0685-86a96752": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.92
+},
+"cn-all-remaining-0687-72a573b9": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0688-8dfc0c75": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.38
+},
+"cn-all-remaining-0689-df5209ab": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.35
+},
+"cn-all-remaining-0690-eac11bf7": {
+"slug": "ehr",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.58
+},
+"cn-all-remaining-0691-ec498c7c": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0694-7620d864": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0695-73fb8b8c": {
+"slug": "e-commerce-analytics",
+"section": "Commerce Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.57
+},
+"cn-all-remaining-0697-38acd0ca": {
+"slug": "cloud-infrastructure-entitlement-management-ciem",
+"section": "Security Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.53
+},
+"cn-all-remaining-0698-b3bfdb3e": {
+"slug": "building-design-and-building-information-modeling-bim",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.88
+},
+"cn-all-remaining-0699-212ce97c": {
+"slug": "enterprise-architecture-tools",
+"section": "IT Management Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0700-bdfb5774": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.89
+},
+"cn-all-remaining-0701-49b7d817": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0702-51ec01fc": {
+"slug": "construction-project-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.58
+},
+"cn-all-remaining-0703-5714b5c0": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0704-e33a4f15": {
+"slug": "process-erp",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.38
+},
+"cn-all-remaining-0705-ab3d6465": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0706-2999104d": {
+"slug": "regulatory-change-management",
+"section": "Governance, Risk & Compliance Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0707-03195156": {
+"slug": "home-inspection",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.83
+},
+"cn-all-remaining-0708-9b5c804a": {
+"slug": "clinical-research",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0709-411a7a8e": {
+"slug": "clinical-research",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0710-717396c6": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0711-c6482f8e": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0712-ee8f99e5": {
+"slug": "game-development",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.77
+},
+"cn-all-remaining-0713-394ca2bb": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-0714-001e1685": {
+"slug": "game-development",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.77
+},
+"cn-all-remaining-0715-7bd9dc9b": {
+"slug": "vr-training-simulator",
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.73
+},
+"cn-all-remaining-0716-978e33d8": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0717-003ac8fe": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.89
+},
+"cn-all-remaining-0718-fb968eb0": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.89
+},
+"cn-all-remaining-0719-1fbf1939": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.89
+},
+"cn-all-remaining-0720-a00e9ad3": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.89
+},
+"cn-all-remaining-0722-53715935": {
+"slug": "gis",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.77
+},
+"cn-all-remaining-0725-cda78393": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0726-c399a041": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0727-906c12e1": {
+"slug": "building-design-and-building-information-modeling-bim",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.88
+},
+"cn-all-remaining-0728-07c602b5": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0730-2aca8f51": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0731-abeed8dd": {
+"slug": "crm",
+"section": "Sales Tools",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.65
+},
+"cn-all-remaining-0732-1bcf585e": {
+"slug": "simulation-cae",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0733-c5b0a731": {
+"slug": "oil-and-gas-engineering",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0735-cdbd1b4c": {
+"slug": null,
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-0736-5ce861a1": {
+"slug": null,
+"section": "Greentech Providers",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0737-64725a3f": {
+"slug": null,
+"section": "IT Infrastructure Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0738-e74fd102": {
+"slug": "manufacturing-execution-system",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0739-dbedc17b": {
+"slug": "gis",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0740-641a9a26": {
+"slug": null,
+"section": "HR Software",
+"source_real": "unsure",
+"l1_votes": "1/3",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-0742-70f554e3": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0743-9002d3ff": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.83
+},
+"cn-all-remaining-0745-5cca1ad5": {
+"slug": "manufacturing-execution-system",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0746-667d6a72": {
+"slug": "quality-management-qms",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0747-81c258a4": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0748-1d1d2516": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-0749-a93ed2fd": {
+"slug": "construction-estimating-software",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.42
+},
+"cn-all-remaining-0750-1b6458a9": {
+"slug": "animation",
+"section": "Design Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0751-fa613e93": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0754-26345d25": {
+"slug": "laboratory",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0755-7e078c66": {
+"slug": "mechanical-computer-aided-design-mcad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0756-5e1f03fb": {
+"slug": "laboratory",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0757-e5b78fb1": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0758-4e0bb5b1": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0759-3002eee7": {
+"slug": "manufacturing-execution-system",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0760-588c7fe3": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.83
+},
+"cn-all-remaining-0761-75887f16": {
+"slug": "supply-chain-planning",
+"section": "Supply Chain & Logistics Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0762-91e5328c": {
+"slug": "pcb-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-0763-7c2e7f10": {
+"slug": "construction-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.4
+},
+"cn-all-remaining-0764-70abef1f": {
+"slug": "pcb-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.77
+},
+"cn-all-remaining-0765-2e0c67fe": {
+"slug": "gis",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0766-6df02367": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0767-325cc9a3": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0768-ae78dc9a": {
+"slug": null,
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0769-81e1937e": {
+"slug": "pcb-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0770-159164f2": {
+"slug": null,
+"section": "IT Infrastructure Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0771-fa562c12": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-0772-9f833be7": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0774-0738fe73": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.9
+},
+"cn-all-remaining-0775-b2fdc7cf": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.9
+},
+"cn-all-remaining-0776-fdff78f7": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.9
+},
+"cn-all-remaining-0777-7fadbfc2": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0778-f1829de6": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.9
+},
+"cn-all-remaining-0779-2c9670ba": {
+"slug": "customer-success",
+"section": "Customer Service Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0782-40b4e001": {
+"slug": "iot-device-management-platforms",
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0783-2131962d": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0785-b7c2ca13": {
+"slug": "pcb-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-0786-4163d316": {
+"slug": null,
+"section": "Customer Service Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.88
+},
+"cn-all-remaining-0787-0db6f033": {
+"slug": "test-management",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0788-cfee0a30": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0789-19e1e516": {
+"slug": "transportation-management-systems-tms",
+"section": "Supply Chain & Logistics Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0790-ca61bdb0": {
+"slug": "software-design",
+"section": "Design Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0791-05e9ca07": {
+"slug": "home-inspection",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0792-a46854a7": {
+"slug": "healthcare-risk-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.4
+},
+"cn-all-remaining-0793-797a30ac": {
+"slug": "digital-asset-management",
+"section": "Content Management Systems",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0794-37667882": {
+"slug": "manufacturing-execution-system",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0796-238e5327": {
+"slug": "project-cost-management",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "3/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0797-0871a408": {
+"slug": "animation",
+"section": "Design Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.86
+},
+"cn-all-remaining-0798-e29ecb95": {
+"slug": "retail-distributed-order-management-systems",
+"section": "Commerce Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.38
+},
+"cn-all-remaining-0799-597b1f63": {
+"slug": "graphic-design",
+"section": "Design Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0800-810be4f7": {
+"slug": "mechanical-computer-aided-design-mcad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0801-3012a7dc": {
+"slug": "batteries",
+"section": "Greentech Providers",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.55
+},
+"cn-all-remaining-0803-b381ca33": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0804-65e4e048": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0805-54b374d4": {
+"slug": null,
+"section": "Governance, Risk & Compliance Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0806-4b92c004": {
+"slug": null,
+"section": "Governance, Risk & Compliance Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0807-116749fd": {
+"slug": "building-design-and-building-information-modeling-bim",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0808-c3e94902": {
+"slug": "property-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.68
+},
+"cn-all-remaining-0809-17f86072": {
+"slug": null,
+"section": "IT Infrastructure Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.73
+},
+"cn-all-remaining-0810-1f45cadd": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.45
+},
+"cn-all-remaining-0811-4a734aff": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-0812-90c48c8d": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0813-0f341d0c": {
+"slug": "jobsite-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.4
+},
+"cn-all-remaining-0814-762c2157": {
+"slug": null,
+"section": "Governance, Risk & Compliance Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-0815-9624faf6": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0816-3ff8f800": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "3/3",
+"confidence": 0.85
+},
+"cn-all-remaining-0817-a25cf14a": {
+"slug": "manufacturing-execution-system",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0818-8c722c79": {
+"slug": "general-purpose-cad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.42
+},
+"cn-all-remaining-0819-92642430": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-0820-6c8dfd98": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.77
+},
+"cn-all-remaining-0821-5446eadd": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-0823-2981b536": {
+"slug": "population-health-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.43
+},
+"cn-all-remaining-0824-0de4494b": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0825-ce14f4a1": {
+"slug": "home-care-agency-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.65
+},
+"cn-all-remaining-0826-269c7767": {
+"slug": "automation-testing-tools",
+"section": "Development Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0827-a07867a4": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.68
+},
+"cn-all-remaining-0828-6335c106": {
+"slug": null,
+"section": "IT Management Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.68
+},
+"cn-all-remaining-0829-bd2480e9": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0830-86a394d4": {
+"slug": null,
+"section": "IT Management Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.68
+},
+"cn-all-remaining-0831-8de50919": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0833-4b7ceef4": {
+"slug": "drug-discovery",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.43
+},
+"cn-all-remaining-0834-0d96f3e7": {
+"slug": "pcb-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-0835-9f5c41bb": {
+"slug": "drug-discovery",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.43
+},
+"cn-all-remaining-0836-8be6837c": {
+"slug": null,
+"section": "Governance, Risk & Compliance Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0837-ac7b8f92": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.55
+},
+"cn-all-remaining-0838-bb9d337f": {
+"slug": "policy-management",
+"section": "Governance, Risk & Compliance Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0839-052f9164": {
+"slug": "game-development",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0841-33f3a229": {
+"slug": null,
+"section": "IT Management Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0842-da7b283c": {
+"slug": "laboratory",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.38
+},
+"cn-all-remaining-0843-ae260afc": {
+"slug": "game-development",
+"section": "Development Software",
+"source_real": "unsure",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0844-35269475": {
+"slug": "crop-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.32
+},
+"cn-all-remaining-0846-c0c542fb": {
+"slug": "game-development",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0847-be9888d6": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.45
+},
+"cn-all-remaining-0848-b2f6165d": {
+"slug": "drug-discovery",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0849-2d0b8edc": {
+"slug": "vr-training-simulator",
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-0852-006b49eb": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0853-2e697bcb": {
+"slug": null,
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-0855-40b6e2a2": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.83
+},
+"cn-all-remaining-0856-1dd34f40": {
+"slug": "crm",
+"section": "Sales Tools",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0857-668003aa": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.83
+},
+"cn-all-remaining-0858-a77c2bc1": {
+"slug": null,
+"section": "Governance, Risk & Compliance Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0861-b190cb70": {
+"slug": "building-design-and-building-information-modeling-bim",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0864-82ecf25a": {
+"slug": "construction-accounting-software",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0865-515ae739": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0866-1d892fee": {
+"slug": "game-development",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0868-8fb1b76d": {
+"slug": "transportation-management-systems-tms",
+"section": "Supply Chain & Logistics Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0869-a86563df": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0870-cba7c850": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.45
+},
+"cn-all-remaining-0871-83e54e58": {
+"slug": "customer-revenue-optimization",
+"section": "Sales Tools",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.57
+},
+"cn-all-remaining-0872-cbef5357": {
+"slug": "home-inspection",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0873-b02290d1": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0874-e4cb0cfa": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0875-4793042e": {
+"slug": "freight-management",
+"section": "Supply Chain & Logistics Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0876-98bfb7b0": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0877-7a1ba25e": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0878-190be40d": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0879-9c1c7e3e": {
+"slug": "crm",
+"section": "Sales Tools",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0880-49ec35b4": {
+"slug": "api-security",
+"section": "Security Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.53
+},
+"cn-all-remaining-0881-7e2226c0": {
+"slug": null,
+"section": "Collaboration & Productivity Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0882-fda27236": {
+"slug": "jobsite-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0883-f91d65a1": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0884-99d8b353": {
+"slug": "application-performance-monitoring-apm",
+"section": "IT Infrastructure Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0885-9354b4d1": {
+"slug": "game-development",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0886-0f1b7dc8": {
+"slug": "game-development",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0887-162ec7ac": {
+"slug": "3d-design",
+"section": "Design Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0888-f1a44e1d": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0889-c1ffba9c": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.73
+},
+"cn-all-remaining-0890-2a6e214f": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0891-489fba3c": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0892-1688f407": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.77
+},
+"cn-all-remaining-0895-94c9bd94": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.58
+},
+"cn-all-remaining-0896-de465666": {
+"slug": "gis",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0897-a4cd1207": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0900-f7fd3143": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.85
+},
+"cn-all-remaining-0901-a1264e29": {
+"slug": "medical-lab",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0902-b4e90b75": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0903-fe643cd1": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.68
+},
+"cn-all-remaining-0904-5aa796df": {
+"slug": "mechanical-computer-aided-design-mcad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0905-fd596c6a": {
+"slug": null,
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.77
+},
+"cn-all-remaining-0906-233fff17": {
+"slug": "iot-edge-platforms",
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0907-ebabf865": {
+"slug": "general-purpose-cad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0908-a1d40822": {
+"slug": "additive-manufacturing",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-0909-121120de": {
+"slug": "iot-analytics-platforms",
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0910-a483d04f": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.85
+},
+"cn-all-remaining-0911-57247e16": {
+"slug": "construction-accounting-software",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.48
+},
+"cn-all-remaining-0912-51d4ac3e": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.85
+},
+"cn-all-remaining-0913-2494d698": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-0914-bc4975d4": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.85
+},
+"cn-all-remaining-0915-15619241": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.85
+},
+"cn-all-remaining-0916-99ed2233": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-0917-498f7e66": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0918-4723f3b6": {
+"slug": "industrial-ar-platforms",
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.55
+},
+"cn-all-remaining-0919-ae74f23e": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.73
+},
+"cn-all-remaining-0920-d3ea6ee1": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.77
+},
+"cn-all-remaining-0921-befeee11": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-0922-76ab0a78": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0923-15b15695": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.73
+},
+"cn-all-remaining-0924-4456a733": {
+"slug": "crop-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.42
+},
+"cn-all-remaining-0925-0b3469e8": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-0926-04473aa5": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0927-18815878": {
+"slug": "automation-testing-tools",
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0928-d694ced9": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0929-cfedb11d": {
+"slug": "food-safety-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0931-23dd643d": {
+"slug": null,
+"section": "Design Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0932-1d6d259d": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0933-8ea9ae7d": {
+"slug": "quality-management-qms",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0934-444b3c56": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.45
+},
+"cn-all-remaining-0935-68660327": {
+"slug": "manufacturing-execution-system",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0936-aa42df06": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0937-6374de20": {
+"slug": null,
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.42
+},
+"cn-all-remaining-0938-0175cfde": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0939-ab1a6294": {
+"slug": "gis",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0940-94b2dc6a": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.53
+},
+"cn-all-remaining-0941-29ec8b45": {
+"slug": "quality-management-qms",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0942-65033b58": {
+"slug": "food-safety-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.62
+},
+"cn-all-remaining-0943-467f2a4f": {
+"slug": null,
+"section": "IT Infrastructure Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.7
+},
+"cn-all-remaining-0944-1ca3a5c9": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-0946-f43aaf57": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0947-03516a1f": {
+"slug": "game-development",
+"section": "Development Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.43
+},
+"cn-all-remaining-0948-b0c93dc1": {
+"slug": "quality-management-qms",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0950-9dedf66d": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0951-95b279fc": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.87
+},
+"cn-all-remaining-0952-e3358bdf": {
+"slug": "other-life-sciences",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.38
+},
+"cn-all-remaining-0953-9271adc9": {
+"slug": "regulatory-information-management-rim-systems",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.58
+},
+"cn-all-remaining-0954-bb700950": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0955-5ce45980": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.4
+},
+"cn-all-remaining-0956-fb447e98": {
+"slug": "smart-buildings",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.47
+},
+"cn-all-remaining-0957-769c12d9": {
+"slug": "manufacturing-execution-system",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0958-a386a245": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.5
+},
+"cn-all-remaining-0959-a0124dc6": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0960-fd36102b": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0961-cea1fcda": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-0962-bdcaeabc": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.85
+},
+"cn-all-remaining-0963-6a4b01d0": {
+"slug": "building-design-and-building-information-modeling-bim",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-0964-1196f166": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0965-3d040bba": {
+"slug": "customer-success",
+"section": "Customer Service Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.45
+},
+"cn-all-remaining-0966-56d245f7": {
+"slug": "multicarrier-parcel-management-solutions",
+"section": "Supply Chain & Logistics Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.52
+},
+"cn-all-remaining-0967-40ec7019": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "2/3",
+"confidence": 0.63
+},
+"cn-all-remaining-0968-a554494c": {
+"slug": "payroll",
+"section": "HR Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-0969-6df0820b": {
+"slug": "utilities-customer-information-system-cis",
+"section": "Vertical Industry Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-0970-194c0e46": {
+"slug": "insurance-claims-management",
+"section": "Vertical Industry Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.73
+},
+"cn-all-remaining-0971-9cb42684": {
+"slug": "loan",
+"section": "Vertical Industry Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.63
+},
+"cn-all-remaining-0972-58036ef4": {
+"slug": null,
+"section": "Commerce Software",
+"source_real": "unsure",
+"l1_votes": "1/3",
+"l2_votes": "2/2",
+"confidence": 0.53
+},
+"cn-all-remaining-0973-7a1c435c": {
+"slug": "hotel-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.55
+},
+"cn-all-remaining-0974-4790d8bf": {
+"slug": "property-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.67
+},
+"cn-all-remaining-0975-ea568465": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.63
+},
+"cn-all-remaining-0976-5aa6f01c": {
+"slug": "ride-sharing",
+"section": "B2B Marketplaces",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-0977-49dbb8c6": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.77
+},
+"cn-all-remaining-0978-44ed4df9": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.63
+},
+"cn-all-remaining-0979-0d29ab51": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-0980-6a4254c5": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-0981-628b31f9": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-0982-97178bfe": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.73
+},
+"cn-all-remaining-0983-73dcdfda": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-0984-e729d438": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-0985-65cb1fbe": {
+"slug": "display-ad-design",
+"section": "Design Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0986-6e952e64": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-0987-086c66e0": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.45
+},
+"cn-all-remaining-0988-a20bde35": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.65
+},
+"cn-all-remaining-0989-f5bd3548": {
+"slug": "simulation-cae",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.4
+},
+"cn-all-remaining-0990-ce20c74a": {
+"slug": "civil-engineering-design",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.6
+},
+"cn-all-remaining-0991-aea4e661": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-0996-36bc0e6f": {
+"slug": "batteries",
+"section": "Greentech Providers",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.53
+},
+"cn-all-remaining-1000-78619d1a": {
+"slug": "mechanical-computer-aided-design-mcad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.47
+},
+"cn-all-remaining-1001-4e972668": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.77
+},
+"cn-all-remaining-1002-a2020f5d": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.72
+},
+"cn-all-remaining-1026-123158fd": {
+"slug": null,
+"section": "IT Management Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-1028-e4a02293": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-1029-d4bc99ad": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-1031-e0378e8c": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-1032-afa0646c": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-1033-da2105bb": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-1034-5076252b": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-1035-cea90978": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-1039-fc34876b": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-1041-c4d4364e": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-1042-b1c822c2": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-1043-18f78780": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-1044-4d51104f": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-1048-c591344c": {
+"slug": null,
+"section": "Development Software",
+"source_real": "no",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.6
+},
+"cn-all-remaining-1049-d95e26d6": {
+"slug": "sports-performance-analytics",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.43
+},
+"cn-all-remaining-1050-3c8b881b": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.61
+},
+"cn-all-remaining-1051-20e2a392": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.61
+},
+"cn-all-remaining-1053-9f8259c5": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.61
+},
+"cn-all-remaining-1054-83ab11e1": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.63
+},
+"cn-all-remaining-1055-0722dc39": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.61
+},
+"cn-all-remaining-1087-0475891c": {
+"slug": "general-purpose-cad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.6
+},
+"cn-all-remaining-1088-31bcc26f": {
+"slug": "general-purpose-cad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.6
+},
+"cn-all-remaining-1089-4ff6887d": {
+"slug": "general-purpose-cad",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.6
+},
+"cn-all-remaining-1100-804b4868": {
+"slug": "cloud-native-application-protection-platform-cnapp",
+"section": "Security Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.6
+},
+"cn-all-remaining-1101-68974701": {
+"slug": "talent-acquisition-suites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "1/3",
+"confidence": 0.55
+},
+"cn-all-remaining-1102-75cdeb82": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-1103-825a4158": {
+"slug": null,
+"section": "Governance, Risk & Compliance Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.75
+},
+"cn-all-remaining-1104-be743d3f": {
+"slug": "talent-acquisition-suites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.57
+},
+"cn-all-remaining-1105-66d3d053": {
+"slug": "building-design-and-building-information-modeling-bim",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.45
+},
+"cn-all-remaining-1106-c492795e": {
+"slug": null,
+"section": "AR/VR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-1107-49687a7c": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.57
+},
+"cn-all-remaining-1108-9999aa90": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.53
+},
+"cn-all-remaining-1109-f8ee441a": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-1110-b3ea4f84": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.77
+},
+"cn-all-remaining-1111-780b1ffb": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.77
+},
+"cn-all-remaining-1113-3cca4370": {
+"slug": "calibration",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "1/3",
+"l2_votes": "2/3",
+"confidence": 0.65
+},
+"cn-all-remaining-1114-47bd2c78": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.9
+},
+"cn-all-remaining-1115-3ce39934": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.55
+},
+"cn-all-remaining-1116-e3c0e7a3": {
+"slug": "drug-discovery",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.47
+},
+"cn-all-remaining-1117-12938668": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.85
+},
+"cn-all-remaining-1118-b4487f83": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.58
+},
+"cn-all-remaining-1120-e886576e": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.92
+},
+"cn-all-remaining-1121-8f9c7f01": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.92
+},
+"cn-all-remaining-1122-0e0a5c47": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-1123-2b49c9e3": {
+"slug": null,
+"section": "Customer Service Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.7
+},
+"cn-all-remaining-1124-dd6054d2": {
+"slug": null,
+"section": "Security Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.7
+},
+"cn-all-remaining-1125-9f6e42af": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-1127-eb1513b4": {
+"slug": null,
+"section": "IoT Management Platforms",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.55
+},
+"cn-all-remaining-1128-a9104579": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.45
+},
+"cn-all-remaining-1129-a5a00495": {
+"slug": "job-search-sites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.45
+},
+"cn-all-remaining-1130-de532a93": {
+"slug": "talent-acquisition-suites",
+"section": "HR Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.58
+},
+"cn-all-remaining-1131-804a6ac8": {
+"slug": "laboratory",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.5
+},
+"cn-all-remaining-1132-08f39a42": {
+"slug": "construction-project-management",
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.72
+},
+"cn-all-remaining-1133-fd7fd7e8": {
+"slug": "automation-testing-tools",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.63
+},
+"cn-all-remaining-1134-4eeef84f": {
+"slug": "automation-testing-tools",
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.62
+},
+"cn-all-remaining-1135-06287ec9": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-1136-b1a3b3ca": {
+"slug": null,
+"section": "Development Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.52
+},
+"cn-all-remaining-1137-bfbce4b9": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "1/3",
+"confidence": 0.5
+},
+"cn-all-remaining-1138-79d89db6": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-1139-b42b94fb": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-1140-3069d89e": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.9
+},
+"cn-all-remaining-1141-513f5d89": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-1142-d9c9c6a5": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.75
+},
+"cn-all-remaining-1153-b114d9d2": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-1154-a4e657f2": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-1155-8bbddd06": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.9
+},
+"cn-all-remaining-1156-7d53487b": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.77
+},
+"cn-all-remaining-1157-9b5ebe33": {
+"slug": "gis",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.75
+},
+"cn-all-remaining-1158-3aa32639": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.74
+},
+"cn-all-remaining-1159-4a4c6ea6": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-1160-ef830f6d": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-1178-999d39af": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.77
+},
+"cn-all-remaining-1181-c84e0e6e": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.77
+},
+"cn-all-remaining-1189-7006e8fd": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.62
+},
+"cn-all-remaining-1194-dd6f8e42": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-1195-54f2007f": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.75
+},
+"cn-all-remaining-1196-2e491509": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.76
+},
+"cn-all-remaining-1197-4a071135": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.7
+},
+"cn-all-remaining-1198-b373b9f2": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-1199-e7996860": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.84
+},
+"cn-all-remaining-1200-c90ef7d2": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.77
+},
+"cn-all-remaining-1201-fc3a4bbf": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-1202-7e1e5e56": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-1203-5b6e49c8": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-1204-d018a431": {
+"slug": null,
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.9
+},
+"cn-all-remaining-1205-8acb751d": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-1206-037de182": {
+"slug": "last-mile-delivery",
+"section": "Supply Chain & Logistics Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.65
+},
+"cn-all-remaining-1207-4ddc2ebe": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "no",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.88
+},
+"cn-all-remaining-1208-999d7a75": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-1209-1dea3a30": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "unsure",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-1210-a58d9793": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-1211-7e853800": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.86
+},
+"cn-all-remaining-1212-d016f772": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-1213-3f5d52a4": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-1214-6b102c6b": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.86
+},
+"cn-all-remaining-1215-77d24289": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-1216-f7ebfcc5": {
+"slug": null,
+"section": "Governance, Risk & Compliance Software",
+"source_real": "no",
+"l1_votes": "1/3",
+"l2_votes": "3/3",
+"confidence": 0.9
+},
+"cn-all-remaining-1217-82cfac32": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-1228-f66c0ac7": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-1229-60e5c90c": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.75
+},
+"cn-all-remaining-1230-fa4539ed": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.86
+},
+"cn-all-remaining-1231-6002aecb": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-1232-ff5c39e1": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-1233-9818d7c6": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.86
+},
+"cn-all-remaining-1234-3392f4a4": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.86
+},
+"cn-all-remaining-1235-dfe1264e": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.86
+},
+"cn-all-remaining-1236-bfcba6a3": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.86
+},
+"cn-all-remaining-1237-0b90a276": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-1238-8fc3385c": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-1239-76250601": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-1240-c95aca35": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "3/3",
+"confidence": 0.86
+},
+"cn-all-remaining-1241-8a1b94a2": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.77
+},
+"cn-all-remaining-1242-e9bec0dd": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.8
+},
+"cn-all-remaining-1243-1f46d838": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.82
+},
+"cn-all-remaining-1244-cd3d21b5": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.82
+},
+"cn-all-remaining-1245-c87e5086": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-1247-ac608d05": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.75
+},
+"cn-all-remaining-1248-a8692605": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.75
+},
+"cn-all-remaining-1258-6624551d": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.77
+},
+"cn-all-remaining-1260-accd9250": {
+"slug": "simulation-cae",
+"section": "CAD & PLM Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/2",
+"confidence": 0.93
+},
+"cn-all-remaining-1261-86ef2e29": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "2/2",
+"l2_votes": "2/3",
+"confidence": 0.77
+},
+"cn-all-remaining-1263-160345b6": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.76
+},
+"cn-all-remaining-1267-415f2c64": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.8
+},
+"cn-all-remaining-1268-a320b58e": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.74
+},
+"cn-all-remaining-1269-3e275392": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.82
+},
+"cn-all-remaining-1270-b6f5237b": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.83
+},
+"cn-all-remaining-1271-bd70ed77": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.78
+},
+"cn-all-remaining-1272-b8bf9c6d": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "3/3",
+"confidence": 0.8
+},
+"cn-all-remaining-1273-3edac745": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.78
+},
+"cn-all-remaining-1274-803308df": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-1275-686e277b": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.77
+},
+"cn-all-remaining-1276-03751279": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.8
+},
+"cn-all-remaining-1277-99e5435c": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.85
+},
+"cn-all-remaining-1278-c90c6dfb": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.8
+},
+"cn-all-remaining-1279-7e6fa4f7": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.81
+},
+"cn-all-remaining-1280-cc53ddd2": {
+"slug": null,
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/3",
+"confidence": 0.78
+},
+"cn-all-remaining-1281-ccaf70df": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.55
+},
+"cn-all-remaining-1282-2e716750": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.7
+},
+"cn-all-remaining-1283-b96cb1bf": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.55
+},
+"cn-all-remaining-1285-7b8649af": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.55
+},
+"cn-all-remaining-1287-6ddf81af": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.5
+},
+"cn-all-remaining-1288-f8d5abf9": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.55
+},
+"cn-all-remaining-1289-259f60fe": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.74
+},
+"cn-all-remaining-1290-fb1f206b": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "no",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.72
+},
+"cn-all-remaining-1291-6c263615": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.55
+},
+"cn-all-remaining-1292-3e9376c4": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.72
+},
+"cn-all-remaining-1293-6c724b43": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.55
+},
+"cn-all-remaining-1294-55ac6de2": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.55
+},
+"cn-all-remaining-1295-13356b7a": {
+"slug": "supervisory-control-and-data-acquisition-scada",
+"section": "ERP Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.55
+},
+"cn-all-remaining-1296-5bbf448c": {
+"slug": null,
+"section": "Artificial Intelligence Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "2/2",
+"confidence": 0.77
+},
+"cn-all-remaining-1297-ccb981d8": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "yes",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.69
+},
+"cn-all-remaining-1298-1d290edf": {
+"slug": null,
+"section": "Vertical Industry Software",
+"source_real": "yes",
+"l1_votes": "2/3",
+"l2_votes": "3/3",
+"confidence": 0.78
+},
+"cn-all-remaining-1299-ae3c648c": {
+"slug": null,
+"section": "Analytics Tools & Software",
+"source_real": "unsure",
+"l1_votes": "3/3",
+"l2_votes": "2/2",
+"confidence": 0.7
+}
+}

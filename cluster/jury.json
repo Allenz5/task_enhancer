@@ -1,0 +1,2702 @@
+[
+{
+"a": "cn-all-remaining-0331-a4f0c1fc",
+"b": "cn-all-remaining-1131-804a6ac8",
+"arm": "bucket",
+"slug": "laboratory",
+"how": "分类",
+"same": true,
+"why": "批次时间点+建模决策"
+},
+{
+"a": "cn-all-remaining-0396-47ba439c",
+"b": "cn-all-remaining-0114-a85885be",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "PLC代码vs市场报告"
+},
+{
+"a": "cn-all-remaining-0209-c0b07690",
+"b": "cn-all-remaining-0432-17cae668",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "单变量序列vs多试次运动"
+},
+{
+"a": "cn-all-remaining-0077-add9ca23",
+"b": "cn-all-remaining-0790-ca61bdb0",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "CAD图纸vs交互原型"
+},
+{
+"a": "cn-all-remaining-1020-22cf57f2",
+"b": "cn-all-remaining-0992-b521b79a",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同结构短跑试次包"
+},
+{
+"a": "cn-all-remaining-1067-2463cafc",
+"b": "cn-all-remaining-1019-46dfd4ff",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "单文件解析vs多文件事件"
+},
+{
+"a": "cn-all-remaining-1070-479d2021",
+"b": "cn-all-remaining-1085-8cf162ff",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为OSIM组件审计"
+},
+{
+"a": "cn-all-remaining-0966-56d245f7",
+"b": "cn-all-remaining-0242-be25547c",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "运单对账vs测井剖面"
+},
+{
+"a": "cn-all-remaining-1022-838b3c36",
+"b": "cn-all-remaining-1025-40f44bd5",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同结构短跑试次包"
+},
+{
+"a": "cn-all-remaining-0089-ab3b3a3c",
+"b": "cn-all-remaining-0790-ca61bdb0",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "SPC图表vs交互原型"
+},
+{
+"a": "cn-all-remaining-0456-20aab82a",
+"b": "cn-all-remaining-0732-1bcf585e",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "轨迹几何 vs 振动频谱,实体不同"
+},
+{
+"a": "cn-all-remaining-0999-c1768da5",
+"b": "cn-all-remaining-0032-4d3edeb8",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同OpenSim短跑试次数据"
+},
+{
+"a": "cn-all-remaining-0732-1bcf585e",
+"b": "cn-all-remaining-0295-f02f928e",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类",
+"same": false,
+"why": "振动分析 vs CFD涡街曲线"
+},
+{
+"a": "cn-all-remaining-1007-cbbd3d00",
+"b": "cn-all-remaining-0041-c6549c75",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同OpenSim短跑试次数据"
+},
+{
+"a": "cn-all-remaining-0508-3c61f735",
+"b": "cn-all-remaining-1250-4aa7de13",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "代码补丁 vs 证书记录审计"
+},
+{
+"a": "cn-all-remaining-0671-060dc9bc",
+"b": "cn-all-remaining-0224-36cf0ef9",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "台账浏览 vs 数值IK求解"
+},
+{
+"a": "cn-all-remaining-1291-6c263615",
+"b": "cn-all-remaining-0221-2cf3a288",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "控制算法 vs 批次记录审计"
+},
+{
+"a": "cn-all-remaining-0636-316cb833",
+"b": "cn-all-remaining-0419-94921508",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": true,
+"why": "均为台账+汇总+导出"
+},
+{
+"a": "cn-all-remaining-1019-46dfd4ff",
+"b": "cn-all-remaining-0570-aca01108",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "生物力学时序 vs 配置JSON"
+},
+{
+"a": "cn-all-remaining-1011-9cd58d92",
+"b": "cn-all-remaining-1086-04418dc6",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "几何时序 vs 结构映射审计"
+},
+{
+"a": "cn-all-remaining-0616-04e64d59",
+"b": "cn-all-remaining-0151-f7249cf5",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "列表核验vs波形处理"
+},
+{
+"a": "cn-all-remaining-0554-5033ba94",
+"b": "cn-all-remaining-0545-a5793990",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "分类",
+"same": false,
+"why": "体属性vs字节CLI"
+},
+{
+"a": "cn-all-remaining-1066-9e7aed93",
+"b": "cn-all-remaining-1018-56796b62",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "静态模型vs时序峰值"
+},
+{
+"a": "cn-all-remaining-1079-e22946dc",
+"b": "cn-all-remaining-0504-94a7394f",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "静态一致性vs时序CCA"
+},
+{
+"a": "cn-all-remaining-0996-36bc0e6f",
+"b": "cn-all-remaining-0901-a1264e29",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "填表vs多层方差分析"
+},
+{
+"a": "cn-all-remaining-0695-73fb8b8c",
+"b": "cn-all-remaining-0535-5d4acc7c",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "电商归因vs地震反演"
+},
+{
+"a": "cn-all-remaining-0507-8754c588",
+"b": "cn-all-remaining-0238-ec8b0623",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "HMM步态vs有限元仿真"
+},
+{
+"a": "cn-all-remaining-0895-94c9bd94",
+"b": "cn-all-remaining-1295-13356b7a",
+"arm": "bucket",
+"slug": "supervisory-control-and-data-acquisition-scada",
+"how": "分类",
+"same": true,
+"why": "都是阶跃辨识调参"
+},
+{
+"a": "cn-all-remaining-0432-17cae668",
+"b": "cn-all-remaining-1072-2cec4395",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "时序事件vs静态尺度审计"
+},
+{
+"a": "cn-all-remaining-1013-1c894eb2",
+"b": "cn-all-remaining-0026-729327ea",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "步态分析vs材料工程包"
+},
+{
+"a": "cn-all-remaining-0148-25afc0d0",
+"b": "cn-all-remaining-0556-376c3f15",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "分类+点名",
+"same": false,
+"why": "网格应变场 vs 逐道Q谱"
+},
+{
+"a": "cn-all-remaining-1019-46dfd4ff",
+"b": "cn-all-remaining-1056-6d97d9bf",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为OpenSim关节/坐标表格"
+},
+{
+"a": "cn-all-remaining-0542-6307f698",
+"b": "cn-all-remaining-0818-8c722c79",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "复数矩阵审计 vs 工业设计VOC"
+},
+{
+"a": "cn-all-remaining-1024-e0d5ca83",
+"b": "cn-all-remaining-0094-f32031a4",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为OpenSim步态周期表格"
+},
+{
+"a": "cn-all-remaining-0376-2bcc381d",
+"b": "cn-all-remaining-0032-4d3edeb8",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为OpenSim状态转移分析"
+},
+{
+"a": "cn-all-remaining-0497-f44c1602",
+"b": "cn-all-remaining-0456-20aab82a",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "生物力学表格 vs 原子轨迹几何"
+},
+{
+"a": "cn-all-remaining-0699-212ce97c",
+"b": "cn-all-remaining-0344-8f581a8d",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "架构评审文档 vs 源码补丁"
+},
+{
+"a": "cn-all-remaining-0317-8020fa01",
+"b": "cn-all-remaining-1036-190a37ec",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "CAD几何字段 vs 哈希溯源字段"
+},
+{
+"a": "cn-all-remaining-0309-1e15e796",
+"b": "cn-all-remaining-0097-f836cdfa",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为OpenSim支撑相状态分析"
+},
+{
+"a": "cn-all-remaining-0556-376c3f15",
+"b": "cn-all-remaining-0538-818df7fa",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "分类",
+"same": true,
+"why": "同为地震道指标+证据表"
+},
+{
+"a": "cn-all-remaining-0863-d6bf7ae0",
+"b": "cn-all-remaining-1059-9a9ee5b0",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "电网负荷vs XML域校验"
+},
+{
+"a": "cn-all-remaining-1074-df2cca32",
+"b": "cn-all-remaining-0999-c1768da5",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "字段连接审计vs3D凸包分析"
+},
+{
+"a": "cn-all-remaining-0126-67b61a90",
+"b": "cn-all-remaining-0435-cb32ec24",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "工程量结算vs保险准备金"
+},
+{
+"a": "cn-all-remaining-1025-40f44bd5",
+"b": "cn-all-remaining-1019-46dfd4ff",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "回归预测vs状态机路径"
+},
+{
+"a": "cn-all-remaining-0092-5dd2fd62",
+"b": "cn-all-remaining-0438-8bd2d962",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "提交拦截工具vs湖仓ETL"
+},
+{
+"a": "cn-all-remaining-0483-e7f016ec",
+"b": "cn-all-remaining-0753-fd173b01",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "分类汇总vs网络故障排查"
+},
+{
+"a": "cn-all-remaining-0089-ab3b3a3c",
+"b": "cn-all-remaining-1070-479d2021",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "SPC控制图vs轴符号编码"
+},
+{
+"a": "cn-all-remaining-0580-76602658",
+"b": "cn-all-remaining-0078-cda23730",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "路由权限校验vs纵断面设计"
+},
+{
+"a": "cn-all-remaining-0551-757676d5",
+"b": "cn-all-remaining-1162-11cb0898",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "分类+点名",
+"same": false,
+"why": "地震配准vs河流水位审计"
+},
+{
+"a": "cn-all-remaining-0504-94a7394f",
+"b": "cn-all-remaining-0131-17b02b87",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "CCA统计vs实测仿真重建"
+},
+{
+"a": "cn-all-remaining-1024-e0d5ca83",
+"b": "cn-all-remaining-0767-325cc9a3",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "生物力学序列 vs 招聘岗位表"
+},
+{
+"a": "cn-all-remaining-0411-51fd07e5",
+"b": "cn-all-remaining-0412-a20676d9",
+"arm": "bucket",
+"slug": "job-search-sites",
+"how": "分类",
+"same": true,
+"why": "同为岗位清洗+技能画像"
+},
+{
+"a": "cn-all-remaining-0997-7c74ee4d",
+"b": "cn-all-remaining-0310-0e213c96",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为OpenSim短跑运动学分析"
+},
+{
+"a": "cn-all-remaining-0995-02bb9017",
+"b": "cn-all-remaining-1027-651a1bb4",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "生理指标分析 vs 文件角色裁决"
+},
+{
+"a": "cn-all-remaining-1171-bc798e9b",
+"b": "cn-all-remaining-0807-116749fd",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "SBOM合规 vs BIM房产核验"
+},
+{
+"a": "cn-all-remaining-1225-9a34fa3d",
+"b": "cn-all-remaining-0970-194c0e46",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "GTFS拓扑 vs 理赔金额对账"
+},
+{
+"a": "cn-all-remaining-1009-f8c1bb06",
+"b": "cn-all-remaining-1024-e0d5ca83",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为OpenSim短跑窗口分析"
+},
+{
+"a": "cn-all-remaining-1080-87ad17ed",
+"b": "cn-all-remaining-1081-37a7114a",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为ContactSphere几何审计"
+},
+{
+"a": "cn-all-remaining-1036-190a37ec",
+"b": "cn-all-remaining-0012-3f9dd525",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "文件溯源审计 vs 动力学分析"
+},
+{
+"a": "cn-all-remaining-0135-8319cf05",
+"b": "cn-all-remaining-0289-179b18af",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "地震统计分析 vs 代码bug修复"
+},
+{
+"a": "cn-all-remaining-1007-cbbd3d00",
+"b": "cn-all-remaining-0994-79906829",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为OpenSim步态记录分析"
+},
+{
+"a": "cn-all-remaining-1281-ccaf70df",
+"b": "cn-all-remaining-1083-6bd2640e",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "控制调参vs XML字段审计"
+},
+{
+"a": "cn-all-remaining-0091-2ce46b58",
+"b": "cn-all-remaining-0800-810be4f7",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "资源扫描工具vs轴强度计算"
+},
+{
+"a": "cn-all-remaining-0347-e95a3726",
+"b": "cn-all-remaining-0995-02bb9017",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "COMSOL几何vs OpenSim试次"
+},
+{
+"a": "cn-all-remaining-1074-df2cca32",
+"b": "cn-all-remaining-1086-04418dc6",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为OSIM字段交叉审计模板"
+},
+{
+"a": "cn-all-remaining-0930-3befd0d2",
+"b": "cn-all-remaining-0848-b2f6165d",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": true,
+"why": "多源数据对账排序报告"
+},
+{
+"a": "cn-all-remaining-1006-ace7a744",
+"b": "cn-all-remaining-1012-dc4ca80e",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为OpenSim周期协调分析"
+},
+{
+"a": "cn-all-remaining-1021-1a5aac7b",
+"b": "cn-all-remaining-0732-1bcf585e",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "步态角速度vs轴系扭振"
+},
+{
+"a": "cn-all-remaining-0536-1532ccc9",
+"b": "cn-all-remaining-0554-5033ba94",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "分类",
+"same": false,
+"why": "道级反演vs三维体属性"
+},
+{
+"a": "cn-all-remaining-1080-87ad17ed",
+"b": "cn-all-remaining-0089-ab3b3a3c",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "几何字段审计vs SPC控制图"
+},
+{
+"a": "cn-all-remaining-0228-930473c4",
+"b": "cn-all-remaining-0291-e8bd6c4c",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "风险表非控制图"
+},
+{
+"a": "cn-all-remaining-0181-49c052bc",
+"b": "cn-all-remaining-0345-a6224347",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "CAD图vs表格ML"
+},
+{
+"a": "cn-all-remaining-0756-5e1f03fb",
+"b": "cn-all-remaining-0501-29fe7995",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "板孔QC非相位序列"
+},
+{
+"a": "cn-all-remaining-0507-8754c588",
+"b": "cn-all-remaining-0309-1e15e796",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同OpenSim记录管线"
+},
+{
+"a": "cn-all-remaining-0496-fc8160a4",
+"b": "cn-all-remaining-0999-c1768da5",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同OpenSim记录管线"
+},
+{
+"a": "cn-all-remaining-0503-d5a09c46",
+"b": "cn-all-remaining-0999-c1768da5",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同OpenSim记录管线"
+},
+{
+"a": "cn-all-remaining-1082-3f9336e3",
+"b": "cn-all-remaining-0497-f44c1602",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同OpenSim记录管线"
+},
+{
+"a": "cn-all-remaining-0781-0439c6a6",
+"b": "cn-all-remaining-0784-a74f0a42",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "资源审计vs电网潮流"
+},
+{
+"a": "cn-all-remaining-0097-f836cdfa",
+"b": "cn-all-remaining-1073-45b7eb2d",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同OpenSim记录管线"
+},
+{
+"a": "cn-all-remaining-0009-3a0514d6",
+"b": "cn-all-remaining-0272-eaf429b6",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "文本抽取vs表格ML"
+},
+{
+"a": "cn-all-remaining-1007-cbbd3d00",
+"b": "cn-all-remaining-1052-5af33928",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "运动学时序分析vs配置血缘审计"
+},
+{
+"a": "cn-all-remaining-0253-e224ded0",
+"b": "cn-all-remaining-0796-238e5327",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "时序预测vs工程量清单审计"
+},
+{
+"a": "cn-all-remaining-1047-574583e9",
+"b": "cn-all-remaining-0202-e9714142",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "文件取证DAG vs COMSOL仿真"
+},
+{
+"a": "cn-all-remaining-0493-755ec260",
+"b": "cn-all-remaining-0276-6e6811c4",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "指标聚合报告vs源码补丁"
+},
+{
+"a": "cn-all-remaining-1074-df2cca32",
+"b": "cn-all-remaining-0310-0e213c96",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "纯审计表vs带曲线图完整分析"
+},
+{
+"a": "cn-all-remaining-0496-fc8160a4",
+"b": "cn-all-remaining-1070-479d2021",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "带曲线模型验证vs无图结构比对"
+},
+{
+"a": "cn-all-remaining-0201-aa7b482c",
+"b": "cn-all-remaining-1099-a6550f2f",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "硬件PCB设计vs监管台账核对"
+},
+{
+"a": "cn-all-remaining-0695-73fb8b8c",
+"b": "cn-all-remaining-0343-6e312f2e",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "多源经营复盘vs图纸拆分归档"
+},
+{
+"a": "cn-all-remaining-0291-e8bd6c4c",
+"b": "cn-all-remaining-0416-655ce14e",
+"arm": "bucket",
+"slug": "quality-management-qms",
+"how": "分类",
+"same": true,
+"why": "均为SPC子组控制图能力分析"
+},
+{
+"a": "cn-all-remaining-0166-b4934700",
+"b": "cn-all-remaining-0151-f7249cf5",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "点名",
+"same": false,
+"why": "目录级重定位vs原始波形处理"
+},
+{
+"a": "cn-all-remaining-0497-f44c1602",
+"b": "cn-all-remaining-1065-41ea6ae2",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "曲线统计vs静态XML校验"
+},
+{
+"a": "cn-all-remaining-0952-e3358bdf",
+"b": "cn-all-remaining-0863-d6bf7ae0",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "病例记录vs电网时序"
+},
+{
+"a": "cn-all-remaining-0286-e2cd489c",
+"b": "cn-all-remaining-0259-0f98e766",
+"arm": "bucket",
+"slug": "source-code-management",
+"how": "分类",
+"same": true,
+"why": "同工具同类代码修复"
+},
+{
+"a": "cn-all-remaining-1015-c335be65",
+"b": "cn-all-remaining-1008-661e29af",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同数据同骨架换指标"
+},
+{
+"a": "cn-all-remaining-0992-b521b79a",
+"b": "cn-all-remaining-0554-5033ba94",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "步态代理vs地震体属性"
+},
+{
+"a": "cn-all-remaining-0493-755ec260",
+"b": "cn-all-remaining-0787-0db6f033",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "路由事件vs测试用例日志"
+},
+{
+"a": "cn-all-remaining-0879-9c1c7e3e",
+"b": "cn-all-remaining-0686-25b0fcd7",
+"arm": "bucket",
+"slug": "crm",
+"how": "分类+点名",
+"same": false,
+"why": "多招聘实体需新页面"
+},
+{
+"a": "cn-all-remaining-0464-f11fcc5a",
+"b": "cn-all-remaining-1019-46dfd4ff",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "配置差异表vs角度状态机"
+},
+{
+"a": "cn-all-remaining-0598-655c2894",
+"b": "cn-all-remaining-0899-48762d98",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "业务规则记录vs气候时序"
+},
+{
+"a": "cn-all-remaining-0802-f5452942",
+"b": "cn-all-remaining-0227-eea5b2ab",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "医嘱审核vs网格拓扑检测"
+},
+{
+"a": "cn-all-remaining-0839-052f9164",
+"b": "cn-all-remaining-0288-9191bb5f",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "游戏回放vs线程池修复"
+},
+{
+"a": "cn-all-remaining-0242-be25547c",
+"b": "cn-all-remaining-0171-e39ad0aa",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "玫瑰图vs时序回归图"
+},
+{
+"a": "cn-all-remaining-1058-16405e1c",
+"b": "cn-all-remaining-0995-02bb9017",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "审计记录vs运动轨迹分析"
+},
+{
+"a": "cn-all-remaining-1067-2463cafc",
+"b": "cn-all-remaining-0995-02bb9017",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "Joint审计vs摆动几何分析"
+},
+{
+"a": "cn-all-remaining-1074-df2cca32",
+"b": "cn-all-remaining-0822-6a5c9899",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "XML审计vs选址评估"
+},
+{
+"a": "cn-all-remaining-1076-e3d6e3cb",
+"b": "cn-all-remaining-1004-d73aa457",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "轴秩审计vs预测建模"
+},
+{
+"a": "cn-all-remaining-0376-2bcc381d",
+"b": "cn-all-remaining-0023-c6ea8ded",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "步态分析vs声子计算"
+},
+{
+"a": "cn-all-remaining-1119-5b062242",
+"b": "cn-all-remaining-1066-9e7aed93",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "药库调拨vs XML字段绑定"
+},
+{
+"a": "cn-all-remaining-0303-a8e1cff9",
+"b": "cn-all-remaining-0547-16404817",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "分类+点名",
+"same": false,
+"why": "批处理QC vs交互式工作台"
+},
+{
+"a": "cn-all-remaining-0998-93dd6a17",
+"b": "cn-all-remaining-0271-7788ccc0",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "聚类分析vs战斗回归测试"
+},
+{
+"a": "cn-all-remaining-0089-ab3b3a3c",
+"b": "cn-all-remaining-0804-65e4e048",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "SPC测量表vs电网故障拓扑"
+},
+{
+"a": "cn-all-remaining-1081-37a7114a",
+"b": "cn-all-remaining-1014-8fb09ede",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "XML几何审计vs时序状态机"
+},
+{
+"a": "cn-all-remaining-1016-2f43b66f",
+"b": "cn-all-remaining-1080-87ad17ed",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "姿态时序vs几何审计表"
+},
+{
+"a": "cn-all-remaining-1021-1a5aac7b",
+"b": "cn-all-remaining-1064-d1df0d07",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "角速度时序vs坐标绑定审计"
+},
+{
+"a": "cn-all-remaining-0129-cfec2dd0",
+"b": "cn-all-remaining-1253-671145bb",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "CAD图纸vsJSON-LD清单"
+},
+{
+"a": "cn-all-remaining-1084-46158fae",
+"b": "cn-all-remaining-0709-411a7a8e",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "XML法向审计vs周会跟进表"
+},
+{
+"a": "cn-all-remaining-0376-2bcc381d",
+"b": "cn-all-remaining-0435-cb32ec24",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "运动时序vs精算三角表"
+},
+{
+"a": "cn-all-remaining-0012-3f9dd525",
+"b": "cn-all-remaining-0032-4d3edeb8",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为OpenSim时序事件分析"
+},
+{
+"a": "cn-all-remaining-0759-3002eee7",
+"b": "cn-all-remaining-1113-3cca4370",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": true,
+"why": "同为测量审计与批次处置"
+},
+{
+"a": "cn-all-remaining-0738-e74fd102",
+"b": "cn-all-remaining-0289-179b18af",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "生产复盘报告vs代码修复"
+},
+{
+"a": "cn-all-remaining-1080-87ad17ed",
+"b": "cn-all-remaining-1059-9a9ee5b0",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同类XML审计流程"
+},
+{
+"a": "cn-all-remaining-1193-f47eaab5",
+"b": "cn-all-remaining-0600-e18062ab",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "实体网络vs单控件"
+},
+{
+"a": "cn-all-remaining-0669-c5296d6d",
+"b": "cn-all-remaining-0640-8ed4408f",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "组合求解vs校验"
+},
+{
+"a": "cn-all-remaining-0455-f664e844",
+"b": "cn-all-remaining-0762-91e5328c",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "多页决策vs单表"
+},
+{
+"a": "cn-all-remaining-0188-42909212",
+"b": "cn-all-remaining-0886-0f1b7dc8",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "图纸产出vs审计工具"
+},
+{
+"a": "cn-all-remaining-1069-72f41678",
+"b": "cn-all-remaining-1096-067138a9",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "关系表vs树形解析"
+},
+{
+"a": "cn-all-remaining-1083-6bd2640e",
+"b": "cn-all-remaining-1025-40f44bd5",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "字段审计vs机器学习"
+},
+{
+"a": "cn-all-remaining-0178-56bf88f1",
+"b": "cn-all-remaining-0260-00dbcac0",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "图纸重建vs代码修复"
+},
+{
+"a": "cn-all-remaining-1014-8fb09ede",
+"b": "cn-all-remaining-1260-accd9250",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "运动学vs仿真建模"
+},
+{
+"a": "cn-all-remaining-0151-f7249cf5",
+"b": "cn-all-remaining-0204-96586aa4",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "波形信号vs财务对账"
+},
+{
+"a": "cn-all-remaining-1061-bad0cf48",
+"b": "cn-all-remaining-1004-d73aa457",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "XML拓扑审计vs试次时序预测"
+},
+{
+"a": "cn-all-remaining-1066-9e7aed93",
+"b": "cn-all-remaining-1013-1c894eb2",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "字段绑定审计vs运动学敏感性分析"
+},
+{
+"a": "cn-all-remaining-0367-7a386953",
+"b": "cn-all-remaining-1046-5ee2b39a",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "候选筛选生成目录vs压缩包安全审计"
+},
+{
+"a": "cn-all-remaining-0501-29fe7995",
+"b": "cn-all-remaining-0833-4b7ceef4",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "生物力学相位vs动物药效剂量"
+},
+{
+"a": "cn-all-remaining-0500-5a63c6f7",
+"b": "cn-all-remaining-1133-fd7fd7e8",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "科研曲线分析vs游戏QA用例回归"
+},
+{
+"a": "cn-all-remaining-0041-c6549c75",
+"b": "cn-all-remaining-1012-dc4ca80e",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为OpenSim试次相位建模"
+},
+{
+"a": "cn-all-remaining-1097-96b36b44",
+"b": "cn-all-remaining-0690-eac11bf7",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "书目权威图谱vs病历出院审核"
+},
+{
+"a": "cn-all-remaining-0879-9c1c7e3e",
+"b": "cn-all-remaining-0948-b0c93dc1",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "销售管道vs产线SPC监控"
+},
+{
+"a": "cn-all-remaining-0886-0f1b7dc8",
+"b": "cn-all-remaining-0505-467c6f39",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "资产构建门禁vs功能PLS分析"
+},
+{
+"a": "cn-all-remaining-0032-4d3edeb8",
+"b": "cn-all-remaining-0374-fe737fbf",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为OpenSim事件相位状态机"
+},
+{
+"a": "cn-all-remaining-0688-8dfc0c75",
+"b": "cn-all-remaining-0324-4be0ddcf",
+"arm": "bucket",
+"slug": "job-search-sites",
+"how": "分类",
+"same": true,
+"why": "都是岗位薪酬行业研究"
+},
+{
+"a": "cn-all-remaining-1080-87ad17ed",
+"b": "cn-all-remaining-0183-f366890f",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "XML审计vs栅格分类"
+},
+{
+"a": "cn-all-remaining-0297-075420d6",
+"b": "cn-all-remaining-0989-f5bd3548",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "热图绘制vs工程计算书"
+},
+{
+"a": "cn-all-remaining-1046-5ee2b39a",
+"b": "cn-all-remaining-1075-1e1d2ced",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "均为OpenSim科学审计流水线"
+},
+{
+"a": "cn-all-remaining-0290-e90402a5",
+"b": "cn-all-remaining-1163-87b43970",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "波形路径校正vs土壤记录审计"
+},
+{
+"a": "cn-all-remaining-0543-32a6e969",
+"b": "cn-all-remaining-0545-a5793990",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "分类",
+"same": false,
+"why": "算子迁移vs字节级CLI审计"
+},
+{
+"a": "cn-all-remaining-0538-818df7fa",
+"b": "cn-all-remaining-0304-cbead67f",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "分类+点名",
+"same": false,
+"why": "地震成像图vs噪声频谱图"
+},
+{
+"a": "cn-all-remaining-1023-40863b44",
+"b": "cn-all-remaining-1009-f8c1bb06",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同类短跑运动学时窗分析"
+},
+{
+"a": "cn-all-remaining-0759-3002eee7",
+"b": "cn-all-remaining-0863-d6bf7ae0",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "晶圆批次谱系vs电网时序"
+},
+{
+"a": "cn-all-remaining-1069-72f41678",
+"b": "cn-all-remaining-0373-d92411f3",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "静态XML结构vs动态事件评分"
+},
+{
+"a": "cn-all-remaining-1058-16405e1c",
+"b": "cn-all-remaining-1036-190a37ec",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为manifest哈希证据链审计"
+},
+{
+"a": "cn-all-remaining-1047-574583e9",
+"b": "cn-all-remaining-0732-1bcf585e",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "取证审计vs轴系振动计算"
+},
+{
+"a": "cn-all-remaining-0094-f32031a4",
+"b": "cn-all-remaining-0503-d5a09c46",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为OpenSim步态相位分析"
+},
+{
+"a": "cn-all-remaining-0049-81912daf",
+"b": "cn-all-remaining-0400-2d892a5f",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "CAD制图vs医疗质控回归"
+},
+{
+"a": "cn-all-remaining-1068-72ca191f",
+"b": "cn-all-remaining-0732-1bcf585e",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "XML组件审计vs轴系振动"
+},
+{
+"a": "cn-all-remaining-0501-29fe7995",
+"b": "cn-all-remaining-1134-4eeef84f",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "生物力学相位vs游戏经济审计"
+},
+{
+"a": "cn-all-remaining-0287-5251edcb",
+"b": "cn-all-remaining-0219-3028b620",
+"arm": "bucket",
+"slug": "source-code-management",
+"how": "分类",
+"same": true,
+"why": "同为源码定点修复任务"
+},
+{
+"a": "cn-all-remaining-0095-8f5537c0",
+"b": "cn-all-remaining-0080-d714b92f",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "步态分析vs焊接质量图"
+},
+{
+"a": "cn-all-remaining-0549-710f8d1a",
+"b": "cn-all-remaining-0148-25afc0d0",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "分类+点名",
+"same": false,
+"why": "地震道vs GNSS站点实体不同"
+},
+{
+"a": "cn-all-remaining-1086-04418dc6",
+"b": "cn-all-remaining-1161-7adde7ff",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "组件图审计vs桥梁记录对账"
+},
+{
+"a": "cn-all-remaining-0632-5b302678",
+"b": "cn-all-remaining-1062-34dcccce",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "障碍物几何vs力学元件字段"
+},
+{
+"a": "cn-all-remaining-1147-7c690611",
+"b": "cn-all-remaining-0481-7ab34177",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "职业图谱vs扁平灾损聚合"
+},
+{
+"a": "cn-all-remaining-0935-68660327",
+"b": "cn-all-remaining-0585-7aeec106",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "焊接量测vs抽象清单脚本"
+},
+{
+"a": "cn-all-remaining-0738-e74fd102",
+"b": "cn-all-remaining-1179-fcde4aaf",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "高炉时序vs安全控制映射"
+},
+{
+"a": "cn-all-remaining-1021-1a5aac7b",
+"b": "cn-all-remaining-1065-41ea6ae2",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "时序步态vs静态矩阵审计"
+},
+{
+"a": "cn-all-remaining-0993-789beed7",
+"b": "cn-all-remaining-0793-797a30ac",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "步态分解vs海报校色"
+},
+{
+"a": "cn-all-remaining-0238-ec8b0623",
+"b": "cn-all-remaining-0372-39b7fe89",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "COMSOL仿真vs起跑姿势分析"
+},
+{
+"a": "cn-all-remaining-0437-3f3825f9",
+"b": "cn-all-remaining-0222-930d164f",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "赔案三角vs PK浓度曲线"
+},
+{
+"a": "cn-all-remaining-0887-162ec7ac",
+"b": "cn-all-remaining-0306-324b959e",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "网格聚簇vs微震三维图件"
+},
+{
+"a": "cn-all-remaining-0960-fd36102b",
+"b": "cn-all-remaining-1129-a5a00495",
+"arm": "bucket",
+"slug": "job-search-sites",
+"how": "分类",
+"same": true,
+"why": "岗位清单+门槛+证据报告"
+},
+{
+"a": "cn-all-remaining-0013-177a3250",
+"b": "cn-all-remaining-0347-e95a3726",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "CAD建模仿真vs数据统计报告"
+},
+{
+"a": "cn-all-remaining-1064-d1df0d07",
+"b": "cn-all-remaining-0995-02bb9017",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "静态XML审计vs时序运动学分析"
+},
+{
+"a": "cn-all-remaining-0534-85915e5c",
+"b": "cn-all-remaining-0547-16404817",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "分类",
+"same": false,
+"why": "批处理管线vs交互式重算工作台"
+},
+{
+"a": "cn-all-remaining-0605-8adc3d8f",
+"b": "cn-all-remaining-0074-d8d19fe8",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "规则分类vs时序回归预测"
+},
+{
+"a": "cn-all-remaining-1045-5899466e",
+"b": "cn-all-remaining-1083-6bd2640e",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "均为记录表+敏感性+审计报告"
+},
+{
+"a": "cn-all-remaining-0009-3a0514d6",
+"b": "cn-all-remaining-0974-4790d8bf",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "非结构文本抽取vs结构记录对账"
+},
+{
+"a": "cn-all-remaining-0808-c3e94902",
+"b": "cn-all-remaining-0222-930d164f",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "多实体风险清单vs PK统计分析"
+},
+{
+"a": "cn-all-remaining-1079-e22946dc",
+"b": "cn-all-remaining-0998-93dd6a17",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "结构审计vs特征聚类分析"
+},
+{
+"a": "cn-all-remaining-1084-46158fae",
+"b": "cn-all-remaining-1086-04418dc6",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为XML组件一致性审计"
+},
+{
+"a": "cn-all-remaining-0990-ce20c74a",
+"b": "cn-all-remaining-0195-5825e6c9",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "图纸整理vs参数化机械设计"
+},
+{
+"a": "cn-all-remaining-0517-2782f9c8",
+"b": "cn-all-remaining-0882-fda27236",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "配置计算函数 vs 工地记录台账"
+},
+{
+"a": "cn-all-remaining-1000-78619d1a",
+"b": "cn-all-remaining-0233-716f6fd9",
+"arm": "bucket",
+"slug": "mechanical-computer-aided-design-mcad",
+"how": "分类",
+"same": false,
+"why": "排板下料 vs 装配寿命计算"
+},
+{
+"a": "cn-all-remaining-1088-31bcc26f",
+"b": "cn-all-remaining-1191-c00b9d6f",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "压力容器试验图 vs 充电桩拓扑"
+},
+{
+"a": "cn-all-remaining-0042-7d1cdb25",
+"b": "cn-all-remaining-0232-d62432a4",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "贴图像素修复 vs 材料多模态表征"
+},
+{
+"a": "cn-all-remaining-0041-c6549c75",
+"b": "cn-all-remaining-1059-9a9ee5b0",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "生物力学ML建模 vs XML审计"
+},
+{
+"a": "cn-all-remaining-1057-cde087f5",
+"b": "cn-all-remaining-0295-f02f928e",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "XML拓扑审计 vs CFD仿真复现"
+},
+{
+"a": "cn-all-remaining-0759-3002eee7",
+"b": "cn-all-remaining-0541-ec370512",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "半导体批次调查 vs 代码迁移"
+},
+{
+"a": "cn-all-remaining-0362-01359fb6",
+"b": "cn-all-remaining-0546-f56c3e5b",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "分类+点名",
+"same": false,
+"why": "矩张量反演 vs 插值代码迁移"
+},
+{
+"a": "cn-all-remaining-0848-b2f6165d",
+"b": "cn-all-remaining-1163-87b43970",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": true,
+"why": "多级记录+质控排序审计"
+},
+{
+"a": "cn-all-remaining-0964-1196f166",
+"b": "cn-all-remaining-0761-75887f16",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "图纸定位导航 vs 备件供应计划"
+},
+{
+"a": "cn-all-remaining-1015-c335be65",
+"b": "cn-all-remaining-1082-3f9336e3",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "时序交换vs几何凸包"
+},
+{
+"a": "cn-all-remaining-0542-6307f698",
+"b": "cn-all-remaining-0843-ae260afc",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "数值求解vs游戏引擎"
+},
+{
+"a": "cn-all-remaining-0765-2e0c67fe",
+"b": "cn-all-remaining-1166-f86d5a49",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "测绘排产vs法规时间线"
+},
+{
+"a": "cn-all-remaining-0803-b381ca33",
+"b": "cn-all-remaining-0929-cfedb11d",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "工程量清单vs灭菌放行"
+},
+{
+"a": "cn-all-remaining-0113-7d680a14",
+"b": "cn-all-remaining-0345-a6224347",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "结构设计vs预测管道"
+},
+{
+"a": "cn-all-remaining-0803-b381ca33",
+"b": "cn-all-remaining-0783-2131962d",
+"arm": "bucket",
+"slug": "civil-engineering-design",
+"how": "分类",
+"same": false,
+"why": "清单提取vs结构验算"
+},
+{
+"a": "cn-all-remaining-0312-ad59def1",
+"b": "cn-all-remaining-0762-91e5328c",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "生物力学vs光模块SI"
+},
+{
+"a": "cn-all-remaining-0613-5494b016",
+"b": "cn-all-remaining-0174-9d91f75b",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "JSON记录vs振动分类"
+},
+{
+"a": "cn-all-remaining-1007-cbbd3d00",
+"b": "cn-all-remaining-0756-5e1f03fb",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "步态状态环vsELISA曲线"
+},
+{
+"a": "cn-all-remaining-0773-95cfc75e",
+"b": "cn-all-remaining-1058-16405e1c",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "气象检验vsXML依赖图"
+},
+{
+"a": "cn-all-remaining-0752-efc39390",
+"b": "cn-all-remaining-0045-5cf73d18",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": true,
+"why": "都是图纸+计算修订"
+},
+{
+"a": "cn-all-remaining-0781-0439c6a6",
+"b": "cn-all-remaining-0886-0f1b7dc8",
+"arm": "bucket",
+"slug": "game-development",
+"how": "分类+点名",
+"same": true,
+"why": "都是资产审计修复工具"
+},
+{
+"a": "cn-all-remaining-1105-66d3d053",
+"b": "cn-all-remaining-0861-b190cb70",
+"arm": "bucket",
+"slug": "building-design-and-building-information-modeling-bim",
+"how": "分类",
+"same": false,
+"why": "清单算量vs IFC模型编辑"
+},
+{
+"a": "cn-all-remaining-0992-b521b79a",
+"b": "cn-all-remaining-1036-190a37ec",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "运动学分析vs哈希溯源审计"
+},
+{
+"a": "cn-all-remaining-0128-db79712b",
+"b": "cn-all-remaining-0001-786f6572",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "CAD整改vs产品PRD"
+},
+{
+"a": "cn-all-remaining-0796-238e5327",
+"b": "cn-all-remaining-1024-e0d5ca83",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "造价审计vs生物力学分析"
+},
+{
+"a": "cn-all-remaining-0436-8f2d8149",
+"b": "cn-all-remaining-0608-a7575ce7",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "步态曲线vs证据排序"
+},
+{
+"a": "cn-all-remaining-0545-a5793990",
+"b": "cn-all-remaining-0290-e90402a5",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "分类",
+"same": false,
+"why": "字节级CLI vs波形速度分析"
+},
+{
+"a": "cn-all-remaining-0477-0fe64a0f",
+"b": "cn-all-remaining-0043-bf5fc64f",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "ET0预测vs行业调研报告"
+},
+{
+"a": "cn-all-remaining-0998-93dd6a17",
+"b": "cn-all-remaining-0552-9ca580f7",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "步态聚类vs流程DAG工具"
+},
+{
+"a": "cn-all-remaining-0098-da2ff8ac",
+"b": "cn-all-remaining-1036-190a37ec",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "分析链vs文件哈希审计"
+},
+{
+"a": "cn-all-remaining-0131-17b02b87",
+"b": "cn-all-remaining-1065-41ea6ae2",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "运动事件vs惯量矩阵审计"
+},
+{
+"a": "cn-all-remaining-1021-1a5aac7b",
+"b": "cn-all-remaining-0503-d5a09c46",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同类OpenSim试次时滞分析"
+},
+{
+"a": "cn-all-remaining-1162-11cb0898",
+"b": "cn-all-remaining-0712-ee8f99e5",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "水文对账vs游戏回放"
+},
+{
+"a": "cn-all-remaining-1021-1a5aac7b",
+"b": "cn-all-remaining-1129-a5a00495",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "生物力学vs行业岗位研究"
+},
+{
+"a": "cn-all-remaining-1070-479d2021",
+"b": "cn-all-remaining-0014-ae2a0ad8",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "XML轴编码vs统计论文包"
+},
+{
+"a": "cn-all-remaining-0850-f0bd0a8c",
+"b": "cn-all-remaining-1161-7adde7ff",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "药品说明书vs桥梁资产"
+},
+{
+"a": "cn-all-remaining-0498-e22b368f",
+"b": "cn-all-remaining-0998-93dd6a17",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同类试次特征分析结构"
+},
+{
+"a": "cn-all-remaining-0347-e95a3726",
+"b": "cn-all-remaining-0689-df5209ab",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "COMSOL仿真vs人才研究"
+},
+{
+"a": "cn-all-remaining-0113-7d680a14",
+"b": "cn-all-remaining-0409-6a7bb0d1",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "机械设计vs物联网审计"
+},
+{
+"a": "cn-all-remaining-1294-55ac6de2",
+"b": "cn-all-remaining-1171-bc798e9b",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "控制时序 vs 许可证图谱"
+},
+{
+"a": "cn-all-remaining-0860-94376395",
+"b": "cn-all-remaining-0933-8ea9ae7d",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": true,
+"why": "都是测量审计+控制图"
+},
+{
+"a": "cn-all-remaining-1011-9cd58d92",
+"b": "cn-all-remaining-0098-da2ff8ac",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同为OpenSim轨迹分析"
+},
+{
+"a": "cn-all-remaining-0880-49ec35b4",
+"b": "cn-all-remaining-0126-67b61a90",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "API漏洞 vs 造价清单"
+},
+{
+"a": "cn-all-remaining-1078-2bf9349a",
+"b": "cn-all-remaining-0496-fc8160a4",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "静态字段表 vs 轨迹曲线"
+},
+{
+"a": "cn-all-remaining-0732-1bcf585e",
+"b": "cn-all-remaining-0024-337ba4e9",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "工程审计 vs 软件包开发"
+},
+{
+"a": "cn-all-remaining-0483-e7f016ec",
+"b": "cn-all-remaining-0346-54ee7ce2",
+"arm": "bucket",
+"slug": "weather-data-software",
+"how": "点名",
+"same": false,
+"why": "计数表 vs 时序预测图"
+},
+{
+"a": "cn-all-remaining-0367-7a386953",
+"b": "cn-all-remaining-0935-68660327",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "10候选排名 vs 2400条质检"
+},
+{
+"a": "cn-all-remaining-0481-7ab34177",
+"b": "cn-all-remaining-0271-7788ccc0",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "汇总表 vs 用例缺陷管理"
+},
+{
+"a": "cn-all-remaining-0098-da2ff8ac",
+"b": "cn-all-remaining-1037-e0ff9cc4",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "曲线重建 vs 模型指纹分类"
+},
+{
+"a": "cn-all-remaining-0317-8020fa01",
+"b": "cn-all-remaining-1022-838b3c36",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "CAD图纸 vs 时序运动学"
+},
+{
+"a": "cn-all-remaining-0195-5825e6c9",
+"b": "cn-all-remaining-0904-5aa796df",
+"arm": "bucket",
+"slug": "mechanical-computer-aided-design-mcad",
+"how": "分类",
+"same": true,
+"why": "均CAD+计算+报告交付"
+},
+{
+"a": "cn-all-remaining-0304-cbead67f",
+"b": "cn-all-remaining-0129-cfec2dd0",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "频谱数据 vs 道路几何图"
+},
+{
+"a": "cn-all-remaining-0098-da2ff8ac",
+"b": "cn-all-remaining-0997-7c74ee4d",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同域同文件类型时序"
+},
+{
+"a": "cn-all-remaining-0023-c6ea8ded",
+"b": "cn-all-remaining-0295-f02f928e",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "声子谱 vs 流体仿真"
+},
+{
+"a": "cn-all-remaining-0934-444b3c56",
+"b": "cn-all-remaining-1113-3cca4370",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": true,
+"why": "均测量记录+合规判定"
+},
+{
+"a": "cn-all-remaining-0373-d92411f3",
+"b": "cn-all-remaining-1104-be743d3f",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "运动时序 vs 人才招聘表"
+},
+{
+"a": "cn-all-remaining-0032-4d3edeb8",
+"b": "cn-all-remaining-0013-177a3250",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同域同OpenSim文件"
+},
+{
+"a": "cn-all-remaining-0401-c65c75e3",
+"b": "cn-all-remaining-0682-ffc004ef",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "实验统计 vs UX流程"
+},
+{
+"a": "cn-all-remaining-0183-f366890f",
+"b": "cn-all-remaining-0755-7e078c66",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "遥感栅格 vs 工业设计CAD"
+},
+{
+"a": "cn-all-remaining-1056-6d97d9bf",
+"b": "cn-all-remaining-0645-206c5b2d",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "关节审计vs海图重建"
+},
+{
+"a": "cn-all-remaining-1071-45787c57",
+"b": "cn-all-remaining-0099-d5e10074",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "静态审计vs连续步态"
+},
+{
+"a": "cn-all-remaining-1006-ace7a744",
+"b": "cn-all-remaining-0110-9c074cb8",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "分析报告vs代码工程"
+},
+{
+"a": "cn-all-remaining-0551-757676d5",
+"b": "cn-all-remaining-0020-aa2698d8",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "波形审计vs风险评分表"
+},
+{
+"a": "cn-all-remaining-0219-3028b620",
+"b": "cn-all-remaining-0148-25afc0d0",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "代码修复vs地球科学"
+},
+{
+"a": "cn-all-remaining-0374-fe737fbf",
+"b": "cn-all-remaining-1082-3f9336e3",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "轨迹运动学vs几何重叠"
+},
+{
+"a": "cn-all-remaining-0556-376c3f15",
+"b": "cn-all-remaining-0521-3123bf8c",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "信号处理vs配置解析"
+},
+{
+"a": "cn-all-remaining-1074-df2cca32",
+"b": "cn-all-remaining-1069-72f41678",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同模板OSIM对象审计"
+},
+{
+"a": "cn-all-remaining-0309-1e15e796",
+"b": "cn-all-remaining-1017-178c3b2b",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同模板短跑姿态分析"
+},
+{
+"a": "cn-all-remaining-0825-ce14f4a1",
+"b": "cn-all-remaining-0780-37b43f72",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "个案排班vs销售看板"
+},
+{
+"a": "cn-all-remaining-1288-f8d5abf9",
+"b": "cn-all-remaining-1291-6c263615",
+"arm": "bucket",
+"slug": "supervisory-control-and-data-acquisition-scada",
+"how": "分类",
+"same": true,
+"why": "同为工控调试参数整定任务"
+},
+{
+"a": "cn-all-remaining-0018-920bd0dc",
+"b": "cn-all-remaining-1130-de532a93",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "规划设计图 vs 岗位市场报告"
+},
+{
+"a": "cn-all-remaining-0502-7f719b5c",
+"b": "cn-all-remaining-0024-337ba4e9",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "生物力学信号分析 vs 计算材料软件工程"
+},
+{
+"a": "cn-all-remaining-0877-7a1ba25e",
+"b": "cn-all-remaining-0824-0de4494b",
+"arm": "bucket",
+"slug": "job-search-sites",
+"how": "分类",
+"same": true,
+"why": "同为岗位市场研究报告"
+},
+{
+"a": "cn-all-remaining-0080-d714b92f",
+"b": "cn-all-remaining-0041-c6549c75",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "工程图纸台账 vs 运动生物力学分析"
+},
+{
+"a": "cn-all-remaining-0259-0f98e766",
+"b": "cn-all-remaining-0645-206c5b2d",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "代码修复 vs 海图数据审计"
+},
+{
+"a": "cn-all-remaining-0537-da51a5f5",
+"b": "cn-all-remaining-0242-be25547c",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "分类+点名",
+"same": false,
+"why": "波场配准 vs 测井裂缝统计"
+},
+{
+"a": "cn-all-remaining-1191-c00b9d6f",
+"b": "cn-all-remaining-0791-05e9ca07",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "拓扑地理数据 vs 缺陷清单报价"
+},
+{
+"a": "cn-all-remaining-0872-cbef5357",
+"b": "cn-all-remaining-0848-b2f6165d",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "查验行业报告 vs 药物DMPK分析"
+},
+{
+"a": "cn-all-remaining-0580-76602658",
+"b": "cn-all-remaining-0844-35269475",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "业务逻辑代码实现 vs 田间试验统计"
+},
+{
+"a": "cn-all-remaining-1003-9c1027c0",
+"b": "cn-all-remaining-1066-9e7aed93",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "距离匹配分析vsXML绑定审计"
+},
+{
+"a": "cn-all-remaining-0784-a74f0a42",
+"b": "cn-all-remaining-0903-fe643cd1",
+"arm": "bucket",
+"slug": "supervisory-control-and-data-acquisition-scada",
+"how": "分类+点名",
+"same": true,
+"why": "都是潮流+N-1记录表"
+},
+{
+"a": "cn-all-remaining-0238-ec8b0623",
+"b": "cn-all-remaining-1040-7b076b3a",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "FEM仿真vs数据QC门控"
+},
+{
+"a": "cn-all-remaining-0945-63165974",
+"b": "cn-all-remaining-0032-4d3edeb8",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "安全审计vs步态状态格"
+},
+{
+"a": "cn-all-remaining-0533-bec00c07",
+"b": "cn-all-remaining-0541-ec370512",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "分类",
+"same": false,
+"why": "字节头审计vs算法迁移测试"
+},
+{
+"a": "cn-all-remaining-0202-e9714142",
+"b": "cn-all-remaining-0238-ec8b0623",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类",
+"same": true,
+"why": "都是COMSOL建模求解流程"
+},
+{
+"a": "cn-all-remaining-0457-b003c365",
+"b": "cn-all-remaining-0229-ee451ace",
+"arm": "bucket",
+"slug": "civil-engineering-design",
+"how": "分类",
+"same": false,
+"why": "管网优化vs工艺+CAD审计"
+},
+{
+"a": "cn-all-remaining-0498-e22b368f",
+"b": "cn-all-remaining-1023-40863b44",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "都是跨关节曲线/距离分析"
+},
+{
+"a": "cn-all-remaining-1011-9cd58d92",
+"b": "cn-all-remaining-1068-72ca191f",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "轨迹曲率分析vsXML绑定审计"
+},
+{
+"a": "cn-all-remaining-0860-94376395",
+"b": "cn-all-remaining-0376-2bcc381d",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "RUL预测vs步态相位分析"
+},
+{
+"a": "cn-all-remaining-1171-bc798e9b",
+"b": "cn-all-remaining-1130-de532a93",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "合规图谱vs岗位列表"
+},
+{
+"a": "cn-all-remaining-1010-9e7d19d9",
+"b": "cn-all-remaining-1046-5ee2b39a",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "时序分析vs包完整性审计"
+},
+{
+"a": "cn-all-remaining-1281-ccaf70df",
+"b": "cn-all-remaining-0240-6c615bee",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "控制器调参vs法规比对"
+},
+{
+"a": "cn-all-remaining-0232-d62432a4",
+"b": "cn-all-remaining-1167-66c3f015",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "多模态表征vs案件核对"
+},
+{
+"a": "cn-all-remaining-0219-3028b620",
+"b": "cn-all-remaining-1081-37a7114a",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "代码修复vs几何审计"
+},
+{
+"a": "cn-all-remaining-0095-8f5537c0",
+"b": "cn-all-remaining-1038-e267339a",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "周期力学分析vs单位诊断"
+},
+{
+"a": "cn-all-remaining-0265-ae028604",
+"b": "cn-all-remaining-0974-4790d8bf",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "行业研究报告vs对账审计"
+},
+{
+"a": "cn-all-remaining-0994-79906829",
+"b": "cn-all-remaining-0907-ebabf865",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "生物力学分析vs图纸清点"
+},
+{
+"a": "cn-all-remaining-0438-8bd2d962",
+"b": "cn-all-remaining-0289-179b18af",
+"arm": "bucket",
+"slug": "etl-tools",
+"how": "分类+点名",
+"same": false,
+"why": "湖仓管线vs代码修复"
+},
+{
+"a": "cn-all-remaining-0124-30d49720",
+"b": "cn-all-remaining-1265-1a7bc99d",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "CAD设计vs合规审计"
+},
+{
+"a": "cn-all-remaining-0015-c1b61c11",
+"b": "cn-all-remaining-0490-91ffdc27",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "生物力学报告 vs 代码修复"
+},
+{
+"a": "cn-all-remaining-0965-3d040bba",
+"b": "cn-all-remaining-0769-81e1937e",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "企业服务列表 vs 电路复核"
+},
+{
+"a": "cn-all-remaining-0260-00dbcac0",
+"b": "cn-all-remaining-0777-7fadbfc2",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "代码修复 vs 招聘行研"
+},
+{
+"a": "cn-all-remaining-1011-9cd58d92",
+"b": "cn-all-remaining-1061-bad0cf48",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "轨迹曲率 vs XML图审计"
+},
+{
+"a": "cn-all-remaining-0580-76602658",
+"b": "cn-all-remaining-0971-9cb42684",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": true,
+"why": "记录+规则+差异列表"
+},
+{
+"a": "cn-all-remaining-0435-cb32ec24",
+"b": "cn-all-remaining-1003-9c1027c0",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "准备金三角 vs 关节构型"
+},
+{
+"a": "cn-all-remaining-0026-729327ea",
+"b": "cn-all-remaining-1079-e22946dc",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "热导率工程 vs marker审计"
+},
+{
+"a": "cn-all-remaining-1065-41ea6ae2",
+"b": "cn-all-remaining-0202-e9714142",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "惯量张量审计 vs COMSOL仿真"
+},
+{
+"a": "cn-all-remaining-0636-316cb833",
+"b": "cn-all-remaining-0785-b7c2ca13",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "法规台账 vs 电路ECO"
+},
+{
+"a": "cn-all-remaining-1015-c335be65",
+"b": "cn-all-remaining-0347-e95a3726",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "步态几何 vs COMSOL扳手"
+},
+{
+"a": "cn-all-remaining-0283-23156729",
+"b": "cn-all-remaining-0552-9ca580f7",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "代码修复vs图分析工具"
+},
+{
+"a": "cn-all-remaining-1058-16405e1c",
+"b": "cn-all-remaining-1080-87ad17ed",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同款XML审计管线"
+},
+{
+"a": "cn-all-remaining-0304-cbead67f",
+"b": "cn-all-remaining-0245-a6640871",
+"arm": "bucket",
+"slug": "geology-and-seismic",
+"how": "点名",
+"same": false,
+"why": "单站谱vs多站互相关"
+},
+{
+"a": "cn-all-remaining-0732-1bcf585e",
+"b": "cn-all-remaining-1010-9e7d19d9",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "机械振动vs运动学"
+},
+{
+"a": "cn-all-remaining-0714-001e1685",
+"b": "cn-all-remaining-1251-b6824008",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "游戏事件vs供应链审计"
+},
+{
+"a": "cn-all-remaining-0097-f836cdfa",
+"b": "cn-all-remaining-0347-e95a3726",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "审计管线vsFEM仿真"
+},
+{
+"a": "cn-all-remaining-0347-e95a3726",
+"b": "cn-all-remaining-1037-e0ff9cc4",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "分类+点名",
+"same": false,
+"why": "FEM仿真vs审计管线"
+},
+{
+"a": "cn-all-remaining-0502-7f719b5c",
+"b": "cn-all-remaining-1013-1c894eb2",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": true,
+"why": "同类逐记录步态分析"
+},
+{
+"a": "cn-all-remaining-0097-f836cdfa",
+"b": "cn-all-remaining-1045-5899466e",
+"arm": "bucket",
+"slug": "simulation-cae",
+"how": "点名",
+"same": false,
+"why": "单记录vs多记录筛选"
+},
+{
+"a": "cn-all-remaining-0787-0db6f033",
+"b": "cn-all-remaining-1083-6bd2640e",
+"arm": "CTRL",
+"slug": null,
+"how": null,
+"same": false,
+"why": "测试矩阵vs几何审计"
+}
+]
