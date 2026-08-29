@@ -1,0 +1,811 @@
+﻿排除类别,一致度,任务名,依据,原文点名来源,custom_id
+合成夹具,2/3,二次元卡牌游戏通行证系统策划案,虚构游戏经济/资源数据为出题编造,,cn-all-remaining-0002-04d42ced
+合成夹具,3/3,基于 OpenSim 4.3 的短跑起跑器设置 A/B 对比、前两步推进效率与肌肉需求分析,原文明示数值为程序构造非真实OpenSim,OpenSim 4.3,cn-all-remaining-0013-177a3250
+合成夹具,2/2,球罐设计变更修订——湿硫化氢工况材质替代,参数表/材料数据为出题定制JSON，字段通用,,cn-all-remaining-0025-ed678805
+合成夹具,2/2,球罐强度校核计算书复现——球罐开孔补强与支柱强度校核,校核任务单/reference.json为定制合成材料,,cn-all-remaining-0027-bfeb6744
+合成夹具,2/2,预制钢筋可拼接下料模拟退火算法设计与生产方案导出,案例A/B.xls为脱敏定制排产案例数据,,cn-all-remaining-0037-7d5ccda9
+合成夹具,3/3,面向用户的五子棋对战客户端与基于 MCTS 的简单人机模式开发,"规则与MCTS参考实现,出题合成包",,cn-all-remaining-0051-337ba9a8
+合成夹具,3/3,外科术前二维 CT 分割与规划训练 Web 工具开发,"模拟CT病例材料,出题合成包",,cn-all-remaining-0052-d91396d1
+合成夹具,3/3,开发可验证的傅里叶变换与 FFT 交互式教学平台,"傅里叶验证用例为出题合成,无来源系统",,cn-all-remaining-0053-cd373ca4
+合成夹具,2/2,基于 HTML5 Canvas 的像素风坦克大战双人及人机对战客户端开发,规则/固定地图/验收局面为出题现编，非真实系统,,cn-all-remaining-0054-e21dc9ca
+合成夹具,2/2,构建面向物理学家的牛顿迭代物理方程交互求解平台,物理方程与验收用例为出题构造，无真实来源系统,,cn-all-remaining-0056-f8c86a19
+合成夹具,2/2,团队 PRD 标准化模板及示范文档制作,团队内部文档模板，非来自任何可检索系统,,cn-all-remaining-0069-0fc51497
+合成夹具,2/2,SQLite 数据库事务提交修复与账户余额统计,"本地csv转sqlite脚本,无外部系统",,cn-all-remaining-0109-4cb28698
+合成夹具,2/2,M3GNet 径向与三体基函数数值模块复现,"纯数学公式合成用例,无外部系统",,cn-all-remaining-0111-21b42612
+合成夹具,2/2,M3GNet 风格晶体势函数能量、力、应力接口与结构弛豫流程复现,"确定性迷你势函数合成,无外部系统",,cn-all-remaining-0112-94e72782
+合成夹具,2/2,市政道路工程竣工结算审核,现编造价审核文档集，无对应可检索软件界面,,cn-all-remaining-0126-67b61a90
+合成夹具,2/2,基于声子模态热容加权的负热膨胀 Grüneisen 描述符计算程序,候选材料fixture+rule+contract三件套,,cn-all-remaining-0145-e95af7e1
+合成夹具,2/2,基于热膨胀系数曲线的负热膨胀区间识别与稳健分类程序,候选材料fixture+rule+contract三件套,,cn-all-remaining-0147-8adc1dee
+合成夹具,3/3,面向负热膨胀逆向设计的结构合理性与 XRD 新颖性筛选程序,固定候选表+screening_order规则，同系列已声明fake,,cn-all-remaining-0150-c71a0779
+合成夹具,3/3,负热膨胀候选的 Grüneisen–声子稳定性–凸包能三目标 Pareto 决策程序,固定候选表+NSGA-II排序规则，同系列fake,,cn-all-remaining-0153-be2ba508
+合成夹具,3/3,可恢复的负热膨胀材料逆向设计批任务编排与状态管理程序,明确声明确定性fake backend，非真实集群,,cn-all-remaining-0154-077b3b0c
+合成夹具,2/2,科研材料数据库访问申请、下载配额与审计后台,"users/requests等通用字段,现编测试夹具非真实系统",,cn-all-remaining-0172-6856819c
+合成夹具,2/2,random_csv_summary,"明确为出题编造的通用随机CSV,无领域含义",,cn-all-remaining-0189-d989a5b8
+合成夹具,3/3,underwater_depth_control,"评测用参数集/模拟器,字段通用",,cn-all-remaining-0244-2e8ded33
+合成夹具,3/3,静态资料下载路由实现与验证,原文明确称合成ZIP夹具，非真实系统数据,,cn-all-remaining-0258-e2a6a474
+合成夹具,3/3,开发可验证的五子棋 GUI 与 MCTS 人机对战客户端,solver-visible需求+规则+局面包，无外部系统,,cn-all-remaining-0270-2b2cb5bf
+合成夹具,2/3,环形基因组热图,无具名数据源，裸CSV文献图复现,,cn-all-remaining-0300-646973ab
+合成夹具,2/2,    低水活度坚果谷物棒加速货架期建模、氧化失效判定与9个月标示放行核验    ,原文声明数据完全合成不对应真实企业,,cn-all-remaining-0331-a4f0c1fc
+合成夹具,2/2,宏观动态因子模型与 GARCH-VaR 集成风险预测,契约+隐藏面板注入+固定数值自审计案例,,cn-all-remaining-0334-839d2c46
+合成夹具,2/2,无套利仿射短利率、不规则现金流定价与Key-rate风险引擎,契约实现+隐藏评测器注入+内置自审计案例,,cn-all-remaining-0336-4dee3ef5
+合成夹具,3/3,债券ETF做市报价参数标定与限额压力校验,做市规则+参数表为出题方自编无外部系统,,cn-all-remaining-0355-511b8d68
+合成夹具,3/3,数据统计半环形组合图绘制,data.xlsx为出题方现编样本表无来源系统,,cn-all-remaining-0357-9d6f6ae8
+合成夹具,3/3,环形热图与韦恩图组合图,基因表达data.xlsx为出题方现编无来源系统,,cn-all-remaining-0358-a36b0f21
+合成夹具,3/3, XGBoost 回归模型训练并计算 SHAP 值，绘制特征重要性环形图,data.xlsx为出题方现编结构化表无来源系统,,cn-all-remaining-0365-375c7e55
+合成夹具,2/2,多模型性能对比雷达图,data.xlsx裸表格无仓库线索，仅供作图,,cn-all-remaining-0368-6fa8f105
+合成夹具,2/2,多模型回归性能对比与拟合优度分析图,data.xlsx裸表格训练本地回归模型，无仓库线索,,cn-all-remaining-0369-bbf80adf
+合成夹具,2/2,多维度特征筛选环形图,simulated_binary_data裸表格无仓库线索，仅供作图,,cn-all-remaining-0371-8bb9b097
+合成夹具,2/2,计算物理非线性方程求根可视化实验室,物理公式与验收用例构造，无外部数据系统,,cn-all-remaining-0378-b6193635
+合成夹具,2/2,负热膨胀曲线离散区间统计与稳健候选筛选程序,固定候选曲线CSV为测边界情形而编，无仓库线索,,cn-all-remaining-0381-cef57a44
+合成夹具,2/2,F-J变换震源频散成像与网格搜索定位算法开发,"合成波形数据,题目自编测试夹具",,cn-all-remaining-0384-5a0c687a
+合成夹具,2/2,多窗频率-Bessel面波频散提取,"合成互相关数据,真值不公开自编",,cn-all-remaining-0385-44efd462
+合成夹具,2/2,基于声子模态热容加权的负热膨胀 Grüneisen 描述符计算程序,"固定声子模态表,自编合成计算夹具",,cn-all-remaining-0386-c86d9cd1
+合成夹具,2/2,区域阵列 f-k Bartlett 波束形成定位算法开发,预计算FFT为自编合成测试数据,,cn-all-remaining-0387-e17081aa
+合成夹具,2/2,负热膨胀候选的三目标 Pareto 排序与稳健设计选择程序,候选目标表为题目自编合成数据,,cn-all-remaining-0388-8fa5bc07
+合成夹具,2/2,Rayleigh波源密度函数(SDF)计算,"合成海浪波谱数据,自编夹具",,cn-all-remaining-0389-68b3c7e8
+合成夹具,2/2,海浪压力场(p2l)主导周期时空分析,"p2l为预处理合成频谱,自编夹具",,cn-all-remaining-0390-6dee4f87
+合成夹具,2/2,基于图连通性与八维 XRD 指纹的 NTE 候选闸门筛查器,预计算图与XRD指纹为自编夹具,,cn-all-remaining-0391-d4a9fbcb
+合成夹具,2/2,DAS弹性波场正演与耦合响应分析,"config参数驱动自实现正演,合成夹具",,cn-all-remaining-0392-ba434732
+合成夹具,2/2,带 SQLite 作业账本的 NTE Fake Backend 断点续跑调度器,"Fake Backend,虚构调度合成夹具",,cn-all-remaining-0393-6a01fe39
+合成夹具,2/2,多租户微服务配置溯源、契约门禁与受控发布计划复核,输入/参考/原始为泛化压缩包，output_contract.json驱动,,cn-all-remaining-0445-75064ea0
+合成夹具,2/2,近海风机塔筒监测控制器电气架构综合与可执行验证,xlsx/docx规格+CONTRACT.md驱动电气验证脚本任务,,cn-all-remaining-0447-8b6c01c6
+合成夹具,2/2,车载通信与边缘计算单元结构方案级联合校核,xlsx/docx参数+CONTRACT.md驱动结构校核脚本任务,,cn-all-remaining-0448-dfc6984c
+合成夹具,2/2,高密度信号处理整机热流—振动—BGA压紧多物理协同设计,任务书+JSON/MD契约驱动的多物理降阶模型脚本,,cn-all-remaining-0449-c6b07660
+合成夹具,2/2,1500 V 浮地母线采样板绝缘协调与布局 DRC,docx边界+多CONTRACT驱动的DRC计算脚本,,cn-all-remaining-0450-cdd63c3c
+合成夹具,2/2,HS-6000 硬件接口合同编译与可追溯软件需求工程,md硬件说明+CONTRACT驱动的合同编译脚本任务,,cn-all-remaining-0451-0d05beaf
+合成夹具,2/2,玄枢-M4安全控制内核、通信协议与故障注入 HIL 验证,docx/xlsx接口+HIL_CONTRACT驱动的控制内核脚本,,cn-all-remaining-0452-5e88f7b8
+合成夹具,2/2,中空长航时固定翼无人机控制律设计要求编制,PUBLIC_CONTRACT+manifest现编设计基准材料,,cn-all-remaining-0470-3db56cb3
+合成夹具,2/2,基于带噪数据的水下机器人垂向参数辨识与定深控,true_config/evaluator等现编控制夹具,,cn-all-remaining-0472-0ae1c4b2
+合成夹具,2/2,相关性网络图与VIF雷达图组合图,无来源系统，孤立excel特征表出题,,cn-all-remaining-0489-dacccbb8
+合成夹具,2/2,规则状态接口规范化实现与兼容验证,payloads/schema/output_contract三件套,,cn-all-remaining-0491-aa4d5cc1
+合成夹具,2/2,服务层图片复制变更规则审查,change_set/rules/output_contract三件套,,cn-all-remaining-0492-97cc5e1a
+合成夹具,2/2,干涉仪参数与不确定性反演,光栅观测数据为出题生成，绑定专属contract版本号,,cn-all-remaining-0510-d49cdf96
+合成夹具,2/2,多事件绝对到时—全台对 TDOA 稳健联合定位与退化审计,阵列到时数据为出题生成，无真实台站/仪器来源,,cn-all-remaining-0511-fb2679a9
+合成夹具,2/2,牛顿环曲率半径测量,牛顿环强度图为出题生成，绑定专属contract版本号,,cn-all-remaining-0512-6dc90b5b
+合成夹具,2/2,离线高频名词提取与文档替换,records/rules/output_contract三件套，声明合成,,cn-all-remaining-0516-ba0a9cec
+合成夹具,2/2,RAG 多路检索参数接入,records/rules/output_contract三件套，通用policy字段,,cn-all-remaining-0517-2782f9c8
+合成夹具,2/2,工具钩子超时与停止响应修复,records/rules/output_contract三件套，通用hook_id字段,,cn-all-remaining-0519-5bc55e58
+合成夹具,2/2,网络协议轨迹回放与混合流量验证,records/rules/output_contract三件套，合成十六进制帧,,cn-all-remaining-0520-ef6218a4
+合成夹具,2/2,开发工具多配置档切换插件,records/rules/output_contract三件套，通用profile_id字段,,cn-all-remaining-0521-3123bf8c
+合成夹具,2/2,ERP SQL 宏用户上下文与缓存治理,records/rules/output_contract三件套，通用cache_key字段,,cn-all-remaining-0522-9576dc11
+合成夹具,2/2,调用边源证据对象优先报告,records/rules/output_contract三件套，通用evidence_id字段,,cn-all-remaining-0523-6e6f046e
+合成夹具,2/2,BattlePass首次打开数据时序与冗余清理,原文明确称匿名、合成、可公开业务夹具,,cn-all-remaining-0526-5b9b4b49
+合成夹具,2/2,表单结构加密与发布态缓存治理,原文明确称合成form payload夹具,,cn-all-remaining-0527-62c2bf93
+合成夹具,2/2,发布申请补丁表单与类型字段联动,原文明确称匿名、合成业务夹具,,cn-all-remaining-0528-305959c2
+合成夹具,2/2,会议房间共享面板交互补全,records/rules/output_contract三件套，声明synthetic,,cn-all-remaining-0567-73a84050
+合成夹具,2/2,单页面分屏容器与本地主机路由,同上三件套夹具，声明synthetic wrapper,,cn-all-remaining-0568-b3b26f42
+合成夹具,2/2,移动端飞行输入与摇杆冲突修复,同上三件套夹具，声明synthetic touches,,cn-all-remaining-0569-c3506d3d
+合成夹具,2/2,首页模板移动端头部一致性,records/rules/output_contract三件套模板合同,,cn-all-remaining-0571-fb7a5b3f
+合成夹具,2/2,图像素材批量低损导出,records+policy通用process接口，无实体软件,,cn-all-remaining-0573-4839dd74
+合成夹具,2/2,KV 剪枝融合的性能与精度回归,records+policy三件套，纯计算回归合同,,cn-all-remaining-0574-b060150c
+合成夹具,2/2,MassBattleKit 一万人规模能力收口,records+policy三件套，容量基准纯计算合同,,cn-all-remaining-0575-7854ceff
+合成夹具,2/2,RTL 仿真回归失败收敛：状态迁移与终态校验,records/rules/output_contract三件套状态迁移,,cn-all-remaining-0579-dc07c355
+合成夹具,2/2,折扣页面可编辑模式识别与分流：路由与权限接通核验,records/rules/output_contract三件套权限路由,,cn-all-remaining-0580-76602658
+合成夹具,2/2,战斗伤害零值回归修复：字段投影与精确拒绝,records/rules/output_contract三件套伤害计算,,cn-all-remaining-0582-4188ca1d
+合成夹具,2/2,静态路由确保与清理接口：事件生命周期一致性,records/rules/output_contract三件套，字段无领域含义,,cn-all-remaining-0583-17788e34
+合成夹具,2/2,统一共享布局格与读写投影重构：路由与权限接通核验,records/rules/output_contract三件套，字段无领域含义,,cn-all-remaining-0584-e9203330
+合成夹具,2/2,评测数据清单生成脚本：清单摘要与字节统计,records/rules/output_contract三件套，字段无领域含义,,cn-all-remaining-0585-7aeec106
+合成夹具,2/2,发布包来源门禁扩展与摘录验证：依赖计划与阻断诊断,records/rules/output_contract三件套，字段无领域含义,,cn-all-remaining-0586-a05e26cb
+合成夹具,2/2,递归见证生产者消费者边契约：字段投影与精确拒绝,records/rules/output_contract三件套，字段无领域含义,,cn-all-remaining-0587-8e9e5ec2
+合成夹具,2/2,Agent 工作台能力矩阵：字段投影与精确拒绝,records/rules/output_contract三件套，字段无领域含义,,cn-all-remaining-0589-34113feb
+合成夹具,2/2,受控提交路径与别名隔离规则完善：字段投影与精确拒绝,records/rules/output_contract三件套，字段无领域含义,,cn-all-remaining-0590-9647ec18
+合成夹具,2/2,章节预览 Markdown 格式保真修复：路由与权限接通核验,records/rules/output_contract三件套，字段无领域含义,,cn-all-remaining-0592-858b62fe
+合成夹具,2/2,因子数据集生成链路梳理：字段投影与精确拒绝,records/rules/output_contract三件套，字段无领域含义,,cn-all-remaining-0593-f9a3598c
+合成夹具,2/2,绳体与绳头配色美术验收应用：路由与权限接通核验,records/rules/output_contract三件套，字段无领域含义,,cn-all-remaining-0595-3da51d53
+合成夹具,2/2,桌面编辑器流式代理会话与工具进度：路由与权限接通核验,records/rules/output_contract三件套，字段无领域含义,,cn-all-remaining-0596-3cbe5e02
+合成夹具,2/2,浮空岛地块加成与击退战斗系统：字段投影与精确拒绝,records/rules/output_contract三件套，字段无领域含义,,cn-all-remaining-0597-a89824be
+合成夹具,2/2,文稿侧栏工具暴露与内容类型门禁：字段投影与精确拒绝,records/rules/output_contract三件套，字段无领域含义,,cn-all-remaining-0598-655c2894
+合成夹具,2/2,自定义侧栏切换菜单与响应式显示：路由与权限接通核验,records/rules/output_contract三件套，字段无领域含义,,cn-all-remaining-0599-83c0cf1e
+合成夹具,2/2,员工详情标签选择弹层：字段投影与精确拒绝,records/rules/output_contract三件套，字段无领域含义,,cn-all-remaining-0600-e18062ab
+合成夹具,2/2,运行宿主组件落地：字段投影与精确拒绝,records/rules/output_contract三件套，字段为id/name/value通用名,,cn-all-remaining-0601-a91506be
+合成夹具,2/2,表单资源解密与SQL宏缓存隔离：缓存与源值一致性核验,records/rules/output_contract三件套，policy驱动的通用拒绝矩阵,,cn-all-remaining-0602-6ec5492d
+合成夹具,2/2,SIO 线程卡死修复：风险边界与处置分级,"records/rules/output_contract三件套，process_X(data,policy)通用签名",,cn-all-remaining-0603-966a0fae
+合成夹具,2/2,数据表到Unity脚本的独立导出工具：字段投影与精确拒绝,records/rules/output_contract三件套，字段为id/name通用名,,cn-all-remaining-0604-15615a60
+合成夹具,2/2,服务组件构造异常定位：时间窗口边界分类,records/rules/output_contract三件套，无具体系统字段,,cn-all-remaining-0605-8adc3d8f
+合成夹具,2/2,本地视频目标检测工具升级：采样窗口与阈值判定,records/rules/output_contract三件套，明说合成视频占位模型,,cn-all-remaining-0607-f9396fd1
+合成夹具,2/2,多供应商摄像头同步分层设计：采样窗口与阈值判定,records/rules/output_contract三件套，明说合成供应商重构,,cn-all-remaining-0609-f7beb4d8
+合成夹具,2/2,结构化交接显式标记与审计链：风险边界与处置分级,records/rules/output_contract三件套，明说合成对话记录重建,,cn-all-remaining-0610-e98822a0
+合成夹具,2/2,组件样式管理回归修复：字段投影与精确拒绝,records/rules/output_contract三件套，明说匿名组件库重建,,cn-all-remaining-0611-859ee5f2
+合成夹具,2/2,多对手智能体联赛评测脚本：加权评分与缺项拒绝,records/rules/output_contract三件套，明说合成bot/params夹具,,cn-all-remaining-0612-989169dd
+合成夹具,2/2,视频水印自适应缩放与横向摆动：采样窗口与阈值判定,records/rules/output_contract三件套，字段为id/name通用名,,cn-all-remaining-0613-5494b016
+合成夹具,2/2,寄存器工作台架构审计与最小修复：路由与权限接通核验,records/rules/output_contract三件套，字段为id/name通用名,,cn-all-remaining-0614-72046a0a
+合成夹具,2/2,低延迟视频播放器生命周期与缓冲治理：字段投影与精确拒绝,records/rules/output_contract三件套，字段为id/name通用名,,cn-all-remaining-0615-3b85ed21
+合成夹具,2/2,推理剪枝性能优化验证：字段投影与精确拒绝,records/rules/output_contract三件套，明说小型合成模型重构,,cn-all-remaining-0617-b2d4b673
+合成夹具,2/2,第三章剧情梗概与人物线修订：采样窗口与阈值判定,records/rules/output_contract三件套，明说虚构角色情节夹具,,cn-all-remaining-0619-2928718d
+合成夹具,2/2,CrazyGames 云存档接入与发布门禁：版本字段差异与约束,"records+rules+contract三件套,匿名合成非真实平台",,cn-all-remaining-0620-e58676dc
+合成夹具,2/2,设备与芯片映射增删改校验,"work_items+rules+contract三件套,合成业务数据",,cn-all-remaining-0621-c04fc018
+合成夹具,2/2,会话分享与消息反馈：接口载荷适配验证,"work_items+rules+contract,声明不提供真实UI/服务",,cn-all-remaining-0623-d2bfa16f
+合成夹具,2/2,Markdown 正文异常断行审计,"records+rules+contract三件套,合成审计任务",,cn-all-remaining-0624-0d5850a4
+合成夹具,2/2,设备通信架构文档裁剪与一致性审计,"records+rules+contract三件套,合成架构数据",,cn-all-remaining-0625-c4a941f4
+合成夹具,2/2,文档修订缺失材料短路与证据选择,"records+rules+contract三件套,合成文档数据",,cn-all-remaining-0626-bcc9f2e4
+合成夹具,2/2,径向折线图,"仅data.xlsx裸文件绘图,无命名来源系统",,cn-all-remaining-0627-1a5d9548
+合成夹具,2/2,回归模型性能综合对比分析图,"仅data.xlsx裸文件建模绘图,无命名来源",,cn-all-remaining-0628-3c1ec98a
+合成夹具,2/2,径向花瓣图,"仅data.xlsx裸文件绘图,无命名来源系统",,cn-all-remaining-0634-24ab0d4d
+合成夹具,2/2,梯度提升回归模型性能综合诊断图,"仅data.xlsx裸文件建模绘图,无命名来源",,cn-all-remaining-0637-af7e9678
+合成夹具,2/2,RDA冗余分析排序图,"仅data.xlsx裸文件做RDA绘图,无来源系统",,cn-all-remaining-0646-cc7e1cbd
+合成夹具,2/2,XGBoost多分类模型综合性能评估与SHAP可解释性分析组合图,data.xlsx无任何仓库或来源线索,,cn-all-remaining-0647-88d372e4
+合成夹具,2/2,配对云雨图,萼片测量表无仓库线索，裸文件,,cn-all-remaining-0653-d8ed86b4
+合成夹具,2/2,超硬材料逆向设计论文的证据化审稿回复与修订矩阵编制,reviewer comments+schema+contract三件套,,cn-all-remaining-0657-35acc768
+合成夹具,2/2,材料计算论文返修包的回复信—正文—补充材料跨文档一致性审计,AUDIT_RULES+schema受控审计样本,,cn-all-remaining-0659-ed12deb7
+合成夹具,2/2,纵向倾斜椭圆柱储罐的几何标定与观测校核,problem_spec+CSV+contract三件套,,cn-all-remaining-0660-e4cfd781
+合成夹具,2/2,组合储罐变位识别、全量标定与稳健性校核,geometry.json+CSV+contract三件套,,cn-all-remaining-0661-154126e9
+合成夹具,2/2,双设施输送管线的独立接入与共用汇合布局优化,benchmark_cases.csv+MODEL_CONTRACT,,cn-all-remaining-0662-33d1dec2
+合成夹具,2/2,城乡分区附加费约束下的输送管线布局优化,PARAMETERS.json+MODEL_CONTRACT构造,,cn-all-remaining-0663-6d22379c
+合成夹具,2/2,差异化管径费用下共用管线价值与长期方案决策,原题+参数+contract构造材料,,cn-all-remaining-0664-32d114f1
+合成夹具,2/2,匿名学生居住单元平面方案的量测与指标化评估,作者自绘SVG，非真实建筑图纸,,cn-all-remaining-0665-5c6ed6d2
+合成夹具,2/2,匿名居住方案评价体系的 AHP 权重与一致性稳健性分析,作者构造判断矩阵，非真实专家,,cn-all-remaining-0666-726b573f
+合成夹具,3/3,匿名居住方案的 AHP—优属度综合排序与稳健性评估,AHP矩阵+contract为人造评测夹具,,cn-all-remaining-0667-a43c9a79
+合成夹具,2/3,多模型SHAP环形特征变异组合图,"无命名裸数据,系人造ML夹具",,cn-all-remaining-0668-030aa2e3
+合成夹具,3/3,注塑壳体量具R&R、SPC与外观缺陷联合评审及供应商放行判定,"声明脱敏样本,系人造质量夹具",,cn-all-remaining-0677-42a50188
+合成夹具,3/3,精密阀芯外径测量系统分析、控制图与过程能力量产放行评估,"声明脱敏工程样本,系人造MSA夹具",,cn-all-remaining-0683-84d392a1
+合成夹具,3/3,散热风扇加速寿命、任务剖面与现场可靠性联合评审及量产放行判定,"声明脱敏样本,系人造ALT可靠性夹具",,cn-all-remaining-0687-72a573b9
+合成夹具,3/3,新能源汽车高压连接器多应力加速寿命、竞争失效与量产放行判定,"明确声明教学测试夹具,非真实数据",,cn-all-remaining-0691-ec498c7c
+合成夹具,2/3,订单履约平台服务化架构评审底盘修订与渐进式迁移设计,架构评审底盘按AR编号规则拟造，非真实系统,,cn-all-remaining-0699-212ce97c
+合成夹具,2/2,固定投放条件下的三维烟幕遮蔽判定与时长校核,评测新构造的固定场景JSON+契约文件包,,cn-all-remaining-0748-1d1d2516
+合成夹具,2/2,多面板季节性敏感性环形柱状图,为复现指定图表现编的xlsx数据,,cn-all-remaining-0772-9f833be7
+合成夹具,2/2,第三人称战术射击 NPC 小队决策回放回归与掩体分配,游戏引擎内部回放切片为定制数据,,cn-all-remaining-0788-cfee0a30
+合成夹具,2/2,5G工业专网覆盖容量、PCI/邻区优化与发布准入,明确声明程序化教学测试夹具,,cn-all-remaining-0809-17f86072
+合成夹具,2/2,智能仓储AMR多传感器定位、交通死锁、充电调度与安全发布准入,明确声明教学算法测试夹具非真实,,cn-all-remaining-0812-90c48c8d
+合成夹具,2/2,DP2海上风电运维船动力定位故障重构、推力分配与作业准入判定,"明示教学夹具,声明数据非真实船舶",,cn-all-remaining-0819-92642430
+合成夹具,2/2,工业制冷液氨系统泄漏事件重构、SIS/LOPA验证与复产准入判定,"明示SIS/LOPA夹具,声明非真实装置",,cn-all-remaining-0829-bd2480e9
+合成夹具,2/2,工业制冷液氨系统泄漏事件重构、SIS/LOPA验证与复产准入判定,"明示SIS/LOPA夹具,声明非真实装置",,cn-all-remaining-0831-8de50919
+合成夹具,3/3,协作射击游戏同伴 Utility AI 决策器回归修复与离线回放评测,回放重构的匿名决策快照，出题夹具,,cn-all-remaining-0846-c0c542fb
+合成夹具,3/3,第三人称战术射击 NPC 小队决策回放回归与掩体分配,匿名化重构的战斗决策切片夹具,,cn-all-remaining-0852-006b49eb
+合成夹具,2/2,城乡差异时间序列趋势对比图（DID分析）,"simulated_data明示合成表格,无仓库线索",,cn-all-remaining-0913-2494d698
+合成夹具,2/2,航空发动机热端叶片无损检测、裂纹寿命与装机放行判定,夹具数据且声明不代表真实发动机,,cn-all-remaining-0916-99ed2233
+合成夹具,2/2,仓储货架 WebAR 位姿稳定、状态管理与离线回放算法实现评测,"场景生成可重复回放序列,非真实日志",,cn-all-remaining-0918-4723f3b6
+合成夹具,2/2,城市轨道交通CBTC多源定位、制动防护、联锁冲突与运营发布准入判定,夹具数据且声明不代表真实线路,,cn-all-remaining-0920-d3ea6ee1
+合成夹具,2/2,海上风电场多源气象同化、阵风爬坡预测与调度发布准入判定,夹具数据且声明不代表真实风场,,cn-all-remaining-0921-befeee11
+合成夹具,2/2,固态电解质阻抗谱、锂枝晶寿命与配方放大准入判定,"样品几何密度夹具数据,配方放大用",,cn-all-remaining-0922-76ab0a78
+合成夹具,2/2,露天矿边坡多源监测、失稳预测与采场作业准入判定,夹具数据且声明不代表真实矿山,,cn-all-remaining-0923-15b15695
+合成夹具,2/2,连栋玻璃温室环境控制、灌溉施肥、病害风险与采收准入判定,"环境灌溉夹具数据,非真实农场",,cn-all-remaining-0924-4456a733
+合成夹具,3/3,结构力学核验与发布封板审计,匿名化核验系统rc构建的脱敏评测样本账单,,cn-all-remaining-0980-6a4254c5
+合成夹具,3/3,建筑热工传热核验与发布封板审计,匿名化核验系统rc构建的脱敏评测样本账单,,cn-all-remaining-0981-628b31f9
+合成夹具,3/3,建筑热工传热分析核验与发布封板复核,匿名化核验系统rc构建的脱敏评测样本账单,,cn-all-remaining-0982-97178bfe
+合成夹具,3/3,岩土工程核验与发布封板复核,匿名化核验系统rc构建的脱敏评测样本账单,,cn-all-remaining-0983-73dcdfda
+合成夹具,3/3,材料力学分析核验与发布封板复核,匿名化核验系统rc构建的脱敏评测样本账单,,cn-all-remaining-0984-e729d438
+合成夹具,2/3,半圆形径向小提琴图,裸xlsx表格数据无来源系统线索,,cn-all-remaining-0986-6e952e64
+合成夹具,2/3,随机森林特征重要性排序与相关性热力图组合图,裸region_data表格数据无来源系统线索,,cn-all-remaining-0988-a20bde35
+合成夹具,2/3,环形热图与韦恩图组合图,纯Excel表格配图任务，无命名来源系统,,cn-all-remaining-1001-4e972668
+合成夹具,3/3,小提琴图与相关性矩阵组合图,残差表变量无领域字段名，疑出题合成数据,,cn-all-remaining-1002-a2020f5d
+合成夹具,2/2,多租户数据交换平台Kubernetes RBAC、网络隔离与生产上线安全门禁审计,冻结匿名化审计证据，字段generic,,cn-all-remaining-1100-804b4868
+合成夹具,2/2,工业伺服驱动器冷却风扇加速寿命Weibull可靠性评估与量产门槛核验,原文明示脱敏评测工程样本数据,,cn-all-remaining-1102-75cdeb82
+合成夹具,2/2,研发办公楼地下室及首层结构工程量清单与招标控制价复核,原文明示脱敏评测工程样本数据,,cn-all-remaining-1105-66d3d053
+合成夹具,2/2,战斗结算规则核验与自动化回归练习,role_id/skill_id/case_id等通用字段，明示合成样本,,cn-all-remaining-1133-fd7fd7e8
+合成夹具,2/2,手游活动奖励与经济闭环规则核验练习,record_id/request_id通用字段，明示合成基准,,cn-all-remaining-1134-4eeef84f
+合成夹具,2/2,限时卡池结算基准样本与回归框架验证,RNG测试向量+配置，明示合成基准样本,,cn-all-remaining-1136-b1a3b3ca
+合成夹具,2/2,空气传播塑料圈特征与行星健康威胁关联图,节点关系表无命名系统，为绘图现编,,cn-all-remaining-1138-79d89db6
+合成夹具,2/2,环形柱状图,处理后均值/误差/显著性表，无命名系统,,cn-all-remaining-1141-513f5d89
+合成夹具,2/2,睡眠特征与脑区关联环形热图,脑区Z分数关联表，无命名系统,,cn-all-remaining-1142-d9c9c6a5
+合成夹具,2/2,多面板哑铃图,多配色方案模板+虚构Feature表，无来源系统,,cn-all-remaining-1153-b114d9d2
+合成夹具,2/2,半环形多变量组合图,半环图模板配虚构农户表，无来源系统,,cn-all-remaining-1154-a4e657f2
+合成夹具,2/2,相关性热图与特征重要性组合图,Creep life虚构特征表，仅为训练画图,,cn-all-remaining-1155-8bbddd06
+合成夹具,2/2,三角洲区域地面沉降与全球海平面上升对比组合图,Delta_Data虚构统计量表，无查询系统,,cn-all-remaining-1156-7d53487b
+合成夹具,2/2,基于SHAP的随机森林特征空间贡献分布图,人口密度特征虚构，shapefile仅作底图,,cn-all-remaining-1157-9b5ebe33
+合成夹具,2/2,SHAP蜂群图与条形图+相对贡献3D饼图组合图,多工作表虚构目标变量，SHAP画图模板,,cn-all-remaining-1158-3aa32639
+合成夹具,2/2,分组相关性矩阵图,文件名mock_data已声明为虚构数据,,cn-all-remaining-1159-4a4c6ea6
+合成夹具,2/2,CatBoost多分类SHAP蜂群图与贡献玫瑰图组合图,训练/验证集虚构多分类特征，无来源,,cn-all-remaining-1160-ef830f6d
+合成夹具,2/2,非线性交互作用 SHAP 依赖图组合图,NPP_Target虚构特征表，SHAP画图模板,,cn-all-remaining-1178-999d39af
+合成夹具,2/2,XGBoost 全局 SHAP 解释组合图,data.xlsx为出题合成数据，无命名来源系统,,cn-all-remaining-1181-c84e0e6e
+合成夹具,2/2,南丁格尔玫瑰图,data.xlsx为绘图合成数据，无来源系统,,cn-all-remaining-1189-7006e8fd
+合成夹具,2/2,三元相图,生态覆盖度数据为合成绘图输入，无来源,,cn-all-remaining-1194-dd6f8e42
+合成夹具,2/2,小提琴图与相关性矩阵组合图,Residual_Results.xlsx为合成绘图数据,,cn-all-remaining-1195-54f2007f
+合成夹具,2/2,堆叠柱状图与桑基图组合图,分类流向数据为合成绘图输入，无来源,,cn-all-remaining-1196-2e491509
+合成夹具,2/2,相关性分析散点图矩阵,data.xlsx为合成绘图数据，无命名来源,,cn-all-remaining-1197-4a071135
+合成夹具,2/2,带有误差频率分布直方图的回归拟合图,CMI_Target数据为合成绘图输入，无来源,,cn-all-remaining-1198-b373b9f2
+合成夹具,2/2,半圆形堆叠柱状图,暴露量数据为合成绘图输入，无来源系统,,cn-all-remaining-1199-e7996860
+合成夹具,2/2,PCoA 主坐标分析图,丰度表为合成绘图数据，无命名来源,,cn-all-remaining-1200-c90ef7d2
+合成夹具,2/2,多区域特征重要性与 SHAP 值分布组合图,多区域犯罪数据为合成绘图输入，无来源,,cn-all-remaining-1201-fc3a4bbf
+合成夹具,2/2,环形柱状图,基因数值表为合成绘图数据，无来源,,cn-all-remaining-1202-7e1e5e56
+合成夹具,2/2,雷达图,radar_data为合成绘图数据，无命名来源,,cn-all-remaining-1203-5b6e49c8
+合成夹具,2/2,环形堆叠图+折线图组合图,data.xlsx无命名来源系统，纯画图素材,,cn-all-remaining-1205-8acb751d
+合成夹具,2/2,XGBoost SHAP 因子摘要图与特征贡献极坐标玫瑰图组合图,simulated_data.xlsx明示合成,,cn-all-remaining-1207-4ddc2ebe
+合成夹具,2/2,多重检验环形图,data.xlsx无命名来源系统,,cn-all-remaining-1209-1dea3a30
+合成夹具,2/2,特征-目标相关性网络图,mock_data.xlsx明示合成数据,,cn-all-remaining-1210-a58d9793
+合成夹具,2/2,模型性能评估扇形泰勒图,data.xlsx无命名来源系统,,cn-all-remaining-1212-d016f772
+合成夹具,2/2,三维柱状图绘制,data.xlsx无命名来源系统,,cn-all-remaining-1213-3f5d52a4
+合成夹具,2/2,径向小提琴图,simulated_violin_data明示合成,,cn-all-remaining-1214-6b102c6b
+合成夹具,2/2,特征相关性热图与因子分析载荷连接图,data.xlsx无命名来源系统,,cn-all-remaining-1215-77d24289
+合成夹具,2/2,三元散点图绘制,simulated_data.xlsx明示合成,,cn-all-remaining-1216-f7ebfcc5
+合成夹具,2/2,环形云雨图绘制,Data.xlsx无命名来源系统,,cn-all-remaining-1217-82cfac32
+合成夹具,2/2,弧状条形图与堆叠条形图组合图,本地F盘xlsx裸文件Category/Value无来源系统线索,,cn-all-remaining-1228-f66c0ac7
+合成夹具,2/2,雷达气泡图绘制,本地F盘xlsx省份面积产量裸数据无仓库线索,,cn-all-remaining-1229-60e5c90c
+合成夹具,2/2,特征相关性热图与因子分析载荷连接图,本地E盘xlsx多数值特征列无来源系统线索,,cn-all-remaining-1231-6002aecb
+合成夹具,2/2,SHAP 依赖图与 PDP 及数据分布直方图复合图,本地F盘xlsx特征与目标列为建模用裸数据,,cn-all-remaining-1232-ff5c39e1
+合成夹具,2/2,分组线性拟合图绘制,本地F盘xlsx分组GST/LST裸数据无来源线索,,cn-all-remaining-1237-0b90a276
+合成夹具,2/2,分组散点图与边缘分布图,当前目录xlsx地表地面温度裸数据无来源线索,,cn-all-remaining-1238-8fc3385c
+合成夹具,2/2,分组散点回归拟合图与残差分析图,当前目录xlsx X/Y/Group回归裸数据无来源线索,,cn-all-remaining-1239-76250601
+合成夹具,2/2,分组棒棒糖图绘制,配色方案演示用棒棒糖图数据，非真实系统记录,,cn-all-remaining-1242-e9bec0dd
+合成夹具,2/2,环形柱状图绘制,配色方案演示用环形柱状图数据，非真实来源,,cn-all-remaining-1243-1f46d838
+合成夹具,2/2,特征-目标相关性扇形热图,配色方案演示用扇形热图数据，非可浏览系统,,cn-all-remaining-1245-c87e5086
+合成夹具,2/2,多层圆环图绘制,配色方案演示用多层圆环图数据，非真实来源,,cn-all-remaining-1247-ac608d05
+合成夹具,2/2,多组标准化回归系数环形热图绘制,配色方案演示用回归花瓣图数据，非真实来源,,cn-all-remaining-1263-160345b6
+合成夹具,2/2,变量相关热图与 Mantel 检验网络图,配色方案演示用相关热图/Mantel数据，非真实来源,,cn-all-remaining-1268-a320b58e
+合成夹具,2/2,三维填充面积图绘制,场景水位为出题编造数据，无源系统,,cn-all-remaining-1273-3edac745
+合成夹具,2/2,三维瀑布图绘制,文件名simulated明示合成光谱数据,,cn-all-remaining-1274-803308df
+合成夹具,2/2,环形柱状图绘制,模型对比表为出题编造，无源系统,,cn-all-remaining-1275-686e277b
+合成夹具,2/2,三维堆叠图绘制,文件名simulated_data明示合成矩阵,,cn-all-remaining-1277-99e5435c
+合成夹具,2/2,SHAP 交互特征网络图绘制,文件名mock_data明示合成特征表,,cn-all-remaining-1279-7e6fa4f7
+合成夹具,2/2,Spearman 相关性矩阵气泡图,变量表为出题编造，无源系统,,cn-all-remaining-1282-2e716750
+合成夹具,3/3,多年份变量相关性热图与中心目标连接图,"配色方案编号+裸文件+压缩包,系出题合成夹具",,cn-all-remaining-1289-259f60fe
+合成夹具,3/3,和弦图,"配色方案编号+裸文件+压缩包,系出题合成夹具",,cn-all-remaining-1290-fb1f206b
+合成夹具,2/3,睡眠特征与脑区相关性环形热图,"配色方案编号+裸文件+压缩包,系出题合成夹具",,cn-all-remaining-1292-3e9376c4
+合成夹具,2/3,多模型平滑雷达图绘制,"配色方案编号+裸文件+压缩包,系出题合成夹具",,cn-all-remaining-1296-5bbf448c
+合成夹具,2/3,百分比饼图与环形堆叠图组合图,"60套配色方案编号+裸文件,系出题合成夹具",,cn-all-remaining-1297-ccb981d8
+合成夹具,3/3,变量散点图矩阵与相关性热图组合图,"配色方案编号+裸文件+压缩包,系出题合成夹具",,cn-all-remaining-1298-1d290edf
+合成夹具,3/3,带有边缘分布密度的多组回归拟合图,"配色/样式/标记编号+裸文件,系出题合成夹具",,cn-all-remaining-1299-ae3c648c
+生物力学建模,3/3,基于 OpenSim 4.3 的最大速度短跑支撑期下肢动力学审计与技术限制因子判定,真实.osim/.trc/.mot工程文件与流程,OpenSim 4.3,cn-all-remaining-0012-3f9dd525
+生物力学建模,3/3,基于 OpenSim 4.3 输出的短跑干预研究可复现统计分析与论文结果包生成,输入为OpenSim真实输出型数据,OpenSim 4.3,cn-all-remaining-0014-ae2a0ad8
+生物力学建模,3/3,基于 OpenSim 4.3 的短跑动力学指标测试-重测可靠性、测量误差与科研结局变量筛选,输入为OpenSim输出格式非合成数据,OpenSim 4.3,cn-all-remaining-0015-c1b61c11
+生物力学建模,2/2,OpenSim 4.5.1 途中跑单步支撑外部力学有效性分析,.osim模型与运动学/GRF派生数据,OpenSim 4.5.1,cn-all-remaining-0031-b2b5d783
+生物力学建模,2/2,途中跑前摆事件格状态转移、双向闭合与下一支撑准备度分析,OpenSim模型、坐标时序与派生GRF,OpenSim 4.5,cn-all-remaining-0032-4d3edeb8
+生物力学建模,2/2,OpenSim 4.5 最大速度途中跑支撑末期推进、离地状态与早期回收边界分析,OpenSim scaled模型与合成GRF分析,,cn-all-remaining-0034-ca542016
+生物力学建模,2/2,短跑起跑后第一步外部推进与第二至第三步衔接的双向闭合、分组反证与跨扰动迁移分析,OpenSim Analyze Tool半合成运动学重建,,cn-all-remaining-0036-45b77900
+生物力学建模,3/3,短跑途中跑下压阶段多证据链双向验证分析,osim模型与运动学派生数据,OpenSim,cn-all-remaining-0041-c6549c75
+生物力学建模,2/2,OpenSim 4.5 短跑起跑加速期单步态周期下肢生物力学分解与技术诊断分析,OpenSim 4.5 IK/缩放模型/.osim工程文件，逆动力学分析,OpenSim 4.5,cn-all-remaining-0094-f32031a4
+生物力学建模,2/2,短跑途中跑（最大速度期）单步态周期下肢生物力学分解与刚度-力施加技术分析,OpenSim逆运动学与InverseDynamicsTool生成的STO文件,OpenSim 4.5,cn-all-remaining-0095-8f5537c0
+生物力学建模,2/2,短跑途中跑多层处理稳健性、根部残差相位归因与可报告性证据裁决,同一运动员OpenSim IK/TRC/scaled model与候选ID STO,,cn-all-remaining-0096-b45060b6
+生物力学建模,2/2,短跑途中跑单记录片段多证据时空组织、状态闭合与分辨率审计,OpenSim 4.5 IK、标记点轨迹、缩放肌骨模型派生数据,OpenSim 4.5,cn-all-remaining-0097-f836cdfa
+生物力学建模,2/2,短跑加速单试次派生 GRF—骨盆运动学连续时间双向状态重建、处理路径归因与可辨识性审计,既有OpenSim ik.mot/derived_grf.sto表格，工程文件产物,OpenSim,cn-all-remaining-0098-da2ff8ac
+生物力学建模,2/2,短跑起跑加速期多步态身体构型、关节协调拓扑与跨试次稳健性分析,OpenSim IK、标记点轨迹、每条记录配对的缩放模型,OpenSim,cn-all-remaining-0099-d5e10074
+生物力学建模,2/2,短跑起跑加速期触地落点—躯干前倾的模型—物理—鲁棒性三层闭合分析,原文点名OpenSim桌面应用，.osim/.mot工程文件,OpenSim,cn-all-remaining-0131-17b02b87
+生物力学建模,2/2,短跑起跑加速期连续步触地构型与时空递进双向闭合验证分析,OpenSim模型/IK/GRF/TRC，无网站,,cn-all-remaining-0137-9ebb5d85
+生物力学建模,2/2,短跑起跑加速期派生支撑窗口触地足位与躯干抬升演进判定,OpenSim模型/IK/GRF/TRC，无网站,,cn-all-remaining-0140-b00e71e8
+生物力学建模,2/2,短跑起跑加速期连续步触地构型、边界状态重建与处理多机制可识别性分析,OpenSim BodyKinematics、TRC标记、动捕派生产物,,cn-all-remaining-0214-53980c22
+生物力学建模,2/2,短跑起跑加速期派生支撑窗口的多估计器趋势、事件时钟竞争、双向状态重建,同为OpenSim支撑窗口运动学重建分析,,cn-all-remaining-0216-24153bc9
+生物力学建模,2/2,起跑早期连续六步支撑身体投射、姿态抬升与触地组织状态转移分析,OpenSim缩放/IK生成的.osim/.mot工程文件,OpenSim,cn-all-remaining-0309-1e15e796
+生物力学建模,2/2,加速跑支撑-腾空-下一触地连续链离地投射、摆动回收与再触地准备分析,OpenSim缩放/IK生成的.osim/.mot工程文件,OpenSim,cn-all-remaining-0310-0e213c96
+生物力学建模,2/2,最大速度阶段途中跑完整摆动腿回收、前摆展开与触地前足速匹配分析,OpenSim缩放/IK生成的.osim/.mot工程文件,OpenSim,cn-all-remaining-0311-a71a28cc
+生物力学建模,2/2,最大速度阶段途中跑触地前 120 ms 至支撑前 25% 足部回扒、胫骨定向与早期碰撞代理边界分析,OpenSim缩放/IK生成的.osim/.mot工程文件,OpenSim,cn-all-remaining-0312-ad59def1
+生物力学建模,2/2,最大速度阶段途中跑全身三维反向摆动协调、角动量代理分解与跨周期稳定性分析,OpenSim缩放/IK生成的.osim/.mot工程文件,OpenSim,cn-all-remaining-0313-3b7b6938
+生物力学建模,2/2,起跑预备姿势多定义状态集合、出口条件化评优与部分可识别性分析,OpenSim TRC/IK MOT/.osim动捕建模文件,OpenSim,cn-all-remaining-0372-39b7fe89
+生物力学建模,2/2,起跑启动至双脚离地双时间事件竞争、出口状态评优与预测归因分析,OpenSim TRC/IK MOT/.osim动捕建模文件,OpenSim,cn-all-remaining-0373-d92411f3
+生物力学建模,2/2,起跑加速第一腾空与第一触地准备多层构型及双向边界闭合分析,OpenSim TRC/IK MOT/.osim动捕建模文件,OpenSim,cn-all-remaining-0374-fe737fbf
+生物力学建模,2/2,起跑加速第一支撑几何转换点竞争、四路径状态重建、步速守恒归因与上游根因去重分析,OpenSim TRC/IK MOT/.osim动捕建模文件,OpenSim,cn-all-remaining-0375-cecf3fe5
+生物力学建模,2/2,连续加速步状态转移、趋势模型竞争、突变/交替稳定性分析,OpenSim TRC/IK MOT/.osim动捕建模文件,OpenSim,cn-all-remaining-0376-2bcc381d
+生物力学建模,2/2,途中跑/最大速度候选步态单腿回收事件竞争、时间预算与下游速度闭合分析,动捕服务器记录与步态事件派生指标,,cn-all-remaining-0427-1a2f2c02
+生物力学建模,2/2,途中跑/最大速度候选步态前摆出口状态、多层相位耦合与触地入口闭合分析,动捕记录关键帧与相位耦合派生指标,,cn-all-remaining-0428-cf6a351c
+生物力学建模,2/2,途中跑/最大速度候选步态下压与触地准备多足参考、触地链反事实及早期支撑闭合分析,动捕记录触地链与支撑相位派生指标,,cn-all-remaining-0430-e756a0ff
+生物力学建模,2/2,途中跑/最大速度候选步态前支撑几何转换点竞争、身体承接与四路径状态重建分析,动捕记录前支撑几何转换点派生指标,,cn-all-remaining-0432-17cae668
+生物力学建模,2/2,途中跑/最大速度候选步态后支撑/离地准备重新伸展时序、出口状态与下一循环闭合分析,真实服务器动捕/力台事件时序，非仓库型网站,,cn-all-remaining-0434-09bdddd7
+生物力学建模,2/2,途中跑/最大速度候选步态腾空全身层重叠事件图、腿交换与下一触地重定位分析,真实服务器腾空期动捕事件重叠图，非网站数据,,cn-all-remaining-0436-8f2d8149
+生物力学建模,2/2,短跑连续步条件稳健残差、多模型嵌套验证与异常可识别性审计,OpenSim的osim/mot工程文件与派生量,OpenSim,cn-all-remaining-0496-fc8160a4
+生物力学建模,2/2,短跑多指标稳健协方差、马氏距离贡献守恒与联合状态域外审计,OpenSim的osim/mot工程文件与派生量,OpenSim,cn-all-remaining-0497-f44c1602
+生物力学建模,2/2,短跑多关节整周期 MFPCA、训练折内函数标准化与模态稳定性分析,输入为TRC/IK MOT/scaled OSIM工程文件,OpenSim,cn-all-remaining-0498-e22b368f
+生物力学建模,2/2,短跑三周期 Fourier 基函数压缩、阶数选择与跨频率/相位不变量分析,输入为TRC/IK MOT/scaled OSIM工程文件,OpenSim,cn-all-remaining-0499-f0b227f8
+生物力学建模,2/2,短跑周期曲线相位差异、试次内连续速度效应与功能混合模型可识别性分析,输入为TRC/IK MOT/scaled OSIM工程文件,OpenSim,cn-all-remaining-0500-5a63c6f7
+生物力学建模,2/2,途中跑摆动链连续相对相位、多时钟耦合与稳健评分分析,输入为TRC/IK/scaled OSIM及GRF proxy文件,OSIM,cn-all-remaining-0501-29fe7995
+生物力学建模,2/2,触地准备与支撑链主导模式、突变与转换矩阵分析,输入为TRC/IK/scaled OSIM及GRF proxy文件,OSIM,cn-all-remaining-0502-7f719b5c
+生物力学建模,2/2,前摆—下压及支撑—回收双转移时滞互相关、相位同步与替代检验分析,输入为TRC/IK/scaled OSIM及GRF proxy文件,OSIM,cn-all-remaining-0503-d5a09c46
+生物力学建模,2/2,不同动作相位转移入口正则化 CCA、嵌套来源档案留出与转移兼容性分析,输入为TRC/IK/scaled OSIM及GRF proxy文件,OSIM,cn-all-remaining-0504-94a7394f
+生物力学建模,2/2, 不同动作相位下多通道功能 PLS、嵌套来源试次留出与下游步速关联分析,输入为TRC/IK/scaled OSIM及GRF proxy文件,OSIM,cn-all-remaining-0505-467c6f39
+生物力学建模,2/2,起跑连续加速步低维状态空间、嵌套模型竞争与异常转移分析,输入为TRC/IK/scaled OSIM及GRF proxy文件,OSIM,cn-all-remaining-0506-090a089f
+生物力学建模,2/2,连续途中跑候选策略 HMM、切换动力学、标签对齐与模式可识别性分析,输入为TRC/IK/scaled OSIM及GRF proxy文件,OSIM,cn-all-remaining-0507-8754c588
+生物力学建模,3/3,基于缩放肌骨模型与 IK 运动学的最大速度途中跑无量纲步态组织及速度闭合分析,原文点名OpenSim，.osim/.mot工程文件,OpenSim,cn-all-remaining-0992-b521b79a
+生物力学建模,3/3,基于 IK 运动学与派生接触锚点的最大速度途中跑相邻步速度变化及步长—步频贡献分解,osim/trc/mot工程文件，肌骨建模数据,OpenSim,cn-all-remaining-0993-789beed7
+生物力学建模,3/3,基于缩放肌骨模型几何的短跑腿长尺度归一及跨试次运动学离散检验,osim/trc/mot工程文件，肌骨建模数据,OpenSim,cn-all-remaining-0994-79906829
+生物力学建模,3/3,基于 IK—TRC 同步运动学的最大速度途中跑触地前摆动腿回收几何与模型尺度关联分析,osim/trc/mot工程文件，肌骨建模数据,OpenSim,cn-all-remaining-0995-02bb9017
+生物力学建模,3/3,基于无量纲运动学构念的途中跑记录内速度条件化接触—摆动技术组合分析,osim/trc/mot工程文件，肌骨建模数据,OpenSim,cn-all-remaining-0997-7c74ee4d
+生物力学建模,3/3,基于预注册无量纲运动学特征的短跑步态策略确定性聚类与稳定性拒绝检验,osim/trc/mot工程文件，肌骨建模数据,OpenSim,cn-all-remaining-0998-93dd6a17
+生物力学建模,3/3,基于无量纲步长—步频—竖直振荡点云的途中跑局部可行边界与退化几何分析,osim/trc/mot工程文件，肌骨建模数据,OpenSim,cn-all-remaining-0999-c1768da5
+生物力学建模,3/3,基于触地前足端任务空间匹配的途中跑髋膝踝关节构型多解与卡尺敏感性分析,osim/trc/mot工程文件，肌骨建模数据,OpenSim,cn-all-remaining-1003-9c1027c0
+生物力学建模,3/3,基于严格时序隔离与留一试次验证的途中跑早期摆动状态及触地准备预测分析,osim/trc/mot工程文件，肌骨建模数据,OpenSim,cn-all-remaining-1004-d73aa457
+生物力学建模,3/3,基于高采样 K 层内部参考与零相位抗混叠的短跑时空指标可辨识边界分析,osim/trc/mot工程文件，肌骨建模数据,OpenSim,cn-all-remaining-1005-e06b5f6c
+生物力学建模,3/3,基于 OpenSim 4.5 的短跑途中跑单步态周期下肢三节段仰角协变与分相协调重组分析,osim/trc/mot工程文件，肌骨建模数据,OpenSim,cn-all-remaining-1006-ace7a744
+生物力学建模,3/3,基于 OpenSim 4.5 的短跑途中跑单步态周期有效腿长—扫掠角状态环、滞回结构与周期间重复性分析,osim/trc/mot工程文件，肌骨建模数据,OpenSim,cn-all-remaining-1007-cbbd3d00
+生物力学建模,2/2,基于 OpenSim 4.5 的短跑途中跑摆动期足尖净空轨迹、足部回收高度与末段接近边界分析,输入为scaled OSIM模型、TRC、IK MOT工程文件,OpenSim,cn-all-remaining-1008-661e29af
+生物力学建模,2/2,基于 OpenSim 4.5 的短跑途中跑触地准备期足段姿态、足端接近向量与转换时序分析,输入为scaled OSIM模型、TRC、IK MOT工程文件,OpenSim,cn-all-remaining-1009-f8c1bb06
+生物力学建模,2/2,基于 OpenSim 4.5 的短跑途中跑触地准备期足端回拉—下降速度耦合、峰值时序与周期稳定性分析,输入为scaled OSIM模型、TRC、IK MOT工程文件,OpenSim,cn-all-remaining-1010-9e7d19d9
+生物力学建模,2/2,基于 OpenSim 4.5 的短跑途中跑摆动期足端轨迹曲率、回转结构与路径直接性分析,输入为scaled OSIM模型、TRC、IK MOT工程文件,OpenSim 4.5,cn-all-remaining-1011-9cd58d92
+生物力学建模,2/2,基于 OpenSim 4.5 的短跑途中跑髋—膝—踝解析运动链对足端速度的 Jacobian 贡献分解与闭合残差诊断,输入为scaled OSIM模型、TRC、IK MOT工程文件,OpenSim 4.5,cn-all-remaining-1012-dc4ca80e
+生物力学建模,2/2,基于 OpenSim 4.5 的短跑途中跑触地准备期多足部参考点定义敏感性、事件一致性与结论稳健性分析,输入为scaled OSIM模型、TRC、IK MOT工程文件,OpenSim 4.5,cn-all-remaining-1013-1c894eb2
+生物力学建模,2/2,基于 OpenSim 4.5 的短跑途中跑触地前后胫骨倾角—足段姿态—足端位置联合状态迁移与越零时序分析,输入为scaled OSIM模型、TRC、IK MOT工程文件,OpenSim 4.5,cn-all-remaining-1014-8fb09ede
+生物力学建模,2/2,基于 OpenSim 4.5 的短跑途中跑双腿剪刀式交换的膝—踝—足多层级越零时序与任务空间几何分析,输入为scaled OSIM模型、TRC、IK MOT工程文件,OpenSim 4.5,cn-all-remaining-1015-c335be65
+生物力学建模,2/2,基于OpenSim 4.5的短跑连续步躯干—骨盆—腰骶三层姿态协调、相位耦合与表示一致性分析,输入为scaled OpenSim模型、TRC、IK MOT工程文件,OpenSim 4.5,cn-all-remaining-1016-2f43b66f
+生物力学建模,2/2,基于OpenSim 4.5的短跑连续步头—颈—躯干双定义姿态波动、限位占用与敏感性分析,输入为scaled OpenSim模型、TRC、IK MOT工程文件,OpenSim 4.5,cn-all-remaining-1017-178c3b2b
+生物力学建模,2/2,基于OpenSim 4.5的短跑连续步髋—膝—踝方向性角速度峰序、时距与重复性分析,输入为scaled OpenSim模型、TRC、IK MOT工程文件,OpenSim 4.5,cn-all-remaining-1018-56796b62
+生物力学建模,2/2,基于OpenSim 4.5的短跑连续步大腿—小腿相位路径、方向状态转换与拓扑重复性分析,输入为scaled OpenSim模型、TRC、IK MOT工程文件,OpenSim 4.5,cn-all-remaining-1019-46dfd4ff
+生物力学建模,2/2,基于OpenSim 4.5的短跑连续步骨盆前进—竖直振荡耦合、轨迹闭环与表示一致性分析,输入为scaled OpenSim模型、TRC、IK MOT工程文件,OpenSim 4.5,cn-all-remaining-1020-22cf57f2
+生物力学建模,2/2,基于OpenSim 4.5的短跑连续步上下肢对侧反向旋转、时滞结构与同侧对照分析,输入为scaled OpenSim模型、TRC、IK MOT工程文件,OpenSim 4.5,cn-all-remaining-1021-1a5aac7b
+生物力学建模,2/2,基于OpenSim 4.5的短跑连续步左右肢幅度—时序配对、非交替拒绝与不对称象限分析,输入为scaled OpenSim模型、TRC、IK MOT工程文件,OpenSim 4.5,cn-all-remaining-1022-838b3c36
+生物力学建模,2/2,基于OpenSim 4.5的短跑连续周期分段配准、多通道波形距离与代表周期分析,OpenSim scaled模型+TRC+IK运动学派生分析,OpenSim 4.5,cn-all-remaining-1023-40863b44
+生物力学建模,2/2,基于OpenSim 4.5的短跑连续周期侧别中心化序列稳健趋势、早晚差、质量混杂与单变点边界分析,同一批OpenSim/TRC/IK生物力学记录,OpenSim 4.5,cn-all-remaining-1024-e0d5ca83
+生物力学建模,2/2,基于OpenSim 4.5的短跑连续步下一同侧代理接触起始构型的分组嵌套 Ridge 预测、双基线比较与特征消融分析,OpenSim proxy运动学特征预测建模,OpenSim 4.5,cn-all-remaining-1025-40f44bd5
+生物力学建模,2/2,多阶段分析流水线的数据链完整性重建与结果资格分层审计,审计OpenSim运动学动力学流水线产物,,cn-all-remaining-1026-123158fd
+生物力学建模,2/2,多版本目录漂移下的逻辑文件角色发现、内容去重与歧义裁决,发现OSIM/TRC/GRF等生物力学文件角色,OpenSimDocument,cn-all-remaining-1027-651a1bb4
+生物力学建模,2/2,多源时序数据的时间轴一致性审计与无外推重采样决策,审计TRC/IK/GRF运动学时间轴对齐,,cn-all-remaining-1028-e4a02293
+生物力学建模,2/2,多格式数据文件的结构完整性、数值有效性与可移植引用审计,校验TRC/OSIM/XML工程文件结构,,cn-all-remaining-1029-d4bc99ad
+生物力学建模,2/2,结构化模型文件的拓扑一致性、参数指纹与重复版本分层审计,审计scaled OSIM模型拓扑与参数,OpenSim,cn-all-remaining-1030-f5a56da3
+生物力学建模,2/2,异构字段映射的命名兼容性、空值模式与配置引用联合诊断,联合校验TRC与OSIM字段兼容性,,cn-all-remaining-1031-e0378e8c
+生物力学建模,2/2,流程成功状态与数值质量冲突下的四层质量门控与结果可用性判定,审计marker_error/IK/geometry质量门,,cn-all-remaining-1032-afa0646c
+生物力学建模,2/2,上游质量警告与下游拟合误差的描述性关系及小样本推断边界分析,关联IK拟合与几何QC描述统计,,cn-all-remaining-1033-da2105bb
+生物力学建模,2/2,双阶段配置漂移、类型保真与字段流向追溯审计,审计OpenSim流水线TOML配置漂移,,cn-all-remaining-1034-5076252b
+生物力学建模,2/2,多采样率时序信号平滑窗口的物理时间等价性、合法窗长反算与配置有效性审计,审计OpenSim平滑窗口配置时长,,cn-all-remaining-1035-cea90978
+生物力学建模,2/2,生物力学多模态数据包的源文件溯源、分层 SHA-256 证据链与完整性审计,OpenSim多模态文件溯源哈希审计,OpenSim,cn-all-remaining-1036-190a37ec
+生物力学建模,2/2,人体生物力学模型的字节—拓扑—参数三级重复性判别与试次绑定分析,OSIM模型字节拓扑参数指纹比对,OpenSim,cn-all-remaining-1037-e0ff9cc4
+生物力学建模,2/2,人体运动学数据的单位、坐标语义、代理力轴与双侧一致性诊断,"OSIM/TRC/IK工程文件,非网站数据",OpenSim,cn-all-remaining-1038-e267339a
+生物力学建模,2/2,生物力学 K/E/D 分层证据体系下二十类科学主张的可支持性与禁止推断边界分析,"OSIM/IK/GRF派生证据,非网站",,cn-all-remaining-1039-fc34876b
+生物力学建模,2/2,多模态人体运动数据面向八类生物力学构念的逐任务分析资格与降级门控,"OSIM动捕IK工程文件,无网站界面",OpenSim,cn-all-remaining-1040-7b076b3a
+生物力学建模,2/2,合成地面反力代理信号的接触事件确定性重建、归一化波形与二十七情景规则敏感性分析,"合成GRF代理信号,工程文件非网站",,cn-all-remaining-1041-c4d4364e
+生物力学建模,2/2,合成地面反力代理信号的接触事件确定性重建、归一化波形与二十七情景规则敏感性分析,"同783,GRF工程文件非网站",,cn-all-remaining-1042-b1c822c2
+生物力学建模,2/2,生物力学模型派生动力学产物的上下文完整性、有效步数与十二类分析请求拒绝边界,"IK/ID派生动力学产物,非网站",,cn-all-remaining-1043-18f78780
+生物力学建模,2/2,缺失模态生物力学数据面向十二类分析请求的可挽救性分级与禁止跨记录补全审计,OSIM/TRC/GRF缺失模态审计,,cn-all-remaining-1044-4d51104f
+生物力学建模,2/2,生物力学候选记录在预算约束下的多门资格筛选、多样性选择与十组权重敏感性分析,"OSIM动捕候选记录,工程文件",OpenSim XML,cn-all-remaining-1045-5899466e
+生物力学建模,2/2,三类生物力学数据包的归档安全、自包含依赖、完整性与科学证据边界审计,OSIM/ExternalLoads包安全审计,OSIM,cn-all-remaining-1046-5ee2b39a
+生物力学建模,2/2,非有限数值的最早故障节点与可证传播血缘,OSIM/TRC/MOT/日志故障取证,OSIM,cn-all-remaining-1047-574583e9
+生物力学建模,2/2,TOML二次序列化方言的安全解析、类型保真与 Schema 往返闭合,生物力学pipeline的TOML配置,,cn-all-remaining-1048-c591344c
+生物力学建模,2/2,Legacy 事件数组与 Refined Pairs 的拓扑、数值及 Authority 一致性审计,"kinetics_raw事件数组,GRF产物",,cn-all-remaining-1049-d95e26d6
+生物力学建模,2/2,内容时间字段、偏序 DAG 与时钟域可信性联合审计,"TRC/OSIM时间戳溯源,工程文件",,cn-all-remaining-1050-3c8b881b
+生物力学建模,2/2,逐指标空值分母、边界权重、P95/CV 与发布汇总公式指纹复算,"kinetics JSON汇总复算,GRF数据",,cn-all-remaining-1051-20e2a392
+生物力学建模,2/2,多源质量字段、OSIM Body 汇总与归一化除数污染血缘,OSIM Body mass与GRF血缘审计,OSIM,cn-all-remaining-1052-5af33928
+生物力学建模,2/2,Legacy/Refined 多特征方言签名、公共视图与信息损失审计,kinetics_raw.json为运动学/动力学派生产物，非仓库数据,,cn-all-remaining-1053-9f8259c5
+生物力学建模,2/2,报告内嵌 JSON 快照与独立资产的 Schema-Aware 递归版本偏斜,joint_moments/kinetics json为生物力学派生产物,,cn-all-remaining-1054-83ab11e1
+生物力学建模,2/2,Record-Step 事件细化三态真值表、部分成功语义与下游准入,joint_moments三份json为逆动力学派生结果,,cn-all-remaining-1055-0722dc39
+生物力学建模,2/2,IK 通道退化、OSIM 边界占用、平台时长与假稳定可辨识性,IK MOT与OSIM工程文件，原文点名OpenSim,OSIM,cn-all-remaining-1056-6d97d9bf
+生物力学建模,2/2,OpenSim XML 40600 CustomJoint旋转节点序列、坐标引用闭合与IK覆盖审计,OSIM XML模型文件，原文点名OpenSim,OpenSim,cn-all-remaining-1057-cde087f5
+生物力学建模,2/2,OpenSim XML 40600 单坐标多轴函数树依赖闭合、节点域占用与规范序列化审计,OSIM函数树XML，原文点名OpenSim,OpenSim,cn-all-remaining-1058-16405e1c
+生物力学建模,2/2,OpenSim XML 40600 Coordinate边界–SimmSpline共同定义域错位、连续越域段与输入准入审计,OSIM与MOT时序域交集，原文点名OpenSim,OpenSim,cn-all-remaining-1059-9a9ee5b0
+生物力学建模,2/2,OpenSim XML 40600 左右 ankle TransformAxis、Frame与函数符号不变的镜像合同审计,OSIM关节镜像审计，原文点名OpenSim,OpenSim,cn-all-remaining-1060-60336010
+生物力学建模,2/2,OpenSim XML 40600 WeldJoint零质量Body、完整Socket图与Coordinate唯一归属审计,OSIM组件图与引用审计，原文点名OpenSim,OpenSim,cn-all-remaining-1061-bad0cf48
+生物力学建模,2/2,OpenSim XML 40600 ContactGeometrySet–ForceSet–ComponentSet三集合能力字段与代理数据,OSIM力集合能力字段，原文点名OpenSim,OpenSim,cn-all-remaining-1062-34dcccce
+生物力学建模,2/2,OpenSim XML 40600 Body–Mesh scale_factors多层链、极端值和异常传播范围审计,OSIM Body缩放链审计，原文点名OpenSim,OpenSim,cn-all-remaining-1063-766bf7d3
+生物力学建模,2/2,OpenSim XML 40600 Body mass_center–Joint Frame同局部坐标绑定、轴向投影与正确拒绝审计,OSIM质心坐标绑定，原文点名OpenSim,OpenSim,cn-all-remaining-1064-d1df0d07
+生物力学建模,2/2,OpenSim XML 40600 Body惯量张量对称构造、PSD–三角必要条件与缩放可比性审计,OSIM惯量张量审计，原文点名OpenSim,OpenSim,cn-all-remaining-1065-41ea6ae2
+生物力学建模,2/2,OpenSim XML 40600 Marker–Joint OffsetFrame完整路径绑定、局部偏置与左右镜像残差审计,OSIM Marker偏置镜像审计，原文点名OpenSim,OpenSim,cn-all-remaining-1066-9e7aed93
+生物力学建模,2/2,OpenSim 4.5 OSIM 异构 Joint 类型分派、显隐字段规范化与故障保留审计,OSIM异构Joint解析审计，原文点名OpenSim,OpenSim,cn-all-remaining-1067-2463cafc
+生物力学建模,2/2,OpenSim 4.5 OSIM PhysicalOffsetFrame 作用域路径、Socket 闭合与同名冲突审计,解析OSIM模型XML与PhysicalOffsetFrame，非网站数据,OpenSim,cn-all-remaining-1068-72ca191f
+生物力学建模,2/2,OpenSim 4.5 SpatialTransform 函数 AST、常量折叠与坐标—轴入射规范化,解析OSIM SpatialTransform函数树，工程模型文件,OpenSim,cn-all-remaining-1069-72f41678
+生物力学建模,2/2,OpenSim 4.5 左右 Joint 轴—函数联合符号编码、等价表示与不可配对诊断,解析OSIM Joint轴与函数编码，桌面模型文件,OpenSim,cn-all-remaining-1070-479d2021
+生物力学建模,2/2,OpenSim 4.5 CustomJoint 声明轴秩、正交性、条件数与跨记录不变量质检,OSIM CustomJoint轴秩数值审计，模型文件非网站,OpenSim,cn-all-remaining-1071-45787c57
+生物力学建模,2/2,OpenSim 4.5 Walker knee MultiplierFunction—Mesh 尺度绑定、节点血缘与往返审计,OSIM Mesh尺度与MultiplierFunction血缘，模型文件,OpenSim,cn-all-remaining-1072-2cec4395
+生物力学建模,2/2,质量门控下的规则后验诊断、校准评估与不可识别性,OSIM+IK MOT/STO时序质检，OpenSim工程产物,OpenSim,cn-all-remaining-1073-45b7eb2d
+生物力学建模,2/2,OpenSim 4.5 Coordinate 默认构型—IK 时序 Schema 连接、范围距离与越界污染审计,OSIM Coordinate与IK时序连接，模型/MOT文件,OpenSim,cn-all-remaining-1074-df2cca32
+生物力学建模,2/2,OpenSim 4.5 MarkerSet—Joint—Coordinate 子树图、静态覆盖与 IK 退化反例审计,OSIM MarkerSet-Joint图与IK审计，模型文件,OpenSim,cn-all-remaining-1075-1e1d2ced
+生物力学建模,2/2,OpenSim 4.5 踝—距下—MTP 多级 Joint q=0 共同 Frame 轴秩与 IK 有效自由度审计,OSIM多级Joint轴秩与IK自由度，模型文件,OpenSim,cn-all-remaining-1076-e3d6e3cb
+生物力学建模,2/2,全 Joint 限定路径 PhysicalOffsetFrame 的 SE(3) 可组合性、双向逆闭合与浮点稳定性审计,OSIM PhysicalOffsetFrame SE(3)审计，模型文件,OpenSim,cn-all-remaining-1077-a0ae7167
+生物力学建模,2/2,Joint offset-frame 平移—Body Mesh 非等方尺度的跨记录归一共识与血缘冲突审计,OSIM Joint平移与Mesh尺度归一，模型文件,OpenSim,cn-all-remaining-1078-2bf9349a
+生物力学建模,2/2,Marker location—Body Mesh 非等方尺度的跨记录稳健共识、未匹配项与传播残差审计,OSIM Marker位置与Mesh尺度共识，模型文件,OpenSim,cn-all-remaining-1079-e22946dc
+生物力学建模,2/2,ContactSphere 冻结签名与 Body Mesh 非等方缩放的逐轴尺度归一长度失配、策略未知与能力边界审计,OSIM ContactSphere签名与尺度归一，模型文件,OpenSim,cn-all-remaining-1080-87ad17ed
+生物力学建模,2/2,ContactSphere—Marker 同 socket Body 局部包络、最近表面间隙与跨 Frame 伪距离拒绝审计,OSIM ContactSphere-Marker间隙审计，模型文件,OpenSim,cn-all-remaining-1081-37a7114a
+生物力学建模,2/2,MTP PinJoint q=0 双 PhysicalOffsetFrame 组合下 ContactSphere 统一坐标、凸包退化与三维重,OSIM MTP Joint坐标变换与凸包，模型文件,OpenSim,cn-all-remaining-1082-3f9336e3
+生物力学建模,2/2,FrameGeometry/Mesh 同名 scale_factors 的父链命名空间、多 Mesh 完整性与宽泛 XPath 错绑定审计,输入是OpenSim .osim模型XML与Mesh,OpenSim,cn-all-remaining-1083-6bd2640e
+生物力学建模,2/2,Model gravity—ContactHalfSpace 的版本化 canonical -X 法向、XYZ body-fixed 姿态与,输入是OpenSim .osim模型XML与gravity,OpenSim,cn-all-remaining-1084-46158fae
+生物力学建模,2/2,OSIM→Body→Mesh→VTP 外部资产的隔离路径解析、哈希血缘、大小写冲突与双维模型准入审计,输入是OpenSim .osim及Mesh资产路径,OpenSim,cn-all-remaining-1085-8cf162ff
+生物力学建模,2/2,ExternalLoads—BodySet—STO 表头的严格后缀双射、侧别拓扑与绝对 datafile 脱敏绑定审计,输入是OpenSim/ExternalLoads与STO表头,OpenSim,cn-all-remaining-1086-04418dc6
+源码仓库,3/3,基于 Jetson Orin NX Super 的四摄像头麦克纳姆轮小车车端运行栈开发,minipilot起始工程为ROS2源码压缩包,,cn-all-remaining-0010-01d05df5
+源码仓库,2/2,面向用户的围棋对战客户端与基于 MCTS 的简单人机模式开发,交付为可运行代码工程，附参考实现压缩包,,cn-all-remaining-0028-a77c10ac
+源码仓库,3/3,面向无人机蜂群对抗的智能任务分配算法设计与实现,给的是原始仿真工程7z压缩包,,cn-all-remaining-0039-eaf07265
+源码仓库,2/3,HDFS 系统日志异常检测管道,"GitHub代码仓库,按其标注为源码类",LogPAI/loghub,cn-all-remaining-0046-451fb7f6
+源码仓库,3/3,STM32F407 TR500 移动机器人全链路控制可靠性升级、自动化验证与可追溯交付,STM32差速底盘固件工程源码,DLRobot TR500,cn-all-remaining-0047-0ba8b32b
+源码仓库,3/3,Intel RealSense D455 RGB-D 三维目标感知系统可靠性升级、离线部署与自动化验收交付,D455_ws ROS工作空间源码压缩包,Intel RealSense D455,cn-all-remaining-0048-20a1803f
+源码仓库,2/2,面向计算材料物理的 CGCNN 晶体图数据管线复现,复现CGCNN代码仓库的数据处理模块,,cn-all-remaining-0058-784b7023
+源码仓库,2/2,面向材料性质预测的 CGCNN 门控图卷积网络复现,复现CGCNN代码仓库的网络模型模块,,cn-all-remaining-0059-07202c4b
+源码仓库,2/2,CGCNN 材料性质回归与分类训练评估流程复现,复现CGCNN代码仓库的训练评估入口,,cn-all-remaining-0060-4916f260
+源码仓库,2/2,CGCNN 预训练材料性质推理与论文复现边界审计,原文点名CGCNN代码仓库为来源,CGCNN,cn-all-remaining-0061-17f616d5
+源码仓库,2/2,面向凝聚态物理的 D3REAM 全空间晶体描述符与周期晶体图复现,原文点名D3REAM代码仓库为来源,D3REAM,cn-all-remaining-0062-2b5e3ba2
+源码仓库,2/2,UE 关卡资源引用清理工具开发,扫描UE关卡uasset/umap资源与项目Git仓库目录结构,,cn-all-remaining-0091-2ce46b58
+源码仓库,2/2,开发ue5使用的Perforce 资源提交前置校验工具,校验P4仓库待提交.uasset/.xlsx文件与工程资源路径,,cn-all-remaining-0092-5dd2fd62
+源码仓库,2/2,基于现有 STM32H743/X-CUBE-AI 工程的被动声识别错误修复与封存测试验收,STM32H743/X-CUBE-AI MDK-ARM固件工程压缩包待修复,,cn-all-remaining-0093-c2a8c48f
+源码仓库,2/2,多视图图像拼接、质量评估与批处理验收工具,以ImageStitching代码仓库为改造基线,,cn-all-remaining-0115-4e5886bd
+源码仓库,2/2,高级视频车道线检测、时序稳定与质量评估系统,以Detection代码仓库(含视频)为基线,,cn-all-remaining-0116-1362f053
+源码仓库,2/2,垂直井光纤地震事件定位,差时数据由ttcrpy库正演生成,ttcrpy,cn-all-remaining-0117-1fe73b6d
+源码仓库,2/2,短跑加速窗口摆臂多估计器相位耦合、附肢角动量代理、组合分组泛化与证据依赖审计,原文点名GitHub代码仓库，pip安装脚本运行,Pose2Sim,cn-all-remaining-0127-6da3cfcb
+源码仓库,2/2,二维井间地震首波走时层析成像与异常体恢复,"原文点名ttcrpy库生成走时,GitHub/PyPI代码库",ttcrpy,cn-all-remaining-0191-ca010215
+源码仓库,2/2,小波互谱走时差MATLAB流程的自包含C17迁移与数值等价性验证,"MATLAB源码迁移为C库,给定源码压缩包",,cn-all-remaining-0193-9b57cb86
+源码仓库,2/2,fable_flow_pipeline,原始脚本文本加Python工具模块的生成式流水线工程,,cn-all-remaining-0196-0fcde01e
+源码仓库,2/2,业务状态对接规则实现与验证,给定Java项目zip，修复方法并补单元测试,,cn-all-remaining-0218-c55ed2a4
+源码仓库,2/2,"[BUG] Multiple ArrayIndexOutOfBoundsException in JSONReaderUTF8.java, ",Fastjson2完整项目源码zip，修复解析缺陷,,cn-all-remaining-0219-3028b620
+源码仓库,3/3,Panda 7-DOF 冗余机械臂多约束逆运动学求解(含肘部朝上约束),franka_description是GitHub代码仓库URDF,franka_description,cn-all-remaining-0224-36cf0ef9
+源码仓库,3/3,面向无人机蜂群对抗的智能任务分配算法设计与实现,无人机蜂群对抗原始工程7z代码包,,cn-all-remaining-0234-9f997aba
+源码仓库,3/3,预制钢筋可拼接下料模拟退火算法设计与生产方案导出,钢筋下料GUI原型代码工程压缩包,,cn-all-remaining-0239-d34a697d
+源码仓库,3/3,业务工作台列表 Excel 导出实现与验证,"给定Java项目压缩包,待修复分析",,cn-all-remaining-0257-8171b0b6
+源码仓库,3/3,"Inconsistent path resolution: --background-file resolves against CWD, ",修复前源码+完整项目zip，源码树待修复,,cn-all-remaining-0259-0f98e766
+源码仓库,3/3,修复 Affinity Router 初始化阶段因应用名称缺失导致的空指针崩溃,dubbo-go源码压缩包，代码库待修复,,cn-all-remaining-0260-00dbcac0
+源码仓库,3/3,Higress OpenAI 转 Claude 时丢失缓存 Token 用量,Higress源码zip三件套，非控制台操作,Higress,cn-all-remaining-0261-e71a7c3d
+源码仓库,3/3,fix(diff): review merge commits against their first parent,ocr命令行工具源码，无独立图形界面,Alibaba Open Code Review,cn-all-remaining-0262-796b7763
+源码仓库,3/3,并发代码审查中的 WaitGroup 竞态与任务错误,OCR源码并发修复，命令行工具无界面,Alibaba Open Code Review,cn-all-remaining-0263-3cce95f4
+源码仓库,3/3,Higress MCP 配置更新导致 SSE 长连接中断,Higress源码zip，配置由代码生成非控制台,Higress,cn-all-remaining-0264-cb4d04f6
+源码仓库,3/3,APISIX PATCH 导致插件密钥重复加密,APISIX源码zip三件套，代码修复任务,Apache APISIX,cn-all-remaining-0267-2abe3ec4
+源码仓库,3/3,APISIX Anthropic 协议转换中的工具参数与流式结束异常,APISIX协议转换源码zip，代码修复,Apache APISIX,cn-all-remaining-0268-0b9ebbad
+源码仓库,3/3,Seata 批量 INSERT 使用 SQL 函数时主键提取错误,给的是Seata修复前后源码zip,,cn-all-remaining-0276-6e6811c4
+源码仓库,3/3,Intel RealSense D455 RGB-D 三维目标感知系统可靠性升级、离线部署与自动化验收交付,ROS工作空间源码+build缓存zip,,cn-all-remaining-0279-e1055243
+源码仓库,3/3,Dubbo-go 注册中心销毁与订阅超时并发问题,Dubbo-go修复前后源码zip,,cn-all-remaining-0280-56d150e9
+源码仓库,3/3,STM32F407 TR500 移动机器人全链路控制可靠性升级、自动化验证与可追溯交付,STM32固件Keil工程源码zip,,cn-all-remaining-0281-5f45e300
+源码仓库,3/3,多文件并发审查时异步记忆压缩状态串线,Open Code Review源码zip并发修复,,cn-all-remaining-0283-23156729
+源码仓库,3/3,RocketMQ ServiceThread 唤醒信号丢失,RocketMQ源码zip，Java并发修复,,cn-all-remaining-0284-ee8ca4d8
+源码仓库,3/3,Higress 流式 AI 统计被空模型值污染,Higress wasm插件源码zip,,cn-all-remaining-0285-6c1acb68
+源码仓库,3/3,Git Diff 二进制标记误判与增删行统计错误,diff parser源码zip修复,,cn-all-remaining-0286-e2cd489c
+源码仓库,3/3,Iceberg Go 无法处理 INT32/INT64 编码的 Parquet Decimal 统计信息,iceberg-go源码zip，Parquet修复,,cn-all-remaining-0287-5251edcb
+源码仓库,3/3,Nacos Config 客户端关闭后监听线程池持续泄漏,Nacos Java源码zip，非控制台数据,Alibaba Nacos,cn-all-remaining-0288-9191bb5f
+源码仓库,3/3,SeaTunnel 多作业 Kafka 分区配置相互污染,"输入是SeaTunnel源码zip,任务是打补丁修复bug",Apache SeaTunnel,cn-all-remaining-0289-179b18af
+源码仓库,3/3,SeaTunnel Flink Schema Evolution 与 XA 事务发生 MDL 死锁,"SeaTunnel源码zip,修复Flink死锁的Java代码",Apache SeaTunnel,cn-all-remaining-0292-d702cea3
+源码仓库,3/3,Nacos 并发订阅与取消订阅导致服务索引丢失,"输入是Nacos源码zip三件套,改并发Java代码",Alibaba Nacos,cn-all-remaining-0293-55df2006
+源码仓库,3/3,Fluss 主键表批量读取丢失 Change Log 尾部记录,"Fluss源码zip,修复归并读取逻辑的Java代码",Apache Fluss,cn-all-remaining-0294-fde2ddb5
+源码仓库,2/2,修复 Apache RocketMQ 多派生存储后端下 CommitLog 加速恢复起点与 Checkpoint 一致性问题,RocketMQ修复前后完整源码压缩包,Apache RocketMQ,cn-all-remaining-0340-1949b8b0
+源码仓库,2/2,修复 Apache SeaTunnel Paimon Sink 从 Savepoint 恢复时重复提交 Checkpoint 状态导致任务退,SeaTunnel修复前后完整源码压缩包,Apache SeaTunnel,cn-all-remaining-0342-312b05e2
+源码仓库,2/2,SeaTunnel 有界 Source 在 Reader 故障重注册后丢失 NoMoreSplitsEvent 导致作业永久不结束,SeaTunnel修复前后完整源码压缩包(2),Apache SeaTunnel,cn-all-remaining-0344-8f581a8d
+源码仓库,2/2,修复 Nacos Naming 模块 ConcurrentHashMap 上 check-then-act 竞态导致的潜在 NPE,输入是Nacos修复前源码压缩包,Nacos,cn-all-remaining-0394-1e06e38d
+源码仓库,2/2,修复 Nacos 集群 TCP 健康检查 SocketChannel 资源泄漏与 hasMember IP 前缀误匹配,给的是Nacos修复前后源码压缩包，非网站数据,Nacos,cn-all-remaining-0453-ba71e11e
+源码仓库,2/2,修复 RocketMQ ConsumeQueueStore 中 deleteTopic 与 FlushConsumeQueueService,任务是修复RocketMQ源码竞态bug,RocketMQ,cn-all-remaining-0480-62388124
+源码仓库,2/2,修复 RocketMQ 异步 request-reply 中 RequestCallback 可能被多次触发的竞态与过早回调问题,任务是修复RocketMQ回调竞态bug,RocketMQ,cn-all-remaining-0490-91ffdc27
+源码仓库,2/2,修复Alibaba Nacos TCP健康检查SocketChannel资源泄漏及集群成员IP前缀误匹配问题,给的是Nacos修复前后Java完整源码压缩包,Alibaba Nacos,cn-all-remaining-0508-3c61f735
+源码仓库,2/2,修复Apache SeaTunnel文件连接器读取空目录时Schema和分区推断越界的问题,给的是SeaTunnel修复前后完整源码压缩包,Apache SeaTunnel,cn-all-remaining-0509-6e152030
+源码仓库,2/2,连续抛体轨迹事件求根、遗留帧判定迁移与可行包络分析,迁移遗留演示程序帧判定逻辑,,cn-all-remaining-0532-b9206571
+源码仓库,2/2,Gabor 反褶积核的确定性流式 Python 迁移,迁移历史MATLAB反褶积核代码,,cn-all-remaining-0541-ec370512
+源码仓库,2/2,病态复数 f-p 岭求解器的 NumPy 迁移与逐频率审计,迁移历史Fortran求解器代码,,cn-all-remaining-0542-6307f698
+源码仓库,2/2,非均匀坐标局部 tau-p 正演/伴随的内存安全迁移,迁移C++ tau-p算子指针核,,cn-all-remaining-0543-32a6e969
+源码仓库,2/2,Kirchhoff 与相移偏移的统一 Python API 迁移,迁移MATLAB偏移算法函数族,,cn-all-remaining-0544-5552abfc
+源码仓库,2/2,SEG-Y Rev0/Rev1 流式 CLI 重写与字节白名单审计,迁移MATLAB SEG-Y工具代码,,cn-all-remaining-0545-a5793990
+源码仓库,2/2,三维稀疏体迭代插值的无缝块并行迁移,迁移MATLAB三维插值程序,,cn-all-remaining-0546-f56c3e5b
+源码仓库,3/3,Unity 客户端战斗回放确定性与断线重连状态恢复,Unity C#工程回放核心待改造代码,,cn-all-remaining-0712-ee8f99e5
+源码仓库,3/3,Unity 客户端战斗回放确定性重建与断线重连状态恢复,Unity工程战斗回放核心代码待开发,,cn-all-remaining-0714-001e1685
+源码仓库,3/3,Unity OpenXR 仓储拣选培训交互闭环与断点恢复,Unity VR培训起始工程代码待开发,,cn-all-remaining-0715-7bd9dc9b
+源码仓库,2/2,多人副本结算服务的幂等重放、保底掉落与异常补偿改造,现有Python原型工程待改造,,cn-all-remaining-0726-c399a041
+源码仓库,2/2,UE5 联机拾取与背包复制一致性修复,UE5 C++工程源码待修复,,cn-all-remaining-0728-07c602b5
+源码仓库,2/2,UE5 C++ 检查点存档管线异步化、版本迁移与坏档恢复工程化改造,UE5 C++存档插件为待改造源码工程树,,cn-all-remaining-0757-e5b78fb1
+源码仓库,2/2,GPU Warp 双发射调度器同周期写回、Flush 与仲裁一致性修复,SV RTL基线压缩包，需改源码修复,,cn-all-remaining-0760-588c7fe3
+源码仓库,2/2,400GBASE-FR4 光模块 CMIS 应用广告、I²C 访问与 Data Path 状态机修复,CMIS固件基线压缩包待修复,,cn-all-remaining-0768-ae78dc9a
+源码仓库,2/2,Godot 游戏项目资源依赖审计与安全批量修复工具,原文点名Godot游戏项目源码树,Godot,cn-all-remaining-0781-0439c6a6
+源码仓库,2/2,《星港边境》0.9.7-rc3 候选版本回归验收与上线判定,提供可执行游戏构建包待测试非网页,,cn-all-remaining-0787-0db6f033
+源码仓库,2/2,袋装粉料称重复检与气动剔除站 PLC 队列顺控改造及 FAT 验收,PLC结构化文本程序为固件源码,,cn-all-remaining-0811-4a734aff
+源码仓库,2/2,Unity 资源预提交审计与 CI 批处理工具开发,"Unity工程压缩包,资源+代码待检查",Unity,cn-all-remaining-0832-b6b0d79c
+源码仓库,2/2,竞技游戏帧同步回滚一致性修复与回放验收,C++帧同步引擎源码树待修复,,cn-all-remaining-0839-052f9164
+源码仓库,2/2,Godot 动态二维空间哈希宽相模块替换与确定性回归,Godot引擎GDScript项目源码树,,cn-all-remaining-0843-ae260afc
+源码仓库,3/3,Quest 3仓储安全培训应用交互流程修复、回放一致性与72Hz性能验收,Unity工程源码压缩包，待修复代码,,cn-all-remaining-0849-2d0b8edc
+源码仓库,3/3,UE5 多人投射物对象池与网络复制性能优化,UE5 Source-only C++工程压缩包,ArenaNetPerf_Baseline_SourceOnly.zip,cn-all-remaining-0854-dffd1f7e
+源码仓库,2/3,跨服竞技赛季结算、排行榜归并与幂等奖励发放,实现Go结算服务代码工程,,cn-all-remaining-0866-1d892fee
+源码仓库,2/3,    跨平台游戏资产预检与构建门禁工具开发    ,资产扫描表+Android/Windows构建日志，CI产物,,cn-all-remaining-0886-0f1b7dc8
+源码仓库,2/2,ONT光模块测试仪表4路25G SerDes链路训练与故障恢复设计,FPGA/Verilog工程存根与仿真回归,,cn-all-remaining-0905-fd596c6a
+源码仓库,2/2,工业物联网采集网关 2.4.0 消息一致性与断网恢复回归测试,给定网关2.4.0源码用于回归测试,,cn-all-remaining-0906-233fff17
+源码仓库,2/2,电商促销结算引擎V3.2回归测试、金额守恒与发布门禁核验,"候选实现py文件不可修改,回归测试仓",,cn-all-remaining-0927-18815878
+源码仓库,2/2,构建 Python tzdata 2026.2 至 2026.3 TZif 迁移与供应链审计产品,输入是tzdata wheel/sdist包裸文件,tzdata,cn-all-remaining-1093-6cb23e67
+源码仓库,2/2,PAC 加药撬双泵 PLC 联锁、轮换与 FAT 交付,PLCopenXML/ST源码属固件工程压缩包,,cn-all-remaining-1135-06287ec9
+源码仓库,2/2,构建 Kubernetes 1.29→1.32 OpenAPI schema 与 metrics-server 依赖迁移门禁,无GUI的集群组件，manifest与API schema,metrics-server,cn-all-remaining-1172-be243fd3
+源码仓库,2/2,PostgreSQL 14 至 17 与 Debian 集群升级兼容迁移审计,postgresql-common为Debian源码仓库debian目录,postgresql-common,cn-all-remaining-1186-bab0b07d
+源码仓库,2/2,IANA tzdata 2026b to 2026c semantic entity migration audit,原文点名tzdata，IANA发布页仅版本包下载无检索界面,tzdata,cn-all-remaining-1227-8e526987
+源码仓库,2/2,Mozilla NSS 与 Chromium 根证书库信任、约束及跨签名治理审计,NSS/Chromium 源码仓库纯文本文件，无图形界面,Mozilla NSS,cn-all-remaining-1250-4aa7de13
+工程仿真与科学计算,3/3,基于机器学习势函数与 VASPKIT 能量-应变法的晶体材料弹性模量计算项目开发,POSCAR用于VASPKIT弹性模量计算,,cn-all-remaining-0011-972a6a8b
+工程仿真与科学计算,2/3,绿氨合成的热力学平衡分析与操作窗口优化,热力学与逸度关联式为过程模拟数据,,cn-all-remaining-0016-0cee6d6b
+工程仿真与科学计算,3/3,基于 ASE 与机器学习势函数统一接口的 B16W4 晶体结构全弛豫项目开发,POSCAR为VASP晶体结构弛豫输入,VASP,cn-all-remaining-0022-a7309437
+工程仿真与科学计算,2/2,基于 Phonopy 有限位移法与机器学习势函数的 B16W4 晶体声子谱计算项目开发,输入为VASP POSCAR，做DFT衍生声子计算,VASP,cn-all-remaining-0023-c6ea8ded
+工程仿真与科学计算,2/2,基于准谐近似、Phonopy 与机器学习势函数的晶体热膨胀系数及体积温度曲线计算项目开发,VASP结构文件驱动QHA/声子计算,VASP,cn-all-remaining-0024-337ba4e9
+工程仿真与科学计算,2/2,基于 Phono3py 与机器学习势函数的 B16W4 晶格热导率计算项目开发,VASP结构驱动Phono3py晶格热导率计算,VASP,cn-all-remaining-0026-729327ea
+工程仿真与科学计算,3/3,明挖基坑有无加固工况数值模拟分析,"有限元基坑加固仿真,属工程数值仿真",,cn-all-remaining-0038-0e6dcacf
+工程仿真与科学计算,3/3,PBPK/CYP3A4药物相互作用风险评估,"PBPK/DDI方程建模,属科学计算",,cn-all-remaining-0050-80528855
+工程仿真与科学计算,2/2,面向凝聚态物理结构预测后处理的 AIRSS ​cryan -v​ 加权距离谱描述符复现,复现AIRSS结构搜索分析工具cryan,,cn-all-remaining-0082-9d63781f
+工程仿真与科学计算,2/2,固态离子输运冻结骨架势能面网格采样程序复现,复现离子输运PES网格采样科学计算,,cn-all-remaining-0083-33708ca2
+工程仿真与科学计算,2/2,固态离子迁移 level map 与最小渗流能拓扑求解器复现,复现势能面拓扑势垒图搜索算法,,cn-all-remaining-0084-e75d9c48
+工程仿真与科学计算,2/2,固态离子导体 PES fingerprint 自由体积与 Xi 描述符程序复现,复现PES描述符自由体积Xi计算程序,,cn-all-remaining-0085-0e8a8102
+工程仿真与科学计算,2/2,面向超硬材料筛选的 VASPKIT 弹性应变与维氏硬度评估程序实现,VASPKIT弹性应变硬度计算科学工程,,cn-all-remaining-0086-8ee22d44
+工程仿真与科学计算,2/2,基于 D3REAM 思路的 BCN 超硬材料维氏硬度逆向设计程序,VASPKIT计算目录生成、超硬材料DFT代理性质，属材料科学计算,,cn-all-remaining-0087-92e43f22
+工程仿真与科学计算,2/2,面向计算材料物理的 MEGNet 晶体图转换与巨图批处理复现,pymatgen晶体结构图转换，MEGNet材料机器学习管线,,cn-all-remaining-0100-af640a96
+工程仿真与科学计算,2/2,面向计算材料物理的 MEGNet 图网络层与 Set2Set 读出复现,MEGNet图网络层复现，依赖任务1晶体图张量输入,,cn-all-remaining-0101-a74eea92
+工程仿真与科学计算,2/2,面向计算材料物理的 MEGNetModel 训练、预测与序列化复现,MEGNet模型训练管线，基于晶体结构派生图数据,,cn-all-remaining-0102-7061cb48
+工程仿真与科学计算,2/2,基于 MatterSim与D3REAM 的 BCNO 超硬材料维氏硬度逆向设计程序,"生成VASPKIT应变工作目录,无GUI",,cn-all-remaining-0104-ae919772
+工程仿真与科学计算,2/2,基于 MACE 势函数集成的碳超硬材料维氏硬度逆向设计程序,"生成VASPKIT应变工作目录,无GUI",,cn-all-remaining-0105-5db0f5ee
+工程仿真与科学计算,2/2,基于 MACE 势函数集成的高体模量碳材料逆向设计程序,"生成VASPKIT应变工作目录,无GUI",,cn-all-remaining-0106-e68c357a
+工程仿真与科学计算,2/2,基于 MACE 势函数集成的高剪切模量碳材料逆向设计程序,"生成VASPKIT应变工作目录,无GUI",,cn-all-remaining-0107-1b8e5538
+工程仿真与科学计算,2/2,基于 MACE 势函数集成的高杨氏模量碳材料逆向设计程序,"生成VASPKIT应变工作目录,无GUI",,cn-all-remaining-0108-bf384f35
+工程仿真与科学计算,2/2,M3GNet 周期晶体图与三体索引构建模块复现,"POSCAR是VASP输入文件,无网页",VASP,cn-all-remaining-0110-9c074cb8
+工程仿真与科学计算,2/2,垂直 DAS 微震震源入射路径校正,速度模型生成的合成DAS波形与数值计算notebook,,cn-all-remaining-0190-3c8f53db
+工程仿真与科学计算,2/2,三维 Voronoi 晶界应力模型制作,COMSOL .mph模型文件，需真实求解，非网页数据,,cn-all-remaining-0202-e9714142
+工程仿真与科学计算,3/3,B16W4 晶体有限温度体积响应与热膨胀计算工作流开发,VASP POSCAR第一性原理计算文件,VASP,cn-all-remaining-0231-5620634f
+工程仿真与科学计算,3/3,明挖基坑有无加固工况数值模拟分析,EFC2025有限元基坑数值模拟分析,,cn-all-remaining-0235-b31d2b3b
+工程仿真与科学计算,3/3,二维钙钛矿太阳能电池模拟,COMSOL电学模型仿真求解,,cn-all-remaining-0238-ec8b0623
+工程仿真与科学计算,3/3,二维von Kármán随机介质下的单次散射到时、角度权重与参数敏感性建模,"纯代码生成随机场,无外部数据源",,cn-all-remaining-0246-df9e58bb
+工程仿真与科学计算,3/3,二维单次散射coda-P差时几何、等时椭圆与距离非唯一性验证,"代码内生成散射体,无外部数据",,cn-all-remaining-0247-3a150457
+工程仿真与科学计算,3/3,圆柱绕流模拟,"COMSOL瞬态CFD模型文件,mph工程文件",,cn-all-remaining-0295-f02f928e
+工程仿真与科学计算,3/3,IEEE 118 母线 N-1 安全筛查与补救调度,PGLib case文件用MATPOWER做AC OPF仿真,PGLib-OPF,cn-all-remaining-0301-1a02a327
+工程仿真与科学计算,2/2,耳机收纳盒上盖注塑模具图纸放行前工程一致性审计,Moldflow注塑仿真+DWG/DXF工程图纸,Moldflow,cn-all-remaining-0317-8020fa01
+工程仿真与科学计算,2/2,近海工程支持船吊装工况完整稳性、纵倾与压载方案核验,静水力表/KN曲线为船舶稳性专用软件产物,,cn-all-remaining-0327-64d6e8a2
+工程仿真与科学计算,2/2,DAS 光纤监测系统配置多准则性能评估与选型决策,DAS物理正演与TOPSIS隐藏测试计算任务,,cn-all-remaining-0337-bafa6160
+工程仿真与科学计算,3/3,扳手的应力应变,COMSOL Multiphysics有限元结构力学建模,,cn-all-remaining-0347-e95a3726
+工程仿真与科学计算,3/3,基于 MACE-C 代理预测的高杨氏模量碳材料逆向设计与 VASPKIT 弹性应变任务生成,MACE代理模型+VASPKIT弹性应变计算材料设计,,cn-all-remaining-0350-ea7a2f54
+工程仿真与科学计算,3/3,基于 MACE-C 代理预测的高剪切模量碳材料逆向设计与 VASPKIT 弹性应变任务生成,MACE代理模型+VASPKIT弹性应变计算材料设计,,cn-all-remaining-0353-faf97d9d
+工程仿真与科学计算,3/3,3D 地形水力侵蚀模拟与四叉树 LOD 网格生成,水力/热力侵蚀粒子法地形模拟合成DEM,,cn-all-remaining-0363-4545ec79
+工程仿真与科学计算,2/2,基于 D3REAM 与三模型 MACE 保守估计的 BCN 低能量高密度高维氏硬度多目标逆向设计,D3REAM源码快照+MACE模型权重驱动的材料仿真项目,,cn-all-remaining-0366-96678dde
+工程仿真与科学计算,2/2,碳相维氏硬度代理候选筛选与 VASPKIT 弹性任务生成,MACE-C权重预测值+VASPKIT弹性任务目录生成,MACE-C,cn-all-remaining-0367-7a386953
+工程仿真与科学计算,2/2,审计 NH3/Si 几何优化输入的完整性,CP2K第一性原理GEO_OPT输入文件审计,,cn-all-remaining-0454-9372c08f
+工程仿真与科学计算,2/2,评估 NH3/Si 几何优化和 SCF 收敛,CP2K几何优化/SCF收敛日志解析,CP2K,cn-all-remaining-0455-f664e844
+工程仿真与科学计算,2/2,量化 NH3 在 Si 表面的吸附几何演化,CP2K优化轨迹XYZ逐帧几何分析,CP2K,cn-all-remaining-0456-20aab82a
+工程仿真与科学计算,2/2,审计 Cu/a-SiO2 双温模型输入和依赖,LAMMPS双温模型输入链与依赖审计,,cn-all-remaining-0458-9f20b0d5
+工程仿真与科学计算,2/2,分析 Cu/a-SiO2 晶格稳态温度剖面,LAMMPS晶格温度输出剖面统计分析,,cn-all-remaining-0459-8e14ff87
+工程仿真与科学计算,2/2,审计 Cu/a-SiO2 双温计算的运行稳定性,LAMMPS日志/thermo文本，命令行无网页,LAMMPS,cn-all-remaining-0460-5d875d31
+工程仿真与科学计算,2/2,计算左侧界面的积分谱热导,LAMMPS谱热导(SHC)原始输出文本,,cn-all-remaining-0461-49aebc48
+工程仿真与科学计算,2/2,审计粗糙界面左右谱热导的能流一致性,LAMMPS左右界面谱热导，MD原始输出,,cn-all-remaining-0462-529c73fd
+工程仿真与科学计算,2/2,审计粗糙界面谱热流工程的可复现性,审计LAMMPS工程文件契约，命令行工具,,cn-all-remaining-0463-a8720d2c
+工程仿真与科学计算,2/2,核对 MaMiCo 配置与实际输出覆盖范围,MaMiCo XML配置与耦合日志，无GUI,MaMiCo,cn-all-remaining-0464-f11fcc5a
+工程仿真与科学计算,2/2,评估 MD 与 LBM 温度的耦合收敛,MaMiCo MD-LBM耦合日志文本,,cn-all-remaining-0465-6561609b
+工程仿真与科学计算,2/2,审计 MD–LBM 耦合热流的单位换算,MaMiCo耦合热流日志，命令行输出,,cn-all-remaining-0466-f1cc6fdb
+工程仿真与科学计算,2/2,标准化 GaN/金刚石 NEMD 温度历史,LAMMPS温度分块文本temp2.txt,,cn-all-remaining-0467-53eeb5e8
+工程仿真与科学计算,2/2,计算 GaN/金刚石界面的稳态温降,LAMMPS界面温降分析，MD原始数据,,cn-all-remaining-0468-f15a443c
+工程仿真与科学计算,2/2,双变量同步性组合三角热力图,气候同步性模拟数据xlsx，无仓库线索,,cn-all-remaining-0471-0d77c114
+工程仿真与科学计算,2/2,多源水面波干涉反演,水面波传播公式数值反演,,cn-all-remaining-0486-21dd301a
+工程仿真与科学计算,2/2,载流折线路径磁场计算、圆环收敛与协变审计,Biot-Savart磁场数值计算与收敛,,cn-all-remaining-0487-ea176e74
+工程仿真与科学计算,2/2,变介电二维静电边界值求解与等势线拓扑审计,变介电Laplace/Poisson边值求解,,cn-all-remaining-0488-efcb609a
+工程仿真与科学计算,2/2,任意载流路径三维磁场计算、拓扑异常与矢量协变验证,三维Biot-Savart路径积分数值场计算程序,,cn-all-remaining-0529-c2ec96cc
+工程仿真与科学计算,2/2,C遗留二维声波有限差分核的边界安全迁移、checkpoint与色散审计,C遗留声波FD数值核迁移，色散边界仿真核心,,cn-all-remaining-0564-0ebc10e7
+工程仿真与科学计算,2/2,MOF MatterSim 弹性常数矩阵与体模量 benchmark 验证,checkpoint+POSCAR+DFT张量计算,,cn-all-remaining-0654-3faaf48b
+工程仿真与科学计算,2/2,MOF MatterSim E-V 曲线与体模量拟合 benchmark 验证,MatterSim势函数E-V曲线计算,,cn-all-remaining-0655-46597c07
+工程仿真与科学计算,2/2,MOF MatterSim 势函数热容与自由能 benchmark 验证,势函数声子热容自由能计算,,cn-all-remaining-0656-39075a94
+工程仿真与科学计算,2/2,面向审稿回复的超硬碳材料弹性张量、VRH 模量与硬度证据复核,VASPKIT应变+ELASTIC_TENSOR原始数据,VASP,cn-all-remaining-0658-a24a0d9e
+工程仿真与科学计算,2/2,低速主机推进轴系扭振计算、海试阻尼标定与禁区校核,集中质量扭振建模与海试标定,,cn-all-remaining-0732-1bcf585e
+工程仿真与科学计算,2/2,理想化中纬度锋生过程动力诊断与强迫峰值识别,理想化数值模式格点场诊断,,cn-all-remaining-0771-fa562c12
+工程仿真与科学计算,2/2,WRF 强降水个例双方案模式检验与敏感性评估,原文点名WRF数值模式输出,WRF,cn-all-remaining-0773-95cfc75e
+工程仿真与科学计算,2/2,基于官方 MACE 势函数的匿名 MOF 结构 CPU-NVT 轨迹复现与审计,MACE势ASE分子动力学模拟,,cn-all-remaining-0774-0738fe73
+工程仿真与科学计算,2/2,MACE-ML-IAP 水分子动力学 Kokkos 能力探测与后端等价性验收,LAMMPS分子动力学模拟输出,,cn-all-remaining-0775-b2fdc7cf
+工程仿真与科学计算,2/2,基于 MACE-LAMMPS 水轨迹的 O-H 径向分布函数与结构统计,LAMMPS轨迹RDF结构分析,,cn-all-remaining-0776-fdff78f7
+工程仿真与科学计算,2/2,某装备制造园区 110 kV 电网夏大方式潮流校核与 N-1 无功优化,电网规划计算库导出的潮流模型,,cn-all-remaining-0903-fe643cd1
+工程仿真与科学计算,3/3,渤海潮汐潮流数值模拟：从真实水深/岸线数据到调和分析与情景诊断,Fortran浅水方程潮汐数值模拟,,cn-all-remaining-0961-cea1fcda
+工程仿真与科学计算,3/3,复核 Amber 罐区正丁烷球罐综合强度与支承稳定性,球罐强度计算书PDF，逐步工程计算链,,cn-all-remaining-0989-f5bd3548
+工程仿真与科学计算,2/2,硅晶片激光加热,COMSOL 有限元晶片激光加热瞬态仿真模型,,cn-all-remaining-1260-accd9250
+台架与产线采集,2/2,app_performance_test,Profiler/Instruments单机调试采集的性能trace,,cn-all-remaining-0199-7d1d6e95
+台架与产线采集,3/3,800V纯电SUV动力电池液冷热管理工况评估与冷却能力校核 ,整车道路/快充试验台架数据与设备地图,,cn-all-remaining-0266-117b85a6
+台架与产线采集,2/2,DAS 脉冲响应与应变灵敏度标定,点名Silixa iDAS等DAS采集仪控制软件,Silixa iDAS,cn-all-remaining-0335-2dca6689
+台架与产线采集,2/2,800V动力电池液冷系统台架数据质量、热平衡故障与控制策略放行评估,电池液冷台架10秒级多通道采集时序数据,,cn-all-remaining-0402-aa42dfd5
+台架与产线采集,2/2,四机并联工业冷却水泵站变频改造的水力标定、电气容量、控制仿真、可靠性与全寿命周期优化,泵性能试验台架与SCADA多通道运行采集,,cn-all-remaining-0424-4587bf87
+台架与产线采集,3/3,低轨遥感卫星多传感器姿轨融合、地理定位与发布准入,"多通道遥测融合,系台架式采集",,cn-all-remaining-0681-fa021dc7
+台架与产线采集,3/3,星载多传感器姿态重建、成像审计与动量卸载计划复核,"多源遥测轮组,系台架式多通道采集",,cn-all-remaining-0685-86a96752
+台架与产线采集,3/3,散热风扇加速寿命、任务剖面与现场可靠性联合评审及量产放行判定,多温度台架ALT截尾寿命试验原始数据,,cn-all-remaining-0694-7620d864
+台架与产线采集,3/3,仓储AMR异步轮速—IMU—激光定位融合、退化诊断与自动化验收,轮速IMU激光机器人日志多通道回放,,cn-all-remaining-0700-bdfb5774
+台架与产线采集,3/3,55 nm CMOS 接触孔刻蚀—预清洗—钨塞联调工艺窗口评估,晶圆产线DOE多点量测电性数据,,cn-all-remaining-0717-003ac8fe
+台架与产线采集,3/3,100G QSFP28 CWDM4 光模块全温 Tx/Rx 标定、功耗热裕量与量产放行审计,光模块台架全温Tx/Rx扫描测试数据,,cn-all-remaining-0718-fb968eb0
+台架与产线采集,2/2,400G FR4 光模块接收灵敏度、温漂与通道一致性分析,光模块产线BERT/OPM原始测试日志,,cn-all-remaining-0719-1fbf1939
+台架与产线采集,2/2,800G DR8 有源耦合站 Z 轴回差诊断与工艺能力恢复,FA耦合站设备原始cycle日志,,cn-all-remaining-0720-a00e9ad3
+台架与产线采集,2/2,2500 m³高炉季度燃料比、碳平衡与炉况异常复盘,高炉产线台账与煤气分析原始数据,,cn-all-remaining-0738-e74fd102
+台架与产线采集,2/2,纯电动乘用车高温爬坡工况动力电池冷却性能评估与标定建议,环境舱转鼓三轮CAN多路日志为台架采集数据,,cn-all-remaining-0743-9002d3ff
+台架与产线采集,2/2,双交换机 MLAG 接入下服务器 LACP、VLAN 与巨帧故障回归定位,原文点名iperf3/pcap为多设备联调原始导出,iperf3,cn-all-remaining-0753-fd173b01
+台架与产线采集,2/2,既有办公楼能耗基线、冷站运行诊断与绿色改造投资评估,BMS15分钟多通道设备时序数据,,cn-all-remaining-0778-f1829de6
+台架与产线采集,2/2,高速装盒线伺服定位、节拍稳定性与安全联锁联合验收及量产投运判定,产线定位节拍安全联锁实测数据,,cn-all-remaining-0810-1f45cadd
+台架与产线采集,2/2,100 kW光伏逆变器低电压穿越、谐波与孤岛保护联合评审及量产并网判定,LVRT/谐波/孤岛台架多通道原始测试记录,,cn-all-remaining-0816-3ff8f800
+台架与产线采集,2/2,运载火箭整流罩跨声速气动载荷重构与设计工况筛选,风洞测压台架多通道原始测试数据,,cn-all-remaining-0820-6c8dfd98
+台架与产线采集,2/2,24V工业控制板电源与RS-485接口失效整改及验证闭环,控制板台架调试记录+现场失效单,,cn-all-remaining-0834-0d96f3e7
+台架与产线采集,3/3,锁车后静态电流超标与车身 CAN 周期唤醒根因定位,整车锁车台架电流与CAN多通道采集,,cn-all-remaining-0855-40b6e2a2
+台架与产线采集,3/3,纯电样车下电后12V静态电流异常诊断与休眠策略验证,三组静态电流台架实测原始记录,,cn-all-remaining-0857-668003aa
+台架与产线采集,3/3,铝冷板瞬态热模型参数标定、独立验证与网格收敛评估,台架加热冷却试验热电偶原始曲线,,cn-all-remaining-0876-98bfb7b0
+台架与产线采集,3/3,PCBA回流焊炉温工艺窗口与缺陷联动优化,回流焊炉热电偶多通道台架曲线,,cn-all-remaining-0888-f1a44e1d
+台架与产线采集,3/3,伺服升降模组节拍验证与运动参数定型,伺服升降模组2ms采样台架日志,,cn-all-remaining-0889-c1ffba9c
+台架与产线采集,3/3,夹套反应釜温度串级回路辨识、PI整定与抗扰验证,阀位阶跃闭环趋势为工艺台架数据,,cn-all-remaining-0891-489fba3c
+台架与产线采集,2/2,AMR更换驱动轮后的运动学参数联合标定与上线验证,激光跟踪仪与编码器原始标定轨迹数据,,cn-all-remaining-0892-1688f407
+台架与产线采集,2/2,HX-201板式换热器温控回路辨识、PI整定与闭环验证,现场手动阶跃试验历史趋势原始数据,,cn-all-remaining-0895-94c9bd94
+台架与产线采集,2/2,高速机器视觉检测系统镜头MTF、畸变、景深与缺陷检出联合验收及量产上线判定,镜头相机产线联合验收多通道采集数据,,cn-all-remaining-0914-bc4975d4
+台架与产线采集,2/2,小型涡扇发动机稳态性能、瞬态响应、振动、滑油燃油与耐久保护联合地面验收及飞行验证准入判定,发动机台架稳态瞬态振动采集数据,,cn-all-remaining-0915-15619241
+台架与产线采集,2/2,水性丙烯酸树脂连续聚合中试线物料衡算、移热能力、产品质量与安全联锁联合评审及万吨级工艺放大判定,中试线连续物料流温压产线采集,,cn-all-remaining-0917-498f7e66
+台架与产线采集,2/2,协作机器人码垛工作站TCP位姿、3D视觉、节拍良率、安全功能与故障恢复联合验收及量产投运判定,协作机器人工作站TCP视觉产线验收采集,,cn-all-remaining-0919-ae74f23e
+台架与产线采集,2/2,纯电动乘用车制动能量回收、热衰退、ABS稳定性与制动线控故障降级联合验证及SOP放行判定,整车制动系统八车联合验证台架数据,,cn-all-remaining-0925-0b3469e8
+台架与产线采集,2/2,直流充电桩CAN报文解析、充电会话状态机与故障追溯,充电桩CAN报文单设备调试原始数据,,cn-all-remaining-0926-04473aa5
+台架与产线采集,3/3,协作机器人关节RV减速器加速寿命、B10可靠性与DVT放行审计,试验台加速寿命遥测，无检索界面,,cn-all-remaining-0932-1d6d259d
+台架与产线采集,3/3,精密阀芯外径量具R&R、SPC异常追溯与批次放行复核,量具R&R与产线抽检记录，无网页,,cn-all-remaining-0933-8ea9ae7d
+台架与产线采集,3/3,动力电池模组汇流排激光焊接量测系统、DOE配方与PPAP量产冻结审计,焊接产线在线遥测数据，产线采集,,cn-all-remaining-0935-68660327
+台架与产线采集,3/3,车载DC/DC电源模块双应力加速寿命、竞争失效建模与量产可靠性放行复核,试验箱双应力寿命遥测，无界面,,cn-all-remaining-0936-aa42df06
+台架与产线采集,3/3,滚动轴承振动诊断与剥落尺寸定量,12测点振动加速度多通道采集数据，256000点/测点,,cn-all-remaining-0962-bdcaeabc
+台架与产线采集,2/2,低轨遥感卫星高仰角过境测控链路短时失锁复盘、帧连续性审计与稳定性放行核验,RF/伺服/帧/测距多通道过境原始日志,,cn-all-remaining-1110-b3ea4f84
+台架与产线采集,2/2,低轨遥感卫星多站日弧测量方法缺陷审计、时频/标校异常复核与交班放行核验,多站多通道测控原始测量日志,,cn-all-remaining-1111-780b1ffb
+台架与产线采集,2/2,77 GHz FMCW雷达多通道标定、二维CFAR检测与多帧航迹封版复核,雷达台架ADC原始I/Q采集回放,,cn-all-remaining-1114-47bd2c78
+台架与产线采集,2/2,南美白对虾夜间增氧与投喂联动试验数据复核、区组校正分析与60 m³中试放行,缸-日DO/水质10min传感器原始日志,,cn-all-remaining-1117-12938668
+台架与产线采集,2/2,超导量子处理器Q3–Q4 CZ门维护后复校、旧版方法审计与短期放行核验,CZ扫描/RB/Ramsey台架原始扫描数据,,cn-all-remaining-1120-e886576e
+台架与产线采集,2/2,HSM TRNG固件采样路径变更的健康测试重放、基线回归与封板评审,调试抽头原始采样与遥测捕获,,cn-all-remaining-1124-dd6054d2
+台架与产线采集,2/2,区域自动气象站分钟观测质量复核、主备切换与业务发布准入,自动站多通道分钟采集与主备切换回放,,cn-all-remaining-1127-eb1513b4
+台架与产线采集,2/2,PMSM 编码器电角度零位标定,单电机调试alignment步进时序,,cn-all-remaining-1211-7e853800
+台架与产线采集,2/2,双向工业水下螺旋桨推力跟踪控制器,propeller_bench.csv为单台设备验收台架阶跃记录,,cn-all-remaining-1230-fa4539ed
+台架与产线采集,2/2,基于实船回转试验的艏向跟踪舵控器,turning_trials.csv为实船回转试验台架记录,,cn-all-remaining-1233-9818d7c6
+台架与产线采集,2/2,双推进器船舶推力与功率约束分配控制器,twin_prop_trials.csv为推进器系泊台架试验记录,,cn-all-remaining-1234-3392f4a4
+台架与产线采集,2/2,高速滑行艇纵横姿态协同控制器,ride_trials.csv为截流板海试阶跃台架记录,,cn-all-remaining-1235-dfe1264e
+台架与产线采集,2/2,船用柴油机负载扰动转速调速器,engine_trials.csv为柴油机台架燃油负载阶跃记录,,cn-all-remaining-1236-bfcba6a3
+台架与产线采集,2/2,船舶横向压载调驳横倾控制器,ballast_trials.csv为压载调驳台架试验记录,,cn-all-remaining-1240-c95aca35
+台架与产线采集,2/2,低速船舶三自由度动力定位控制器,dp_pulse_trials.csv为动力定位脉冲台架试验记录,,cn-all-remaining-1241-8a1b94a2
+台架与产线采集,2/2,新装工业离心风机静压与失速裕度控制器,风机现场调试阶跃时序，单台设备调试记录,,cn-all-remaining-1244-cd3d21b5
+台架与产线采集,2/2,半潜船吃水与纵倾协同压载控制器,压载泵阶跃调试记录，单机现场调试时序,,cn-all-remaining-1258-6624551d
+台架与产线采集,2/2,水下作业吊放主动升沉补偿控制器,绞车湿式调试阶跃时序，单机现场调试记录,,cn-all-remaining-1261-86ef2e29
+台架与产线采集,2/2,工业液压缸负载自适应位置控制器,液压缸阀阶跃调试时序，单机现场调试记录,,cn-all-remaining-1267-415f2c64
+台架与产线采集,2/2,工业圆柱尾流旋转抑振控制器,圆柱尾流旋转调试时序，单机现场调试记录,,cn-all-remaining-1269-3e275392
+台架与产线采集,2/2,变频泵长输管道末端压力控制器,管道变频泵阶跃调试时序，单机现场调试记录,,cn-all-remaining-1270-b6f5237b
+台架与产线采集,2/2,工业直流母线储能稳压控制器,单台变流器调试阶跃时序，无检索网站,,cn-all-remaining-1271-bd70ed77
+台架与产线采集,2/2,工业巡检机器鱼速度与航向协同控制器,单台机器鱼调试阶跃时序，无网站可依,,cn-all-remaining-1272-b8bf9c6d
+台架与产线采集,2/2,工业蒸汽换热器出口温度控制器,单台换热器阀位调试阶跃时序,,cn-all-remaining-1276-03751279
+台架与产线采集,2/2,工业卷对卷收卷张力控制器,单台收卷机力矩调试阶跃时序,,cn-all-remaining-1278-c90c6dfb
+台架与产线采集,2/2,工业桥式起重机小车定位与载荷防摇控制器,单台起重机速度指令调试时序,,cn-all-remaining-1280-cc53ddd2
+台架与产线采集,2/2,工业冷轧机出口厚度与张力协同控制器,单台轧机阶跃调试厚度张力时序,,cn-all-remaining-1281-ccaf70df
+台架与产线采集,2/2,工业中和槽非线性 pH 控制器,单台中和槽加药调试阶跃时序,,cn-all-remaining-1283-b96cb1bf
+台架与产线采集,2/2,工业蒸汽锅炉汽包水位三元素控制器,单台锅炉给水阀调试阶跃时序,,cn-all-remaining-1285-7b8649af
+台架与产线采集,2/2,工业伺服压装接触过渡力控制器,单台压机压装调试恒速时序,,cn-all-remaining-1287-6ddf81af
+台架与产线采集,3/3,工业带式输送机皮带跑偏纠偏控制器,"commissioning.csv为单设备调试阶跃时序,非网站",,cn-all-remaining-1288-f8d5abf9
+台架与产线采集,3/3,工业曝气池溶解氧节能控制器,"commissioning.csv为单设备调试阶跃时序,非网站",,cn-all-remaining-1291-6c263615
+台架与产线采集,3/3,工业连续谷物干燥机出口水分控制器,"commissioning.csv为单设备调试阶跃时序,非网站",,cn-all-remaining-1293-6c724b43
+台架与产线采集,3/3,工业制冷蒸发器过热度控制器,"commissioning.csv为单设备调试阶跃时序,非网站",,cn-all-remaining-1294-55ac6de2
+台架与产线采集,3/3,工业燃气加热炉烟气氧量控制器,"commissioning.csv为单设备调试阶跃时序,非网站",,cn-all-remaining-1295-13356b7a
+CAD/EDA 桌面工程文件,2/3,优购女鞋 · 小程序PRD,墨刀桌面工程文件非可浏览网页,,cn-all-remaining-0001-786f6572
+CAD/EDA 桌面工程文件,3/3,AR眼动追踪VGA传感器微型镜头规格书设计项目,镜头规格书为CAD机械工程图纸,,cn-all-remaining-0003-753d9f01
+CAD/EDA 桌面工程文件,2/3,丽江某房地产项目前期方案策划与分析,红线卫星图用于CAD建筑方案设计,,cn-all-remaining-0018-920bd0dc
+CAD/EDA 桌面工程文件,3/3,球罐设计文件校审与图纸修正,DXF图纸与压力容器计算书,,cn-all-remaining-0045-5cf73d18
+CAD/EDA 桌面工程文件,3/3,球罐管口方位布置图绘制,管口方位DXF布置图绘制任务,,cn-all-remaining-0049-81912daf
+CAD/EDA 桌面工程文件,2/2,面向物理学家的晶体结构三维可视化与配位环境分析 GUI 工具开发,CIF/POSCAR结构文件属于桌面工程文件类,,cn-all-remaining-0055-5f8881ce
+CAD/EDA 桌面工程文件,2/2,二维平面连杆机构参数化设计与运动学仿真 GUI 工具开发,机构参数化建模属于CAD类工程设计文件,,cn-all-remaining-0057-9784d630
+CAD/EDA 桌面工程文件,2/2,园区道路竣工图缺失横断面与土方表补全,DXF横断面图与土方表是CAD图纸文件,,cn-all-remaining-0077-add9ca23
+CAD/EDA 桌面工程文件,2/2,园区道路纵断设计成果恢复与逐桩高程复核,DXF纵断面设计图是CAD工程图纸,,cn-all-remaining-0078-cda23730
+CAD/EDA 桌面工程文件,2/2,现场组焊焊接接头编号布置图与检测、硬度部位图,球罐焊接布置图为DXF设备图纸,,cn-all-remaining-0080-d714b92f
+CAD/EDA 桌面工程文件,2/2,人形机器人一体化线性执行器（反转式行星滚柱丝杠构型）结构设计与多物理场校核任务,需交付三维CAD装配与轴承选型模型,,cn-all-remaining-0113-7d680a14
+CAD/EDA 桌面工程文件,2/2,竣工图册结构化重构与受控出图,竣工DXF图纸页级重构出图，桌面CAD文件,,cn-all-remaining-0123-656e26a4
+CAD/EDA 桌面工程文件,2/2,城市次干路交通安全设施设计与出图,交通标志标线DXF+FreeCAD工程源文件设计,,cn-all-remaining-0124-30d49720
+CAD/EDA 桌面工程文件,2/2,球罐附属平台盘梯钢结构专项设计,球罐平台钢结构专项DXF图纸与工程图册,,cn-all-remaining-0125-86fa09c7
+CAD/EDA 桌面工程文件,2/2,交通标志标线图表一致性整改,交通标志标线DXF一致性整改，桌面CAD成果,,cn-all-remaining-0128-db79712b
+CAD/EDA 桌面工程文件,2/2,两处交叉口渠化施工图及车道拓扑重建,交叉口渠化施工图DXF与车道拓扑CAD文件,,cn-all-remaining-0129-cfec2dd0
+CAD/EDA 桌面工程文件,2/2,交通标志版面及支撑结构详图重建,交通标志结构详图DXF重建，桌面CAD成果,,cn-all-remaining-0130-7dc96439
+CAD/EDA 桌面工程文件,2/2,四处交叉口交通信号设施布置及设备清单补全,"DXF竣工图,设备块图层与属性编辑",,cn-all-remaining-0177-eaac0e4d
+CAD/EDA 桌面工程文件,2/2,四处交叉口交通信号管线网络及电缆清册重建,"DXF管线平面图+断面详图,块属性",,cn-all-remaining-0178-56bf88f1
+CAD/EDA 桌面工程文件,2/2,市政道路多专业综合冲突检查与消解,"道路BIM台账xlsx,跨专业几何坐标协调",,cn-all-remaining-0180-5430cc08
+CAD/EDA 桌面工程文件,2/2,四区段雨水管网平面及构筑物属性重建,"DXF雨水管网平面图,构筑物块属性",,cn-all-remaining-0181-49c052bc
+CAD/EDA 桌面工程文件,2/2,六区段雨水管线纵断面补绘及水力复核,"DXF纵断面图,井线管段可编辑矢量",,cn-all-remaining-0184-f035325a
+CAD/EDA 桌面工程文件,2/2,照明竣工图运维接管索引图、台账及复核报告编制,"DXF竣工索引图,新增图层块属性",,cn-all-remaining-0185-e54d6ed7
+CAD/EDA 桌面工程文件,2/2,球罐基础荷载及地脚螺栓设计条件图,DXF基础条件图+正式设计PDF图样,,cn-all-remaining-0186-e7bbf411
+CAD/EDA 桌面工程文件,2/2,综合管线交叉会审标记及问题闭环,输入为DXF会审底图和管线交叉复核图纸,,cn-all-remaining-0187-605dc08a
+CAD/EDA 桌面工程文件,2/2,球罐基础条件图与荷载提资,输出为DXF/PDF基础条件图及强度计算书,,cn-all-remaining-0188-42909212
+CAD/EDA 桌面工程文件,2/2,水泵机械零部件正向设计与轴承全工况寿命校核综合任务,输入为泵体STEP/DWG零件图与装配示意图,,cn-all-remaining-0195-5825e6c9
+CAD/EDA 桌面工程文件,2/2,新能源汽车电机轴机加工工艺规格书,交付为机加工工艺CAD图纸与形位公差标注PDF,,cn-all-remaining-0197-3096cac7
+CAD/EDA 桌面工程文件,2/2,AI 玩具主控板硬件开发,KiCad原理图/PCB工程文件与Gerber制造资料,,cn-all-remaining-0200-7d3bbee1
+CAD/EDA 桌面工程文件,2/2,硬件积木主控板硬件开发,基于KiCad初始工程文件完成原理图与PCB布线,,cn-all-remaining-0201-aa7b482c
+CAD/EDA 桌面工程文件,2/2,MIDI 到专业五线谱制谱,MuseScore专有工程文件.mscz，桌面制谱软件产物,,cn-all-remaining-0205-56a2c514
+CAD/EDA 桌面工程文件,2/2,AI 玩具主控板硬件开发,KiCad原理图/PCB Layout/Gerber等EDA工程文件,,cn-all-remaining-0215-7ece7df7
+CAD/EDA 桌面工程文件,3/3,商品房组合销售额上限及变化趋势测试,dwg红线图AutoCAD建筑设计文件,,cn-all-remaining-0225-67c5083f
+CAD/EDA 桌面工程文件,3/3,4500 m3/d造纸废水处理工艺计算、二沉池口径纠正与CAD一致性审计,8张DXF工程图纸与CAD成果审计,,cn-all-remaining-0229-ee451ace
+CAD/EDA 桌面工程文件,3/3,水泵机械零部件正向设计与轴承全工况寿命校核综合任务,水泵STEP/dwg三维装配设计文件,,cn-all-remaining-0233-716f6fd9
+CAD/EDA 桌面工程文件,3/3,山地园区道路纵断面拉坡设计与土石方工程费优化,道路纵断面拉坡属专业道路设计,,cn-all-remaining-0256-f2187348
+CAD/EDA 桌面工程文件,2/2,某工业园道路照明竣工图模型空间独立分图与单页归档包编制,竣工图纸DXF模型空间图元文件,,cn-all-remaining-0343-6e312f2e
+CAD/EDA 桌面工程文件,3/3,BrickCore PCBA 原理图与 Layout 设计工程,KiCad原理图与PCB Layout工程文件,,cn-all-remaining-0360-312accf1
+CAD/EDA 桌面工程文件,2/2,球罐罐区无损检测与热处理资源配置及工期优化,球壳排板图与焊缝接头清单等工程图纸表格,,cn-all-remaining-0370-135929fe
+CAD/EDA 桌面工程文件,2/2,PAC 加药撬双泵 PLC 联锁、轮换与 FAT 交付,CODESYS PLC工程项目源文件,CODESYS,cn-all-remaining-0396-47ba439c
+CAD/EDA 桌面工程文件,2/2,三层社区卫生服务中心建筑方案功能、疏散与无障碍比选放行评估,房间门窗网络数据来自建筑方案CAD/BIM模型,,cn-all-remaining-0404-b99d77e5
+CAD/EDA 桌面工程文件,2/2,某工业园道路照明工程量、回路分组与逐灯追溯核验包编制,竣工DXF图纸材料表，桌面CAD文件,,cn-all-remaining-0469-86e80d53
+CAD/EDA 桌面工程文件,3/3,海棠智造园A3栋首层共享服务中心建筑方案深化与校审闭环,"DXF现状测绘图纸,系CAD工程文件",,cn-all-remaining-0673-e23ff9b3
+CAD/EDA 桌面工程文件,3/3,2F施工图模型机电综合碰撞复核与BCF问题闭环,IFC建筑结构机电模型碰撞数据,,cn-all-remaining-0698-b3bfdb3e
+CAD/EDA 桌面工程文件,2/2,城市建筑物底图配准更新、变化核查与质量评估,正射影像+建筑底图矢量工程数据,,cn-all-remaining-0722-53715935
+CAD/EDA 桌面工程文件,2/2,清河商务中心A座3—5层租赁面积复核及BIM空间属性回写,IFC BIM模型只读解析回写,,cn-all-remaining-0727-906c12e1
+CAD/EDA 桌面工程文件,2/2,16S动力电池CMU采样从板RevA问题定位与RevB硬件ECO整改验证,原文点名KiCad工程为EDA桌面设计文件,KiCad,cn-all-remaining-0752-efc39390
+CAD/EDA 桌面工程文件,2/2,办公楼租赁改造密集档案柜楼板及次梁结构复核,脱敏结构平面BIM式工程数据,,cn-all-remaining-0783-2131962d
+CAD/EDA 桌面工程文件,2/2,包装输送线主动滚筒轴提速后的强度、疲劳、挠度与轴承寿命复核,含可编辑DXF轴轮廓为CAD工程文件,,cn-all-remaining-0800-810be4f7
+CAD/EDA 桌面工程文件,2/2,园区中路道路工程量清单整理,道路工程量清单来自DXF图纸,,cn-all-remaining-0803-b381ca33
+CAD/EDA 桌面工程文件,2/2,租赁住房竣工 BIM 模型房源与物业资产交付核验,IFC4 BIM模型属CAD工程文件,,cn-all-remaining-0807-116749fd
+CAD/EDA 桌面工程文件,2/2,512Wh 户外电源外观改款、CMF 定版与 DVT 试产评审交付,冻结OBJ核心+3D外壳CAD设计交付件,,cn-all-remaining-0818-8c722c79
+CAD/EDA 桌面工程文件,3/3,商业办公楼租赁面积复核与BIM空间台账更新,以IFC模型IfcSpace为唯一面积基线,,cn-all-remaining-0861-b190cb70
+CAD/EDA 桌面工程文件,2/2,R15雨水图纸集页组清点与文字空间索引,R15 DXF工程图纸复核与标注,,cn-all-remaining-0907-ebabf865
+CAD/EDA 桌面工程文件,3/3,东港科创中心A座 IFC 模型属性、净高与碰撞联合审查,IFC建筑结构机电模型，BIM工程文件,,cn-all-remaining-0963-6a4b01d0
+CAD/EDA 桌面工程文件,3/3,交通设施运维总图与分区图编制,道路A交通竣工DXF图纸文件,,cn-all-remaining-0964-1196f166
+CAD/EDA 桌面工程文件,3/3,交通信号管线与手孔井专项运维图编制,道路A交通竣工DXF图纸文件,,cn-all-remaining-0990-ce20c74a
+CAD/EDA 桌面工程文件,3/3,球罐球壳分带排板设计与下料出图,交付排板下料dxf图，桌面CAD工程文件,,cn-all-remaining-1000-78619d1a
+CAD/EDA 桌面工程文件,2/2,球壳板订货规格与下料排板、样板编制,输入是球罐设计图转DXF下料图纸,,cn-all-remaining-1087-0475891c
+CAD/EDA 桌面工程文件,2/2,球罐本体水压、气密试验及沉降监测布置图,输入是球罐设计图转DXF试验图纸,,cn-all-remaining-1088-31bcc26f
+CAD/EDA 桌面工程文件,2/2,现场组焊与无损检测布置图编制,输入是球罐设计图转DXF焊缝图纸,,cn-all-remaining-1089-4ff6887d
+实验室仪器原始导出,2/2,样品结构鉴定（NMR）,一维二维NMR谱数据（HSQC/COSY/HMBC）,,cn-all-remaining-0029-e2d81865
+实验室仪器原始导出,2/2,多批次药物处理转录组数据的批次效应评估与差异表达判定,"无命名仓库线索,裸给counts矩阵与设计表",,cn-all-remaining-0179-4e71f3aa
+实验室仪器原始导出,2/2,粉末衍射数据的从头晶胞测定,"XRD粉末衍射pattern.xy,单样品原始谱图",,cn-all-remaining-0182-84d4da65
+实验室仪器原始导出,2/2,实测井下DAS小波互谱时延测量与沿光纤视相速度稳定性评估,"井下DAS现场原始应变率HDF5记录,单次采集",,cn-all-remaining-0192-dd5aeb8b
+实验室仪器原始导出,2/2,专业文献绘图,单细胞差异表达裸表格，无任何仓库线索,,cn-all-remaining-0217-fbf764f2
+实验室仪器原始导出,3/3,CuS/Cu-ZIF纳米材料多模态表征数据处理与可复现结果报告,DLS/UV-vis/FTIR仪器原始导出数据,Origin,cn-all-remaining-0232-d62432a4
+实验室仪器原始导出,2/3,CYP3A4 抑制活性的定量结构-活性关系建模,"内部批次IC50测定,无命名仓库",,cn-all-remaining-0248-45095616
+实验室仪器原始导出,2/2,红树林沉积物多模态响应证据矩阵与复验排程审计,FT-ICR MS只输出分类比例表无下载界面,FT-ICR MS,cn-all-remaining-0316-980114f4
+实验室仪器原始导出,2/2,锆石U-Pb筛选敏感性、Lu-Hf采用年龄冲突与点位联结的可复验审计,U-Pb/Lu-Hf质谱测量与CL电镜图像,,cn-all-remaining-0319-56b726ce
+实验室仪器原始导出,2/2,离子色谱批次原始数据复核、定量报告重建与质控放行判定,逐针离子色谱CSV为仪器原始导出读数,,cn-all-remaining-0329-17bc3a39
+实验室仪器原始导出,2/2,鲜切苹果抗褐变处理中试数据分析、货架期估计与方案筛选,中试质构色差等原始检测记录仪器读数,,cn-all-remaining-0332-f8e4da12
+实验室仪器原始导出,2/2,镍基高温合金金相检验与平均晶粒度评定,背散射电镜采集金相视场原始灰度图像,,cn-all-remaining-0341-e33f98f7
+实验室仪器原始导出,3/3,用EIS评估金属材料电化学性能,input-1.xls为EIS仪器一次测量原始读数,,cn-all-remaining-0359-ab661e58
+实验室仪器原始导出,2/2,微藻温度×盐度双因子实验数据质控、生长动力学与可复现统计复核,OD750/Fv0/Fm荧光仪单次实验原始读数导出,,cn-all-remaining-0401-c65c75e3
+实验室仪器原始导出,2/2,新能源汽车电机端盖轴承座孔径量具R&R、SPC过程能力与量产放行审计,量具R&R与SPC子组为单次量具测量读数,,cn-all-remaining-0416-655ce14e
+实验室仪器原始导出,2/2,氮磷添加对淡水藻类生长影响的微宇宙实验数据质控、统计分析与可复现研究报告,荧光仪叶绿素a标曲与水质原始导出记录,,cn-all-remaining-0418-1fa412f3
+实验室仪器原始导出,2/2,岸桥主梁多工况强度、疲劳与应变监测一致性复核,应变传感器校准台账与原始日志单次采集,,cn-all-remaining-0426-e25051a2
+实验室仪器原始导出,2/2,单缝衍射缝宽测量,单次夫琅禾费衍射实验的噪声剖面数据,,cn-all-remaining-0513-987196c7
+实验室仪器原始导出,2/2,单波长等厚干涉膜厚级次反演与可辨识性评估,单波长干涉条纹实测剖面数据,,cn-all-remaining-0514-6eab7459
+实验室仪器原始导出,2/2,有限正弦振幅光栅复场反演与积分衍射效率评估,光栅远场角谱实测剖面数据,,cn-all-remaining-0530-22ffde1c
+实验室仪器原始导出,2/2,等倾干涉光学厚度反演、板厚锚定与参数可辨识性分析,等倾干涉径向剖面实测数据,,cn-all-remaining-0531-c5738f5e
+实验室仪器原始导出,3/3,二手住宅交易前房屋查验、风险分级与修缮费用评估,现场仪器测量与取证图册原始记录,,cn-all-remaining-0707-03195156
+实验室仪器原始导出,2/2,冬小麦氮肥梯度田间试验数据质控、产量响应与经济最优施氮量评估,田间多仪器原始试验数据,,cn-all-remaining-0730-2aca8f51
+实验室仪器原始导出,2/2,低渗透注水井压力降落试井解释与安全配注评价,井底压力计原始降落记录,,cn-all-remaining-0733-c5b0a731
+实验室仪器原始导出,2/2,7075铝合金回归再时效工艺窗口复核与批次分析,拉伸/硬度/电导率原始文件基线包,Al7075_RRA_screening_baseline,cn-all-remaining-0734-f1d1dd31
+实验室仪器原始导出,2/2,FA/Cs混合阳离子钙钛矿PEAI表面钝化浓度筛选与器件稳定性联合评估,XRD/PL/UV-vis/JV仪器原始导出,,cn-all-remaining-0736-5ce861a1
+实验室仪器原始导出,2/2,六轴机器人眼在手相机手眼标定与独立位姿一致性验证,机器人控制器与视觉程序导出的逐组位姿观测,,cn-all-remaining-0747-81c258a4
+实验室仪器原始导出,2/2,市政道路路基顶面竣工测量复核与整修工程量核算,全站仪竣工测量观测点为仪器原始导出,,cn-all-remaining-0751-fa613e93
+实验室仪器原始导出,2/2,三批次ELISA原始板读数质控、四参数曲线定量与配对效应分析,三块ELISA板酶标仪吸光度为仪器原始导出,,cn-all-remaining-0756-5e1f03fb
+实验室仪器原始导出,2/2,800G 光模块 DSP 至线性驱动器 112 GBd PAM4 发射链路 SI 收敛,去嵌VNA与TDR台架实测原始数据,,cn-all-remaining-0762-91e5328c
+实验室仪器原始导出,2/2,1310 nm EML TOSA 激光耦合光路容差与 Monitor PD 标定复核,远场/对准/MPD扫描仪器原始数据,,cn-all-remaining-0766-6df02367
+实验室仪器原始导出,2/2,食品微生物96孔板生长曲线质控与动力学参数复核,酶标仪96孔板OD原始吸光度读数,,cn-all-remaining-0842-da7b283c
+实验室仪器原始导出,2/3,两试验点春玉米氮肥梯度试验统计分析与经济施氮量评估,脱敏田间试验原始档案，非网站导出,,cn-all-remaining-0844-35269475
+实验室仪器原始导出,3/3,口服小分子先导化合物体外 DMPK 数据质控、参数拟合与候选排序,CRO平台导出的原始检测明细表,,cn-all-remaining-0848-b2f6165d
+实验室仪器原始导出,3/3,六轴工业机器人关节零偏、TCP 与基坐标联合标定,激光跟踪仪6D位姿类全站仪原始导出,,cn-all-remaining-0890-2a6e214f
+实验室仪器原始导出,2/2,两试验点冬小麦氮肥梯度试验质控、产量响应与推荐施氮量评估,田间称量与土壤植株化验原始记录,,cn-all-remaining-0897-a4cd1207
+实验室仪器原始导出,2/2,SiOx-石墨负极水系粘结剂循环与EIS联合下选,电池测试仪与EIS谱仪原始导出,,cn-all-remaining-0900-f7fd3143
+实验室仪器原始导出,2/2,800G OSFP 光模块 DSP 热路径标定与上壳均温结构优化,热箱试验原始数据与结构模型文件,,cn-all-remaining-0904-5aa796df
+实验室仪器原始导出,3/3,532 nm 10×激光扩束准直模组批量光束质量验收与装调补偿,焦散/准直扫描原始测量，仪器导出,,cn-all-remaining-0954-bb700950
+实验室仪器原始导出,3/3,产业园道路路基土方复核与竣工断面偏差分析,全站仪断面观测点，仪器原始导出,,cn-all-remaining-0959-a0124dc6
+实验室仪器原始导出,3/3,退役锂离子电芯容量评定与梯次分选,充放电电压电流逐时序，电池测试仪导出,,cn-all-remaining-0996-36bc0e6f
+实验室仪器原始导出,2/2,冬小麦氮肥梯度田间试验数据质控、RCBD统计、经济—环境联合推荐与增效处理复现评估,产量台账+土壤/植株氮原始测定，单次试验记录,,cn-all-remaining-1107-49687a7c
+实验室仪器原始导出,2/2,犊牛呼吸道病原多重qPCR批次质控、样本判定与场群病原谱复核,qPCR仪器原始Cq导出，逐孔读数,,cn-all-remaining-1108-9999aa90
+实验室仪器原始导出,2/2,GH4169 LPBF工艺资格成形板旧版方法审计、多源材料数据复核与批次放行判定,密度/硬度/拉伸/金相仪器原始数据,,cn-all-remaining-1109-f8ee441a
+实验室仪器原始导出,2/2,0–1 MPa智能压力变送器遗留校准工程复核、测量不确定度与批次放行,压力标准器/DMM校准原始读数,,cn-all-remaining-1113-3cca4370
+实验室仪器原始导出,2/2,杉木人工林近自然改造4年永久样地复测、RCBD成效检验与阶段验收复核,样地逐木复测原始测量记录,,cn-all-remaining-1115-3ce39934
+实验室仪器原始导出,2/2,双细胞系小分子联合用药实验的数据质控、剂量效应、协同窗口与候选推进复核,96孔板逐孔发光值原始读数,,cn-all-remaining-1116-e3c0e7a3
+实验室仪器原始导出,2/2,大口黑鲈低鱼粉日粮56天饲喂试验数据复核、可复现统计评价与配方放大判定,桶级生物量与终末组成原始测定,,cn-all-remaining-1118-b4487f83
+实验室仪器原始导出,2/2,低温 Hall 磁输运方法审计、双载流子复核与论文图发布门槛核验,锁相放大器Hall原始V-B读数,,cn-all-remaining-1121-8f9c7f01
+实验室仪器原始导出,2/2,3D瀑布图,波长-振幅数据为光谱仪原始导出,,cn-all-remaining-1139-b42b94fb
+地球物理处理与反演,2/2,垂直 DAS 微震震源入射路径校正,垂直DAS微震波形与走时拾取数据,,cn-all-remaining-0033-aca86d82
+地球物理处理与反演,2/3,二维井间地震首波走时层析成像与异常体恢复,井间地震走时层析成像属测深反演类处理,,cn-all-remaining-0040-333737ca
+地球物理处理与反演,2/2,雪崩 DAS 光缆布设技术评估与试验施工方案,DAS光缆规范PDF与论文，无检索网站,,cn-all-remaining-0065-5018d030
+地球物理处理与反演,2/2,测井数据处理自动化,测井文本格式规范，无独立界面,FORWARD,cn-all-remaining-0066-a535bec7
+地球物理处理与反演,2/2,不同到时差计算方法评估,地震/DAS波形本地文件，无可查询界面,,cn-all-remaining-0067-37577e9e
+地球物理处理与反演,2/2,沿井速度建模算法复现及评估,井下DAS波形拾取估计沿井速度剖面，属地球物理处理数据,,cn-all-remaining-0088-743e1e5d
+地球物理处理与反演,2/2,井下 DAS 波场可视化与 P/S 波拾取交互校核工具,井下DAS微震channel-time原始波场数据，无检索网站,,cn-all-remaining-0118-3dc7cdd7
+地球物理处理与反演,2/2,二维双差定位算法的三维工程化迁移,速度模型/双差走时定位算法迁移，纯计算无界面来源,,cn-all-remaining-0120-b0a2424b
+地球物理处理与反演,2/2,垂直DAS双事件双差到时二维震源定位,ttcrpy走时正演+双差定位反演，非网站数据,,cn-all-remaining-0121-037801b0
+地球物理处理与反演,2/2,地热井连续 DAS 信号特征分析与可靠沿井速度剖面反演,地热井DAS原始应变率波形，无仓库,,cn-all-remaining-0141-b2af36d4
+地球物理处理与反演,3/3,垂直 DAS 微震入射路径校正与跨事件速度一致性评估,"DAS合成波形+速度模型notebook,无检索门户",,cn-all-remaining-0290-e90402a5
+地球物理处理与反演,3/3,井下 DAS 的 DT3 多路径估计与异常诊断,"井下DAS拾取与诊断CSV,无命名检索门户",,cn-all-remaining-0307-0a4a417e
+地球物理处理与反演,2/2,双台面波频散提取与剪切波速度结构反演开发,合成地震图+隐藏真实模型的面波反演,PREM,cn-all-remaining-0338-2beb2471
+地球物理处理与反演,2/2,大地电磁一维反演与等效层分析,合成MT数据一维反演与等效性分析,,cn-all-remaining-0339-08285313
+地球物理处理与反演,2/3,海洋重力异常延拓与断裂识别,私有断层正演合成场，非可查询数据,ETOPO1,cn-all-remaining-0361-cf4b6cfb
+地球物理处理与反演,2/3,微震全矩张量反演与分解,私有矩张量反演，非公开波形数据库,FORGE,cn-all-remaining-0362-01359fb6
+地球物理处理与反演,3/3,地质横剖面自动制图与 FGDC 符号化渲染,合成井测井分层与断层地质剖面建模,,cn-all-remaining-0364-990a106a
+地球物理处理与反演,2/2,DAS 双光纤散射体差分进化反演,DAS光纤几何、走时表、速度模型反演数据,,cn-all-remaining-0380-82b780a6
+地球物理处理与反演,2/2,环境噪声源分布反演,噪声互相关格林函数源分布反演,,cn-all-remaining-0485-3b1847ee
+地球物理处理与反演,2/2,历史 SEG-Y 空值语义取证、Rev1 规范化与逐样点回环验证,历史SEG-Y地震文件取证,,cn-all-remaining-0533-bec00c07
+地球物理处理与反演,2/2,非规则缺道地震重建、防混叠选择与预测不确定性校准,非规则接收几何地震道重建,,cn-all-remaining-0534-85915e5c
+地球物理处理与反演,2/2,时变子波盲估计、稀疏反射联合反演与预测区间校准,叠后剖面时变子波反演,,cn-all-remaining-0535-5d4acc7c
+地球物理处理与反演,2/2,变深度拖缆鬼波参数联合反演、稳定去鬼波与实测陷波审计,拖缆地震压力记录去鬼波,,cn-all-remaining-0536-1532ccc9
+地球物理处理与反演,2/2,多分量极性—方位联合旋转与单调 PP/PS 配准,多分量地震波场配准校正,,cn-all-remaining-0537-da51a5f5
+地球物理处理与反演,2/2,速度模型不确定性下的衍射偏移、聚焦稳定性与模型选择,零偏移剖面衍射偏移成像,,cn-all-remaining-0538-818df7fa
+地球物理处理与反演,2/2,阵列模态分解与传播事件检测,阵列传感器地震信号分解,,cn-all-remaining-0539-93bf92c9
+地球物理处理与反演,2/2,分数时钟校正与双源解混,双源混采地震记录解混,,cn-all-remaining-0540-2410250a
+地球物理处理与反演,2/2,CMP多视图NMO、semblance与选区质量控制工作台,"CMP/NMO/semblance离线处理工作站,非可浏览数据库",,cn-all-remaining-0547-16404817
+地球物理处理与反演,2/2,原始CMP速度谱计算、多拾取与NMO预览实验台,"原始CMP速度谱拾取工作站,PUBLIC_CONTRACT交互合同",,cn-all-remaining-0548-d86866df
+地球物理处理与反演,2/2,多道拖缆深度去鬼波频谱诊断与稳定逆滤波工作台,"拖缆去鬼波频谱逆滤波,道级处理非检索网站",,cn-all-remaining-0549-710f8d1a
+地球物理处理与反演,2/2,偏移速度—孔径聚焦参数沙盒与多指标选择工作台,"偏移速度孔径聚焦参数沙盒,全分辨率成像计算",,cn-all-remaining-0550-b00a2d84
+地球物理处理与反演,2/2,多分量偏振旋转、极性与PP/PS非线性配准检查器,"多分量偏振旋转PP/PS配准,逐道波形重算",,cn-all-remaining-0551-757676d5
+地球物理处理与反演,2/2,地震处理DAG溯源、参数差异与质量风险传播工作台,"地震处理DAG溯源工具,内部处理流程审计非网站",,cn-all-remaining-0552-9ca580f7
+地球物理处理与反演,2/2,AVO截距—梯度WLS、Bootstrap区间与情景不确定性交互分析器,"AVO截距梯度WLS/bootstrap,离线科学计算工作台",,cn-all-remaining-0553-14dfdc04
+地球物理处理与反演,2/2,真实三维地震体结构属性与尺度稳定性审计,"三维地震体结构张量属性计算,全分辨率体数据",,cn-all-remaining-0554-5033ba94
+地球物理处理与反演,2/2,井震时深PCHIP、子波相位与残差闭合交互工作台,井震标定PCHIP时深/子波相位交互工作台,,cn-all-remaining-0555-369c78bc
+地球物理处理与反演,2/2,地震 Q 衰减趋势反演、因果相位闭合与稳定逆 Q 补偿,"逐道Q反演与因果逆Q补偿,处理链非检索页面",,cn-all-remaining-0556-376c3f15
+地球物理处理与反演,2/2,地表相关多次波预测的时变匹配、保护相减与闭合审计,"地表相关多次波时变匹配相减,道集处理程序",,cn-all-remaining-0557-1a82cfc1
+地球物理处理与反演,2/2,VTI 弹性波场 qP/qSV 模态分离、极化协变与边界伪影审计,"VTI弹性波场qP/qSV模态分离,快照级计算",,cn-all-remaining-0558-8ef62de9
+地球物理处理与反演,2/2,稀疏首波走时层析、固定留出验证与分辨率后验分析,"首波走时层析反演,路径矩阵与分辨率审计",,cn-all-remaining-0559-a1c8015d
+地球物理处理与反演,2/2,低秩、稀疏、传播相干与随机残差四分量联合分解,"阵列低秩稀疏相干分解,传感器级信号处理",,cn-all-remaining-0560-00181d52
+地球物理处理与反演,2/2,速度模型推理的独立不确定性校准、OOD风险排序与无缝分块审计,"速度模型推理不确定性校准,分块拼接审计",,cn-all-remaining-0561-45e9cbd1
+地球物理处理与反演,2/2,多测区地震全局极性、分数时移统一与真实差异保护,多测区地震极性/时移统一，属反演处理软件工作,,cn-all-remaining-0562-ed5ba58d
+地球物理处理与反演,2/2,三维地震体正交切片、稳定拾取与解释状态恢复工作台,三维地震体解释工作台，类似Petrel离线复核,,cn-all-remaining-0563-ec4167d9
+地球物理处理与反演,2/2,压力相关裂缝介质双模型贝叶斯联合反演与可辨识性审计,压力实验裂缝介质贝叶斯反演，岩石物理软件,,cn-all-remaining-0565-02890366
+地球物理处理与反演,2/2,非规则阵列CLEAN面波抑制、留出验证与联合停止审计,非规则阵列CLEAN波束成形抑制面波,,cn-all-remaining-0566-a2d8c1d9
+地球物理处理与反演,3/3,双轨InSAR时序形变分解、季节项与断点检测复核,"GeoTIFF形变反演,系地球物理处理",,cn-all-remaining-0675-f0557959
+地球物理处理与反演,3/3,沿海化工园区SBAS-InSAR时序沉降重建、水准验证与工程风险发布核验,InSAR干涉相位反演工程数据,,cn-all-remaining-0939-ab1a6294
+图像与媒体素材,3/3,游戏模型资产贴图过暗渲染修复,贴图与渲染图属像素级图像素材,,cn-all-remaining-0042-7d1cdb25
+图像与媒体素材,2/2,story_to_animation_video,交付物是AI生成的分镜mp4视频素材,,cn-all-remaining-0081-ba5b245c
+图像与媒体素材,2/2,game_daily_task_bot,依赖游戏客户端截图/录屏做界面识别,,cn-all-remaining-0198-6f703aa0
+图像与媒体素材,2/2,super_press,游戏窗口画面截取识别，桌面客户端实时画面,,cn-all-remaining-0203-0a333446
+图像与媒体素材,2/2,AutoLoginPro,本地模拟客户端窗口截图/模板匹配识别登录,,cn-all-remaining-0208-3882716b
+图像与媒体素材,3/3,游戏模型资产贴图过暗渲染修复,贴图渲染前后图像与像素级处理,,cn-all-remaining-0236-9d88defd
+图像与媒体素材,2/2,外科术前二维 CT 交互式分割与规划训练平台开发,模拟/脱敏单张灰度CT切片图像数据,,cn-all-remaining-0377-f420b9d5
+图像与媒体素材,2/2,工业定子检测视频抽帧、标注质检与 YOLO 数据集前处理平台开发,输入是视频抽帧和YOLO标注图片,,cn-all-remaining-0382-1593e06a
+图像与媒体素材,2/2,工业定子 YOLO 训练评估、模型转换与 RGB-D 推理部署流水线开发,推理输入为视频/图片流数据,,cn-all-remaining-0383-e493ff6b
+图像与媒体素材,2/2,跨平台3D游戏渲染回归、Shader覆盖与发布准入自动化评测,GPU捕获PNG需计算PSNR/SSIM像素级指标,,cn-all-remaining-0425-800c9d3c
+图像与媒体素材,3/3,移动端战斗场景动态分辨率时序上采样拖影修复与自动化画质门槛核验,"帧色/深度/运动矢量,系渲染媒体素材",,cn-all-remaining-0678-e0cb5301
+图像与媒体素材,2/2,暴雨诱发滑坡遥感识别、清单编制与危险性分区,灾前灾后正射影像+DEM+外业点为像素级栅格数据,,cn-all-remaining-0739-dbedc17b
+图像与媒体素材,2/2,儿童安全科普短片 v04 分镜粗剪 QC 与 v05 送审修订,粗剪动画mp4与分镜关键帧为影像媒体素材,,cn-all-remaining-0750-1b6458a9
+图像与媒体素材,2/2,历史旅行海报翻拍数字化、校色与双版本交付,藏品翻拍原始照片为影像素材,,cn-all-remaining-0793-797a30ac
+图像与媒体素材,2/2,“风从运河来”城市文创展竖屏动态开幕海报,分层设计素材与音频为媒体素材,,cn-all-remaining-0797-0871a408
+图像与媒体素材,2/2,移动端游戏精灵图集自动裁剪、旋转装箱与像素级重建验证,散图PNG精灵图为游戏媒体素材,,cn-all-remaining-0799-597b1f63
+图像与媒体素材,3/3,Godot 4 场景道具 PBR 纹理规范化、ORM 通道打包与材质库落地,PBR贴图为像素图像素材非网站数据,,cn-all-remaining-0873-b02290d1
+图像与媒体素材,2/2,多时相遥感火烧迹地识别、烧毁强度分级与面积核算,多波段卫星反射率影像栅格数据,,cn-all-remaining-0896-de465666
+图像与媒体素材,2/3,品牌定制微综艺单集 D-1 导演执行包重排与权益落地,影视现场制作脚本，非检索网站数据,,cn-all-remaining-0931-23dd643d
+图像与媒体素材,3/3,香氛新品首发 KV 的 AIGC 多平台版本化适配、交付归档与自动质检,AIGC背景候选与产品透明PNG图像素材,,cn-all-remaining-0985-65cb1fbe
+图像与媒体素材,2/2,PC High Render Graph异步计算、瞬态资源Alias与TAA时域稳定性封板复核,输入是引擎帧捕获与Golden截图,,cn-all-remaining-1106-c492795e
+图像与媒体素材,2/2,晶圆缺陷图谱CNN的lot级验证、概率校准与影子运行准入复核,晶圆32×32缺陷图谱像素级数据,,cn-all-remaining-1122-0e0a5c47
+其他,3/3,3d模型标准化质检,Blender三维网格模型与UV数据,,cn-all-remaining-0227-eea5b2ab
+其他,2/2,办公楼租赁改造密集档案柜楼板及次梁结构复核,结构平面与构件承载力计算书,,cn-all-remaining-0725-cda78393
+其他,2/2,28nm 数字后端多模式多角时序违例归并与低扰动 ECO 规划,STA多角签核报告与ECO候选为EDA工具本地文件,,cn-all-remaining-0742-70f554e3
+其他,2/2,固定综合单价研发楼精装修及机电改造工程竣工结算审核与可复算成果交付,合同清单结算签证为造价软件本地工程文件,,cn-all-remaining-0749-a93ed2fd
+其他,2/2,86型智能新风控制器前面板 ID 冻结、CMF 与丝印规范,工程包络OBJ与ID控制图为工业设计工程文件,,cn-all-remaining-0755-7e078c66
+其他,2/2,DDR4-3200 x16 写通道裕量、布线规则与原理图一致性签核,原理图网表布线报告工程文件,,cn-all-remaining-0764-70abef1f
+其他,2/2,五口千兆工业交换机 RevA 至 RevB 关键电路复核与工程变更,原理图网表上电波形工程文件,,cn-all-remaining-0769-81e1937e
+其他,2/2,24 V 工业控制器电源板 Rev.A 失效复盘与 Rev.B ECO,原理图网表BOM为EDA工程文件,,cn-all-remaining-0785-b7c2ca13
+其他,3/3,城镇关卡静态网格 Meshlet 构建、边界锥生成与回归验证,网格顶点三角形为三维几何模型文件,,cn-all-remaining-0887-162ec7ac
+HPC 算例输出,2/3,UE5跨平台性能基线复盘、版本效果验证与两轮优化排期,性能测试逐帧日志无可查询界面,,cn-all-remaining-0878-190be40d
+HPC 算例输出,2/3,游戏服务端版本容量基线、回归定位与开服扩容决策研究,压测逐分钟日志无可查询界面,,cn-all-remaining-0884-99d8b353
+HPC 算例输出,2/3,竞技场战果回调幂等补账与赛季积分对账,结算回调JSONL日志无查询界面,,cn-all-remaining-0885-9354b4d1
+HPC 算例输出,3/3,跨平台实时渲染器帧时间、画质、着色器、显存、时间域稳定性与崩溃恢复联合验收及版本发布判定,渲染引擎测试日志，无查询界面,,cn-all-remaining-0944-1ca3a5c9
+HPC 算例输出,2/2,凌星候选 CAND-017.01 三扇区光变复核、v1 方法审计与后续观测申请放行,光变复算与v1.6历史工程日志，无检索界面,,cn-all-remaining-1125-9f6e42af

@@ -64,6 +64,10 @@
    "family": "其他",
    "ui": "零散不成组的记录形态",
    "n": 2
+  },
+  {
+   "family": "数据集/资料仓库详情页",
+   "ui": "仓库检索页→数据集列表(按领域/任务类型/规模/许可筛选)→数据集详情页(说明、变量表、许可、引用、版本、文件清单)→下载。单实体、无跨表，重点在元数据而不是记录行"
   }
  ],
  "assign": {
@@ -3471,6 +3475,1140 @@
     "详情展开",
     "导出"
    ]
+  },
+  "cn-all-remaining-0004-4cdb03e3": {
+   "family": null,
+   "votes": "3/3",
+   "records": "住建部政策文件库/国家标准全文公开系统",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0009-3a0514d6": {
+   "family": null,
+   "votes": "3/3",
+   "records": "上市公司信息披露平台(巨潮资讯网/SEC EDGAR)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0017-e3ac6e4a": {
+   "family": null,
+   "votes": "3/3",
+   "records": "Severstal Steel Defect Detection (Kaggle)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0030-349ac3ae": {
+   "family": null,
+   "votes": "3/3",
+   "records": "Geofabrik",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0035-880f8bef": {
+   "family": null,
+   "votes": "3/3",
+   "records": "国家法规数据库/IMDG规则门户",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0044-cf1dd46c": {
+   "family": "工单/缺陷/客服/审批跟踪",
+   "votes": "2/3",
+   "records": "国家标准/法规政策公开检索平台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0064-f465db7b": {
+   "family": null,
+   "votes": "3/3",
+   "records": "OTTO Recommender Systems Dataset (GitHub/Kaggle)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0068-c81cc32b": {
+   "family": null,
+   "votes": "3/3",
+   "records": "UCI ML Repository (Adult Census Income)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0071-37996442": {
+   "family": null,
+   "votes": "3/3",
+   "records": "GitHub/Kaggle (OTTO Recsys Dataset)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0073-452b7fbc": {
+   "family": null,
+   "votes": "3/3",
+   "records": "UCI Machine Learning Repository",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0074-d8d19fe8": {
+   "family": null,
+   "votes": "3/3",
+   "records": "NASA Open Data Portal (data.nasa.gov)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0075-d8b42022": {
+   "family": null,
+   "votes": "3/3",
+   "records": "HuggingFace Datasets",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0076-9295b271": {
+   "family": null,
+   "votes": "3/3",
+   "records": "figshare",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0079-687957c7": {
+   "family": null,
+   "votes": "3/3",
+   "records": "UNSW-NB15 (研究机构/GitHub镜像)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0089-ab3b3a3c": {
+   "family": "批次-样品-检验/QC记录(LIMS/MES)",
+   "votes": "2/3",
+   "records": "MES/QMS 质量管理系统",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0103-2b1a2190": {
+   "family": null,
+   "votes": "3/3",
+   "records": "QM9 (Quantum Machine分子数据集)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0114-a85885be": {
+   "family": null,
+   "votes": "3/3",
+   "records": "艾瑞咨询/头豹研究院等行业报告库及电商评价平台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0119-59547d3b": {
+   "family": null,
+   "votes": "3/3",
+   "records": "Utah FORGE GDR",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0122-af317fbc": {
+   "family": null,
+   "votes": "3/3",
+   "records": "Utah FORGE GDR",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0132-a04b6dbd": {
+   "family": null,
+   "votes": "3/3",
+   "records": "UCI Machine Learning Repository",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0133-f7460d93": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "UCI ML Repository（Pen-Based Recognition of Handwritten Digits）",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0134-cd25fa80": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "UCI ML Repository（Electrical Grid Stability Simulated Data）",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0136-025708d5": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "MNIST（LeCun/Cortes 官方数据集页）",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0138-69bd676c": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "UCI ML Repository（Covertype）",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0139-9b7aa92c": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "UCI ML Repository（Bank Marketing）",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0142-0a9b052b": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "Open Power System Data",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0143-17a50046": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "Fashion-MNIST（Zalando Research）",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0144-a17cd5ce": {
+   "family": "单表统计/观测数据下载门户",
+   "votes": "规则",
+   "records": "USGS 科学数据发布页（Data Series 901）",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0146-83026528": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "UCI ML Repository（Superconductivity Data）",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0148-25afc0d0": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "MIDAS GNSS速度产品（UNR Geodetic Laboratory）",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0149-4942e976": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "UCI Machine Learning Repository",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0151-f7249cf5": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "IRIS/FDSN",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0152-263ab951": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "UCI Machine Learning Repository",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0155-15cf16ab": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "地质调查数据仓库(如USGS航磁测线库)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0156-d5cf6958": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "NOAA NDBC DART",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0158-341df0ea": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "IRIS/FDSN(通用地震台网数据中心)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0159-fc7402fc": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "UCI ML Repository (Adult Census)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0161-5575a6fd": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "Fashion-MNIST (Zalando Research)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0164-ac08314c": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "California Housing (StatLib/sklearn镜像)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0167-883d33da": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "MNIST (OpenML mnist_784)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0168-382cfa9c": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "AG News",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0169-866f3425": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "Cora citation network (PyG/LINQS托管)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0171-e39ad0aa": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "NASA C-MAPSS (GitHub镜像)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0173-475052f5": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "UCI Bike Sharing Dataset",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0174-9d91f75b": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "CWRU Bearing Data Center",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0175-d4ad3f28": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "UCI Steel Plates Faults",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0176-d6d67203": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "UCI Concrete Compressive Strength",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0194-b11424c0": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "2/3",
+   "records": "IRIS/FDSN",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0206-ba9d1d88": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "NCBI GEO",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0210-a492a1f7": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "SKAB GitHub仓库",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0211-8626b54a": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "UCI Machine Learning Repository",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0212-294e3740": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "Open Power System Data",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0213-58019df6": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "HAI Security Dataset GitHub仓库",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0226-3fc6271b": {
+   "family": "可检索档案库+详情页",
+   "votes": "规则",
+   "records": "CPIC(Clinical Pharmacogenetics Implementation Consortium)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0230-7ad23258": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "Level-4 SST卫星产品数据中心(如NOAA/CMEMS)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0237-8fc39a86": {
+   "family": "可检索档案库+详情页",
+   "votes": "规则",
+   "records": "国务院政策文件库/全国标准信息公共服务平台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0240-6c615bee": {
+   "family": "可检索档案库+详情页",
+   "votes": "规则",
+   "records": "国家法律法规数据库/IMO IMDG规则数据库",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0242-be25547c": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "Utah FORGE/OpenEI",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0243-885c2ff8": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "2/3",
+   "records": "IRIS/NCEDC",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0245-a6640871": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "2/3",
+   "records": "IRIS/SCEDC(Anza台网)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0250-dd5e6757": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "GitHub benedekrozemberczki/datasets",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0251-9c900545": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "Open Power System Data",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0252-36566ef7": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "UCI Wine Quality",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0254-6e32e684": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "UCI Metro Interstate Traffic Volume",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0255-b2e13f01": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "IGS",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0265-ae028604": {
+   "family": "单表统计/观测数据下载门户",
+   "votes": "规则",
+   "records": "人社部统计资料/上市公司年报披露平台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0269-78ef8a58": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "UCI Machine Learning Repository",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0271-7788ccc0": {
+   "family": "工单/缺陷/客服/审批跟踪",
+   "votes": "3/3",
+   "records": "手游战斗数值/自动化测试配置后台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0272-eaf429b6": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "German Breast Cancer Study Group 2 (GBSG2)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0273-cd6dd51a": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "Open Power System Data (time_series)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0274-baf882d4": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "Open Power System Data (time_series)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0275-5e80942a": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "UCI Machine Learning Repository",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0277-aba735f6": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "SKAB (GitHub)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0282-dc05cea5": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "SNAP (Twitch Gamers Social Network)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0297-075420d6": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "TCGA/GDC Data Portal",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0303-a8e1cff9": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "2/3",
+   "records": "WG.WCA13台网数据中心",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0304-cbead67f": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "2/3",
+   "records": "WG.WCA13台网数据中心",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0305-ea897654": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "2/3",
+   "records": "WG.WCA13台网数据中心",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0306-324b959e": {
+   "family": "主体档案+关联事件时间线",
+   "votes": "1/3",
+   "records": "Utah FORGE GDR",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0308-1be316f2": {
+   "family": "设备/资产台账+维护记录",
+   "votes": "1/3",
+   "records": "Utah FORGE GDR",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0315-288a70d1": {
+   "family": "单表统计/观测数据下载门户",
+   "votes": "3/3",
+   "records": "公开高通量反应产率数据集(Buchwald-Hartwig HTE)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0320-d8bc55d2": {
+   "family": "地区×年份统计矩阵",
+   "votes": "3/3",
+   "records": "耕地质量评价数据平台(农业农村/自然资源系统)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0321-d05903ab": {
+   "family": "单表统计/观测数据下载门户",
+   "votes": "3/3",
+   "records": "信贷评分卡模型风险管理平台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0324-4be0ddcf": {
+   "family": "招聘/公告类列表",
+   "votes": "2/3",
+   "records": "医药行业招聘平台/人才库",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0325-eb2f0968": {
+   "family": "企业运营台账(CRM/合同/采购/项目/库存)",
+   "votes": "3/3",
+   "records": "工程项目管理平台(如Primavera/广联达)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0326-9882d4ca": {
+   "family": "工单/缺陷/客服/审批跟踪",
+   "votes": "2/3",
+   "records": "游戏战斗自动化测试/结算后台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0333-8f712f0a": {
+   "family": null,
+   "votes": "2/3",
+   "records": "DAVID/Metascape/KOBAS等基因功能富集分析网站",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0345-a6224347": {
+   "family": "主体档案+关联事件时间线",
+   "votes": "2/3",
+   "records": "UCI Machine Learning Repository",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0354-08d6b573": {
+   "family": "单表统计/观测数据下载门户",
+   "votes": "2/3",
+   "records": "CWRU Bearing Data Center",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0399-6ddf0530": {
+   "family": "订单/交易/支付/退款/物流流水",
+   "votes": "3/3",
+   "records": "游戏运营/GM账本后台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0403-f1abed95": {
+   "family": "批次-样品-检验/QC记录(LIMS/MES)",
+   "votes": "1/3",
+   "records": "游戏服务端GM/运营管理后台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0409-6a7bb0d1": {
+   "family": "设备/资产台账+维护记录",
+   "votes": "3/3",
+   "records": "阿里云IoT/AWS IoT Core类设备管理后台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0422-d68716cc": {
+   "family": "订单/交易/支付/退款/物流流水",
+   "votes": "3/3",
+   "records": "游戏服务端GM/运营管理后台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0473-afcf860c": {
+   "family": "单表统计/观测数据下载门户",
+   "votes": "2/3",
+   "records": "UCI Machine Learning Repository",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0474-6ffc068e": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "学术基准数据集仓库(如DaISy)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0475-6cd46667": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "UCI Machine Learning Repository",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0476-fb434d54": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "SKAB (GitHub数据集仓库)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0478-c21c6715": {
+   "family": "单表统计/观测数据下载门户",
+   "votes": "2/3",
+   "records": "UCI/OpenML Steel Plates Faults",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0479-abb9f7a8": {
+   "family": "单表统计/观测数据下载门户",
+   "votes": "2/3",
+   "records": "UCI Human Activity Recognition",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0629-ce075e67": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "MTA GTFS (New York City Transit 官方 feed)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0640-8ed4408f": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "NHC (National Hurricane Center) 风暴档案",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0641-e0995661": {
+   "family": "可检索档案库+详情页",
+   "votes": "2/3",
+   "records": "NOAA ENC Product Catalog / ENC Direct",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0645-206c5b2d": {
+   "family": "可检索档案库+详情页",
+   "votes": "2/3",
+   "records": "NOAA ENC Direct (按图幅编号下载页)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0671-060dc9bc": {
+   "family": "主体档案+关联事件时间线",
+   "votes": "3/3",
+   "records": "类Brightwheel/ChildPlus早教观察记录系统",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0672-1ff18f83": {
+   "family": "工单/缺陷/客服/审批跟踪",
+   "votes": "2/3",
+   "records": "企业供应商协同SaaS(类SRM审批平台)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0684-33435d87": {
+   "family": null,
+   "votes": "2/3",
+   "records": "报名签到CMS+公众号后台类系统",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0690-eac11bf7": {
+   "family": "主体档案+关联事件时间线",
+   "votes": "3/3",
+   "records": "医院电子病历系统(类Epic HIS/EMR)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0701-49b7d817": {
+   "family": "可检索档案库+详情页",
+   "votes": "2/3",
+   "records": "住建部绿色建筑评价标识备案平台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0706-2999104d": {
+   "family": "可检索档案库+详情页",
+   "votes": "3/3",
+   "records": "国家标准全文公开系统(GB标准库)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0710-717396c6": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "2/3",
+   "records": "游戏数值配置/压测分析后台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0711-c6482f8e": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "2/3",
+   "records": "游戏经济数值配置后台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0713-394ca2bb": {
+   "family": null,
+   "votes": "2/3",
+   "records": "游戏关卡评审/数值配置后台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0721-5993d63c": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "2/3",
+   "records": "Sentinel-2 (Copernicus)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0735-cdbd1b4c": {
+   "family": "单表统计/观测数据下载门户",
+   "votes": "2/3",
+   "records": "地方住建部门公开数据平台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0740-641a9a26": {
+   "family": "可检索档案库+详情页",
+   "votes": "3/3",
+   "records": "国家职业技能标准/智能建造试点城市名录门户",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0744-480b57b9": {
+   "family": "可检索档案库+详情页",
+   "votes": "3/3",
+   "records": "国家职业分类大典/中国证券业协会数据",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0790-ca61bdb0": {
+   "family": "其他",
+   "votes": "1/3",
+   "records": "神策数据/Amplitude类产品分析平台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0796-238e5327": {
+   "family": "企业运营台账(CRM/合同/采购/项目/库存)",
+   "votes": "3/3",
+   "records": "广联达等工程造价招标平台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0825-ce14f4a1": {
+   "family": "主体档案+关联事件时间线",
+   "votes": "3/3",
+   "records": "居家养老服务管理系统(CRM/病例管理类)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0826-269c7767": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "游戏服务端运营后台(战斗日志/结算账本查询)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0838-bb9d337f": {
+   "family": "工单/缺陷/客服/审批跟踪",
+   "votes": "2/3",
+   "records": "企业质量管理系统(QMS)文件控制平台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0840-777d7230": {
+   "family": null,
+   "votes": "2/3",
+   "records": "Matrix Market",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0847-be9888d6": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "番茄多环境试验公开数据集（可追溯原始研究）",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0851-f49f24e5": {
+   "family": "可检索档案库+详情页",
+   "votes": "2/3",
+   "records": "EPA Test Car List Data",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0859-794a0507": {
+   "family": "批次-样品-检验/QC记录(LIMS/MES)",
+   "votes": "3/3",
+   "records": "UCI Machine Learning Repository (SECOM)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0860-94376395": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "2/3",
+   "records": "NASA C-MAPSS (PCoE数据仓库)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0864-82ecf25a": {
+   "family": "企业运营台账(CRM/合同/采购/项目/库存)",
+   "votes": "3/3",
+   "records": "工程造价/合同结算管理平台（通用，如广联达）",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0867-2acdfc1e": {
+   "family": "地区×年份统计矩阵",
+   "votes": "2/3",
+   "records": "NAIC Schedule P (CAS)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0869-a86563df": {
+   "family": null,
+   "votes": "2/3",
+   "records": "Wind/东方财富Choice类金融数据终端",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0880-49ec35b4": {
+   "family": "工单/缺陷/客服/审批跟踪",
+   "votes": "3/3",
+   "records": "类似Burp Suite Enterprise/Qualys WAS漏洞管理平台",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0882-fda27236": {
+   "family": "设备/资产台账+维护记录",
+   "votes": "3/3",
+   "records": "广联达/装配式构件跟踪管理系统类",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0893-6a26dc5f": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "UCI Machine Learning Repository",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0894-d2a9c435": {
+   "family": "数据集/资料仓库详情页",
+   "votes": "规则",
+   "records": "NCBI GEO",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0898-45d332c5": {
+   "family": "批次-样品-检验/QC记录(LIMS/MES)",
+   "votes": "3/3",
+   "records": "Zenodo",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0899-48762d98": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "NOAA GHCN-Daily",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0902-b4e90b75": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "UCI Machine Learning Repository (EEG Eye State)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0940-94b2dc6a": {
+   "family": "可检索档案库+详情页",
+   "votes": "规则",
+   "records": "绿色建筑评价标识申报系统",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0947-03516a1f": {
+   "family": "订单/交易/支付/退款/物流流水",
+   "votes": "2/3",
+   "records": "游戏赛季结算/排行榜与账本系统",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0949-8fa819f1": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "UCI Machine Learning Repository",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0951-95b279fc": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "UCI Beijing Multi-Site Air-Quality Dataset",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0953-9271adc9": {
+   "family": "可检索档案库+详情页",
+   "votes": "规则",
+   "records": "药品注册信息管理系统(RIMS/eQMS)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-0991-aea4e661": {
+   "family": "单表统计/观测数据下载门户",
+   "votes": "3/3",
+   "records": "Figshare/Kaggle等公开反应数据集仓库",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1095-9bcec495": {
+   "family": "可检索档案库+详情页",
+   "votes": "3/3",
+   "records": "USITC HTS关税查询系统",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1096-067138a9": {
+   "family": "批次-样品-检验/QC记录(LIMS/MES)",
+   "votes": "2/3",
+   "records": "MSHA Part 50数据门户",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1098-eff835fa": {
+   "family": "主体档案+关联事件时间线",
+   "votes": "2/3",
+   "records": "IRS/慈善机构信息披露平台(如ProPublica Nonprofit Explorer)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1132-08f39a42": {
+   "family": "企业运营台账(CRM/合同/采购/项目/库存)",
+   "votes": "3/3",
+   "records": "Primavera P6 / Procore 类工程项目管理系统",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1143-0899ebce": {
+   "family": "单表统计/观测数据下载门户",
+   "votes": "2/3",
+   "records": "FFIEC/CFPB HMDA Platform",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1147-7c690611": {
+   "family": "可检索档案库+详情页",
+   "votes": "3/3",
+   "records": "O*NET 数据库",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1148-ddabd7cf": {
+   "family": "主体档案+关联事件时间线",
+   "votes": "1/3",
+   "records": "NYC Planning MapPLUTO",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1150-aa72ec91": {
+   "family": "主体档案+关联事件时间线",
+   "votes": "2/3",
+   "records": "NPS National Register Information System",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1168-082afeef": {
+   "family": "单表统计/观测数据下载门户",
+   "votes": "3/3",
+   "records": "eCFR / GAO年度报告数据库",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1169-9af1b22b": {
+   "family": "可检索档案库+详情页",
+   "votes": "3/3",
+   "records": "Unicode.org UCD 数据文件目录",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1170-a70baa13": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "NOAA NCEI (IGRA)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1171-bc798e9b": {
+   "family": "可检索档案库+详情页",
+   "votes": "3/3",
+   "records": "SPDX License List",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1174-a98c2f1e": {
+   "family": "可检索档案库+详情页",
+   "votes": "3/3",
+   "records": "NGA Open Data (GitHub) / Wikidata",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1179-fcde4aaf": {
+   "family": "可检索档案库+详情页",
+   "votes": "3/3",
+   "records": "DISA Cyber Exchange",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1184-7d57859b": {
+   "family": "可检索档案库+详情页",
+   "votes": "3/3",
+   "records": "AHRQ Quality Indicators (QI) 软件下载页",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1220-8b5989c4": {
+   "family": "设备/资产台账+维护记录",
+   "votes": "3/3",
+   "records": "EIA (U.S. Energy Information Administration)",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1223-b518ccc7": {
+   "family": "时序监测点/日志事件记录",
+   "votes": "3/3",
+   "records": "NOAA IGRA",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1225-9a34fa3d": {
+   "family": "批次-样品-检验/QC记录(LIMS/MES)",
+   "votes": "2/3",
+   "records": "MTA",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1226-dee9d6cd": {
+   "family": "其他",
+   "votes": "1/3",
+   "records": "GitHub",
+   "ops": [],
+   "recovered": true
+  },
+  "cn-all-remaining-1265-1a7bc99d": {
+   "family": "设备/资产台账+维护记录",
+   "votes": "3/3",
+   "records": "FHWA National Tunnel Inventory",
+   "ops": [],
+   "recovered": true
   }
  }
 }
