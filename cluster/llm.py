@@ -27,14 +27,21 @@ def ask(step, tag, prompts, only=None, workers=4, tries=3, model='sonnet'):
     """
     d = f'{RUNS}/{step}/{tag}'
     os.makedirs(d, exist_ok=True)
-    todo = []
+    todo, stale = [], 0
     for i, p in enumerate(prompts):
         src, dst = f'{d}/b{i:03d}.txt', f'{d}/b{i:03d}.json'
+        # 缓存以 prompt 内容为准。只按批次号缓存的话，改了 prompt 也会读回旧回答，
+        # 改动被静默吞掉 —— 这已经骗过我们一次了。
+        if os.path.exists(dst) and os.path.exists(src) and open(src).read() != p:
+            os.remove(dst)
+            stale += 1
         open(src, 'w').write(p)
         if os.path.exists(dst) and _parse(open(dst).read()) is not None:
             continue
         if only is None or i in only:
             todo.append(i)
+    if stale:
+        print(f'{step}/{tag}: prompt 变了，作废 {stale} 批旧回答', flush=True)
 
     def one(i):
         for _ in range(tries):

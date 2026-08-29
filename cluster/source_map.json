@@ -1,0 +1,1661 @@
+{
+"20 Newsgroups": {
+"canonical": "20 Newsgroups",
+"kind": "公开数据集",
+"ui": "数据集详情页：新闻组类别说明（20 个 comp./sci./talk. 等板块）+ 原始邮件文本文件打包下载 + 许可/来源说明",
+"n": 1,
+"slug": null
+},
+"33 CFR Part 117": {
+"canonical": "33 CFR Part 117",
+"kind": "数据门户",
+"ui": "eCFR 网站法规章节页：目录树导航 + 逐条法规正文（Drawbridge Operation Regulations）+ 修订历史链接，可复制/下载文本",
+"n": 1,
+"slug": null
+},
+"Adult Census Income": {
+"canonical": "Adult Census Income",
+"kind": "公开数据集",
+"ui": "UCI 数据集详情页：说明 + 变量表 + 许可信息（CC0）+ 单文件（CSV）下载",
+"n": 2,
+"slug": null
+},
+"AG News": {
+"canonical": "AG News",
+"kind": "公开数据集",
+"ui": "数据集详情页：类别说明（World/Sports/Business/Sci-Tech）+ 样本文本文件（CSV）下载 + 许可信息",
+"n": 1,
+"slug": null
+},
+"AG News Topic Classification": {
+"canonical": "AG News",
+"kind": "公开数据集",
+"ui": "数据集详情页：类别说明（World/Sports/Business/Sci-Tech）+ 样本文本文件（CSV）下载 + 许可信息",
+"n": 1,
+"slug": null
+},
+"AHRQ PSI": {
+"canonical": "AHRQ Patient Safety Indicators (PSI)",
+"kind": "软件产品",
+"ui": "AHRQ 质量指标（QI）软件下载页：版本选择（SAS/WinQI）+ 软件包与代码变更工作簿下载 + 技术文档",
+"n": 1,
+"slug": "healthcare-analytics"
+},
+"AirQualityUCI.csv": {
+"canonical": "Air Quality (UCI)",
+"kind": "公开数据集",
+"ui": "UCI 数据集详情页：说明 + 传感器变量表 + 许可信息 + 单个 CSV 文件下载",
+"n": 1,
+"slug": null
+},
+"Al7075_RRA_screening_baseline": {
+"canonical": "Al7075_RRA_screening_baseline",
+"kind": "其他",
+"ui": "附件试验数据基线包：原始拉伸/硬度/电导率记录文件 + Notebook 分析脚本，无公开界面，以文件形式提供",
+"n": 1,
+"slug": null
+},
+"Alibaba Nacos": {
+"canonical": "Nacos",
+"kind": "软件产品",
+"ui": "Nacos 控制台：命名空间导航 + 配置列表/详情编辑器 + 服务发现列表 + 客户端监听/连接监控面板",
+"n": 3,
+"slug": "service-discovery"
+},
+"Alibaba Open Code Review": {
+"canonical": "Alibaba Open Code Review",
+"kind": "代码仓库",
+"ui": "GitHub 开源项目仓库：源码目录树 + commit/PR 历史 + Issue 列表，通过命令行工具（ocr 命令）操作，无独立图形界面",
+"n": 2,
+"slug": null
+},
+"Anza": {
+"canonical": "Anza Seismic Network",
+"kind": "数据门户",
+"ui": "地震台网数据门户（如 IRIS/SCEDC）：台站代码/事件检索表单 + 连续波形数据下载 + 台站元数据浏览",
+"n": 1,
+"slug": "geology-and-seismic"
+},
+"Apache APISIX": {
+"canonical": "Apache APISIX",
+"kind": "代码仓库",
+"ui": "GitHub 仓库：源码目录树 + commit/PR 历史 + Issue 列表；运行时通过 Admin API 管理网关与插件配置",
+"n": 2,
+"slug": "api-management"
+},
+"Apache Fluss": {
+"canonical": "Apache Fluss",
+"kind": "代码仓库",
+"ui": "GitHub 仓库：源码目录树 + commit/PR 历史 + Issue 列表；运行时以流式存储引擎形式被客户端读写，无独立管理界面",
+"n": 1,
+"slug": "real-time-analytic-database"
+},
+"Apache RocketMQ": {
+"canonical": "Apache RocketMQ",
+"kind": "代码仓库",
+"ui": "GitHub 仓库：源码目录树 + commit/PR 历史 + Issue 列表；运行时通过 Broker 控制台/命令行工具管理 CommitLog 与存储",
+"n": 1,
+"slug": "message-queue-mq"
+},
+"Apache SeaTunnel": {
+"canonical": "Apache SeaTunnel",
+"kind": "代码仓库",
+"ui": "GitHub 仓库：源码目录树 + commit/PR 历史 + Issue 列表；运行时通过作业配置文件（Kafka Sink 等）提交数据同步任务",
+"n": 5,
+"slug": "etl-tools"
+},
+"AQS": {
+"canonical": "EPA Air Quality System (AQS)",
+"kind": "数据门户",
+"ui": "EPA AQS 数据门户：台站/污染物/年份筛选查询表单 + 日汇总数据下载（CSV/API）+ 官方报表页面",
+"n": 1,
+"slug": null
+},
+"ArenaNetPerf_Baseline_SourceOnly.zip": {
+"canonical": "ArenaNetPerf_Baseline_SourceOnly.zip",
+"kind": "其他",
+"ui": "附件 Unreal Engine 项目源码压缩包：工程目录树 + 蓝图/C++ 源文件，通过引擎编辑器打开，无独立公开界面",
+"n": 1,
+"slug": null
+},
+"ATCF": {
+"canonical": "Automated Tropical Cyclone Forecasting System (ATCF)",
+"kind": "数据门户",
+"ui": "NHC/ATCF 数据门户：按风暴编号/年份检索官方预报（forecast）与最佳路径（best-track）文本文件下载",
+"n": 1,
+"slug": "weather-data-software"
+},
+"Bank Marketing": {
+"canonical": "Bank Marketing",
+"kind": "公开数据集",
+"ui": "UCI 数据集详情页：说明 + 变量表 + 许可信息（CC-BY 4.0）+ 单文件（CSV）下载",
+"n": 1,
+"slug": null
+},
+"benedekrozemberczki/datasets": {
+"canonical": "benedekrozemberczki/datasets",
+"kind": "代码仓库",
+"ui": "GitHub 仓库：按项目分类的数据文件目录（图/CSV 数据）+ README 说明 + 许可证，直接文件下载",
+"n": 1,
+"slug": null
+},
+"BLS": {
+"canonical": "Bureau of Labor Statistics (BLS)",
+"kind": "数据门户",
+"ui": "官网统计数据门户：按主题/职业代码检索的表格与图表页面，支持在线查询与批量数据导出(Excel/CSV/API)",
+"n": 3,
+"slug": null
+},
+"BLS Occupational Employment and Wage Statistics": {
+"canonical": "Bureau of Labor Statistics Occupational Employment and Wage Statistics (OEWS)",
+"kind": "公开数据集",
+"ui": "OEWS数据发布页：按行业/职业/地区筛选的薪酬与就业量统计表，提供国家、州、都会区多层级数据文件下载(XLSX/CSV)",
+"n": 1,
+"slug": null
+},
+"BLS Occupational Outlook Handbook": {
+"canonical": "Bureau of Labor Statistics Occupational Outlook Handbook (OOH)",
+"kind": "数据门户",
+"ui": "职业信息门户：职业名称搜索/按类别浏览 + 单个职业详情页(工作内容、任职要求、薪酬、就业前景、相似职业)",
+"n": 2,
+"slug": null
+},
+"BSEE": {
+"canonical": "Bureau of Safety and Environmental Enforcement (BSEE)",
+"kind": "数据门户",
+"ui": "政府监管数据门户：事故/检查/执法记录检索表单 + 结果列表 + 明细工作簿(Excel)下载",
+"n": 1,
+"slug": "oil-and-gas"
+},
+"BTS": {
+"canonical": "Bureau of Transportation Statistics (BTS)",
+"kind": "数据门户",
+"ui": "交通统计数据门户：航班准点率数据集检索表单，按承运人/机场/月份筛选 + 逐条记录下载(CSV)",
+"n": 2,
+"slug": null
+},
+"C-MAPSS FD001": {
+"canonical": "NASA C-MAPSS (Commercial Modular Aero-Propulsion System Simulation)",
+"kind": "公开数据集",
+"ui": "NASA数据仓库数据集页：说明文档、训练/测试/RUL文本文件列表、单文件下载",
+"n": 1,
+"slug": "predictive-maintenance"
+},
+"California Housing": {
+"canonical": "California Housing",
+"kind": "公开数据集",
+"ui": "数据集详情页(如StatLib/sklearn镜像)：字段说明、样本数、许可信息、单文件(CSV/npz)下载",
+"n": 1,
+"slug": null
+},
+"CDC": {
+"canonical": "Centers for Disease Control and Prevention (CDC)",
+"kind": "数据门户",
+"ui": "CDC数据门户(如NNDSS/WONDER)：按疾病/年份/周次检索表单 + 结果表格 + 数据表下载(CSV)",
+"n": 1,
+"slug": "population-health-management"
+},
+"CDC NWSS": {
+"canonical": "CDC National Wastewater Surveillance System (NWSS)",
+"kind": "数据门户",
+"ui": "污水监测数据门户：按州/县/采样点筛选的仪表盘地图与趋势图 + 站点级数据下载(CSV)",
+"n": 1,
+"slug": "population-health-management"
+},
+"CGCNN": {
+"canonical": "CGCNN (Crystal Graph Convolutional Neural Network)",
+"kind": "代码仓库",
+"ui": "GitHub项目页：README安装/使用说明、预训练模型checkpoint文件列表、命令行推理脚本，无图形界面",
+"n": 1,
+"slug": null
+},
+"CMS": {
+"canonical": "Centers for Medicare & Medicaid Services (CMS)",
+"kind": "数据门户",
+"ui": "CMS Care Compare等数据门户：机构名称/地区检索表单 + 设施详情页(检查记录、评级、所有权) + 数据集下载(CSV)",
+"n": 1,
+"slug": "provider-data-management-pdm"
+},
+"CODESYS": {
+"canonical": "CODESYS",
+"kind": "软件产品",
+"ui": "IEC 61131-3 PLC编程IDE：项目树 + 梯形图/结构化文本编辑器 + 变量表 + 在线调试/监视窗口",
+"n": 1,
+"slug": "other-integrated-development-environments-ide"
+},
+"Comstock": {
+"canonical": "Comstock aeromagnetic survey data",
+"kind": "公开数据集",
+"ui": "地质调查数据仓库(如USGS)：测区检索 + 网格/测线数据文件列表 + 单文件下载(如.dat/.grd)",
+"n": 1,
+"slug": "geology-and-seismic"
+},
+"Cora": {
+"canonical": "Cora citation network dataset",
+"kind": "公开数据集",
+"ui": "数据集详情页(如PyG/LINQS托管)：节点特征、边列表、类别标签说明 + 单文件下载",
+"n": 1,
+"slug": null
+},
+"CP2K": {
+"canonical": "CP2K",
+"kind": "软件产品",
+"ui": "命令行量子化学/分子动力学模拟软件：输入文件(.inp)驱动运行，输出为日志文本，无图形界面",
+"n": 2,
+"slug": "simulation-cae"
+},
+"CPIC": {
+"canonical": "Clinical Pharmacogenetics Implementation Consortium (CPIC)",
+"kind": "数据门户",
+"ui": "指南发布门户：按药物/基因检索的指南列表 + 单个指南详情页(基因型-表型对照表、剂量推荐、PDF下载)",
+"n": 1,
+"slug": "clinical-decision-support"
+},
+"CPSC": {
+"canonical": "Consumer Product Safety Commission (CPSC)",
+"kind": "数据门户",
+"ui": "召回数据门户：召回记录检索表单(产品/日期/危害类型) + 结果列表 + 详情页 + API/数据集下载",
+"n": 1,
+"slug": null
+},
+"CRM": {
+"canonical": "CRM (Customer Relationship Management system)",
+"kind": "软件产品",
+"ui": "通用CRM界面：客户/商机列表视图 + 记录详情页(字段、活动时间线、备注) + 报表仪表盘",
+"n": 1,
+"slug": "crm"
+},
+"CWRU Bearing Dataset": {
+"canonical": "CWRU Bearing Dataset (Case Western Reserve University Bearing Data Center)",
+"kind": "公开数据集",
+"ui": "数据集主页：按故障类型/转速/传感器位置分类的文件列表(.mat) + 说明文档 + 单文件下载",
+"n": 2,
+"slug": "machine-learning-data-catalog"
+},
+"D3REAM": {
+"canonical": "D3REAM",
+"kind": "代码仓库",
+"ui": "GitHub研究代码仓库：README复现说明、描述符计算脚本、示例晶体结构文件，无图形界面",
+"n": 1,
+"slug": null
+},
+"DailyMed": {
+"canonical": "DailyMed",
+"kind": "数据门户",
+"ui": "药品名/NDC 检索框 + 结果列表 + 处方药标签(SPL)详情页 + PDF 标签下载",
+"n": 1,
+"slug": "clinical-decision-support"
+},
+"DART": {
+"canonical": "DART (Deep-ocean Assessment and Reporting of Tsunamis)",
+"kind": "数据门户",
+"ui": "NOAA NDBC 浮标/台站地图与编号检索 + 站点详情页 + 分辨率(15分钟/1分钟/高频)时间序列表格与图形 + 数据文件下载",
+"n": 1,
+"slug": "weather-data-software"
+},
+"Delaware modified LAR": {
+"canonical": "HMDA Modified LAR",
+"kind": "公开数据集",
+"ui": "FFIEC/CFPB HMDA Platform 数据集说明页：按年度/州/机构筛选 + 管道分隔平面文件(pipe-delimited flat file)下载 + 字段说明文档",
+"n": 1,
+"slug": null
+},
+"DISA": {
+"canonical": "DISA (Defense Information Systems Agency)",
+"kind": "数据门户",
+"ui": "DISA Cyber Exchange 文档库：按产品/操作系统检索 STIG + 版本列表 + XCCDF/CCI 文件下载",
+"n": 1,
+"slug": "security-compliance"
+},
+"DLRobot TR500": {
+"canonical": "DLRobot TR500",
+"kind": "软件产品",
+"ui": "STM32 差速底盘控制器固件工程 + 配套上位机调试助手：任务/参数配置界面、传感器与姿态数据实时监视、下位机烧录与日志",
+"n": 1,
+"slug": "iot-development-tools"
+},
+"DOE AFDC": {
+"canonical": "DOE Alternative Fuels Data Center (AFDC)",
+"kind": "数据门户",
+"ui": "充电站地图检索 + 按州/燃料类型/网络筛选面板 + 站点详情列表 + CSV/GeoJSON 批量下载",
+"n": 1,
+"slug": "ev-charging-management"
+},
+"eCFR": {
+"canonical": "eCFR (Electronic Code of Federal Regulations)",
+"kind": "数据门户",
+"ui": "标题(Title)/部分(Part)层级浏览树 + 生效日期(point-in-time)选择器 + 章节正文页 + XML/JSON/PDF 下载",
+"n": 2,
+"slug": "legal-research"
+},
+"ECOS": {
+"canonical": "ECOS (Environmental Conservation Online System)",
+"kind": "数据门户",
+"ui": "物种名/学名检索框 + 物种详情页(法定状态、关键栖息地) + 名录表格 + 数据导出",
+"n": 1,
+"slug": null
+},
+"EEGEyeState.arff": {
+"canonical": "EEG Eye State Dataset",
+"kind": "公开数据集",
+"ui": "UCI ML Repository 数据集详情页：说明、属性/通道列表、许可信息 + 单个 ARFF 文件下载",
+"n": 1,
+"slug": null
+},
+"EIA-860": {
+"canonical": "EIA Form 860 (Annual Electric Generator Report)",
+"kind": "公开数据集",
+"ui": "EIA 数据集页面：按年度选择 Schedule(发电机/电厂/公用事业等) + Excel/CSV 分表下载 + 字段说明文档",
+"n": 1,
+"slug": null
+},
+"EIA-930": {
+"canonical": "EIA Form 930 (Hourly Electric Grid Monitor)",
+"kind": "数据门户",
+"ui": "平衡区(Balancing Authority)选择 + 交互式小时级负荷/净发电/爬坡曲线图 + 数据表格与 CSV 下载",
+"n": 1,
+"slug": "energy-management"
+},
+"Electrical Grid Stability Simulated Data": {
+"canonical": "Electrical Grid Stability Simulated Data Set",
+"kind": "公开数据集",
+"ui": "UCI ML Repository 数据集详情页：说明、变量表(tau/p/g等)、许可 + 单文件 CSV/ARFF 下载",
+"n": 1,
+"slug": null
+},
+"EPA": {
+"canonical": "EPA (U.S. Environmental Protection Agency) GHGRP",
+"kind": "数据门户",
+"ui": "Envirofacts/GHGRP 设施排放查询工具：按州/年度/行业筛选 + 设施列表与详情 + 表格查看与批量导出",
+"n": 2,
+"slug": "carbon-accounting"
+},
+"EPA SDWIS": {
+"canonical": "EPA SDWIS (Safe Drinking Water Information System)",
+"kind": "数据门户",
+"ui": "公共供水系统(PWS)名称/编号检索 + 系统详情页(违规、执法记录) + 结果表格 + 数据导出(ECHO/SDWIS Federal Reports Search)",
+"n": 1,
+"slug": null
+},
+"EPA 官方 2024 Test Car List": {
+"canonical": "EPA Test Car List Data",
+"kind": "公开数据集",
+"ui": "EPA 年度测试车辆数据集页面：按年度/车型选择 + 试验记录电子表格(CSV/Excel)下载 + 计算口径说明文档",
+"n": 1,
+"slug": null
+},
+"EPSG:4547": {
+"canonical": "EPSG:4547 (CGCS2000 3-Degree Gauss-Kruger Zone, CM 114°E)",
+"kind": "其他",
+"ui": "坐标参考系定义查询页(如 epsg.io)：显示 CRS 名称、参数与 WKT/Proj4 字符串，不提供数据下载，仅作坐标转换/查阅用途",
+"n": 1,
+"slug": "gis"
+},
+"ERP": {
+"canonical": "ERP (Enterprise Resource Planning System)",
+"kind": "软件产品",
+"ui": "企业内部管理系统:销售订单/开票明细录入与查询界面、客户与产品主数据表、经营报表看板、导出到 Excel",
+"n": 1,
+"slug": "erp-systems"
+},
+"ETOPO1": {
+"canonical": "ETOPO1 Global Relief Model",
+"kind": "公开数据集",
+"ui": "NOAA NCEI 数据集页面：范围/分辨率选择、地图预览 + NetCDF/GeoTIFF 格网数据下载",
+"n": 1,
+"slug": "gis"
+},
+"Fama/French": {
+"canonical": "Fama/French Data Library (Kenneth R. French)",
+"kind": "数据门户",
+"ui": "按主题分类的数据集列表页(因子、组合等) + 每项说明与更新日期 + 压缩 CSV/TXT 文件下载",
+"n": 1,
+"slug": "financial-research"
+},
+"FARS": {
+"canonical": "FARS (Fatality Analysis Reporting System)",
+"kind": "数据门户",
+"ui": "NHTSA FARS 查询工具：按年度/州/事故条件筛选 + 案例级列表与详情 + 年度数据文件(CSV/SAS)与分析手册 PDF 下载",
+"n": 1,
+"slug": null
+},
+"Fashion-MNIST": {
+"canonical": "Fashion-MNIST",
+"kind": "公开数据集",
+"ui": "数据集详情页：说明、类别列表、训练/测试集文件下载(图像+标签)",
+"n": 2,
+"slug": null
+},
+"FCC": {
+"canonical": "Federal Communications Commission",
+"kind": "数据门户",
+"ui": "ULS 许可证/申请检索表单 + 结果列表 + 每日批量数据包(daily dump)下载",
+"n": 1,
+"slug": null
+},
+"FDA Electronic Orange Book": {
+"canonical": "FDA Orange Book",
+"kind": "数据门户",
+"ui": "药品/专利/独占期检索表单 + 产品清单 + 月度归档文件(ASCII/文本)批量下载",
+"n": 2,
+"slug": "regulatory-information-management-rim-systems"
+},
+"FDA Orange Book": {
+"canonical": "FDA Orange Book",
+"kind": "数据门户",
+"ui": "药品/专利/独占期检索表单 + 产品清单 + 月度归档文件(ASCII/文本)批量下载",
+"n": 1,
+"slug": "regulatory-information-management-rim-systems"
+},
+"FDIC BankFind": {
+"canonical": "FDIC BankFind",
+"kind": "数据门户",
+"ui": "机构检索表单 + 机构详情/财务报表页 + API 查询与批量数据下载",
+"n": 1,
+"slug": "financial-data-apis"
+},
+"FEC": {
+"canonical": "Federal Election Commission",
+"kind": "数据门户",
+"ui": "候选人/委员会检索表单 + 资金流与修订记录列表 + 批量数据文件下载",
+"n": 1,
+"slug": "political"
+},
+"Federal Register": {
+"canonical": "Federal Register",
+"kind": "数据门户",
+"ui": "公告文档全文检索表单 + 文档详情页 + XML/PDF 下载与生效日期元数据",
+"n": 2,
+"slug": "regulatory-change-management"
+},
+"FHWA": {
+"canonical": "Federal Highway Administration",
+"kind": "数据门户",
+"ui": "州级桥梁/道路资产清单批量数据下载页 + 年度归档文件列表",
+"n": 1,
+"slug": "infrastructure-asset-management"
+},
+"FlyWire": {
+"canonical": "FlyWire",
+"kind": "软件产品",
+"ui": "神经元/细胞类型检索表(Codex) + 基于 Neuroglancer 的 3D 连接组可视化查看器 + 分割体标注浏览",
+"n": 2,
+"slug": null
+},
+"FORGE": {
+"canonical": "Utah FORGE",
+"kind": "数据门户",
+"ui": "地热项目数据目录页：钻孔/监测数据集列表 + 说明文档 + 文件下载",
+"n": 1,
+"slug": "geology-and-seismic"
+},
+"Form EIA-860": {
+"canonical": "EIA Form 860",
+"kind": "数据门户",
+"ui": "EIA 数据浏览器：表单/年份筛选 + 发电机级电子表格(Excel/CSV)批量下载",
+"n": 2,
+"slug": null
+},
+"Fortuna 等 2007": {
+"canonical": "Fortuna et al. 2007 SRU Dataset",
+"kind": "公开数据集",
+"ui": "学术论文/工具箱附带的基准数据集：变量说明 + 时间序列数据文件(MAT/CSV)下载",
+"n": 1,
+"slug": null
+},
+"FORWARD": {
+"canonical": "FORWARD/LOGEXPRESS",
+"kind": "其他",
+"ui": "无独立界面，是测井文本文件的一种格式规范(类似 LAS)，数据以纯文本文件形式提供",
+"n": 1,
+"slug": null
+},
+"FRA": {
+"canonical": "Federal Railroad Administration",
+"kind": "数据门户",
+"ui": "道口/事故报表检索表单(GCIS) + 结果列表 + 批量清单与历史归档下载",
+"n": 1,
+"slug": "transportation"
+},
+"franka_description": {
+"canonical": "franka_description",
+"kind": "代码仓库",
+"ui": "GitHub 仓库页面：URDF/mesh 文件目录浏览 + README + 克隆/下载",
+"n": 1,
+"slug": "cad-libraries"
+},
+"FT-ICR MS": {
+"canonical": "FT-ICR MS",
+"kind": "其他",
+"ui": "无数据下载界面，是一种质谱分析仪器/技术，产出为分析报告或分类比例表格",
+"n": 1,
+"slug": null
+},
+"Geofabrik": {
+"canonical": "Geofabrik",
+"kind": "数据门户",
+"ui": "区域列表页 + 各地区 .osm.pbf/.shp 提取文件下载链接",
+"n": 1,
+"slug": "gis"
+},
+"GeoMet": {
+"canonical": "GeoMet",
+"kind": "公开数据集",
+"ui": "Zenodo 数据集页面：说明、文件列表(CSV)、DOI、单文件下载",
+"n": 1,
+"slug": null
+},
+"German Breast Cancer Study Group 2": {
+"canonical": "German Breast Cancer Study Group 2",
+"kind": "公开数据集",
+"ui": "数据集说明页 + 变量表 + 单文件下载(常见于统计软件包内置数据)",
+"n": 1,
+"slug": "clinical-research"
+},
+"GHCN-Daily": {
+"canonical": "GHCN-Daily",
+"kind": "数据门户",
+"ui": "站点检索表单 + 站点元数据页 + 逐日气象要素批量下载(FTP/API/CSV)",
+"n": 1,
+"slug": "weather-data-software"
+},
+"GitHub": {
+"canonical": "GitHub",
+"kind": "软件产品",
+"ui": "仓库/组织主页：Releases 列表 + 每个 release 的 tag、说明、资产文件下载；也可通过 REST/GraphQL API 查询同样信息",
+"n": 1,
+"slug": "source-code-management"
+},
+"Godot": {
+"canonical": "Godot",
+"kind": "软件产品",
+"ui": "Godot 编辑器：场景树面板 + FileSystem 资源面板管理 .tscn/.tres 依赖 + 导入设置与资源预览",
+"n": 1,
+"slug": "game-development"
+},
+"GSE242889": {
+"canonical": "GSE242889",
+"kind": "公开数据集",
+"ui": "GEO 数据集详情页：样本/平台信息表 + 补充文件(RAW.tar等)列表 + FTP/HTTP 下载链接",
+"n": 1,
+"slug": null
+},
+"GSE52778": {
+"canonical": "GSE52778",
+"kind": "公开数据集",
+"ui": "GEO 数据集详情页：样本/平台信息表 + 补充文件列表 + FTP/HTTP 下载链接",
+"n": 1,
+"slug": null
+},
+"HAI Security Dataset": {
+"canonical": "HAI Security Dataset",
+"kind": "公开数据集",
+"ui": "GitHub 仓库页：README 说明 + 按批次划分的 csv/压缩包数据文件列表 + 直接下载",
+"n": 1,
+"slug": null
+},
+"Higress": {
+"canonical": "Higress",
+"kind": "软件产品",
+"ui": "Higress 控制台：路由/插件可视化配置列表 + 请求转换规则编辑界面；配套开源仓库存放源码",
+"n": 2,
+"slug": "api-management"
+},
+"HIS": {
+"canonical": "HIS",
+"kind": "软件产品",
+"ui": "医院信息系统工作站：患者列表检索 + 医嘱录入/查询界面 + 检验检查结果与病历查看",
+"n": 2,
+"slug": "ehr"
+},
+"HUD": {
+"canonical": "HUD",
+"kind": "数据门户",
+"ui": "HUD 官网数据门户：按州/县/邮编检索 FMR/SAFMR 的查询表单 + 结果表格 + Excel/PDF/API 下载",
+"n": 1,
+"slug": null
+},
+"IAEA/AMDC": {
+"canonical": "IAEA/AMDC",
+"kind": "数据门户",
+"ui": "AMDC 官方页面：历年 AME 质量评估说明 + 按版本(如AME2016/2020)归档的 ASCII/文本表格直接下载",
+"n": 1,
+"slug": null
+},
+"IANA HTTP Status Code Registry": {
+"canonical": "IANA HTTP Status Code Registry",
+"kind": "数据门户",
+"ui": "IANA 注册表网页：状态码条目表格(编号/名称/参考RFC)+ CSV 格式导出链接",
+"n": 1,
+"slug": null
+},
+"IGRA": {
+"canonical": "IGRA",
+"kind": "公开数据集",
+"ui": "NOAA IGRA 数据门户：探空站检索表单 + 站点列表 + 按站点/时间下载探空数据文件(FTP/HTTP)",
+"n": 1,
+"slug": "weather-data-software"
+},
+"IGS": {
+"canonical": "IGS",
+"kind": "数据门户",
+"ui": "IGS 数据中心：网络/站点列表 + 按站点代码与日期检索、下载 RINEX 观测与广播星历文件(FTP)",
+"n": 1,
+"slug": null
+},
+"Intel RealSense D455": {
+"canonical": "Intel RealSense D455",
+"kind": "其他",
+"ui": "硬件设备本身无网页界面；通过厂商 RealSense Viewer/SDK 工具查看深度、RGB、IMU 数据流并调整采集参数",
+"n": 1,
+"slug": null
+},
+"iperf3": {
+"canonical": "iperf3",
+"kind": "软件产品",
+"ui": "命令行工具：终端指定客户端/服务端参数运行，输出文本或 JSON 格式的带宽/丢包测速结果",
+"n": 1,
+"slug": "network-monitoring"
+},
+"IRS SOI": {
+"canonical": "IRS SOI",
+"kind": "数据门户",
+"ui": "IRS SOI 数据门户：迁移/统计数据说明页 + 按年份、州县层级的 Excel/CSV 表格下载",
+"n": 1,
+"slug": null
+},
+"IRT": {
+"canonical": "IRT",
+"kind": "软件产品",
+"ui": "IRT 系统网页/交互式语音应答界面：受试者随机化分配、试验用药收发存记录查询与导出",
+"n": 1,
+"slug": "clinical-research"
+},
+"IU.ANMO": {
+"canonical": "IU.ANMO",
+"kind": "数据门户",
+"ui": "IRIS/FDSN 数据中心：台站与事件检索表单 + 结果列表 + 波形(MiniSEED)与元数据(StationXML)按事件/时间窗口打包下载",
+"n": 1,
+"slug": "geology-and-seismic"
+},
+"IU.COLA": {
+"canonical": "IU.COLA",
+"kind": "数据门户",
+"ui": "IRIS/FDSN 数据中心：台站与事件检索表单 + 结果列表 + 波形(MiniSEED)与元数据(StationXML)按事件/时间窗口打包下载",
+"n": 1,
+"slug": "geology-and-seismic"
+},
+"KiCad": {
+"canonical": "KiCad",
+"kind": "软件产品",
+"ui": "KiCad 桌面应用：项目管理器 + 原理图编辑器 + PCB 布局编辑器 + BOM/netlist 导出对话框",
+"n": 1,
+"slug": "pcb-design"
+},
+"LAMMPS": {
+"canonical": "LAMMPS",
+"kind": "软件产品",
+"ui": "命令行/脚本工具：提交输入脚本运行分子动力学计算，产生 log/thermo 文本输出，无图形界面",
+"n": 1,
+"slug": "simulation-cae"
+},
+"LogPAI/loghub": {
+"canonical": "LogPAI/loghub",
+"kind": "代码仓库",
+"ui": "GitHub 仓库页：README + 按系统分类的日志数据子目录（如 HDFS、BGL）+ 原始日志/标注文件直接下载或 git clone",
+"n": 1,
+"slug": null
+},
+"MACE-C": {
+"canonical": "MACE-C",
+"kind": "软件产品",
+"ui": "无图形界面的机器学习势/预测模型：命令行或脚本调用训练好的权重文件，输入结构给出维氏硬度代理预测值，输出为日志/数值文件",
+"n": 1,
+"slug": "machine-learning"
+},
+"MaMiCo": {
+"canonical": "MaMiCo",
+"kind": "软件产品",
+"ui": "分子-连续介质耦合模拟软件：XML 配置文件定义域/耦合周期/求解器，命令行运行，输出耦合日志和数据交换文件，无独立图形界面",
+"n": 1,
+"slug": "simulation-cae"
+},
+"MapPLUTO": {
+"canonical": "MapPLUTO",
+"kind": "公开数据集",
+"ui": "NYC Planning 数据集页：按 borough 选择下载（Shapefile/Geodatabase/CSV），字段说明文档，网页版带地图预览",
+"n": 1,
+"slug": "gis"
+},
+"Maritime Administration": {
+"canonical": "Maritime Administration (MARAD)",
+"kind": "数据门户",
+"ui": "联邦机构文书检索：按项目名/文书类型/日期检索 Federal Register 公示，结果列表附 PDF 原文下载",
+"n": 1,
+"slug": "public-records-management"
+},
+"Matrix Market": {
+"canonical": "Matrix Market",
+"kind": "数据门户",
+"ui": "矩阵集合浏览站点：按学科/贡献者分组的矩阵集合列表，矩阵详情页（维度、非零元数、结构预览图），提供 .mtx 格式下载",
+"n": 1,
+"slug": null
+},
+"Met": {
+"canonical": "Metropolitan Museum of Art",
+"kind": "数据门户",
+"ui": "博物馆藏品检索：关键词搜索表单 + 结果缩略图列表 + 藏品详情页（图片、元数据、相关权威词链接）+ 开放数据 API/下载",
+"n": 1,
+"slug": "museum"
+},
+"metrics-server": {
+"canonical": "Kubernetes metrics-server",
+"kind": "软件产品",
+"ui": "无传统图形界面的集群组件：以 YAML manifest 部署到 Kubernetes，通过 kubectl top 或 Metrics API 查询资源指标",
+"n": 1,
+"slug": "container-monitoring-tools"
+},
+"Metro Interstate Traffic Volume": {
+"canonical": "Metro Interstate Traffic Volume",
+"kind": "公开数据集",
+"ui": "UCI 数据集详情页：简介、变量表、许可信息、单一 csv/data 文件下载链接",
+"n": 1,
+"slug": null
+},
+"MIDAS": {
+"canonical": "MIDAS",
+"kind": "公开数据集",
+"ui": "GNSS 速度产品下载页：按站点列出的时间序列/速度解算文件（txt/csv），附站点元数据说明，无图形化查询界面",
+"n": 1,
+"slug": "geology-and-seismic"
+},
+"MNIST": {
+"canonical": "MNIST",
+"kind": "公开数据集",
+"ui": "数据集简介页：数据说明表格 + 训练/测试图像与标签的 gzip 文件直接下载链接",
+"n": 2,
+"slug": null
+},
+"Moldflow": {
+"canonical": "Autodesk Moldflow",
+"kind": "软件产品",
+"ui": "注塑模拟软件：3D 模型导入、网格划分、填充/保压/冷却/翘曲分析流程设置，图形化结果查看器（压力/流动/翘曲云图），报告导出",
+"n": 1,
+"slug": "simulation-cae"
+},
+"Mozilla NSS": {
+"canonical": "Mozilla Network Security Services (NSS)",
+"kind": "代码仓库",
+"ui": "版本控制仓库文件浏览：按 tag/commit 查看 certdata.txt 等源文件，纯文本格式，无图形界面",
+"n": 1,
+"slug": "repository-management"
+},
+"MSHA": {
+"canonical": "Mine Safety and Health Administration (MSHA)",
+"kind": "数据门户",
+"ui": "政府开放数据门户：Part 50 数据集列表页，按年度/矿种下载 CSV/TXT 文件，附数据字典说明",
+"n": 2,
+"slug": "occupational-health-and-safety-ohs"
+},
+"MTA": {
+"canonical": "Metropolitan Transportation Authority (MTA)",
+"kind": "数据门户",
+"ui": "开放数据门户：数据集搜索 + 表格预览 + 筛选器 + API/CSV 下载",
+"n": 2,
+"slug": "public-transportation"
+},
+"MTA New York City Transit Subway GTFS": {
+"canonical": "MTA New York City Transit Subway GTFS",
+"kind": "公开数据集",
+"ui": "GTFS 静态数据集下载页：zip 包内含 routes/trips/stops/calendar/shapes 等多个 txt 表，附版本发布日期和校验工具",
+"n": 1,
+"slug": "public-transportation"
+},
+"Nacos": {
+"canonical": "Nacos",
+"kind": "软件产品",
+"ui": "Web 控制台：命名空间/服务列表管理界面、配置管理面板、服务健康与实例监控仪表盘",
+"n": 2,
+"slug": "service-discovery"
+},
+"NAIC Schedule P": {
+"canonical": "NAIC Schedule P",
+"kind": "公开数据集",
+"ui": "行业损失三角数据集下载页：按公司/险种检索赔付三角表，csv/数据文件下载，字段与方法说明文档",
+"n": 1,
+"slug": "insurance-analytics"
+},
+"NASA C-MAPSS": {
+"canonical": "NASA C-MAPSS",
+"kind": "公开数据集",
+"ui": "数据集详情页：说明、许可（CC0），train/test/RUL 多个 txt 文件直接下载链接",
+"n": 2,
+"slug": "predictive-maintenance"
+},
+"NASA DONKI": {
+"canonical": "NASA DONKI",
+"kind": "数据门户",
+"ui": "空间天气事件 API/查询工具：按事件类型（耀斑/CME/地磁暴）与日期检索，网页版事件目录表格，API 返回结构化 JSON",
+"n": 1,
+"slug": null
+},
+"NASA PS": {
+"canonical": "NASA Exoplanet Archive (Planetary Systems table)",
+"kind": "数据门户",
+"ui": "按行星/宿主星/发现方法等条件筛选的检索表单 + 可排序结果数据表 + 单行星多文献参数解对比视图 + CSV/VOTable/JSON 下载",
+"n": 1,
+"slug": null
+},
+"NASR": {
+"canonical": "FAA National Airspace System Resources (NASR)",
+"kind": "数据门户",
+"ui": "28天周期订阅数据选择页 + 机场/跑道/导航设施等子集选择 + 127列固定宽度文本文件列表下载",
+"n": 2,
+"slug": "aviation"
+},
+"National Tunnel Inventory": {
+"canonical": "FHWA National Tunnel Inventory",
+"kind": "公开数据集",
+"ui": "按州/年度选择的隧道资产清单页 + 逐隧道属性与检查记录表 + 数据集整体下载(CSV/txt)",
+"n": 1,
+"slug": "infrastructure-asset-management"
+},
+"NCBI": {
+"canonical": "National Center for Biotechnology Information (NCBI)",
+"kind": "数据门户",
+"ui": "综合生物医药数据库门户，含 BioProject/SRA 等子库检索表单 + 记录详情页 + 批量下载(FTP/E-utilities API)",
+"n": 1,
+"slug": null
+},
+"NCUA": {
+"canonical": "National Credit Union Administration (NCUA)",
+"kind": "数据门户",
+"ui": "季度 Call Report 数据下载页：按季度选择完整 ZIP 压缩包，内含多张信用合作社财务报表 CSV",
+"n": 1,
+"slug": null
+},
+"NeuroMorpho.Org": {
+"canonical": "NeuroMorpho.Org",
+"kind": "公开数据集",
+"ui": "神经元形态检索表单(按物种/脑区/实验室/细胞类型) + 结果缩略图列表 + 单神经元详情页(形态图+统计量) + SWC 追踪文件下载",
+"n": 1,
+"slug": null
+},
+"NGA": {
+"canonical": "National Gallery of Art (NGA) Open Data",
+"kind": "公开数据集",
+"ui": "GitHub 仓库页面：constituents/objects/关系等多张 CSV 数据表文件列表 + README 字段说明 + 克隆或直接下载",
+"n": 1,
+"slug": null
+},
+"NHC": {
+"canonical": "National Hurricane Center (NHC)",
+"kind": "数据门户",
+"ui": "按年份/气旋名称检索的风暴档案页 + Best Track 路径数据表 + 咨询公告存档 + shapefile/CSV 数据下载",
+"n": 3,
+"slug": "weather-data-software"
+},
+"NHTSA": {
+"canonical": "National Highway Traffic Safety Administration (NHTSA) Recalls",
+"kind": "数据门户",
+"ui": "按厂商/车型年份/Campaign ID 检索的召回信息表单 + 召回详情页 + 批量 flat file 数据下载",
+"n": 1,
+"slug": null
+},
+"NHTSA FARS": {
+"canonical": "NHTSA Fatality Analysis Reporting System (FARS)",
+"kind": "数据门户",
+"ui": "FARS 查询系统：按年份/州筛选事故-车辆-人员记录 + 交叉表统计工具 + 原始数据文件(CSV/SAS)下载",
+"n": 1,
+"slug": null
+},
+"NOAA": {
+"canonical": "NOAA Electronic Navigational Chart (ENC)",
+"kind": "数据门户",
+"ui": "ENC Product Catalog 图幅检索(按区域/比例尺/图幅类型) + 图幅元数据表 + S-57 图幅文件下载",
+"n": 2,
+"slug": "marine"
+},
+"NOAA GHCN-Daily": {
+"canonical": "NOAA Global Historical Climatology Network Daily (GHCN-Daily)",
+"kind": "公开数据集",
+"ui": "按国家/坐标检索的气象站点列表 + 站点详情页 + 逐日观测记录定长文本文件下载",
+"n": 1,
+"slug": "weather-data-software"
+},
+"NOAA NCEI": {
+"canonical": "NOAA National Centers for Environmental Information (NCEI)",
+"kind": "数据门户",
+"ui": "环境数据检索门户：按数据集类型/区域/时间筛选 + 存档文件(archive)列表 + 批量下载",
+"n": 1,
+"slug": "weather-data-software"
+},
+"NOAA NCEI Storm Events Details": {
+"canonical": "NOAA Storm Events Database",
+"kind": "公开数据集",
+"ui": "按州/年份/事件类型检索的风暴事件表单 + 事件列表 + 单事件详情记录 + CSV 批量下载",
+"n": 1,
+"slug": "weather-data-software"
+},
+"NOAA Storm Events": {
+"canonical": "NOAA Storm Events Database",
+"kind": "公开数据集",
+"ui": "按州/年份/事件类型检索的风暴事件表单 + 事件列表(含关联死亡记录) + CSV 批量下载",
+"n": 3,
+"slug": "weather-data-software"
+},
+"NOAA US5NYCCF": {
+"canonical": "NOAA Electronic Navigational Chart (ENC)",
+"kind": "数据门户",
+"ui": "按图幅编号检索的 ENC 下载页：选择 base cell 版本及 .001–.00n 更新补丁，S-57 格式文件下载",
+"n": 1,
+"slug": "marine"
+},
+"NPS Everything": {
+"canonical": "NPS National Register Information System \"Everything\" File",
+"kind": "公开数据集",
+"ui": "国家史迹名录数据库：按州/资源类型检索 + 登录记录列表页 + 逐条状态与地理坐标详情 + 批量下载(Excel/GIS)",
+"n": 1,
+"slug": null
+},
+"NRC": {
+"canonical": "Nuclear Regulatory Commission (NRC)",
+"kind": "数据门户",
+"ui": "事件通知日报检索(按日期/机组) + 通报列表页 + 电厂运行状态报告(PDF/文本)下载",
+"n": 1,
+"slug": null
+},
+"NREL": {
+"canonical": "NREL PVDAQ",
+"kind": "公开数据集",
+"ui": "光伏系统检索(按容量/地区/安装形式/传感器配置) + 系统元数据表 + 逐系统时间序列发电数据下载(API/CSV)",
+"n": 1,
+"slug": "energy-management"
+},
+"NVD": {
+"canonical": "National Vulnerability Database (NVD)",
+"kind": "数据门户",
+"ui": "CVE 检索表单(按ID/关键词/日期范围/严重程度) + 漏洞详情页(CVSS/CWE/参考链接) + REST API 2.0 查询接口",
+"n": 2,
+"slug": "vulnerability-management"
+},
+"NYC Taxi & Limousine Commission": {
+"canonical": "NYC Taxi & Limousine Commission (TLC) Trip Record Data",
+"kind": "数据门户",
+"ui": "TLC Trip Record Data 页面：按年月列出的行程记录下载链接（Parquet/CSV），配数据字典 PDF 和地理围栏 shapefile 下载",
+"n": 1,
+"slug": "taxi-limousine"
+},
+"O*NET": {
+"canonical": "O*NET",
+"kind": "公开数据集",
+"ui": "O*NET 数据库下载页：按版本号打包的职业分类/技能/任务文本数据库 zip 下载，另有 O*NET OnLine 职业检索/浏览网页版",
+"n": 1,
+"slug": "skills-management"
+},
+"OCC": {
+"canonical": "Office of the Comptroller of the Currency (OCC)",
+"kind": "数据门户",
+"ui": "OCC 银行清单页面：可下载的国民银行/信托银行/联邦储蓄协会机构名录（Excel/CSV），按州、机构类型筛选",
+"n": 1,
+"slug": null
+},
+"OFAC": {
+"canonical": "Office of Foreign Assets Control (OFAC)",
+"kind": "数据门户",
+"ui": "OFAC 制裁名单页面：SDN List 在线检索工具 + 多格式（XML/CSV/TXT）官方快照下载链接",
+"n": 1,
+"slug": null
+},
+"Open Power System Data": {
+"canonical": "Open Power System Data",
+"kind": "公开数据集",
+"ui": "数据集详情页：说明文档、字段说明、许可信息，按版本号（含 DOI）打包的 CSV/SQLite 下载",
+"n": 7,
+"slug": null
+},
+"Open-Meteo Air Quality API": {
+"canonical": "Open-Meteo",
+"kind": "数据门户",
+"ui": "REST API 文档页：参数化查询构造器（经纬度、时间范围、变量选择），返回 JSON/CSV，无需注册",
+"n": 1,
+"slug": "weather-data-software"
+},
+"Open-Meteo Archive": {
+"canonical": "Open-Meteo",
+"kind": "数据门户",
+"ui": "REST API 文档页：参数化查询构造器（经纬度、时间范围、变量选择），返回 JSON/CSV，无需注册",
+"n": 5,
+"slug": "weather-data-software"
+},
+"OpenAPI": {
+"canonical": "OpenAPI Specification",
+"kind": "其他",
+"ui": "API 定义文件（YAML/JSON），通常由 Swagger UI 等工具渲染成路由/参数/响应结构的交互式文档页",
+"n": 1,
+"slug": "api-documentation-management"
+},
+"openFDA": {
+"canonical": "openFDA",
+"kind": "数据门户",
+"ui": "API 文档 + 交互式查询构建器页面：按 endpoint（drug shortages、NDC directory 等）筛选字段，返回 JSON，含定期数据快照下载",
+"n": 1,
+"slug": null
+},
+"OpenSim": {
+"canonical": "OpenSim",
+"kind": "软件产品",
+"ui": "桌面应用界面：3D 骨骼肌肉模型查看器 + Tools 菜单（Scale/IK/ID/CMC 等）对话框，工程文件为 .osim/.mot/.sto/.trc，支持导入导出及脚本/API 批处理",
+"n": 69,
+"slug": "simulation-cae"
+},
+"OpenSim 4.3": {
+"canonical": "OpenSim",
+"kind": "软件产品",
+"ui": "桌面应用界面：3D 骨骼肌肉模型查看器 + Tools 菜单（Scale/IK/ID/CMC 等）对话框，工程文件为 .osim/.mot/.sto/.trc，支持导入导出及脚本/API 批处理",
+"n": 4,
+"slug": "simulation-cae"
+},
+"OpenSim 4.5": {
+"canonical": "OpenSim",
+"kind": "软件产品",
+"ui": "桌面应用界面：3D 骨骼肌肉模型查看器 + Tools 菜单（Scale/IK/ID/CMC 等）对话框，工程文件为 .osim/.mot/.sto/.trc，支持导入导出及脚本/API 批处理",
+"n": 19,
+"slug": "simulation-cae"
+},
+"OpenSim 4.5.1": {
+"canonical": "OpenSim",
+"kind": "软件产品",
+"ui": "桌面应用界面：3D 骨骼肌肉模型查看器 + Tools 菜单（Scale/IK/ID/CMC 等）对话框，工程文件为 .osim/.mot/.sto/.trc，支持导入导出及脚本/API 批处理",
+"n": 1,
+"slug": "simulation-cae"
+},
+"OpenSim XML": {
+"canonical": "OpenSim",
+"kind": "软件产品",
+"ui": "桌面应用界面：3D 骨骼肌肉模型查看器 + Tools 菜单（Scale/IK/ID/CMC 等）对话框，工程文件为 .osim/.mot/.sto/.trc，支持导入导出及脚本/API 批处理",
+"n": 1,
+"slug": "simulation-cae"
+},
+"OpenSimDocument": {
+"canonical": "OpenSim",
+"kind": "软件产品",
+"ui": "桌面应用界面：3D 骨骼肌肉模型查看器 + Tools 菜单（Scale/IK/ID/CMC 等）对话框，工程文件为 .osim/.mot/.sto/.trc，支持导入导出及脚本/API 批处理",
+"n": 1,
+"slug": "simulation-cae"
+},
+"Origin": {
+"canonical": "OriginLab Origin",
+"kind": "软件产品",
+"ui": "电子表格式工作簿界面（.opj 工程文件），列式数据表 + 绘图窗口 + 拟合/统计分析工具面板",
+"n": 1,
+"slug": "statistical-analysis"
+},
+"OSHA IMIS": {
+"canonical": "OSHA Integrated Management Information System (IMIS)",
+"kind": "数据门户",
+"ui": "检查记录检索表单（按州/行业代码/日期范围）+ 结果列表 + 单个检查详情页（citation、罚款、后续活动）",
+"n": 1,
+"slug": null
+},
+"OSIM": {
+"canonical": "OpenSim",
+"kind": "软件产品",
+"ui": "桌面应用界面：3D 骨骼肌肉模型查看器 + Tools 菜单（Scale/IK/ID/CMC 等）对话框，工程文件为 .osim/.mot/.sto/.trc，支持导入导出及脚本/API 批处理",
+"n": 11,
+"slug": "simulation-cae"
+},
+"OTTO": {
+"canonical": "OTTO Recommender Systems Dataset",
+"kind": "公开数据集",
+"ui": "GitHub 仓库页：README 说明 + 数据集下载链接（Parquet），配 Kaggle 竞赛页面的字段说明和许可信息",
+"n": 1,
+"slug": null
+},
+"OTTO Recommender Systems Dataset": {
+"canonical": "OTTO Recommender Systems Dataset",
+"kind": "公开数据集",
+"ui": "GitHub 仓库页：README 说明 + 数据集下载链接（Parquet），配 Kaggle 竞赛页面的字段说明和许可信息",
+"n": 1,
+"slug": null
+},
+"Pen-Based Recognition of Handwritten Digits": {
+"canonical": "Pen-Based Recognition of Handwritten Digits",
+"kind": "公开数据集",
+"ui": "UCI数据集详情页：任务说明、属性/特征列表、许可信息、data目录下.tra/.tes文件直接下载",
+"n": 1,
+"slug": null
+},
+"PGLib-OPF": {
+"canonical": "PGLib-OPF",
+"kind": "代码仓库",
+"ui": "GitHub仓库文件列表：README+按母线规模命名的api/目录case文件(.m/.raw)，clone或单文件下载",
+"n": 1,
+"slug": null
+},
+"PHMSA Enforcement Raw Data": {
+"canonical": "PHMSA Enforcement Raw Data",
+"kind": "数据门户",
+"ui": "政府数据门户下载页：案件类型/日期范围筛选表单+批量CSV/Excel原始执法数据下载链接",
+"n": 1,
+"slug": null
+},
+"Pose2Sim": {
+"canonical": "Pose2Sim",
+"kind": "代码仓库",
+"ui": "GitHub仓库：README+示例Config.toml配置+源码目录，pip安装后命令行/脚本运行，无图形界面",
+"n": 1,
+"slug": null
+},
+"postgresql-common": {
+"canonical": "postgresql-common",
+"kind": "代码仓库",
+"ui": "Debian/Salsa源码仓库：debian/目录下打包脚本与补丁文件，按版本号分支浏览下载",
+"n": 1,
+"slug": null
+},
+"PREM": {
+"canonical": "PREM (Preliminary Reference Earth Model)",
+"kind": "公开数据集",
+"ui": "科学参考模型数据表：深度-Vp/Vs/密度分层参数列表，以论文附表或文本文件形式提供下载",
+"n": 1,
+"slug": "geology-and-seismic"
+},
+"PyPI": {
+"canonical": "PyPI",
+"kind": "数据门户",
+"ui": "包索引站点：项目名搜索框+项目详情页(版本列表/发布文件)+ Simple/JSON API查询与下载",
+"n": 1,
+"slug": "repository-management"
+},
+"QM9": {
+"canonical": "QM9",
+"kind": "公开数据集",
+"ui": "数据集页面：分子性质字段说明+下载链接(HDF5/xyz等打包文件)+引用信息",
+"n": 1,
+"slug": null
+},
+"Ridgecrest": {
+"canonical": "Ridgecrest earthquake sequence catalog",
+"kind": "公开数据集",
+"ui": "地震目录检索页：时间/区域/震级筛选表单+事件列表+波形与定位参数下载",
+"n": 1,
+"slug": "geology-and-seismic"
+},
+"RocketMQ": {
+"canonical": "Apache RocketMQ",
+"kind": "代码仓库",
+"ui": "GitHub仓库：源码目录树+Issue/PR与commit历史，按tag/commit检出对应版本源码",
+"n": 2,
+"slug": "message-queue-mq"
+},
+"SBDB": {
+"canonical": "JPL Small-Body Database (SBDB)",
+"kind": "数据门户",
+"ui": "小天体数据库查询页：名称/轨道参数检索表单+天体详情页(轨道要素/物理参数)+ API/CSV导出",
+"n": 1,
+"slug": null
+},
+"SCADA": {
+"canonical": "SCADA",
+"kind": "软件产品",
+"ui": "工业监控组态软件：实时测点列表与趋势曲线画面+报警记录+历史数据快照导出",
+"n": 1,
+"slug": "supervisory-control-and-data-acquisition-scada"
+},
+"SEC": {
+"canonical": "U.S. Securities and Exchange Commission (SEC)",
+"kind": "数据门户",
+"ui": "EDGAR检索页：公司/表格类型搜索表单+申报文件列表+Inline XBRL在线查看器+Company Facts API",
+"n": 2,
+"slug": "financial-data-apis"
+},
+"Sentinel-2": {
+"canonical": "Sentinel-2",
+"kind": "数据门户",
+"ui": "卫星影像检索门户：区域/时间/云量筛选表单+场景列表缩略图预览+波段产品与场景分类层打包下载",
+"n": 1,
+"slug": "gis"
+},
+"Sentinel-2 L2A": {
+"canonical": "Sentinel-2",
+"kind": "数据门户",
+"ui": "卫星影像检索门户：区域/时间/云量筛选表单+场景列表缩略图预览+波段产品与场景分类层打包下载",
+"n": 1,
+"slug": "gis"
+},
+"Sentry": {
+"canonical": "NASA/JPL CNEOS Sentry",
+"kind": "数据门户",
+"ui": "近地天体撞击风险监测页：风险天体列表表格+单天体风险详情(Palermo/Torino指数、VI列表)+数据导出",
+"n": 1,
+"slug": null
+},
+"Server Machine Dataset": {
+"canonical": "Server Machine Dataset (SMD)",
+"kind": "公开数据集",
+"ui": "GitHub仓库数据集页：README说明+train/test/label文本文件按机器编号组织，直接下载",
+"n": 1,
+"slug": null
+},
+"Severstal Steel Defect Detection": {
+"canonical": "Severstal Steel Defect Detection",
+"kind": "公开数据集",
+"ui": "Kaggle竞赛数据页：数据说明、文件列表(图像+标注CSV)、下载按钮、讨论区",
+"n": 1,
+"slug": null
+},
+"Silixa iDAS": {
+"canonical": "Silixa iDAS",
+"kind": "软件产品",
+"ui": "DAS采集仪控制软件：采集参数配置面板(脉冲宽度/gauge length/采样率)+实时应变波形显示+数据文件导出",
+"n": 1,
+"slug": "geology-and-seismic"
+},
+"SKAB": {
+"canonical": "SKAB (Skoltech Anomaly Benchmark)",
+"kind": "公开数据集",
+"ui": "GitHub仓库数据集页：README说明+data/目录按实验分组的CSV文件，直接下载",
+"n": 3,
+"slug": null
+},
+"Smithsonian": {
+"canonical": "Smithsonian Institution",
+"kind": "数据门户",
+"ui": "机构数字馆藏门户：藏品检索/浏览页 + 藏品详情页 + IIIF manifest 链接（可拖入 Mirador/Universal Viewer 查看）+ 元数据与授权信息展示",
+"n": 1,
+"slug": "museum"
+},
+"SMMT": {
+"canonical": "Society of Motor Manufacturers and Traders",
+"kind": "数据门户",
+"ui": "行业协会官网：新闻与统计栏目列表 + 行业月度/年度统计报告页 + PDF/Excel 报表下载 + 会员企业名录",
+"n": 1,
+"slug": null
+},
+"SPDX": {
+"canonical": "Software Package Data Exchange",
+"kind": "代码仓库",
+"ui": "SPDX License List 页面：许可证/例外条款表格 + 单条许可证详情页(ID、全文、别名) + GitHub 仓库中 JSON/XML 数据文件浏览与版本对比",
+"n": 1,
+"slug": "software-bill-of-materials-sbom"
+},
+"Steam": {
+"canonical": "Steam",
+"kind": "软件产品",
+"ui": "Steam 商店客户端/网页：游戏搜索与分类筛选页 + 游戏详情页(名称、多语言标题、简介、价格、截图) + 用户库与评测区",
+"n": 1,
+"slug": "marketplace"
+},
+"Steel Plates Faults": {
+"canonical": "Steel Plates Faults",
+"kind": "公开数据集",
+"ui": "UCI 数据集详情页：说明、27个特征变量表、7类故障标签说明、csv/data 文件下载、引用与许可信息",
+"n": 1,
+"slug": null
+},
+"TCGA": {
+"canonical": "The Cancer Genome Atlas",
+"kind": "数据门户",
+"ui": "GDC Data Portal：项目/队列检索表单 + 病例与样本列表 + 文件下载(表达矩阵、临床注释、突变数据) + 队列统计可视化图表",
+"n": 1,
+"slug": "clinical-research"
+},
+"TreasuryDirect Auction Query": {
+"canonical": "TreasuryDirect Auction Query",
+"kind": "数据门户",
+"ui": "美国财政部拍卖查询工具：按证券类型/期限/日期检索的表单 + 拍卖结果列表 + 单场拍卖详情页(收益率、配售比例) + 逐场官方结果 XML/CSV 下载",
+"n": 1,
+"slug": "fixed-income-pricing-data"
+},
+"ttcrpy": {
+"canonical": "ttcrpy",
+"kind": "代码仓库",
+"ui": "Python 走时计算库，无图形界面：通过代码 import 构建速度网格与射线追踪模型，调用函数生成走时数组；GitHub/PyPI 页面提供源码、API 文档与示例 notebook",
+"n": 2,
+"slug": null
+},
+"Twitch Gamers Social Network": {
+"canonical": "Twitch Gamers Social Network",
+"kind": "公开数据集",
+"ui": "SNAP 数据集页面：图统计信息说明 + 节点/边特征文件列表 + txt/csv 边表与特征下载 + 引用信息",
+"n": 1,
+"slug": null
+},
+"tzdata": {
+"canonical": "tzdata",
+"kind": "代码仓库",
+"ui": "IANA/PyPI 发布页：版本列表 + tar.gz 或 wheel/sdist 包下载 + changelog 说明，无检索界面",
+"n": 2,
+"slug": null
+},
+"UCD": {
+"canonical": "Unicode Character Database",
+"kind": "数据门户",
+"ui": "Unicode.org 数据文件目录：按版本分类的目录树页面 + UnicodeData.txt 等属性/规范化数据文件列表 + 直接文本文件下载，无搜索或图形界面",
+"n": 1,
+"slug": null
+},
+"UCI Appliances Energy Prediction": {
+"canonical": "UCI Appliances Energy Prediction",
+"kind": "公开数据集",
+"ui": "UCI 数据集详情页：说明、传感器与天气变量表、csv 文件下载、引用信息",
+"n": 1,
+"slug": null
+},
+"UCI Bank Marketing": {
+"canonical": "UCI Bank Marketing",
+"kind": "公开数据集",
+"ui": "UCI 数据集详情页：说明、客户与宏观经济变量表、CC-BY 许可说明、csv/data 文件下载",
+"n": 1,
+"slug": null
+},
+"UCI Beijing PM2.5": {
+"canonical": "UCI Beijing PM2.5",
+"kind": "公开数据集",
+"ui": "UCI 数据集详情页：说明、逐小时气象与PM2.5变量表、csv 文件下载、署名引用要求",
+"n": 1,
+"slug": null
+},
+"UCI Bike Sharing Dataset": {
+"canonical": "UCI Bike Sharing Dataset",
+"kind": "公开数据集",
+"ui": "UCI 数据集详情页：说明、逐时租赁与天气/日历变量表、csv 文件下载、引用信息",
+"n": 1,
+"slug": null
+},
+"UCI Concrete Compressive Strength": {
+"canonical": "UCI Concrete Compressive Strength",
+"kind": "公开数据集",
+"ui": "UCI 数据集详情页：说明、8个配合比成分+龄期变量表、单文件(xls/csv)下载、引用信息",
+"n": 1,
+"slug": null
+},
+"UCI Covertype": {
+"canonical": "UCI Covertype",
+"kind": "公开数据集",
+"ui": "UCI 数据集详情页：说明、地形与土壤类型变量表、CC-BY 许可说明、csv/data 文件下载",
+"n": 1,
+"slug": null
+},
+"UCI Human Activity Recognition Using Smartphones": {
+"canonical": "UCI Human Activity Recognition Using Smartphones",
+"kind": "公开数据集",
+"ui": "UCI 数据集详情页：说明、传感器特征变量表与活动标签说明、train/test 数据文件下载、引用信息",
+"n": 3,
+"slug": null
+},
+"UCI Machine Learning Repository": {
+"canonical": "UCI Machine Learning Repository",
+"kind": "数据门户",
+"ui": "数据集检索门户：按领域/任务类型/属性数筛选的数据集列表页 + 每个数据集的详情页(说明、变量表、许可、下载)",
+"n": 1,
+"slug": "machine-learning-data-catalog"
+},
+"UCI Metro Interstate Traffic Volume": {
+"canonical": "UCI Metro Interstate Traffic Volume",
+"kind": "公开数据集",
+"ui": "UCI 数据集详情页：说明、逐小时流量与天气/假期变量表、CC-BY 许可说明、csv 文件下载",
+"n": 2,
+"slug": null
+},
+"UCI Mice Protein Expression": {
+"canonical": "UCI Mice Protein Expression",
+"kind": "公开数据集",
+"ui": "UCI ML Repository 数据集详情页：数据集说明、77个蛋白表达特征列表、基因型/处理/行为分类标签说明、CSV/XLS单文件下载",
+"n": 1,
+"slug": null
+},
+"UCI Online Retail": {
+"canonical": "UCI Online Retail",
+"kind": "公开数据集",
+"ui": "UCI ML Repository 数据集详情页：字段说明(InvoiceNo/StockCode/Description/Quantity/InvoiceDate/UnitPrice/CustomerID/Country)、许可信息、单个Excel/CSV文件下载",
+"n": 1,
+"slug": null
+},
+"UCI SECOM": {
+"canonical": "UCI SECOM",
+"kind": "公开数据集",
+"ui": "UCI ML Repository 数据集详情页：590维匿名传感器特征说明、PASS/FAIL标签、特征矩阵与标签/时间戳两个文件下载",
+"n": 1,
+"slug": null
+},
+"UCI Steel Plates Faults": {
+"canonical": "UCI Steel Plates Faults",
+"kind": "公开数据集",
+"ui": "UCI ML Repository/OpenML 数据集详情页：27个几何光度特征列表、7类缺陷标签说明、单文件(CSV/ARFF)下载",
+"n": 1,
+"slug": null
+},
+"UCI Superconductivity Data": {
+"canonical": "UCI Superconductivity Data",
+"kind": "公开数据集",
+"ui": "UCI ML Repository 数据集详情页：材料属性特征说明、critical_temp目标变量、train.csv/unique_m.csv两文件下载",
+"n": 1,
+"slug": null
+},
+"UCI Wine Quality": {
+"canonical": "UCI Wine Quality",
+"kind": "公开数据集",
+"ui": "UCI ML Repository 数据集详情页：11维理化指标+quality评分说明、红/白葡萄酒两个CSV文件分别下载",
+"n": 1,
+"slug": null
+},
+"UN Comtrade": {
+"canonical": "UN Comtrade",
+"kind": "数据门户",
+"ui": "UN Comtrade 官网查询界面：按国家/商品分类(HS)/年份/流向筛选贸易记录的表单，结果表格在线预览，支持API或批量下载CSV及correlation table",
+"n": 1,
+"slug": null
+},
+"Unity": {
+"canonical": "Unity",
+"kind": "软件产品",
+"ui": "Unity Editor 桌面客户端：Project窗口浏览资源(Prefab/Scene/Material等)、Asset Store/Package Manager面板、版本控制(Git/Plastic)集成界面",
+"n": 1,
+"slug": "game-development"
+},
+"University_Utah_FORGE_78B-32_FMI_dips.las": {
+"canonical": "Utah FORGE",
+"kind": "数据门户",
+"ui": "Utah FORGE/OpenEI 项目数据门户：按井号/测井类型浏览的文件列表页，LAS/CSV等测井解释成果单文件下载，无在线可视化",
+"n": 1,
+"slug": "geology-and-seismic"
+},
+"UNSW-NB15": {
+"canonical": "UNSW-NB15",
+"kind": "公开数据集",
+"ui": "研究机构/GitHub镜像托管的数据集页面：说明文档、CSV格式流特征文件(UNSW-NB15_1-4.csv等)与特征字典下载",
+"n": 1,
+"slug": null
+},
+"USAC": {
+"canonical": "USAC",
+"kind": "数据门户",
+"ui": "USAC E-Rate Open Data门户：Form 471申请检索表单(按学年/州/申请人筛选)，结果列表与逐条详情页，支持批量数据下载(CSV/API)",
+"n": 1,
+"slug": null
+},
+"usaspending": {
+"canonical": "USAspending",
+"kind": "数据门户",
+"ui": "USAspending.gov网站：按机构/受助人/地点/时间筛选的高级搜索表单，结果表格与可视化图表，支持自定义数据集下载(CSV/JSON)及Award详情页",
+"n": 1,
+"slug": "public-financial-management-pfm-system"
+},
+"USDA FoodData Central": {
+"canonical": "USDA FoodData Central",
+"kind": "数据门户",
+"ui": "FoodData Central(fdc.nal.usda.gov)网站：食品搜索框+结果列表，单个食品详情页(营养素表)，另有按数据类型(Foundation/SR Legacy等)批量下载CSV/JSON的Download Data页",
+"n": 1,
+"slug": null
+},
+"USDA PDP": {
+"canonical": "USDA Pesticide Data Program",
+"kind": "数据门户",
+"ui": "USDA PDP官网：年度汇总报告与原始数据下载页，按商品/年份列出数据集文件(CSV/Excel)供下载，无交互式查询界面",
+"n": 1,
+"slug": null
+},
+"USDA RMA": {
+"canonical": "USDA Risk Management Agency",
+"kind": "数据门户",
+"ui": "USDA RMA Summary of Business/Cause of Loss数据下载页：按年份/州/作物筛选，提供原始定长或CSV数据文件与record layout文档下载",
+"n": 1,
+"slug": null
+},
+"USDA Soil Data Access": {
+"canonical": "USDA Soil Data Access",
+"kind": "数据门户",
+"ui": "USDA Soil Data Access(SDA)网站：Web Soil Survey地图选点或SDA SQL查询工具，返回土壤属性表，支持批量下载",
+"n": 1,
+"slug": "gis"
+},
+"USGS": {
+"canonical": "USGS Earthquake Hazards Program",
+"kind": "数据门户",
+"ui": "USGS地震目录/ComCat网站：地图+事件列表检索界面(按时间/区域/震级筛选)，事件详情页展示产品(shakemap/dyfi等)版本历史，支持导出",
+"n": 2,
+"slug": "geology-and-seismic"
+},
+"USGS Earthquake Hazards Program": {
+"canonical": "USGS Earthquake Hazards Program",
+"kind": "数据门户",
+"ui": "USGS地震目录/ComCat网站：地图+事件列表检索界面(按时间/区域/震级筛选)，事件详情页展示产品(shakemap/dyfi等)版本历史，支持导出",
+"n": 1,
+"slug": "geology-and-seismic"
+},
+"USGS FDSN Event Web Service": {
+"canonical": "USGS FDSN Event Web Service",
+"kind": "数据门户",
+"ui": "FDSN Event Web Service：URL参数化REST API(按时间/空间/震级筛选)查询地震目录，返回文本/QuakeML/CSV格式，无网页表单，需拼接HTTP请求",
+"n": 1,
+"slug": "geology-and-seismic"
+},
+"USGS Water Data": {
+"canonical": "USGS Water Data",
+"kind": "数据门户",
+"ui": "USGS National Water Information System(waterservices.usgs.gov)：站点地图/编号检索表单，逐日或实时水文数据表格预览，支持CSV/RDB/JSON下载及API",
+"n": 1,
+"slug": "gis"
+},
+"USITC": {
+"canonical": "United States International Trade Commission (USITC)",
+"kind": "数据门户",
+"ui": "HTS关税查询与修订版下载页面：按修订版本/生效日期检索，章节/税则号列表，税率变更对照表，PDF与结构化数据文件下载",
+"n": 1,
+"slug": "trade-compliance"
+},
+"Utah FORGE": {
+"canonical": "Utah FORGE",
+"kind": "数据门户",
+"ui": "地热试验场数据知识库(GDR)：项目/井位列表，井轨迹测井数据、微震目录文件下载，元数据说明页",
+"n": 4,
+"slug": "geology-and-seismic"
+},
+"VASP": {
+"canonical": "VASP (Vienna Ab initio Simulation Package)",
+"kind": "软件产品",
+"ui": "命令行运行的第一性原理计算软件，无图形界面；通过POSCAR/INCAR/KPOINTS等文本输入文件配置计算，输出OUTCAR/CONTCAR等结果文件",
+"n": 7,
+"slug": "simulation-cae"
+},
+"WG.WCA13": {
+"canonical": "WG.WCA13",
+"kind": "其他",
+"ui": "地震台网数据中心的台站波形检索接口：按网络代码/台站代码/时间窗口查询，返回连续三分量波形与StationXML响应文件，支持批量下载",
+"n": 3,
+"slug": "geology-and-seismic"
+},
+"WHO/ISH": {
+"canonical": "World Health Organization / International Society of Hypertension (WHO/ISH)",
+"kind": "其他",
+"ui": "心血管风险预测图表(PDF/网页)：按地区、年龄、性别、血压、胆固醇、吸烟状态分层的颜色编码风险矩阵，供人工查表",
+"n": 1,
+"slug": "clinical-decision-support"
+},
+"Wikimedia Foundation": {
+"canonical": "Wikimedia Foundation",
+"kind": "其他",
+"ui": "非营利组织年度信息披露页面：Form 990报税表、审计报表、资助名单PDF下载，按财年归档",
+"n": 1,
+"slug": null
+},
+"WRF": {
+"canonical": "Weather Research and Forecasting Model (WRF)",
+"kind": "软件产品",
+"ui": "数值天气预报模式，无标准GUI；通过namelist配置文件设置试验方案，运行后输出netCDF/GRIB格式模式结果，需专用工具后处理",
+"n": 1,
+"slug": "simulation-cae"
+},
+"Zenodo": {
+"canonical": "Zenodo",
+"kind": "数据门户",
+"ui": "研究成果存档平台：搜索/浏览记录，记录详情页含DOI、版本列表、文件清单、许可信息，支持网页直接下载或API访问",
+"n": 1,
+"slug": "document-management"
+},
+"中创新航": {
+"canonical": "中创新航 (CALB)",
+"kind": "其他",
+"ui": "公司信息披露：招股说明书/年度报告PDF，含财务报表及附注，通过交易所或公司官网发布页面获取",
+"n": 1,
+"slug": null
+},
+"天猫": {
+"canonical": "Tmall",
+"kind": "软件产品",
+"ui": "电商平台商家后台：订单管理、退款处理、流量与广告投放数据看板，支持导出Excel/CSV明细报表",
+"n": 1,
+"slug": "e-commerce-platforms"
+},
+"天猫旗舰店": {
+"canonical": "Tmall",
+"kind": "软件产品",
+"ui": "电商平台商家后台：订单管理、退款处理、流量与广告投放数据看板，支持导出Excel/CSV明细报表",
+"n": 1,
+"slug": "e-commerce-platforms"
+},
+"微信小程序": {
+"canonical": "WeChat Mini Program",
+"kind": "软件产品",
+"ui": "小程序商家管理后台：订单、支付、退款记录查询与导出功能",
+"n": 1,
+"slug": "mobile-e-commerce"
+},
+"淘宝": {
+"canonical": "Taobao",
+"kind": "软件产品",
+"ui": "电商平台前台页面：商品详情页(价格、销量、评价)与店铺页面，可直接浏览截图取证",
+"n": 1,
+"slug": "marketplace"
+},
+"美国国会图书馆": {
+"canonical": "Library of Congress",
+"kind": "数据门户",
+"ui": "图书馆书目检索系统：题名/著者/主题/权威号检索表单，记录详情页展示MARC字段，支持MARCXML导出",
+"n": 1,
+"slug": "library-management-systems"
+},
+"美国地质调查局": {
+"canonical": "United States Geological Survey (USGS)",
+"kind": "数据门户",
+"ui": "科学数据发布页面：项目/区域说明，专业格式数据文件(如EDI)列表，元数据说明，批量下载",
+"n": 1,
+"slug": "geology-and-seismic"
+},
+"美联储": {
+"canonical": "Federal Reserve",
+"kind": "数据门户",
+"ui": "监管数据发布页面：压力测试结果与资本要求文件(PDF/Excel)，按年度和情景检索下载",
+"n": 1,
+"slug": "financial-risk-management"
+},
+"职业分类大典": {
+"canonical": "国家职业分类大典",
+"kind": "其他",
+"ui": "职业分类标准文档：分类目录树(大类/中类/小类/细类)，可检索职业名称与代码，PDF或网页呈现",
+"n": 1,
+"slug": null
+}
+}
