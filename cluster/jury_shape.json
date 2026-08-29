@@ -1,0 +1,1352 @@
+[
+{
+"a": "cn-all-remaining-0649-f4bed7ef",
+"b": "cn-all-remaining-0987-086c66e0",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": false,
+"why": "实体规模形态迥异"
+},
+{
+"a": "cn-all-remaining-0865-515ae739",
+"b": "cn-all-remaining-0414-b2da4750",
+"arm": "bucket",
+"slug": "企业运营台账(CRM/合同/采购/项目/库存)",
+"how": "分类",
+"same": false,
+"why": "时序仪表vs线索列表"
+},
+{
+"a": "cn-all-remaining-1255-d3f1f3cb",
+"b": "cn-all-remaining-0348-e08b7fe5",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": false,
+"why": "审计表vs时序预测"
+},
+{
+"a": "cn-all-remaining-1176-1da3ce1d",
+"b": "cn-all-remaining-0352-61295765",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": false,
+"why": "审计表vs时序预测"
+},
+{
+"a": "cn-all-remaining-0006-9effbd05",
+"b": "cn-all-remaining-0746-667d6a72",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类",
+"same": false,
+"why": "QE需多张新页面"
+},
+{
+"a": "cn-all-remaining-0946-f43aaf57",
+"b": "cn-all-remaining-1252-1e0765a9",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类+点名",
+"same": false,
+"why": "统计建模vs谱系闭包"
+},
+{
+"a": "cn-all-remaining-0163-f216c49f",
+"b": "cn-all-remaining-0481-7ab34177",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": false,
+"why": "波形处理vs简单聚合"
+},
+{
+"a": "cn-all-remaining-1094-a7759ced",
+"b": "cn-all-remaining-0207-8b063b46",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": true,
+"why": "记录+优先队列同构"
+},
+{
+"a": "cn-all-remaining-0974-4790d8bf",
+"b": "cn-all-remaining-1187-c0c21c44",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": false,
+"why": "扁平核对vs版本谱系"
+},
+{
+"a": "cn-all-remaining-0827-a07867a4",
+"b": "cn-all-remaining-0968-a554494c",
+"arm": "bucket",
+"slug": "企业运营台账(CRM/合同/采购/项目/库存)",
+"how": "分类",
+"same": false,
+"why": "多实体研究vs扁平核对"
+},
+{
+"a": "cn-all-remaining-0977-49dbb8c6",
+"b": "cn-all-remaining-0063-4a16f58b",
+"arm": "bucket",
+"slug": "时序监测点/日志事件记录",
+"how": "分类+点名",
+"same": false,
+"why": "字段核验vs时序异常检测"
+},
+{
+"a": "cn-all-remaining-0090-ab9a3d0b",
+"b": "cn-all-remaining-0163-f216c49f",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": false,
+"why": "PPT研究报告vs波形处理"
+},
+{
+"a": "cn-all-remaining-1253-671145bb",
+"b": "cn-all-remaining-0518-b6641c0c",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": false,
+"why": "层级资源图vs扁平记录"
+},
+{
+"a": "cn-all-remaining-0072-1e08f36f",
+"b": "cn-all-remaining-1145-c17d3877",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": false,
+"why": "时序预测vs分类映射审计"
+},
+{
+"a": "cn-all-remaining-0642-a70454dd",
+"b": "cn-all-remaining-0635-08f8465d",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": true,
+"why": "实体+关联+对账审计同形"
+},
+{
+"a": "cn-all-remaining-0299-fe86cac8",
+"b": "cn-all-remaining-1183-ad6aeed5",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": true,
+"why": "记录聚合对官方报表同形"
+},
+{
+"a": "cn-all-remaining-0421-9128c0d2",
+"b": "cn-all-remaining-0833-4b7ceef4",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类",
+"same": false,
+"why": "多站点网络vs单体动物"
+},
+{
+"a": "cn-all-remaining-0871-83e54e58",
+"b": "cn-all-remaining-0865-515ae739",
+"arm": "bucket",
+"slug": "企业运营台账(CRM/合同/采购/项目/库存)",
+"how": "分类",
+"same": true,
+"why": "实体风险评分+行动计划"
+},
+{
+"a": "cn-all-remaining-0635-08f8465d",
+"b": "cn-all-remaining-0170-55cf9dab",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": false,
+"why": "后端审计vs可视化仪表盘"
+},
+{
+"a": "cn-all-remaining-0328-9e64a75f",
+"b": "cn-all-remaining-0804-65e4e048",
+"arm": "bucket",
+"slug": "时序监测点/日志事件记录",
+"how": "分类",
+"same": false,
+"why": "游戏事件日志vs电力波形"
+},
+{
+"a": "cn-all-remaining-0689-df5209ab",
+"b": "cn-all-remaining-0412-a20676d9",
+"arm": "bucket",
+"slug": "招聘/公告类列表",
+"how": "分类",
+"same": true,
+"why": "都是岗位记录+研究报告"
+},
+{
+"a": "cn-all-remaining-0975-ea568465",
+"b": "cn-all-remaining-0705-ab3d6465",
+"arm": "bucket",
+"slug": "时序监测点/日志事件记录",
+"how": "分类",
+"same": false,
+"why": "B需网架拓扑图"
+},
+{
+"a": "cn-all-remaining-0157-48c5ea38",
+"b": "cn-all-remaining-1249-ce04e010",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": false,
+"why": "字段实体完全不同"
+},
+{
+"a": "cn-all-remaining-0346-54ee7ce2",
+"b": "cn-all-remaining-0348-e08b7fe5",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": true,
+"why": "同模板递归预测任务"
+},
+{
+"a": "cn-all-remaining-0063-4a16f58b",
+"b": "cn-all-remaining-0398-6d389a9a",
+"arm": "bucket",
+"slug": "时序监测点/日志事件记录",
+"how": "分类+点名",
+"same": false,
+"why": "A单文件ML,B多交付审计"
+},
+{
+"a": "cn-all-remaining-1097-96b36b44",
+"b": "cn-all-remaining-0576-f1a9f22f",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": false,
+"why": "后端审计vs前端UI"
+},
+{
+"a": "cn-all-remaining-1101-68974701",
+"b": "cn-all-remaining-0323-3f584fd1",
+"arm": "bucket",
+"slug": "招聘/公告类列表",
+"how": "分类",
+"same": true,
+"why": "同为招聘人才研究报告"
+},
+{
+"a": "cn-all-remaining-1166-f86d5a49",
+"b": "cn-all-remaining-1259-7713fc3c",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": true,
+"why": "同为政府记录对账审计"
+},
+{
+"a": "cn-all-remaining-0435-cb32ec24",
+"b": "cn-all-remaining-0823-2981b536",
+"arm": "bucket",
+"slug": "主体档案+关联事件时间线",
+"how": "分类",
+"same": false,
+"why": "三角矩阵vs排程日历"
+},
+{
+"a": "cn-all-remaining-1151-3a37412b",
+"b": "cn-all-remaining-0183-f366890f",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": false,
+"why": "关系记录vs卫星影像"
+},
+{
+"a": "cn-all-remaining-0356-d600f1dc",
+"b": "cn-all-remaining-1167-66c3f015",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": true,
+"why": "都是多源证据逐项定谳"
+},
+{
+"a": "cn-all-remaining-0302-299009d0",
+"b": "cn-all-remaining-0577-09649bc4",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "分类+点名",
+"same": false,
+"why": "百万级时序vs小型枚举记录"
+},
+{
+"a": "cn-all-remaining-1249-ce04e010",
+"b": "cn-all-remaining-0518-b6641c0c",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": false,
+"why": "注册表审计vs策略模拟函数"
+},
+{
+"a": "cn-all-remaining-0299-fe86cac8",
+"b": "cn-all-remaining-1165-1a802104",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": true,
+"why": "官方大数据集对账审计"
+},
+{
+"a": "cn-all-remaining-0400-2d892a5f",
+"b": "cn-all-remaining-0220-bb326e7d",
+"arm": "bucket",
+"slug": "主体档案+关联事件时间线",
+"how": "分类",
+"same": false,
+"why": "病例回归审计vs会员召回"
+},
+{
+"a": "cn-all-remaining-0696-91bc054f",
+"b": "cn-all-remaining-0708-9b5c804a",
+"arm": "bucket",
+"slug": "主体档案+关联事件时间线",
+"how": "分类+点名",
+"same": true,
+"why": "同为临床试验多源核查"
+},
+{
+"a": "cn-all-remaining-0278-95674282",
+"b": "cn-all-remaining-1140-3069d89e",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "分类+点名",
+"same": false,
+"why": "时序预测vs桑基图可视化"
+},
+{
+"a": "cn-all-remaining-1262-e78cfd80",
+"b": "cn-all-remaining-0950-9dedf66d",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类+点名",
+"same": false,
+"why": "案件闭包vs地下水监测趋势"
+},
+{
+"a": "cn-all-remaining-0930-3befd0d2",
+"b": "cn-all-remaining-0761-75887f16",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "分类+点名",
+"same": false,
+"why": "电商归因vs备件供应链"
+},
+{
+"a": "cn-all-remaining-1152-b88db992",
+"b": "cn-all-remaining-0379-fa0f25f9",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": false,
+"why": "案卷审计vs估值定价模型"
+},
+{
+"a": "cn-all-remaining-0765-2e0c67fe",
+"b": "cn-all-remaining-0166-b4934700",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类+点名",
+"same": false,
+"why": "排产管理vs算法计算"
+},
+{
+"a": "cn-all-remaining-0302-299009d0",
+"b": "cn-all-remaining-0322-c294fc85",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "分类+点名",
+"same": false,
+"why": "ETL管道vs审计报告"
+},
+{
+"a": "cn-all-remaining-0618-a217bf7e",
+"b": "cn-all-remaining-0606-2a5f0d02",
+"arm": "bucket",
+"slug": "工单/缺陷/客服/审批跟踪",
+"how": "分类",
+"same": true,
+"why": "同模板process函数"
+},
+{
+"a": "cn-all-remaining-1180-0e2cadcc",
+"b": "cn-all-remaining-0477-0fe64a0f",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": false,
+"why": "口岸审计vs时序预测"
+},
+{
+"a": "cn-all-remaining-0444-8561ae74",
+"b": "cn-all-remaining-0006-9effbd05",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类",
+"same": false,
+"why": "晶圆SPC vs成本表"
+},
+{
+"a": "cn-all-remaining-1130-de532a93",
+"b": "cn-all-remaining-0679-f7d822c2",
+"arm": "bucket",
+"slug": "招聘/公告类列表",
+"how": "分类",
+"same": false,
+"why": "多实体vs单一列表"
+},
+{
+"a": "cn-all-remaining-0407-b77013e8",
+"b": "cn-all-remaining-0928-d694ced9",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类",
+"same": false,
+"why": "批次判定vs生长曲线"
+},
+{
+"a": "cn-all-remaining-0745-5cca1ad5",
+"b": "cn-all-remaining-1190-ee12ce0a",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类+点名",
+"same": false,
+"why": "时序漂移vs名录核对"
+},
+{
+"a": "cn-all-remaining-1177-c31afdfe",
+"b": "cn-all-remaining-1185-d7d58067",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": true,
+"why": "同类跨源核对审计"
+},
+{
+"a": "cn-all-remaining-0858-a77c2bc1",
+"b": "cn-all-remaining-0435-cb32ec24",
+"arm": "bucket",
+"slug": "主体档案+关联事件时间线",
+"how": "分类",
+"same": true,
+"why": "持仓/理赔列表建模"
+},
+{
+"a": "cn-all-remaining-1218-8fa644b4",
+"b": "cn-all-remaining-0165-b35850c6",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": false,
+"why": "审计报告 vs 详情API服务"
+},
+{
+"a": "cn-all-remaining-0966-56d245f7",
+"b": "cn-all-remaining-0669-c5296d6d",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "分类",
+"same": true,
+"why": "都是对账复算+发布判定"
+},
+{
+"a": "cn-all-remaining-0862-62ba3ff3",
+"b": "cn-all-remaining-0670-306d841f",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "分类+点名",
+"same": false,
+"why": "营销复盘 vs 供应链排程"
+},
+{
+"a": "cn-all-remaining-1112-88167b19",
+"b": "cn-all-remaining-1146-6532ab9d",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": true,
+"why": "科研数据版本审计+图表"
+},
+{
+"a": "cn-all-remaining-0970-194c0e46",
+"b": "cn-all-remaining-0435-cb32ec24",
+"arm": "bucket",
+"slug": "主体档案+关联事件时间线",
+"how": "分类",
+"same": false,
+"why": "单据对账 vs 精算三角模型"
+},
+{
+"a": "cn-all-remaining-0328-9e64a75f",
+"b": "cn-all-remaining-0943-467f2a4f",
+"arm": "bucket",
+"slug": "时序监测点/日志事件记录",
+"how": "分类",
+"same": true,
+"why": "多类测试+阈值+发布判定"
+},
+{
+"a": "cn-all-remaining-0853-2e697bcb",
+"b": "cn-all-remaining-0723-215c4ee4",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "分类+点名",
+"same": true,
+"why": "同职业薪酬研究几乎重复"
+},
+{
+"a": "cn-all-remaining-1165-1a802104",
+"b": "cn-all-remaining-0693-64f8726a",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": false,
+"why": "疫情计数调和 vs 职业薪酬"
+},
+{
+"a": "cn-all-remaining-0967-40ec7019",
+"b": "cn-all-remaining-0862-62ba3ff3",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "分类+点名",
+"same": false,
+"why": "话单对账 vs 经营复盘看板"
+},
+{
+"a": "cn-all-remaining-0763-7c2e7f10",
+"b": "cn-all-remaining-0801-3012a7dc",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类",
+"same": true,
+"why": "工程质量核验+放行判定"
+},
+{
+"a": "cn-all-remaining-0929-cfedb11d",
+"b": "cn-all-remaining-0423-6de57e18",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类",
+"same": false,
+"why": "阈值放行vs通量时间序列"
+},
+{
+"a": "cn-all-remaining-0220-bb326e7d",
+"b": "cn-all-remaining-1164-4f0e142d",
+"arm": "bucket",
+"slug": "主体档案+关联事件时间线",
+"how": "分类+点名",
+"same": false,
+"why": "会员名单vs银行资本审计"
+},
+{
+"a": "cn-all-remaining-0912-51d4ac3e",
+"b": "cn-all-remaining-0348-e08b7fe5",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "分类+点名",
+"same": false,
+"why": "批次验收vs单序列预测"
+},
+{
+"a": "cn-all-remaining-0823-2981b536",
+"b": "cn-all-remaining-0437-3f3825f9",
+"arm": "bucket",
+"slug": "主体档案+关联事件时间线",
+"how": "分类",
+"same": false,
+"why": "人员分层vs理赔三角"
+},
+{
+"a": "cn-all-remaining-0649-f4bed7ef",
+"b": "cn-all-remaining-0636-316cb833",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": true,
+"why": "双快照对账+同导出结构"
+},
+{
+"a": "cn-all-remaining-1224-25c363a2",
+"b": "cn-all-remaining-0170-55cf9dab",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": false,
+"why": "审计报告vs可浏览网站"
+},
+{
+"a": "cn-all-remaining-1246-c333a712",
+"b": "cn-all-remaining-0356-d600f1dc",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": false,
+"why": "供应链谱系vs变异证据表"
+},
+{
+"a": "cn-all-remaining-1224-25c363a2",
+"b": "cn-all-remaining-0183-f366890f",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": false,
+"why": "表格对账vs栅格像元分类"
+},
+{
+"a": "cn-all-remaining-1146-6532ab9d",
+"b": "cn-all-remaining-0481-7ab34177",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": false,
+"why": "多源星历审计vs聚合统计"
+},
+{
+"a": "cn-all-remaining-0958-a386a245",
+"b": "cn-all-remaining-1101-68974701",
+"arm": "bucket",
+"slug": "招聘/公告类列表",
+"how": "分类",
+"same": true,
+"why": "岗位+问卷+访谈同构研究"
+},
+{
+"a": "cn-all-remaining-0978-44ed4df9",
+"b": "cn-all-remaining-0493-755ec260",
+"arm": "bucket",
+"slug": "时序监测点/日志事件记录",
+"how": "分类",
+"same": true,
+"why": "同为记录级计算比对审计"
+},
+{
+"a": "cn-all-remaining-0868-8fb1b76d",
+"b": "cn-all-remaining-0296-45de6b63",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "分类+点名",
+"same": false,
+"why": "决策优化vs大规模ETL管道"
+},
+{
+"a": "cn-all-remaining-0411-51fd07e5",
+"b": "cn-all-remaining-0415-4696e896",
+"arm": "bucket",
+"slug": "招聘/公告类列表",
+"how": "分类",
+"same": false,
+"why": "B多企业/访谈/项目实体"
+},
+{
+"a": "cn-all-remaining-0183-f366890f",
+"b": "cn-all-remaining-0642-a70454dd",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": false,
+"why": "栅格影像vs实体关系图谱"
+},
+{
+"a": "cn-all-remaining-1166-f86d5a49",
+"b": "cn-all-remaining-0633-f8c6a3ac",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": true,
+"why": "同款法规快照审计管道"
+},
+{
+"a": "cn-all-remaining-0716-978e33d8",
+"b": "cn-all-remaining-1254-9691ae4f",
+"arm": "bucket",
+"slug": "时序监测点/日志事件记录",
+"how": "分类+点名",
+"same": false,
+"why": "A需地图污染羽图形"
+},
+{
+"a": "cn-all-remaining-0692-1233fccb",
+"b": "cn-all-remaining-0072-1e08f36f",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": false,
+"why": "研究报告vs时序预测"
+},
+{
+"a": "cn-all-remaining-0792-a46854a7",
+"b": "cn-all-remaining-0858-a77c2bc1",
+"arm": "bucket",
+"slug": "主体档案+关联事件时间线",
+"how": "分类",
+"same": true,
+"why": "多源核对+个体级判定"
+},
+{
+"a": "cn-all-remaining-0670-306d841f",
+"b": "cn-all-remaining-0976-5aa6f01c",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "分类",
+"same": false,
+"why": "网络优化vs单表计费核验"
+},
+{
+"a": "cn-all-remaining-0636-316cb833",
+"b": "cn-all-remaining-1256-543f9374",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": true,
+"why": "同款监管数据审计模板"
+},
+{
+"a": "cn-all-remaining-0966-56d245f7",
+"b": "cn-all-remaining-0420-dc253cc1",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "分类",
+"same": false,
+"why": "审计比对vs优化决策"
+},
+{
+"a": "cn-all-remaining-0007-05d253cc",
+"b": "cn-all-remaining-0696-91bc054f",
+"arm": "bucket",
+"slug": "主体档案+关联事件时间线",
+"how": "分类+点名",
+"same": false,
+"why": "研报vs多源核对清单"
+},
+{
+"a": "cn-all-remaining-0978-44ed4df9",
+"b": "cn-all-remaining-0758-4e0bb5b1",
+"arm": "bucket",
+"slug": "时序监测点/日志事件记录",
+"how": "分类",
+"same": false,
+"why": "记录审计vs工程诊断"
+},
+{
+"a": "cn-all-remaining-0135-8319cf05",
+"b": "cn-all-remaining-0322-c294fc85",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "分类+点名",
+"same": false,
+"why": "地震统计vs采购复盘"
+},
+{
+"a": "cn-all-remaining-1188-be477324",
+"b": "cn-all-remaining-0853-2e697bcb",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "分类+点名",
+"same": false,
+"why": "血缘审计vs薪酬研究"
+},
+{
+"a": "cn-all-remaining-1145-c17d3877",
+"b": "cn-all-remaining-1146-6532ab9d",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": true,
+"why": "都是跨源匹配审计"
+},
+{
+"a": "cn-all-remaining-1246-c333a712",
+"b": "cn-all-remaining-0648-a8828ee9",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": true,
+"why": "都是生命周期审计"
+},
+{
+"a": "cn-all-remaining-1173-7c23ef43",
+"b": "cn-all-remaining-0183-f366890f",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": false,
+"why": "事件图谱vs像素分类"
+},
+{
+"a": "cn-all-remaining-0958-a386a245",
+"b": "cn-all-remaining-0397-64a67ace",
+"arm": "bucket",
+"slug": "招聘/公告类列表",
+"how": "分类",
+"same": true,
+"why": "岗位样本能力编码"
+},
+{
+"a": "cn-all-remaining-0296-45de6b63",
+"b": "cn-all-remaining-0789-19e1e516",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "分类+点名",
+"same": false,
+"why": "航班审计vs仓网决策"
+},
+{
+"a": "cn-all-remaining-1218-8fa644b4",
+"b": "cn-all-remaining-1185-d7d58067",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": true,
+"why": "都是实体对账审计+孤儿检测"
+},
+{
+"a": "cn-all-remaining-0330-f8d853da",
+"b": "cn-all-remaining-0716-978e33d8",
+"arm": "bucket",
+"slug": "时序监测点/日志事件记录",
+"how": "分类",
+"same": false,
+"why": "时间序列图vs空间羽流图"
+},
+{
+"a": "cn-all-remaining-0648-a8828ee9",
+"b": "cn-all-remaining-0207-8b063b46",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": true,
+"why": "都是记录审计+优先级队列"
+},
+{
+"a": "cn-all-remaining-0930-3befd0d2",
+"b": "cn-all-remaining-0351-c0f3eb29",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "点名",
+"same": false,
+"why": "归因看板vs图链接预测"
+},
+{
+"a": "cn-all-remaining-1176-1da3ce1d",
+"b": "cn-all-remaining-0090-ab9a3d0b",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": false,
+"why": "数据审计vs PPT研究报告"
+},
+{
+"a": "cn-all-remaining-0822-6a5c9899",
+"b": "cn-all-remaining-0911-57247e16",
+"arm": "bucket",
+"slug": "企业运营台账(CRM/合同/采购/项目/库存)",
+"how": "分类+点名",
+"same": false,
+"why": "GIS可达性vs造价台账"
+},
+{
+"a": "cn-all-remaining-0021-e1224663",
+"b": "cn-all-remaining-1152-b88db992",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": true,
+"why": "实体名单+证据链审计"
+},
+{
+"a": "cn-all-remaining-1099-a6550f2f",
+"b": "cn-all-remaining-0850-f0bd0a8c",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": false,
+"why": "记录对账vs带页码标签矩阵"
+},
+{
+"a": "cn-all-remaining-0318-6f22c371",
+"b": "cn-all-remaining-0856-1dd34f40",
+"arm": "bucket",
+"slug": "企业运营台账(CRM/合同/采购/项目/库存)",
+"how": "分类",
+"same": true,
+"why": "订单级归因看板同形"
+},
+{
+"a": "cn-all-remaining-0298-23ad7da2",
+"b": "cn-all-remaining-0908-a1d40822",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类+点名",
+"same": false,
+"why": "事故表格vs材料多源图像"
+},
+{
+"a": "cn-all-remaining-1262-e78cfd80",
+"b": "cn-all-remaining-0407-b77013e8",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类+点名",
+"same": false,
+"why": "字段体系不同"
+},
+{
+"a": "cn-all-remaining-0853-2e697bcb",
+"b": "cn-all-remaining-0209-c0b07690",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "分类+点名",
+"same": false,
+"why": "统计报告vs时序预测"
+},
+{
+"a": "cn-all-remaining-0440-a3ce5637",
+"b": "cn-all-remaining-0828-6335c106",
+"arm": "bucket",
+"slug": "时序监测点/日志事件记录",
+"how": "分类",
+"same": false,
+"why": "能源改造vs电信路测"
+},
+{
+"a": "cn-all-remaining-0817-a25cf14a",
+"b": "cn-all-remaining-1163-87b43970",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类+点名",
+"same": false,
+"why": "产线OEE vs 土壤调查"
+},
+{
+"a": "cn-all-remaining-1126-ac0908b4",
+"b": "cn-all-remaining-0828-6335c106",
+"arm": "bucket",
+"slug": "时序监测点/日志事件记录",
+"how": "分类+点名",
+"same": false,
+"why": "地震目录vs电信路测"
+},
+{
+"a": "cn-all-remaining-0676-ae727883",
+"b": "cn-all-remaining-0639-858c15f4",
+"arm": "bucket",
+"slug": "设备/资产台账+维护记录",
+"how": "分类+点名",
+"same": false,
+"why": "架构评审vs发电量核对"
+},
+{
+"a": "cn-all-remaining-1165-1a802104",
+"b": "cn-all-remaining-1145-c17d3877",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": true,
+"why": "均为版本调和审计"
+},
+{
+"a": "cn-all-remaining-0442-86e060cb",
+"b": "cn-all-remaining-0676-ae727883",
+"arm": "bucket",
+"slug": "设备/资产台账+维护记录",
+"how": "分类",
+"same": false,
+"why": "RF优化vs云架构评审"
+},
+{
+"a": "cn-all-remaining-0674-84436791",
+"b": "cn-all-remaining-0723-215c4ee4",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": true,
+"why": "同职业薪酬研究"
+},
+{
+"a": "cn-all-remaining-0166-b4934700",
+"b": "cn-all-remaining-0407-b77013e8",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类+点名",
+"same": false,
+"why": "地震重定位vs批次质检"
+},
+{
+"a": "cn-all-remaining-0901-a1264e29",
+"b": "cn-all-remaining-0946-f43aaf57",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类",
+"same": true,
+"why": "都是统计分析出固定报告"
+},
+{
+"a": "cn-all-remaining-0162-c827b242",
+"b": "cn-all-remaining-1149-9529549a",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": false,
+"why": "检索API vs 频谱对账审计"
+},
+{
+"a": "cn-all-remaining-0794-37667882",
+"b": "cn-all-remaining-0446-824b7977",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类",
+"same": true,
+"why": "批次质量放行判定同构"
+},
+{
+"a": "cn-all-remaining-0941-29ec8b45",
+"b": "cn-all-remaining-0948-b0c93dc1",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类",
+"same": true,
+"why": "批次/机台过程能力审计"
+},
+{
+"a": "cn-all-remaining-0870-cba7c850",
+"b": "cn-all-remaining-1101-68974701",
+"arm": "bucket",
+"slug": "招聘/公告类列表",
+"how": "分类",
+"same": true,
+"why": "人才市场薪酬研究同构"
+},
+{
+"a": "cn-all-remaining-0763-7c2e7f10",
+"b": "cn-all-remaining-0754-26345d25",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类",
+"same": false,
+"why": "工程验收 vs 货架期建模"
+},
+{
+"a": "cn-all-remaining-0845-a6a750c1",
+"b": "cn-all-remaining-0723-215c4ee4",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": false,
+"why": "气象复算 vs 岗位薪酬研究"
+},
+{
+"a": "cn-all-remaining-1246-c333a712",
+"b": "cn-all-remaining-1173-7c23ef43",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": true,
+"why": "跨源血缘对账审计同构"
+},
+{
+"a": "cn-all-remaining-0438-8bd2d962",
+"b": "cn-all-remaining-0976-5aa6f01c",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "分类",
+"same": false,
+"why": "湖仓ETL实体远多于计费核验"
+},
+{
+"a": "cn-all-remaining-0608-a7575ce7",
+"b": "cn-all-remaining-1218-8fa644b4",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": false,
+"why": "检索证据函数 vs 专利对账审计"
+},
+{
+"a": "cn-all-remaining-1175-e6dc03a4",
+"b": "cn-all-remaining-1221-592f6bbe",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": true,
+"why": "均为周期报告核对生命周期"
+},
+{
+"a": "cn-all-remaining-0841-33f3a229",
+"b": "cn-all-remaining-0871-83e54e58",
+"arm": "bucket",
+"slug": "企业运营台账(CRM/合同/采购/项目/库存)",
+"how": "分类",
+"same": true,
+"why": "12条记录+多源核对+决策计划"
+},
+{
+"a": "cn-all-remaining-0696-91bc054f",
+"b": "cn-all-remaining-0858-a77c2bc1",
+"arm": "bucket",
+"slug": "主体档案+关联事件时间线",
+"how": "分类+点名",
+"same": false,
+"why": "访视时间窗vs静态风险指标"
+},
+{
+"a": "cn-all-remaining-1175-e6dc03a4",
+"b": "cn-all-remaining-1185-d7d58067",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": true,
+"why": "同为法规多源核对生命周期"
+},
+{
+"a": "cn-all-remaining-0222-930d164f",
+"b": "cn-all-remaining-0971-9cb42684",
+"arm": "bucket",
+"slug": "主体档案+关联事件时间线",
+"how": "分类",
+"same": false,
+"why": "PK曲线分析vs简单字段核对"
+},
+{
+"a": "cn-all-remaining-0493-755ec260",
+"b": "cn-all-remaining-1254-9691ae4f",
+"arm": "bucket",
+"slug": "时序监测点/日志事件记录",
+"how": "分类+点名",
+"same": false,
+"why": "聚合诊断报告vs站点月度矩阵"
+},
+{
+"a": "cn-all-remaining-0356-d600f1dc",
+"b": "cn-all-remaining-1266-830a170d",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": false,
+"why": "静态证据表vs文书生命周期"
+},
+{
+"a": "cn-all-remaining-1167-66c3f015",
+"b": "cn-all-remaining-1218-8fa644b4",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": true,
+"why": "跨文件核对生命周期审计"
+},
+{
+"a": "cn-all-remaining-1099-a6550f2f",
+"b": "cn-all-remaining-0630-3d193fa5",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": true,
+"why": "多实体跨库核对审计"
+},
+{
+"a": "cn-all-remaining-1251-b6824008",
+"b": "cn-all-remaining-0974-4790d8bf",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": false,
+"why": "复杂图谱vs扁平字段核对"
+},
+{
+"a": "cn-all-remaining-0948-b0c93dc1",
+"b": "cn-all-remaining-0938-0175cfde",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类",
+"same": false,
+"why": "B多环节实体远超A"
+},
+{
+"a": "cn-all-remaining-0872-cbef5357",
+"b": "cn-all-remaining-0457-b003c365",
+"arm": "bucket",
+"slug": "设备/资产台账+维护记录",
+"how": "分类",
+"same": false,
+"why": "研究报告vs工程优化"
+},
+{
+"a": "cn-all-remaining-0006-9effbd05",
+"b": "cn-all-remaining-1190-ee12ce0a",
+"arm": "bucket",
+"slug": "批次-样品-检验/QC记录(LIMS/MES)",
+"how": "分类+点名",
+"same": false,
+"why": "成本表vs天体清单"
+},
+{
+"a": "cn-all-remaining-1255-d3f1f3cb",
+"b": "cn-all-remaining-0278-95674282",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": false,
+"why": "库存审计vs纯预测"
+},
+{
+"a": "cn-all-remaining-0483-e7f016ec",
+"b": "cn-all-remaining-0845-a6a750c1",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": false,
+"why": "简单汇总vs复杂审计"
+},
+{
+"a": "cn-all-remaining-1192-e8a7b525",
+"b": "cn-all-remaining-0477-0fe64a0f",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": false,
+"why": "政策审计vs预测任务"
+},
+{
+"a": "cn-all-remaining-0630-3d193fa5",
+"b": "cn-all-remaining-0636-316cb833",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": false,
+"why": "B多引用图组件"
+},
+{
+"a": "cn-all-remaining-0976-5aa6f01c",
+"b": "cn-all-remaining-0969-6df0820b",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "分类",
+"same": true,
+"why": "计费核验结构相同"
+},
+{
+"a": "cn-all-remaining-0351-c0f3eb29",
+"b": "cn-all-remaining-0969-6df0820b",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "分类+点名",
+"same": false,
+"why": "图链接预测vs计费审计"
+},
+{
+"a": "cn-all-remaining-0636-316cb833",
+"b": "cn-all-remaining-1099-a6550f2f",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "点名",
+"same": false,
+"why": "文本diff vs矿场清单"
+},
+{
+"a": "cn-all-remaining-0005-c20d1c2e",
+"b": "cn-all-remaining-0695-73fb8b8c",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "分类",
+"same": false,
+"why": "B多实体对账，A单广告表"
+},
+{
+"a": "cn-all-remaining-0802-f5452942",
+"b": "cn-all-remaining-0222-930d164f",
+"arm": "bucket",
+"slug": "主体档案+关联事件时间线",
+"how": "分类+点名",
+"same": false,
+"why": "医嘱审核vs药代统计建模"
+},
+{
+"a": "cn-all-remaining-0019-034c6ce9",
+"b": "cn-all-remaining-0814-762c2157",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "分类",
+"same": false,
+"why": "贸易面板回归vs三方对账"
+},
+{
+"a": "cn-all-remaining-0827-a07867a4",
+"b": "cn-all-remaining-0410-7e8ac79d",
+"arm": "bucket",
+"slug": "企业运营台账(CRM/合同/采购/项目/库存)",
+"how": "分类",
+"same": false,
+"why": "城市评分vs清单项审核"
+},
+{
+"a": "cn-all-remaining-0314-df121ac2",
+"b": "cn-all-remaining-1224-25c363a2",
+"arm": "bucket",
+"slug": "可检索档案库+详情页",
+"how": "分类+点名",
+"same": false,
+"why": "竞品目录vs漏洞对账"
+},
+{
+"a": "cn-all-remaining-0978-44ed4df9",
+"b": "cn-all-remaining-0977-49dbb8c6",
+"arm": "bucket",
+"slug": "时序监测点/日志事件记录",
+"how": "分类",
+"same": true,
+"why": "同款封板复核审计骨架"
+},
+{
+"a": "cn-all-remaining-0669-c5296d6d",
+"b": "cn-all-remaining-0761-75887f16",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "分类",
+"same": false,
+"why": "事件重放求解vs物流调拨"
+},
+{
+"a": "cn-all-remaining-0063-4a16f58b",
+"b": "cn-all-remaining-0979-0d29ab51",
+"arm": "bucket",
+"slug": "时序监测点/日志事件记录",
+"how": "分类+点名",
+"same": false,
+"why": "时序异常检测vs字段核验"
+},
+{
+"a": "cn-all-remaining-0483-e7f016ec",
+"b": "cn-all-remaining-0723-215c4ee4",
+"arm": "bucket",
+"slug": "单表统计/观测数据下载门户",
+"how": "点名",
+"same": false,
+"why": "join聚合vs市场研究报告"
+},
+{
+"a": "cn-all-remaining-0814-762c2157",
+"b": "cn-all-remaining-0438-8bd2d962",
+"arm": "bucket",
+"slug": "订单/交易/支付/退款/物流流水",
+"how": "分类",
+"same": false,
+"why": "三方对账vs湖仓分层治理"
+}
+]
