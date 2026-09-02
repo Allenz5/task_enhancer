@@ -77,9 +77,22 @@ page?
 }
 ```
 
-`blocking` means the noise damaged the task or is trivially separable from it -- findings
-1, 2 and 4, and the worst of 3. `cosmetic` means it is imperfect but the environment
-works. Set `"ok": false` if there is any blocking finding.
+`blocking` is a closed list. A finding is blocking only if it is one of:
+
+- **a.** the task's records can no longer be selected through the interface (finding 1)
+- **b.** a noise row contradicts a task record about the same real-world thing (finding 2)
+- **c.** a tell that works through the interface's own controls -- a drop-down option, a
+  sort, or something read straight off a list column -- separating task from noise
+  without understanding the task (the sharpest of findings 3 and 4)
+
+Everything else is `cosmetic`: a difference that only shows up by reading many rows,
+comparing distributions, or opening detail pages one by one. Real, worth reporting, not
+blocking. A generated store will always differ statistically from a real one somewhere;
+holding out for that is holding out forever, and each rewrite risks the coarser tells
+coming back. Judge each finding against the list above, not against how clean the store
+has already become.
+
+Set `"ok": false` if there is any blocking finding.
 
 Do not edit any data yourself. Do not try to solve the benchmark task. Report.
 """
@@ -97,10 +110,17 @@ def review(env: Path, model: str = "opus") -> tuple[bool, dict, agent.AgentResul
     return report.get("ok", False) and not blocking, report, result
 
 
-def blocking_lines(report: dict) -> list[str]:
-    return [f"{f.get('entity') or '-'}.{f.get('field') or '-'}: {f.get('what')} "
-            f"-> {f.get('fix')}"
-            for f in report.get("findings", []) if f.get("severity") == "blocking"]
+def finding_lines(report: dict) -> list[str]:
+    """Blocking findings first, then cosmetic ones -- both labelled.
+
+    Only blocking findings decide whether the loop runs again, but a cosmetic one that is
+    never handed back is never fixed, and they accumulate across attempts.
+    """
+    findings = report.get("findings", [])
+    order = {"blocking": 0, "cosmetic": 1}
+    return [f"[{f.get('severity')}] {f.get('entity') or '-'}.{f.get('field') or '-'}: "
+            f"{f.get('what')} -> {f.get('fix')}"
+            for f in sorted(findings, key=lambda f: order.get(f.get("severity"), 2))]
 
 
 if __name__ == "__main__":

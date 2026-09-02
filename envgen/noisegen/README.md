@@ -91,14 +91,22 @@ grows.
 2. no noise row's `partition` value is one the task occupies, or one the plan did not declare
 3. no noise row carries a foreign key held by a task row, and none dangles
 4. every value of a field with an `enum` is inside that enum
-5. **populated-column parity** -- a field populated on most task rows is populated on the
+5. **no drop-down option belongs to the task alone.** A filterable dimension value that
+   only task rows carry is a one-click answer. The partition is exempt -- it is the
+   selection criterion, and the judgement is working out *which* criterion the task
+   implies, not having none. So is a dimension whose options are keyed by another (a
+   neighbourhood of Austin cannot occur in Seattle; a Seattle company can be Series A)
+6. **populated-column parity** -- a field populated on most task rows is populated on the
    noise too, and a field empty on task rows is empty on the noise. A column filled on one
    side only turns the judgement into a lookup
-6. keys present and unique across task rows plus noise
-7. a text field the task's own rows barely repeat stays about as varied across the
+7. keys present and unique across task rows plus noise
+8. a text field the task's own rows barely repeat stays about as varied across the
    noise. Fields the task repeats -- a city, a grade -- are filter dimensions and are
    left alone
-8. the task's rows are byte-identical to the frozen snapshot
+9. the rows fill more than one page of every list view
+10. row order does not correlate with task-versus-noise. The merge interleaves under the
+    seed; concatenating would put every task row at the head of the first page
+11. the task's rows are byte-identical to the frozen snapshot
 
 ## Limits
 

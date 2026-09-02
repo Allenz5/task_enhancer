@@ -131,13 +131,17 @@ Write the generator so these pass. They are checked, not trusted:
 2. no noise row's `partition` value is one the task occupies, or one the plan did not declare
 3. no noise row carries a foreign key held by a task row, and none dangles
 4. every value of a field with an `enum` is inside that enum
-5. **populated-column parity**: a field populated on most task rows must be populated on
+5. **no drop-down option belongs to the task alone** -- a filterable dimension value that
+   only task rows carry is a one-click answer. Partitions are exempt: that one is the
+   selection criterion. Everything else the noise must also use
+6. **populated-column parity**: a field populated on most task rows must be populated on
    the noise too, and a field empty on task rows must be empty on the noise. A column
-   filled on one side only turns the judgement into a lookup.
-6. keys are present and unique across task rows plus noise
-7. a text field the task's own rows barely repeat stays about as varied across the
+   filled on one side only turns the judgement into a lookup
+7. keys are present and unique across task rows plus noise
+8. a text field the task's own rows barely repeat stays about as varied across the
    noise -- a list view shows 30 rows at once, and a small text pool shows there
-8. the task's rows are byte-identical to what they were before you ran
+9. the rows are enough to fill more than one page of every list view
+10. the task's rows are byte-identical to what they were before you ran
 
 ## Done means
 
@@ -154,6 +158,9 @@ The generated noise failed these checks:
 Fix `filler.task.py`, and `noise_plan.json` where the plan itself was wrong. Change only
 what the failures name. Do not lower `n` to dodge a check, and do not write anything onto
 the task's rows.
+
+Every `[blocking]` one has to be fixed. Fix the `[cosmetic]` ones too where doing so
+cannot put a blocking one back.
 """
 
 

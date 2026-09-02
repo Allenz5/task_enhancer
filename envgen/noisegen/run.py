@@ -59,7 +59,7 @@ def run(env: Path, seed: int = 0, model: str = "opus") -> bool:
             print(f"\nnoise accepted after {attempt} attempt(s), ${cost:.2f}")
             print(f"selection: {report.get('selection_criterion')}")
             return True
-        failures = reviewer.blocking_lines(report)
+        failures = reviewer.finding_lines(report)
 
     print(f"\ngiving up after {K} attempts, ${cost:.2f}")
     return False

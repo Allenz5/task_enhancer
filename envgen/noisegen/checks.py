@@ -151,6 +151,53 @@ def check_enums(spec: dict, ename: str, noise: list[dict]) -> list[str]:
     return bad
 
 
+def check_filter_exclusivity(spec: dict, ename: str, task: list[dict],
+                             noise: list[dict]) -> list[str]:
+    """No drop-down option may belong to the task alone.
+
+    A filter value that only task rows carry is a one-click answer: the retrieving agent
+    picks it out of the menu and the list returns the task's records and nothing else. The
+    reverse -- a value only the noise carries -- gives nothing away, so it is left alone.
+
+    Only the interface's own dimensions count. `filters` holds the option sets the real
+    product's drop-downs offer, and a field with an `enum` is one too; a filterable free
+    text field is a search box, where every task value is naturally its own.
+
+    Partitions are exempt, and so is anything that follows from one. The partition being
+    task-exclusive is the mechanism: it is what lets the task's records be selected at
+    all, and the review names it as the selection criterion. What the judgement rests on
+    is working out *which* criterion the task implies, not on there being none. So the
+    entity's own partition field is skipped, any other entity's partition carried on it is
+    skipped, and so is a field whose `filters` entry is keyed by another dimension -- a
+    neighbourhood of Austin cannot occur in Seattle, but a Seattle company can perfectly
+    well be Series A.
+    """
+    if not task or not noise:
+        return []
+    fields = spec["entities"][ename]["fields"]
+    dimensions = set(spec.get("filters") or {}) | {f for f, m in fields.items() if m.get("enum")}
+    partitions = {e.get("partition") for e in spec["entities"].values() if e.get("partition")}
+    dependent = {f for f, opts in (spec.get("filters") or {}).items() if isinstance(opts, dict)}
+    dimensions -= partitions | dependent
+    bad = []
+    for name, view in _list_views(spec, ename):
+        for field in sorted(set(view.get("filterable") or []) & dimensions & set(fields)):
+            task_values = {v for r in task for v in _values(r.get(field))}
+            noise_values = {v for r in noise for v in _values(r.get(field))}
+            exclusive = sorted(task_values - noise_values)
+            if exclusive:
+                bad.append(f"{ename}.{field}: {exclusive[:4]} appear on task rows only, and the "
+                           f"field is filterable in view {name!r} -- picking that option "
+                           f"returns the task's records and nothing else")
+    return bad
+
+
+def _values(v) -> list:
+    if isinstance(v, list):
+        return [x for x in v if populated(x)]
+    return [v] if populated(v) else []
+
+
 def check_parity(spec: dict, ename: str, task: list[dict], noise: list[dict]) -> list[str]:
     """A column populated on one side only is a give-away, in either direction."""
     if not task or not noise:
@@ -279,6 +326,7 @@ def run_checks(spec: dict, plan: dict, task_rows: dict[str, list],
         bad += check_partition(spec, ename, plan_ent, task, noise)
         bad += check_foreign_keys(spec, ename, task_rows, noise_rows)
         bad += check_enums(spec, ename, noise)
+        bad += check_filter_exclusivity(spec, ename, task, noise)
         bad += check_parity(spec, ename, task, noise)
         bad += check_list_variety(spec, ename, task, noise)
         bad += check_keys(spec, ename, task, noise)
