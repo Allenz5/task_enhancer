@@ -1,0 +1,16 @@
+{
+  "name": "foliant-content-library",
+  "version": "6.3.0",
+  "private": true,
+  "description": "Foliant Content Library — enterprise content management workspace, upload console and integration developer center",
+  "scripts": {
+    "start": "node server.js",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}

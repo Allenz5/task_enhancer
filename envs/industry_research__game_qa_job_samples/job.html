@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>职位详情 - JOB直聘</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="hdr"></div>
+<div id="page"></div>
+<script src="assets/app.js"></script>
+<script>
+(function () {
+  var S = window.Skeleton;
+  document.getElementById('hdr').innerHTML = S.header('职位');
+  var id = S.qs('jobId');
+
+  S.loadData().then(function (d) {
+    var j = d.jobs.filter(function (x) { return x.encryptJobId === id; })[0];
+    var host = document.getElementById('page');
+    if (!j) { host.innerHTML = '<div class="wrap panel">未找到该职位</div>'; return; }
+    var b = d.brands[j.encryptBrandId];
+
+    host.innerHTML =
+      '<div class="job-banner"><div class="wrap">' +
+        '<div class="status">招聘中</div>' +
+        '<h1>' + S.esc(j.jobName) + '</h1><span class="salary">' + S.esc(j.salaryDesc) + '</span>' +
+        '<div class="attrs"><span>📍 ' + S.esc(j.cityName) + '</span><span>💼 ' + S.esc(j.jobExperience) +
+          '</span><span>🎓 ' + S.esc(j.jobDegree) + '</span></div>' +
+        '<div class="ops"><button class="btn-collect' + (S.isFav(j.encryptJobId) ? ' on' : '') +
+          '" id="btnCollect">' + (S.isFav(j.encryptJobId) ? '已收藏' : '感兴趣') + '</button>' +
+          '<button class="btn-startchat">立即沟通</button></div>' +
+      '</div></div>' +
+      '<div class="wrap detail-cols">' +
+        '<div class="detail-main">' + S.detailBodyHTML(j, b) + '</div>' +
+        '<div class="job-sider"><h3>公司基本信息</h3>' +
+          '<div class="sider-brand"><span class="logo-box">' + S.esc((b ? b.brandName : '?').slice(0, 1)) +
+            '</span><a href="company.html?brandId=' + S.esc(j.encryptBrandId) + '"><b>' +
+            S.esc(j.brandName) + '</b></a></div>' +
+          '<div class="sider-attr"><div><span>' + S.esc(j.brandStageName) + '</span></div>' +
+            '<div><span>' + S.esc(j.brandScaleName) + '</span></div>' +
+            '<div><span>' + S.esc(j.brandIndustry) + '</span></div></div>' +
+          '<a class="more-job-btn" href="company.html?brandId=' + S.esc(j.encryptBrandId) + '">查看全部职位 &gt;</a>' +
+        '</div>' +
+      '</div>';
+
+    document.getElementById('btnCollect').addEventListener('click', function () {
+      var on = S.toggleFav(j.encryptJobId);
+      this.classList.toggle('on', on); this.textContent = on ? '已收藏' : '感兴趣';
+    });
+  });
+})();
+</script>
+</body>
+</html>

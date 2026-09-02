@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "skeleton.json -- 一个桶的骨架契约",
+  "type": "object",
+  "required": ["bucket", "name", "reference", "entities", "views", "layer2_contract"],
+  "properties": {
+    "bucket": { "type": "string" },
+    "name": { "type": "string" },
+    "serves_slugs": { "type": "array", "items": { "type": "string" } },
+    "reference": {
+      "type": "object",
+      "required": ["product"],
+      "properties": {
+        "product": { "type": "string" },
+        "url": { "type": "string" },
+        "captured": { "type": "string" },
+        "materials": { "type": "array", "items": { "type": "string" },
+          "description": "reference/ 里有什么：screenshots / api / dom / css / video / docs" }
+      }
+    },
+
+    "entities": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["key", "fields"],
+        "properties": {
+          "_desc": { "type": "string" },
+          "key": { "type": "string", "description": "主键字段；store/<entity>.json 里每条记录必有" },
+          "keys_opaque": { "type": "boolean", "description": "键不可猜（非顺序整数）。P3 第 3 条的加分项" },
+          "identity": { "type": "array", "items": { "type": "string" },
+            "description": "这些字段相等即同一条现实记录。碰撞规则的判据" },
+          "partition": { "type": "string",
+            "description": "任务数据与填充数据靠它隔开的字段。填充记录的分区值不得与任务重合" },
+          "custom_ok": { "type": "boolean", "description": "参照本身允许扩展字段的实体" },
+          "must_keep": { "type": "array", "items": { "type": "string" } },
+          "fields": {
+            "type": "object",
+            "minProperties": 1,
+            "additionalProperties": {
+              "type": "object",
+              "required": ["caption"],
+              "properties": {
+                "caption": { "type": "string" },
+                "type": { "enum": ["string", "text", "float", "int", "bool", "date", "datetime", "list", "object"] },
+                "desc": { "type": "string" },
+                "names": { "enum": ["api", "builder"], "default": "builder",
+                  "description": "api = 字段名取自真站接口；builder = 建站者起的名" },
+                "fill": { "enum": ["never", "cosmetic", "derived"], "default": "never",
+                  "description": "cosmetic 可在任务记录上补值；derived 可由其它字段推导；never 没有就是没有" },
+                "enum": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "views": {
+      "type": "object",
+      "minProperties": 1,
+      "description": "服务端按此投影；验证脚本按此做反向断言；第二层按此看字段深度",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["kind", "entity", "exposes"],
+        "properties": {
+          "kind": { "enum": ["list", "detail", "export"] },
+          "entity": { "type": "string" },
+          "page": { "type": "string", "description": "承载它的前端页面" },
+          "exposes": { "type": "array", "items": { "type": "string" },
+            "description": "暴露的字段；[\"*\"] 表示全部。列表视图会自动附带主键（它是地址，不是内容）" },
+          "page_size": { "type": "integer", "minimum": 1,
+            "description": "list 必填：界面显示的条数，也是服务端硬上限" },
+          "filterable": { "type": "array", "items": { "type": "string" },
+            "description": "可筛选字段，必须 ⊆ exposes" },
+          "sortable": { "type": "array", "items": { "type": "string" },
+            "description": "可排序字段，必须 ⊆ exposes" },
+          "of": { "type": "string", "description": "export 必填：导出的是哪个 list 视图的当前筛选集" },
+          "limit": { "type": "integer", "description": "export 可选：真站导出的上限" },
+          "include": {
+            "type": "object",
+            "description": "内嵌关联记录：名字 -> {entity, via, exposes}",
+            "additionalProperties": {
+              "type": "object",
+              "required": ["entity", "via", "exposes"],
+              "properties": {
+                "entity": { "type": "string" },
+                "via": { "type": "string", "description": "本记录上存外键的字段" },
+                "exposes": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "filters": { "type": "object", "description": "筛选维度的固定选项集（照真站抄）" },
+    "interactions": { "type": "array", "items": { "type": "string" } },
+    "deliberate_deviations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["what", "real", "why"],
+        "properties": { "what": { "type": "string" }, "real": { "type": "string" }, "why": { "type": "string" } }
+      }
+    },
+    "fill": {
+      "type": "object",
+      "description": "第二层填充的默认目标：实体 -> 总条数（含任务记录）",
+      "additionalProperties": { "type": "integer" }
+    },
+    "layer2_contract": {
+      "type": "object",
+      "required": ["allowed", "forbidden"],
+      "properties": {
+        "allowed": { "type": "array", "items": { "type": "string" } },
+        "forbidden": { "type": "array", "items": { "type": "string" } },
+        "unmappable": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>我的收藏 - JOB直聘</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="hdr"></div>
+<div class="wrap"><div class="panel" id="box" style="margin-top:20px;margin-bottom:40px"></div></div>
+<script src="assets/app.js"></script>
+<script>
+(function () {
+  var S = window.Skeleton;
+  document.getElementById('hdr').innerHTML = S.header('收藏夹');
+  S.loadData().then(function (d) {
+    var ids = S.favs();
+    var jobs = d.jobs.filter(function (j) { return ids.indexOf(j.encryptJobId) >= 0; });
+    var box = document.getElementById('box');
+    if (!jobs.length) { box.innerHTML = '<div class="no-result">还没有收藏任何职位</div>'; return; }
+    box.innerHTML = '<h3 class="block-title">我的收藏（' + jobs.length + '）</h3>' +
+      '<table class="fav-table" id="favTable"><thead><tr><th>职位</th><th>薪资</th><th>经验</th>' +
+      '<th>学历</th><th>公司</th><th>城市</th><th></th></tr></thead><tbody>' +
+      jobs.map(function (j) {
+        return '<tr data-id="' + S.esc(j.encryptJobId) + '"><td><a class="job-name" href="job.html?jobId=' +
+          S.esc(j.encryptJobId) + '">' + S.esc(j.jobName) + '</a></td><td class="job-salary">' +
+          S.esc(j.salaryDesc) + '</td><td>' + S.esc(j.jobExperience) + '</td><td>' + S.esc(j.jobDegree) +
+          '</td><td>' + S.esc(j.brandName) + '</td><td>' + S.esc(j.cityName) + '·' + S.esc(j.areaDistrict) +
+          '</td><td><a class="rm" style="color:var(--sub);cursor:pointer">移除</a></td></tr>';
+      }).join('') + '</tbody></table>';
+    box.querySelectorAll('.rm').forEach(function (a) {
+      a.addEventListener('click', function () {
+        S.toggleFav(a.closest('tr').getAttribute('data-id')); location.reload();
+      });
+    });
+  });
+})();
+</script>
+</body>
+</html>

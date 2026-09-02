@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>公司主页 - JOB直聘</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="hdr"></div>
+<div id="page"></div>
+<script src="assets/app.js"></script>
+<script>
+(function () {
+  var S = window.Skeleton;
+  document.getElementById('hdr').innerHTML = S.header('公司');
+  var id = S.qs('brandId');
+
+  S.loadData().then(function (d) {
+    var b = d.brands[id], host = document.getElementById('page');
+    if (!b) { host.innerHTML = '<div class="wrap panel">未找到该公司</div>'; return; }
+    var jobs = d.jobs.filter(function (j) { return j.encryptBrandId === id; });
+    var bosses = Array.from(new Set(jobs.map(function (j) { return j.bossName; })));
+
+    host.innerHTML =
+      '<div class="company-banner"><div class="wrap">' +
+        '<span class="logo-box">' + S.esc(b.brandName.slice(0, 1)) + '</span>' +
+        '<div><h1>' + S.esc(b.brandName) + '</h1><div class="meta">' +
+          S.esc(b.brandStageName) + ' · ' + S.esc(b.brandScaleName) + ' · ' + S.esc(b.brandIndustry) + '</div></div>' +
+        '<div class="stat"><div><b>' + jobs.length + '</b>在招职位</div><div><b>' + bosses.length + '</b>位BOSS</div></div>' +
+      '</div></div>' +
+      '<div class="wrap">' +
+        '<div class="tabs"><a class="on">公司简介</a><a href="#jobs">招聘职位(' + jobs.length + ')</a></div>' +
+        '<div class="panel" id="jobs"><h3 class="block-title">在招职位</h3><div class="hot-jobs">' +
+          jobs.map(function (j) {
+            return '<a class="hot-job" href="job.html?jobId=' + S.esc(j.encryptJobId) + '">' +
+              '<span class="n job-name">' + S.esc(j.jobName) + '</span>' +
+              '<div class="row"><ul class="tag-list" style="margin:0"><li>' + S.esc(j.jobExperience) +
+              '</li><li>' + S.esc(j.jobDegree) + '</li></ul>' +
+              '<span class="city">' + S.esc(j.cityName) + '</span></div></a>';
+          }).join('') +
+        '</div></div>' +
+        '<div class="panel"><h3 class="block-title">公司简介</h3><div>' + S.esc(b.introduction) + '</div></div>' +
+        '<div class="panel"><h3 class="block-title">工商信息</h3><dl class="kv">' +
+          Object.keys(b.businessInfo).map(function (k) {
+            return '<div><dt>' + S.esc(k) + '</dt><dd>' + S.esc(b.businessInfo[k]) + '</dd></div>'; }).join('') +
+        '</dl></div>' +
+        '<div class="panel" style="margin-bottom:40px"><h3 class="block-title">公司地址</h3>' +
+          b.addresses.map(function (a) { return '<div class="job-address-desc">' + S.esc(a) + '</div>'; }).join('') +
+          '<div class="map-box-wrapper">地图</div></div>' +
+      '</div>';
+  });
+})();
+</script>
+</body>
+</html>

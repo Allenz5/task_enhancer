@@ -1,0 +1,49 @@
+{
+  "bucket": "mini",
+  "name": "夹具：最小表格骨架",
+  "reference": { "product": "none -- test fixture", "materials": [] },
+  "entities": {
+    "item": {
+      "key": "id",
+      "keys_opaque": true,
+      "identity": ["name", "region"],
+      "partition": "region",
+      "custom_ok": true,
+      "must_keep": ["id", "name", "region", "status"],
+      "fields": {
+        "id":      { "caption": "ID", "type": "string" },
+        "name":    { "caption": "Name", "type": "string" },
+        "region":  { "caption": "Region", "type": "string" },
+        "status":  { "caption": "Status", "type": "string", "enum": ["open", "closed", "pending"] },
+        "amount":  { "caption": "Amount", "type": "float" },
+        "note":    { "caption": "Note", "type": "text" },
+        "tags":    { "caption": "Tags", "type": "list", "fill": "cosmetic" },
+        "owner":   { "caption": "Owner", "type": "string" }
+      }
+    },
+    "owner": {
+      "key": "oid",
+      "identity": ["oname"],
+      "fields": {
+        "oid":   { "caption": "Owner ID", "type": "string" },
+        "oname": { "caption": "Owner", "type": "string" },
+        "dept":  { "caption": "Dept", "type": "string" }
+      }
+    }
+  },
+  "views": {
+    "items": {
+      "kind": "list", "entity": "item", "page": "index.html", "page_size": 10,
+      "exposes": ["name", "region", "status", "amount"],
+      "filterable": ["region", "status"], "sortable": ["amount", "name"]
+    },
+    "item": {
+      "kind": "detail", "entity": "item", "page": "item.html", "exposes": ["*"],
+      "include": { "owner": { "entity": "owner", "via": "owner", "exposes": ["oname", "dept"] } }
+    },
+    "items_export": { "kind": "export", "entity": "item", "of": "items",
+      "exposes": ["name", "region", "status", "amount"] }
+  },
+  "fill": { "item": 40, "owner": 6 },
+  "layer2_contract": { "allowed": ["替换 store/*.json"], "forbidden": ["新增视图"] }
+}

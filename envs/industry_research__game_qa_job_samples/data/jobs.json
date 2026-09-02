@@ -1,0 +1,964 @@
+{
+ "jobList": [
+  {
+   "encryptJobId": "A01",
+   "jobName": "版本质量保障工程师",
+   "salaryDesc": "8-12K",
+   "jobLabels": [
+    "1年以内",
+    "大专"
+   ],
+   "jobExperience": "1年以内",
+   "jobDegree": "大专",
+   "cityName": "北京",
+   "areaDistrict": "朝阳区",
+   "businessDistrict": "望京",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "需求分析",
+    "测试设计",
+    "缺陷闭环与定位",
+    "功能数值与玩法"
+   ],
+   "welfareList": [
+    "弹性工作",
+    "五险一金",
+    "餐补",
+    "年终奖",
+    "股票期权"
+   ],
+   "postDescription": "岗位：版本质量保障工程师（功能/版本质量保障 · 初级）\n\n岗位职责：\n1. 参与需求评审并输出测试点拆分；\n2. 设计等价类与边界值测试用例；\n3. 跟踪缺陷从提单到回归验证闭环；\n4. 校验战斗数值与玩法规则一致性；\n5. 覆盖多机型适配与弱网场景验证；\n6. 参与反外挂与账号风控测试；\n7. 熟悉 SLG 与卡牌品类业务特点；\n\n任职要求：\n1. 1年以内工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 需求分析、测试设计、缺陷闭环与定位 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 砚川数娱 发布。",
+   "jobAddress": "北京朝阳区望京10号",
+   "bossName": "仵先生",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BA01",
+   "brandName": "砚川数娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "未融资",
+   "brandScaleName": "20-99人"
+  },
+  {
+   "encryptJobId": "A02",
+   "jobName": "测试开发工程师",
+   "salaryDesc": "10-15K",
+   "jobLabels": [
+    "1-3年",
+    "本科"
+   ],
+   "jobExperience": "1-3年",
+   "jobDegree": "本科",
+   "cityName": "北京",
+   "areaDistrict": "海淀区",
+   "businessDistrict": "中关村",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "测试设计",
+    "自动化与工具平台",
+    "编程与脚本",
+    "服务端协议与接口"
+   ],
+   "welfareList": [
+    "定期体检",
+    "年终奖",
+    "节日福利",
+    "带薪年假",
+    "股票期权"
+   ],
+   "postDescription": "岗位：测试开发工程师（测试开发/效能工具 · 中级）\n\n岗位职责：\n1. 设计等价类与边界值测试用例；\n2. 搭建并维护自动化测试平台；\n3. 使用 Python 编写测试脚本；\n4. 对服务端协议与接口做联调验证；\n5. 熟悉 SLG 与卡牌品类业务特点；\n\n任职要求：\n1. 1-3年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 测试设计、自动化与工具平台、编程与脚本 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 岚屿互娱 发布。",
+   "jobAddress": "北京海淀区中关村11号",
+   "bossName": "殳女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BA02",
+   "brandName": "岚屿互娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "天使轮",
+   "brandScaleName": "20-99人"
+  },
+  {
+   "encryptJobId": "A03",
+   "jobName": "性能测试工程师",
+   "salaryDesc": "12-18K",
+   "jobLabels": [
+    "3-5年",
+    "硕士"
+   ],
+   "jobExperience": "3-5年",
+   "jobDegree": "硕士",
+   "cityName": "上海",
+   "areaDistrict": "浦东新区",
+   "businessDistrict": "张江",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "性能与稳定性",
+    "编程与脚本",
+    "代码引擎与白盒",
+    "数据指标与质量度量"
+   ],
+   "welfareList": [
+    "弹性工作",
+    "年终奖",
+    "带薪年假",
+    "节日福利",
+    "五险一金"
+   ],
+   "postDescription": "岗位：性能测试工程师（性能与稳定性专项 · 高级）\n\n岗位职责：\n1. 负责帧率内存与崩溃率专项排查；\n2. 使用 Python 编写测试脚本；\n3. 阅读引擎源码进行白盒测试；\n4. 建立质量度量指标与看板；\n\n任职要求：\n1. 3-5年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 性能与稳定性、编程与脚本、代码引擎与白盒 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 拾光工坊 发布。",
+   "jobAddress": "上海浦东新区张江12号",
+   "bossName": "聂女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BA03",
+   "brandName": "拾光工坊",
+   "brandIndustry": "游戏",
+   "brandStageName": "不需要融资",
+   "brandScaleName": "100-499人"
+  },
+  {
+   "encryptJobId": "A04",
+   "jobName": "跨端测试工程师",
+   "salaryDesc": "15-25K",
+   "jobLabels": [
+    "5-10年",
+    "学历不限"
+   ],
+   "jobExperience": "5-10年",
+   "jobDegree": "学历不限",
+   "cityName": "深圳",
+   "areaDistrict": "南山区",
+   "businessDistrict": "科技园",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "测试设计",
+    "功能数值与玩法",
+    "代码引擎与白盒",
+    "服务端协议与接口"
+   ],
+   "welfareList": [
+    "年终奖",
+    "五险一金",
+    "股票期权",
+    "带薪年假",
+    "节日福利"
+   ],
+   "postDescription": "岗位：跨端测试工程师（多端/引擎/内容专项 · 负责人）\n\n岗位职责：\n1. 设计等价类与边界值测试用例；\n2. 校验战斗数值与玩法规则一致性；\n3. 阅读引擎源码进行白盒测试；\n4. 对服务端协议与接口做联调验证；\n5. 覆盖多机型适配与弱网场景验证；\n\n任职要求：\n1. 5-10年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 测试设计、功能数值与玩法、代码引擎与白盒 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 白鹭引擎 发布。",
+   "jobAddress": "深圳南山区科技园13号",
+   "bossName": "殳女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BA04",
+   "brandName": "白鹭引擎",
+   "brandIndustry": "游戏",
+   "brandStageName": "已上市",
+   "brandScaleName": "1000-9999人"
+  },
+  {
+   "encryptJobId": "A05",
+   "jobName": "测试主管",
+   "salaryDesc": "18-30K",
+   "jobLabels": [
+    "1年以内",
+    "大专"
+   ],
+   "jobExperience": "1年以内",
+   "jobDegree": "大专",
+   "cityName": "成都",
+   "areaDistrict": "高新区",
+   "businessDistrict": "天府三街",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "需求分析",
+    "安全与风控",
+    "数据指标与质量度量",
+    "项目推进与风险"
+   ],
+   "welfareList": [
+    "股票期权",
+    "五险一金",
+    "年终奖",
+    "带薪年假",
+    "节日福利"
+   ],
+   "postDescription": "岗位：测试主管（质量负责人/体系建设 · 初级）\n\n岗位职责：\n1. 参与需求评审并输出测试点拆分；\n2. 参与反外挂与账号风控测试；\n3. 建立质量度量指标与看板；\n4. 推动版本节奏并识别上线风险；\n5. 制定测试流程规范与质量体系；\n\n任职要求：\n1. 1年以内工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 需求分析、安全与风控、数据指标与质量度量 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 青柚游戏 发布。",
+   "jobAddress": "成都高新区天府三街14号",
+   "bossName": "聂女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BA05",
+   "brandName": "青柚游戏",
+   "brandIndustry": "游戏",
+   "brandStageName": "A轮",
+   "brandScaleName": "20-99人"
+  },
+  {
+   "encryptJobId": "A06",
+   "jobName": "游戏测试工程师",
+   "salaryDesc": "20-35K",
+   "jobLabels": [
+    "1-3年",
+    "本科"
+   ],
+   "jobExperience": "1-3年",
+   "jobDegree": "本科",
+   "cityName": "杭州",
+   "areaDistrict": "滨江区",
+   "businessDistrict": "江南大道",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "需求分析",
+    "测试设计",
+    "缺陷闭环与定位",
+    "功能数值与玩法"
+   ],
+   "welfareList": [
+    "节日福利",
+    "股票期权",
+    "餐补",
+    "年终奖",
+    "弹性工作"
+   ],
+   "postDescription": "岗位：游戏测试工程师（功能/版本质量保障 · 中级）\n\n岗位职责：\n1. 参与需求评审并输出测试点拆分；\n2. 设计等价类与边界值测试用例；\n3. 跟踪缺陷从提单到回归验证闭环；\n4. 校验战斗数值与玩法规则一致性；\n5. 熟悉 SLG 与卡牌品类业务特点；\n\n任职要求：\n1. 1-3年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 需求分析、测试设计、缺陷闭环与定位 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 长风互动 发布。",
+   "jobAddress": "杭州滨江区江南大道15号",
+   "bossName": "赵先生",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BA06",
+   "brandName": "长风互动",
+   "brandIndustry": "人工智能",
+   "brandStageName": "B轮",
+   "brandScaleName": "100-499人"
+  },
+  {
+   "encryptJobId": "A07",
+   "jobName": "自动化测试工程师",
+   "salaryDesc": "25-40K",
+   "jobLabels": [
+    "3-5年",
+    "硕士"
+   ],
+   "jobExperience": "3-5年",
+   "jobDegree": "硕士",
+   "cityName": "北京",
+   "areaDistrict": "海淀区",
+   "businessDistrict": "西二旗",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "测试设计",
+    "自动化与工具平台",
+    "编程与脚本",
+    "服务端协议与接口"
+   ],
+   "welfareList": [
+    "股票期权",
+    "五险一金",
+    "弹性工作",
+    "定期体检",
+    "带薪年假"
+   ],
+   "postDescription": "岗位：自动化测试工程师（测试开发/效能工具 · 高级）\n\n岗位职责：\n1. 设计等价类与边界值测试用例；\n2. 搭建并维护自动化测试平台；\n3. 使用 Python 编写测试脚本；\n4. 对服务端协议与接口做联调验证；\n\n任职要求：\n1. 3-5年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 测试设计、自动化与工具平台、编程与脚本 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 云栖数娱 发布。",
+   "jobAddress": "北京海淀区西二旗16号",
+   "bossName": "聂女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BA07",
+   "brandName": "云栖数娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "已上市",
+   "brandScaleName": "500-999人"
+  },
+  {
+   "encryptJobId": "A08",
+   "jobName": "稳定性专项测试工程师",
+   "salaryDesc": "30-50K",
+   "jobLabels": [
+    "5-10年",
+    "学历不限"
+   ],
+   "jobExperience": "5-10年",
+   "jobDegree": "学历不限",
+   "cityName": "广州",
+   "areaDistrict": "天河区",
+   "businessDistrict": "珠江新城",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "需求分析",
+    "性能与稳定性",
+    "编程与脚本",
+    "代码引擎与白盒"
+   ],
+   "welfareList": [
+    "餐补",
+    "弹性工作",
+    "定期体检",
+    "股票期权",
+    "节日福利"
+   ],
+   "postDescription": "岗位：稳定性专项测试工程师（性能与稳定性专项 · 负责人）\n\n岗位职责：\n1. 参与需求评审并输出测试点拆分；\n2. 负责帧率内存与崩溃率专项排查；\n3. 使用 Python 编写测试脚本；\n4. 阅读引擎源码进行白盒测试；\n5. 建立质量度量指标与看板；\n\n任职要求：\n1. 5-10年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 需求分析、性能与稳定性、编程与脚本 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 甘棠软件 发布。",
+   "jobAddress": "广州天河区珠江新城17号",
+   "bossName": "仵先生",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BA08",
+   "brandName": "甘棠软件",
+   "brandIndustry": "计算机软件",
+   "brandStageName": "已上市",
+   "brandScaleName": "10000人以上"
+  },
+  {
+   "encryptJobId": "A09",
+   "jobName": "跨端测试工程师",
+   "salaryDesc": "8-12K",
+   "jobLabels": [
+    "1年以内",
+    "大专"
+   ],
+   "jobExperience": "1年以内",
+   "jobDegree": "大专",
+   "cityName": "北京",
+   "areaDistrict": "朝阳区",
+   "businessDistrict": "望京",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "测试设计",
+    "功能数值与玩法",
+    "代码引擎与白盒",
+    "多端兼容与弱网"
+   ],
+   "welfareList": [
+    "定期体检",
+    "股票期权",
+    "弹性工作",
+    "餐补",
+    "五险一金"
+   ],
+   "postDescription": "岗位：跨端测试工程师（多端/引擎/内容专项 · 初级）\n\n岗位职责：\n1. 设计等价类与边界值测试用例；\n2. 校验战斗数值与玩法规则一致性；\n3. 阅读引擎源码进行白盒测试；\n4. 覆盖多机型适配与弱网场景验证；\n5. 参与反外挂与账号风控测试；\n6. 推动版本节奏并识别上线风险；\n\n任职要求：\n1. 1年以内工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 测试设计、功能数值与玩法、代码引擎与白盒 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 鹿野测试 发布。",
+   "jobAddress": "北京朝阳区望京18号",
+   "bossName": "孙女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BA09",
+   "brandName": "鹿野测试",
+   "brandIndustry": "计算机服务",
+   "brandStageName": "未融资",
+   "brandScaleName": "0-20人"
+  },
+  {
+   "encryptJobId": "A10",
+   "jobName": "测试主管",
+   "salaryDesc": "10-15K",
+   "jobLabels": [
+    "1-3年",
+    "本科"
+   ],
+   "jobExperience": "1-3年",
+   "jobDegree": "本科",
+   "cityName": "北京",
+   "areaDistrict": "海淀区",
+   "businessDistrict": "中关村",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "需求分析",
+    "代码引擎与白盒",
+    "安全与风控",
+    "数据指标与质量度量"
+   ],
+   "welfareList": [
+    "节日福利",
+    "五险一金",
+    "带薪年假",
+    "餐补",
+    "年终奖"
+   ],
+   "postDescription": "岗位：测试主管（质量负责人/体系建设 · 中级）\n\n岗位职责：\n1. 参与需求评审并输出测试点拆分；\n2. 阅读引擎源码进行白盒测试；\n3. 参与反外挂与账号风控测试；\n4. 建立质量度量指标与看板；\n5. 推动版本节奏并识别上线风险；\n6. 制定测试流程规范与质量体系；\n\n任职要求：\n1. 1-3年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 需求分析、代码引擎与白盒、安全与风控 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 木鸢科技 发布。",
+   "jobAddress": "北京海淀区中关村19号",
+   "bossName": "殳女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BA10",
+   "brandName": "木鸢科技",
+   "brandIndustry": "企业服务",
+   "brandStageName": "未融资",
+   "brandScaleName": "20-99人"
+  },
+  {
+   "encryptJobId": "A11",
+   "jobName": "版本质量保障工程师",
+   "salaryDesc": "12-18K",
+   "jobLabels": [
+    "3-5年",
+    "硕士"
+   ],
+   "jobExperience": "3-5年",
+   "jobDegree": "硕士",
+   "cityName": "上海",
+   "areaDistrict": "浦东新区",
+   "businessDistrict": "张江",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "需求分析",
+    "测试设计",
+    "缺陷闭环与定位",
+    "功能数值与玩法"
+   ],
+   "welfareList": [
+    "餐补",
+    "弹性工作",
+    "节日福利",
+    "定期体检",
+    "带薪年假"
+   ],
+   "postDescription": "岗位：版本质量保障工程师（功能/版本质量保障 · 高级）\n\n岗位职责：\n1. 参与需求评审并输出测试点拆分；\n2. 设计等价类与边界值测试用例；\n3. 跟踪缺陷从提单到回归验证闭环；\n4. 校验战斗数值与玩法规则一致性；\n5. 熟悉 SLG 与卡牌品类业务特点；\n\n任职要求：\n1. 3-5年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 需求分析、测试设计、缺陷闭环与定位 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 重霄互娱 发布。",
+   "jobAddress": "上海浦东新区张江20号",
+   "bossName": "孙女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BA11",
+   "brandName": "重霄互娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "不需要融资",
+   "brandScaleName": "500-999人"
+  },
+  {
+   "encryptJobId": "A12",
+   "jobName": "测试平台研发工程师",
+   "salaryDesc": "15-25K",
+   "jobLabels": [
+    "5-10年",
+    "学历不限"
+   ],
+   "jobExperience": "5-10年",
+   "jobDegree": "学历不限",
+   "cityName": "深圳",
+   "areaDistrict": "南山区",
+   "businessDistrict": "科技园",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "测试设计",
+    "自动化与工具平台",
+    "编程与脚本",
+    "代码引擎与白盒"
+   ],
+   "welfareList": [
+    "弹性工作",
+    "五险一金",
+    "带薪年假",
+    "年终奖",
+    "定期体检"
+   ],
+   "postDescription": "岗位：测试平台研发工程师（测试开发/效能工具 · 负责人）\n\n岗位职责：\n1. 设计等价类与边界值测试用例；\n2. 搭建并维护自动化测试平台；\n3. 使用 Python 编写测试脚本；\n4. 阅读引擎源码进行白盒测试；\n5. 对服务端协议与接口做联调验证；\n6. 熟悉 SLG 与卡牌品类业务特点；\n\n任职要求：\n1. 5-10年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 测试设计、自动化与工具平台、编程与脚本 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 沅澈网络 发布。",
+   "jobAddress": "深圳南山区科技园21号",
+   "bossName": "聂女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BA12",
+   "brandName": "沅澈网络",
+   "brandIndustry": "游戏",
+   "brandStageName": "C轮",
+   "brandScaleName": "100-499人"
+  },
+  {
+   "encryptJobId": "B01",
+   "jobName": "功能测试工程师(游戏)",
+   "salaryDesc": "8-12K",
+   "jobLabels": [
+    "3-5年",
+    "大专"
+   ],
+   "jobExperience": "3-5年",
+   "jobDegree": "大专",
+   "cityName": "北京",
+   "areaDistrict": "朝阳区",
+   "businessDistrict": "望京",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "需求分析",
+    "测试设计",
+    "缺陷闭环与定位",
+    "功能数值与玩法"
+   ],
+   "welfareList": [
+    "节日福利",
+    "弹性工作",
+    "股票期权",
+    "年终奖",
+    "定期体检"
+   ],
+   "postDescription": "岗位：功能测试工程师(游戏)（功能/版本质量保障 · 高级）\n\n岗位职责：\n1. 参与需求评审并输出测试点拆分；\n2. 设计等价类与边界值测试用例；\n3. 跟踪缺陷从提单到回归验证闭环；\n4. 校验战斗数值与玩法规则一致性；\n5. 熟悉 SLG 与卡牌品类业务特点；\n\n任职要求：\n1. 3-5年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 需求分析、测试设计、缺陷闭环与定位 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 栖梧工坊 发布。",
+   "jobAddress": "北京朝阳区望京10号",
+   "bossName": "仵先生",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BB01",
+   "brandName": "栖梧工坊",
+   "brandIndustry": "游戏",
+   "brandStageName": "未融资",
+   "brandScaleName": "20-99人"
+  },
+  {
+   "encryptJobId": "B02",
+   "jobName": "测试开发工程师",
+   "salaryDesc": "10-15K",
+   "jobLabels": [
+    "5-10年",
+    "本科"
+   ],
+   "jobExperience": "5-10年",
+   "jobDegree": "本科",
+   "cityName": "北京",
+   "areaDistrict": "海淀区",
+   "businessDistrict": "中关村",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "测试设计",
+    "性能与稳定性",
+    "自动化与工具平台",
+    "编程与脚本"
+   ],
+   "welfareList": [
+    "带薪年假",
+    "节日福利",
+    "年终奖",
+    "餐补",
+    "股票期权"
+   ],
+   "postDescription": "岗位：测试开发工程师（测试开发/效能工具 · 负责人）\n\n岗位职责：\n1. 设计等价类与边界值测试用例；\n2. 负责帧率内存与崩溃率专项排查；\n3. 搭建并维护自动化测试平台；\n4. 使用 Python 编写测试脚本；\n5. 对服务端协议与接口做联调验证；\n\n任职要求：\n1. 5-10年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 测试设计、性能与稳定性、自动化与工具平台 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 南屿互娱 发布。",
+   "jobAddress": "北京海淀区中关村11号",
+   "bossName": "赵先生",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BB02",
+   "brandName": "南屿互娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "天使轮",
+   "brandScaleName": "20-99人"
+  },
+  {
+   "encryptJobId": "B03",
+   "jobName": "稳定性专项测试工程师",
+   "salaryDesc": "12-18K",
+   "jobLabels": [
+    "1年以内",
+    "硕士"
+   ],
+   "jobExperience": "1年以内",
+   "jobDegree": "硕士",
+   "cityName": "上海",
+   "areaDistrict": "浦东新区",
+   "businessDistrict": "张江",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "测试设计",
+    "性能与稳定性",
+    "编程与脚本",
+    "代码引擎与白盒"
+   ],
+   "welfareList": [
+    "五险一金",
+    "股票期权",
+    "节日福利",
+    "定期体检",
+    "带薪年假"
+   ],
+   "postDescription": "岗位：稳定性专项测试工程师（性能与稳定性专项 · 初级）\n\n岗位职责：\n1. 设计等价类与边界值测试用例；\n2. 负责帧率内存与崩溃率专项排查；\n3. 使用 Python 编写测试脚本；\n4. 阅读引擎源码进行白盒测试；\n5. 覆盖多机型适配与弱网场景验证；\n6. 建立质量度量指标与看板；\n\n任职要求：\n1. 1年以内工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 测试设计、性能与稳定性、编程与脚本 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 漱石网络 发布。",
+   "jobAddress": "上海浦东新区张江12号",
+   "bossName": "殳女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BB03",
+   "brandName": "漱石网络",
+   "brandIndustry": "游戏",
+   "brandStageName": "A轮",
+   "brandScaleName": "100-499人"
+  },
+  {
+   "encryptJobId": "B04",
+   "jobName": "引擎内容测试工程师",
+   "salaryDesc": "15-25K",
+   "jobLabels": [
+    "1-3年",
+    "学历不限"
+   ],
+   "jobExperience": "1-3年",
+   "jobDegree": "学历不限",
+   "cityName": "深圳",
+   "areaDistrict": "南山区",
+   "businessDistrict": "科技园",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "测试设计",
+    "功能数值与玩法",
+    "代码引擎与白盒",
+    "服务端协议与接口"
+   ],
+   "welfareList": [
+    "年终奖",
+    "弹性工作",
+    "定期体检",
+    "五险一金",
+    "餐补"
+   ],
+   "postDescription": "岗位：引擎内容测试工程师（多端/引擎/内容专项 · 中级）\n\n岗位职责：\n1. 设计等价类与边界值测试用例；\n2. 校验战斗数值与玩法规则一致性；\n3. 阅读引擎源码进行白盒测试；\n4. 对服务端协议与接口做联调验证；\n5. 覆盖多机型适配与弱网场景验证；\n6. 制定测试流程规范与质量体系；\n\n任职要求：\n1. 1-3年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 测试设计、功能数值与玩法、代码引擎与白盒 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 KITE STUDIO 发布。",
+   "jobAddress": "深圳南山区科技园13号",
+   "bossName": "赵先生",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BB04",
+   "brandName": "KITE STUDIO",
+   "brandIndustry": "游戏",
+   "brandStageName": "未融资",
+   "brandScaleName": "0-20人"
+  },
+  {
+   "encryptJobId": "B05",
+   "jobName": "测试主管",
+   "salaryDesc": "18-30K",
+   "jobLabels": [
+    "3-5年",
+    "大专"
+   ],
+   "jobExperience": "3-5年",
+   "jobDegree": "大专",
+   "cityName": "成都",
+   "areaDistrict": "高新区",
+   "businessDistrict": "天府三街",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "需求分析",
+    "安全与风控",
+    "数据指标与质量度量",
+    "项目推进与风险"
+   ],
+   "welfareList": [
+    "餐补",
+    "带薪年假",
+    "定期体检",
+    "节日福利",
+    "年终奖"
+   ],
+   "postDescription": "岗位：测试主管（质量负责人/体系建设 · 高级）\n\n岗位职责：\n1. 参与需求评审并输出测试点拆分；\n2. 参与反外挂与账号风控测试；\n3. 建立质量度量指标与看板；\n4. 推动版本节奏并识别上线风险；\n5. 制定测试流程规范与质量体系；\n\n任职要求：\n1. 3-5年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 需求分析、安全与风控、数据指标与质量度量 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 川陌网络 发布。",
+   "jobAddress": "成都高新区天府三街14号",
+   "bossName": "殳女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BB05",
+   "brandName": "川陌网络",
+   "brandIndustry": "游戏",
+   "brandStageName": "B轮",
+   "brandScaleName": "500-999人"
+  },
+  {
+   "encryptJobId": "B06",
+   "jobName": "功能测试工程师(游戏)",
+   "salaryDesc": "20-35K",
+   "jobLabels": [
+    "5-10年",
+    "本科"
+   ],
+   "jobExperience": "5-10年",
+   "jobDegree": "本科",
+   "cityName": "杭州",
+   "areaDistrict": "滨江区",
+   "businessDistrict": "江南大道",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "需求分析",
+    "测试设计",
+    "缺陷闭环与定位",
+    "功能数值与玩法"
+   ],
+   "welfareList": [
+    "股票期权",
+    "节日福利",
+    "弹性工作",
+    "五险一金",
+    "带薪年假"
+   ],
+   "postDescription": "岗位：功能测试工程师(游戏)（功能/版本质量保障 · 负责人）\n\n岗位职责：\n1. 参与需求评审并输出测试点拆分；\n2. 设计等价类与边界值测试用例；\n3. 跟踪缺陷从提单到回归验证闭环；\n4. 校验战斗数值与玩法规则一致性；\n5. 参与反外挂与账号风控测试；\n6. 熟悉 SLG 与卡牌品类业务特点；\n\n任职要求：\n1. 5-10年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 需求分析、测试设计、缺陷闭环与定位 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 砺岩时代 发布。",
+   "jobAddress": "杭州滨江区江南大道15号",
+   "bossName": "赵先生",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BB06",
+   "brandName": "砺岩时代",
+   "brandIndustry": "游戏",
+   "brandStageName": "未融资",
+   "brandScaleName": "20-99人"
+  },
+  {
+   "encryptJobId": "B07",
+   "jobName": "自动化测试工程师",
+   "salaryDesc": "25-40K",
+   "jobLabels": [
+    "1年以内",
+    "硕士"
+   ],
+   "jobExperience": "1年以内",
+   "jobDegree": "硕士",
+   "cityName": "北京",
+   "areaDistrict": "海淀区",
+   "businessDistrict": "西二旗",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "测试设计",
+    "缺陷闭环与定位",
+    "自动化与工具平台",
+    "编程与脚本"
+   ],
+   "welfareList": [
+    "五险一金",
+    "年终奖",
+    "节日福利",
+    "股票期权",
+    "弹性工作"
+   ],
+   "postDescription": "岗位：自动化测试工程师（测试开发/效能工具 · 初级）\n\n岗位职责：\n1. 设计等价类与边界值测试用例；\n2. 跟踪缺陷从提单到回归验证闭环；\n3. 搭建并维护自动化测试平台；\n4. 使用 Python 编写测试脚本；\n5. 对服务端协议与接口做联调验证；\n6. 建立质量度量指标与看板；\n\n任职要求：\n1. 1年以内工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 测试设计、缺陷闭环与定位、自动化与工具平台 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 鹿野互娱 发布。",
+   "jobAddress": "北京海淀区西二旗16号",
+   "bossName": "殳女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BB07",
+   "brandName": "鹿野互娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "未融资",
+   "brandScaleName": "0-20人"
+  },
+  {
+   "encryptJobId": "B08",
+   "jobName": "性能测试工程师",
+   "salaryDesc": "30-50K",
+   "jobLabels": [
+    "1-3年",
+    "学历不限"
+   ],
+   "jobExperience": "1-3年",
+   "jobDegree": "学历不限",
+   "cityName": "广州",
+   "areaDistrict": "天河区",
+   "businessDistrict": "珠江新城",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "性能与稳定性",
+    "编程与脚本",
+    "代码引擎与白盒",
+    "数据指标与质量度量"
+   ],
+   "welfareList": [
+    "定期体检",
+    "股票期权",
+    "餐补",
+    "节日福利",
+    "弹性工作"
+   ],
+   "postDescription": "岗位：性能测试工程师（性能与稳定性专项 · 中级）\n\n岗位职责：\n1. 负责帧率内存与崩溃率专项排查；\n2. 使用 Python 编写测试脚本；\n3. 阅读引擎源码进行白盒测试；\n4. 建立质量度量指标与看板；\n\n任职要求：\n1. 1-3年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 性能与稳定性、编程与脚本、代码引擎与白盒 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 穹岭数娱 发布。",
+   "jobAddress": "广州天河区珠江新城17号",
+   "bossName": "殳女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BB08",
+   "brandName": "穹岭数娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "A轮",
+   "brandScaleName": "100-499人"
+  },
+  {
+   "encryptJobId": "B09",
+   "jobName": "引擎内容测试工程师",
+   "salaryDesc": "8-12K",
+   "jobLabels": [
+    "3-5年",
+    "大专"
+   ],
+   "jobExperience": "3-5年",
+   "jobDegree": "大专",
+   "cityName": "北京",
+   "areaDistrict": "朝阳区",
+   "businessDistrict": "望京",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "测试设计",
+    "缺陷闭环与定位",
+    "功能数值与玩法",
+    "代码引擎与白盒"
+   ],
+   "welfareList": [
+    "节日福利",
+    "五险一金",
+    "弹性工作",
+    "定期体检",
+    "年终奖"
+   ],
+   "postDescription": "岗位：引擎内容测试工程师（多端/引擎/内容专项 · 高级）\n\n岗位职责：\n1. 设计等价类与边界值测试用例；\n2. 跟踪缺陷从提单到回归验证闭环；\n3. 校验战斗数值与玩法规则一致性；\n4. 阅读引擎源码进行白盒测试；\n5. 覆盖多机型适配与弱网场景验证；\n6. 参与反外挂与账号风控测试；\n\n任职要求：\n1. 3-5年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 测试设计、缺陷闭环与定位、功能数值与玩法 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 云杉工坊 发布。",
+   "jobAddress": "北京朝阳区望京18号",
+   "bossName": "孙女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BB09",
+   "brandName": "云杉工坊",
+   "brandIndustry": "游戏",
+   "brandStageName": "未融资",
+   "brandScaleName": "0-20人"
+  },
+  {
+   "encryptJobId": "B10",
+   "jobName": "测试组长",
+   "salaryDesc": "10-15K",
+   "jobLabels": [
+    "5-10年",
+    "本科"
+   ],
+   "jobExperience": "5-10年",
+   "jobDegree": "本科",
+   "cityName": "北京",
+   "areaDistrict": "海淀区",
+   "businessDistrict": "中关村",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "需求分析",
+    "服务端协议与接口",
+    "安全与风控",
+    "数据指标与质量度量"
+   ],
+   "welfareList": [
+    "弹性工作",
+    "五险一金",
+    "节日福利",
+    "带薪年假",
+    "年终奖"
+   ],
+   "postDescription": "岗位：测试组长（质量负责人/体系建设 · 负责人）\n\n岗位职责：\n1. 参与需求评审并输出测试点拆分；\n2. 对服务端协议与接口做联调验证；\n3. 参与反外挂与账号风控测试；\n4. 建立质量度量指标与看板；\n5. 推动版本节奏并识别上线风险；\n6. 制定测试流程规范与质量体系；\n7. 熟悉 SLG 与卡牌品类业务特点；\n\n任职要求：\n1. 5-10年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 需求分析、服务端协议与接口、安全与风控 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 砺锋数科 发布。",
+   "jobAddress": "北京海淀区中关村19号",
+   "bossName": "殳女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BB10",
+   "brandName": "砺锋数科",
+   "brandIndustry": "计算机软件",
+   "brandStageName": "B轮",
+   "brandScaleName": "100-499人"
+  },
+  {
+   "encryptJobId": "B11",
+   "jobName": "功能测试工程师(游戏)",
+   "salaryDesc": "12-18K",
+   "jobLabels": [
+    "1年以内",
+    "硕士"
+   ],
+   "jobExperience": "1年以内",
+   "jobDegree": "硕士",
+   "cityName": "上海",
+   "areaDistrict": "浦东新区",
+   "businessDistrict": "张江",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "需求分析",
+    "测试设计",
+    "缺陷闭环与定位",
+    "功能数值与玩法"
+   ],
+   "welfareList": [
+    "弹性工作",
+    "定期体检",
+    "股票期权",
+    "年终奖",
+    "带薪年假"
+   ],
+   "postDescription": "岗位：功能测试工程师(游戏)（功能/版本质量保障 · 初级）\n\n岗位职责：\n1. 参与需求评审并输出测试点拆分；\n2. 设计等价类与边界值测试用例；\n3. 跟踪缺陷从提单到回归验证闭环；\n4. 校验战斗数值与玩法规则一致性；\n5. 覆盖多机型适配与弱网场景验证；\n6. 建立质量度量指标与看板；\n7. 熟悉 SLG 与卡牌品类业务特点；\n\n任职要求：\n1. 1年以内工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 需求分析、测试设计、缺陷闭环与定位 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 拾贰互动 发布。",
+   "jobAddress": "上海浦东新区张江20号",
+   "bossName": "孙女士",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BB11",
+   "brandName": "拾贰互动",
+   "brandIndustry": "游戏",
+   "brandStageName": "天使轮",
+   "brandScaleName": "20-99人"
+  },
+  {
+   "encryptJobId": "B12",
+   "jobName": "测试开发工程师",
+   "salaryDesc": "15-25K",
+   "jobLabels": [
+    "1-3年",
+    "学历不限"
+   ],
+   "jobExperience": "1-3年",
+   "jobDegree": "学历不限",
+   "cityName": "深圳",
+   "areaDistrict": "南山区",
+   "businessDistrict": "科技园",
+   "jobType": 0,
+   "positionCategory": "互联网/AI",
+   "skills": [
+    "测试设计",
+    "自动化与工具平台",
+    "编程与脚本",
+    "服务端协议与接口"
+   ],
+   "welfareList": [
+    "弹性工作",
+    "五险一金",
+    "节日福利",
+    "定期体检",
+    "带薪年假"
+   ],
+   "postDescription": "岗位：测试开发工程师（测试开发/效能工具 · 中级）\n\n岗位职责：\n1. 设计等价类与边界值测试用例；\n2. 搭建并维护自动化测试平台；\n3. 使用 Python 编写测试脚本；\n4. 对服务端协议与接口做联调验证；\n\n任职要求：\n1. 1-3年工作经验，具备完整版本从研发到上线的测试经历；\n2. 具备 测试设计、自动化与工具平台、编程与脚本 相关的项目证据；\n3. 沟通顺畅，能承担版本节奏压力。\n\n本岗位由 北屿引擎 发布。",
+   "jobAddress": "深圳南山区科技园21号",
+   "bossName": "仵先生",
+   "bossTitle": "招聘负责人",
+   "bossOnline": true,
+   "bossActiveTime": "今日活跃",
+   "encryptBrandId": "BB12",
+   "brandName": "北屿引擎",
+   "brandIndustry": "人工智能",
+   "brandStageName": "C轮",
+   "brandScaleName": "500-999人"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>mini</title>
+<p>fixture frontend -- renders the items view from /api/views</p>
+<table id="t"></table>
+<script>
+fetch('/api/views').then(r => r.json()).then(v => {
+  const cols = v.views.items.fields.map(f => f.name);
+  fetch('/api/v/items').then(r => r.json()).then(d => {
+    document.getElementById('t').innerHTML =
+      '<tr>' + cols.map(c => '<th>' + c + '</th>').join('') + '</tr>' +
+      d.rows.map(r => '<tr>' + cols.map(c => '<td>' + (r[c] ?? '') + '</td>').join('') + '</tr>').join('');
+  });
+});
+</script>

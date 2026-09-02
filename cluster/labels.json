@@ -1,0 +1,3213 @@
+{
+"cn-all-remaining-0005-c20d1c2e": {
+"slug": "ad-campaign-console",
+"votes": "3/3",
+"why": "计划/单元/创意+曝光点击转化",
+"alts": []
+},
+"cn-all-remaining-0006-9effbd05": {
+"slug": "mes-batch-release",
+"votes": "2/3",
+"why": "生产工序物料消耗台账",
+"alts": [
+"back-office-ledger"
+]
+},
+"cn-all-remaining-0007-05d253cc": {
+"slug": null,
+"votes": "3/3",
+"why": "上市公司财务估值,无对应品类",
+"alts": []
+},
+"cn-all-remaining-0008-8a350880": {
+"slug": "dataset-repository",
+"votes": "人工改判",
+"why": "美股日线行情，公开数据集",
+"alts": [
+"process-historian"
+]
+},
+"cn-all-remaining-0019-034c6ce9": {
+"slug": "gov-statistics-portal",
+"votes": "3/3",
+"why": "产品-流向-年出表,纯查询导出",
+"alts": []
+},
+"cn-all-remaining-0020-aa2698d8": {
+"slug": "procurement-sourcing",
+"votes": "2/3",
+"why": "产品台账供应商交易",
+"alts": [
+"audit-findings"
+]
+},
+"cn-all-remaining-0021-e1224663": {
+"slug": "enforcement-case",
+"votes": "人工改判",
+"why": "制裁筛查与阻断决定",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-0043-bf5fc64f": {
+"slug": "ecommerce-catalog",
+"votes": "3/3",
+"why": "淘宝商品列表+详情为主",
+"alts": []
+},
+"cn-all-remaining-0063-4a16f58b": {
+"slug": "apm-observability",
+"votes": "3/3",
+"why": "主机指标面板+告警,原文点名",
+"alts": []
+},
+"cn-all-remaining-0070-65ebea1e": {
+"slug": "content-social-feed",
+"votes": "2/3",
+"why": "Steam商店页,品类原文点名",
+"alts": [
+"ecommerce-catalog"
+]
+},
+"cn-all-remaining-0072-1e08f36f": {
+"slug": "process-historian",
+"votes": "人工改判",
+"why": "OPSD 逐时负荷序列",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-0090-ab9a3d0b": {
+"slug": "gov-statistics-portal",
+"votes": "人工改判",
+"why": "无参照站/无记录级数据，disposition: file，不进骨架适配流程",
+"alts": []
+},
+"cn-all-remaining-0135-8319cf05": {
+"slug": "seismic-datacenter",
+"votes": "2/2",
+"why": "USGS地震目录检索导出",
+"alts": []
+},
+"cn-all-remaining-0157-48c5ea38": {
+"slug": "materials-database",
+"votes": "2/2",
+"why": "材料结构CIF/张量记录",
+"alts": []
+},
+"cn-all-remaining-0160-5d376197": {
+"slug": "seismic-datacenter",
+"votes": "2/2",
+"why": "台站P/S到时拾取定位",
+"alts": []
+},
+"cn-all-remaining-0162-c827b242": {
+"slug": "materials-database",
+"votes": "2/2",
+"why": "建站反馈：输入是 records.json/rules.json 夹具，任务本身即契约校验；做成界面会把题毁掉，无站可建，disposition: file",
+"alts": []
+},
+"cn-all-remaining-0163-f216c49f": {
+"slug": "seismic-datacenter",
+"votes": "2/2",
+"why": "台站远震波形事件目录",
+"alts": []
+},
+"cn-all-remaining-0165-b35850c6": {
+"slug": "materials-database",
+"votes": "2/2",
+"why": "材料详情结构文件导出",
+"alts": []
+},
+"cn-all-remaining-0166-b4934700": {
+"slug": "seismic-datacenter",
+"votes": "2/2",
+"why": "余震目录台站重定位",
+"alts": []
+},
+"cn-all-remaining-0170-55cf9dab": {
+"slug": "materials-database",
+"votes": "2/2",
+"why": "材料列表详情可视化站",
+"alts": []
+},
+"cn-all-remaining-0183-f366890f": {
+"slug": "geospatial-portal",
+"votes": "2/2",
+"why": "Sentinel-2遥感影像产品",
+"alts": []
+},
+"cn-all-remaining-0204-96586aa4": {
+"slug": "regulatory-registry",
+"votes": "人工改判",
+"why": "无参照站/无记录级数据，disposition: file，不进骨架适配流程",
+"alts": []
+},
+"cn-all-remaining-0207-8b063b46": {
+"slug": "regulatory-registry",
+"votes": "2/2",
+"why": "CVE/KEV登记库详情",
+"alts": []
+},
+"cn-all-remaining-0209-c0b07690": {
+"slug": "weather-ocean-portal",
+"votes": "2/2",
+"why": "Open-Meteo气象观测站",
+"alts": []
+},
+"cn-all-remaining-0220-bb326e7d": {
+"slug": "crm-pipeline",
+"votes": "3/3",
+"why": "会员+触达时间线近CRM",
+"alts": []
+},
+"cn-all-remaining-0221-2cf3a288": {
+"slug": "lims",
+"votes": "3/3",
+"why": "批次+检验+质控",
+"alts": []
+},
+"cn-all-remaining-0222-930d164f": {
+"slug": "clinical-trial-edc",
+"votes": "3/3",
+"why": "受试者+给药+CRF",
+"alts": []
+},
+"cn-all-remaining-0223-6433ad04": {
+"slug": "ticket-tracker",
+"votes": "3/3",
+"why": "缺陷工单列表",
+"alts": []
+},
+"cn-all-remaining-0228-930473c4": {
+"slug": "ehr-patient-record",
+"votes": "3/3",
+"why": "患者筛查+风险分级",
+"alts": []
+},
+"cn-all-remaining-0241-a840346d": {
+"slug": "asset-maintenance",
+"votes": "3/3",
+"why": "资产清单+可用率",
+"alts": []
+},
+"cn-all-remaining-0249-07d18b19": {
+"slug": "omics-repository",
+"votes": "人工改判",
+"why": "FlyWire 连接组",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-0253-e224ded0": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "站点+时序+导出",
+"alts": []
+},
+"cn-all-remaining-0278-95674282": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "站点+逐时+导出",
+"alts": []
+},
+"cn-all-remaining-0291-e8bd6c4c": {
+"slug": "mes-batch-release",
+"votes": "人工改判",
+"why": "建站反馈：形状同为 批次×工序/单件×测量值+规格限→放行判定，mes 骨架已服务",
+"alts": [
+"spc-measurement"
+]
+},
+"cn-all-remaining-0296-45de6b63": {
+"slug": "gov-statistics-portal",
+"votes": "2/3",
+"why": "承运人月度监管统计",
+"alts": [
+"order-management"
+]
+},
+"cn-all-remaining-0298-23ad7da2": {
+"slug": "gov-statistics-portal",
+"votes": "2/3",
+"why": "州/月致死事故统计",
+"alts": [
+"lims"
+]
+},
+"cn-all-remaining-0299-fe86cac8": {
+"slug": "weather-ocean-portal",
+"votes": "人工改判",
+"why": "EPA AQS 站点×日监测值",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-0302-299009d0": {
+"slug": "gov-statistics-portal",
+"votes": "人工改判",
+"why": "NYC TLC 政府开放数据",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-0314-df121ac2": {
+"slug": "ecommerce-catalog",
+"votes": "3/3",
+"why": "厂商目录+产品规格详情",
+"alts": []
+},
+"cn-all-remaining-0318-6f22c371": {
+"slug": "order-management",
+"votes": "2/3",
+"why": "订单主表+发货承运子记录",
+"alts": [
+"inventory-wms"
+]
+},
+"cn-all-remaining-0322-c294fc85": {
+"slug": "back-office-ledger",
+"votes": "1/3",
+"why": "ATS月报台账兜底",
+"alts": [
+"ad-campaign-console",
+"procurement-sourcing"
+]
+},
+"cn-all-remaining-0323-3f584fd1": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "岗位公告搜索筛选",
+"alts": []
+},
+"cn-all-remaining-0328-9e64a75f": {
+"slug": "game-liveops-console",
+"votes": "3/3",
+"why": "活动发奖道具账本",
+"alts": []
+},
+"cn-all-remaining-0330-f8d853da": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "站点观测+要素查询",
+"alts": []
+},
+"cn-all-remaining-0346-54ee7ce2": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "Open-Meteo站点观测",
+"alts": []
+},
+"cn-all-remaining-0348-e08b7fe5": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "Open-Meteo站点观测",
+"alts": []
+},
+"cn-all-remaining-0349-c13fb8d4": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "Open-Meteo站点观测",
+"alts": []
+},
+"cn-all-remaining-0351-c0f3eb29": {
+"slug": "dataset-repository",
+"votes": "人工改判",
+"why": "建站反馈：36.2万行交易流水在订单界面取不出，是数据集/ML 管道形状",
+"alts": [
+"order-management"
+]
+},
+"cn-all-remaining-0352-61295765": {
+"slug": "process-historian",
+"votes": "人工改判",
+"why": "OPSD 逐时负荷序列",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-0356-d600f1dc": {
+"slug": "omics-repository",
+"votes": "2/3",
+"why": "变异频率基因库结构",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-0379-fa0f25f9": {
+"slug": null,
+"votes": "2/3",
+"why": "无匹配财务对比库品类",
+"alts": [
+"salary-benchmark"
+]
+},
+"cn-all-remaining-0395-459e966d": {
+"slug": "process-historian",
+"votes": "3/3",
+"why": "位号趋势+泄漏子表",
+"alts": []
+},
+"cn-all-remaining-0397-64a67ace": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "岗位列表+筛选+详情",
+"alts": []
+},
+"cn-all-remaining-0398-6d389a9a": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "站点日尺度海温门户",
+"alts": []
+},
+"cn-all-remaining-0400-2d892a5f": {
+"slug": "ehr-patient-record",
+"votes": "3/3",
+"why": "病历访视+结果时间线",
+"alts": []
+},
+"cn-all-remaining-0405-37b50b73": {
+"slug": "inventory-wms",
+"votes": "3/3",
+"why": "库存台账+盘点差异",
+"alts": []
+},
+"cn-all-remaining-0406-6b719b00": {
+"slug": "procurement-sourcing",
+"votes": "3/3",
+"why": "公开招采公告列表",
+"alts": []
+},
+"cn-all-remaining-0407-b77013e8": {
+"slug": "lims",
+"votes": "3/3",
+"why": "批次检验+量具校准",
+"alts": []
+},
+"cn-all-remaining-0408-a8f2c013": {
+"slug": "order-management",
+"votes": "3/3",
+"why": "订单支付退款子表",
+"alts": []
+},
+"cn-all-remaining-0410-7e8ac79d": {
+"slug": "contract-project-ledger",
+"votes": "3/3",
+"why": "计量签认+变更台账",
+"alts": []
+},
+"cn-all-remaining-0411-51fd07e5": {
+"slug": "job-board",
+"votes": "2/2",
+"why": "招聘岗位样本清洗",
+"alts": []
+},
+"cn-all-remaining-0412-a20676d9": {
+"slug": "job-board",
+"votes": "2/2",
+"why": "招聘岗位复盘",
+"alts": []
+},
+"cn-all-remaining-0413-32af7365": {
+"slug": "job-board",
+"votes": "2/2",
+"why": "岗位+设计中心名录",
+"alts": []
+},
+"cn-all-remaining-0414-b2da4750": {
+"slug": "crm-pipeline",
+"votes": "2/2",
+"why": "项目线索客户名录",
+"alts": []
+},
+"cn-all-remaining-0415-4696e896": {
+"slug": "job-board",
+"votes": "2/2",
+"why": "图形算法岗位样本",
+"alts": []
+},
+"cn-all-remaining-0417-e46ae306": {
+"slug": "field-inspection",
+"votes": "2/2",
+"why": "查验缺陷整改闭环",
+"alts": []
+},
+"cn-all-remaining-0419-94921508": {
+"slug": "contract-project-ledger",
+"votes": "2/2",
+"why": "合同回款佣金结算",
+"alts": []
+},
+"cn-all-remaining-0420-dc253cc1": {
+"slug": "inventory-wms",
+"votes": "2/2",
+"why": "批次库存订单履约",
+"alts": []
+},
+"cn-all-remaining-0421-9128c0d2": {
+"slug": "lims",
+"votes": "2/2",
+"why": "水样批次检验结果",
+"alts": []
+},
+"cn-all-remaining-0423-6de57e18": {
+"slug": "lims",
+"votes": "2/2",
+"why": "GC校准批次结果",
+"alts": []
+},
+"cn-all-remaining-0429-bb30f48c": {
+"slug": "lims",
+"votes": "2/2",
+"why": "TMT批次检验结果",
+"alts": []
+},
+"cn-all-remaining-0431-139098e2": {
+"slug": "apm-observability",
+"votes": "2/2",
+"why": "多源日志告警事件",
+"alts": []
+},
+"cn-all-remaining-0433-48b9ac95": {
+"slug": "back-office-ledger",
+"votes": "3/3",
+"why": "债券持仓无专类台账",
+"alts": []
+},
+"cn-all-remaining-0435-cb32ec24": {
+"slug": "insurance-claims",
+"votes": "3/3",
+"why": "赔案主数据与时间线",
+"alts": []
+},
+"cn-all-remaining-0437-3f3825f9": {
+"slug": "insurance-claims",
+"votes": "3/3",
+"why": "多币种赔案准备金",
+"alts": []
+},
+"cn-all-remaining-0438-8bd2d962": {
+"slug": "order-management",
+"votes": "3/3",
+"why": "订单支付退款子记录",
+"alts": []
+},
+"cn-all-remaining-0439-e36f8864": {
+"slug": "process-historian",
+"votes": "3/3",
+"why": "母线线路测量趋势",
+"alts": []
+},
+"cn-all-remaining-0440-a3ce5637": {
+"slug": "process-historian",
+"votes": "3/3",
+"why": "楼宇小时能耗历史",
+"alts": []
+},
+"cn-all-remaining-0441-8ac911fe": {
+"slug": "process-historian",
+"votes": "3/3",
+"why": "母线线路运行测量",
+"alts": []
+},
+"cn-all-remaining-0442-86e060cb": {
+"slug": "process-historian",
+"votes": "1/3",
+"why": "小区MR告警趋势",
+"alts": [
+"apm-observability",
+"asset-maintenance"
+]
+},
+"cn-all-remaining-0443-dc5f61f5": {
+"slug": "mes-batch-release",
+"votes": "1/3",
+"why": "批次量测放行判定",
+"alts": [
+"lims",
+"spc-measurement"
+]
+},
+"cn-all-remaining-0444-8561ae74": {
+"slug": "mes-batch-release",
+"votes": "1/3",
+"why": "批次良率处置方案",
+"alts": [
+"lims",
+"spc-measurement"
+]
+},
+"cn-all-remaining-0446-824b7977": {
+"slug": "lims",
+"votes": "3/3",
+"why": "批次HPLC检验记录",
+"alts": []
+},
+"cn-all-remaining-0457-b003c365": {
+"slug": "asset-maintenance",
+"votes": "3/3",
+"why": "检查井管段台账",
+"alts": []
+},
+"cn-all-remaining-0477-0fe64a0f": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "Open-Meteo逐小时气象驱动数据",
+"alts": []
+},
+"cn-all-remaining-0481-7ab34177": {
+"slug": "gov-statistics-portal",
+"votes": "2/3",
+"why": "NOAA事件表纯聚合导出无详情页",
+"alts": [
+"weather-ocean-portal"
+]
+},
+"cn-all-remaining-0482-4ad1c775": {
+"slug": "gov-statistics-portal",
+"votes": "2/3",
+"why": "NOAA双表关联月度统计导出",
+"alts": [
+"weather-ocean-portal"
+]
+},
+"cn-all-remaining-0483-e7f016ec": {
+"slug": "gov-statistics-portal",
+"votes": "2/3",
+"why": "NOAA事件按类别归并统计导出",
+"alts": [
+"weather-ocean-portal"
+]
+},
+"cn-all-remaining-0484-47ac327f": {
+"slug": "gov-statistics-portal",
+"votes": "2/3",
+"why": "NOAA系统级月度统计导出",
+"alts": [
+"weather-ocean-portal"
+]
+},
+"cn-all-remaining-0493-755ec260": {
+"slug": "apm-observability",
+"votes": "3/3",
+"why": "路由耗时P50/P95告警指标",
+"alts": []
+},
+"cn-all-remaining-0494-1a9218c7": {
+"slug": "procurement-sourcing",
+"votes": "3/3",
+"why": "采购项预算核验清单",
+"alts": []
+},
+"cn-all-remaining-0495-5d0e7157": {
+"slug": "ticket-tracker",
+"votes": "3/3",
+"why": "状态优先级+排序的工单式列表",
+"alts": []
+},
+"cn-all-remaining-0515-6253a2c7": {
+"slug": "gov-statistics-portal",
+"votes": "人工改判",
+"why": "GHGRP 排放统计",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-0518-b6641c0c": {
+"slug": "document-library",
+"votes": "3/3",
+"why": "报告文件下载状态与版本",
+"alts": []
+},
+"cn-all-remaining-0524-a56ec68a": {
+"slug": "content-social-feed",
+"votes": "3/3",
+"why": "建站反馈：输入是 records.json/rules.json 夹具，任务本身即契约校验；做成界面会把题毁掉，无站可建，disposition: file",
+"alts": []
+},
+"cn-all-remaining-0525-220a5eb2": {
+"slug": "ecommerce-catalog",
+"votes": "3/3",
+"why": "促销页商品折扣分流",
+"alts": []
+},
+"cn-all-remaining-0570-aca01108": {
+"slug": "ticket-tracker",
+"votes": "2/2",
+"why": "请求状态轮询似工单",
+"alts": []
+},
+"cn-all-remaining-0572-5e9cacdd": {
+"slug": "ticket-tracker",
+"votes": "2/2",
+"why": "工单字段结构本体",
+"alts": []
+},
+"cn-all-remaining-0576-f1a9f22f": {
+"slug": "document-library",
+"votes": "2/2",
+"why": "文档列表文件属性",
+"alts": []
+},
+"cn-all-remaining-0577-09649bc4": {
+"slug": "back-office-ledger",
+"votes": "2/2",
+"why": "状态枚举非可浏览表",
+"alts": []
+},
+"cn-all-remaining-0578-e86fdf1b": {
+"slug": "ticket-tracker",
+"votes": "2/2",
+"why": "建站反馈：输入是 records.json/rules.json 夹具，任务本身即契约校验；做成界面会把题毁掉，无站可建，disposition: file",
+"alts": []
+},
+"cn-all-remaining-0581-e08e758f": {
+"slug": "crm-pipeline",
+"votes": "2/2",
+"why": "建站反馈：输入是 records.json/rules.json 夹具，任务本身即契约校验；做成界面会把题毁掉，无站可建，disposition: file",
+"alts": []
+},
+"cn-all-remaining-0588-2b3a5bb1": {
+"slug": "qms-capa",
+"votes": "2/2",
+"why": "建站反馈：输入是 records.json/rules.json 夹具，任务本身即契约校验；做成界面会把题毁掉，无站可建，disposition: file",
+"alts": []
+},
+"cn-all-remaining-0591-34a6f98a": {
+"slug": "document-library",
+"votes": "2/2",
+"why": "建站反馈：输入是 records.json/rules.json 夹具，任务本身即契约校验；做成界面会把题毁掉，无站可建，disposition: file",
+"alts": []
+},
+"cn-all-remaining-0594-0e93fd4c": {
+"slug": "back-office-ledger",
+"votes": "2/2",
+"why": "建站反馈：输入是 records.json/rules.json 夹具，任务本身即契约校验；做成界面会把题毁掉，无站可建，disposition: file",
+"alts": []
+},
+"cn-all-remaining-0606-2a5f0d02": {
+"slug": "asset-maintenance",
+"votes": "2/2",
+"why": "建站反馈：输入是 records.json/rules.json 夹具，任务本身即契约校验；做成界面会把题毁掉，无站可建，disposition: file",
+"alts": []
+},
+"cn-all-remaining-0608-a7575ce7": {
+"slug": "document-library",
+"votes": "2/2",
+"why": "建站反馈：输入是 records.json/rules.json 夹具，任务本身即契约校验；做成界面会把题毁掉，无站可建，disposition: file",
+"alts": []
+},
+"cn-all-remaining-0616-04e64d59": {
+"slug": "apm-observability",
+"votes": "2/2",
+"why": "建站反馈：输入是 records.json/rules.json 夹具，任务本身即契约校验；做成界面会把题毁掉，无站可建，disposition: file",
+"alts": []
+},
+"cn-all-remaining-0618-a217bf7e": {
+"slug": "ticket-tracker",
+"votes": "3/3",
+"why": "建站反馈：输入是 records.json/rules.json 夹具，任务本身即契约校验；做成界面会把题毁掉，无站可建，disposition: file",
+"alts": []
+},
+"cn-all-remaining-0622-f1aaea49": {
+"slug": "procurement-sourcing",
+"votes": "3/3",
+"why": "采购评审案例台账",
+"alts": []
+},
+"cn-all-remaining-0630-3d193fa5": {
+"slug": "regulatory-registry",
+"votes": "3/3",
+"why": "橙皮书专利记录",
+"alts": []
+},
+"cn-all-remaining-0631-ea4b7723": {
+"slug": "weather-ocean-portal",
+"votes": "2/3",
+"why": "NHC/NOAA风暴事件为核心",
+"alts": [
+"enforcement-case"
+]
+},
+"cn-all-remaining-0632-5b302678": {
+"slug": "geospatial-portal",
+"votes": "人工改判",
+"why": "NASR 跑道/障碍物几何",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-0633-f8c6a3ac": {
+"slug": "geospatial-portal",
+"votes": "人工改判",
+"why": "NASR 设施与程序文档",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-0635-08f8465d": {
+"slug": "regulatory-registry",
+"votes": "3/3",
+"why": "橙皮书组合审计",
+"alts": []
+},
+"cn-all-remaining-0636-316cb833": {
+"slug": "law-standard-library",
+"votes": "3/3",
+"why": "eCFR原文点名",
+"alts": []
+},
+"cn-all-remaining-0638-0c7751f3": {
+"slug": "asset-maintenance",
+"votes": "3/3",
+"why": "发电机资产台账",
+"alts": []
+},
+"cn-all-remaining-0639-858c15f4": {
+"slug": "asset-maintenance",
+"votes": "3/3",
+"why": "发电机资产台账",
+"alts": []
+},
+"cn-all-remaining-0642-a70454dd": {
+"slug": "regulatory-registry",
+"votes": "3/3",
+"why": "SDN主体检索详情页",
+"alts": []
+},
+"cn-all-remaining-0643-75f76d95": {
+"slug": "asset-maintenance",
+"votes": "3/3",
+"why": "活动桥资产台账",
+"alts": []
+},
+"cn-all-remaining-0644-6f64bd2d": {
+"slug": "gov-statistics-portal",
+"votes": "人工改判",
+"why": "银行财务指标复算",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-0648-a8828ee9": {
+"slug": "gov-statistics-portal",
+"votes": "人工改判",
+"why": "国债拍卖市场数据",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-0649-f4bed7ef": {
+"slug": "seismic-datacenter",
+"votes": "3/3",
+"why": "地震事件与产品目录",
+"alts": []
+},
+"cn-all-remaining-0650-3d91eb5e": {
+"slug": "enforcement-case",
+"votes": "3/3",
+"why": "事故调查执法案件",
+"alts": []
+},
+"cn-all-remaining-0651-88bde7d0": {
+"slug": "asset-maintenance",
+"votes": "3/3",
+"why": "道口资产+事故子表",
+"alts": []
+},
+"cn-all-remaining-0652-b9c7d500": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "潮位站观测记录",
+"alts": []
+},
+"cn-all-remaining-0669-c5296d6d": {
+"slug": "payment-reconciliation",
+"votes": "3/3",
+"why": "跨境支付清算对账",
+"alts": []
+},
+"cn-all-remaining-0670-306d841f": {
+"slug": "back-office-ledger",
+"votes": "2/3",
+"why": "多表供应链无专类",
+"alts": [
+"inventory-wms"
+]
+},
+"cn-all-remaining-0674-84436791": {
+"slug": "salary-benchmark",
+"votes": "人工改判",
+"why": "BLS OEWS/OOH + O*NET 职业薪酬行情",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-0676-ae727883": {
+"slug": "apm-observability",
+"votes": "3/3",
+"why": "服务组件+指标+事故",
+"alts": []
+},
+"cn-all-remaining-0679-f7d822c2": {
+"slug": "regulatory-registry",
+"votes": "3/3",
+"why": "绿色建筑标识检索",
+"alts": []
+},
+"cn-all-remaining-0680-0d7a9db2": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "招聘岗位检索站",
+"alts": []
+},
+"cn-all-remaining-0682-ffc004ef": {
+"slug": "ticket-tracker",
+"votes": "2/2",
+"why": "客服工单+漏斗，工单类最贴",
+"alts": []
+},
+"cn-all-remaining-0686-25b0fcd7": {
+"slug": "crm-pipeline",
+"votes": "2/2",
+"why": "原文点名CRM系统",
+"alts": []
+},
+"cn-all-remaining-0688-8dfc0c75": {
+"slug": "job-board",
+"votes": "2/2",
+"why": "招聘岗位样本记录",
+"alts": []
+},
+"cn-all-remaining-0689-df5209ab": {
+"slug": "job-board",
+"votes": "2/2",
+"why": "招聘岗位摘录记录",
+"alts": []
+},
+"cn-all-remaining-0692-1233fccb": {
+"slug": "salary-benchmark",
+"votes": "人工改判",
+"why": "BLS OEWS/OOH + O*NET 职业薪酬行情",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-0693-64f8726a": {
+"slug": "salary-benchmark",
+"votes": "人工改判",
+"why": "BLS OEWS/OOH + O*NET 职业薪酬行情",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-0695-73fb8b8c": {
+"slug": "order-management",
+"votes": "2/2",
+"why": "订单退款为主线台账",
+"alts": []
+},
+"cn-all-remaining-0696-91bc054f": {
+"slug": "clinical-trial-edc",
+"votes": "2/2",
+"why": "IRT/EDC受试者访视数据",
+"alts": []
+},
+"cn-all-remaining-0697-38acd0ca": {
+"slug": null,
+"votes": "2/2",
+"why": "IAM/CIEM无对应品类",
+"alts": []
+},
+"cn-all-remaining-0702-51ec01fc": {
+"slug": "contract-project-ledger",
+"votes": "2/2",
+"why": "工程合同进度台账",
+"alts": []
+},
+"cn-all-remaining-0703-5714b5c0": {
+"slug": "mes-batch-release",
+"votes": "2/2",
+"why": "晶圆批次量测与放行",
+"alts": []
+},
+"cn-all-remaining-0704-e33a4f15": {
+"slug": "back-office-ledger",
+"votes": "2/2",
+"why": "生产能耗采购台账兜底",
+"alts": []
+},
+"cn-all-remaining-0705-ab3d6465": {
+"slug": "process-historian",
+"votes": "2/3",
+"why": "馈线台账+趋势叠加",
+"alts": [
+"scada-hmi"
+]
+},
+"cn-all-remaining-0708-9b5c804a": {
+"slug": "clinical-trial-edc",
+"votes": "3/3",
+"why": "受试者/SAE/质疑管理",
+"alts": []
+},
+"cn-all-remaining-0709-411a7a8e": {
+"slug": "document-library",
+"votes": "1/3",
+"why": "eTMF文档+版本历史",
+"alts": [
+"audit-findings",
+"clinical-trial-edc"
+]
+},
+"cn-all-remaining-0716-978e33d8": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "监测井时序+QAQC",
+"alts": []
+},
+"cn-all-remaining-0723-215c4ee4": {
+"slug": "salary-benchmark",
+"votes": "人工改判",
+"why": "BLS OEWS/OOH + O*NET 职业薪酬行情",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-0724-5140b215": {
+"slug": "salary-benchmark",
+"votes": "人工改判",
+"why": "BLS OEWS/OOH + O*NET 职业薪酬行情",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-0729-3456fff7": {
+"slug": "salary-benchmark",
+"votes": "人工改判",
+"why": "BLS OEWS/OOH + O*NET 职业薪酬行情",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-0731-abeed8dd": {
+"slug": "crm-pipeline",
+"votes": "3/3",
+"why": "CRM商机跟进流水",
+"alts": []
+},
+"cn-all-remaining-0737-64725a3f": {
+"slug": "process-historian",
+"votes": "2/3",
+"why": "小区参数+计数器趋势",
+"alts": [
+"asset-maintenance"
+]
+},
+"cn-all-remaining-0741-4360744e": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "PVDAQ系统清单筛选",
+"alts": []
+},
+"cn-all-remaining-0745-5cca1ad5": {
+"slug": "mes-batch-release",
+"votes": "人工改判",
+"why": "FDC trace + 批次 HOLD/REVIEW/RELEASE：生产批次处置",
+"alts": [
+"lims"
+]
+},
+"cn-all-remaining-0746-667d6a72": {
+"slug": "mes-batch-release",
+"votes": "人工改判",
+"why": "建站反馈：形状同为 批次×工序/单件×测量值+规格限→放行判定，mes 骨架已服务",
+"alts": [
+"spc-measurement"
+]
+},
+"cn-all-remaining-0754-26345d25": {
+"slug": "lims",
+"votes": "3/3",
+"why": "批次-平板计数-QC典型LIMS结构",
+"alts": []
+},
+"cn-all-remaining-0758-4e0bb5b1": {
+"slug": "process-historian",
+"votes": "3/3",
+"why": "位号趋势+测点偏差诊断",
+"alts": []
+},
+"cn-all-remaining-0759-3002eee7": {
+"slug": "mes-batch-release",
+"votes": "2/3",
+"why": "批次量测+处置+MES traveler",
+"alts": [
+"lims"
+]
+},
+"cn-all-remaining-0761-75887f16": {
+"slug": "inventory-wms",
+"votes": "3/3",
+"why": "多仓库存/调拨/批次台账",
+"alts": []
+},
+"cn-all-remaining-0763-7c2e7f10": {
+"slug": "lims",
+"votes": "2/3",
+"why": "检验批-试块-复测同LIMS结构",
+"alts": [
+"mes-batch-release"
+]
+},
+"cn-all-remaining-0765-2e0c67fe": {
+"slug": "mes-batch-release",
+"votes": "2/3",
+"why": "分幅批次工序放行",
+"alts": [
+"audit-findings"
+]
+},
+"cn-all-remaining-0767-325cc9a3": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "岗位样本+候选人筛选",
+"alts": []
+},
+"cn-all-remaining-0770-159164f2": {
+"slug": "apm-observability",
+"votes": "3/3",
+"why": "小区KPI指标+告警式评分",
+"alts": []
+},
+"cn-all-remaining-0777-7fadbfc2": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "招聘JD快照为主体数据",
+"alts": []
+},
+"cn-all-remaining-0779-2c9670ba": {
+"slug": "crm-pipeline",
+"votes": "3/3",
+"why": "客户合同+跟进+健康评分",
+"alts": []
+},
+"cn-all-remaining-0780-37b43f72": {
+"slug": "order-management",
+"votes": "3/3",
+"why": "ERP开票明细+状态流转",
+"alts": []
+},
+"cn-all-remaining-0782-40b4e001": {
+"slug": "asset-maintenance",
+"votes": "2/3",
+"why": "资产台账+维保工单+能耗",
+"alts": [
+"iot-device-console"
+]
+},
+"cn-all-remaining-0784-a74f0a42": {
+"slug": "scada-hmi",
+"votes": "2/3",
+"why": "馈线负荷曲线+SCADA校核快照",
+"alts": [
+"process-historian"
+]
+},
+"cn-all-remaining-0786-4163d316": {
+"slug": "asset-maintenance",
+"votes": "3/3",
+"why": "装机台账+返修工单+CMMS",
+"alts": []
+},
+"cn-all-remaining-0789-19e1e516": {
+"slug": "order-management",
+"votes": "3/3",
+"why": "发运明细近似发货子记录",
+"alts": []
+},
+"cn-all-remaining-0791-05e9ca07": {
+"slug": "field-inspection",
+"votes": "3/3",
+"why": "查验点位+缺陷分级+整改",
+"alts": []
+},
+"cn-all-remaining-0792-a46854a7": {
+"slug": "ehr-patient-record",
+"votes": "3/3",
+"why": "病例+并发症时间线",
+"alts": []
+},
+"cn-all-remaining-0794-37667882": {
+"slug": "lims",
+"votes": "2/3",
+"why": "批次+在线离线检测+QC",
+"alts": [
+"mes-batch-release"
+]
+},
+"cn-all-remaining-0795-2d469bcb": {
+"slug": "dataset-repository",
+"votes": "人工改判",
+"why": "Fama/French 公开因子数据集",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-0798-e29ecb95": {
+"slug": "order-management",
+"votes": "3/3",
+"why": "订单支付退款配送事件",
+"alts": []
+},
+"cn-all-remaining-0801-3012a7dc": {
+"slug": "lims",
+"votes": "3/3",
+"why": "电芯批次测试+QC放行",
+"alts": []
+},
+"cn-all-remaining-0802-f5452942": {
+"slug": "ehr-patient-record",
+"votes": "3/3",
+"why": "患者医嘱检验时间线",
+"alts": []
+},
+"cn-all-remaining-0804-65e4e048": {
+"slug": "scada-hmi",
+"votes": "2/3",
+"why": "故障录波/PMU/保护动作记录",
+"alts": [
+"process-historian"
+]
+},
+"cn-all-remaining-0805-54b374d4": {
+"slug": "bank-account-ledger",
+"votes": "2/3",
+"why": "委托成交持仓对账台账",
+"alts": [
+"audit-findings"
+]
+},
+"cn-all-remaining-0806-4b92c004": {
+"slug": "qms-capa",
+"votes": "3/3",
+"why": "偏差/OOS/CAPA跨批次记录",
+"alts": []
+},
+"cn-all-remaining-0808-c3e94902": {
+"slug": "asset-maintenance",
+"votes": "3/3",
+"why": "房源资产+工单维护台账",
+"alts": []
+},
+"cn-all-remaining-0813-0f341d0c": {
+"slug": "mes-batch-release",
+"votes": "3/3",
+"why": "构件逐件量测+放行判定",
+"alts": []
+},
+"cn-all-remaining-0814-762c2157": {
+"slug": "payment-reconciliation",
+"votes": "3/3",
+"why": "订单/TA/支付三方对账",
+"alts": []
+},
+"cn-all-remaining-0815-9624faf6": {
+"slug": "process-historian",
+"votes": "3/3",
+"why": "DCS位号历史+化验事件",
+"alts": []
+},
+"cn-all-remaining-0817-a25cf14a": {
+"slug": "mes-batch-release",
+"votes": "3/3",
+"why": "MES工单逐件量测放行",
+"alts": []
+},
+"cn-all-remaining-0821-5446eadd": {
+"slug": "mes-batch-release",
+"votes": "人工改判",
+"why": "晶圆批次量测 + 是否放行刻蚀：生产批次放行",
+"alts": [
+"lims"
+]
+},
+"cn-all-remaining-0822-6a5c9899": {
+"slug": "geospatial-portal",
+"votes": "2/3",
+"why": "地块坐标空间数据分析",
+"alts": [
+"back-office-ledger"
+]
+},
+"cn-all-remaining-0823-2981b536": {
+"slug": "ehr-patient-record",
+"votes": "3/3",
+"why": "员工体检结果+随访时间线",
+"alts": []
+},
+"cn-all-remaining-0824-0de4494b": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "招聘岗位快照数据",
+"alts": []
+},
+"cn-all-remaining-0827-a07867a4": {
+"slug": "crm-pipeline",
+"votes": "3/3",
+"why": "销售线索为核心记录",
+"alts": []
+},
+"cn-all-remaining-0828-6335c106": {
+"slug": "apm-observability",
+"votes": "3/3",
+"why": "KPI指标+告警事件关联",
+"alts": []
+},
+"cn-all-remaining-0830-86a394d4": {
+"slug": "process-historian",
+"votes": "3/3",
+"why": "路测点位时序+告警关联",
+"alts": []
+},
+"cn-all-remaining-0833-4b7ceef4": {
+"slug": "lims",
+"votes": "3/3",
+"why": "动物给药检测批次记录",
+"alts": []
+},
+"cn-all-remaining-0835-9f5c41bb": {
+"slug": "lims",
+"votes": "3/3",
+"why": "动物毒理批次检验记录",
+"alts": []
+},
+"cn-all-remaining-0836-8be6837c": {
+"slug": "audit-findings",
+"votes": "3/3",
+"why": "验证审核发现整改闭环",
+"alts": []
+},
+"cn-all-remaining-0837-ac7b8f92": {
+"slug": "crm-pipeline",
+"votes": "2/3",
+"why": "试用账号事件订阅工单",
+"alts": [
+"back-office-ledger"
+]
+},
+"cn-all-remaining-0841-33f3a229": {
+"slug": "contract-project-ledger",
+"votes": "3/3",
+"why": "项目台账资源排期",
+"alts": []
+},
+"cn-all-remaining-0845-a6a750c1": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "GHCN气象站观测数据",
+"alts": []
+},
+"cn-all-remaining-0850-f0bd0a8c": {
+"slug": "law-standard-library",
+"votes": "2/3",
+"why": "药品标签全文版本库",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-0853-2e697bcb": {
+"slug": "salary-benchmark",
+"votes": "人工改判",
+"why": "BLS OEWS/OOH + O*NET 职业薪酬行情",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-0856-1dd34f40": {
+"slug": "crm-pipeline",
+"votes": "3/3",
+"why": "CRM商机记录",
+"alts": []
+},
+"cn-all-remaining-0858-a77c2bc1": {
+"slug": "back-office-ledger",
+"votes": "3/3",
+"why": "债券持仓主数据台账",
+"alts": []
+},
+"cn-all-remaining-0862-62ba3ff3": {
+"slug": "order-management",
+"votes": "3/3",
+"why": "订单退款流量流水",
+"alts": []
+},
+"cn-all-remaining-0863-d6bf7ae0": {
+"slug": "process-historian",
+"votes": "人工改判",
+"why": "EIA-930 逐时电网序列",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-0865-515ae739": {
+"slug": "iot-device-console",
+"votes": "3/3",
+"why": "电表门禁告警遥测为主",
+"alts": []
+},
+"cn-all-remaining-0868-8fb1b76d": {
+"slug": "order-management",
+"votes": "2/3",
+"why": "逐票订单分拨与发货记录",
+"alts": [
+"procurement-sourcing"
+]
+},
+"cn-all-remaining-0870-cba7c850": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "公开招聘岗位样本",
+"alts": []
+},
+"cn-all-remaining-0871-83e54e58": {
+"slug": "crm-pipeline",
+"votes": "3/3",
+"why": "客户合同工单跟进台账",
+"alts": []
+},
+"cn-all-remaining-0872-cbef5357": {
+"slug": "field-inspection",
+"votes": "3/3",
+"why": "房源查验打分整改闭环",
+"alts": []
+},
+"cn-all-remaining-0874-e4cb0cfa": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "公开招聘岗位样本",
+"alts": []
+},
+"cn-all-remaining-0875-4793042e": {
+"slug": "procurement-sourcing",
+"votes": "3/3",
+"why": "承运商报价定标询比价",
+"alts": []
+},
+"cn-all-remaining-0877-7a1ba25e": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "公开招聘岗位样本",
+"alts": []
+},
+"cn-all-remaining-0879-9c1c7e3e": {
+"slug": "crm-pipeline",
+"votes": "3/3",
+"why": "CRM商机客户台账",
+"alts": []
+},
+"cn-all-remaining-0881-7e2226c0": {
+"slug": "back-office-ledger",
+"votes": "2/3",
+"why": "多项目资源台账无贴合类",
+"alts": [
+"contract-project-ledger"
+]
+},
+"cn-all-remaining-0883-f91d65a1": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "公开招聘岗位样本",
+"alts": []
+},
+"cn-all-remaining-0901-a1264e29": {
+"slug": "lims",
+"votes": "3/3",
+"why": "跨实验室检测结果+质控",
+"alts": []
+},
+"cn-all-remaining-0908-a1d40822": {
+"slug": "mes-batch-release",
+"votes": "3/3",
+"why": "构建批次+工序+放行判定",
+"alts": []
+},
+"cn-all-remaining-0909-121120de": {
+"slug": "process-historian",
+"votes": "3/3",
+"why": "位号时序+报警子表",
+"alts": []
+},
+"cn-all-remaining-0910-a483d04f": {
+"slug": "mes-batch-release",
+"votes": "人工改判",
+"why": "多测试站、多温度、量产准入判定：生产放行而非实验室结果网格",
+"alts": [
+"lims"
+]
+},
+"cn-all-remaining-0911-57247e16": {
+"slug": "contract-project-ledger",
+"votes": "3/3",
+"why": "进度款+变更签证审核",
+"alts": []
+},
+"cn-all-remaining-0912-51d4ac3e": {
+"slug": "mes-batch-release",
+"votes": "人工改判",
+"why": "六类测试 424 项门槛的准入判定：生产放行",
+"alts": [
+"lims"
+]
+},
+"cn-all-remaining-0928-d694ced9": {
+"slug": "lims",
+"votes": "3/3",
+"why": "批次样品+微生物理化检测",
+"alts": []
+},
+"cn-all-remaining-0929-cfedb11d": {
+"slug": "mes-batch-release",
+"votes": "3/3",
+"why": "中试批次+工序+放行判定",
+"alts": []
+},
+"cn-all-remaining-0930-3befd0d2": {
+"slug": "order-management",
+"votes": "3/3",
+"why": "订单退款子记录+归因",
+"alts": []
+},
+"cn-all-remaining-0934-444b3c56": {
+"slug": "process-historian",
+"votes": "2/3",
+"why": "位号时序趋势+保护整定",
+"alts": [
+"scada-hmi"
+]
+},
+"cn-all-remaining-0937-6374de20": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "冻结招聘样本+岗位画像",
+"alts": []
+},
+"cn-all-remaining-0938-0175cfde": {
+"slug": "mes-batch-release",
+"votes": "3/3",
+"why": "炉次浇次工艺+放行审计",
+"alts": []
+},
+"cn-all-remaining-0941-29ec8b45": {
+"slug": "mes-batch-release",
+"votes": "人工改判",
+"why": "逐件正品/返调/降级/隔离 + 批次冻结：生产放行",
+"alts": [
+"lims"
+]
+},
+"cn-all-remaining-0942-65033b58": {
+"slug": "lims",
+"votes": "3/3",
+"why": "批次CCP微生物检验",
+"alts": []
+},
+"cn-all-remaining-0943-467f2a4f": {
+"slug": "apm-observability",
+"votes": "3/3",
+"why": "小区KPI告警类APM",
+"alts": []
+},
+"cn-all-remaining-0945-63165974": {
+"slug": "audit-findings",
+"votes": "3/3",
+"why": "安全发现整改闭环",
+"alts": []
+},
+"cn-all-remaining-0946-f43aaf57": {
+"slug": "lims",
+"votes": "3/3",
+"why": "批次疲劳老化检验",
+"alts": []
+},
+"cn-all-remaining-0948-b0c93dc1": {
+"slug": "mes-batch-release",
+"votes": "人工改判",
+"why": "建站反馈：形状同为 批次×工序/单件×测量值+规格限→放行判定，mes 骨架已服务",
+"alts": [
+"spc-measurement"
+]
+},
+"cn-all-remaining-0950-9dedf66d": {
+"slug": "lims",
+"votes": "3/3",
+"why": "监测井水质QC样品",
+"alts": []
+},
+"cn-all-remaining-0952-e3358bdf": {
+"slug": "clinical-trial-edc",
+"votes": "2/3",
+"why": "病例SAE与质疑管理近似",
+"alts": [
+"insurance-claims"
+]
+},
+"cn-all-remaining-0955-5ce45980": {
+"slug": "asset-maintenance",
+"votes": "2/3",
+"why": "设备趋势报警CMMS",
+"alts": [
+"process-historian"
+]
+},
+"cn-all-remaining-0956-fb447e98": {
+"slug": "process-historian",
+"votes": "3/3",
+"why": "BMS水质趋势位号",
+"alts": []
+},
+"cn-all-remaining-0957-769c12d9": {
+"slug": "mes-batch-release",
+"votes": "3/3",
+"why": "批记录MES放行",
+"alts": []
+},
+"cn-all-remaining-0958-a386a245": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "招聘页面快照岗位",
+"alts": []
+},
+"cn-all-remaining-0960-fd36102b": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "公开招聘公告样本",
+"alts": []
+},
+"cn-all-remaining-0965-3d040bba": {
+"slug": "crm-pipeline",
+"votes": "3/3",
+"why": "企业主体+跟进时间线",
+"alts": []
+},
+"cn-all-remaining-0966-56d245f7": {
+"slug": "payment-reconciliation",
+"votes": "3/3",
+"why": "运费结算对账流水",
+"alts": []
+},
+"cn-all-remaining-0967-40ec7019": {
+"slug": "payment-reconciliation",
+"votes": "3/3",
+"why": "话单计费对账流水",
+"alts": []
+},
+"cn-all-remaining-0968-a554494c": {
+"slug": "back-office-ledger",
+"votes": "2/3",
+"why": "薪资台账无专属品类",
+"alts": [
+"payment-reconciliation"
+]
+},
+"cn-all-remaining-0969-6df0820b": {
+"slug": "payment-reconciliation",
+"votes": "3/3",
+"why": "电费账单对账流水",
+"alts": []
+},
+"cn-all-remaining-0970-194c0e46": {
+"slug": "insurance-claims",
+"votes": "3/3",
+"why": "理赔单核算记录",
+"alts": []
+},
+"cn-all-remaining-0971-9cb42684": {
+"slug": "bank-account-ledger",
+"votes": "3/3",
+"why": "贷款账户对账流水",
+"alts": []
+},
+"cn-all-remaining-0972-58036ef4": {
+"slug": "payment-reconciliation",
+"votes": "2/3",
+"why": "订单税费对账流水",
+"alts": [
+"order-management"
+]
+},
+"cn-all-remaining-0973-7a1c435c": {
+"slug": "payment-reconciliation",
+"votes": "2/3",
+"why": "预订结算对账流水",
+"alts": [
+"order-management"
+]
+},
+"cn-all-remaining-0974-4790d8bf": {
+"slug": "payment-reconciliation",
+"votes": "3/3",
+"why": "物业费对账流水",
+"alts": []
+},
+"cn-all-remaining-0975-ea568465": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "监测站时序污染物数据",
+"alts": []
+},
+"cn-all-remaining-0976-5aa6f01c": {
+"slug": "order-management",
+"votes": "2/3",
+"why": "行程订单+费用明细",
+"alts": [
+"payment-reconciliation"
+]
+},
+"cn-all-remaining-0977-49dbb8c6": {
+"slug": "weather-ocean-portal",
+"votes": "2/3",
+"why": "检测点时序查询",
+"alts": [
+"process-historian"
+]
+},
+"cn-all-remaining-0978-44ed4df9": {
+"slug": "weather-ocean-portal",
+"votes": "2/3",
+"why": "监测站时序查询",
+"alts": [
+"process-historian"
+]
+},
+"cn-all-remaining-0979-0d29ab51": {
+"slug": "weather-ocean-portal",
+"votes": "2/3",
+"why": "监测节点时序查询",
+"alts": [
+"process-historian"
+]
+},
+"cn-all-remaining-0987-086c66e0": {
+"slug": "dataset-repository",
+"votes": "人工改判",
+"why": "FAERS 型不良事件计数表",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-1090-c33ca50d": {
+"slug": "bank-account-ledger",
+"votes": "2/3",
+"why": "委员会账户交易+对账",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-1091-55784277": {
+"slug": "gov-statistics-portal",
+"votes": "3/3",
+"why": "无详情纯查询导出",
+"alts": []
+},
+"cn-all-remaining-1092-7a4f421f": {
+"slug": "enforcement-case",
+"votes": "2/3",
+"why": "事件通知与时间线",
+"alts": [
+"asset-maintenance"
+]
+},
+"cn-all-remaining-1094-a7759ced": {
+"slug": "audit-findings",
+"votes": "3/3",
+"why": "检查评级整改闭环",
+"alts": []
+},
+"cn-all-remaining-1097-96b36b44": {
+"slug": "document-library",
+"votes": "3/3",
+"why": "书目库版本关联",
+"alts": []
+},
+"cn-all-remaining-1099-a6550f2f": {
+"slug": "enforcement-case",
+"votes": "3/3",
+"why": "检查违规诉讼案件",
+"alts": []
+},
+"cn-all-remaining-1101-68974701": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "岗位列表筛选",
+"alts": []
+},
+"cn-all-remaining-1103-825a4158": {
+"slug": "bank-account-ledger",
+"votes": "3/3",
+"why": "两融账户持仓负债台账",
+"alts": []
+},
+"cn-all-remaining-1104-be743d3f": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "岗位+候选人样本数据",
+"alts": []
+},
+"cn-all-remaining-1112-88167b19": {
+"slug": "materials-database",
+"votes": "2/3",
+"why": "核素按元素查性质表",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-1119-5b062242": {
+"slug": "inventory-wms",
+"votes": "3/3",
+"why": "库存批次效期出入库调拨",
+"alts": []
+},
+"cn-all-remaining-1123-2b49c9e3": {
+"slug": "ticket-tracker",
+"votes": "2/3",
+"why": "客服会话路由记录",
+"alts": [
+"ml-experiment-tracking"
+]
+},
+"cn-all-remaining-1126-ac0908b4": {
+"slug": "seismic-datacenter",
+"votes": "3/3",
+"why": "USGS地震目录事件检索",
+"alts": []
+},
+"cn-all-remaining-1128-a9104579": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "设计岗位+客户线索",
+"alts": []
+},
+"cn-all-remaining-1129-a5a00495": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "岗位+项目机会记录",
+"alts": []
+},
+"cn-all-remaining-1130-de532a93": {
+"slug": "job-board",
+"votes": "3/3",
+"why": "Unity岗位记录",
+"alts": []
+},
+"cn-all-remaining-1131-804a6ac8": {
+"slug": "lims",
+"votes": "3/3",
+"why": "批次时间点结果行",
+"alts": []
+},
+"cn-all-remaining-1137-bfbce4b9": {
+"slug": "insurance-claims",
+"votes": "3/3",
+"why": "赔案定损审批时间线",
+"alts": []
+},
+"cn-all-remaining-1140-3069d89e": {
+"slug": "back-office-ledger",
+"votes": "人工改判",
+"why": "无来源系统，输入是现成 Excel",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-1144-8a6c2142": {
+"slug": "contract-project-ledger",
+"votes": "2/2",
+"why": "订单变更签证+义务额付款子表",
+"alts": []
+},
+"cn-all-remaining-1145-c17d3877": {
+"slug": "gov-statistics-portal",
+"votes": "2/2",
+"why": "无实体页,纯查询导出贸易表",
+"alts": []
+},
+"cn-all-remaining-1146-6532ab9d": {
+"slug": "materials-database",
+"votes": "2/2",
+"why": "按参数检索+行星详情页下载",
+"alts": []
+},
+"cn-all-remaining-1149-9529549a": {
+"slug": "geospatial-portal",
+"votes": "人工改判",
+"why": "执照 + 塔坐标几何",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-1151-3a37412b": {
+"slug": "gov-statistics-portal",
+"votes": "人工改判",
+"why": "USDA FoodData Central 是参考数据库，非数据集目录",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-1152-b88db992": {
+"slug": "enforcement-case",
+"votes": "2/2",
+"why": "案卷列表+详情+阶段时间线",
+"alts": []
+},
+"cn-all-remaining-1161-7adde7ff": {
+"slug": "asset-maintenance",
+"votes": "2/2",
+"why": "桥梁资产清单+构件状态子表",
+"alts": []
+},
+"cn-all-remaining-1162-11cb0898": {
+"slug": "weather-ocean-portal",
+"votes": "2/2",
+"why": "站点+时间窗查询+时序表导出",
+"alts": []
+},
+"cn-all-remaining-1163-87b43970": {
+"slug": "geospatial-portal",
+"votes": "人工改判",
+"why": "SSURGO 土壤空间数据库",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-1164-4f0e142d": {
+"slug": "regulatory-registry",
+"votes": "人工改判",
+"why": "无参照站/无记录级数据，disposition: file，不进骨架适配流程",
+"alts": []
+},
+"cn-all-remaining-1165-1a802104": {
+"slug": "gov-statistics-portal",
+"votes": "2/2",
+"why": "无详情页,查询导出周报表",
+"alts": []
+},
+"cn-all-remaining-1166-f86d5a49": {
+"slug": "law-standard-library",
+"votes": "2/2",
+"why": "条文版本+生效日期+对比",
+"alts": []
+},
+"cn-all-remaining-1167-66c3f015": {
+"slug": "enforcement-case",
+"votes": "2/2",
+"why": "AD/CVD案件+阶段时间线",
+"alts": []
+},
+"cn-all-remaining-1173-7c23ef43": {
+"slug": "seismic-datacenter",
+"votes": "2/2",
+"why": "跨机构事件目录归因",
+"alts": []
+},
+"cn-all-remaining-1175-e6dc03a4": {
+"slug": "enforcement-case",
+"votes": "人工改判",
+"why": "召回=执法/案件生命周期",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-1176-1da3ce1d": {
+"slug": "gov-statistics-portal",
+"votes": "2/2",
+"why": "单表按年查询下载",
+"alts": []
+},
+"cn-all-remaining-1177-c31afdfe": {
+"slug": "enforcement-case",
+"votes": "人工改判",
+"why": "召回=执法/案件生命周期",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-1180-0e2cadcc": {
+"slug": "gov-statistics-portal",
+"votes": "2/2",
+"why": "月度口岸统计出表",
+"alts": []
+},
+"cn-all-remaining-1182-3a8e8666": {
+"slug": "regulatory-registry",
+"votes": "人工改判",
+"why": "NCUA 季度 Call Report 机构申报",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-1183-ad6aeed5": {
+"slug": "gov-statistics-portal",
+"votes": "2/2",
+"why": "损失原因统计汇总",
+"alts": []
+},
+"cn-all-remaining-1185-d7d58067": {
+"slug": "regulatory-registry",
+"votes": "2/2",
+"why": "物种登记+法律状态史",
+"alts": []
+},
+"cn-all-remaining-1187-c0c21c44": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "Zenodo发布版本谱系",
+"alts": []
+},
+"cn-all-remaining-1188-be477324": {
+"slug": "contract-project-ledger",
+"votes": "人工改判",
+"why": "E-Rate 承诺/拨款/发票生命周期",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-1190-ee12ce0a": {
+"slug": "regulatory-registry",
+"votes": "人工改判",
+"why": "CNEOS/NEOCC 风险名录逐条对照",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-1191-c00b9d6f": {
+"slug": "geospatial-portal",
+"votes": "3/3",
+"why": "GeoJSON站点+走廊拓扑,地图型",
+"alts": []
+},
+"cn-all-remaining-1192-e8a7b525": {
+"slug": "gov-statistics-portal",
+"votes": "3/3",
+"why": "地区+年份指标出表导出",
+"alts": []
+},
+"cn-all-remaining-1193-f47eaab5": {
+"slug": "document-library",
+"votes": "2/3",
+"why": "藏品图文+元数据+版本迁移",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-1204-d018a431": {
+"slug": "back-office-ledger",
+"votes": "人工改判",
+"why": "无来源系统，输入是现成 Excel",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-1206-037de182": {
+"slug": "back-office-ledger",
+"votes": "2/3",
+"why": "无匹配类,内部台账兜底",
+"alts": [
+"order-management"
+]
+},
+"cn-all-remaining-1208-999d7a75": {
+"slug": "back-office-ledger",
+"votes": "人工改判",
+"why": "无来源系统，输入是现成 Excel",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-1218-8fa644b4": {
+"slug": "regulatory-registry",
+"votes": "3/3",
+"why": "原文即FDA Orange Book范例",
+"alts": []
+},
+"cn-all-remaining-1219-f163b46b": {
+"slug": "omics-repository",
+"votes": "3/3",
+"why": "crash-vehicle-person三级层级",
+"alts": []
+},
+"cn-all-remaining-1221-592f6bbe": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "台风路径时序查询导出",
+"alts": []
+},
+"cn-all-remaining-1222-8580dbde": {
+"slug": "materials-database",
+"votes": "3/3",
+"why": "小天体轨道详情页+下载",
+"alts": []
+},
+"cn-all-remaining-1224-25c363a2": {
+"slug": "regulatory-registry",
+"votes": "3/3",
+"why": "CVE条目状态与变更史",
+"alts": []
+},
+"cn-all-remaining-1246-c333a712": {
+"slug": "regulatory-registry",
+"votes": "3/3",
+"why": "openFDA药品目录审计",
+"alts": []
+},
+"cn-all-remaining-1248-a8692605": {
+"slug": "back-office-ledger",
+"votes": "人工改判",
+"why": "无来源系统，输入是现成 Excel",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-1249-ce04e010": {
+"slug": "law-standard-library",
+"votes": "3/3",
+"why": "RFC全文+引用关系,近标准库",
+"alts": []
+},
+"cn-all-remaining-1251-b6824008": {
+"slug": "code-hosting",
+"votes": "人工改判",
+"why": "PyPI/OSV 包索引与漏洞库",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-1252-1e0765a9": {
+"slug": "omics-repository",
+"votes": "3/3",
+"why": "研究/样本/运行三级检索",
+"alts": []
+},
+"cn-all-remaining-1253-671145bb": {
+"slug": "document-library",
+"votes": "3/3",
+"why": "manifest树+元数据+预览",
+"alts": []
+},
+"cn-all-remaining-1254-9691ae4f": {
+"slug": "weather-ocean-portal",
+"votes": "2/3",
+"why": "站点+时间窗+时序数据",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-1255-d3f1f3cb": {
+"slug": "gov-statistics-portal",
+"votes": "3/3",
+"why": "季度状态表,无详情页",
+"alts": []
+},
+"cn-all-remaining-1256-543f9374": {
+"slug": "lims",
+"votes": "3/3",
+"why": "样品-检验结果-规格表",
+"alts": []
+},
+"cn-all-remaining-1257-2f561d5d": {
+"slug": "enforcement-case",
+"votes": "3/3",
+"why": "违规案件+执法时间线",
+"alts": []
+},
+"cn-all-remaining-1259-7713fc3c": {
+"slug": "regulatory-registry",
+"votes": "3/3",
+"why": "机构牌照检索+详情页",
+"alts": []
+},
+"cn-all-remaining-1262-e78cfd80": {
+"slug": "enforcement-case",
+"votes": "3/3",
+"why": "检查案件+引用+罚款",
+"alts": []
+},
+"cn-all-remaining-1264-008f2bdb": {
+"slug": "enforcement-case",
+"votes": "3/3",
+"why": "案件阶段+法规+处罚",
+"alts": []
+},
+"cn-all-remaining-1266-830a170d": {
+"slug": "law-standard-library",
+"votes": "人工改判",
+"why": "联邦公报文书 + CFR",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-1284-b217705c": {
+"slug": "omics-repository",
+"votes": "3/3",
+"why": "连接组神经元三级元数据",
+"alts": []
+},
+"cn-all-remaining-1286-57ed5e7e": {
+"slug": "omics-repository",
+"votes": "2/3",
+"why": "神经元重建库,类生物库",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-0004-4cdb03e3": {
+"slug": "law-standard-library",
+"votes": "3/3",
+"why": "规范标准全文与政策通知",
+"alts": []
+},
+"cn-all-remaining-0009-3a0514d6": {
+"slug": "regulatory-registry",
+"votes": "人工改判",
+"why": "无参照站/无记录级数据，disposition: file，不进骨架适配流程",
+"alts": []
+},
+"cn-all-remaining-0017-e3ac6e4a": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "Kaggle缺陷图像数据集",
+"alts": []
+},
+"cn-all-remaining-0030-349ac3ae": {
+"slug": "geospatial-portal",
+"votes": "3/3",
+"why": "Geofabrik地图瓦片下载",
+"alts": []
+},
+"cn-all-remaining-0035-880f8bef": {
+"slug": "law-standard-library",
+"votes": "3/3",
+"why": "危险品法规与IMDG规则库",
+"alts": []
+},
+"cn-all-remaining-0044-cf1dd46c": {
+"slug": "law-standard-library",
+"votes": "3/3",
+"why": "适老化标准法规检索库",
+"alts": []
+},
+"cn-all-remaining-0064-f465db7b": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "OTTO会话公开benchmark库",
+"alts": []
+},
+"cn-all-remaining-0068-c81cc32b": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "UCI人口普查数据集",
+"alts": []
+},
+"cn-all-remaining-0071-37996442": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "OTTO会话公开benchmark库",
+"alts": []
+},
+"cn-all-remaining-0073-452b7fbc": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "UCI基准数据集,表格特征",
+"alts": []
+},
+"cn-all-remaining-0074-d8d19fe8": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "NASA公开退化仿真数据集",
+"alts": []
+},
+"cn-all-remaining-0075-d8b42022": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "HuggingFace文本分类基准",
+"alts": []
+},
+"cn-all-remaining-0076-9295b271": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "figshare文本分类基准",
+"alts": []
+},
+"cn-all-remaining-0079-687957c7": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "UNSW流量特征基准数据集",
+"alts": []
+},
+"cn-all-remaining-0089-ab3b3a3c": {
+"slug": "mes-batch-release",
+"votes": "人工改判",
+"why": "建站反馈：形状同为 批次×工序/单件×测量值+规格限→放行判定，mes 骨架已服务",
+"alts": [
+"spc-measurement"
+]
+},
+"cn-all-remaining-0103-2b1a2190": {
+"slug": "materials-database",
+"votes": "2/3",
+"why": "晶体CIF+分子结构性质",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-0114-a85885be": {
+"slug": null,
+"votes": "3/3",
+"why": "行业研报无结构化站点",
+"alts": []
+},
+"cn-all-remaining-0119-59547d3b": {
+"slug": "seismic-datacenter",
+"votes": "3/3",
+"why": "井轨迹+微震事件目录",
+"alts": []
+},
+"cn-all-remaining-0122-af317fbc": {
+"slug": "seismic-datacenter",
+"votes": "2/3",
+"why": "地震速度剖面模型重建",
+"alts": [
+"geospatial-portal"
+]
+},
+"cn-all-remaining-0132-a04b6dbd": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "UCI传感器特征分类基准",
+"alts": []
+},
+"cn-all-remaining-0133-f7460d93": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "UCI手写笔迹聚类基准",
+"alts": []
+},
+"cn-all-remaining-0134-cd25fa80": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "UCI 数据集详情页",
+"alts": []
+},
+"cn-all-remaining-0136-025708d5": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "MNIST 标准数据集",
+"alts": []
+},
+"cn-all-remaining-0138-69bd676c": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "UCI Covertype 数据集",
+"alts": []
+},
+"cn-all-remaining-0139-9b7aa92c": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "UCI Bank Marketing 数据集",
+"alts": []
+},
+"cn-all-remaining-0142-0a9b052b": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "OPSD 数据包仓库",
+"alts": []
+},
+"cn-all-remaining-0143-17a50046": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "Fashion-MNIST 数据集",
+"alts": []
+},
+"cn-all-remaining-0144-a17cd5ce": {
+"slug": "geospatial-portal",
+"votes": "人工改判",
+"why": "USGS MT/AMT 地球物理测线，非数据集目录",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-0146-83026528": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "UCI 超导数据集",
+"alts": []
+},
+"cn-all-remaining-0148-25afc0d0": {
+"slug": "seismic-datacenter",
+"votes": "人工改判",
+"why": "MIDAS GNSS 速度场产品",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-0149-4942e976": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "UCI HAR 数据集",
+"alts": []
+},
+"cn-all-remaining-0151-f7249cf5": {
+"slug": "seismic-datacenter",
+"votes": "2/2",
+"why": "IRIS/FDSN 台站波形事件",
+"alts": []
+},
+"cn-all-remaining-0152-263ab951": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "UCI PM2.5 数据集",
+"alts": []
+},
+"cn-all-remaining-0155-15cf16ab": {
+"slug": "geospatial-portal",
+"votes": "人工改判",
+"why": "航磁测线库，几何/空间数据",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-0156-d5cf6958": {
+"slug": "weather-ocean-portal",
+"votes": "2/2",
+"why": "DART海洋站点观测",
+"alts": []
+},
+"cn-all-remaining-0158-341df0ea": {
+"slug": "seismic-datacenter",
+"votes": "2/2",
+"why": "IRIS台站波形数据",
+"alts": []
+},
+"cn-all-remaining-0159-fc7402fc": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "UCI公开表格数据集",
+"alts": []
+},
+"cn-all-remaining-0161-5575a6fd": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "Fashion-MNIST基准集",
+"alts": []
+},
+"cn-all-remaining-0164-ac08314c": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "加州房价基准数据集",
+"alts": []
+},
+"cn-all-remaining-0167-883d33da": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "MNIST基准数据集",
+"alts": []
+},
+"cn-all-remaining-0168-382cfa9c": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "AG News基准数据集",
+"alts": []
+},
+"cn-all-remaining-0169-866f3425": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "Cora引文网络数据集",
+"alts": []
+},
+"cn-all-remaining-0171-e39ad0aa": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "NASA仿真基准数据集",
+"alts": []
+},
+"cn-all-remaining-0173-475052f5": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "UCI共享单车数据集",
+"alts": []
+},
+"cn-all-remaining-0174-9d91f75b": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "CWRU轴承基准数据集",
+"alts": []
+},
+"cn-all-remaining-0175-d4ad3f28": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "UCI公开基准数据集",
+"alts": []
+},
+"cn-all-remaining-0176-d6d67203": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "UCI公开基准数据集",
+"alts": []
+},
+"cn-all-remaining-0194-b11424c0": {
+"slug": "seismic-datacenter",
+"votes": "3/3",
+"why": "IRIS台站波形数据",
+"alts": []
+},
+"cn-all-remaining-0206-ba9d1d88": {
+"slug": "omics-repository",
+"votes": "3/3",
+"why": "GEO单细胞组学数据",
+"alts": []
+},
+"cn-all-remaining-0210-a492a1f7": {
+"slug": "dataset-repository",
+"votes": "2/3",
+"why": "SKAB GitHub基准数据集",
+"alts": [
+"process-historian"
+]
+},
+"cn-all-remaining-0211-8626b54a": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "UCI公开基准数据集",
+"alts": []
+},
+"cn-all-remaining-0212-294e3740": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "OPSD带DOI数据包",
+"alts": []
+},
+"cn-all-remaining-0213-58019df6": {
+"slug": "process-historian",
+"votes": "人工改判",
+"why": "HAI 工控时序",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-0226-3fc6271b": {
+"slug": "law-standard-library",
+"votes": "3/3",
+"why": "CPIC临床指南全文",
+"alts": []
+},
+"cn-all-remaining-0230-7ad23258": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "卫星SST观测门户",
+"alts": []
+},
+"cn-all-remaining-0237-8fc39a86": {
+"slug": "law-standard-library",
+"votes": "3/3",
+"why": "政策法规标准全文",
+"alts": []
+},
+"cn-all-remaining-0240-6c615bee": {
+"slug": "law-standard-library",
+"votes": "3/3",
+"why": "IMDG法规全文库",
+"alts": []
+},
+"cn-all-remaining-0242-be25547c": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "地热科研测井数据集",
+"alts": []
+},
+"cn-all-remaining-0243-885c2ff8": {
+"slug": "seismic-datacenter",
+"votes": "3/3",
+"why": "台网重复地震波形",
+"alts": []
+},
+"cn-all-remaining-0245-a6640871": {
+"slug": "seismic-datacenter",
+"votes": "3/3",
+"why": "台网多分量噪声波形",
+"alts": []
+},
+"cn-all-remaining-0250-dd5e6757": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "GitHub公开图数据集",
+"alts": []
+},
+"cn-all-remaining-0251-9c900545": {
+"slug": "dataset-repository",
+"votes": "2/3",
+"why": "OPSD负荷时序数据集",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-0252-36566ef7": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "UCI经典基准数据集",
+"alts": []
+},
+"cn-all-remaining-0254-6e32e684": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "UCI交通流量数据集",
+"alts": []
+},
+"cn-all-remaining-0255-b2e13f01": {
+"slug": "seismic-datacenter",
+"votes": "3/3",
+"why": "IGS台站观测文件",
+"alts": []
+},
+"cn-all-remaining-0265-ae028604": {
+"slug": "gov-statistics-portal",
+"votes": "人工改判",
+"why": "无参照站/无记录级数据，disposition: file，不进骨架适配流程",
+"alts": []
+},
+"cn-all-remaining-0269-78ef8a58": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "UCI基因表达数据集",
+"alts": []
+},
+"cn-all-remaining-0271-7788ccc0": {
+"slug": "ticket-tracker",
+"votes": "3/3",
+"why": "用例缺陷严重度跟踪",
+"alts": []
+},
+"cn-all-remaining-0272-eaf429b6": {
+"slug": "clinical-trial-edc",
+"votes": "人工改判",
+"why": "GBSG2 临床队列",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-0273-cd6dd51a": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "OPSD版本化数据包",
+"alts": []
+},
+"cn-all-remaining-0274-baf882d4": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "同OPSD电力数据包",
+"alts": []
+},
+"cn-all-remaining-0275-5e80942a": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "UCI仓库直接命中",
+"alts": []
+},
+"cn-all-remaining-0277-aba735f6": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "SKAB基准数据集",
+"alts": []
+},
+"cn-all-remaining-0282-dc05cea5": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "SNAP图数据集详情页",
+"alts": []
+},
+"cn-all-remaining-0297-075420d6": {
+"slug": "omics-repository",
+"votes": "2/2",
+"why": "TCGA样本层级检索",
+"alts": []
+},
+"cn-all-remaining-0303-a8e1cff9": {
+"slug": "seismic-datacenter",
+"votes": "2/2",
+"why": "FDSN台站波形数据",
+"alts": []
+},
+"cn-all-remaining-0304-cbead67f": {
+"slug": "seismic-datacenter",
+"votes": "2/2",
+"why": "台站PPSD噪声分析",
+"alts": []
+},
+"cn-all-remaining-0305-ea897654": {
+"slug": "seismic-datacenter",
+"votes": "2/2",
+"why": "台站三分量连续记录",
+"alts": []
+},
+"cn-all-remaining-0306-324b959e": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "FORGE GDR多源数据集",
+"alts": []
+},
+"cn-all-remaining-0308-1be316f2": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "GDR测井裂缝数据",
+"alts": []
+},
+"cn-all-remaining-0315-288a70d1": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "HTE反应产率数据集",
+"alts": []
+},
+"cn-all-remaining-0320-d8bc55d2": {
+"slug": "gov-statistics-portal",
+"votes": "2/2",
+"why": "县域×年份指标出表无详情页",
+"alts": []
+},
+"cn-all-remaining-0321-d05903ab": {
+"slug": "ml-experiment-tracking",
+"votes": "人工改判",
+"why": "信贷评分卡模型风险台账",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-0324-4be0ddcf": {
+"slug": "job-board",
+"votes": "2/2",
+"why": "岗位列表带城市薪酬资格筛选",
+"alts": []
+},
+"cn-all-remaining-0325-eb2f0968": {
+"slug": "contract-project-ledger",
+"votes": "2/2",
+"why": "项目进度变更付款结算台账",
+"alts": []
+},
+"cn-all-remaining-0326-9882d4ca": {
+"slug": "ticket-tracker",
+"votes": "2/2",
+"why": "用例缺陷聚类严重等级通过率",
+"alts": []
+},
+"cn-all-remaining-0333-8f712f0a": {
+"slug": null,
+"votes": "2/2",
+"why": "纯画图无检索列表详情结构",
+"alts": []
+},
+"cn-all-remaining-0345-a6224347": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "UCI公开数据集原文点名",
+"alts": []
+},
+"cn-all-remaining-0354-08d6b573": {
+"slug": "dataset-repository",
+"votes": "2/2",
+"why": "CWRU公开数据集原文点名",
+"alts": []
+},
+"cn-all-remaining-0399-6ddf0530": {
+"slug": "order-management",
+"votes": "2/2",
+"why": "请求账本流水幂等状态流转",
+"alts": []
+},
+"cn-all-remaining-0403-f1abed95": {
+"slug": "game-liveops-console",
+"votes": "人工改判",
+"why": "卡池结算回放属游戏 GM/运营后台",
+"alts": [
+"lims"
+]
+},
+"cn-all-remaining-0409-6a7bb0d1": {
+"slug": "iot-device-console",
+"votes": "2/2",
+"why": "设备清单遥测OTA灰度下发",
+"alts": []
+},
+"cn-all-remaining-0422-d68716cc": {
+"slug": "order-management",
+"votes": "2/2",
+"why": "事件流账本对账补发冲正",
+"alts": []
+},
+"cn-all-remaining-0473-afcf860c": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "UCI单表数据集",
+"alts": []
+},
+"cn-all-remaining-0474-6ffc068e": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "学术基准时序数据集",
+"alts": []
+},
+"cn-all-remaining-0475-6cd46667": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "UCI时序流量数据",
+"alts": []
+},
+"cn-all-remaining-0476-fb434d54": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "GitHub基准数据集",
+"alts": []
+},
+"cn-all-remaining-0478-c21c6715": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "UCI分类数据集",
+"alts": []
+},
+"cn-all-remaining-0479-abb9f7a8": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "UCI传感器数据集",
+"alts": []
+},
+"cn-all-remaining-0629-ce075e67": {
+"slug": "gov-statistics-portal",
+"votes": "人工改判",
+"why": "MTA GTFS 运营方开放数据",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-0640-8ed4408f": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "NHC气象档案审计",
+"alts": []
+},
+"cn-all-remaining-0641-e0995661": {
+"slug": "geospatial-portal",
+"votes": "3/3",
+"why": "NOAA海图瓦片下载",
+"alts": []
+},
+"cn-all-remaining-0645-206c5b2d": {
+"slug": "geospatial-portal",
+"votes": "3/3",
+"why": "NOAA海图更新链",
+"alts": []
+},
+"cn-all-remaining-0671-060dc9bc": {
+"slug": "ehr-patient-record",
+"votes": "2/3",
+"why": "主体档案+观察时间线",
+"alts": [
+"back-office-ledger"
+]
+},
+"cn-all-remaining-0672-1ff18f83": {
+"slug": "procurement-sourcing",
+"votes": "2/3",
+"why": "供应商SRM审批平台",
+"alts": [
+"audit-findings"
+]
+},
+"cn-all-remaining-0684-33435d87": {
+"slug": null,
+"votes": "2/3",
+"why": "运营CMS无匹配类目",
+"alts": [
+"back-office-ledger"
+]
+},
+"cn-all-remaining-0690-eac11bf7": {
+"slug": "ehr-patient-record",
+"votes": "3/3",
+"why": "住院病历出院医嘱审核",
+"alts": []
+},
+"cn-all-remaining-0701-49b7d817": {
+"slug": "regulatory-registry",
+"votes": "人工改判",
+"why": "无参照站/无记录级数据，disposition: file，不进骨架适配流程",
+"alts": []
+},
+"cn-all-remaining-0706-2999104d": {
+"slug": "law-standard-library",
+"votes": "3/3",
+"why": "GB标准切换版本对比",
+"alts": []
+},
+"cn-all-remaining-0710-717396c6": {
+"slug": "game-liveops-console",
+"votes": "2/3",
+"why": "关卡配置+压测资源账本",
+"alts": [
+"process-historian"
+]
+},
+"cn-all-remaining-0711-c6482f8e": {
+"slug": "game-liveops-console",
+"votes": "2/3",
+"why": "经济配置+玩家资源快照",
+"alts": [
+"process-historian"
+]
+},
+"cn-all-remaining-0713-394ca2bb": {
+"slug": null,
+"votes": "3/3",
+"why": "关卡节点配置无类目匹配",
+"alts": []
+},
+"cn-all-remaining-0721-5993d63c": {
+"slug": "geospatial-portal",
+"votes": "3/3",
+"why": "多时相影像地块检索",
+"alts": []
+},
+"cn-all-remaining-0735-cdbd1b4c": {
+"slug": "gov-statistics-portal",
+"votes": "人工改判",
+"why": "无参照站/无记录级数据，disposition: file，不进骨架适配流程",
+"alts": []
+},
+"cn-all-remaining-0740-641a9a26": {
+"slug": "law-standard-library",
+"votes": "3/3",
+"why": "职业标准编码版本对比",
+"alts": []
+},
+"cn-all-remaining-0744-480b57b9": {
+"slug": "gov-statistics-portal",
+"votes": "2/3",
+"why": "从业人员登记统计数据",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-0790-ca61bdb0": {
+"slug": null,
+"votes": "2/3",
+"why": "产品分析平台无匹配类目",
+"alts": [
+"apm-observability"
+]
+},
+"cn-all-remaining-0796-238e5327": {
+"slug": "contract-project-ledger",
+"votes": "3/3",
+"why": "工程结算变更台账",
+"alts": []
+},
+"cn-all-remaining-0825-ce14f4a1": {
+"slug": "ehr-patient-record",
+"votes": "3/3",
+"why": "评估+用药+访视时间线",
+"alts": []
+},
+"cn-all-remaining-0826-269c7767": {
+"slug": "game-liveops-console",
+"votes": "3/3",
+"why": "战斗日志与结算账本",
+"alts": []
+},
+"cn-all-remaining-0838-bb9d337f": {
+"slug": "qms-capa",
+"votes": "2/3",
+"why": "偏差CAPA驱动文件修订",
+"alts": [
+"document-library"
+]
+},
+"cn-all-remaining-0840-777d7230": {
+"slug": "dataset-repository",
+"votes": "2/3",
+"why": "Matrix Market矩阵集合",
+"alts": []
+},
+"cn-all-remaining-0847-be9888d6": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "公开可溯源试验数据集",
+"alts": []
+},
+"cn-all-remaining-0851-f49f24e5": {
+"slug": "dataset-repository",
+"votes": "人工改判",
+"why": "EPA Test Car List 试验数据表",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-0859-794a0507": {
+"slug": "dataset-repository",
+"votes": "人工改判",
+"why": "SECOM 1567×590 宽矩阵是 UCI 数据集，装不进结果网格",
+"alts": [
+"lims"
+]
+},
+"cn-all-remaining-0860-94376395": {
+"slug": "dataset-repository",
+"votes": "人工改判",
+"why": "NASA C-MAPSS 公开数据集",
+"alts": [
+"process-historian"
+]
+},
+"cn-all-remaining-0864-82ecf25a": {
+"slug": "contract-project-ledger",
+"votes": "3/3",
+"why": "装修工程结算审核",
+"alts": []
+},
+"cn-all-remaining-0867-2acdfc1e": {
+"slug": "dataset-repository",
+"votes": "人工改判",
+"why": "CAS Schedule P 整理数据集",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-0869-a86563df": {
+"slug": null,
+"votes": "3/3",
+"why": "金融终端无对应品类",
+"alts": []
+},
+"cn-all-remaining-0880-49ec35b4": {
+"slug": "audit-findings",
+"votes": "3/3",
+"why": "发现+风险+整改闭环",
+"alts": []
+},
+"cn-all-remaining-0882-fda27236": {
+"slug": "mes-batch-release",
+"votes": "3/3",
+"why": "构件批次+量测+放行",
+"alts": []
+},
+"cn-all-remaining-0893-6a26dc5f": {
+"slug": "weather-ocean-portal",
+"votes": "2/3",
+"why": "站点时序+要素+导出",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-0894-d2a9c435": {
+"slug": "omics-repository",
+"votes": "3/3",
+"why": "GEO样本三级检索",
+"alts": []
+},
+"cn-all-remaining-0898-45d332c5": {
+"slug": "dataset-repository",
+"votes": "人工改判",
+"why": "钻孔化探是 Zenodo 数据集，无批次/运行语义",
+"alts": [
+"lims"
+]
+},
+"cn-all-remaining-0899-48762d98": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "NOAA站点日降水时序",
+"alts": []
+},
+"cn-all-remaining-0902-b4e90b75": {
+"slug": "dataset-repository",
+"votes": "人工改判",
+"why": "EEG Eye State 公开数据集",
+"alts": [
+"process-historian"
+]
+},
+"cn-all-remaining-0940-94b2dc6a": {
+"slug": "regulatory-registry",
+"votes": "人工改判",
+"why": "无参照站/无记录级数据，disposition: file，不进骨架适配流程",
+"alts": []
+},
+"cn-all-remaining-0947-03516a1f": {
+"slug": "game-liveops-console",
+"votes": "3/3",
+"why": "排行榜结算+账本对账",
+"alts": []
+},
+"cn-all-remaining-0949-8fa819f1": {
+"slug": "dataset-repository",
+"votes": "人工改判",
+"why": "EEG 公开数据集",
+"alts": [
+"process-historian"
+]
+},
+"cn-all-remaining-0951-95b279fc": {
+"slug": "weather-ocean-portal",
+"votes": "2/3",
+"why": "多站点时序+缺失查询",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-0953-9271adc9": {
+"slug": "regulatory-registry",
+"votes": "人工改判",
+"why": "无参照站/无记录级数据，disposition: file，不进骨架适配流程",
+"alts": []
+},
+"cn-all-remaining-0991-aea4e661": {
+"slug": "dataset-repository",
+"votes": "3/3",
+"why": "公开反应数据单表",
+"alts": []
+},
+"cn-all-remaining-1095-9bcec495": {
+"slug": "law-standard-library",
+"votes": "2/3",
+"why": "税则条文树+版本变更",
+"alts": [
+"regulatory-registry"
+]
+},
+"cn-all-remaining-1096-067138a9": {
+"slug": "gov-statistics-portal",
+"votes": "2/3",
+"why": "官方年报表格对账",
+"alts": [
+"lims"
+]
+},
+"cn-all-remaining-1098-eff835fa": {
+"slug": "regulatory-registry",
+"votes": "人工改判",
+"why": "无参照站/无记录级数据，disposition: file，不进骨架适配流程",
+"alts": []
+},
+"cn-all-remaining-1132-08f39a42": {
+"slug": "contract-project-ledger",
+"votes": "3/3",
+"why": "项目进度合同台账",
+"alts": []
+},
+"cn-all-remaining-1143-0899ebce": {
+"slug": "regulatory-registry",
+"votes": "人工改判",
+"why": "HMDA LAR 机构申报披露",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-1147-7c690611": {
+"slug": "salary-benchmark",
+"votes": "人工改判",
+"why": "O*NET/BLS OOH 职业薪酬层级",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-1148-ddabd7cf": {
+"slug": "geospatial-portal",
+"votes": "3/3",
+"why": "地块建筑GIS数据",
+"alts": []
+},
+"cn-all-remaining-1150-aa72ec91": {
+"slug": "regulatory-registry",
+"votes": "3/3",
+"why": "登记状态变更史",
+"alts": []
+},
+"cn-all-remaining-1168-082afeef": {
+"slug": "enforcement-case",
+"votes": "2/3",
+"why": "抗议案件阶段时间线",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-1169-9af1b22b": {
+"slug": "law-standard-library",
+"votes": "人工改判",
+"why": "Unicode UCD 标准文本目录",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-1170-a70baa13": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "探空站点时序数据",
+"alts": []
+},
+"cn-all-remaining-1171-bc798e9b": {
+"slug": "law-standard-library",
+"votes": "3/3",
+"why": "许可证清单+版本迁移",
+"alts": []
+},
+"cn-all-remaining-1174-a98c2f1e": {
+"slug": "document-library",
+"votes": "人工改判",
+"why": "NGA/Wikidata 藏品权威记录",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-1179-fcde4aaf": {
+"slug": "law-standard-library",
+"votes": "3/3",
+"why": "规则树+控制映射",
+"alts": []
+},
+"cn-all-remaining-1184-7d57859b": {
+"slug": "law-standard-library",
+"votes": "3/3",
+"why": "代码集版本谱系",
+"alts": []
+},
+"cn-all-remaining-1220-8b5989c4": {
+"slug": "asset-maintenance",
+"votes": "2/3",
+"why": "发电资产台账+退役",
+"alts": [
+"gov-statistics-portal"
+]
+},
+"cn-all-remaining-1223-b518ccc7": {
+"slug": "weather-ocean-portal",
+"votes": "3/3",
+"why": "站点探空时序查询",
+"alts": []
+},
+"cn-all-remaining-1225-9a34fa3d": {
+"slug": "gov-statistics-portal",
+"votes": "人工改判",
+"why": "MTA GTFS 运营方开放数据",
+"alts": [
+"dataset-repository"
+]
+},
+"cn-all-remaining-1226-dee9d6cd": {
+"slug": "code-hosting",
+"votes": "3/3",
+"why": "GitHub发布产物",
+"alts": []
+},
+"cn-all-remaining-1265-1a7bc99d": {
+"slug": "asset-maintenance",
+"votes": "3/3",
+"why": "资产台账+检查子表",
+"alts": []
+}
+}

@@ -4,7 +4,7 @@
 import json, random, datetime
 random.seed(1783)
 
-TECHS = ["Molly O", "Steve H", "Dana K", "Wei L"]
+TECHS = ["Rae T", "Ivo N", "Lior P", "Nadia S"]
 INCUB = ["INC-001", "INC-002", "INC-003"]
 QC = ["Reviewed - Passed", "Reviewed - Rejected", "Not Yet Reviewed"]
 MEDIA = ["control", "MediaX", "MediaY"]
@@ -12,37 +12,37 @@ SAMPLES = ["109", "217", "334"]
 
 batches = [
   {"RowId": 501, "Name": "CellCulture-Batch-2019Q3", "Hypothesis": "MediaY sustains growth past day 7",
-   "Contact": "Molly O", "Comments": "Initial media comparison, three groups.",
-   "Created": "2019-08-06 16:20:11", "CreatedBy": "steveh", "RunCount": 3},
+   "Contact": "Rae T", "Comments": "Initial media comparison, three groups.",
+   "Created": "2019-08-06 16:20:11", "CreatedBy": "raet", "RunCount": 3},
   {"RowId": 502, "Name": "CellCulture-Batch-2023Q2", "Hypothesis": "Reproduce 2019 result on new incubator",
-   "Contact": "Dana K", "Comments": "Re-run after INC-001 recalibration.",
-   "Created": "2023-04-26 15:40:02", "CreatedBy": "steveh", "RunCount": 2},
+   "Contact": "Lior P", "Comments": "Re-run after INC-001 recalibration.",
+   "Created": "2023-04-26 15:40:02", "CreatedBy": "raet", "RunCount": 2},
 ]
 
 runs = [
-  {"RowId": 1605, "Name": "CellCulture-Group2", "Batch": 501, "cellCultureUser": "Molly O",
+  {"RowId": 1605, "Name": "CellCulture-Group2", "Batch": 501, "cellCultureUser": "Rae T",
    "incubatorName": "INC-002", "QCFlags": "Reviewed - Passed", "Flag": "",
-   "Created": "2019-08-06 16:32:57", "CreatedBy": "steveh",
+   "Created": "2019-08-06 16:32:57", "CreatedBy": "raet",
    "Comments": "Nominal run.", "ReplacesRun": None, "ReplacedByRun": None,
    "DataFile": "CellCulture_run2.xlsx"},
-  {"RowId": 1606, "Name": "CellCulture-Group3", "Batch": 501, "cellCultureUser": "Molly O",
+  {"RowId": 1606, "Name": "CellCulture-Group3", "Batch": 501, "cellCultureUser": "Rae T",
    "incubatorName": "INC-002", "QCFlags": "Reviewed - Passed", "Flag": "",
-   "Created": "2019-08-06 16:33:17", "CreatedBy": "steveh",
+   "Created": "2019-08-06 16:33:17", "CreatedBy": "raet",
    "Comments": "Nominal run.", "ReplacesRun": None, "ReplacedByRun": None,
    "DataFile": "CellCulture_run3.xlsx"},
-  {"RowId": 1608, "Name": "CellCulture-Group4", "Batch": 501, "cellCultureUser": "Steve H",
+  {"RowId": 1608, "Name": "CellCulture-Group4", "Batch": 501, "cellCultureUser": "Ivo N",
    "incubatorName": "INC-001", "QCFlags": "Reviewed - Rejected", "Flag": "cells died in all media",
-   "Created": "2019-08-07 15:08:17", "CreatedBy": "steveh",
+   "Created": "2019-08-07 15:08:17", "CreatedBy": "raet",
    "Comments": "Cell death observed in control as well; unrelated to media under test. Excluded.",
    "ReplacesRun": None, "ReplacedByRun": 43950, "DataFile": "CellCulture_run4.xlsx"},
-  {"RowId": 43950, "Name": "CellCulture-Group1", "Batch": 502, "cellCultureUser": "Molly O",
+  {"RowId": 43950, "Name": "CellCulture-Group1", "Batch": 502, "cellCultureUser": "Rae T",
    "incubatorName": "INC-001", "QCFlags": "Not Yet Reviewed", "Flag": "",
-   "Created": "2023-04-26 15:48:17", "CreatedBy": "steveh",
+   "Created": "2023-04-26 15:48:17", "CreatedBy": "raet",
    "Comments": "Repeat of Group 4 after incubator service.",
    "ReplacesRun": 1608, "ReplacedByRun": None, "DataFile": "CellCulture_run1.xlsx"},
-  {"RowId": 43951, "Name": "Data_2023-04-26_15-45-06-1.xlsx", "Batch": 502, "cellCultureUser": "Molly O",
+  {"RowId": 43951, "Name": "Data_2023-04-26_15-45-06-1.xlsx", "Batch": 502, "cellCultureUser": "Rae T",
    "incubatorName": "INC-001", "QCFlags": "Not Yet Reviewed", "Flag": "",
-   "Created": "2023-04-26 16:15:02", "CreatedBy": "steveh",
+   "Created": "2023-04-26 16:15:02", "CreatedBy": "raet",
    "Comments": "Direct file import, assay id defaulted to filename.",
    "ReplacesRun": None, "ReplacedByRun": None, "DataFile": "Data_2023-04-26_15-45-06-1.xlsx"},
 ]

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>公司列表 - JOB直聘</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="hdr"></div>
+<div class="wrap"><div class="panel" id="list" style="margin-top:20px"></div></div>
+<script src="assets/app.js"></script>
+<script>
+(function () {
+  var S = window.Skeleton;
+  document.getElementById('hdr').innerHTML = S.header('公司');
+  S.loadData().then(function (d) {
+    document.getElementById('list').innerHTML =
+      '<h3 class="block-title">全部公司</h3><div class="hot-jobs">' +
+      d.brandList.map(function (b) {
+        var n = d.jobs.filter(function (j) { return j.encryptBrandId === b.encryptBrandId; }).length;
+        return '<a class="hot-job" href="company.html?brandId=' + S.esc(b.encryptBrandId) + '">' +
+          '<span class="n job-name">' + S.esc(b.brandName) + '</span>' +
+          '<div class="row"><ul class="tag-list" style="margin:0"><li>' + S.esc(b.brandStageName) +
+          '</li><li>' + S.esc(b.brandScaleName) + '</li><li>' + S.esc(b.brandIndustry) + '</li></ul>' +
+          '<span class="city">' + n + ' 个职位</span></div></a>';
+      }).join('') + '</div>';
+  });
+})();
+</script>
+</body>
+</html>

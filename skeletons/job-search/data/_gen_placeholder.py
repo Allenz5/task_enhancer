@@ -72,7 +72,7 @@ for i in range(30):
       "welfareList": random.sample(WELF, random.randint(4,7)),
       "postDescription": desc(TITLES[i % len(TITLES)], exp, sk),
       "jobAddress": "%s%s%s%s号院%s座%s层" % (city, area, biz, random.randint(1,88), random.choice("ABCDEF"), random.randint(3,26)),
-      "bossName": random.choice(["王女士","卓女士","徐女士","于先生","陈女士","李先生","何女士"]),
+      "bossName": random.choice(["聂女士","蒲女士","隋女士","郗先生","殳女士","仵先生","逄女士"]),
       "bossTitle": random.choice(["人事","招聘经理","HR","资源经理","技术负责人"]),
       "bossCert": 3, "bossOnline": random.random() < 0.6,
       "bossActiveTime": random.choice(["刚刚活跃","今日活跃","本周活跃"]),

@@ -45,16 +45,19 @@ The environment you built in this directory does not pass its own ground-truth s
 
 Work out the real cause and repair it. Both the app and `ground_truth.spec.ts` are yours
 to change — the spec may be wrong about how to reach something, or the app may be failing
-to expose it through the modality `fsm.json` promises.
+to expose it through the modality `mapping.json` promises.
 
-Two things stay fixed while you do:
+Three things stay fixed while you do:
 
 - Every value still comes from `input/` at runtime. Never type a data value into any
   file, and never relax an assertion to make it pass. If something is genuinely
   unreachable, fix the app so the interaction yields it — do not lower the bar.
-- The `states[].visible_data` contract in `fsm.json` still holds. Do not fix a retrieval
-  failure by rendering the content somewhere earlier and easier; that dismantles the
-  barrier the environment exists to create.
+- Do not fix a retrieval failure by rendering the content somewhere earlier and easier;
+  that dismantles the barrier the environment exists to create.
+- This app is a fork of a skeleton cloned from a real product. `skeleton.json` →
+  `layer2_contract` still binds: do not add pages the skeleton does not have, do not drop
+  a structural field, do not restyle it. If the only way to pass would be to break that
+  contract, say so instead of doing it.
 
 When done, confirm the whole flow yourself: start the server, run the spec, and check
 `ground_truth_retrieval.json`.
@@ -140,8 +143,8 @@ def check_retrieval(env_dir: Path) -> tuple[bool, str]:
         )
     covered = {e.get("source") for e in entries if isinstance(e, dict)}
 
-    fsm = json.loads((env_dir / "fsm.json").read_text(encoding="utf-8"))
-    expected = {p["source"] for p in fsm.get("data_placement", [])
+    mapping = json.loads((env_dir / "mapping.json").read_text(encoding="utf-8"))
+    expected = {p["source"] for p in mapping.get("data_placement", [])
                 if p.get("disposition") == "gui"}
 
     missing = sorted(expected - covered)
@@ -175,7 +178,7 @@ def repair_loop(env_dir: Path, port: int = 5173, model: str = "opus") -> bool:
     # env_dir must be a single environment, not the directory that holds them. Pointing
     # at envs/ instead of envs/<task> makes `npm start` fail with a bare ENOENT, which
     # reads to the repair agent as an app defect and burns every round chasing one.
-    missing = [f for f in ("package.json", "fsm.json") if not (env_dir / f).exists()]
+    missing = [f for f in ("package.json", "mapping.json") if not (env_dir / f).exists()]
     if missing:
         print(f"not an environment directory: {env_dir} (missing {', '.join(missing)})")
         return False

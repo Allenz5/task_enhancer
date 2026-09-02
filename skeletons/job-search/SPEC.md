@@ -91,6 +91,6 @@
 
 ## 完整分桶结果的位置
 
-- `cluster/v2/final/assignment_full.csv` —— 1299 行最终标注
-- `cluster/v2/final/final_all.json`
+- `cluster/final/assignment_full.csv` —— 1299 行最终标注
+- `cluster/final/final_all.json`
 - 分桶浏览页：https://claude.ai/code/artifact/7e0c768e-9807-4d2e-92b8-783351c597cc

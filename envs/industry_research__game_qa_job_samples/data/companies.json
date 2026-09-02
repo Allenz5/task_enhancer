@@ -1,0 +1,484 @@
+{
+ "brandList": [
+  {
+   "encryptBrandId": "BA01",
+   "brandName": "砚川数娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "未融资",
+   "brandScaleName": "20-99人",
+   "introduction": "砚川数娱，游戏行业，未融资，20-99人。",
+   "businessInfo": {
+    "公司名称": "砚川数娱（北京）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "北京朝阳区望京"
+   ],
+   "sourceGrade": "A"
+  },
+  {
+   "encryptBrandId": "BA02",
+   "brandName": "岚屿互娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "天使轮",
+   "brandScaleName": "20-99人",
+   "introduction": "岚屿互娱，游戏行业，天使轮，20-99人。",
+   "businessInfo": {
+    "公司名称": "岚屿互娱（北京）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "北京海淀区中关村"
+   ],
+   "sourceGrade": "A"
+  },
+  {
+   "encryptBrandId": "BA03",
+   "brandName": "拾光工坊",
+   "brandIndustry": "游戏",
+   "brandStageName": "不需要融资",
+   "brandScaleName": "100-499人",
+   "introduction": "拾光工坊，游戏行业，不需要融资，100-499人。",
+   "businessInfo": {
+    "公司名称": "拾光工坊（上海）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "上海浦东新区张江"
+   ],
+   "sourceGrade": "A"
+  },
+  {
+   "encryptBrandId": "BA04",
+   "brandName": "白鹭引擎",
+   "brandIndustry": "游戏",
+   "brandStageName": "已上市",
+   "brandScaleName": "1000-9999人",
+   "introduction": "白鹭引擎，游戏行业，已上市，1000-9999人。",
+   "businessInfo": {
+    "公司名称": "白鹭引擎（深圳）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "深圳南山区科技园"
+   ],
+   "sourceGrade": "A"
+  },
+  {
+   "encryptBrandId": "BA05",
+   "brandName": "青柚游戏",
+   "brandIndustry": "游戏",
+   "brandStageName": "A轮",
+   "brandScaleName": "20-99人",
+   "introduction": "青柚游戏，游戏行业，A轮，20-99人。",
+   "businessInfo": {
+    "公司名称": "青柚游戏（成都）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "成都高新区天府三街"
+   ],
+   "sourceGrade": "A"
+  },
+  {
+   "encryptBrandId": "BA06",
+   "brandName": "长风互动",
+   "brandIndustry": "人工智能",
+   "brandStageName": "B轮",
+   "brandScaleName": "100-499人",
+   "introduction": "长风互动，人工智能行业，B轮，100-499人。",
+   "businessInfo": {
+    "公司名称": "长风互动（杭州）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "杭州滨江区江南大道"
+   ],
+   "sourceGrade": "A"
+  },
+  {
+   "encryptBrandId": "BA07",
+   "brandName": "云栖数娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "已上市",
+   "brandScaleName": "500-999人",
+   "introduction": "云栖数娱，游戏行业，已上市，500-999人。",
+   "businessInfo": {
+    "公司名称": "云栖数娱（北京）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "北京海淀区西二旗"
+   ],
+   "sourceGrade": "A"
+  },
+  {
+   "encryptBrandId": "BA08",
+   "brandName": "甘棠软件",
+   "brandIndustry": "计算机软件",
+   "brandStageName": "已上市",
+   "brandScaleName": "10000人以上",
+   "introduction": "甘棠软件，计算机软件行业，已上市，10000人以上。",
+   "businessInfo": {
+    "公司名称": "甘棠软件（广州）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "广州天河区珠江新城"
+   ],
+   "sourceGrade": "A"
+  },
+  {
+   "encryptBrandId": "BA09",
+   "brandName": "鹿野测试",
+   "brandIndustry": "计算机服务",
+   "brandStageName": "未融资",
+   "brandScaleName": "0-20人",
+   "introduction": "鹿野测试，计算机服务行业，未融资，0-20人。",
+   "businessInfo": {
+    "公司名称": "鹿野测试（北京）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "北京朝阳区望京"
+   ],
+   "sourceGrade": "A"
+  },
+  {
+   "encryptBrandId": "BA10",
+   "brandName": "木鸢科技",
+   "brandIndustry": "企业服务",
+   "brandStageName": "未融资",
+   "brandScaleName": "20-99人",
+   "introduction": "木鸢科技，企业服务行业，未融资，20-99人。",
+   "businessInfo": {
+    "公司名称": "木鸢科技（北京）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "北京海淀区中关村"
+   ],
+   "sourceGrade": "A"
+  },
+  {
+   "encryptBrandId": "BA11",
+   "brandName": "重霄互娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "不需要融资",
+   "brandScaleName": "500-999人",
+   "introduction": "重霄互娱，游戏行业，不需要融资，500-999人。",
+   "businessInfo": {
+    "公司名称": "重霄互娱（上海）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "上海浦东新区张江"
+   ],
+   "sourceGrade": "A"
+  },
+  {
+   "encryptBrandId": "BA12",
+   "brandName": "沅澈网络",
+   "brandIndustry": "游戏",
+   "brandStageName": "C轮",
+   "brandScaleName": "100-499人",
+   "introduction": "沅澈网络，游戏行业，C轮，100-499人。",
+   "businessInfo": {
+    "公司名称": "沅澈网络（深圳）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "深圳南山区科技园"
+   ],
+   "sourceGrade": "A"
+  },
+  {
+   "encryptBrandId": "BB01",
+   "brandName": "栖梧工坊",
+   "brandIndustry": "游戏",
+   "brandStageName": "未融资",
+   "brandScaleName": "20-99人",
+   "introduction": "栖梧工坊，游戏行业，未融资，20-99人。",
+   "businessInfo": {
+    "公司名称": "栖梧工坊（北京）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "北京朝阳区望京"
+   ],
+   "sourceGrade": "B"
+  },
+  {
+   "encryptBrandId": "BB02",
+   "brandName": "南屿互娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "天使轮",
+   "brandScaleName": "20-99人",
+   "introduction": "南屿互娱，游戏行业，天使轮，20-99人。",
+   "businessInfo": {
+    "公司名称": "南屿互娱（北京）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "北京海淀区中关村"
+   ],
+   "sourceGrade": "B"
+  },
+  {
+   "encryptBrandId": "BB03",
+   "brandName": "漱石网络",
+   "brandIndustry": "游戏",
+   "brandStageName": "A轮",
+   "brandScaleName": "100-499人",
+   "introduction": "漱石网络，游戏行业，A轮，100-499人。",
+   "businessInfo": {
+    "公司名称": "漱石网络（上海）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "上海浦东新区张江"
+   ],
+   "sourceGrade": "B"
+  },
+  {
+   "encryptBrandId": "BB04",
+   "brandName": "KITE STUDIO",
+   "brandIndustry": "游戏",
+   "brandStageName": "未融资",
+   "brandScaleName": "0-20人",
+   "introduction": "KITE STUDIO，游戏行业，未融资，0-20人。",
+   "businessInfo": {
+    "公司名称": "KITE STUDIO（深圳）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "深圳南山区科技园"
+   ],
+   "sourceGrade": "B"
+  },
+  {
+   "encryptBrandId": "BB05",
+   "brandName": "川陌网络",
+   "brandIndustry": "游戏",
+   "brandStageName": "B轮",
+   "brandScaleName": "500-999人",
+   "introduction": "川陌网络，游戏行业，B轮，500-999人。",
+   "businessInfo": {
+    "公司名称": "川陌网络（成都）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "成都高新区天府三街"
+   ],
+   "sourceGrade": "B"
+  },
+  {
+   "encryptBrandId": "BB06",
+   "brandName": "砺岩时代",
+   "brandIndustry": "游戏",
+   "brandStageName": "未融资",
+   "brandScaleName": "20-99人",
+   "introduction": "砺岩时代，游戏行业，未融资，20-99人。",
+   "businessInfo": {
+    "公司名称": "砺岩时代（杭州）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "杭州滨江区江南大道"
+   ],
+   "sourceGrade": "B"
+  },
+  {
+   "encryptBrandId": "BB07",
+   "brandName": "鹿野互娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "未融资",
+   "brandScaleName": "0-20人",
+   "introduction": "鹿野互娱，游戏行业，未融资，0-20人。",
+   "businessInfo": {
+    "公司名称": "鹿野互娱（北京）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "北京海淀区西二旗"
+   ],
+   "sourceGrade": "B"
+  },
+  {
+   "encryptBrandId": "BB08",
+   "brandName": "穹岭数娱",
+   "brandIndustry": "游戏",
+   "brandStageName": "A轮",
+   "brandScaleName": "100-499人",
+   "introduction": "穹岭数娱，游戏行业，A轮，100-499人。",
+   "businessInfo": {
+    "公司名称": "穹岭数娱（广州）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "广州天河区珠江新城"
+   ],
+   "sourceGrade": "B"
+  },
+  {
+   "encryptBrandId": "BB09",
+   "brandName": "云杉工坊",
+   "brandIndustry": "游戏",
+   "brandStageName": "未融资",
+   "brandScaleName": "0-20人",
+   "introduction": "云杉工坊，游戏行业，未融资，0-20人。",
+   "businessInfo": {
+    "公司名称": "云杉工坊（北京）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "北京朝阳区望京"
+   ],
+   "sourceGrade": "B"
+  },
+  {
+   "encryptBrandId": "BB10",
+   "brandName": "砺锋数科",
+   "brandIndustry": "计算机软件",
+   "brandStageName": "B轮",
+   "brandScaleName": "100-499人",
+   "introduction": "砺锋数科，计算机软件行业，B轮，100-499人。",
+   "businessInfo": {
+    "公司名称": "砺锋数科（北京）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "北京海淀区中关村"
+   ],
+   "sourceGrade": "B"
+  },
+  {
+   "encryptBrandId": "BB11",
+   "brandName": "拾贰互动",
+   "brandIndustry": "游戏",
+   "brandStageName": "天使轮",
+   "brandScaleName": "20-99人",
+   "introduction": "拾贰互动，游戏行业，天使轮，20-99人。",
+   "businessInfo": {
+    "公司名称": "拾贰互动（上海）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "上海浦东新区张江"
+   ],
+   "sourceGrade": "B"
+  },
+  {
+   "encryptBrandId": "BB12",
+   "brandName": "北屿引擎",
+   "brandIndustry": "人工智能",
+   "brandStageName": "C轮",
+   "brandScaleName": "500-999人",
+   "introduction": "北屿引擎，人工智能行业，C轮，500-999人。",
+   "businessInfo": {
+    "公司名称": "北屿引擎（深圳）有限公司",
+    "法定代表人": "—",
+    "成立日期": "—",
+    "企业类型": "有限责任公司",
+    "经营状态": "存续",
+    "注册资金": "—"
+   },
+   "addresses": [
+    "深圳南山区科技园"
+   ],
+   "sourceGrade": "B"
+  }
+ ]
+}

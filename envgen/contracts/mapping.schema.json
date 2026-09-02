@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "mapping.json -- 一条任务的输入如何落进一个骨架",
+  "type": "object",
+  "required": ["candidate"],
+  "properties": {
+    "candidate": { "type": "boolean", "description": "false 表示不适合放进这个骨架。合法结论" },
+    "reason": { "type": "string" },
+    "skeleton": {
+      "type": "object",
+      "required": ["bucket", "why"],
+      "properties": { "bucket": { "type": "string" }, "why": { "type": "string" } }
+    },
+    "data_placement": {
+      "type": "array",
+      "description": "input/ 下每个文件都必须出现且只出现一次",
+      "items": {
+        "type": "object",
+        "required": ["source", "disposition"],
+        "properties": {
+          "source": { "type": "string" },
+          "disposition": { "enum": ["gui", "file"] },
+          "reason": { "type": "string", "description": "file 时必填" },
+          "entity": { "type": "string", "description": "gui 时必填" },
+          "slots": { "type": "object", "additionalProperties": { "type": "string" },
+            "description": "骨架字段 -> 源里的列/键。可推导的结构字段写表达式前缀 derive:" },
+          "rows": { "type": "integer" },
+          "view": { "type": "string", "description": "在哪个视图可见（views 的键）" },
+          "modality": { "type": "string" },
+          "path": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "custom_fields": {
+      "type": "object",
+      "description": "给 custom_ok 实体新增的字段，并要求哪些视图暴露它",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["name", "caption"],
+          "properties": {
+            "name": { "type": "string" }, "caption": { "type": "string" },
+            "type": { "type": "string" }, "expose_in": { "type": "array", "items": { "type": "string" } }
+          }
+        }
+      }
+    },
+    "dropped_fields": { "type": "object", "additionalProperties": { "type": "array", "items": { "type": "string" } } },
+    "fill": {
+      "type": "object",
+      "description": "覆盖骨架默认的填充目标：实体 -> 总条数",
+      "additionalProperties": { "type": "integer" }
+    },
+    "skeleton_changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["what", "allowed_by"],
+        "properties": { "what": { "type": "string" }, "allowed_by": { "type": "string" }, "why": { "type": "string" } }
+      }
+    },
+    "budget": {
+      "type": "object",
+      "required": ["min_actions", "max_actions"],
+      "properties": { "min_actions": { "type": "integer" }, "max_actions": { "type": "integer" } }
+    }
+  }
+}

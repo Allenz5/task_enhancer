@@ -1,0 +1,59 @@
+{
+  "task": {
+    "custom_id": "cn-all-remaining-0397-64a67ace",
+    "name": "游戏测试工程师公开岗位样本清洗、能力结构分析与招聘门槛校核",
+    "bucket": "job-search-sites"
+  },
+  "skeleton": "skeletons/job-search (skeleton.json v1)",
+
+  "data_provenance": {
+    "status": "PLACEHOLDER",
+    "reason": "任务原始输入包 3 个 zip 不在本地（本地批次只有 computing_math）",
+    "what_is_real": "样本的结构：A01-A12 企业官方岗位页 / B01-B12 公开招聘平台，权重 1.0 / 0.6，15 项能力清单，5 类岗位原型，4 档责任层级 —— 全部照任务书原文",
+    "what_is_fabricated": "24 条样本的具体岗位名、公司、城市、经验、学历、描述正文",
+    "action_when_zip_arrives": "只需替换 input/samples.json 后重跑 build.py 重生成 data/*.json；字段名已对齐，无需改骨架"
+  },
+
+  "placements": [
+    { "source_field": "样本ID (A01-A12/B01-B12)", "slot": "job.encryptJobId", "surface": "URL ?jobId=", "note": "任务要求所有结论可回查样本ID" },
+    { "source_field": "岗位名", "slot": "job.jobName", "surface": "列表卡 + 详情头 + 公司页职位卡" },
+    { "source_field": "公司", "slot": "job.brandName / brand.brandName", "surface": "列表卡页脚 + 公司页" },
+    { "source_field": "城市", "slot": "job.cityName", "surface": "列表卡 + 详情标签 + 城市筛选维度" },
+    { "source_field": "经验年限", "slot": "job.jobExperience", "surface": "卡片标签 + 工作经验筛选维度" },
+    { "source_field": "学历", "slot": "job.jobDegree", "surface": "卡片标签 + 学历要求筛选维度" },
+    { "source_field": "岗位描述原文（含 15 项能力的证据短语）", "slot": "job.postDescription", "surface": "详情页正文", "note": "核心：agent 必须逐条打开详情才能取到证据短语，无法从列表页一次读完" },
+    { "source_field": "能力标签（前 4 项）", "slot": "job.skills", "surface": "详情页技能标签行" },
+    { "source_field": "来源等级 A（企业官方岗位页）", "slot": "brand → company.html", "surface": "公司主页", "note": "A 级样本的来源定位是公司页，与 B 级的平台岗位页在界面上天然分层" },
+    { "source_field": "来源等级 B（公开招聘平台）", "slot": "job → index.html 搜索结果", "surface": "平台搜索列表 + 独立岗位页" },
+    { "source_field": "来源定位 URL", "slot": "页面地址本身", "surface": "?jobId= / ?brandId=" }
+  ],
+
+  "disposition_file": [
+    { "item": "02_研究口径与字段字典.docx", "why": "口径定义，真实招聘站界面里没有对应位置" },
+    { "item": "03_公开资料与来源索引.xlsx", "why": "索引表；其中的来源等级/URL 已进 GUI，校验列留文件" },
+    { "item": "05_输入文件SHA256清单.txt", "why": "文件校验，不属于岗位数据" },
+    { "item": "04_岗位快照目录", "why": "快照归档；正文已进 GUI，快照本身留文件" }
+  ],
+
+  "not_placed": [
+    { "item": "15 项能力 0/1 编码表、能力频次、岗位原型判定、责任层级判定", "why": "这些是 agent 的产出，不是输入" },
+    { "item": "JD 模板 / 面试评分表 / 90 天培养方案", "why": "产出物" }
+  ],
+
+  "distractors_from_skeleton": [
+    { "field": "salaryDesc", "note": "骨架照真站带薪资；任务明确写「不分析薪资」，构成合法干扰项" },
+    { "field": "welfareList / bossName / 工商信息", "note": "真站有，任务不需要；不删，保真" }
+  ],
+
+  "skeleton_changes": [
+    { "what": "PAGE_SIZE 15 → 5", "allowed_by": "layer2_contract.allowed[list_page_size]", "why": "样本量 24，按城市分片后每城 2-5 条，需要翻页仍可被触发" }
+  ],
+
+  "gui_walk_required": [
+    "按城市切换（样本散在 8 个城市，骨架与真站一样强制按城市检索）",
+    "翻页（5/页）",
+    "点卡片看右侧详情",
+    "进独立岗位详情页读证据短语",
+    "进公司页确认 A 级来源"
+  ]
+}

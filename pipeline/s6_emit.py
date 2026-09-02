@@ -22,6 +22,7 @@ import re
 import shutil
 from pathlib import Path
 
+import skeletons
 import taskref
 
 NOTE_ZH = """\
@@ -75,12 +76,12 @@ def _rewrite_prompt(prompt: str, moved: list[str], port: int) -> tuple[str, list
 
 def emit(task: taskref.Task, env_dir: Path, port: int = 5173) -> Path:
     env_dir = Path(env_dir)
-    fsm = json.loads((task.work_dir / "fsm.json").read_text(encoding="utf-8"))
+    mapping = json.loads((task.work_dir / "mapping.json").read_text(encoding="utf-8"))
 
-    if fsm.get("candidate") is False:
-        raise ValueError(f"{task.ref} was judged not a candidate: {fsm.get('reason')}")
+    if mapping.get("candidate") is False:
+        raise ValueError(f"{task.ref} was judged not a candidate: {mapping.get('reason')}")
 
-    placements = fsm.get("data_placement", [])
+    placements = mapping.get("data_placement", [])
     moved = [p["source"].split("#", 1)[0] for p in placements if p.get("disposition") == "gui"]
     kept = [p["source"].split("#", 1)[0] for p in placements if p.get("disposition") == "file"]
 
@@ -106,8 +107,10 @@ def emit(task: taskref.Task, env_dir: Path, port: int = 5173) -> Path:
     unreferenced = sorted(set(moved) - set(found))
     manifest = {
         "task_ref": task.ref,
-        "app_concept": fsm["meta"]["app_concept"],
-        "domain": fsm["meta"]["domain"],
+        "skeleton": mapping["skeleton"]["bucket"],
+        "app_concept": (mapping.get("meta") or {}).get("app_concept")
+                       or skeletons.load(mapping["skeleton"]["bucket"]).name,
+        "domain": (mapping.get("meta") or {}).get("domain", task.domain),
         "url": f"http://localhost:{port}",
         "environment": str(env_dir),
         "input": {
@@ -119,14 +122,16 @@ def emit(task: taskref.Task, env_dir: Path, port: int = 5173) -> Path:
             {
                 "source": p["source"],
                 "disposition": p["disposition"],
+                "entity": p.get("entity"),
+                "page": p.get("page"),
                 "modality": p.get("modality"),
-                "split": p.get("split"),
+                "rows": p.get("rows"),
                 "reason": p.get("reason"),
                 "path_length": len(p.get("path") or []),
             }
             for p in placements
         ],
-        "budget": fsm.get("budget"),
+        "budget": mapping.get("budget"),
         "grading": (
             "unchanged and not copied -- the original task's own evaluator grades this, "
             "exactly as it graded the un-enhanced task"

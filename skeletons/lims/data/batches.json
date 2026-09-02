@@ -4,20 +4,20 @@
    "RowId": 501,
    "Name": "CellCulture-Batch-2019Q3",
    "Hypothesis": "MediaY sustains growth past day 7",
-   "Contact": "Molly O",
+   "Contact": "Rae T",
    "Comments": "Initial media comparison, three groups.",
    "Created": "2019-08-06 16:20:11",
-   "CreatedBy": "steveh",
+   "CreatedBy": "raet",
    "RunCount": 3
   },
   {
    "RowId": 502,
    "Name": "CellCulture-Batch-2023Q2",
    "Hypothesis": "Reproduce 2019 result on new incubator",
-   "Contact": "Dana K",
+   "Contact": "Lior P",
    "Comments": "Re-run after INC-001 recalibration.",
    "Created": "2023-04-26 15:40:02",
-   "CreatedBy": "steveh",
+   "CreatedBy": "raet",
    "RunCount": 2
   }
  ]

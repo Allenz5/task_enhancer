@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "mapping.json -- 第二层契约：一条任务的输入包如何落进一个骨架",
+  "description": "S1 产出，S2 校验，S4 据此 fork 骨架并灌数据。它取代了旧的 fsm.json：不再自由设计界面，只决定数据往骨架的哪些槽里放。",
+  "type": "object",
+  "required": ["candidate"],
+  "properties": {
+    "candidate": {
+      "type": "boolean",
+      "description": "false 表示这条任务不适合放进这个骨架。是合法结论，不是失败。"
+    },
+    "reason": { "type": "string", "description": "candidate 为 false 时必填" },
+
+    "skeleton": {
+      "type": "object",
+      "required": ["bucket", "why"],
+      "properties": {
+        "bucket": { "type": "string", "description": "skeletons/<bucket>" },
+        "why": { "type": "string", "description": "为什么这条任务的数据属于这个产品品类" }
+      }
+    },
+
+    "meta": {
+      "type": "object",
+      "properties": {
+        "domain": { "type": "string" },
+        "app_concept": { "type": "string", "description": "环境对外呈现成什么产品；默认取骨架的 name" }
+      }
+    },
+
+    "data_placement": {
+      "type": "array",
+      "description": "input/ 下的每个文件都必须出现且只出现一次",
+      "items": {
+        "type": "object",
+        "required": ["source", "disposition"],
+        "properties": {
+          "source": { "type": "string", "description": "相对 input/ 的路径，可带 #fragment 指向文件内的一部分" },
+          "disposition": { "enum": ["gui", "file"] },
+          "reason": { "type": "string", "description": "disposition 为 file 时必填" },
+
+          "entity": { "type": "string", "description": "disposition 为 gui 时必填：落进骨架的哪个实体" },
+          "slots": {
+            "type": "object",
+            "description": "字段级映射：骨架槽名 -> 源数据里的列/键名",
+            "additionalProperties": { "type": "string" }
+          },
+          "rows": { "type": "integer", "description": "这份数据落进去多少行" },
+          "page": { "type": "string", "description": "在骨架的哪个页面上可见（pages[].id）" },
+          "modality": { "type": "string", "description": "agent 要做什么才能拿到它" },
+          "path": {
+            "type": "array", "items": { "type": "string" },
+            "description": "到达它的动作序列，用骨架的交互词汇描述"
+          }
+        }
+      }
+    },
+
+    "custom_fields": {
+      "type": "object",
+      "description": "给 custom_ok 的实体新增的任务专属字段。骨架的 must_keep 字段不得出现在这里。",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["name", "caption"],
+          "properties": {
+            "name": { "type": "string" },
+            "caption": { "type": "string" },
+            "type": { "enum": ["string", "float", "int", "bool", "date"] },
+            "align": { "enum": ["left", "right"] },
+            "desc": { "type": "string" }
+          }
+        }
+      }
+    },
+
+    "dropped_fields": {
+      "type": "object",
+      "description": "被任务字段顶替掉的骨架占位字段（只能是 custom_ok 实体里 must_keep 之外的）",
+      "additionalProperties": { "type": "array", "items": { "type": "string" } }
+    },
+
+    "skeleton_changes": {
+      "type": "array",
+      "description": "对骨架本身做的改动，每条都要指出被 layer2_contract.allowed 的哪一条允许",
+      "items": {
+        "type": "object",
+        "required": ["what", "allowed_by"],
+        "properties": {
+          "what": { "type": "string" },
+          "allowed_by": { "type": "string" },
+          "why": { "type": "string" }
+        }
+      }
+    },
+
+    "budget": {
+      "type": "object",
+      "required": ["min_actions", "max_actions"],
+      "properties": {
+        "min_actions": { "type": "integer" },
+        "max_actions": { "type": "integer" }
+      }
+    }
+  }
+}
